@@ -1,0 +1,34 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LIELJKEKBMH": 1,
+      "GBCHKHBGEDC": "ProfessionName_PowerfulAttack",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/Role/IconClass/Packer/IconAttack.png",
+      "OFAIIOFBLHB": "ProfessionDes_PowerfulAttack"
+    },
+    {
+      "LIELJKEKBMH": 2,
+      "GBCHKHBGEDC": "ProfessionName_BreakStun",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/Role/IconClass/Packer/IconStun.png",
+      "OFAIIOFBLHB": "ProfessionDes_BreakStun"
+    },
+    {
+      "LIELJKEKBMH": 3,
+      "GBCHKHBGEDC": "ProfessionName_ElementAbnormal",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/Role/IconClass/Packer/IconAnomaly.png",
+      "OFAIIOFBLHB": "ProfessionDes_ElementAbnormal"
+    },
+    {
+      "LIELJKEKBMH": 4,
+      "GBCHKHBGEDC": "ProfessionName_Support",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/Role/IconClass/Packer/IconSupport.png",
+      "OFAIIOFBLHB": "ProfessionDes_Support"
+    },
+    {
+      "LIELJKEKBMH": 5,
+      "GBCHKHBGEDC": "ProfessionName_Defence",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/Role/IconClass/Packer/IconDefense.png",
+      "OFAIIOFBLHB": "ProfessionDes_Defence"
+    }
+  ]
+}

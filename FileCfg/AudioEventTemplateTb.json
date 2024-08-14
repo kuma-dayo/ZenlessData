@@ -1,0 +1,562 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "OEFIFOOCFKG": 1001,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "OEFIFOOCFKG": 1002,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_SwitchIn_{}",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Char_SwitchIn_Attack"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "OEFIFOOCFKG": 1002,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_vo_char_{}_qtestart",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "OEFIFOOCFKG": 1003,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_VoEvadeSuccess_Play",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "OEFIFOOCFKG": 1003,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_AttackCounter_Kill_EvadeSuccess",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "OEFIFOOCFKG": 1003,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1007,
+      "OEFIFOOCFKG": 1005,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_LevelEnd",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1008,
+      "OEFIFOOCFKG": 1006,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1009,
+      "OEFIFOOCFKG": 1007,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 5000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1010,
+      "OEFIFOOCFKG": 1008,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1011,
+      "OEFIFOOCFKG": 1009,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1012,
+      "OEFIFOOCFKG": 1010,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 60000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1013,
+      "OEFIFOOCFKG": 1011,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 6000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1014,
+      "OEFIFOOCFKG": 1012,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 30000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1015,
+      "OEFIFOOCFKG": 1013,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1016,
+      "OEFIFOOCFKG": 1014,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1017,
+      "OEFIFOOCFKG": 1015,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1018,
+      "OEFIFOOCFKG": 1016,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1019,
+      "OEFIFOOCFKG": 1017,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 10000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1020,
+      "OEFIFOOCFKG": 1018,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 20000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1021,
+      "OEFIFOOCFKG": 1019,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 20000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1022,
+      "OEFIFOOCFKG": 1020,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 30000,
+      "NBGDIOBGGCF": "Play_vo_char_{}_oshint",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1023,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 4000,
+      "NBGDIOBGGCF": "Play_vo_char_{}_battleswitch_bossstun",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SoundAction_Char_QTE_Start"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1024,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 30000,
+      "NBGDIOBGGCF": "Play_vo_char_{}_battleswitch_offplay",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1025,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_vo_char_{}_battleswitch",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Char_Online_State_1"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1026,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_SwitchIn_{}",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Avatar_Control"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1027,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_VoBattleSwitch_After",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Char_Common_VoBattleSwitch_AfterScope"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1028,
+      "OEFIFOOCFKG": 1021,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_BattleSwitch",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1029,
+      "OEFIFOOCFKG": 1022,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 60000,
+      "NBGDIOBGGCF": "Play_vo_char_{}_chargehint",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1030,
+      "OEFIFOOCFKG": 1023,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 5000,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1031,
+      "OEFIFOOCFKG": 1024,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_Level_CombatState_In",
+      "KLKNALMBHJF": [
+        "QTEStart_Count:QTEStart_Count_None"
+      ],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1032,
+      "OEFIFOOCFKG": 1025,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_Level_CombatState_Out",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1033,
+      "OEFIFOOCFKG": 1027,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1034,
+      "OEFIFOOCFKG": 1028,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1035,
+      "OEFIFOOCFKG": 1029,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1036,
+      "OEFIFOOCFKG": 1030,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1037,
+      "OEFIFOOCFKG": 1031,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1038,
+      "OEFIFOOCFKG": 1032,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1039,
+      "OEFIFOOCFKG": 1033,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1040,
+      "OEFIFOOCFKG": 1034,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_vo_char_{}_encounterenemy",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1041,
+      "OEFIFOOCFKG": 1035,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_vo_char_{}_encounterelite",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1042,
+      "OEFIFOOCFKG": 1036,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_vo_char_{}_encounterboss",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1043,
+      "OEFIFOOCFKG": 1037,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1044,
+      "OEFIFOOCFKG": 1038,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1045,
+      "OEFIFOOCFKG": 1039,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1046,
+      "OEFIFOOCFKG": 1040,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_LevelEnd",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1047,
+      "OEFIFOOCFKG": 1041,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_LevelEnd",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1048,
+      "OEFIFOOCFKG": 1042,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_LevelEnd",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1049,
+      "OEFIFOOCFKG": 1043,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Interrupt_{}",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1050,
+      "OEFIFOOCFKG": 1045,
+      "HHCADONPPMN": 1,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Monster_Interrupt_{}",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    },
+    {
+      "NGPCCDGBLLK": 1051,
+      "OEFIFOOCFKG": 1056,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Stop_vo_char_switchout_normal",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Avatar_UnControl"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1052,
+      "OEFIFOOCFKG": 1096,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Avatar_Control_Co"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1053,
+      "OEFIFOOCFKG": 1097,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 1,
+      "MOOKJOFJPIN": [
+        "Play_SFX_Avatar_UnControl_Co"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1054,
+      "OEFIFOOCFKG": 1058,
+      "HHCADONPPMN": 0,
+      "CCGHFHKCPGE": 0,
+      "NBGDIOBGGCF": "Play_SFX_Char_Common_ExQTE_2D_End",
+      "KLKNALMBHJF": [],
+      "BEJJPKEFOAC": 0,
+      "MOOKJOFJPIN": []
+    }
+  ]
+}

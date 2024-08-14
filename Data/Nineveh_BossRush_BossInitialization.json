@@ -1,0 +1,165 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Born_BossRush",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Nineveh_BossRush_Invincible_Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwithPhase_BossRush_Start",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Nineveh_BossRush_Invincible_Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwithPhase_BossRush_Idle",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Nineveh_BossRush_Invincible_Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwithPhase_BossRush_ToUpright",
+          "FrameCountHigh": 215,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Nineveh_BossRush_Invincible_Modifier"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "Nineveh_BossRush_MA"
+              ],
+              "IsAdd": true,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwithPhase_BossRush_Start",
+          "Frame": 268,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "Nineveh_BossRush_MA"
+              ],
+              "IsAdd": false,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwithPhase_BossRush_ToUpright",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Nineveh_BossRush_VineTimedRetrieval",
+              "Target": "Self"
+            },
+            {
+              "$type": "LDListenEntityAction",
+              "TargetKey": "Nineveh_BossRush_ChangePhase_TurnOffTips"
+            }
+          ],
+          "AnimatorStateName": "SwithPhase_BossRush_ToUpright",
+          "Frame": 235,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Nineveh_BossRush_BossInitialization",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Nineveh_BossRush_NotTransitioned"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      },
+      {
+        "$type": "TriggerSoundAction",
+        "Target": "Self",
+        "soundActionKey": "BossRush_StateChange_On"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Nineveh_BossRush_MA"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Nineveh_BossRush_Invincible_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushInvincibleAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "BossRush"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Tag": "BossRush_Nineveh_Invincible",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PopInvincibleAction",
+          "Tag": "BossRush_Nineveh_Invincible",
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerBehaviorTreeAction",
+          "Enable": true,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

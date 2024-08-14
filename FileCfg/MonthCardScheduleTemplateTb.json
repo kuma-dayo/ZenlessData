@@ -1,0 +1,124 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LKMPPFCCDJG": 1,
+      "NPLKLFEIHKD": "2024-01-01 04:00:00",
+      "PDNDPLIGNDI": "2024-02-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow1WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard1WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/January_01Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 2,
+      "NPLKLFEIHKD": "2024-02-01 04:00:00",
+      "PDNDPLIGNDI": "2024-03-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow2WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard2WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/February_02Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 3,
+      "NPLKLFEIHKD": "2024-03-01 04:00:00",
+      "PDNDPLIGNDI": "2024-04-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow3WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard3WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/March_03Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 4,
+      "NPLKLFEIHKD": "2024-04-01 04:00:00",
+      "PDNDPLIGNDI": "2024-05-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow4WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard4WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/April_04Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 5,
+      "NPLKLFEIHKD": "2024-05-01 04:00:00",
+      "PDNDPLIGNDI": "2024-06-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow5WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard5WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/May_05Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 6,
+      "NPLKLFEIHKD": "2024-06-01 04:00:00",
+      "PDNDPLIGNDI": "2024-07-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow6WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard6WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/June_06Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 7,
+      "NPLKLFEIHKD": "2024-07-01 04:00:00",
+      "PDNDPLIGNDI": "2024-08-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow7WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard7WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/July_07Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 8,
+      "NPLKLFEIHKD": "2024-08-01 04:00:00",
+      "PDNDPLIGNDI": "2024-09-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow8WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard8WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/August_08Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 9,
+      "NPLKLFEIHKD": "2024-09-01 04:00:00",
+      "PDNDPLIGNDI": "2024-10-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow9WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard9WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/September_09Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 10,
+      "NPLKLFEIHKD": "2024-10-01 04:00:00",
+      "PDNDPLIGNDI": "2024-11-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow10WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard10WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/October_10Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 11,
+      "NPLKLFEIHKD": "2024-11-01 04:00:00",
+      "PDNDPLIGNDI": "2024-12-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget.prefab",
+      "HILBKIGDODA": "UIMallDateRow11WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard11WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/November_11Pic.png"
+    },
+    {
+      "LKMPPFCCDJG": 12,
+      "NPLKLFEIHKD": "2024-12-01 04:00:00",
+      "PDNDPLIGNDI": "2025-01-01 03:59:59",
+      "NIKCMCIFDCH": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallMonthlyCardWidget02.prefab",
+      "HILBKIGDODA": "UIMallDateRow12WidgetController",
+      "OCGFFIBFPDK": "UIShoppingMallMonthlyCard12WidgetController",
+      "PGOHABDMNGL": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg",
+      "CIIFLLJNCGH": "Assets/NapResources/UI/Sprite/ShoppingMallMonthlyCard/UnPacker/MonthlyCard_S/December_12Pic.png"
+    }
+  ]
+}

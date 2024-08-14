@@ -1,0 +1,593 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Stun_End",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "StunEndSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "PartDestroy",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "PartDestroySoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_01_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_02_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_04_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_05_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_06_03",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_06_04",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackSoundActionModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "DubiousHero_SoundManger",
+  "AbilitySpecials": {
+    "Charge_Count": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "Combo_Count": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "Hit_Count": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "Sound_Enum": {
+      "Value": 0,
+      "ValueType": "Integer"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "TriggerSoundAction",
+        "Predicates": [
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByIsInZoneTags",
+                "Tags": [
+                  "Monster_DubiousHeroNPCRezza"
+                ]
+              }
+            ]
+          }
+        ],
+        "Target": "Self",
+        "soundActionKey": "Monster_DubiousHero_Name_Normal"
+      },
+      {
+        "$type": "TriggerSoundAction",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "Monster_DubiousHeroNPCRezza"
+            ]
+          }
+        ],
+        "Target": "Self",
+        "soundActionKey": "Monster_DubiousHero_Name_NPCRezza"
+      }
+    ],
+    "OnAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "HitSoundActionModifier",
+        "Predicates": [
+          {
+            "$type": "ByApplyPredicate",
+            "PredicateName": "ByComboHitAvatar"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "TriggerSoundAction",
+        "Predicates": [
+          {
+            "$type": "ByApplyPredicate",
+            "PredicateName": "ByComboHitAvatar"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_AttackProperty_ATK07_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self",
+        "soundActionKey": "Monster_DubiousHero_SpecialAttack_Hit_Attack07"
+      },
+      {
+        "$type": "TriggerSoundAction",
+        "Predicates": [
+          {
+            "$type": "ByApplyPredicate",
+            "PredicateName": "ByComboHitAvatar"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_AttackProperty_ATK08_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self",
+        "soundActionKey": "Monster_DubiousHero_SpecialAttack_Hit_Attack08"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AttackSoundActionModifier",
+        "Predicates": [
+          {
+            "$type": "ByApplyPredicate",
+            "PredicateName": "ByComboSkill"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ChargeSoundActionModifier",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillID",
+            "SkillID": "DubiousHero_Charge",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AttackSoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Add",
+          "Param": 1,
+          "ParamName": "Combo_Count",
+          "ParamType": "Integer"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 1,
+          "ModifyFunction": "Add",
+          "ParamName": "Int_ComboCount_Sound",
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "Combo_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_AttackCombo_1"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 2,
+              "ParamName": "Combo_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_AttackCombo_2"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 3,
+              "ParamName": "Combo_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_AttackCombo_3"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 4,
+              "ParamName": "Combo_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_AttackCombo_4"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 5,
+              "ParamName": "Combo_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_AttackCombo_5"
+        }
+      ]
+    },
+    "BornSoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Born"
+        }
+      ]
+    },
+    "ChargeSoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Add",
+          "Param": 1,
+          "ParamName": "Charge_Count",
+          "ParamType": "Integer"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "Charge_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Charge_First"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 2,
+              "ParamName": "Charge_Count",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Charge_After"
+        }
+      ]
+    },
+    "HitSoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Add",
+          "Param": 1,
+          "ParamName": "Hit_Count",
+          "ParamType": "Integer"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 1,
+          "ModifyFunction": "Add",
+          "ParamName": "Int_HitCount_Sound",
+          "Target": "Self"
+        }
+      ]
+    },
+    "PartDestroySoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Charge_End_Broken"
+        }
+      ]
+    },
+    "StunEndSoundActionModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Stun_End"
+        }
+      ]
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "BornSoundActionModifier",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 1,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 2,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_Retreat"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 3,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_Attack"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 4,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_Relax"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 5,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_Serious"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 6,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_AttackCombo_3_NeverHit"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": 7,
+          "ParamName": "Sound_Enum",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_DubiousHero_Chase_Attack02"
+    }
+  ],
+  "Predicates": {
+    "ByComboHitAvatar": {
+      "Predicates": [
+        {
+          "$type": "ByTargetHitEffect",
+          "HitEffectKind": "FinalHitEffect",
+          "TargetHitEffects": [
+            "HitGround",
+            "HitSky"
+          ],
+          "TargetSubHitEffectAirs": [
+            "InAir",
+            "ThrowLow",
+            "ThrowHigh",
+            "Fly",
+            "Knock"
+          ],
+          "TargetSubHitEffectGrounds": [
+            "Stay",
+            "Light",
+            "Heavy",
+            "Knock"
+          ]
+        }
+      ]
+    },
+    "ByComboSkill": {
+      "Predicates": [
+        {
+          "$type": "ByAnd",
+          "Predicates": [
+            {
+              "$type": "ByFromSkillType",
+              "SkillType": "Normal",
+              "Target": "Self"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillID",
+                  "SkillID": "DubiousHero_ATK_Combo",
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillID",
+                  "SkillID": "DubiousHero_Charge",
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

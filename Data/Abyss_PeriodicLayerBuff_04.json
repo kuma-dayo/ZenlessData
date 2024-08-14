@@ -1,0 +1,43 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_04",
+  "AbilitySpecials": {},
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnBuffAddToOther": [
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "Abyss_PeriodicLayerBuff_04_02",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Frozen",
+              "Frostbite",
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload",
+              "Strike",
+              "Erosion",
+              "Chaos"
+            ]
+          }
+        ],
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnStunDestroyOtherActions": [
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "Abyss_PeriodicLayerBuff_04_02",
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "Abyss_PeriodicLayerBuff_04_02",
+        "Target": "TeamAvatars"
+      }
+    ]
+  }
+}

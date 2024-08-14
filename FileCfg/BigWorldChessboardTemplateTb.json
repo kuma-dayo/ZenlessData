@@ -1,0 +1,119 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 10011,
+      "IEFMDHGEKJF": 10019701,
+      "BDLJIKONAPM": 1,
+      "HBAJGPHFFCB": 1970101,
+      "ICLDCBMGMEL": 0,
+      "PHLFNCCDLHJ": "HollowEntranceName_BigWorld_1",
+      "MILDEGKAFIL": true,
+      "GCNOFPPDMHH": 0,
+      "JNICOICDAPB": false,
+      "PDIKLMHPEBH": [],
+      "PBIMFDAIPJA": [
+        1100060010
+      ],
+      "HHMBOMFLOGA": "ActivityHollow_GoldenWeek_01",
+      "NMGOHKFDFCL": 10,
+      "BPEPNGMLFIL": [
+        10120105,
+        10120107,
+        10120121
+      ],
+      "GDOOOOLKBIO": ""
+    },
+    {
+      "NGPCCDGBLLK": 10012,
+      "IEFMDHGEKJF": 10019701,
+      "BDLJIKONAPM": 2,
+      "HBAJGPHFFCB": 1970102,
+      "ICLDCBMGMEL": 0,
+      "PHLFNCCDLHJ": "HollowEntranceName_BigWorld_2",
+      "MILDEGKAFIL": false,
+      "GCNOFPPDMHH": 1970101,
+      "JNICOICDAPB": true,
+      "PDIKLMHPEBH": [
+        "ConnectionEast"
+      ],
+      "PBIMFDAIPJA": [
+        1100060011
+      ],
+      "HHMBOMFLOGA": "ActivityHollow_GoldenWeek_02",
+      "NMGOHKFDFCL": 30,
+      "BPEPNGMLFIL": [
+        10120112,
+        10120129
+      ],
+      "GDOOOOLKBIO": "UnlockTips_GoldenWeek_EntranceA"
+    },
+    {
+      "NGPCCDGBLLK": 10013,
+      "IEFMDHGEKJF": 10019701,
+      "BDLJIKONAPM": 3,
+      "HBAJGPHFFCB": 1970103,
+      "ICLDCBMGMEL": 0,
+      "PHLFNCCDLHJ": "HollowEntranceName_BigWorld_3",
+      "MILDEGKAFIL": false,
+      "GCNOFPPDMHH": 1970101,
+      "JNICOICDAPB": true,
+      "PDIKLMHPEBH": [
+        "ConnectionWest"
+      ],
+      "PBIMFDAIPJA": [
+        1100060012
+      ],
+      "HHMBOMFLOGA": "ActivityHollow_GoldenWeek_03",
+      "NMGOHKFDFCL": 30,
+      "BPEPNGMLFIL": [
+        10120114,
+        10120118
+      ],
+      "GDOOOOLKBIO": "UnlockTips_GoldenWeek_EntranceB"
+    },
+    {
+      "NGPCCDGBLLK": 10014,
+      "IEFMDHGEKJF": 10019701,
+      "BDLJIKONAPM": 4,
+      "HBAJGPHFFCB": 1970104,
+      "ICLDCBMGMEL": 0,
+      "PHLFNCCDLHJ": "HollowEntranceName_BigWorld_4",
+      "MILDEGKAFIL": false,
+      "GCNOFPPDMHH": 1970101,
+      "JNICOICDAPB": true,
+      "PDIKLMHPEBH": [
+        "ConnectionNorth"
+      ],
+      "PBIMFDAIPJA": [
+        1100060013
+      ],
+      "HHMBOMFLOGA": "ActivityHollow_GoldenWeek_04",
+      "NMGOHKFDFCL": 30,
+      "BPEPNGMLFIL": [
+        10120124
+      ],
+      "GDOOOOLKBIO": "UnlockTips_GoldenWeek_EntranceC"
+    },
+    {
+      "NGPCCDGBLLK": 10015,
+      "IEFMDHGEKJF": 10019701,
+      "BDLJIKONAPM": 5,
+      "HBAJGPHFFCB": 1970105,
+      "ICLDCBMGMEL": 0,
+      "PHLFNCCDLHJ": "HollowEntranceName_BigWorld_5",
+      "MILDEGKAFIL": false,
+      "GCNOFPPDMHH": 1970101,
+      "JNICOICDAPB": true,
+      "PDIKLMHPEBH": [
+        "Sub_ConnectionEast2"
+      ],
+      "PBIMFDAIPJA": [
+        1100060014
+      ],
+      "HHMBOMFLOGA": "ActivityHollow_GoldenWeek_05",
+      "NMGOHKFDFCL": 30,
+      "BPEPNGMLFIL": [],
+      "GDOOOOLKBIO": "UnlockTips_GoldenWeek_EntranceD"
+    }
+  ]
+}

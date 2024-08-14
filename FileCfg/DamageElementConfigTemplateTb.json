@@ -1,0 +1,88 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LGHEIEAADAE": 0,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 10000,
+      "AGELHFELDLF": 10000,
+      "EAAFCGPDFAA": "ElementType_None",
+      "HDJAAMGFFPB": "None",
+      "EJHBIBNKDPD": "",
+      "OKDGINFFOOD": "",
+      "ELLAAEPEEPC": "",
+      "INCLNHEMOOM": "",
+      "EOBLDCMELJH": "",
+      "JLOCBGGJEDF": 0
+    },
+    {
+      "LGHEIEAADAE": 200,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 5000,
+      "AGELHFELDLF": 10000,
+      "EAAFCGPDFAA": "ElementType_Physics",
+      "HDJAAMGFFPB": "Physics",
+      "EJHBIBNKDPD": "ElementIconTitle_Physics",
+      "OKDGINFFOOD": "ElementIconText_Physics",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png",
+      "INCLNHEMOOM": "ElementIconText_Physics",
+      "EOBLDCMELJH": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png",
+      "JLOCBGGJEDF": 0
+    },
+    {
+      "LGHEIEAADAE": 201,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 10000,
+      "AGELHFELDLF": 5000,
+      "EAAFCGPDFAA": "ElementType_Fire",
+      "HDJAAMGFFPB": "Fire",
+      "EJHBIBNKDPD": "ElementIconTitle_Fire",
+      "OKDGINFFOOD": "ElementIconText_Fire",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png",
+      "INCLNHEMOOM": "ElementIconText_Fire",
+      "EOBLDCMELJH": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png",
+      "JLOCBGGJEDF": 0
+    },
+    {
+      "LGHEIEAADAE": 202,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 10000,
+      "AGELHFELDLF": 5000,
+      "EAAFCGPDFAA": "ElementType_Ice",
+      "HDJAAMGFFPB": "Ice",
+      "EJHBIBNKDPD": "ElementIconTitle_Ice",
+      "OKDGINFFOOD": "ElementIconText_Ice",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png",
+      "INCLNHEMOOM": "ElementIconText_Ice",
+      "EOBLDCMELJH": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png",
+      "JLOCBGGJEDF": 0
+    },
+    {
+      "LGHEIEAADAE": 203,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 10000,
+      "AGELHFELDLF": 5000,
+      "EAAFCGPDFAA": "ElementType_Elec",
+      "HDJAAMGFFPB": "Elec",
+      "EJHBIBNKDPD": "ElementIconTitle_Elec",
+      "OKDGINFFOOD": "ElementIconText_Elec",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconThunder.png",
+      "INCLNHEMOOM": "ElementIconText_Elec",
+      "EOBLDCMELJH": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconThunder.png",
+      "JLOCBGGJEDF": 0
+    },
+    {
+      "LGHEIEAADAE": 205,
+      "MIDFAGCMDPB": 10000,
+      "BFJMEKJFEFE": 10000,
+      "AGELHFELDLF": 5000,
+      "EAAFCGPDFAA": "ElementType_Ether",
+      "HDJAAMGFFPB": "Ether",
+      "EJHBIBNKDPD": "ElementIconTitle_Ether",
+      "OKDGINFFOOD": "ElementIconText_Ether",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png",
+      "INCLNHEMOOM": "ElementIconText_Ether",
+      "EOBLDCMELJH": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png",
+      "JLOCBGGJEDF": 0
+    }
+  ]
+}

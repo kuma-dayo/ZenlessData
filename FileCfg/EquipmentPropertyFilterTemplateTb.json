@@ -1,0 +1,172 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 101,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 11103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+    },
+    {
+      "NGPCCDGBLLK": 102,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 12103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    {
+      "NGPCCDGBLLK": 103,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 13103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconDef.png"
+    },
+    {
+      "NGPCCDGBLLK": 104,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 12102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    {
+      "NGPCCDGBLLK": 105,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 11102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+    },
+    {
+      "NGPCCDGBLLK": 106,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 13102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconDef.png"
+    },
+    {
+      "NGPCCDGBLLK": 107,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 20103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    {
+      "NGPCCDGBLLK": 108,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 21103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    {
+      "NGPCCDGBLLK": 109,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31203,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
+    },
+    {
+      "NGPCCDGBLLK": 110,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 23103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconPenRatio.png"
+    },
+    {
+      "NGPCCDGBLLK": 111,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31503,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
+    },
+    {
+      "NGPCCDGBLLK": 112,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31603,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png"
+    },
+    {
+      "NGPCCDGBLLK": 113,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31703,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
+    },
+    {
+      "NGPCCDGBLLK": 114,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31803,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconThunder.png"
+    },
+    {
+      "NGPCCDGBLLK": 115,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31903,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png"
+    },
+    {
+      "NGPCCDGBLLK": 116,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 31402,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
+    },
+    {
+      "NGPCCDGBLLK": 117,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 12202,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconBreakStun.png"
+    },
+    {
+      "NGPCCDGBLLK": 118,
+      "HFOANPPKIDJ": 1,
+      "MJHBFBJALFC": 30502,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
+    },
+    {
+      "NGPCCDGBLLK": 201,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 11103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+    },
+    {
+      "NGPCCDGBLLK": 202,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 11102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+    },
+    {
+      "NGPCCDGBLLK": 203,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 12103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    {
+      "NGPCCDGBLLK": 204,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 12102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    {
+      "NGPCCDGBLLK": 205,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 13103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconDef.png"
+    },
+    {
+      "NGPCCDGBLLK": 206,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 13102,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconDef.png"
+    },
+    {
+      "NGPCCDGBLLK": 207,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 23203,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconPenValue.png"
+    },
+    {
+      "NGPCCDGBLLK": 208,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 20103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    {
+      "NGPCCDGBLLK": 209,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 21103,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    {
+      "NGPCCDGBLLK": 210,
+      "HFOANPPKIDJ": 2,
+      "MJHBFBJALFC": 31203,
+      "KMKOCNCPOLC": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
+    }
+  ]
+}

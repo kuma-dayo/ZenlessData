@@ -1,0 +1,4668 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1011001,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1011002,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1011003,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1011004,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1011005,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1011006,
+      "JBHOICBGPLL": 1011,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anbi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anbi_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021001,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021002,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021003,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021004,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021005,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1021006,
+      "JBHOICBGPLL": 1021,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Tsubaki_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Tsubaki_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031001,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031002,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031003,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031004,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031005,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1031006,
+      "JBHOICBGPLL": 1031,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Nostradamus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Nostradamus_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041001,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041002,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041003,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041004,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041005,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1041006,
+      "JBHOICBGPLL": 1041,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Longinus_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Longinus_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061001,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061002,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061003,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 1920
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061004,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 1920
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061005,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 2880
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1061006,
+      "JBHOICBGPLL": 1061,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 2880
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Corin_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Corin_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081001,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081002,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081003,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081004,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081005,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1081006,
+      "JBHOICBGPLL": 1081,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Billy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Billy_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101001,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101002,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101003,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101004,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101005,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1101006,
+      "JBHOICBGPLL": 1101,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "OokumaMari_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "OokumaMari_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111001,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111002,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111003,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111004,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111005,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1111006,
+      "JBHOICBGPLL": 1111,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Anton_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Anton_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121001,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121002,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121003,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121004,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121005,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1121006,
+      "JBHOICBGPLL": 1121,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ben_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ben_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131001,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131002,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131003,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131004,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131005,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1131006,
+      "JBHOICBGPLL": 1131,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Aokaku_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Aokaku_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141001,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141002,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141003,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141004,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141005,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1141006,
+      "JBHOICBGPLL": 1141,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lycaon_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lycaon_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151001,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151002,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151003,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151004,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151005,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1151006,
+      "JBHOICBGPLL": 1151,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lucy_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lucy_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110504,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181001,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181002,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181003,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181004,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181005,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1181006,
+      "JBHOICBGPLL": 1181,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Lisa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Lisa_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191001,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191002,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191003,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191004,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191005,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1191006,
+      "JBHOICBGPLL": 1191,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Ellen_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Ellen_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201001,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201002,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201003,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201004,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201005,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1201006,
+      "JBHOICBGPLL": 1201,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Harumasa_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Harumasa_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211001,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211002,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 480
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211003,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211004,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211005,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1211006,
+      "JBHOICBGPLL": 1211,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 23101,
+          "HLKCJAGFJOB": 1440
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Rina_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Rina_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110505,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221001,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221002,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221003,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221004,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221005,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1221006,
+      "JBHOICBGPLL": 1221,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 20101,
+          "HLKCJAGFJOB": 0
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Yanagi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Yanagi_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110501,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241001,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241002,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 960
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241003,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 1920
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241004,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 1920
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241005,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 2880
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1241006,
+      "JBHOICBGPLL": 1241,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 21101,
+          "HLKCJAGFJOB": 2880
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "ZhuYuan_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "ZhuYuan_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251001,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251002,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 6
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251003,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251004,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251005,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1251006,
+      "JBHOICBGPLL": 1251,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 12201,
+          "HLKCJAGFJOB": 18
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "QingYi_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "QingYi_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110503,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261001,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261002,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261003,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261004,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261005,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1261006,
+      "JBHOICBGPLL": 1261,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 31401,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "JaneDoe_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "JaneDoe_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110001,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271001,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271002,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271003,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271004,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271005,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1271006,
+      "JBHOICBGPLL": 1271,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Seth_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Seth_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110506,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110002,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281001,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 15,
+      "HOHDDABLOBI": 1,
+      "OHEJNOHFFOL": 2,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 0
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_02_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 5000
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281002,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 25,
+      "HOHDDABLOBI": 2,
+      "OHEJNOHFFOL": 3,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 12
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_03_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 12000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281003,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 35,
+      "HOHDDABLOBI": 3,
+      "OHEJNOHFFOL": 4,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 25
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_04_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 28000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281004,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 45,
+      "HOHDDABLOBI": 4,
+      "OHEJNOHFFOL": 5,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 24
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_05_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 60000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 9
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 2
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281005,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 55,
+      "HOHDDABLOBI": 5,
+      "OHEJNOHFFOL": 6,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 50
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_06_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 100000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 15
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 3
+        }
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 1281006,
+      "JBHOICBGPLL": 1281,
+      "MMMJEPJLCNC": 60,
+      "HOHDDABLOBI": 6,
+      "OHEJNOHFFOL": 7,
+      "GMBJHDLMMOF": [
+        {
+          "MJHBFBJALFC": 30501,
+          "HLKCJAGFJOB": 36
+        },
+        {
+          "MJHBFBJALFC": 12101,
+          "HLKCJAGFJOB": 75
+        }
+      ],
+      "JOCEFJCDLDC": "Avatar_PassiveSkill_CoreSkillLevelUp",
+      "JMHCFIGELOP": [
+        "Clara_UniqueSkill_Title"
+      ],
+      "GKEHJFABBAM": [
+        "Clara_UniqueSkill_07_Desc"
+      ],
+      "JLECPLMPEJE": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 200000
+        },
+        {
+          "NADBGLEMMEH": 110502,
+          "HLKCJAGFJOB": 30
+        },
+        {
+          "NADBGLEMMEH": 110003,
+          "HLKCJAGFJOB": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "AbilityName": "NinevehBee_BossRush_ModifyLockTargetData",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ModifyLockTargetData_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ModifyLockTargetData_Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyLockTargetDataAction",
+          "LockOnRadiusDelta": 0,
+          "LockOnRadiusRatio": 0.75,
+          "LockTargetOffsetScore": 0,
+          "LockTargetSelfWeight": 0.5
+        }
+      ]
+    }
+  }
+}

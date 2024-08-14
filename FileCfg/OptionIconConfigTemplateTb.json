@@ -1,0 +1,94 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 101,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingChat.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 102,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingGeneral.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 103,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble01.png",
+      "PHMCKLHCAMG": 1
+    },
+    {
+      "NGPCCDGBLLK": 104,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "PHMCKLHCAMG": 1
+    },
+    {
+      "NGPCCDGBLLK": 105,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingReward.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 106,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingTime.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 107,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingTime01.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 108,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingTime02.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 109,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingTime03.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 110,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble04.png",
+      "PHMCKLHCAMG": 1
+    },
+    {
+      "NGPCCDGBLLK": 111,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconOK.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 112,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconCancel.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 113,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconRest.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 114,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconCancel.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 115,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconCancel.png",
+      "PHMCKLHCAMG": 0
+    },
+    {
+      "NGPCCDGBLLK": 116,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubbleMeowji.png",
+      "PHMCKLHCAMG": 1
+    },
+    {
+      "NGPCCDGBLLK": 117,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingBattle.png",
+      "PHMCKLHCAMG": 1
+    },
+    {
+      "NGPCCDGBLLK": 118,
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconInteracting/Packer/IconInteractingFinish.png",
+      "PHMCKLHCAMG": 1
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "BCOIKMCDGPN": 9001,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Role",
+      "BNPPJHFLKHC": "Assets/NapResources/UI/Sprite/MainCityMenus/Packer/IconRoleBtn.png",
+      "DNNMEALACPB": 1,
+      "FJCPKFMKHIK": 1008,
+      "NPKCKPMOJMH": 400,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9002,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Gashapon",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconGashaponBtn.png",
+      "DNNMEALACPB": 2,
+      "FJCPKFMKHIK": 1002,
+      "NPKCKPMOJMH": 1900,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9003,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_BP",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconBPBtn.png",
+      "DNNMEALACPB": 3,
+      "FJCPKFMKHIK": 1038,
+      "NPKCKPMOJMH": 2300,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9004,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Bag",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconBagBtn.png",
+      "DNNMEALACPB": 4,
+      "FJCPKFMKHIK": 1006,
+      "NPKCKPMOJMH": 0,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9005,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Setting",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconSetUp.png",
+      "DNNMEALACPB": 5,
+      "FJCPKFMKHIK": 1014,
+      "NPKCKPMOJMH": 0,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9006,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Mail",
+      "BNPPJHFLKHC": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconMail.png",
+      "DNNMEALACPB": 6,
+      "FJCPKFMKHIK": 1015,
+      "NPKCKPMOJMH": 800,
+      "NLNMPNADHNA": true
+    },
+    {
+      "BCOIKMCDGPN": 9007,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Activity",
+      "BNPPJHFLKHC": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconActivity.png",
+      "DNNMEALACPB": 7,
+      "FJCPKFMKHIK": 1020,
+      "NPKCKPMOJMH": 1602,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9008,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Navigation",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconNavigationBtn.png",
+      "DNNMEALACPB": 8,
+      "FJCPKFMKHIK": 1009,
+      "NPKCKPMOJMH": 0,
+      "NLNMPNADHNA": false
+    },
+    {
+      "BCOIKMCDGPN": 9009,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_HandBook",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconHandBookBtn.png",
+      "DNNMEALACPB": 9,
+      "FJCPKFMKHIK": 10037,
+      "NPKCKPMOJMH": 0,
+      "NLNMPNADHNA": true
+    },
+    {
+      "BCOIKMCDGPN": 9022,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_IconNotice",
+      "BNPPJHFLKHC": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconNotice.png",
+      "DNNMEALACPB": 10,
+      "FJCPKFMKHIK": 1016,
+      "NPKCKPMOJMH": 900,
+      "NLNMPNADHNA": true
+    },
+    {
+      "BCOIKMCDGPN": 90011,
+      "MEDBECBOFKM": [],
+      "JFAJOFLFLDC": "ShortcutFuntion_Photograph",
+      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconPhotograph.png",
+      "DNNMEALACPB": 11,
+      "FJCPKFMKHIK": 1021,
+      "NPKCKPMOJMH": 0,
+      "NLNMPNADHNA": true
+    }
+  ]
+}

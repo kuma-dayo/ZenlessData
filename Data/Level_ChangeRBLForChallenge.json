@@ -1,0 +1,21 @@
+{
+  "AbilityName": "Level_ChangeRBLForChallenge",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetRBLAction",
+        "RBL": 99,
+        "Tag": "Test_RBL",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyLockTargetDataAction",
+        "LockOnRadiusDelta": 0,
+        "LockOnRadiusRatio": 0.001,
+        "LockTargetOffsetScore": 0,
+        "LockTargetSelfWeight": 0.001
+      }
+    ]
+  }
+}

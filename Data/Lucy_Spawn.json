@@ -1,0 +1,60 @@
+{
+  "AbilityName": "Lucy_Spawn",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "Lucy_Spawn",
+        "Target": "Self"
+      }
+    ]
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "LucyWood00"
+      ],
+      "CustomKey": "LucyWood_AbilityTargetting_00",
+      "IsAdd": true,
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_Wood_Spawn",
+      "CustomKey": "LucyWood_AbilityTargetting_00",
+      "Target": "Custom"
+    },
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "LucyWood01"
+      ],
+      "CustomKey": "LucyWood_AbilityTargetting_01",
+      "IsAdd": true,
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_Wood_Spawn",
+      "CustomKey": "LucyWood_AbilityTargetting_01",
+      "Target": "Custom"
+    },
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "LucyWood02"
+      ],
+      "CustomKey": "LucyWood_AbilityTargetting_02",
+      "IsAdd": true,
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_Wood_Spawn",
+      "CustomKey": "LucyWood_AbilityTargetting_02",
+      "Target": "Custom"
+    }
+  ]
+}

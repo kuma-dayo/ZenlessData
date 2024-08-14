@@ -1,0 +1,223 @@
+{
+  "AbilityName": "Nineveh_BossRush_MonsterAIAdjust",
+  "AbilitySpecials": {
+    "AS_BossRush_FirstHoveringPhaseSkillCD_Lives01": {
+      "Value": 42,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_FirstHoveringPhaseSkillCD_Lives02": {
+      "Value": 40,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_FirstSummonBeesCD_Lives01": {
+      "Value": 35,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_FirstSummonBeesCD_Lives02": {
+      "Value": 30,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SecondHoveringPhaseSkillCD_Lives01": {
+      "Value": 42,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SecondHoveringPhaseSkillCD_Lives02": {
+      "Value": 40,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SummonBeesCD_Long_Lives01": {
+      "Value": 55,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SummonBeesCD_Long_Lives02": {
+      "Value": 50,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SummonBeesCD_Short_Lives01": {
+      "Value": 35,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_SummonBeesCD_Short_Lives02": {
+      "Value": 30,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_ThirdHoveringPhaseSkillCD_Lives01": {
+      "Value": 28,
+      "ValueType": "Float"
+    },
+    "AS_BossRush_ThirdHoveringPhaseSkillCD_Lives02": {
+      "Value": 25,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "OnAbilityTrigger": [
+    {
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "BySwitchPhaseValue",
+          "CompareType": "Equal",
+          "TargetPhase": 2
+        }
+      ],
+      "FailureActions": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "BySwitchPhaseValue",
+              "CompareType": "Equal",
+              "TargetPhase": 3
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 150,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_02_Default",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 150,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_02_Default",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 150,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_03_Default",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 110,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_01_Added",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 150,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_02_Added",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 150,
+              "ModifyFunction": "Replace",
+              "ParamName": "Weight_03_Added",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 1.0,
+              "ModifyFunction": "Replace",
+              "ParamName": "Timer_AdjustConfrontation",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "IntParamValue": 25,
+              "ModifyFunction": "Replace",
+              "ParamName": "Int_AdjustAttackAcountUrgent",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 1.0,
+              "ModifyFunction": "Replace",
+              "ParamName": "Timer_AdjustRelaxed",
+              "Target": "Self"
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "FloatParamValue": 40,
+              "ModifyFunction": "Replace",
+              "ParamName": "Timer_AdjustRelaxed",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "SuccessActions": [
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 120,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_02_Default",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 120,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_02_Default",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 120,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_03_Default",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 90,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_01_Added",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 120,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_02_Added",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 120,
+          "ModifyFunction": "Replace",
+          "ParamName": "Weight_03_Added",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 2.0,
+          "ModifyFunction": "Replace",
+          "ParamName": "Timer_AdjustConfrontation",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 10,
+          "ModifyFunction": "Replace",
+          "ParamName": "Int_AdjustAttackAcountUrgent",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 2.0,
+          "ModifyFunction": "Replace",
+          "ParamName": "Timer_AdjustRelaxed",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 30,
+          "ModifyFunction": "Replace",
+          "ParamName": "Timer_AdjustRelaxed",
+          "Target": "Self"
+        }
+      ]
+    }
+  ]
+}

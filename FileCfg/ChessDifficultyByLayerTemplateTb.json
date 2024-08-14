@@ -1,0 +1,912 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "CONKOJCHLFE": "Easy",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:0|Attack:0|StunMax:0",
+      "CGNEKKJIPOD": "HpMax:0|Attack:0|StunMax:0",
+      "CFMPKAKMDMO": "HpMax:0|Attack:0|StunMax:0",
+      "CFDGEBOOBDA": "HpMax:0|Attack:0|StunMax:0",
+      "PNHHIOEGCCE": "HpMax:0|Attack:0|StunMax:0",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        21
+      ],
+      "IGIKCIDOBMP": [
+        21
+      ],
+      "OIIPBHCIFFP": [
+        21
+      ],
+      "JHHBPPPMGMO": [
+        22
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 51,
+      "CONKOJCHLFE": "Normal",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:0|Attack:0|StunMax:0",
+      "CGNEKKJIPOD": "HpMax:0|Attack:0|StunMax:0",
+      "CFMPKAKMDMO": "HpMax:0|Attack:0|StunMax:0",
+      "CFDGEBOOBDA": "HpMax:0|Attack:0|StunMax:0",
+      "PNHHIOEGCCE": "HpMax:0|Attack:0|StunMax:0",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        21
+      ],
+      "IGIKCIDOBMP": [
+        22
+      ],
+      "OIIPBHCIFFP": [
+        23
+      ],
+      "JHHBPPPMGMO": [
+        23
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 101,
+      "CONKOJCHLFE": "Hard",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:0|Attack:0|StunMax:0",
+      "CGNEKKJIPOD": "HpMax:0|Attack:0|StunMax:0",
+      "CFMPKAKMDMO": "HpMax:0|Attack:0|StunMax:0",
+      "CFDGEBOOBDA": "HpMax:0|Attack:0|StunMax:0",
+      "PNHHIOEGCCE": "HpMax:0|Attack:0|StunMax:0",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        21
+      ],
+      "IGIKCIDOBMP": [
+        22
+      ],
+      "OIIPBHCIFFP": [
+        23
+      ],
+      "JHHBPPPMGMO": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 111,
+      "CONKOJCHLFE": "Zero20",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CGNEKKJIPOD": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CFMPKAKMDMO": "HpMax:-0.43|Attack:-0.27|StunMax:-0.3",
+      "CFDGEBOOBDA": "HpMax:-0.43|Attack:-0.27|StunMax:-0.3",
+      "PNHHIOEGCCE": "HpMax:-0.43|Attack:-0.27|StunMax:-0.3",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 112,
+      "CONKOJCHLFE": "Zero20",
+      "FNFGPFKOFCG": 2,
+      "IOBMKOBIHBJ": "HpMax:-0.23|Attack:-0.07|StunMax:-0.1",
+      "CGNEKKJIPOD": "HpMax:-0.23|Attack:-0.07|StunMax:-0.1",
+      "CFMPKAKMDMO": "HpMax:-0.26|Attack:-0.15|StunMax:-0.17",
+      "CFDGEBOOBDA": "HpMax:-0.26|Attack:-0.15|StunMax:-0.17",
+      "PNHHIOEGCCE": "HpMax:-0.26|Attack:-0.15|StunMax:-0.17",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 113,
+      "CONKOJCHLFE": "Zero20",
+      "FNFGPFKOFCG": 3,
+      "IOBMKOBIHBJ": "HpMax:-0.26|Attack:-0.15|StunMax:-0.17",
+      "CGNEKKJIPOD": "HpMax:-0.26|Attack:-0.15|StunMax:-0.17",
+      "CFMPKAKMDMO": "HpMax:-0.17|Attack:-0.22|StunMax:-0.24",
+      "CFDGEBOOBDA": "HpMax:-0.17|Attack:-0.22|StunMax:-0.24",
+      "PNHHIOEGCCE": "HpMax:-0.17|Attack:-0.22|StunMax:-0.24",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 114,
+      "CONKOJCHLFE": "Zero20",
+      "FNFGPFKOFCG": 4,
+      "IOBMKOBIHBJ": "HpMax:-0.17|Attack:-0.22|StunMax:-0.24",
+      "CGNEKKJIPOD": "HpMax:-0.17|Attack:-0.22|StunMax:-0.24",
+      "CFMPKAKMDMO": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "CFDGEBOOBDA": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "PNHHIOEGCCE": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 115,
+      "CONKOJCHLFE": "Zero20",
+      "FNFGPFKOFCG": 5,
+      "IOBMKOBIHBJ": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "CGNEKKJIPOD": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "CFMPKAKMDMO": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "CFDGEBOOBDA": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "PNHHIOEGCCE": "HpMax:-0.12|Attack:-0.24|StunMax:-0.25",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 121,
+      "CONKOJCHLFE": "Zero30",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CGNEKKJIPOD": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CFMPKAKMDMO": "HpMax:-0.4|Attack:-0.23|StunMax:-0.3",
+      "CFDGEBOOBDA": "HpMax:-0.4|Attack:-0.23|StunMax:-0.3",
+      "PNHHIOEGCCE": "HpMax:-0.4|Attack:-0.23|StunMax:-0.3",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 122,
+      "CONKOJCHLFE": "Zero30",
+      "FNFGPFKOFCG": 2,
+      "IOBMKOBIHBJ": "HpMax:-0.2|Attack:-0.03|StunMax:-0.1",
+      "CGNEKKJIPOD": "HpMax:-0.2|Attack:-0.03|StunMax:-0.1",
+      "CFMPKAKMDMO": "HpMax:-0.34|Attack:-0.11|StunMax:-0.18",
+      "CFDGEBOOBDA": "HpMax:-0.34|Attack:-0.11|StunMax:-0.18",
+      "PNHHIOEGCCE": "HpMax:-0.34|Attack:-0.11|StunMax:-0.18",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 123,
+      "CONKOJCHLFE": "Zero30",
+      "FNFGPFKOFCG": 3,
+      "IOBMKOBIHBJ": "HpMax:-0.24|Attack:-0.11|StunMax:-0.18",
+      "CGNEKKJIPOD": "HpMax:-0.24|Attack:-0.11|StunMax:-0.18",
+      "CFMPKAKMDMO": "HpMax:-0.14|Attack:-0.19|StunMax:-0.26",
+      "CFDGEBOOBDA": "HpMax:-0.14|Attack:-0.19|StunMax:-0.26",
+      "PNHHIOEGCCE": "HpMax:-0.14|Attack:-0.19|StunMax:-0.26",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 124,
+      "CONKOJCHLFE": "Zero30",
+      "FNFGPFKOFCG": 4,
+      "IOBMKOBIHBJ": "HpMax:-0.14|Attack:-0.19|StunMax:-0.26",
+      "CGNEKKJIPOD": "HpMax:-0.14|Attack:-0.19|StunMax:-0.26",
+      "CFMPKAKMDMO": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 125,
+      "CONKOJCHLFE": "Zero30",
+      "FNFGPFKOFCG": 5,
+      "IOBMKOBIHBJ": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "CGNEKKJIPOD": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "CFMPKAKMDMO": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.09|Attack:-0.21|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 131,
+      "CONKOJCHLFE": "Zero40",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CGNEKKJIPOD": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CFMPKAKMDMO": "HpMax:-0.42|Attack:-0.18|StunMax:-0.3",
+      "CFDGEBOOBDA": "HpMax:-0.42|Attack:-0.18|StunMax:-0.3",
+      "PNHHIOEGCCE": "HpMax:-0.42|Attack:-0.18|StunMax:-0.3",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 132,
+      "CONKOJCHLFE": "Zero40",
+      "FNFGPFKOFCG": 2,
+      "IOBMKOBIHBJ": "HpMax:-0.22|Attack:0.02|StunMax:-0.1",
+      "CGNEKKJIPOD": "HpMax:-0.22|Attack:0.02|StunMax:-0.1",
+      "CFMPKAKMDMO": "HpMax:-0.38|Attack:-0.08|StunMax:-0.19",
+      "CFDGEBOOBDA": "HpMax:-0.38|Attack:-0.08|StunMax:-0.19",
+      "PNHHIOEGCCE": "HpMax:-0.38|Attack:-0.08|StunMax:-0.19",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 133,
+      "CONKOJCHLFE": "Zero40",
+      "FNFGPFKOFCG": 3,
+      "IOBMKOBIHBJ": "HpMax:-0.28|Attack:-0.08|StunMax:-0.19",
+      "CGNEKKJIPOD": "HpMax:-0.28|Attack:-0.08|StunMax:-0.19",
+      "CFMPKAKMDMO": "HpMax:-0.26|Attack:-0.16|StunMax:-0.26",
+      "CFDGEBOOBDA": "HpMax:-0.26|Attack:-0.16|StunMax:-0.26",
+      "PNHHIOEGCCE": "HpMax:-0.26|Attack:-0.16|StunMax:-0.26",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 134,
+      "CONKOJCHLFE": "Zero40",
+      "FNFGPFKOFCG": 4,
+      "IOBMKOBIHBJ": "HpMax:-0.21|Attack:-0.16|StunMax:-0.26",
+      "CGNEKKJIPOD": "HpMax:-0.21|Attack:-0.16|StunMax:-0.26",
+      "CFMPKAKMDMO": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 135,
+      "CONKOJCHLFE": "Zero40",
+      "FNFGPFKOFCG": 5,
+      "IOBMKOBIHBJ": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "CGNEKKJIPOD": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "CFMPKAKMDMO": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.17|Attack:-0.18|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 141,
+      "CONKOJCHLFE": "Zero50",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CGNEKKJIPOD": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CFMPKAKMDMO": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "CFDGEBOOBDA": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "PNHHIOEGCCE": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 142,
+      "CONKOJCHLFE": "Zero50",
+      "FNFGPFKOFCG": 2,
+      "IOBMKOBIHBJ": "HpMax:-0.23|Attack:0.06|StunMax:-0.11",
+      "CGNEKKJIPOD": "HpMax:-0.23|Attack:0.06|StunMax:-0.11",
+      "CFMPKAKMDMO": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "CFDGEBOOBDA": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "PNHHIOEGCCE": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 143,
+      "CONKOJCHLFE": "Zero50",
+      "FNFGPFKOFCG": 3,
+      "IOBMKOBIHBJ": "HpMax:-0.29|Attack:-0.04|StunMax:-0.19",
+      "CGNEKKJIPOD": "HpMax:-0.29|Attack:-0.04|StunMax:-0.19",
+      "CFMPKAKMDMO": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 144,
+      "CONKOJCHLFE": "Zero50",
+      "FNFGPFKOFCG": 4,
+      "IOBMKOBIHBJ": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CGNEKKJIPOD": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CFMPKAKMDMO": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFDGEBOOBDA": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "PNHHIOEGCCE": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 145,
+      "CONKOJCHLFE": "Zero50",
+      "FNFGPFKOFCG": 5,
+      "IOBMKOBIHBJ": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CGNEKKJIPOD": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFMPKAKMDMO": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFDGEBOOBDA": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "PNHHIOEGCCE": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 151,
+      "CONKOJCHLFE": "Zero60",
+      "FNFGPFKOFCG": 1,
+      "IOBMKOBIHBJ": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CGNEKKJIPOD": "HpMax:-0.15|Attack:-0.15|StunMax:-0.15",
+      "CFMPKAKMDMO": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "CFDGEBOOBDA": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "PNHHIOEGCCE": "HpMax:-0.43|Attack:-0.14|StunMax:-0.31",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 152,
+      "CONKOJCHLFE": "Zero60",
+      "FNFGPFKOFCG": 2,
+      "IOBMKOBIHBJ": "HpMax:-0.23|Attack:0.06|StunMax:-0.11",
+      "CGNEKKJIPOD": "HpMax:-0.23|Attack:0.06|StunMax:-0.11",
+      "CFMPKAKMDMO": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "CFDGEBOOBDA": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "PNHHIOEGCCE": "HpMax:-0.39|Attack:-0.04|StunMax:-0.19",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 153,
+      "CONKOJCHLFE": "Zero60",
+      "FNFGPFKOFCG": 3,
+      "IOBMKOBIHBJ": "HpMax:-0.29|Attack:-0.04|StunMax:-0.19",
+      "CGNEKKJIPOD": "HpMax:-0.29|Attack:-0.04|StunMax:-0.19",
+      "CFMPKAKMDMO": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CFDGEBOOBDA": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "PNHHIOEGCCE": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 154,
+      "CONKOJCHLFE": "Zero60",
+      "FNFGPFKOFCG": 4,
+      "IOBMKOBIHBJ": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CGNEKKJIPOD": "HpMax:-0.24|Attack:-0.13|StunMax:-0.27",
+      "CFMPKAKMDMO": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFDGEBOOBDA": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "PNHHIOEGCCE": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 155,
+      "CONKOJCHLFE": "Zero60",
+      "FNFGPFKOFCG": 5,
+      "IOBMKOBIHBJ": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CGNEKKJIPOD": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFMPKAKMDMO": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "CFDGEBOOBDA": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "PNHHIOEGCCE": "HpMax:-0.22|Attack:-0.15|StunMax:-0.28",
+      "KBCPALGOCEF": [
+        10,
+        11,
+        12
+      ],
+      "ABHENGJMJJH": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "IGIKCIDOBMP": [
+        31
+      ],
+      "OIIPBHCIFFP": [
+        32,
+        33
+      ],
+      "JHHBPPPMGMO": [
+        41,
+        42,
+        43
+      ]
+    }
+  ]
+}

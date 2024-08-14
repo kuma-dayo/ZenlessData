@@ -1,0 +1,14 @@
+{
+  "AbilityName": "QingYi_Talent_01",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "QingYi_SpiritControl",
+        "Target": "Self"
+      }
+    ]
+  }
+}

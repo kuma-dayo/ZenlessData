@@ -1,0 +1,48 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "BCBIABIKBAH": 1001,
+      "JNBKHOBJMEC": [
+        200001,
+        200002,
+        100001
+      ],
+      "LAMNCEJAABN": 3
+    },
+    {
+      "BCBIABIKBAH": 1002,
+      "JNBKHOBJMEC": [
+        100002,
+        100003
+      ],
+      "LAMNCEJAABN": 2
+    },
+    {
+      "BCBIABIKBAH": 2001,
+      "JNBKHOBJMEC": [
+        200102,
+        300101,
+        200104,
+        200105
+      ],
+      "LAMNCEJAABN": 3
+    },
+    {
+      "BCBIABIKBAH": 3001,
+      "JNBKHOBJMEC": [
+        200201,
+        300201,
+        300202
+      ],
+      "LAMNCEJAABN": 3
+    },
+    {
+      "BCBIABIKBAH": 9999,
+      "JNBKHOBJMEC": [
+        100001,
+        100002
+      ],
+      "LAMNCEJAABN": 2
+    }
+  ]
+}

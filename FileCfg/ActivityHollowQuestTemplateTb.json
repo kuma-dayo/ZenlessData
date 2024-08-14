@@ -1,0 +1,25 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NCCDLNIFECA": 102102001,
+      "JAKMBGKIKKM": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityGoldenWeek.prefab",
+      "OKAJFDKNOJK": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityGoldenWeek.prefab",
+      "CBBHKENGBLD": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Goldenweek.png",
+      "GDKFGEBPIKL": "CubeGrid_Abyss_Loop"
+    },
+    {
+      "NCCDLNIFECA": 103000001,
+      "JAKMBGKIKKM": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityBangbooFes.prefab",
+      "OKAJFDKNOJK": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityBangbooFes.prefab",
+      "CBBHKENGBLD": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Bangboo.png",
+      "GDKFGEBPIKL": "Bangboofes_Abyss_Loop"
+    },
+    {
+      "NCCDLNIFECA": 104000002,
+      "JAKMBGKIKKM": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityCollapseHollowNormal.prefab",
+      "OKAJFDKNOJK": "UI/Menus/Widget/Yorozuya/ActivityGameplay/AcitivityGameplayBg/ActivityCollapseHollowHard.prefab",
+      "CBBHKENGBLD": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Step.png",
+      "GDKFGEBPIKL": "Watch_Abyss_Loop"
+    }
+  ]
+}

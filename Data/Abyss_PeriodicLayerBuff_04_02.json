@@ -1,0 +1,37 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_04_02",
+  "AbilitySpecials": {
+    "AS_BaseAtkRatio": {
+      "Value": 0.15
+    },
+    "AS_ElementMysteryDelta": {
+      "Value": 20
+    },
+    "Duration": {
+      "Value": 15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Abyss_04_DamageUpModifier": {
+      "Buff": {
+        "BuffID": 3200012,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%Duration",
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "Multiple",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAtkRatio",
+        "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"
+      }
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "Abyss_04_DamageUpModifier",
+      "Target": "Self"
+    }
+  ]
+}

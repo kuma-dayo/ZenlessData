@@ -1,0 +1,449 @@
+{
+  "AbilityName": "Nineveh_BossRush_BerserkPhaseTimer",
+  "AbilitySpecials": {
+    "AS_BerserkPhase_01_Token": {
+      "Value": 1,
+      "ValueType": "Integer"
+    },
+    "AS_BerserkPhase_02_Token": {
+      "Value": 1,
+      "ValueType": "Integer"
+    },
+    "AS_BerserkPhase_03_Token": {
+      "Value": 1,
+      "ValueType": "Integer"
+    },
+    "AS_Monster_AddedDamageRatio_BerserkPhase_01": {
+      "Value": 0.15,
+      "ValueType": "Float"
+    },
+    "AS_Monster_AddedDamageRatio_BerserkPhase_02": {
+      "Value": 0.3,
+      "ValueType": "Float"
+    },
+    "AS_Monster_AddedDamageRatio_BerserkPhase_03": {
+      "Value": 0.45,
+      "ValueType": "Float"
+    },
+    "AS_Monster_DamageTakeRatio_BerserkPhase_01": {
+      "Value": -0.1,
+      "ValueType": "Float"
+    },
+    "AS_Monster_DamageTakeRatio_BerserkPhase_02": {
+      "Value": -0.2,
+      "ValueType": "Float"
+    },
+    "AS_Monster_DamageTakeRatio_BerserkPhase_03": {
+      "Value": -0.3,
+      "ValueType": "Float"
+    },
+    "AS_TargetTime_01": {
+      "Value": 40,
+      "ValueType": "Float"
+    },
+    "AS_TargetTime_02": {
+      "Value": 120,
+      "ValueType": "Float"
+    },
+    "AS_TargetTime_03": {
+      "Value": 200,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Nineveh_BossRush_BerserkPhase_Timer_01_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Level"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Nineveh_BossRush_BerserkPhase_Timer_02_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Level"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Nineveh_BossRush_BerserkPhase_Timer_03_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Nineveh_BossRush_BerserkPhase_Adjust_Monster_01_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_Monster_AddedDamageRatio_BerserkPhase_01",
+        "Actor_DamageTakeRatio": "%AS_Monster_DamageTakeRatio_BerserkPhase_01"
+      }
+    },
+    "Nineveh_BossRush_BerserkPhase_Adjust_Monster_02_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_Monster_AddedDamageRatio_BerserkPhase_02",
+        "Actor_DamageTakeRatio": "%AS_Monster_DamageTakeRatio_BerserkPhase_02"
+      }
+    },
+    "Nineveh_BossRush_BerserkPhase_Adjust_Monster_03_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_Monster_AddedDamageRatio_BerserkPhase_03",
+        "Actor_DamageTakeRatio": "%AS_Monster_DamageTakeRatio_BerserkPhase_03"
+      }
+    },
+    "Nineveh_BossRush_BerserkPhase_Timer_01_Modifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ListenLevelTimerMixin",
+          "Key": "Nineveh_BossRush_LevelCountdown",
+          "TimerActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Nineveh_BossRush_BerserkPhase_Adjust_Monster_01_Modifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_01_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "SetLevelExtVariableAction",
+                  "ModifyFunction": "Replace",
+                  "Param": 2,
+                  "ParamName": "BossRush_BerserkPhase_Current",
+                  "ParamType": "Integer",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_01_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "LDListenEntityAction",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_01_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "TargetKey": "Nineveh_BossRush_LevelCountdown_BerserkPhase_2nd"
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_Vignette_01",
+                  "EffectType": "Vignette",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_01_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_RadialBlur_03",
+                  "EffectType": "RadialBlur",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_01_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Add",
+                  "Param": -1,
+                  "ParamName": "AS_BerserkPhase_01_Token",
+                  "ParamType": "Integer"
+                }
+              ],
+              "Val": "%AS_TargetTime_01"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "Nineveh_BossRush_BerserkPhase_Timer_02_Modifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ListenLevelTimerMixin",
+          "Key": "Nineveh_BossRush_LevelCountdown",
+          "TimerActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Nineveh_BossRush_BerserkPhase_Adjust_Monster_01_Modifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Nineveh_BossRush_BerserkPhase_Adjust_Monster_01_Modifier"
+                      ],
+                      "Target": "Caster"
+                    }
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Nineveh_BossRush_BerserkPhase_Adjust_Monster_02_Modifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_02_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "SetLevelExtVariableAction",
+                  "ModifyFunction": "Replace",
+                  "Param": 3,
+                  "ParamName": "BossRush_BerserkPhase_Current",
+                  "ParamType": "Integer",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_02_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "LDListenEntityAction",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_02_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "TargetKey": "Nineveh_BossRush_LevelCountdown_BerserkPhase_3rd"
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_Vignette_01",
+                  "EffectType": "Vignette",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_02_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_RadialBlur_03",
+                  "EffectType": "RadialBlur",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_02_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Add",
+                  "Param": -1,
+                  "ParamName": "AS_BerserkPhase_02_Token",
+                  "ParamType": "Integer"
+                }
+              ],
+              "Val": "%AS_TargetTime_02"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "Nineveh_BossRush_BerserkPhase_Timer_03_Modifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ListenLevelTimerMixin",
+          "Key": "Nineveh_BossRush_LevelCountdown",
+          "TimerActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Nineveh_BossRush_BerserkPhase_Adjust_Monster_02_Modifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Nineveh_BossRush_BerserkPhase_Adjust_Monster_02_Modifier"
+                      ],
+                      "Target": "Caster"
+                    },
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Nineveh_BossRush_BerserkPhase_Adjust_Monster_03_Modifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "SetLevelExtVariableAction",
+                  "ModifyFunction": "Replace",
+                  "Param": 4,
+                  "ParamName": "BossRush_BerserkPhase_Current",
+                  "ParamType": "Integer",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "LDListenEntityAction",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ],
+                  "TargetKey": "Nineveh_BossRush_LevelCountdown_BerserkPhase_4th"
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_Vignette_01",
+                  "EffectType": "Vignette",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "ProcessScreenEffectAction",
+                  "EffectKey": "Monster_Common_BossRush_RadialBlur_03",
+                  "EffectType": "RadialBlur",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_BerserkPhase_03_Token",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Add",
+                  "Param": -1,
+                  "ParamName": "AS_BerserkPhase_03_Token",
+                  "ParamType": "Integer"
+                }
+              ],
+              "Val": "%AS_TargetTime_03"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

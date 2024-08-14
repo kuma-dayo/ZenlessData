@@ -1,0 +1,84 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIRoleInfoPageController"
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIEquipDetailPageController"
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIDepositoryPageController"
+    },
+    {
+      "NGPCCDGBLLK": 11,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIGroceryPageController"
+    },
+    {
+      "NGPCCDGBLLK": 12,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIInterKnotV2PageController"
+    },
+    {
+      "NGPCCDGBLLK": 13,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIInterKnotV3PageController"
+    },
+    {
+      "NGPCCDGBLLK": 14,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIActivityNormalPageController"
+    },
+    {
+      "NGPCCDGBLLK": 15,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIShoppingMallV2PageController"
+    },
+    {
+      "NGPCCDGBLLK": 17,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIBangbooModGaragePageController"
+    },
+    {
+      "NGPCCDGBLLK": 19,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIVideoshopPageController"
+    },
+    {
+      "NGPCCDGBLLK": 20,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIGroceryActivityPageController"
+    },
+    {
+      "NGPCCDGBLLK": 21,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UITrendyStorePageController"
+    },
+    {
+      "NGPCCDGBLLK": 22,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIAbyssTalentPageController"
+    },
+    {
+      "NGPCCDGBLLK": 23,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIGachaPageController"
+    },
+    {
+      "NGPCCDGBLLK": 24,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIMainCityPageController"
+    },
+    {
+      "NGPCCDGBLLK": 25,
+      "JJHBNDNOBIE": 0,
+      "IDABFNCLKOC": "UIEquipDetailPageController"
+    }
+  ]
+}

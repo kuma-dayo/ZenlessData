@@ -1,0 +1,148 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "MultiPartMixin",
+      "BindHitColliderList": [
+        "HitCollider_LArm"
+      ],
+      "IsUseHitFlowOnDestroyed": true,
+      "MaxHP": "%MaxPartHP",
+      "OnPartDestroy": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "PartDestroyedModifier",
+          "Target": "Self"
+        }
+      ],
+      "OwnerDamagetakeRatio": 0,
+      "PartDamageTakeRatio": 0,
+      "PartHP": "%MaxPartHP",
+      "PartName": "DubiousHero_Part"
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "PartDestroyPoint",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "PartDestroyedModifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "DubiousHero_Part",
+  "AbilitySpecials": {
+    "AS_MaxPartHP_Ratio": {
+      "Value": 0.4
+    },
+    "AS_PartDestroy_HPPercentage": {
+      "Value": 0
+    },
+    "HpReduceAmount": {
+      "Value": 0
+    },
+    "MaxPartHP": {
+      "Value": 50.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(MaxHP)*specials(AS_MaxPartHP_Ratio)",
+        "ParamName": "MaxPartHP",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "HasPart"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_PartDestroy_HPPercentage)*property(MaxHP)",
+        "ParamName": "HpReduceAmount",
+        "ValueType": "Float"
+      }
+    ],
+    "OnBeingHit": [
+      {
+        "$type": "ReplaceDamageAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_PartDestroyed_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "TargetDamage": "%HpReduceAmount"
+      }
+    ]
+  },
+  "Modifiers": {
+    "PartDestroyedModifier": {
+      "Duration": 1.0,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Monster_DubiousHero_Break"
+          ],
+          "Tag": "Monster_DubiousHero_Break",
+          "Visible": false
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "HasPart"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PartDestroy",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Hit",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Monster_DubiousHero_PartDestroyed_Attackproperty_01",
+          "AttachPoint": "Bip001 L Hand",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

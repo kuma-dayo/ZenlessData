@@ -1,0 +1,46 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_01",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.5
+    },
+    "AS_AddedStunRatio": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid",
+              "AttackAid"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedStunRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackAid",
+              "AssaultAid"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

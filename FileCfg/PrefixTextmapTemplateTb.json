@@ -1,0 +1,82 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "PJIDKGKBLMN": "Quest_Main",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble01.png",
+      "NAPGNNFJFKD": "FF9500FF"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "PJIDKGKBLMN": "Quest_Todo_SideQuest",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "PJIDKGKBLMN": "Quest_Character",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble01.png",
+      "NAPGNNFJFKD": "FF9500FF"
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "PJIDKGKBLMN": "Quest_Daily",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 6,
+      "PJIDKGKBLMN": "Quest_Activity",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble04.png",
+      "NAPGNNFJFKD": "BDFF01"
+    },
+    {
+      "NGPCCDGBLLK": 7,
+      "PJIDKGKBLMN": "Quest_Todo_Trust",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "PJIDKGKBLMN": "Quest_OVA",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble01.png",
+      "NAPGNNFJFKD": "FF9500FF"
+    },
+    {
+      "NGPCCDGBLLK": 21,
+      "PJIDKGKBLMN": "Quest_SideQuest_21",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 22,
+      "PJIDKGKBLMN": "Quest_SideQuest_22",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 23,
+      "PJIDKGKBLMN": "Quest_SideQuest_23",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 24,
+      "PJIDKGKBLMN": "Quest_SideQuest_24",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 25,
+      "PJIDKGKBLMN": "Quest_SideQuest_25",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    },
+    {
+      "NGPCCDGBLLK": 32,
+      "PJIDKGKBLMN": "Quest_Character",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconMissionSmall/Packer/IconNPCBubble02.png",
+      "NAPGNNFJFKD": "00A1FFFF"
+    }
+  ]
+}

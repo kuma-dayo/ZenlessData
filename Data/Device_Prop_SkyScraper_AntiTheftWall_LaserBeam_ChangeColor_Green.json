@@ -1,0 +1,63 @@
+{
+  "AbilityName": "Device_Prop_SkyScraper_AntiTheftWall_LaserBeam_ChangeColor_Green",
+  "AbilityStacking": "Unique",
+  "OnAdded": [
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserFence_01_Attack_01_03_Beam",
+      "isActive": "true",
+      "layersIndex": [
+        2
+      ]
+    },
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserFence_01_Attack_01_03_Beam",
+      "isActive": "false",
+      "layersIndex": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserWall_01_Attack_01_05_Weapen",
+      "isActive": "true",
+      "layersIndex": [
+        2
+      ]
+    },
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserWall_01_Attack_01_05_Weapen",
+      "isActive": "false",
+      "layersIndex": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserWall_01_Attack_01_10_Weapen",
+      "isActive": "true",
+      "layersIndex": [
+        2
+      ]
+    },
+    {
+      "$type": "ModifyLayeredEffectAction",
+      "effectName": "Eff_Device_Prop_LaserWall_01_Attack_01_10_Weapen",
+      "isActive": "false",
+      "layersIndex": [
+        0,
+        1,
+        3,
+        4
+      ]
+    }
+  ]
+}

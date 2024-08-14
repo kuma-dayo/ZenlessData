@@ -1,0 +1,52 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_IsHitTarget",
+              "ParamType": 2,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_02_Start",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_Attack_02_Predicate",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_IsHitTarget",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_JaneDoe_Attack_02_Attackproperty_Check"
+            ]
+          },
+          {
+            "$type": "ByTeamGoodRoleType",
+            "RoleType": "TeamAvatars",
+            "Target": "Target"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

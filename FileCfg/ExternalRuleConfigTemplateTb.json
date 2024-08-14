@@ -1,0 +1,36 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "ODKNILFFDHK": "VO_Chessboard",
+      "EIHGNKBLMJG": "Play_VO_External_Chessboard"
+    },
+    {
+      "ODKNILFFDHK": "VO_Clue",
+      "EIHGNKBLMJG": "Play_VO_External_Clue"
+    },
+    {
+      "ODKNILFFDHK": "VO_Comic",
+      "EIHGNKBLMJG": "Play_VO_External_Comic"
+    },
+    {
+      "ODKNILFFDHK": "VO_Galgame",
+      "EIHGNKBLMJG": "Play_VO_External_Gal"
+    },
+    {
+      "ODKNILFFDHK": "VO_Level",
+      "EIHGNKBLMJG": "Play_VO_External_Level"
+    },
+    {
+      "ODKNILFFDHK": "VO_Maincity_NPC",
+      "EIHGNKBLMJG": "Play_VO_External_Maincity_NPC"
+    },
+    {
+      "ODKNILFFDHK": "VO_Message",
+      "EIHGNKBLMJG": "Play_VO_External_Message"
+    },
+    {
+      "ODKNILFFDHK": "VO_Tips",
+      "EIHGNKBLMJG": "Play_VO_External_Tips"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Rush",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DamageTakeRatioModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_End",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DamageTakeRatioModifier",
+            "ReflectBulletModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Seth_ReflectBullet",
+  "AbilitySpecials": {
+    "AS_DamageTakeRatio": {
+      "Value": -0.4
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "DamageTakeRatioModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    },
+    "ReflectBulletModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ChangeReflectBulletStatusAction",
+          "ColliderConfig": {
+            "BulletTypeName": "ConfigurableSphereCollider",
+            "ColliderAngleOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "ColliderPosOffset": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0
+            },
+            "ColliderType": "Sphere",
+            "SphereColliderRadius": 0.75
+          },
+          "HitEffect": {},
+          "ReflectStatus": true
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ChangeReflectBulletStatusAction",
+          "ReflectStatus": false
+        }
+      ]
+    }
+  }
+}

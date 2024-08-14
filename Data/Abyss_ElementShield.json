@@ -1,0 +1,24 @@
+{
+  "AbilityName": "Abyss_ElementShield",
+  "AbilitySpecials": {
+    "AS_AddDamageRatio": {
+      "Value": 0
+    },
+    "HpPercentage_Boss": {
+      "Value": 0
+    },
+    "HpPercentage_Elite": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnInteractMsg": [
+      {
+        "$type": "FireEffect",
+        "EffectPattern": "Eff_Treasure_Open",
+        "Target": "Self"
+      }
+    ]
+  }
+}

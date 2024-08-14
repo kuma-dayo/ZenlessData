@@ -1,0 +1,304 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 1,
+              "ParamName": "Int_CurEvadeIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front_01",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 1,
+              "ParamName": "Int_CurEvadeIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back_01",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 0,
+              "ParamName": "Int_CurEvadeIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front_02",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 0,
+              "ParamName": "Int_CurEvadeIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back_02",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_06",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Front_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Back_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Front_02",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Back_02",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_02",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_02",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Special_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Run_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeKeepModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_EvadeCount",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "EvadeKeepModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_CurEvadeIndex",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

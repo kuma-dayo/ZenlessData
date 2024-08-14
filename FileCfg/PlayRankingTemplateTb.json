@@ -1,0 +1,70 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "JPAFACJPICL": 1,
+      "AEBEFDCIECF": "VRTraining_Combat_Basic",
+      "MMDADIACBCP": "20601",
+      "CAKECBMEDFD": "20602",
+      "DEKHDMLDPLD": "20603",
+      "JJDCMMFBMED": "BattleRank206Text1",
+      "EIHCDOHCJEB": "BattleRank206Text3",
+      "JDMCCOCOKLO": "BattleRank206Text2",
+      "GDBIIBPJHNP": 206
+    },
+    {
+      "JPAFACJPICL": 2,
+      "AEBEFDCIECF": "VRTraining_Combat_Skill",
+      "MMDADIACBCP": "21101",
+      "CAKECBMEDFD": "21102",
+      "DEKHDMLDPLD": "21103",
+      "JJDCMMFBMED": "BattleRank208Text1",
+      "EIHCDOHCJEB": "BattleRank208Text3",
+      "JDMCCOCOKLO": "BattleRank208Text2",
+      "GDBIIBPJHNP": 208
+    },
+    {
+      "JPAFACJPICL": 3,
+      "AEBEFDCIECF": "VRTraining_Combat_Promotion",
+      "MMDADIACBCP": "21001",
+      "CAKECBMEDFD": "21002",
+      "DEKHDMLDPLD": "21003",
+      "JJDCMMFBMED": "BattleRank210Text1",
+      "EIHCDOHCJEB": "BattleRank210Text3",
+      "JDMCCOCOKLO": "BattleRank210Text2",
+      "GDBIIBPJHNP": 210
+    },
+    {
+      "JPAFACJPICL": 4,
+      "AEBEFDCIECF": "VRTraining_Combat_Weapon",
+      "MMDADIACBCP": "20801",
+      "CAKECBMEDFD": "20802",
+      "DEKHDMLDPLD": "20803",
+      "JJDCMMFBMED": "BattleRank211Text1",
+      "EIHCDOHCJEB": "BattleRank211Text3",
+      "JDMCCOCOKLO": "BattleRank211Text2",
+      "GDBIIBPJHNP": 217
+    },
+    {
+      "JPAFACJPICL": 5,
+      "AEBEFDCIECF": "",
+      "MMDADIACBCP": "21301",
+      "CAKECBMEDFD": "21302",
+      "DEKHDMLDPLD": "21303",
+      "JJDCMMFBMED": "BattleRank213Text1",
+      "EIHCDOHCJEB": "BattleRank213Text2",
+      "JDMCCOCOKLO": "BattleRank213Text3",
+      "GDBIIBPJHNP": 213
+    },
+    {
+      "JPAFACJPICL": 6,
+      "AEBEFDCIECF": "",
+      "MMDADIACBCP": "1071071001",
+      "CAKECBMEDFD": "1071071002",
+      "DEKHDMLDPLD": "1071071003",
+      "JJDCMMFBMED": "BattleRank218Text1",
+      "EIHCDOHCJEB": "BattleRank218Text2",
+      "JDMCCOCOKLO": "BattleRank218Text3",
+      "GDBIIBPJHNP": 218
+    }
+  ]
+}

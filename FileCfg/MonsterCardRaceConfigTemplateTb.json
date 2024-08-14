@@ -1,0 +1,34 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 0,
+      "NGNGHMFLKJP": "RaceDesc_0",
+      "OKNAPIOKBJE": ""
+    },
+    {
+      "NGPCCDGBLLK": 1,
+      "NGNGHMFLKJP": "RaceDesc_1",
+      "OKNAPIOKBJE": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/BossType01.png"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "NGNGHMFLKJP": "RaceDesc_2",
+      "OKNAPIOKBJE": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/BossType03.png"
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "NGNGHMFLKJP": "RaceDesc_1",
+      "OKNAPIOKBJE": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/BossType01.png"
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "NGNGHMFLKJP": "RaceDesc_3",
+      "OKNAPIOKBJE": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/BossType02.png"
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "NGNGHMFLKJP": "RaceDesc_1",
+      "OKNAPIOKBJE": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/CardResources/BossType01.png"
+    }
+  ]
+}

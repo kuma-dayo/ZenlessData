@@ -1,0 +1,24 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "IPGPCHPJGGI": 1,
+      "ECNLOKIOPIP": "Quest_VHSType_Name_02",
+      "LAABNPFDFPF": "UI/Sprite/A1DynamicLoad/MainStoryPage/UnPacker/MainStoryDeck/DeckType01.png"
+    },
+    {
+      "IPGPCHPJGGI": 2,
+      "ECNLOKIOPIP": "Quest_VHSType_Name_01",
+      "LAABNPFDFPF": "UI/Sprite/A1DynamicLoad/MainStoryPage/UnPacker/MainStoryDeck/DeckType02.png"
+    },
+    {
+      "IPGPCHPJGGI": 3,
+      "ECNLOKIOPIP": "Quest_VHSType_Name_03",
+      "LAABNPFDFPF": "UI/Sprite/A1DynamicLoad/MainStoryPage/UnPacker/MainStoryDeck/DeckType04.png"
+    },
+    {
+      "IPGPCHPJGGI": 4,
+      "ECNLOKIOPIP": "Quest_VHSType_Name_04",
+      "LAABNPFDFPF": "UI/Sprite/A1DynamicLoad/MainStoryPage/UnPacker/MainStoryDeck/DeckType03.png"
+    }
+  ]
+}

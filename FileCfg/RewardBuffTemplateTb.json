@@ -1,0 +1,933 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarExp"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarExp"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1001",
+      "FCNKLMKCKNC": [
+        300001,
+        300002,
+        300003
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1001",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarEXP",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1001_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponExp"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponExp"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1002",
+      "FCNKLMKCKNC": [
+        301001,
+        301002,
+        301003
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1002",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponEXP",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1002_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_Coin"
+      ],
+      "ONICNAIHODJ": [
+        "Coin"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1003",
+      "FCNKLMKCKNC": [
+        10
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1003",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeCoinUp",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1003_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankDamage",
+        "MonsterCard_AvatarRankStun",
+        "MonsterCard_AvatarRankBuff",
+        "MonsterCard_AvatarRankSupport",
+        "MonsterCard_AvatarRankShield"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankDamage",
+        "AvatarRankStun",
+        "AvatarRankBuff",
+        "AvatarRankSupport",
+        "AvatarRankShield"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1004",
+      "FCNKLMKCKNC": [
+        100211,
+        100221,
+        100231,
+        100212,
+        100222,
+        100232,
+        100213,
+        100223,
+        100233,
+        100214,
+        100224,
+        100234,
+        100215,
+        100225,
+        100235
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1004",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarRank",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1004_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillPhys",
+        "MonsterCard_AvatarSkillFire",
+        "MonsterCard_AvatarSkillIce",
+        "MonsterCard_AvatarSkillThunder",
+        "MonsterCard_AvatarSkillEther"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillPhys",
+        "AvatarSkillFire",
+        "AvatarSkillIce",
+        "AvatarSkillThunder",
+        "AvatarSkillEther"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1005",
+      "FCNKLMKCKNC": [
+        100110,
+        100120,
+        100130,
+        100111,
+        100121,
+        100131,
+        100112,
+        100122,
+        100132,
+        100113,
+        100123,
+        100133,
+        100115,
+        100125,
+        100135
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1005",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillCommon",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1005_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankDamage",
+        "MonsterCard_WeaponRankStun",
+        "MonsterCard_WeaponRankBuff",
+        "MonsterCard_WeaponRankSupport",
+        "MonsterCard_WeaponRankShield"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankDamage",
+        "WeaponRankStun",
+        "WeaponRankBuff",
+        "WeaponRankSupport",
+        "WeaponRankShield"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 5,
+      "HMHKHPPOIJG": "CafeBuffDescription_1006",
+      "FCNKLMKCKNC": [
+        101010,
+        101020,
+        101030,
+        101011,
+        101021,
+        101031,
+        101012,
+        101022,
+        101032,
+        101013,
+        101023,
+        101033,
+        101014,
+        101024,
+        101034
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1006",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponRank",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1006_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1007,
+      "KAALDJEIIBI": 3,
+      "KNBENCNGLKN": 1,
+      "OJIIJBKHGPC": [
+        "EquipBattle"
+      ],
+      "ONICNAIHODJ": [
+        "Equip"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 2,
+      "HMHKHPPOIJG": "CafeBuffDescription_1007",
+      "FCNKLMKCKNC": [
+        831040,
+        831140,
+        831240,
+        831340,
+        831440,
+        831540,
+        831640,
+        832240,
+        832340,
+        832440,
+        832540,
+        832640
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1007",
+      "PKJGEKPEKGL": [
+        4
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_Battle"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_EquipBattle",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSuitAdd",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_EquipBattle",
+      "NIOHGECMKFM": 9012,
+      "OCNAKKJDEIG": "CafeBuffTips08_EquipBattle",
+      "BJDJEKAMLIO": "CafeBuffDescription_1007_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 1008,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_EquipExp"
+      ],
+      "ONICNAIHODJ": [
+        "EquipExp"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 6,
+      "HMHKHPPOIJG": "CafeBuffDescription_1008",
+      "FCNKLMKCKNC": [
+        302001,
+        302002,
+        302003
+      ],
+      "ELJHDHJKNHH": "BuffItemText_1008",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSuitEXP",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_1008_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 2001,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarExp"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarExp"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_2001",
+      "FCNKLMKCKNC": [
+        300001,
+        300002,
+        300003
+      ],
+      "ELJHDHJKNHH": "BuffItemText_2001",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarEXP",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_2001_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 2002,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponExp"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponExp"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_2002",
+      "FCNKLMKCKNC": [
+        301001,
+        301002,
+        301003
+      ],
+      "ELJHDHJKNHH": "BuffItemText_2002",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponEXP",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_2002_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 2003,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_Coin"
+      ],
+      "ONICNAIHODJ": [
+        "Coin"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_2003",
+      "FCNKLMKCKNC": [
+        10
+      ],
+      "ELJHDHJKNHH": "BuffItemText_2003",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeCoinUp",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_2003_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3000,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankStun"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankStun"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3002",
+      "FCNKLMKCKNC": [
+        100212,
+        100222,
+        100232
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3002",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarStun",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 0,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3002_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3001,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankDamage"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankDamage"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3001",
+      "FCNKLMKCKNC": [
+        100211,
+        100221,
+        100231
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3001",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarAttack",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3001_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3002,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankStun"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankStun"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3002",
+      "FCNKLMKCKNC": [
+        100212,
+        100222,
+        100232
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3002",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarStun",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3002_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3003,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankBuff"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankBuff"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3003",
+      "FCNKLMKCKNC": [
+        100213,
+        100223,
+        100233
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3003",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarAnomaly",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3003_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3004,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankSupport"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankSupport"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3004",
+      "FCNKLMKCKNC": [
+        100214,
+        100224,
+        100234
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3004",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarSupport",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3004_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3005,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarRankShield"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarRankShield"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3005",
+      "FCNKLMKCKNC": [
+        100215,
+        100225,
+        100235
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3005",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeAvatarDefense",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3005_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3006,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillPhys"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillPhys"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3006",
+      "FCNKLMKCKNC": [
+        100110,
+        100120,
+        100130
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3006",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillPhys",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3006_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3007,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillFire"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillFire"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3007",
+      "FCNKLMKCKNC": [
+        100111,
+        100121,
+        100131
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3007",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillFire",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3007_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3008,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillIce"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillIce"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3008",
+      "FCNKLMKCKNC": [
+        100112,
+        100122,
+        100132
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3008",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillIce",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3008_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3009,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillThunder"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillThunder"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3009",
+      "FCNKLMKCKNC": [
+        100113,
+        100123,
+        100133
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3009",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillThunder",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3009_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3010,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_AvatarSkillEther"
+      ],
+      "ONICNAIHODJ": [
+        "AvatarSkillEther"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3010",
+      "FCNKLMKCKNC": [
+        100115,
+        100125,
+        100135
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3010",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeSkillEther",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3010_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3011,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankDamage"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankDamage"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3011",
+      "FCNKLMKCKNC": [
+        101010,
+        101020,
+        101030
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3011",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponAttack",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3011_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3012,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankStun"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankStun"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3012",
+      "FCNKLMKCKNC": [
+        101011,
+        101021,
+        101031
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3012",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponStun",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3012_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3013,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankBuff"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankBuff"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3013",
+      "FCNKLMKCKNC": [
+        101012,
+        101022,
+        101032
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3013",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponAnomaly",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3013_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3014,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankSupport"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankSupport"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3014",
+      "FCNKLMKCKNC": [
+        101013,
+        101023,
+        101033
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3014",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponSupport",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3014_Simplified"
+    },
+    {
+      "NGPCCDGBLLK": 3015,
+      "KAALDJEIIBI": 2,
+      "KNBENCNGLKN": 10000,
+      "OJIIJBKHGPC": [
+        "MonsterCard_WeaponRankShield"
+      ],
+      "ONICNAIHODJ": [
+        "WeaponRankShield"
+      ],
+      "EIBGOKMDMJA": 24,
+      "DIIGHPHDKPA": 1,
+      "HMHKHPPOIJG": "CafeBuffDescription_3015",
+      "FCNKLMKCKNC": [
+        101014,
+        101024,
+        101034
+      ],
+      "ELJHDHJKNHH": "BuffItemText_3015",
+      "PKJGEKPEKGL": [
+        1
+      ],
+      "OJBHAICBABJ": [
+        "BuffLimitText_VR"
+      ],
+      "LNKDFLJNBEL": "CafeBuffPlace_VR",
+      "AGIFMOOCOOD": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Cafe/Packer/IconType/IconTypeWeaponDefense",
+      "LIGNENCDEDL": "CafeOrderTipsTitle_VR",
+      "NIOHGECMKFM": 9011,
+      "OCNAKKJDEIG": "CafeBuffTips08_VR",
+      "BJDJEKAMLIO": "CafeBuffDescription_3015_Simplified"
+    }
+  ]
+}

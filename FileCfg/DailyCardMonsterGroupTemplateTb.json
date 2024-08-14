@@ -1,0 +1,4729 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 100001,
+      "EOFFBCPPMJN": "11096:1:0|11096:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100011,
+      "EOFFBCPPMJN": "11103:1:0|11103:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A51"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100021,
+      "EOFFBCPPMJN": "11141:1:0|11141:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100031,
+      "EOFFBCPPMJN": "11203:1:0|11203:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100041,
+      "EOFFBCPPMJN": "11273:1:0|11273:1:0|11253:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100051,
+      "EOFFBCPPMJN": "11251:1:0|11251:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A51"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100061,
+      "EOFFBCPPMJN": "11281:1:0|11281:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100071,
+      "EOFFBCPPMJN": "11371:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A51"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100081,
+      "EOFFBCPPMJN": "11343:1:0|11343:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100091,
+      "EOFFBCPPMJN": "11333:1:0|11333:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A51"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100101,
+      "EOFFBCPPMJN": "11321:1:0|11321:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A51"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100111,
+      "EOFFBCPPMJN": "11311:1:0|11311:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100121,
+      "EOFFBCPPMJN": "11071:1:0|11071:1:0|11071:1:0|11071:1:0|11071:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100131,
+      "EOFFBCPPMJN": "11071:1:0|11073:1:0|11073:1:0|11073:1:0|11071:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100141,
+      "EOFFBCPPMJN": "11771:1:0|11771:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100151,
+      "EOFFBCPPMJN": "11781:1:0|11781:1:0|11771:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100161,
+      "EOFFBCPPMJN": "11163:1:0|11163:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100171,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 100181,
+      "EOFFBCPPMJN": "11491:1:0|11491:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110001,
+      "EOFFBCPPMJN": "11114:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110002,
+      "EOFFBCPPMJN": "11115:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110003,
+      "EOFFBCPPMJN": "11731:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110011,
+      "EOFFBCPPMJN": "11225:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110012,
+      "EOFFBCPPMJN": "11226:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110021,
+      "EOFFBCPPMJN": "11213:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110022,
+      "EOFFBCPPMJN": "11214:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110031,
+      "EOFFBCPPMJN": "11123:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110032,
+      "EOFFBCPPMJN": "11124:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110041,
+      "EOFFBCPPMJN": "11222:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110051,
+      "EOFFBCPPMJN": "11292:1:0|11096:1:0|11096:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110061,
+      "EOFFBCPPMJN": "11192:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110062,
+      "EOFFBCPPMJN": "11194:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110071,
+      "EOFFBCPPMJN": "11381:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110081,
+      "EOFFBCPPMJN": "11351:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110082,
+      "EOFFBCPPMJN": "11352:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110083,
+      "EOFFBCPPMJN": "11354:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110091,
+      "EOFFBCPPMJN": "11361:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110092,
+      "EOFFBCPPMJN": "11362:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110093,
+      "EOFFBCPPMJN": "11363:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110101,
+      "EOFFBCPPMJN": "11011:1:0|11021:1:0|11041:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110111,
+      "EOFFBCPPMJN": "11263:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110112,
+      "EOFFBCPPMJN": "11261:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110121,
+      "EOFFBCPPMJN": "11501:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110131,
+      "EOFFBCPPMJN": "11031:1:0|11031:1:0|11044:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110141,
+      "EOFFBCPPMJN": "11371:1:0|11371:1:0|11381:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110151,
+      "EOFFBCPPMJN": "11441:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110152,
+      "EOFFBCPPMJN": "11351:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110161,
+      "EOFFBCPPMJN": "11451:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110162,
+      "EOFFBCPPMJN": "11361:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110171,
+      "EOFFBCPPMJN": "11046:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110181,
+      "EOFFBCPPMJN": "11511:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110191,
+      "EOFFBCPPMJN": "11045:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 110201,
+      "EOFFBCPPMJN": "11051:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 120001,
+      "EOFFBCPPMJN": "11154:1:0|11154:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 9,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 120002,
+      "EOFFBCPPMJN": "11154:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 9,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 120011,
+      "EOFFBCPPMJN": "11184:1:0|11184:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 120012,
+      "EOFFBCPPMJN": "11184:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 120021,
+      "EOFFBCPPMJN": "11235:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 120031,
+      "EOFFBCPPMJN": "11051:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 120041,
+      "EOFFBCPPMJN": "11401:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 120051,
+      "EOFFBCPPMJN": "11301:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 120061,
+      "EOFFBCPPMJN": "11391:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 190001,
+      "EOFFBCPPMJN": "11241:1:0|11241:1:0|11241:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A80",
+        "MonsterPos_A128",
+        "MonsterPos_A103"
+      ],
+      "LPBPBEEGLCI": 99,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 20,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 200001,
+      "EOFFBCPPMJN": "11096:1:0|11096:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200011,
+      "EOFFBCPPMJN": "11103:1:0|11103:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200021,
+      "EOFFBCPPMJN": "11141:1:0|11141:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200031,
+      "EOFFBCPPMJN": "11203:1:0|11203:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200041,
+      "EOFFBCPPMJN": "11273:1:0|11273:1:0|11253:1:0|11253:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200051,
+      "EOFFBCPPMJN": "11251:1:0|11251:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200061,
+      "EOFFBCPPMJN": "11281:1:0|11281:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200071,
+      "EOFFBCPPMJN": "11371:1:0|11371:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200081,
+      "EOFFBCPPMJN": "11343:1:0|11343:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200091,
+      "EOFFBCPPMJN": "11333:1:0|11333:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200101,
+      "EOFFBCPPMJN": "11321:1:0|11321:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200111,
+      "EOFFBCPPMJN": "11311:1:0|11311:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200141,
+      "EOFFBCPPMJN": "11771:1:0|11771:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200151,
+      "EOFFBCPPMJN": "11781:1:0|11781:1:0|11771:1:0|11771:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200161,
+      "EOFFBCPPMJN": "11163:1:0|11163:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200171,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 200181,
+      "EOFFBCPPMJN": "11491:1:0|11491:1:0|11481:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210001,
+      "EOFFBCPPMJN": "11114:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210002,
+      "EOFFBCPPMJN": "11115:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210003,
+      "EOFFBCPPMJN": "11731:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210011,
+      "EOFFBCPPMJN": "11225:1:0|11203:1:0|11203:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210012,
+      "EOFFBCPPMJN": "11226:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210021,
+      "EOFFBCPPMJN": "11213:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210022,
+      "EOFFBCPPMJN": "11214:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210031,
+      "EOFFBCPPMJN": "11123:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210032,
+      "EOFFBCPPMJN": "11124:1:0|11091:1:0|11091:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210041,
+      "EOFFBCPPMJN": "11222:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210061,
+      "EOFFBCPPMJN": "11192:1:0|11203:1:0|11203:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210062,
+      "EOFFBCPPMJN": "11194:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210071,
+      "EOFFBCPPMJN": "11381:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210081,
+      "EOFFBCPPMJN": "11351:1:0|11331:1:0|11331:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210082,
+      "EOFFBCPPMJN": "11352:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210083,
+      "EOFFBCPPMJN": "11354:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210091,
+      "EOFFBCPPMJN": "11361:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210092,
+      "EOFFBCPPMJN": "11362:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210093,
+      "EOFFBCPPMJN": "11363:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210111,
+      "EOFFBCPPMJN": "11263:1:0|11163:1:0|11163:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210112,
+      "EOFFBCPPMJN": "11261:1:0|11161:1:0|11161:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210121,
+      "EOFFBCPPMJN": "11501:1:0|11481:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210151,
+      "EOFFBCPPMJN": "11441:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210161,
+      "EOFFBCPPMJN": "11451:1:0|11281:1:0|11281:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210171,
+      "EOFFBCPPMJN": "11046:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 210181,
+      "EOFFBCPPMJN": "11511:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300001,
+      "EOFFBCPPMJN": "11097:1:0|11097:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300011,
+      "EOFFBCPPMJN": "11104:1:0|11104:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300021,
+      "EOFFBCPPMJN": "11142:1:0|11142:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300031,
+      "EOFFBCPPMJN": "11204:1:0|11204:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300041,
+      "EOFFBCPPMJN": "11274:1:0|11274:1:0|11253:1:0|11253:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300051,
+      "EOFFBCPPMJN": "11252:1:0|11252:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300061,
+      "EOFFBCPPMJN": "11282:1:0|11282:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300071,
+      "EOFFBCPPMJN": "11372:1:0|11372:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300081,
+      "EOFFBCPPMJN": "11344:1:0|11344:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300091,
+      "EOFFBCPPMJN": "11334:1:0|11334:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300101,
+      "EOFFBCPPMJN": "11322:1:0|11322:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300111,
+      "EOFFBCPPMJN": "11312:1:0|11312:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300141,
+      "EOFFBCPPMJN": "11772:1:0|11772:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300151,
+      "EOFFBCPPMJN": "11782:1:0|11782:1:0|11771:1:0|11771:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300161,
+      "EOFFBCPPMJN": "11164:1:0|11164:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300171,
+      "EOFFBCPPMJN": "11482:1:0|11482:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 300181,
+      "EOFFBCPPMJN": "11492:1:0|11492:1:0|11481:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A50",
+        "MonsterPos_A48",
+        "MonsterPos_A60",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310001,
+      "EOFFBCPPMJN": "11114:1:0|11114:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310002,
+      "EOFFBCPPMJN": "11115:1:0|11115:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310003,
+      "EOFFBCPPMJN": "11731:1:0|11731:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310011,
+      "EOFFBCPPMJN": "11225:1:0|11225:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310012,
+      "EOFFBCPPMJN": "11226:1:0|11226:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310021,
+      "EOFFBCPPMJN": "11213:1:0|11213:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310022,
+      "EOFFBCPPMJN": "11214:1:0|11214:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310031,
+      "EOFFBCPPMJN": "11123:1:0|11123:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310032,
+      "EOFFBCPPMJN": "11124:1:0|11124:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310041,
+      "EOFFBCPPMJN": "11222:1:0|11222:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310061,
+      "EOFFBCPPMJN": "11192:1:0|11192:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310062,
+      "EOFFBCPPMJN": "11194:1:0|11194:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310071,
+      "EOFFBCPPMJN": "11381:1:0|11381:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310081,
+      "EOFFBCPPMJN": "11351:1:0|11351:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310082,
+      "EOFFBCPPMJN": "11352:1:0|11352:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310083,
+      "EOFFBCPPMJN": "11354:1:0|11354:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310091,
+      "EOFFBCPPMJN": "11361:1:0|11361:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310092,
+      "EOFFBCPPMJN": "11362:1:0|11362:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310093,
+      "EOFFBCPPMJN": "11363:1:0|11363:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310111,
+      "EOFFBCPPMJN": "11263:1:0|11263:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310112,
+      "EOFFBCPPMJN": "11261:1:0|11261:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310121,
+      "EOFFBCPPMJN": "11501:1:0|11501:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310151,
+      "EOFFBCPPMJN": "11441:1:0|11441:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310161,
+      "EOFFBCPPMJN": "11451:1:0|11451:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310171,
+      "EOFFBCPPMJN": "11046:1:0|11046:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 310181,
+      "EOFFBCPPMJN": "11511:1:0|11511:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400001,
+      "EOFFBCPPMJN": "11097:1:0|11097:1:0|11097:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400011,
+      "EOFFBCPPMJN": "11104:1:0|11104:1:0|11104:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400021,
+      "EOFFBCPPMJN": "11142:1:0|11142:1:0|11142:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400031,
+      "EOFFBCPPMJN": "11204:1:0|11204:1:0|11204:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400041,
+      "EOFFBCPPMJN": "11272:1:0|11272:1:0|11272:1:0|11253:1:0|11253:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400051,
+      "EOFFBCPPMJN": "11252:1:0|11252:1:0|11252:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400061,
+      "EOFFBCPPMJN": "11282:1:0|11282:1:0|11282:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400071,
+      "EOFFBCPPMJN": "11372:1:0|11372:1:0|11372:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400081,
+      "EOFFBCPPMJN": "11344:1:0|11344:1:0|11344:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400091,
+      "EOFFBCPPMJN": "11332:1:0|11332:1:0|11332:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400101,
+      "EOFFBCPPMJN": "11322:1:0|11322:1:0|11322:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A50",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400111,
+      "EOFFBCPPMJN": "11312:1:0|11312:1:0|11312:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400141,
+      "EOFFBCPPMJN": "11772:1:0|11771:1:0|11771:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400151,
+      "EOFFBCPPMJN": "11712:1:0|11711:1:0|11711:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400161,
+      "EOFFBCPPMJN": "11162:1:0|11162:1:0|11162:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400171,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11481:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 400181,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11481:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A49",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410001,
+      "EOFFBCPPMJN": "11114:1:0|11103:1:0|11103:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410002,
+      "EOFFBCPPMJN": "11115:1:0|11103:1:0|11103:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410003,
+      "EOFFBCPPMJN": "11731:1:0|11781:1:0|11781:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410011,
+      "EOFFBCPPMJN": "11225:1:0|11203:1:0|11203:1:0|11203:1:0|11203:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410012,
+      "EOFFBCPPMJN": "11226:1:0|11201:1:0|11201:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410021,
+      "EOFFBCPPMJN": "11213:1:0|11096:1:0|11096:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410022,
+      "EOFFBCPPMJN": "11214:1:0|11096:1:0|11096:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410031,
+      "EOFFBCPPMJN": "11123:1:0|11096:1:0|11096:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410032,
+      "EOFFBCPPMJN": "11124:1:0|11091:1:0|11091:1:0|11091:1:0|11091:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410041,
+      "EOFFBCPPMJN": "11222:1:0|11201:1:0|11201:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410061,
+      "EOFFBCPPMJN": "11192:1:0|11203:1:0|11203:1:0|11203:1:0|11203:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410062,
+      "EOFFBCPPMJN": "11194:1:0|11201:1:0|11201:1:0|11201:1:0|11201:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410071,
+      "EOFFBCPPMJN": "11381:1:0|11371:1:0|11371:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410081,
+      "EOFFBCPPMJN": "11351:1:0|11331:1:0|11331:1:0|11331:1:0|11331:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410082,
+      "EOFFBCPPMJN": "11352:1:0|11333:1:0|11333:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410083,
+      "EOFFBCPPMJN": "11354:1:0|11333:1:0|11333:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410091,
+      "EOFFBCPPMJN": "11361:1:0|11311:1:0|11311:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410092,
+      "EOFFBCPPMJN": "11362:1:0|11311:1:0|11311:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410093,
+      "EOFFBCPPMJN": "11363:1:0|11313:1:0|11313:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410111,
+      "EOFFBCPPMJN": "11263:1:0|11163:1:0|11163:1:0|11163:1:0|11163:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410112,
+      "EOFFBCPPMJN": "11261:1:0|11161:1:0|11161:1:0|11161:1:0|11161:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410121,
+      "EOFFBCPPMJN": "11501:1:0|11481:1:0|11481:1:0|11481:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410151,
+      "EOFFBCPPMJN": "11441:1:0|11271:1:0|11271:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410161,
+      "EOFFBCPPMJN": "11451:1:0|11281:1:0|11281:1:0|11281:1:0|11281:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410171,
+      "EOFFBCPPMJN": "11046:1:0|11321:1:0|11321:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 410181,
+      "EOFFBCPPMJN": "11511:1:0|11491:1:0|11491:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A58",
+        "MonsterPos_A50",
+        "MonsterPos_A68",
+        "MonsterPos_A66",
+        "MonsterPos_A48"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500001,
+      "EOFFBCPPMJN": "11097:1:0|11097:1:0|11097:1:0|11103:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500011,
+      "EOFFBCPPMJN": "11104:1:0|11104:1:0|11104:1:0|11096:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500021,
+      "EOFFBCPPMJN": "11142:1:0|11142:1:0|11142:1:0|11103:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500031,
+      "EOFFBCPPMJN": "11204:1:0|11204:1:0|11204:1:0|11103:1:0|11103:1:0|11103:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500041,
+      "EOFFBCPPMJN": "11272:1:0|11272:1:0|11272:1:0|11253:1:0|11253:1:0|11253:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500051,
+      "EOFFBCPPMJN": "11252:1:0|11252:1:0|11252:1:0|11271:1:0|11271:1:0|11271:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500061,
+      "EOFFBCPPMJN": "11282:1:0|11282:1:0|11282:1:0|11251:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500071,
+      "EOFFBCPPMJN": "11372:1:0|11372:1:0|11372:1:0|11371:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500081,
+      "EOFFBCPPMJN": "11344:1:0|11344:1:0|11344:1:0|11333:1:0|11333:1:0|11333:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500091,
+      "EOFFBCPPMJN": "11332:1:0|11332:1:0|11332:1:0|11313:1:0|11313:1:0|11313:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500101,
+      "EOFFBCPPMJN": "11322:1:0|11322:1:0|11322:1:0|11311:1:0|11311:1:0|11311:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56",
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500111,
+      "EOFFBCPPMJN": "11312:1:0|11312:1:0|11312:1:0|11321:1:0|11321:1:0|11321:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500141,
+      "EOFFBCPPMJN": "11772:1:0|11771:1:0|11771:1:0|11781:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500151,
+      "EOFFBCPPMJN": "11712:1:0|11711:1:0|11711:1:0|11781:1:0|11781:1:0|11781:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500161,
+      "EOFFBCPPMJN": "11162:1:0|11162:1:0|11162:1:0|11251:1:0|11251:1:0|11251:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500171,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11481:1:0|11491:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 500181,
+      "EOFFBCPPMJN": "11481:1:0|11481:1:0|11481:1:0|11491:1:0|11491:1:0|11491:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A49",
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A60",
+        "MonsterPos_A58",
+        "MonsterPos_A56"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510001,
+      "EOFFBCPPMJN": "11114:1:0|11114:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510002,
+      "EOFFBCPPMJN": "11115:1:0|11115:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510003,
+      "EOFFBCPPMJN": "11731:1:0|11731:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510011,
+      "EOFFBCPPMJN": "11225:1:0|11225:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510012,
+      "EOFFBCPPMJN": "11226:1:0|11226:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510021,
+      "EOFFBCPPMJN": "11213:1:0|11213:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 5,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510022,
+      "EOFFBCPPMJN": "11214:1:0|11214:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510031,
+      "EOFFBCPPMJN": "11123:1:0|11123:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510032,
+      "EOFFBCPPMJN": "11124:1:0|11124:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510041,
+      "EOFFBCPPMJN": "11222:1:0|11222:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510061,
+      "EOFFBCPPMJN": "11192:1:0|11192:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510062,
+      "EOFFBCPPMJN": "11194:1:0|11194:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510071,
+      "EOFFBCPPMJN": "11381:1:0|11381:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510081,
+      "EOFFBCPPMJN": "11351:1:0|11351:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510082,
+      "EOFFBCPPMJN": "11352:1:0|11352:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510083,
+      "EOFFBCPPMJN": "11354:1:0|11354:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510091,
+      "EOFFBCPPMJN": "11361:1:0|11361:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510092,
+      "EOFFBCPPMJN": "11362:1:0|11362:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510093,
+      "EOFFBCPPMJN": "11363:1:0|11363:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510111,
+      "EOFFBCPPMJN": "11263:1:0|11263:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510112,
+      "EOFFBCPPMJN": "11261:1:0|11261:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510121,
+      "EOFFBCPPMJN": "11501:1:0|11501:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510151,
+      "EOFFBCPPMJN": "11441:1:0|11441:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510161,
+      "EOFFBCPPMJN": "11451:1:0|11451:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510171,
+      "EOFFBCPPMJN": "11046:1:0|11046:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 510181,
+      "EOFFBCPPMJN": "11511:1:0|11511:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 8,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 990001,
+      "EOFFBCPPMJN": "11481:1:0|11491:1:0|11491:1:0|11481:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 2,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 990002,
+      "EOFFBCPPMJN": "11343:1:0|11321:1:0|11343:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 1,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 990003,
+      "EOFFBCPPMJN": "11371:1:0|11371:1:0|11371:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59",
+        "MonsterPos_A57",
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 999001,
+      "EOFFBCPPMJN": "11152:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 9,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999002,
+      "EOFFBCPPMJN": "11181:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 300,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999003,
+      "EOFFBCPPMJN": "11222:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A59"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999004,
+      "EOFFBCPPMJN": "11103:1:0|11103:1:0|11096:1:0|11096:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A51",
+        "MonsterPos_A47",
+        "MonsterPos_A59",
+        "MonsterPos_A57"
+      ],
+      "LPBPBEEGLCI": 3,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 100,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999005,
+      "EOFFBCPPMJN": "11231:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999006,
+      "EOFFBCPPMJN": "11051:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999007,
+      "EOFFBCPPMJN": "11061:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999008,
+      "EOFFBCPPMJN": "11212:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 6,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 1
+    },
+    {
+      "NGPCCDGBLLK": 999009,
+      "EOFFBCPPMJN": "11121:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A67"
+      ],
+      "LPBPBEEGLCI": 7,
+      "MOOGEPMLMJE": 0,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_30R",
+        "Stage_VR_TrainingRoom_30R_01",
+        "Stage_VR_TrainingRoom_30R_02"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 220,
+      "MKBDNFDOAFF": 3
+    },
+    {
+      "NGPCCDGBLLK": 999010,
+      "EOFFBCPPMJN": "11411:1:0",
+      "PNBDCALLMBD": [
+        "MonsterPos_A93"
+      ],
+      "LPBPBEEGLCI": 10,
+      "MOOGEPMLMJE": 1,
+      "BKHBPOCOMCF": [
+        "Stage_VR_TrainingRoom_50R"
+      ],
+      "CCIBNOMKDGB": "PlayerPos_A1",
+      "LHCPDNHJMBO": 350,
+      "MKBDNFDOAFF": 1
+    }
+  ]
+}

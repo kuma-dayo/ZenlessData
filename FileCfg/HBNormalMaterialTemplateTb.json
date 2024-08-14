@@ -1,0 +1,63 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "OGBGJHDFJGH": 1,
+      "AMFBANBLDMN": "VR_MonsterCardEntrance1",
+      "FMOEMECCDOH": "UIText_758",
+      "AJPGNCEMHFH": 114,
+      "INCHKODOGHA": [
+        10,
+        300003,
+        301003,
+        302003
+      ],
+      "KNGMJMNNAJC": 0,
+      "ENKEGNONPMA": 1001
+    },
+    {
+      "OGBGJHDFJGH": 2,
+      "AMFBANBLDMN": "VR_MonsterCardEntrance2",
+      "FMOEMECCDOH": "UIText_758",
+      "AJPGNCEMHFH": 115,
+      "INCHKODOGHA": [
+        100231,
+        100232,
+        100233,
+        100234,
+        100235
+      ],
+      "KNGMJMNNAJC": 0,
+      "ENKEGNONPMA": 1002
+    },
+    {
+      "OGBGJHDFJGH": 3,
+      "AMFBANBLDMN": "VR_MonsterCardEntrance4",
+      "FMOEMECCDOH": "UIText_758",
+      "AJPGNCEMHFH": 117,
+      "INCHKODOGHA": [
+        101030,
+        101031,
+        101032,
+        101033,
+        101034
+      ],
+      "KNGMJMNNAJC": 0,
+      "ENKEGNONPMA": 1003
+    },
+    {
+      "OGBGJHDFJGH": 4,
+      "AMFBANBLDMN": "VR_MonsterCardEntrance3",
+      "FMOEMECCDOH": "UIText_758",
+      "AJPGNCEMHFH": 116,
+      "INCHKODOGHA": [
+        100130,
+        100131,
+        100132,
+        100133,
+        100135
+      ],
+      "KNGMJMNNAJC": 10061,
+      "ENKEGNONPMA": 1004
+    }
+  ]
+}

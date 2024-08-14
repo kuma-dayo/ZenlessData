@@ -1,0 +1,18 @@
+{
+  "AbilityName": "JaneDoe_Talent_01",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": 2,
+        "CustomPropertyType": "MaxBranchAttackUseTime",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Replace",
+        "PropertyType": "Custom"
+      }
+    ]
+  }
+}

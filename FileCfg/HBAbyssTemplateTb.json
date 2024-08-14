@@ -1,0 +1,134 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "BJDHBEEKDIA": 10100101,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_1",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ChallengeZero01.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10049,
+      "APJEFBOIIJK": [
+        10049,
+        10052
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810101,HB_UnlockTips_Abyss_122810102",
+      "GMCMDNPMFIF": 1
+    },
+    {
+      "BJDHBEEKDIA": 10100102,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_2",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ChallengeZero02.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10052,
+      "APJEFBOIIJK": [
+        10049,
+        10052,
+        10053,
+        10054
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810111,HB_UnlockTips_Abyss_122810112,HB_UnlockTips_Abyss_122810113,HB_UnlockTips_Abyss_122810114,HB_UnlockTips_Abyss_122810115",
+      "GMCMDNPMFIF": 2
+    },
+    {
+      "BJDHBEEKDIA": 10100103,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_3",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ChallengeZero03.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10053,
+      "APJEFBOIIJK": [
+        10049,
+        10052,
+        10053,
+        10054,
+        10055
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810121,HB_UnlockTips_Abyss_122810122,HB_UnlockTips_Abyss_122810123,HB_UnlockTips_Abyss_122810124",
+      "GMCMDNPMFIF": 3
+    },
+    {
+      "BJDHBEEKDIA": 10100104,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_4",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ChallengeZero04.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10054,
+      "APJEFBOIIJK": [
+        10049,
+        10052,
+        10053
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810131,HB_UnlockTips_Abyss_122810132,HB_UnlockTips_Abyss_122810133",
+      "GMCMDNPMFIF": 4
+    },
+    {
+      "BJDHBEEKDIA": 10100105,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_5",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ChallengeZero05.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10055,
+      "APJEFBOIIJK": [
+        10055
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810141",
+      "GMCMDNPMFIF": 5
+    },
+    {
+      "BJDHBEEKDIA": 10100106,
+      "BAIBAEKEAHB": "AbyssText_EntranceName_1_6",
+      "NOINPLDBDDJ": "AbyssText_Rule_Des",
+      "AJPGNCEMHFH": 9017,
+      "JLPONFOHJOP": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/HollowZeroSunShine.png",
+      "INCHKODOGHA": [
+        112,
+        53012,
+        3202001,
+        303003,
+        102030
+      ],
+      "KNGMJMNNAJC": 10071,
+      "APJEFBOIIJK": [
+        10071
+      ],
+      "BMHJNNFEKMH": "HB_UnlockTips_Abyss_122810243",
+      "GMCMDNPMFIF": 6
+    }
+  ]
+}

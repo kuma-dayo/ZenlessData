@@ -1,0 +1,40 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_04",
+  "AbilitySpecials": {
+    "AS_BreakStunRatio": {
+      "Value": 0.3
+    },
+    "AS_DestroyRecoverRate_Ratio": {
+      "Value": -3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_04_StunDestroyRecoverModifier",
+        "Predicates": [
+          {
+            "$type": "ByIsStunDestroyed",
+            "IsStunDestroyed": true,
+            "Target": "Target"
+          }
+        ],
+        "Target": "Target"
+      }
+    ],
+    "Properties": {
+      "Actor_BreakStunRatio": "%AS_BreakStunRatio"
+    }
+  },
+  "Modifiers": {
+    "Abyss_Fixed02LayerBuff_04_StunDestroyRecoverModifier": {
+      "IsUnique": true,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_StunDestroyRecoverRate_Ratio": "%AS_DestroyRecoverRate_Ratio"
+      }
+    }
+  }
+}

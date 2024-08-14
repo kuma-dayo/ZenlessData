@@ -1,0 +1,387 @@
+{
+  "AbilityName": "DubiousHero_AbnormalResist",
+  "AbilitySpecials": {
+    "AS_BuffDamageRatio": {
+      "Value": 0
+    },
+    "AS_BuffDamageRatio_0": {
+      "Value": 0.0
+    },
+    "AS_BuffDamageRatio_1": {
+      "Value": 0.2
+    },
+    "AS_BuffDamageRatio_2": {
+      "Value": 0.5
+    },
+    "AS_MaxElementAccumulationRatio": {
+      "Value": 0.0
+    },
+    "AS_MaxElementAccumulationRatio_0": {
+      "Value": 0.0
+    },
+    "AS_MaxElementAccumulationRatio_1": {
+      "Value": 0.2
+    },
+    "AS_MaxElementAccumulationRatio_2": {
+      "Value": 0.5
+    },
+    "AS_ProviderCount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialAction",
+        "DoRefresh": true,
+        "Param": 0,
+        "ParamName": "AS_ProviderCount",
+        "ParamType": "Integer",
+        "Target": "Caster"
+      },
+      {
+        "$type": "SetAbilitySpecialAction",
+        "DoRefresh": true,
+        "Param": "%AS_MaxElementAccumulationRatio_0",
+        "ParamName": "AS_MaxElementAccumulationRatio",
+        "ParamType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialAction",
+        "DoRefresh": true,
+        "Param": 0,
+        "ParamName": "AS_BuffDamageRatio",
+        "ParamType": "Float"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffModifier_Effect",
+        "Target": "Caster"
+      }
+    ],
+    "OnBuffAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AbnormalResistCountModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Disorder"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AbnormalResistCountModifier": {
+      "Duration": -1,
+      "MaxStackingNumber": 99,
+      "ModifierStacking": "MultipleRefresh",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_ProviderCount)+1",
+          "ParamName": "AS_ProviderCount",
+          "Target": "Caster",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_0",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 0,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_1",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_2",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 2,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": 0,
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 0,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_0",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_1",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 2,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_2",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 3,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier_Effect",
+          "Target": "Caster"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_ProviderCount)-1",
+          "ParamName": "AS_ProviderCount",
+          "Target": "Caster",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_0",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 0,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_1",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_MaxElementAccumulationRatio_2",
+          "ParamName": "AS_MaxElementAccumulationRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 2,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": 0,
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 0,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_0",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_1",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 2,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "DoRefresh": true,
+          "Param": "%AS_BuffDamageRatio_2",
+          "ParamName": "AS_BuffDamageRatio",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 3,
+              "ParamName": "AS_ProviderCount",
+              "ParamType": "Integer",
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier_Effect",
+          "Target": "Caster"
+        }
+      ]
+    },
+    "BuffModifier_Effect": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnBuffDamageBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Electric",
+                "Overload",
+                "Erosion",
+                "Chaos",
+                "Frozen",
+                "Frostbite",
+                "Burn",
+                "Ignite",
+                "Strike"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_BuffDamageRatio",
+          "PropertyValue": "%AS_BuffDamageRatio",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_MaxElementAccumulationRatio": "%AS_MaxElementAccumulationRatio"
+      }
+    }
+  }
+}

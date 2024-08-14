@@ -1,0 +1,198 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "JCCMIGLCPAF": 1001,
+      "GIPKKMLGENG": "EquipGachaName_1001",
+      "JFBHEDHKKPK": [
+        {
+          "NADBGLEMMEH": 103020,
+          "HLKCJAGFJOB": 5
+        }
+      ],
+      "DELMGGBHLMK": 1,
+      "FLEEGMHJAKL": [
+        {
+          "NADBGLEMMEH": 103020,
+          "HLKCJAGFJOB": 10
+        }
+      ],
+      "GKOMELOEHEC": 2,
+      "ADMDMGEDLHK": [
+        {
+          "NADBGLEMMEH": 103020,
+          "HLKCJAGFJOB": 5
+        }
+      ],
+      "NMILGIIBAJE": 1,
+      "HPEEJGOBFIG": [
+        {
+          "NADBGLEMMEH": 103020,
+          "HLKCJAGFJOB": 10
+        }
+      ],
+      "BFNCLEBCIOE": 2,
+      "MDFPCBFBHMK": [],
+      "ALPKICHBMOM": [],
+      "PJLMFLHACHJ": [
+        0
+      ],
+      "OFALOFOKOHJ": 1,
+      "DOIIGHAEAPM": 1,
+      "KAEENOODLAE": [
+        31000,
+        31100,
+        31200,
+        31300,
+        31400,
+        31500,
+        31600,
+        32200,
+        32300,
+        32400,
+        32500,
+        32600
+      ],
+      "CGFIJCLMLPC": 10000,
+      "FNEANDCMPNM": [
+        1002,
+        1003
+      ],
+      "FFEBDKLMEOP": false,
+      "DMJIPNBJGFC": "EquipGachaRule_1001",
+      "PKJFFDGEOPB": "EquipGachaRuleTitle_1001",
+      "NLPOEHFPBDB": {
+        "NADBGLEMMEH": 100942,
+        "HLKCJAGFJOB": 1
+      }
+    },
+    {
+      "JCCMIGLCPAF": 2001,
+      "GIPKKMLGENG": "EquipGachaName_2001",
+      "JFBHEDHKKPK": [
+        {
+          "NADBGLEMMEH": 103030,
+          "HLKCJAGFJOB": 5
+        }
+      ],
+      "DELMGGBHLMK": 3,
+      "FLEEGMHJAKL": [
+        {
+          "NADBGLEMMEH": 103030,
+          "HLKCJAGFJOB": 10
+        }
+      ],
+      "GKOMELOEHEC": 4,
+      "ADMDMGEDLHK": [
+        {
+          "NADBGLEMMEH": 103030,
+          "HLKCJAGFJOB": 5
+        }
+      ],
+      "NMILGIIBAJE": 3,
+      "HPEEJGOBFIG": [
+        {
+          "NADBGLEMMEH": 103030,
+          "HLKCJAGFJOB": 10
+        }
+      ],
+      "BFNCLEBCIOE": 4,
+      "MDFPCBFBHMK": [],
+      "ALPKICHBMOM": [],
+      "PJLMFLHACHJ": [
+        0
+      ],
+      "OFALOFOKOHJ": 2,
+      "DOIIGHAEAPM": 2,
+      "KAEENOODLAE": [
+        31000,
+        31100,
+        31200,
+        31300,
+        31400,
+        31500,
+        31600,
+        32200,
+        32300,
+        32400,
+        32500,
+        32600
+      ],
+      "CGFIJCLMLPC": 10000,
+      "FNEANDCMPNM": [
+        1003,
+        1004
+      ],
+      "FFEBDKLMEOP": false,
+      "DMJIPNBJGFC": "EquipGachaRule_2001",
+      "PKJFFDGEOPB": "EquipGachaRuleTitle_2001",
+      "NLPOEHFPBDB": {
+        "NADBGLEMMEH": 100942,
+        "HLKCJAGFJOB": 1
+      }
+    },
+    {
+      "JCCMIGLCPAF": 3001,
+      "GIPKKMLGENG": "EquipGachaName_3001",
+      "JFBHEDHKKPK": [
+        {
+          "NADBGLEMMEH": 103040,
+          "HLKCJAGFJOB": 3
+        }
+      ],
+      "DELMGGBHLMK": 5,
+      "FLEEGMHJAKL": [
+        {
+          "NADBGLEMMEH": 103040,
+          "HLKCJAGFJOB": 6
+        }
+      ],
+      "GKOMELOEHEC": 6,
+      "ADMDMGEDLHK": [
+        {
+          "NADBGLEMMEH": 103040,
+          "HLKCJAGFJOB": 3
+        }
+      ],
+      "NMILGIIBAJE": 5,
+      "HPEEJGOBFIG": [
+        {
+          "NADBGLEMMEH": 103040,
+          "HLKCJAGFJOB": 6
+        }
+      ],
+      "BFNCLEBCIOE": 6,
+      "MDFPCBFBHMK": [],
+      "ALPKICHBMOM": [],
+      "PJLMFLHACHJ": [
+        0
+      ],
+      "OFALOFOKOHJ": 3,
+      "DOIIGHAEAPM": 3,
+      "KAEENOODLAE": [
+        31000,
+        31100,
+        31200,
+        31300,
+        31400,
+        31500,
+        31600,
+        32200,
+        32300,
+        32400,
+        32500,
+        32600
+      ],
+      "CGFIJCLMLPC": 10000,
+      "FNEANDCMPNM": [
+        1004
+      ],
+      "FFEBDKLMEOP": true,
+      "DMJIPNBJGFC": "EquipGachaRule_3001",
+      "PKJFFDGEOPB": "EquipGachaRuleTitle_3001",
+      "NLPOEHFPBDB": {
+        "NADBGLEMMEH": 100942,
+        "HLKCJAGFJOB": 1
+      }
+    }
+  ]
+}

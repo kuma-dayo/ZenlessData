@@ -1,0 +1,60 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "ILOELIEMIDG": 10010,
+      "FAHEPAJDADB": "PartnerCamp_Name_01",
+      "LNMAEBKDCOA": "CampGentleHouse",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampGentleHouse.png",
+      "LPDGCALINGE": "1040140111",
+      "NAOHBMMFIEK": "1"
+    },
+    {
+      "ILOELIEMIDG": 10012,
+      "FAHEPAJDADB": "PartnerCamp_Name_02",
+      "LNMAEBKDCOA": "CampBelobogIndustries",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampBelobogIndustries.png",
+      "LPDGCALINGE": "1020100018",
+      "NAOHBMMFIEK": "1"
+    },
+    {
+      "ILOELIEMIDG": 10013,
+      "FAHEPAJDADB": "PartnerCamp_Name_03",
+      "LNMAEBKDCOA": "CampVictoriaHousekeepingCo.",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampVictoriaHousekeepingCo..png",
+      "LPDGCALINGE": "1020100018",
+      "NAOHBMMFIEK": "1"
+    },
+    {
+      "ILOELIEMIDG": 10014,
+      "FAHEPAJDADB": "PartnerCamp_Name_04",
+      "LNMAEBKDCOA": "CampObols",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampObols.png",
+      "LPDGCALINGE": "1020100018",
+      "NAOHBMMFIEK": "1"
+    },
+    {
+      "ILOELIEMIDG": 10015,
+      "FAHEPAJDADB": "PartnerCamp_Name_05",
+      "LNMAEBKDCOA": "CampN.E.P.S.",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampN.E.P.S..png",
+      "LPDGCALINGE": "1020100018",
+      "NAOHBMMFIEK": "1"
+    },
+    {
+      "ILOELIEMIDG": 10998,
+      "FAHEPAJDADB": "PartnerCamp_Name_998",
+      "LNMAEBKDCOA": "LuminaSquare",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map05_Pic.png",
+      "LPDGCALINGE": "",
+      "NAOHBMMFIEK": "2"
+    },
+    {
+      "ILOELIEMIDG": 10999,
+      "FAHEPAJDADB": "PartnerCamp_Name_999",
+      "LNMAEBKDCOA": "SixthStreet",
+      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map02_Pic.png",
+      "LPDGCALINGE": "1090140030",
+      "NAOHBMMFIEK": "2"
+    }
+  ]
+}

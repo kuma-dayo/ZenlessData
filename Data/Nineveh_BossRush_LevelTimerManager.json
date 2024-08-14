@@ -1,0 +1,82 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "OperateLevelTimerAction",
+              "Key": "Nineveh_BossRush_LevelCountdown",
+              "OpCode": "Pause",
+              "Target": "Level"
+            }
+          ],
+          "AnimatorStateName": "Born_BossRush",
+          "Frame": 0,
+          "IsLoop": false
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "OperateLevelTimerAction",
+              "Key": "Nineveh_BossRush_LevelCountdown",
+              "OpCode": "Resume",
+              "Target": "Level"
+            }
+          ],
+          "AnimatorStateName": "SwithPhase_BossRush_ToUpright",
+          "Frame": 235,
+          "IsLoop": false
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Nineveh_BossRush_LevelTimerManager",
+  "AbilitySpecials": {
+    "AS_LevelTimerTotalTimer": {
+      "Value": 240,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "CreateLevelTimerAction",
+        "AutoDestroy": false,
+        "Duration": "%AS_LevelTimerTotalTimer",
+        "Key": "Nineveh_BossRush_LevelCountdown",
+        "Target": "Level",
+        "Type": 1
+      },
+      {
+        "$type": "LDListenEntityAction",
+        "TargetKey": "Nineveh_BossRush_LevelCountdown_Start"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Nineveh_BossRush_LevelCountdown_EndOfTime_Modifier",
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Nineveh_BossRush_LevelCountdown_EndOfTime_Modifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ListenLevelTimerMixin",
+          "Key": "Nineveh_BossRush_LevelCountdown",
+          "TimeUpActions": [
+            {
+              "$type": "LDListenEntityAction",
+              "TargetKey": "Nineveh_BossRush_LevelCountdown_End"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

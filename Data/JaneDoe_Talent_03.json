@@ -1,0 +1,55 @@
+{
+  "AbilityName": "JaneDoe_Talent_03",
+  "AbilitySpecials": {
+    "AS_BuffDamageRatio": {
+      "Value": 10
+    },
+    "AS_Duration": {
+      "Value": 10
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "StrikeListenModifier",
+        "Target": "TeamAvatars"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedBuffDamageModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Replace",
+      "OnBuffDamageHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_BuffDamageRatio",
+          "PropertyValue": "%AS_BuffDamageRatio",
+          "Target": "Self"
+        }
+      ]
+    },
+    "StrikeListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffDamageHitOtherPre": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedBuffDamageModifier",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike",
+                "Disorder"
+              ]
+            }
+          ],
+          "Target": "TeamAvatars"
+        }
+      ]
+    }
+  }
+}

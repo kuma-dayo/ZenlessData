@@ -1,0 +1,1056 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "FDHJOJJGEML": 1001,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Numerical"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1001,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1001,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Numerical"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1001,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1001,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1002,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100003",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1002,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100003",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1002,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100003",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1002,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100003",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1002,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1003,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Numerical"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1003,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1003,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Numerical"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1003,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1003,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:1102001",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1004,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1004,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1004,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1004,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1004,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1005,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1005,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1005,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1005,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1005,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000201",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1006,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1006,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1006,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1006,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1006,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000211",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1007,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1007,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1007,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1007,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1007,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000221",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1008,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1008,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1008,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1008,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1008,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special_Nest",
+      "EBGFKDIHGFK": "CurseID1:11000281",
+      "MPDDEDBDHPP": "CurseID2:11000282"
+    },
+    {
+      "FDHJOJJGEML": 1009,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [],
+      "PGBMHGGJPNA": "CurseDrop_Special",
+      "EBGFKDIHGFK": "CurseID:1109901",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1009,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [],
+      "PGBMHGGJPNA": "CurseDrop_Special",
+      "EBGFKDIHGFK": "CurseID:1109902",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1009,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [],
+      "PGBMHGGJPNA": "CurseDrop_Special",
+      "EBGFKDIHGFK": "CurseID:1109903",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1009,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [],
+      "PGBMHGGJPNA": "CurseDrop_Special",
+      "EBGFKDIHGFK": "CurseID:1109904",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1009,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:1109905",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1105,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1105,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1105,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1105,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1105,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000202",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1106,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1106,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1106,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1106,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1106,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000212",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1107,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1107,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1107,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1107,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1107,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000222",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1108,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1108,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1108,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1108,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro",
+        "Coin_ConstructionSite",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal_ForCore",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1108,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000282",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1205,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1205,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1205,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1205,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1205,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000203",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1206,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1206,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1206,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1206,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1206,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000213",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1207,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1207,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1207,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1207,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Blood_SkyScraper"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1207,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000223",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1305,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1305,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1305,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1305,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1305,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000204",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1306,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1306,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1306,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1306,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Coin_ConstructionSite"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "ExcludeCurseID:1100006",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1306,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000214",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1405,
+      "PKBAIENJJKJ": 1,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1405,
+      "PKBAIENJJKJ": 2,
+      "FBHAOLCLDHP": [
+        "Hollow",
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1405,
+      "PKBAIENJJKJ": 3,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1405,
+      "PKBAIENJJKJ": 4,
+      "FBHAOLCLDHP": [
+        "Battle",
+        "Stamina_Metro"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Normal",
+      "EBGFKDIHGFK": "",
+      "MPDDEDBDHPP": ""
+    },
+    {
+      "FDHJOJJGEML": 1405,
+      "PKBAIENJJKJ": 5,
+      "FBHAOLCLDHP": [
+        "Ultra"
+      ],
+      "PGBMHGGJPNA": "CurseDrop_Ultra_Special",
+      "EBGFKDIHGFK": "CurseID:11000205",
+      "MPDDEDBDHPP": ""
+    }
+  ]
+}

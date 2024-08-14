@@ -1,0 +1,34 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_07",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.1
+    },
+    "AS_DamageTakeRatio": {
+      "Value": -0.1
+    },
+    "AS_Duration": {
+      "Value": 12
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnDodgeSuccess": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_07_BuffModifier"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Abyss_Fixed02LayerBuff_07_BuffModifier": {
+      "Duration": "%AS_Duration",
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "Multiple",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio",
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    }
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "DJIDNEMBKCL": 1,
+      "AKLGKGFKIIH": 1001,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200001
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 2,
+      "AKLGKGFKIIH": 1001,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200005
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 3,
+      "AKLGKGFKIIH": 1001,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200010
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 4,
+      "AKLGKGFKIIH": 1002,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201001
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 5,
+      "AKLGKGFKIIH": 1003,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201005
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 6,
+      "AKLGKGFKIIH": 1004,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201010
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 7,
+      "AKLGKGFKIIH": 1005,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201301
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 8,
+      "AKLGKGFKIIH": 1006,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201302
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 9,
+      "AKLGKGFKIIH": 1007,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201303
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 10,
+      "AKLGKGFKIIH": 1008,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        201304
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 11,
+      "AKLGKGFKIIH": 1220,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200001
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 12,
+      "AKLGKGFKIIH": 1221,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200005
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 13,
+      "AKLGKGFKIIH": 1222,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200010
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 14,
+      "AKLGKGFKIIH": 1223,
+      "EDDELCPHMFI": "BattleItem",
+      "MIFJGMLEIFE": [
+        200002
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 2,
+      "KKCJHAPAOHM": 4,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 15,
+      "AKLGKGFKIIH": 2000,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        206001
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 16,
+      "AKLGKGFKIIH": 2001,
+      "EDDELCPHMFI": "Gold",
+      "MIFJGMLEIFE": [
+        207001
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 17,
+      "AKLGKGFKIIH": 2002,
+      "EDDELCPHMFI": "Gold",
+      "MIFJGMLEIFE": [
+        201401
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 18,
+      "AKLGKGFKIIH": 2003,
+      "EDDELCPHMFI": "Gold",
+      "MIFJGMLEIFE": [
+        201402
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 19,
+      "AKLGKGFKIIH": 2010,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        206002
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 20,
+      "AKLGKGFKIIH": 9001,
+      "EDDELCPHMFI": "Diamond",
+      "MIFJGMLEIFE": [
+        100
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 30,
+      "KKCJHAPAOHM": 30,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 21,
+      "AKLGKGFKIIH": 9002,
+      "EDDELCPHMFI": "Gold",
+      "MIFJGMLEIFE": [
+        10
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 2500,
+      "KKCJHAPAOHM": 2500,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 22,
+      "AKLGKGFKIIH": 9003,
+      "EDDELCPHMFI": "EquipBreakMaterial",
+      "MIFJGMLEIFE": [
+        103030
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 10,
+      "KKCJHAPAOHM": 10,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 23,
+      "AKLGKGFKIIH": 10010,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        1
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1,
+      "KKCJHAPAOHM": 1,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 24,
+      "AKLGKGFKIIH": 10011,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        1
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 10,
+      "KKCJHAPAOHM": 10,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 25,
+      "AKLGKGFKIIH": 10012,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        1
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 100,
+      "KKCJHAPAOHM": 100,
+      "BLBJODNPFHK": 10000
+    },
+    {
+      "DJIDNEMBKCL": 26,
+      "AKLGKGFKIIH": 10013,
+      "EDDELCPHMFI": "Coin",
+      "MIFJGMLEIFE": [
+        1
+      ],
+      "FOFFFBAMADK": "",
+      "GJJJKOLJCEO": "",
+      "MPJDPLJICFH": "",
+      "HGNMHFLOKLO": 0,
+      "DJFMJHEMOLD": 0,
+      "JJNMENOPKNK": "",
+      "DEPMKCPEOEA": [],
+      "NGNPHOHMMNJ": 1000,
+      "KKCJHAPAOHM": 1000,
+      "BLBJODNPFHK": 10000
+    }
+  ]
+}

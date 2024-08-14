@@ -1,0 +1,40 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "IFNAOKFPDOE": 1,
+      "FMCPBHBKLCB": "Equipment_Type_1",
+      "NIMMPILDEKA": false,
+      "KFJJLAIPHHC": "EquipmentPositionDes_1"
+    },
+    {
+      "IFNAOKFPDOE": 2,
+      "FMCPBHBKLCB": "Equipment_Type_2",
+      "NIMMPILDEKA": false,
+      "KFJJLAIPHHC": "EquipmentPositionDes_2"
+    },
+    {
+      "IFNAOKFPDOE": 3,
+      "FMCPBHBKLCB": "Equipment_Type_3",
+      "NIMMPILDEKA": false,
+      "KFJJLAIPHHC": "EquipmentPositionDes_3"
+    },
+    {
+      "IFNAOKFPDOE": 4,
+      "FMCPBHBKLCB": "Equipment_Type_4",
+      "NIMMPILDEKA": true,
+      "KFJJLAIPHHC": "EquipmentPositionDes_4"
+    },
+    {
+      "IFNAOKFPDOE": 5,
+      "FMCPBHBKLCB": "Equipment_Type_5",
+      "NIMMPILDEKA": true,
+      "KFJJLAIPHHC": "EquipmentPositionDes_5"
+    },
+    {
+      "IFNAOKFPDOE": 6,
+      "FMCPBHBKLCB": "Equipment_Type_6",
+      "NIMMPILDEKA": true,
+      "KFJJLAIPHHC": "EquipmentPositionDes_6"
+    }
+  ]
+}

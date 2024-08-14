@@ -1,0 +1,1078 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 12252001,
+      "JJHBNDNOBIE": 1,
+      "NEHLLLPKNBF": 5010121,
+      "CCAJIBJEBGJ": 300071,
+      "BPDFMIHCIPI": 0,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "Chapter0",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110001,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 119,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 301,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19830002,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": true,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12252001",
+      "CGMGIHKOHEB": 0,
+      "JOMEOHBJIED": [],
+      "AIGPOMDCCNG": 12252001
+    },
+    {
+      "NGPCCDGBLLK": 12252002,
+      "JJHBNDNOBIE": 1,
+      "NEHLLLPKNBF": 5010221,
+      "CCAJIBJEBGJ": 30009,
+      "BPDFMIHCIPI": 0,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "Chapter2",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110002,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 119,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 301,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_BigBoss_UnlockTips1",
+      "EHDEBECIBLH": 19830004,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": true,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12252002",
+      "CGMGIHKOHEB": 0,
+      "JOMEOHBJIED": [],
+      "AIGPOMDCCNG": 12252002
+    },
+    {
+      "NGPCCDGBLLK": 12252003,
+      "JJHBNDNOBIE": 1,
+      "NEHLLLPKNBF": 5010321,
+      "CCAJIBJEBGJ": 30012,
+      "BPDFMIHCIPI": 0,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "Chapter3",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110003,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 119,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 301,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_BigBoss_UnlockTips2",
+      "EHDEBECIBLH": 19830009,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": true,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12252003",
+      "CGMGIHKOHEB": 0,
+      "JOMEOHBJIED": [],
+      "AIGPOMDCCNG": 12252003
+    },
+    {
+      "NGPCCDGBLLK": 12253007,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820022,
+      "CCAJIBJEBGJ": 300005,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110501,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253007",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001001
+      ],
+      "AIGPOMDCCNG": 12253001
+    },
+    {
+      "NGPCCDGBLLK": 12253008,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820042,
+      "CCAJIBJEBGJ": 200172,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110502,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253008",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001017
+      ],
+      "AIGPOMDCCNG": 12253003
+    },
+    {
+      "NGPCCDGBLLK": 12253009,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820012,
+      "CCAJIBJEBGJ": 200034,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110503,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253009",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001005
+      ],
+      "AIGPOMDCCNG": 12253004
+    },
+    {
+      "NGPCCDGBLLK": 12253010,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820032,
+      "CCAJIBJEBGJ": 300051,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110504,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips1",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253010",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001009
+      ],
+      "AIGPOMDCCNG": 12253005
+    },
+    {
+      "NGPCCDGBLLK": 12253011,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820002,
+      "CCAJIBJEBGJ": 300081,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110505,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips2",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253011",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001013
+      ],
+      "AIGPOMDCCNG": 12253006
+    },
+    {
+      "NGPCCDGBLLK": 12253012,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820023,
+      "CCAJIBJEBGJ": 300005,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110501,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253012",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001002
+      ],
+      "AIGPOMDCCNG": 12253001
+    },
+    {
+      "NGPCCDGBLLK": 12253013,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820043,
+      "CCAJIBJEBGJ": 200172,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110502,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253013",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001018
+      ],
+      "AIGPOMDCCNG": 12253003
+    },
+    {
+      "NGPCCDGBLLK": 12253014,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820013,
+      "CCAJIBJEBGJ": 200034,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110503,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253014",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001006
+      ],
+      "AIGPOMDCCNG": 12253004
+    },
+    {
+      "NGPCCDGBLLK": 12253015,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820033,
+      "CCAJIBJEBGJ": 300051,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110504,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips1",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253015",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001010
+      ],
+      "AIGPOMDCCNG": 12253005
+    },
+    {
+      "NGPCCDGBLLK": 12253016,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820003,
+      "CCAJIBJEBGJ": 300081,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110505,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips2",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253016",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001014
+      ],
+      "AIGPOMDCCNG": 12253006
+    },
+    {
+      "NGPCCDGBLLK": 12253017,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820024,
+      "CCAJIBJEBGJ": 300005,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110501,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253017",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001003
+      ],
+      "AIGPOMDCCNG": 12253001
+    },
+    {
+      "NGPCCDGBLLK": 12253018,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820025,
+      "CCAJIBJEBGJ": 300005,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110501,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253018",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001004
+      ],
+      "AIGPOMDCCNG": 12253001
+    },
+    {
+      "NGPCCDGBLLK": 12253019,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820044,
+      "CCAJIBJEBGJ": 200172,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110502,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253019",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001019
+      ],
+      "AIGPOMDCCNG": 12253003
+    },
+    {
+      "NGPCCDGBLLK": 12253020,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820045,
+      "CCAJIBJEBGJ": 200172,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110502,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253020",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001020
+      ],
+      "AIGPOMDCCNG": 12253003
+    },
+    {
+      "NGPCCDGBLLK": 12253021,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820014,
+      "CCAJIBJEBGJ": 200034,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110503,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253021",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001007
+      ],
+      "AIGPOMDCCNG": 12253004
+    },
+    {
+      "NGPCCDGBLLK": 12253022,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820015,
+      "CCAJIBJEBGJ": 200034,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110503,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253022",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001008
+      ],
+      "AIGPOMDCCNG": 12253004
+    },
+    {
+      "NGPCCDGBLLK": 12253023,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820034,
+      "CCAJIBJEBGJ": 300051,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110504,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips1",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253023",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001011
+      ],
+      "AIGPOMDCCNG": 12253005
+    },
+    {
+      "NGPCCDGBLLK": 12253024,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820035,
+      "CCAJIBJEBGJ": 300051,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110504,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips1",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253024",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001012
+      ],
+      "AIGPOMDCCNG": 12253005
+    },
+    {
+      "NGPCCDGBLLK": 12253025,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820004,
+      "CCAJIBJEBGJ": 300081,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110505,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips2",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253025",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001015
+      ],
+      "AIGPOMDCCNG": 12253006
+    },
+    {
+      "NGPCCDGBLLK": 12253026,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820005,
+      "CCAJIBJEBGJ": 300081,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110505,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "VR_SmallBoss_UnlockTips2",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_12253026",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001016
+      ],
+      "AIGPOMDCCNG": 12253006
+    },
+    {
+      "NGPCCDGBLLK": 1225300701,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820052,
+      "CCAJIBJEBGJ": 30019,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110506,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_1225300701",
+      "CGMGIHKOHEB": 2001,
+      "JOMEOHBJIED": [
+        2001021
+      ],
+      "AIGPOMDCCNG": 12253007
+    },
+    {
+      "NGPCCDGBLLK": 1225300702,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820053,
+      "CCAJIBJEBGJ": 30019,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110506,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_1225300702",
+      "CGMGIHKOHEB": 2002,
+      "JOMEOHBJIED": [
+        2001022
+      ],
+      "AIGPOMDCCNG": 12253007
+    },
+    {
+      "NGPCCDGBLLK": 1225300703,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820054,
+      "CCAJIBJEBGJ": 30019,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110506,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_1225300703",
+      "CGMGIHKOHEB": 2003,
+      "JOMEOHBJIED": [
+        2001023
+      ],
+      "AIGPOMDCCNG": 12253007
+    },
+    {
+      "NGPCCDGBLLK": 1225300704,
+      "JJHBNDNOBIE": 2,
+      "NEHLLLPKNBF": 19820055,
+      "CCAJIBJEBGJ": 30019,
+      "BPDFMIHCIPI": 40,
+      "LGJFGOBCDOP": 10000,
+      "HMLNOPHJECK": "VR_Training",
+      "LEGMBEOGHJF": 0,
+      "DODGCOOCODC": 0,
+      "IKJPCDEDIKJ": 0,
+      "JDIPMBLPLGP": 0,
+      "PKLGGFGODAM": [
+        {
+          "NADBGLEMMEH": 110506,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 103020,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        },
+        {
+          "NADBGLEMMEH": 10,
+          "CAIHFHJJGFJ": 0,
+          "HEDMBIPJCNN": 0
+        }
+      ],
+      "EBNIPGCCMFF": "",
+      "EHDEBECIBLH": 19900107,
+      "EDGAJDBNFGB": true,
+      "AAHNBMMNEGJ": false,
+      "ABCKJEEGECI": "BossBattle_QuestDesc_1225300704",
+      "CGMGIHKOHEB": 2004,
+      "JOMEOHBJIED": [
+        2001024
+      ],
+      "AIGPOMDCCNG": 12253007
+    }
+  ]
+}

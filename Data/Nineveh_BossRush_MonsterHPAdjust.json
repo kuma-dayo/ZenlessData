@@ -1,0 +1,220 @@
+{
+  "AbilityName": "Nineveh_BossRush_MonsterHPAdjust",
+  "AbilitySpecials": {
+    "AS_Boss_Lives": {
+      "Value": 1,
+      "ValueType": "Integer"
+    },
+    "AS_MaxHPRatio_Lives_01": {
+      "Value": 4.0,
+      "ValueType": "Float"
+    },
+    "AS_MaxHPRatio_Lives_02": {
+      "Value": 6.0,
+      "ValueType": "Float"
+    },
+    "AS_MaxHPRatio_Lives_03": {
+      "Value": 8.0,
+      "ValueType": "Float"
+    },
+    "AS_MaxHPRatio_Lives_04": {
+      "Value": 10.0,
+      "ValueType": "Float"
+    },
+    "AS_MaxHPRatio_Lives_05": {
+      "Value": 12.0,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_01",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Nineveh_BossRush_MonsterHPAdjust_Lives_01": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_MaxHPRatio": "%AS_MaxHPRatio_Lives_01"
+      }
+    },
+    "Nineveh_BossRush_MonsterHPAdjust_Lives_02": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_MaxHPRatio": "%AS_MaxHPRatio_Lives_02"
+      }
+    },
+    "Nineveh_BossRush_MonsterHPAdjust_Lives_03": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_MaxHPRatio": "%AS_MaxHPRatio_Lives_03"
+      }
+    },
+    "Nineveh_BossRush_MonsterHPAdjust_Lives_04": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_MaxHPRatio": "%AS_MaxHPRatio_Lives_04"
+      }
+    },
+    "Nineveh_BossRush_MonsterHPAdjust_Lives_05": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_MaxHPRatio": "%AS_MaxHPRatio_Lives_05"
+      }
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "BySwitchPhaseValue",
+          "CompareType": "Equal",
+          "TargetPhase": 2
+        }
+      ],
+      "FailureActions": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "BySwitchPhaseValue",
+              "CompareType": "Equal",
+              "TargetPhase": 3
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "BySwitchPhaseValue",
+                  "CompareType": "Equal",
+                  "TargetPhase": 4
+                }
+              ],
+              "FailureActions": [
+                {
+                  "$type": "BranchOperator",
+                  "Conditions": [
+                    {
+                      "$type": "BySwitchPhaseValue",
+                      "CompareType": "Equal",
+                      "TargetPhase": 5
+                    }
+                  ],
+                  "SuccessActions": [
+                    {
+                      "$type": "RemoveModifier",
+                      "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_04",
+                      "Predicates": [
+                        {
+                          "$type": "ByHasModifier",
+                          "ModifierNameList": [
+                            "Nineveh_BossRush_MonsterHPAdjust_Lives_04"
+                          ],
+                          "Target": "Self"
+                        }
+                      ],
+                      "Target": "Self"
+                    },
+                    {
+                      "$type": "ApplyModifier",
+                      "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_05",
+                      "Target": "Self"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_03",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Nineveh_BossRush_MonsterHPAdjust_Lives_03"
+                      ],
+                      "Target": "Self"
+                    }
+                  ],
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_04",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_02",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "Nineveh_BossRush_MonsterHPAdjust_Lives_02"
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_03",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "SuccessActions": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_01",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Nineveh_BossRush_MonsterHPAdjust_Lives_01"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Nineveh_BossRush_MonsterHPAdjust_Lives_02",
+          "Target": "Self"
+        }
+      ]
+    }
+  ]
+}

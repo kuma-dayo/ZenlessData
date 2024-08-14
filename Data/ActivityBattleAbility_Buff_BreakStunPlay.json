@@ -1,0 +1,110 @@
+{
+  "AbilityName": "ActivityBattleAbility_Buff_BreakStunPlay",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.8
+    },
+    "AS_BuffDuration": {
+      "Value": 15.0
+    },
+    "AS_CriticalDMG": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffListenModifier",
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BuffListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "BuffModifier": {
+      "Buff": {
+        "BuffID": 9000013,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Refresh",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByHasBuffID",
+              "BuffIDList": [
+                9000001
+              ],
+              "Target": "Level"
+            },
+            {
+              "$type": "ByIsStunDestroyed",
+              "IsStunDestroyed": true,
+              "Target": "Target"
+            }
+          ],
+          "PropertyKey": "Actor_CriticalDamageRatioDelta",
+          "PropertyValue": "%AS_CriticalDMG",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByHasBuffID",
+              "BuffIDList": [
+                9000001
+              ],
+              "Target": "Level"
+            },
+            {
+              "$type": "ByIsStunDestroyed",
+              "IsStunDestroyed": true,
+              "Target": "Target"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "AbilityName": "Nineveh_BossRush_AbilityManager",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RemoveDefaultAbility_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "IntVal": 1,
+        "ParamName": "Int_BornType",
+        "ParamType": 3,
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "WriteAIParamAction",
+        "BoolParamValue": false,
+        "ParamName": "Bool_UltimateSkill_Ready",
+        "Predicates": [
+          {
+            "$type": "ByStageName",
+            "CompareType": "Equal",
+            "StageName": "Stage_Zero_Boss_Nineveh"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddOnBossRushAbility_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "TriggerBehaviorTreeAction",
+        "Enable": false,
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnKilled": [
+      {
+        "$type": "SetLevelExtVariableAction",
+        "ModifyFunction": "Add",
+        "Param": 1,
+        "ParamName": "BossRush_TotalBossDefeats",
+        "ParamType": "Integer",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ]
+      },
+      {
+        "$type": "TriggerLevelCustomConditions",
+        "LevelConditionsID": 1601,
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddOnBossRushAbility_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000905,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000903,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000901,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000902,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000904,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000906,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000909,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000910,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityID": 20000911,
+          "Target": "Self"
+        }
+      ]
+    },
+    "RemoveDefaultAbility_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveAbilityAction",
+          "AbilityName": "Nineveh_UltimateSkill_Manager",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

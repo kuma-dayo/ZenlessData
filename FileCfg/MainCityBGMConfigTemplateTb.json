@@ -1,0 +1,34 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 0,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "Normal"
+    },
+    {
+      "NGPCCDGBLLK": 1001,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "Hack_Maincity"
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "WorkShop_OnMission"
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "SummerActivity_Ready"
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "SummerActivity_Start"
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "MNHJKNIBMII": "Play_BGM_Maincity",
+      "AJLLFDOHEEP": "Mission_Accomplish"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "KILBJHGAGAF": 0,
+      "NGAKOFEENCO": "RallyQuest_Chapter_0",
+      "BJOCLENBMON": 2,
+      "HHMOMFIIILK": 1,
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "CEHBMNOKIHF": "",
+      "FCGMDLGJOMD": "RallyQuestType_Title_1",
+      "CDADFAJJFCI": "FF00A1"
+    },
+    {
+      "KILBJHGAGAF": 1,
+      "NGAKOFEENCO": "RallyQuest_Chapter_1",
+      "BJOCLENBMON": 1,
+      "HHMOMFIIILK": 2,
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "CEHBMNOKIHF": "",
+      "FCGMDLGJOMD": "RallyQuestType_Title_2",
+      "CDADFAJJFCI": "FF00A1"
+    },
+    {
+      "KILBJHGAGAF": 2,
+      "NGAKOFEENCO": "RallyQuest_Chapter_2",
+      "BJOCLENBMON": 1,
+      "HHMOMFIIILK": 3,
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "CEHBMNOKIHF": "",
+      "FCGMDLGJOMD": "RallyQuestType_Title_2",
+      "CDADFAJJFCI": "FF00A1"
+    },
+    {
+      "KILBJHGAGAF": 3,
+      "NGAKOFEENCO": "RallyQuest_Chapter_3",
+      "BJOCLENBMON": 1,
+      "HHMOMFIIILK": 4,
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "CEHBMNOKIHF": "",
+      "FCGMDLGJOMD": "RallyQuestType_Title_2",
+      "CDADFAJJFCI": "FF00A1"
+    },
+    {
+      "KILBJHGAGAF": 4,
+      "NGAKOFEENCO": "Avatar_Female_Size02_Anbi_Piece",
+      "BJOCLENBMON": 1,
+      "HHMOMFIIILK": 4,
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "CEHBMNOKIHF": "",
+      "FCGMDLGJOMD": "",
+      "CDADFAJJFCI": ""
+    }
+  ]
+}

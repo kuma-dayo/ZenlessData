@@ -1,0 +1,57 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "SceneAreaMixin",
+      "OnEnterSceneArea": [
+        {
+          "$type": "LogStringAction",
+          "LogStr": "OnEnterSceneAreaA!!!"
+        }
+      ],
+      "OnExitSceneArea": [
+        {
+          "$type": "LogStringAction",
+          "LogStr": "OnExitSceneAreaA!!!"
+        }
+      ],
+      "SceneAreaName": "AreaA"
+    }
+  ],
+  "AbilityName": "GamePlayTest_AreaTest",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AreaModifier"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AreaModifier": {
+      "OnThinkInterval": [
+        {
+          "$type": "LogStringAction",
+          "LogStr": "AvatarInAreaAAAAAAAAAAAAAAAAA!!!",
+          "Predicates": [
+            {
+              "$type": "ByCurrentSceneAreaName",
+              "AreaName": "AreaA"
+            }
+          ]
+        },
+        {
+          "$type": "LogStringAction",
+          "LogStr": "AvatarInAreaBBBBBBBBBBBBBBBBB!!!",
+          "Predicates": [
+            {
+              "$type": "ByCurrentSceneAreaName",
+              "AreaName": "AreaB"
+            }
+          ]
+        }
+      ],
+      "ThinkInterval": 1
+    }
+  }
+}

@@ -1,0 +1,2209 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1200101,
+      "BFJBNILIDFP": 12001,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200101",
+      "BOOGIMBHOOM": 81200101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200102,
+      "BFJBNILIDFP": 12001,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200102",
+      "BOOGIMBHOOM": 81200102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200103,
+      "BFJBNILIDFP": 12001,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200103",
+      "BOOGIMBHOOM": 81200103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200104,
+      "BFJBNILIDFP": 12001,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200104",
+      "BOOGIMBHOOM": 81200104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200105,
+      "BFJBNILIDFP": 12001,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200105",
+      "BOOGIMBHOOM": 81200105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200201,
+      "BFJBNILIDFP": 12002,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200201",
+      "BOOGIMBHOOM": 81200201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200202,
+      "BFJBNILIDFP": 12002,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200202",
+      "BOOGIMBHOOM": 81200202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200203,
+      "BFJBNILIDFP": 12002,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200203",
+      "BOOGIMBHOOM": 81200203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200204,
+      "BFJBNILIDFP": 12002,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200204",
+      "BOOGIMBHOOM": 81200204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200205,
+      "BFJBNILIDFP": 12002,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200205",
+      "BOOGIMBHOOM": 81200205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200301,
+      "BFJBNILIDFP": 12003,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200301",
+      "BOOGIMBHOOM": 81200301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200302,
+      "BFJBNILIDFP": 12003,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200302",
+      "BOOGIMBHOOM": 81200302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200303,
+      "BFJBNILIDFP": 12003,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200303",
+      "BOOGIMBHOOM": 81200303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200304,
+      "BFJBNILIDFP": 12003,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200304",
+      "BOOGIMBHOOM": 81200304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200305,
+      "BFJBNILIDFP": 12003,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200305",
+      "BOOGIMBHOOM": 81200305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200401,
+      "BFJBNILIDFP": 12004,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200401",
+      "BOOGIMBHOOM": 81200401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200402,
+      "BFJBNILIDFP": 12004,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200402",
+      "BOOGIMBHOOM": 81200402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200403,
+      "BFJBNILIDFP": 12004,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200403",
+      "BOOGIMBHOOM": 81200403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200404,
+      "BFJBNILIDFP": 12004,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200404",
+      "BOOGIMBHOOM": 81200404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200405,
+      "BFJBNILIDFP": 12004,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200405",
+      "BOOGIMBHOOM": 81200405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200501,
+      "BFJBNILIDFP": 12005,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200501",
+      "BOOGIMBHOOM": 81200501,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200502,
+      "BFJBNILIDFP": 12005,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200502",
+      "BOOGIMBHOOM": 81200502,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200503,
+      "BFJBNILIDFP": 12005,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200503",
+      "BOOGIMBHOOM": 81200503,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200504,
+      "BFJBNILIDFP": 12005,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200504",
+      "BOOGIMBHOOM": 81200504,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200505,
+      "BFJBNILIDFP": 12005,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200505",
+      "BOOGIMBHOOM": 81200505,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200601,
+      "BFJBNILIDFP": 12006,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200601",
+      "BOOGIMBHOOM": 81200601,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200602,
+      "BFJBNILIDFP": 12006,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200602",
+      "BOOGIMBHOOM": 81200602,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200603,
+      "BFJBNILIDFP": 12006,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200603",
+      "BOOGIMBHOOM": 81200603,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200604,
+      "BFJBNILIDFP": 12006,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200604",
+      "BOOGIMBHOOM": 81200604,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200605,
+      "BFJBNILIDFP": 12006,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200605",
+      "BOOGIMBHOOM": 81200605,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200701,
+      "BFJBNILIDFP": 12007,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200701",
+      "BOOGIMBHOOM": 81200701,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200702,
+      "BFJBNILIDFP": 12007,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200702",
+      "BOOGIMBHOOM": 81200702,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200703,
+      "BFJBNILIDFP": 12007,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200703",
+      "BOOGIMBHOOM": 81200703,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200704,
+      "BFJBNILIDFP": 12007,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200704",
+      "BOOGIMBHOOM": 81200704,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200705,
+      "BFJBNILIDFP": 12007,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200705",
+      "BOOGIMBHOOM": 81200705,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200801,
+      "BFJBNILIDFP": 12008,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200801",
+      "BOOGIMBHOOM": 81200801,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200802,
+      "BFJBNILIDFP": 12008,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200802",
+      "BOOGIMBHOOM": 81200802,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200803,
+      "BFJBNILIDFP": 12008,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200803",
+      "BOOGIMBHOOM": 81200803,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200804,
+      "BFJBNILIDFP": 12008,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200804",
+      "BOOGIMBHOOM": 81200804,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200805,
+      "BFJBNILIDFP": 12008,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200805",
+      "BOOGIMBHOOM": 81200805,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200901,
+      "BFJBNILIDFP": 12009,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200901",
+      "BOOGIMBHOOM": 81200901,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200902,
+      "BFJBNILIDFP": 12009,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200902",
+      "BOOGIMBHOOM": 81200902,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200903,
+      "BFJBNILIDFP": 12009,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200903",
+      "BOOGIMBHOOM": 81200903,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200904,
+      "BFJBNILIDFP": 12009,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200904",
+      "BOOGIMBHOOM": 81200904,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1200905,
+      "BFJBNILIDFP": 12009,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81200905",
+      "BOOGIMBHOOM": 81200905,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201001,
+      "BFJBNILIDFP": 12010,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201001",
+      "BOOGIMBHOOM": 81201001,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201002,
+      "BFJBNILIDFP": 12010,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201002",
+      "BOOGIMBHOOM": 81201002,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201003,
+      "BFJBNILIDFP": 12010,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201003",
+      "BOOGIMBHOOM": 81201003,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201004,
+      "BFJBNILIDFP": 12010,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201004",
+      "BOOGIMBHOOM": 81201004,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201005,
+      "BFJBNILIDFP": 12010,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201005",
+      "BOOGIMBHOOM": 81201005,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201101,
+      "BFJBNILIDFP": 12011,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201101",
+      "BOOGIMBHOOM": 81201101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201102,
+      "BFJBNILIDFP": 12011,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201102",
+      "BOOGIMBHOOM": 81201102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201103,
+      "BFJBNILIDFP": 12011,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201103",
+      "BOOGIMBHOOM": 81201103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201104,
+      "BFJBNILIDFP": 12011,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201104",
+      "BOOGIMBHOOM": 81201104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201105,
+      "BFJBNILIDFP": 12011,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201105",
+      "BOOGIMBHOOM": 81201105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201201,
+      "BFJBNILIDFP": 12012,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12012",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201201",
+      "BOOGIMBHOOM": 81201201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201202,
+      "BFJBNILIDFP": 12012,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12012",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201202",
+      "BOOGIMBHOOM": 81201202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201203,
+      "BFJBNILIDFP": 12012,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12012",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201203",
+      "BOOGIMBHOOM": 81201203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201204,
+      "BFJBNILIDFP": 12012,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12012",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201204",
+      "BOOGIMBHOOM": 81201204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201205,
+      "BFJBNILIDFP": 12012,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12012",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201205",
+      "BOOGIMBHOOM": 81201205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201301,
+      "BFJBNILIDFP": 12013,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201301",
+      "BOOGIMBHOOM": 81201301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201302,
+      "BFJBNILIDFP": 12013,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201302",
+      "BOOGIMBHOOM": 81201302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201303,
+      "BFJBNILIDFP": 12013,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201303",
+      "BOOGIMBHOOM": 81201303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201304,
+      "BFJBNILIDFP": 12013,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201304",
+      "BOOGIMBHOOM": 81201304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201305,
+      "BFJBNILIDFP": 12013,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201305",
+      "BOOGIMBHOOM": 81201305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201401,
+      "BFJBNILIDFP": 12014,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12014",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201401",
+      "BOOGIMBHOOM": 81201401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201402,
+      "BFJBNILIDFP": 12014,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12014",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201402",
+      "BOOGIMBHOOM": 81201402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201403,
+      "BFJBNILIDFP": 12014,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12014",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201403",
+      "BOOGIMBHOOM": 81201403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201404,
+      "BFJBNILIDFP": 12014,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12014",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201404",
+      "BOOGIMBHOOM": 81201404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1201405,
+      "BFJBNILIDFP": 12014,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_12014",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81201405",
+      "BOOGIMBHOOM": 81201405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300101,
+      "BFJBNILIDFP": 13001,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300101",
+      "BOOGIMBHOOM": 81300101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300102,
+      "BFJBNILIDFP": 13001,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300102",
+      "BOOGIMBHOOM": 81300102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300103,
+      "BFJBNILIDFP": 13001,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300103",
+      "BOOGIMBHOOM": 81300103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300104,
+      "BFJBNILIDFP": 13001,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300104",
+      "BOOGIMBHOOM": 81300104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300105,
+      "BFJBNILIDFP": 13001,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300105",
+      "BOOGIMBHOOM": 81300105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300201,
+      "BFJBNILIDFP": 13002,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300201",
+      "BOOGIMBHOOM": 81300201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300202,
+      "BFJBNILIDFP": 13002,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300202",
+      "BOOGIMBHOOM": 81300202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300203,
+      "BFJBNILIDFP": 13002,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300203",
+      "BOOGIMBHOOM": 81300203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300204,
+      "BFJBNILIDFP": 13002,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300204",
+      "BOOGIMBHOOM": 81300204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300205,
+      "BFJBNILIDFP": 13002,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300205",
+      "BOOGIMBHOOM": 81300205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300301,
+      "BFJBNILIDFP": 13003,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300301",
+      "BOOGIMBHOOM": 81300301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300302,
+      "BFJBNILIDFP": 13003,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300302",
+      "BOOGIMBHOOM": 81300302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300303,
+      "BFJBNILIDFP": 13003,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300303",
+      "BOOGIMBHOOM": 81300303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300304,
+      "BFJBNILIDFP": 13003,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300304",
+      "BOOGIMBHOOM": 81300304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300305,
+      "BFJBNILIDFP": 13003,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300305",
+      "BOOGIMBHOOM": 81300305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300401,
+      "BFJBNILIDFP": 13004,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300401",
+      "BOOGIMBHOOM": 81300401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300402,
+      "BFJBNILIDFP": 13004,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300402",
+      "BOOGIMBHOOM": 81300402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300403,
+      "BFJBNILIDFP": 13004,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300403",
+      "BOOGIMBHOOM": 81300403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300404,
+      "BFJBNILIDFP": 13004,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300404",
+      "BOOGIMBHOOM": 81300404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300405,
+      "BFJBNILIDFP": 13004,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13004",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300405",
+      "BOOGIMBHOOM": 81300405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300501,
+      "BFJBNILIDFP": 13005,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300501",
+      "BOOGIMBHOOM": 81300501,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300502,
+      "BFJBNILIDFP": 13005,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300502",
+      "BOOGIMBHOOM": 81300502,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300503,
+      "BFJBNILIDFP": 13005,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300503",
+      "BOOGIMBHOOM": 81300503,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300504,
+      "BFJBNILIDFP": 13005,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300504",
+      "BOOGIMBHOOM": 81300504,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300505,
+      "BFJBNILIDFP": 13005,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13005",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300505",
+      "BOOGIMBHOOM": 81300505,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300601,
+      "BFJBNILIDFP": 13006,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300601",
+      "BOOGIMBHOOM": 81300601,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300602,
+      "BFJBNILIDFP": 13006,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300602",
+      "BOOGIMBHOOM": 81300602,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300603,
+      "BFJBNILIDFP": 13006,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300603",
+      "BOOGIMBHOOM": 81300603,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300604,
+      "BFJBNILIDFP": 13006,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300604",
+      "BOOGIMBHOOM": 81300604,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300605,
+      "BFJBNILIDFP": 13006,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13006",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300605",
+      "BOOGIMBHOOM": 81300605,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300701,
+      "BFJBNILIDFP": 13007,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300701",
+      "BOOGIMBHOOM": 81300701,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300702,
+      "BFJBNILIDFP": 13007,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300702",
+      "BOOGIMBHOOM": 81300702,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300703,
+      "BFJBNILIDFP": 13007,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300703",
+      "BOOGIMBHOOM": 81300703,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300704,
+      "BFJBNILIDFP": 13007,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300704",
+      "BOOGIMBHOOM": 81300704,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300705,
+      "BFJBNILIDFP": 13007,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13007",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300705",
+      "BOOGIMBHOOM": 81300705,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300801,
+      "BFJBNILIDFP": 13008,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300801",
+      "BOOGIMBHOOM": 81300801,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300802,
+      "BFJBNILIDFP": 13008,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300802",
+      "BOOGIMBHOOM": 81300802,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300803,
+      "BFJBNILIDFP": 13008,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300803",
+      "BOOGIMBHOOM": 81300803,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300804,
+      "BFJBNILIDFP": 13008,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300804",
+      "BOOGIMBHOOM": 81300804,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300805,
+      "BFJBNILIDFP": 13008,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13008",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300805",
+      "BOOGIMBHOOM": 81300805,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300901,
+      "BFJBNILIDFP": 13009,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300901",
+      "BOOGIMBHOOM": 81300901,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300902,
+      "BFJBNILIDFP": 13009,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300902",
+      "BOOGIMBHOOM": 81300902,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300903,
+      "BFJBNILIDFP": 13009,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300903",
+      "BOOGIMBHOOM": 81300903,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300904,
+      "BFJBNILIDFP": 13009,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300904",
+      "BOOGIMBHOOM": 81300904,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1300905,
+      "BFJBNILIDFP": 13009,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13009",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81300905",
+      "BOOGIMBHOOM": 81300905,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301001,
+      "BFJBNILIDFP": 13010,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301001",
+      "BOOGIMBHOOM": 81301001,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301002,
+      "BFJBNILIDFP": 13010,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301002",
+      "BOOGIMBHOOM": 81301002,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301003,
+      "BFJBNILIDFP": 13010,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301003",
+      "BOOGIMBHOOM": 81301003,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301004,
+      "BFJBNILIDFP": 13010,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301004",
+      "BOOGIMBHOOM": 81301004,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301005,
+      "BFJBNILIDFP": 13010,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13010",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301005",
+      "BOOGIMBHOOM": 81301005,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301101,
+      "BFJBNILIDFP": 13011,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301101",
+      "BOOGIMBHOOM": 81301101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301102,
+      "BFJBNILIDFP": 13011,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301102",
+      "BOOGIMBHOOM": 81301102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301103,
+      "BFJBNILIDFP": 13011,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301103",
+      "BOOGIMBHOOM": 81301103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301104,
+      "BFJBNILIDFP": 13011,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301104",
+      "BOOGIMBHOOM": 81301104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301105,
+      "BFJBNILIDFP": 13011,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13011",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301105",
+      "BOOGIMBHOOM": 81301105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301301,
+      "BFJBNILIDFP": 13013,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301301",
+      "BOOGIMBHOOM": 81301301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301302,
+      "BFJBNILIDFP": 13013,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301302",
+      "BOOGIMBHOOM": 81301302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301303,
+      "BFJBNILIDFP": 13013,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301303",
+      "BOOGIMBHOOM": 81301303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301304,
+      "BFJBNILIDFP": 13013,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301304",
+      "BOOGIMBHOOM": 81301304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1301305,
+      "BFJBNILIDFP": 13013,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13013",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81301305",
+      "BOOGIMBHOOM": 81301305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310101,
+      "BFJBNILIDFP": 13101,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13101",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310101",
+      "BOOGIMBHOOM": 81310101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310102,
+      "BFJBNILIDFP": 13101,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13101",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310102",
+      "BOOGIMBHOOM": 81310102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310103,
+      "BFJBNILIDFP": 13101,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13101",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310103",
+      "BOOGIMBHOOM": 81310103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310104,
+      "BFJBNILIDFP": 13101,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13101",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310104",
+      "BOOGIMBHOOM": 81310104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310105,
+      "BFJBNILIDFP": 13101,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13101",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310105",
+      "BOOGIMBHOOM": 81310105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310301,
+      "BFJBNILIDFP": 13103,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13103",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310301",
+      "BOOGIMBHOOM": 81310301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310302,
+      "BFJBNILIDFP": 13103,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13103",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310302",
+      "BOOGIMBHOOM": 81310302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310303,
+      "BFJBNILIDFP": 13103,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13103",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310303",
+      "BOOGIMBHOOM": 81310303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310304,
+      "BFJBNILIDFP": 13103,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13103",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310304",
+      "BOOGIMBHOOM": 81310304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310305,
+      "BFJBNILIDFP": 13103,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13103",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310305",
+      "BOOGIMBHOOM": 81310305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310601,
+      "BFJBNILIDFP": 13106,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13106",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310601",
+      "BOOGIMBHOOM": 81310601,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310602,
+      "BFJBNILIDFP": 13106,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13106",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310602",
+      "BOOGIMBHOOM": 81310602,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310603,
+      "BFJBNILIDFP": 13106,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13106",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310603",
+      "BOOGIMBHOOM": 81310603,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310604,
+      "BFJBNILIDFP": 13106,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13106",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310604",
+      "BOOGIMBHOOM": 81310604,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310605,
+      "BFJBNILIDFP": 13106,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13106",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310605",
+      "BOOGIMBHOOM": 81310605,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310801,
+      "BFJBNILIDFP": 13108,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13108",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310801",
+      "BOOGIMBHOOM": 81310801,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310802,
+      "BFJBNILIDFP": 13108,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13108",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310802",
+      "BOOGIMBHOOM": 81310802,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310803,
+      "BFJBNILIDFP": 13108,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13108",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310803",
+      "BOOGIMBHOOM": 81310803,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310804,
+      "BFJBNILIDFP": 13108,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13108",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310804",
+      "BOOGIMBHOOM": 81310804,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1310805,
+      "BFJBNILIDFP": 13108,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13108",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81310805",
+      "BOOGIMBHOOM": 81310805,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311101,
+      "BFJBNILIDFP": 13111,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13111",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311101",
+      "BOOGIMBHOOM": 81311101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311102,
+      "BFJBNILIDFP": 13111,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13111",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311102",
+      "BOOGIMBHOOM": 81311102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311103,
+      "BFJBNILIDFP": 13111,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13111",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311103",
+      "BOOGIMBHOOM": 81311103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311104,
+      "BFJBNILIDFP": 13111,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13111",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311104",
+      "BOOGIMBHOOM": 81311104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311105,
+      "BFJBNILIDFP": 13111,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13111",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311105",
+      "BOOGIMBHOOM": 81311105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311201,
+      "BFJBNILIDFP": 13112,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13112",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311201",
+      "BOOGIMBHOOM": 81311201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311202,
+      "BFJBNILIDFP": 13112,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13112",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311202",
+      "BOOGIMBHOOM": 81311202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311203,
+      "BFJBNILIDFP": 13112,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13112",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311203",
+      "BOOGIMBHOOM": 81311203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311204,
+      "BFJBNILIDFP": 13112,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13112",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311204",
+      "BOOGIMBHOOM": 81311204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311205,
+      "BFJBNILIDFP": 13112,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13112",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311205",
+      "BOOGIMBHOOM": 81311205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311301,
+      "BFJBNILIDFP": 13113,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13113",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311301",
+      "BOOGIMBHOOM": 81311301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311302,
+      "BFJBNILIDFP": 13113,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13113",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311302",
+      "BOOGIMBHOOM": 81311302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311303,
+      "BFJBNILIDFP": 13113,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13113",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311303",
+      "BOOGIMBHOOM": 81311303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311304,
+      "BFJBNILIDFP": 13113,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13113",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311304",
+      "BOOGIMBHOOM": 81311304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311305,
+      "BFJBNILIDFP": 13113,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13113",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311305",
+      "BOOGIMBHOOM": 81311305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311501,
+      "BFJBNILIDFP": 13115,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13115",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311501",
+      "BOOGIMBHOOM": 81311501,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311502,
+      "BFJBNILIDFP": 13115,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13115",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311502",
+      "BOOGIMBHOOM": 81311502,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311503,
+      "BFJBNILIDFP": 13115,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13115",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311503",
+      "BOOGIMBHOOM": 81311503,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311504,
+      "BFJBNILIDFP": 13115,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13115",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311504",
+      "BOOGIMBHOOM": 81311504,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1311505,
+      "BFJBNILIDFP": 13115,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13115",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81311505",
+      "BOOGIMBHOOM": 81311505,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312701,
+      "BFJBNILIDFP": 13127,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13127",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312701",
+      "BOOGIMBHOOM": 81312701,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312702,
+      "BFJBNILIDFP": 13127,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13127",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312702",
+      "BOOGIMBHOOM": 81312702,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312703,
+      "BFJBNILIDFP": 13127,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13127",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312703",
+      "BOOGIMBHOOM": 81312703,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312704,
+      "BFJBNILIDFP": 13127,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13127",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312704",
+      "BOOGIMBHOOM": 81312704,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312705,
+      "BFJBNILIDFP": 13127,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13127",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312705",
+      "BOOGIMBHOOM": 81312705,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312801,
+      "BFJBNILIDFP": 13128,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13128",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312801",
+      "BOOGIMBHOOM": 81312801,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312802,
+      "BFJBNILIDFP": 13128,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13128",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312802",
+      "BOOGIMBHOOM": 81312802,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312803,
+      "BFJBNILIDFP": 13128,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13128",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312803",
+      "BOOGIMBHOOM": 81312803,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312804,
+      "BFJBNILIDFP": 13128,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13128",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312804",
+      "BOOGIMBHOOM": 81312804,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1312805,
+      "BFJBNILIDFP": 13128,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_13128",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81312805",
+      "BOOGIMBHOOM": 81312805,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400101,
+      "BFJBNILIDFP": 14001,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400101",
+      "BOOGIMBHOOM": 81400101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400102,
+      "BFJBNILIDFP": 14001,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400102",
+      "BOOGIMBHOOM": 81400102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400103,
+      "BFJBNILIDFP": 14001,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400103",
+      "BOOGIMBHOOM": 81400103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400104,
+      "BFJBNILIDFP": 14001,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400104",
+      "BOOGIMBHOOM": 81400104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400105,
+      "BFJBNILIDFP": 14001,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14001",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400105",
+      "BOOGIMBHOOM": 81400105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400201,
+      "BFJBNILIDFP": 14002,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400201",
+      "BOOGIMBHOOM": 81400201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400202,
+      "BFJBNILIDFP": 14002,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400202",
+      "BOOGIMBHOOM": 81400202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400203,
+      "BFJBNILIDFP": 14002,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400203",
+      "BOOGIMBHOOM": 81400203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400204,
+      "BFJBNILIDFP": 14002,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400204",
+      "BOOGIMBHOOM": 81400204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400205,
+      "BFJBNILIDFP": 14002,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14002",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400205",
+      "BOOGIMBHOOM": 81400205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400301,
+      "BFJBNILIDFP": 14003,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400301",
+      "BOOGIMBHOOM": 81400301,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400302,
+      "BFJBNILIDFP": 14003,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400302",
+      "BOOGIMBHOOM": 81400302,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400303,
+      "BFJBNILIDFP": 14003,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400303",
+      "BOOGIMBHOOM": 81400303,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400304,
+      "BFJBNILIDFP": 14003,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400304",
+      "BOOGIMBHOOM": 81400304,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1400305,
+      "BFJBNILIDFP": 14003,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14003",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81400305",
+      "BOOGIMBHOOM": 81400305,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410201,
+      "BFJBNILIDFP": 14102,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14102",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410201",
+      "BOOGIMBHOOM": 81410201,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410202,
+      "BFJBNILIDFP": 14102,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14102",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410202",
+      "BOOGIMBHOOM": 81410202,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410203,
+      "BFJBNILIDFP": 14102,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14102",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410203",
+      "BOOGIMBHOOM": 81410203,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410204,
+      "BFJBNILIDFP": 14102,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14102",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410204",
+      "BOOGIMBHOOM": 81410204,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410205,
+      "BFJBNILIDFP": 14102,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14102",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410205",
+      "BOOGIMBHOOM": 81410205,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410401,
+      "BFJBNILIDFP": 14104,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14104",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410401",
+      "BOOGIMBHOOM": 81410401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410402,
+      "BFJBNILIDFP": 14104,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14104",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410402",
+      "BOOGIMBHOOM": 81410402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410403,
+      "BFJBNILIDFP": 14104,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14104",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410403",
+      "BOOGIMBHOOM": 81410403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410404,
+      "BFJBNILIDFP": 14104,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14104",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410404",
+      "BOOGIMBHOOM": 81410404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1410405,
+      "BFJBNILIDFP": 14104,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14104",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81410405",
+      "BOOGIMBHOOM": 81410405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411001,
+      "BFJBNILIDFP": 14110,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14110",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411001",
+      "BOOGIMBHOOM": 81411001,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411002,
+      "BFJBNILIDFP": 14110,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14110",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411002",
+      "BOOGIMBHOOM": 81411002,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411003,
+      "BFJBNILIDFP": 14110,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14110",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411003",
+      "BOOGIMBHOOM": 81411003,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411004,
+      "BFJBNILIDFP": 14110,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14110",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411004",
+      "BOOGIMBHOOM": 81411004,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411005,
+      "BFJBNILIDFP": 14110,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14110",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411005",
+      "BOOGIMBHOOM": 81411005,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411401,
+      "BFJBNILIDFP": 14114,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14114",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411401",
+      "BOOGIMBHOOM": 81411401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411402,
+      "BFJBNILIDFP": 14114,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14114",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411402",
+      "BOOGIMBHOOM": 81411402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411403,
+      "BFJBNILIDFP": 14114,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14114",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411403",
+      "BOOGIMBHOOM": 81411403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411404,
+      "BFJBNILIDFP": 14114,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14114",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411404",
+      "BOOGIMBHOOM": 81411404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411405,
+      "BFJBNILIDFP": 14114,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14114",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411405",
+      "BOOGIMBHOOM": 81411405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411801,
+      "BFJBNILIDFP": 14118,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14118",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411801",
+      "BOOGIMBHOOM": 81411801,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411802,
+      "BFJBNILIDFP": 14118,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14118",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411802",
+      "BOOGIMBHOOM": 81411802,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411803,
+      "BFJBNILIDFP": 14118,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14118",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411803",
+      "BOOGIMBHOOM": 81411803,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411804,
+      "BFJBNILIDFP": 14118,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14118",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411804",
+      "BOOGIMBHOOM": 81411804,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411805,
+      "BFJBNILIDFP": 14118,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14118",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411805",
+      "BOOGIMBHOOM": 81411805,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411901,
+      "BFJBNILIDFP": 14119,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14119",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411901",
+      "BOOGIMBHOOM": 81411901,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411902,
+      "BFJBNILIDFP": 14119,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14119",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411902",
+      "BOOGIMBHOOM": 81411902,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411903,
+      "BFJBNILIDFP": 14119,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14119",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411903",
+      "BOOGIMBHOOM": 81411903,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411904,
+      "BFJBNILIDFP": 14119,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14119",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411904",
+      "BOOGIMBHOOM": 81411904,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1411905,
+      "BFJBNILIDFP": 14119,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14119",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81411905",
+      "BOOGIMBHOOM": 81411905,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412101,
+      "BFJBNILIDFP": 14121,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14121",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412101",
+      "BOOGIMBHOOM": 81412101,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412102,
+      "BFJBNILIDFP": 14121,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14121",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412102",
+      "BOOGIMBHOOM": 81412102,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412103,
+      "BFJBNILIDFP": 14121,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14121",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412103",
+      "BOOGIMBHOOM": 81412103,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412104,
+      "BFJBNILIDFP": 14121,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14121",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412104",
+      "BOOGIMBHOOM": 81412104,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412105,
+      "BFJBNILIDFP": 14121,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14121",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412105",
+      "BOOGIMBHOOM": 81412105,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412401,
+      "BFJBNILIDFP": 14124,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14124",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412401",
+      "BOOGIMBHOOM": 81412401,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412402,
+      "BFJBNILIDFP": 14124,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14124",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412402",
+      "BOOGIMBHOOM": 81412402,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412403,
+      "BFJBNILIDFP": 14124,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14124",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412403",
+      "BOOGIMBHOOM": 81412403,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412404,
+      "BFJBNILIDFP": 14124,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14124",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412404",
+      "BOOGIMBHOOM": 81412404,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412405,
+      "BFJBNILIDFP": 14124,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14124",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412405",
+      "BOOGIMBHOOM": 81412405,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412501,
+      "BFJBNILIDFP": 14125,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14125",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412501",
+      "BOOGIMBHOOM": 81412501,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412502,
+      "BFJBNILIDFP": 14125,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14125",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412502",
+      "BOOGIMBHOOM": 81412502,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412503,
+      "BFJBNILIDFP": 14125,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14125",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412503",
+      "BOOGIMBHOOM": 81412503,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412504,
+      "BFJBNILIDFP": 14125,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14125",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412504",
+      "BOOGIMBHOOM": 81412504,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412505,
+      "BFJBNILIDFP": 14125,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14125",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412505",
+      "BOOGIMBHOOM": 81412505,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412601,
+      "BFJBNILIDFP": 14126,
+      "KPEHEPHKKBL": 1,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14126",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412601",
+      "BOOGIMBHOOM": 81412601,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412602,
+      "BFJBNILIDFP": 14126,
+      "KPEHEPHKKBL": 2,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14126",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412602",
+      "BOOGIMBHOOM": 81412602,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412603,
+      "BFJBNILIDFP": 14126,
+      "KPEHEPHKKBL": 3,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14126",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412603",
+      "BOOGIMBHOOM": 81412603,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412604,
+      "BFJBNILIDFP": 14126,
+      "KPEHEPHKKBL": 4,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14126",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412604",
+      "BOOGIMBHOOM": 81412604,
+      "EFMEKILCAFA": false
+    },
+    {
+      "NGPCCDGBLLK": 1412605,
+      "BFJBNILIDFP": 14126,
+      "KPEHEPHKKBL": 5,
+      "GBLFIOIEEJM": "Weapon_TalentTitle_14126",
+      "NLAKFHJJGOM": "Weapon_TalentDes_81412605",
+      "BOOGIMBHOOM": 81412605,
+      "EFMEKILCAFA": false
+    }
+  ]
+}

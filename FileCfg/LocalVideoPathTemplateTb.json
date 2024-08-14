@@ -1,0 +1,40 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 10000,
+      "KNLCCNCMAPH": "Launch/LogoPerform_CHS.mp4",
+      "GNBHMCAAAMM": "Launch/LogoPerform_CHS.mp4",
+      "DELKAHFNAPP": "Launch/LogoPerform_CHS.mp4",
+      "JMOFOCPEADN": "Launch/LogoPerform_CHS.mp4",
+      "HABPNFNEHCK": "Launch/LogoPerform_CHS.mp4",
+      "GPJKFOCNLPA": "Launch/LogoPerform_CHS.mp4"
+    },
+    {
+      "NGPCCDGBLLK": 10001,
+      "KNLCCNCMAPH": "Launch/LogoPerform_EN.mp4",
+      "GNBHMCAAAMM": "Launch/LogoPerform_EN.mp4",
+      "DELKAHFNAPP": "Launch/LogoPerform_EN.mp4",
+      "JMOFOCPEADN": "Launch/LogoPerform_CHT.mp4",
+      "HABPNFNEHCK": "Launch/LogoPerform_EN.mp4",
+      "GPJKFOCNLPA": "Launch/LogoPerform_EN.mp4"
+    },
+    {
+      "NGPCCDGBLLK": 100000,
+      "KNLCCNCMAPH": "MainStory/Chapter/Chinese/MainStoryChapter00.mp4",
+      "GNBHMCAAAMM": "MainStory/Chapter/Chinese/MainStoryChapter00.mp4",
+      "DELKAHFNAPP": "MainStory/Chapter/English/MainStoryChapter00_En.mp4",
+      "JMOFOCPEADN": "MainStory/Chapter/TraditionalChinese/MainStoryChapter00_TCh.mp4",
+      "HABPNFNEHCK": "MainStory/Chapter/Japanese/MainStoryChapter00_Jp.mp4",
+      "GPJKFOCNLPA": "MainStory/Chapter/Korean/MainStoryChapter00_Kr.mp4"
+    },
+    {
+      "NGPCCDGBLLK": 100001,
+      "KNLCCNCMAPH": "MainStory/Chapter/Chinese/MainStoryChapter01.mp4",
+      "GNBHMCAAAMM": "MainStory/Chapter/Chinese/MainStoryChapter01.mp4",
+      "DELKAHFNAPP": "MainStory/Chapter/English/MainStoryChapter01_En.mp4",
+      "JMOFOCPEADN": "MainStory/Chapter/TraditionalChinese/MainStoryChapter01_TCh.mp4",
+      "HABPNFNEHCK": "MainStory/Chapter/Japanese/MainStoryChapter01_Jp.mp4",
+      "GPJKFOCNLPA": "MainStory/Chapter/Korean/MainStoryChapter01_Kr.mp4"
+    }
+  ]
+}

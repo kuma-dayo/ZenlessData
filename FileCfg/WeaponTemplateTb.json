@@ -1,0 +1,1817 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NADBGLEMMEH": 12001,
+      "OBMHHBOOCJK": "Weapon_B_Common_01",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_01",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_01",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101010:2|10:16800,101020:7|10:36000,101020:12|10:60000,101030:6|10:120000,101030:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_01_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12002,
+      "OBMHHBOOCJK": "Weapon_B_Common_02",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_02",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_02",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101010:2|10:16800,101020:7|10:36000,101020:12|10:60000,101030:6|10:120000,101030:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_02_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12003,
+      "OBMHHBOOCJK": "Weapon_B_Common_03",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 20103,
+        "PIEIECGGIIA": 640
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_03",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_03",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101010:2|10:16800,101020:7|10:36000,101020:12|10:60000,101030:6|10:120000,101030:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_03_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12004,
+      "OBMHHBOOCJK": "Weapon_B_Common_04",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_04",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_04",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101013:2|10:16800,101023:7|10:36000,101023:12|10:60000,101033:6|10:120000,101033:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_04_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12005,
+      "OBMHHBOOCJK": "Weapon_B_Common_05",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 1600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_05",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_05",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101013:2|10:16800,101023:7|10:36000,101023:12|10:60000,101033:6|10:120000,101033:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_05_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12006,
+      "OBMHHBOOCJK": "Weapon_B_Common_06",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 11102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_06",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_06",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101013:2|10:16800,101023:7|10:36000,101023:12|10:60000,101033:6|10:120000,101033:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_06_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12007,
+      "OBMHHBOOCJK": "Weapon_B_Common_07",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_07",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_07",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101011:2|10:16800,101021:7|10:36000,101021:12|10:60000,101031:6|10:120000,101031:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_07_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12008,
+      "OBMHHBOOCJK": "Weapon_B_Common_08",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 480
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_08",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_08",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101011:2|10:16800,101021:7|10:36000,101021:12|10:60000,101031:6|10:120000,101031:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_08_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12009,
+      "OBMHHBOOCJK": "Weapon_B_Common_09",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 1600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_09",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_09",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101011:2|10:16800,101021:7|10:36000,101021:12|10:60000,101031:6|10:120000,101031:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_09_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12010,
+      "OBMHHBOOCJK": "Weapon_B_Common_10",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_10",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_10",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101012:2|10:16800,101022:7|10:36000,101022:12|10:60000,101032:6|10:120000,101032:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_10_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12011,
+      "OBMHHBOOCJK": "Weapon_B_Common_11",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 31203,
+        "PIEIECGGIIA": 24
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_11",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_11",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101012:2|10:16800,101022:7|10:36000,101022:12|10:60000,101032:6|10:120000,101032:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_11_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12012,
+      "OBMHHBOOCJK": "Weapon_B_Common_12",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 23103,
+        "PIEIECGGIIA": 640
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_12",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_12",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101012:2|10:16800,101022:7|10:36000,101022:12|10:60000,101032:6|10:120000,101032:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_12_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12013,
+      "OBMHHBOOCJK": "Weapon_B_Common_13",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 13102,
+        "PIEIECGGIIA": 1280
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_13",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_13",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101014:2|10:16800,101024:7|10:36000,101024:12|10:60000,101034:6|10:120000,101034:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_13_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 12014,
+      "OBMHHBOOCJK": "Weapon_B_Common_14",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 32
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 13102,
+        "PIEIECGGIIA": 1280
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 300,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_B_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_B_Common_14",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_B_Common_14",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:7200,101014:2|10:16800,101024:7|10:36000,101024:12|10:60000,101034:6|10:120000,101034:12",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_B_Common_14_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13001,
+      "OBMHHBOOCJK": "Weapon_A_Common_01",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_01",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_01",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_01",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_01_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13002,
+      "OBMHHBOOCJK": "Weapon_A_Common_02",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 23103,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_02",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_02",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_02",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101013:3|10:22400,101023:10|10:48000,101023:16|10:80000,101033:8|10:160000,101033:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_02_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13003,
+      "OBMHHBOOCJK": "Weapon_A_Common_03",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 31203,
+        "PIEIECGGIIA": 30
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_03",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_03",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_03",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101012:3|10:22400,101022:10|10:48000,101022:16|10:80000,101032:8|10:160000,101032:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_03_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13004,
+      "OBMHHBOOCJK": "Weapon_A_Common_04",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_04",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_04",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_04",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_04_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13005,
+      "OBMHHBOOCJK": "Weapon_A_Common_05",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 2000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_05",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_05",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_05",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101011:3|10:22400,101021:10|10:48000,101021:16|10:80000,101031:8|10:160000,101031:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_05_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13006,
+      "OBMHHBOOCJK": "Weapon_A_Common_06",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_06",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_06",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101011:3|10:22400,101021:10|10:48000,101021:16|10:80000,101031:8|10:160000,101031:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_06_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13007,
+      "OBMHHBOOCJK": "Weapon_A_Common_07",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 11102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_07",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_07",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_07",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_07_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13008,
+      "OBMHHBOOCJK": "Weapon_A_Common_08",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_08",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_08",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101012:3|10:22400,101022:10|10:48000,101022:16|10:80000,101032:8|10:160000,101032:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_08_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13009,
+      "OBMHHBOOCJK": "Weapon_A_Common_09",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 31203,
+        "PIEIECGGIIA": 30
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_09",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_09",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_09",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101012:3|10:22400,101022:10|10:48000,101022:16|10:80000,101032:8|10:160000,101032:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_09_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13010,
+      "OBMHHBOOCJK": "Weapon_A_Common_10",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 13102,
+        "PIEIECGGIIA": 1600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_10",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_10",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_10",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_10_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13011,
+      "OBMHHBOOCJK": "Weapon_A_Common_11",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common_11",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_11",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_11",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_11_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13013,
+      "OBMHHBOOCJK": "Weapon_A_Common_13",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_Common",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_Common_13",
+      "FDNHCKOACJF": 0,
+      "LHGMDHILALH": "Weapon/Weapon_A_Common_13",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 307001,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_Common_13_Desc",
+      "OHEEPBCNHOO": "Weapon_13013_Activity",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 13101,
+      "OBMHHBOOCJK": "Weapon_A_1011",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1011",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1011",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1011",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101011:3|10:22400,101021:10|10:48000,101021:16|10:80000,101031:8|10:160000,101031:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_A_1011_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1011,
+      "NIHDPPIEPEG": "Weapon_A_1011_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13103,
+      "OBMHHBOOCJK": "Weapon_A_1031",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 2000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1031",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1031",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1031",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101013:3|10:22400,101023:10|10:48000,101023:16|10:80000,101033:8|10:160000,101033:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_A_1031_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1031,
+      "NIHDPPIEPEG": "Weapon_A_1031_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13106,
+      "OBMHHBOOCJK": "Weapon_A_1061",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1061",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1061",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1061",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_1061_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1061,
+      "NIHDPPIEPEG": "Weapon_A_1061_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13108,
+      "OBMHHBOOCJK": "Weapon_A_1081",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1081",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1081",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1081",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_1081_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1081,
+      "NIHDPPIEPEG": "Weapon_A_1081_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13111,
+      "OBMHHBOOCJK": "Weapon_A_1111",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 2000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1111",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1111",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1111",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_A_1111_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1111,
+      "NIHDPPIEPEG": "Weapon_A_1111_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13112,
+      "OBMHHBOOCJK": "Weapon_A_1121",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 13102,
+        "PIEIECGGIIA": 1600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1121",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1121",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1121",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_A_1121_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1121,
+      "NIHDPPIEPEG": "Weapon_A_1121_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13113,
+      "OBMHHBOOCJK": "Weapon_A_1131",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1131",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1131",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1131",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101013:3|10:22400,101023:10|10:48000,101023:16|10:80000,101033:8|10:160000,101033:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_A_1131_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1131,
+      "NIHDPPIEPEG": "Weapon_A_1131_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13115,
+      "OBMHHBOOCJK": "Weapon_A_1151",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 2000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1151",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1151",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1151",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101013:3|10:22400,101023:10|10:48000,101023:16|10:80000,101033:8|10:160000,101033:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_A_1151_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1151,
+      "NIHDPPIEPEG": "Weapon_A_1151_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13127,
+      "OBMHHBOOCJK": "Weapon_A_1271",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1271",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1271",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1271",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101014:3|10:22400,101024:10|10:48000,101024:16|10:80000,101034:8|10:160000,101034:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 5,
+      "FCFMBPALCNN": "Item_Weapon_A_1271_Desc",
+      "OHEEPBCNHOO": "Jane_Seth_release",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1271,
+      "NIHDPPIEPEG": "Weapon_A_1271_Comment"
+    },
+    {
+      "NADBGLEMMEH": 13128,
+      "OBMHHBOOCJK": "Weapon_A_1281",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 42
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_A_1281",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_A_1281",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_A_1281",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101012:3|10:22400,101022:10|10:48000,101022:16|10:80000,101032:8|10:160000,101032:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_A_1281_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1281,
+      "NIHDPPIEPEG": "Weapon_A_1281_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14001,
+      "OBMHHBOOCJK": "Weapon_S_Common_01",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 20103,
+        "PIEIECGGIIA": 800
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_Common_01",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_Common_01",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_Common_01",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101010:3|10:22400,101020:10|10:48000,101020:16|10:80000,101030:8|10:160000,101030:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_S_Common_01_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 14002,
+      "OBMHHBOOCJK": "Weapon_S_Common_02",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 30502,
+        "PIEIECGGIIA": 2000
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_Common_02",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_Common_02",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_Common_02",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101013:3|10:22400,101023:10|10:48000,101023:16|10:80000,101033:8|10:160000,101033:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_S_Common_02_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 14003,
+      "OBMHHBOOCJK": "Weapon_S_Common_03",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 40
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 600
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 6000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_Common_03",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_Common_03",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_Common_03",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 1500
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:9600,101011:3|10:22400,101021:10|10:48000,101021:16|10:80000,101031:8|10:160000,101031:16",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_S_Common_03_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 0,
+      "NIHDPPIEPEG": ""
+    },
+    {
+      "NADBGLEMMEH": 14102,
+      "OBMHHBOOCJK": "Weapon_S_1021",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 20103,
+        "PIEIECGGIIA": 960
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1021",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1021",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1021",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101010:4|10:28000,101020:12|10:60000,101020:20|10:100000,101030:10|10:200000,101030:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_S_1021_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1021,
+      "NIHDPPIEPEG": "Weapon_S_1021_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14104,
+      "OBMHHBOOCJK": "Weapon_S_1041",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12102,
+        "PIEIECGGIIA": 1200
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1041",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1041",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1041",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101010:4|10:28000,101020:12|10:60000,101020:20|10:100000,101030:10|10:200000,101030:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_S_1041_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1041,
+      "NIHDPPIEPEG": "Weapon_S_1041_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14110,
+      "OBMHHBOOCJK": "Weapon_S_1101",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 720
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1101",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1101",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1101",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101011:4|10:28000,101021:12|10:60000,101021:20|10:100000,101031:10|10:200000,101031:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_S_1101_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1101,
+      "NIHDPPIEPEG": "Weapon_S_1101_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14114,
+      "OBMHHBOOCJK": "Weapon_S_1141",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 720
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1141",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1141",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1141",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101011:4|10:28000,101021:12|10:60000,101021:20|10:100000,101031:10|10:200000,101031:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_S_1141_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1141,
+      "NIHDPPIEPEG": "Weapon_S_1141_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14118,
+      "OBMHHBOOCJK": "Weapon_S_1181",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 23103,
+        "PIEIECGGIIA": 960
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1181",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1181",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1181",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101012:4|10:28000,101022:12|10:60000,101022:20|10:100000,101032:10|10:200000,101032:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_S_1181_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1181,
+      "NIHDPPIEPEG": "Weapon_S_1181_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14119,
+      "OBMHHBOOCJK": "Weapon_S_1191",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 48
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 20103,
+        "PIEIECGGIIA": 960
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1191",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1191",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1191",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101010:4|10:28000,101020:12|10:60000,101020:20|10:100000,101030:10|10:200000,101030:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_S_1191_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1191,
+      "NIHDPPIEPEG": "Weapon_S_1191_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14121,
+      "OBMHHBOOCJK": "Weapon_S_1211",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 46
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 23103,
+        "PIEIECGGIIA": 960
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1211",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1211",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1211",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101013:4|10:28000,101023:12|10:60000,101023:20|10:100000,101033:10|10:200000,101033:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 4,
+      "FCFMBPALCNN": "Item_Weapon_S_1211_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1211,
+      "NIHDPPIEPEG": "Weapon_S_1211_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14124,
+      "OBMHHBOOCJK": "Weapon_S_1241",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 48
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 21103,
+        "PIEIECGGIIA": 1920
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1241",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1241",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1241",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101010:4|10:28000,101020:12|10:60000,101020:20|10:100000,101030:10|10:200000,101030:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 1,
+      "FCFMBPALCNN": "Item_Weapon_S_1241_Desc",
+      "OHEEPBCNHOO": "zhuyuan_release",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1241,
+      "NIHDPPIEPEG": "Weapon_S_1241_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14125,
+      "OBMHHBOOCJK": "Weapon_S_1251",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 48
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 12202,
+        "PIEIECGGIIA": 720
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1251",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1251",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1251",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101011:4|10:28000,101021:12|10:60000,101021:20|10:100000,101031:10|10:200000,101031:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 2,
+      "FCFMBPALCNN": "Item_Weapon_S_1251_Desc",
+      "OHEEPBCNHOO": "",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1251,
+      "NIHDPPIEPEG": "Weapon_S_1251_Comment"
+    },
+    {
+      "NADBGLEMMEH": 14126,
+      "OBMHHBOOCJK": "Weapon_S_1261",
+      "JJHBNDNOBIE": 0,
+      "PHJMAGEHDMD": {
+        "KNKMOMJPPCK": 12101,
+        "PIEIECGGIIA": 48
+      },
+      "DDBILNGKGFI": {
+        "KNKMOMJPPCK": 31203,
+        "PIEIECGGIIA": 36
+      },
+      "HKAOBHPGPJC": 4,
+      "ECJAGBJDEHB": 30000,
+      "HOMIDKMDMGL": "Data/ScriptConfig/Character/Weapon_S_1261",
+      "MECOPINMMOG": "UI/3D/Weapon/Weapon_S_1261",
+      "FDNHCKOACJF": 1,
+      "LHGMDHILALH": "Weapon/Weapon_S_1261",
+      "CDJGFDFOPJB": [
+        {
+          "NADBGLEMMEH": 10,
+          "HLKCJAGFJOB": 2000
+        }
+      ],
+      "CIDJDOEMJNO": 1,
+      "NLKDDMNFAMC": 5,
+      "CDNAIPIABDB": 0,
+      "KDFBDEBILFK": 0,
+      "DNLIJFCGDFD": "10:12000,101012:4|10:28000,101022:12|10:60000,101022:20|10:100000,101032:10|10:200000,101032:20",
+      "HMACCAKDIBA": 0,
+      "FCJODNDIIBE": 3,
+      "FCFMBPALCNN": "Item_Weapon_S_1261_Desc",
+      "OHEEPBCNHOO": "Jane_Seth_release",
+      "GPOGLBCOFMH": "",
+      "JBHOICBGPLL": 1261,
+      "NIHDPPIEPEG": "Weapon_S_1261_Comment"
+    }
+  ]
+}

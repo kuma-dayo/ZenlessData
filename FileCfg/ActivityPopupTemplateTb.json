@@ -1,0 +1,95 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 100,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Widget/Activity/Ver1_0/ActivitySigninFaceBg.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 1
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 200,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Widget/Activity/Ver1_0/ActivityLoginSevendays2FaceBg.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 1
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 300,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Widget/Activity/Ver1_0/ActivityBangbooRewardFaceBg.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 1
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 400,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Dialog/Activity/Ver_1.0/ActivityOBGentleHouseGiftDialog.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 2
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 410,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Widget/Activity/Ver1_1/ActivityLoginSevendaysQingYiFaceBg.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 1
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "AKCAGBLLBDC": 2,
+      "FCKIBENMAPE": 420,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "Assets/NapResources/UI/Menus/Widget/Activity/Ver1_1/ActivityBangbooAcuiFaceBg.prefab",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "",
+      "IEAGPPJGCEM": 1
+    },
+    {
+      "NGPCCDGBLLK": 3001,
+      "AKCAGBLLBDC": 3,
+      "FCKIBENMAPE": 20,
+      "ILPLDCLMILA": 1,
+      "NPLKLFEIHKD": "",
+      "PDNDPLIGNDI": "",
+      "FEECJNLJLKC": [],
+      "OGMLFADBBHL": "",
+      "BENPBHCAAPN": "",
+      "JPPBMOANIJE": "Activity_Begin_Popup_01",
+      "IEAGPPJGCEM": 3
+    }
+  ]
+}

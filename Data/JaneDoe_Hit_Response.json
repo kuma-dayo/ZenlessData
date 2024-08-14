@@ -1,0 +1,1524 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Idle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Move_F",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Move_B",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Move_L",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Move_R",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Taunt",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ParryAssault",
+          "FrameCountHigh": 160,
+          "FrameCountLow": 100,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ForceParryModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Heavy_Back",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Heavy_Front",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Knock",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Back_Down",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Back_Left",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Back_Right",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Back_Up",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Front_Down",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Front_Left",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Front_Right",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Light_Front_Up",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Ground_Stay",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Back_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Back_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Back_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Front_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Front_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Fly_Front_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_InAir_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_InAir_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_InAir_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Knock_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Knock_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Knock_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Back_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Back_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Back_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Front_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Front_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_High_Front_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Back_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Front_OnGround",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InHitCountModifier"
+          ]
+        }
+      ],
+      "IsSeam": false
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerSoundAction",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 1,
+                  "ParamName": "EvadeType",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_Counter_Normal"
+            },
+            {
+              "$type": "TriggerSoundAction",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "EvadeType",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_Counter_Hit"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerSoundAction",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 1,
+                  "ParamName": "EvadeType",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_Counter_Normal"
+            },
+            {
+              "$type": "TriggerSoundAction",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "EvadeType",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_Counter_Hit"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Hit_Parry_01",
+              "FireEffectPosRot": {
+                "CoordsOption": "ReferTarget",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0.0,
+                    "y": 0.8,
+                    "z": 0.7
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "Self"
+                }
+              },
+              "Target": "Self"
+            },
+            {
+              "$type": "TimeSlowByConfigKeyAction",
+              "ConfigKey": "ParryAid_TimeSlow_01",
+              "IsGlobal": true
+            },
+            {
+              "$type": "TriggerSoundAction",
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_ParrySuccess"
+            }
+          ],
+          "AnimatorStateName": "Hit_Sky_Detach_Start",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_Hit_Response",
+  "AbilitySpecials": {
+    "EvadeType": {
+      "Value": 0,
+      "ValueType": "Integer"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "SkillListenerModifier",
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnStunCreateActions": [
+      {
+        "$type": "TriggerSoundAction",
+        "Target": "Self",
+        "soundActionKey": "Monster_JaneDoe_Stun_End"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ForceParryModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_IsForceParryOnAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "Expression": "1",
+          "ParamName": "EvadeType",
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_JaneDoe_Retreat"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "JaneDoe_ForceWaitCount",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsForceParryOnAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    },
+    "InHitCountModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 2,
+          "IgnoreTimeScale": false,
+          "TimeUpActions": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "Expression": "0",
+              "ParamName": "EvadeType",
+              "Target": "Self",
+              "ValueType": "Integer"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_IsHitDetach",
+              "ParamType": 2,
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_IsForceEvadeOnAttack",
+              "ParamType": 2,
+              "Target": "Self"
+            }
+          ]
+        },
+        {
+          "DelayTime": 2.5,
+          "IgnoreTimeScale": false,
+          "TimeUpActions": [
+            {
+              "$type": "SetRBLAction",
+              "RBL": 4,
+              "Tag": "JaneDoe_HitDetach"
+            }
+          ]
+        }
+      ],
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsHitDetach",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsForceEvadeOnAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "JaneDoe_ForceWaitCount",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsHitDetach",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsForceEvadeOnAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "JaneDoe_HitDetach"
+        }
+      ]
+    },
+    "SkillListenerModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnSkillStart": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "UseEvadeModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_IsForceEvadeOnAttack",
+              "ParamType": 2,
+              "Target": "Caster"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Normal"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Branch"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Rush"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Sp"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "ExSp"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Counter"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "BeHitAid"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "AssaultAid"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByApplyPredicate",
+                  "PredicateName": "ByIsInAir",
+                  "Target": "Caster"
+                }
+              ]
+            }
+          ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "UseEvadeModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_IsForceParryOnAttack",
+              "ParamType": 2,
+              "Target": "Caster"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Branch"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "ExSp"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Counter"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "BeHitAid"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "AssaultAid"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByApplyPredicate",
+                  "PredicateName": "ByIsInAir",
+                  "Target": "Caster"
+                }
+              ]
+            }
+          ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "UseParryModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_IsForceParryOnAttack",
+              "ParamType": 2,
+              "Target": "Caster"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Normal"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Sp"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Rush"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByApplyPredicate",
+                  "PredicateName": "ByIsInHitFlyState",
+                  "Target": "Caster"
+                }
+              ]
+            },
+            {
+              "$type": "ByApplyPredicate",
+              "PredicateName": "ByIsInParryRange"
+            }
+          ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "UseEvadeModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_IsForceParryOnAttack",
+              "ParamType": 2,
+              "Target": "Caster"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Normal"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Sp"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "Rush"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByApplyPredicate",
+                  "PredicateName": "ByIsInHitFlyState",
+                  "Target": "Caster"
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByApplyPredicate",
+                  "PredicateName": "ByIsInParryRange"
+                }
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "UseEvadeModifier": {
+      "Duration": 0.1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Evade",
+          "ParamType": 1,
+          "Target": "Caster"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_IsEvadeBack",
+          "ParamType": 2,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "Self",
+              "CompareType": "LessEqual",
+              "Distance": 4,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsEvadeBack",
+          "ParamType": 2,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "Self",
+              "CompareType": "Greater",
+              "Distance": 4,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "UseParryModifier": {
+      "Duration": 0.1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Parry",
+          "ParamType": 1,
+          "Target": "Caster"
+        }
+      ]
+    }
+  },
+  "Predicates": {
+    "ByIsInAir": {
+      "Predicates": [
+        {
+          "$type": "ByOr",
+          "Predicates": [
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_InAir_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_InAir_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Knock_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Knock_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "ByIsInHitFlyState": {
+      "Predicates": [
+        {
+          "$type": "ByOr",
+          "Predicates": [
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Front_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_Low_Back_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Front_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Throw_High_Back_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Front_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Front_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Front_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Back_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Back_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Fly_Back_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_InAir_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_InAir_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_InAir_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Knock_Start",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Knock_Loop",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            },
+            {
+              "$type": "ByAnimatorStateNormalizedTime",
+              "AnimatorStateName": "Hit_Sky_Knock_OnGround",
+              "FrameCountHigh": 0,
+              "FrameCountLow": 0,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "ByIsInParryRange": {
+      "Predicates": [
+        {
+          "$type": "ByDistance",
+          "CompareTarget": "Self",
+          "CompareType": "LessEqual",
+          "Distance": 3.5,
+          "Target": "Caster"
+        },
+        {
+          "$type": "ByAngleRange",
+          "AngleMax": 90,
+          "AngleMin": -90,
+          "CompareTarget": "Self",
+          "Target": "Caster"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "PJKAOOKKJKD": 1,
+      "CIBPKBNKIBB": 30,
+      "LPKBLDAEAKB": 30,
+      "CIHOBFOMEDO": 4,
+      "LPDGCALINGE": "",
+      "EBNIPGCCMFF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "PJKAOOKKJKD": 1,
+      "CIBPKBNKIBB": 40,
+      "LPKBLDAEAKB": 40,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010002",
+      "EBNIPGCCMFF": "WorldLevel_Tips_2"
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "PJKAOOKKJKD": 1,
+      "CIBPKBNKIBB": 50,
+      "LPKBLDAEAKB": 50,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010003",
+      "EBNIPGCCMFF": "WorldLevel_Tips_3"
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "PJKAOOKKJKD": 1,
+      "CIBPKBNKIBB": 60,
+      "LPKBLDAEAKB": 60,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010004",
+      "EBNIPGCCMFF": "WorldLevel_Tips_4"
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "PJKAOOKKJKD": 1,
+      "CIBPKBNKIBB": 65,
+      "LPKBLDAEAKB": 60,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010004",
+      "EBNIPGCCMFF": "WorldLevel_Tips_4"
+    },
+    {
+      "NGPCCDGBLLK": 2001,
+      "PJKAOOKKJKD": 2,
+      "CIBPKBNKIBB": 25,
+      "LPKBLDAEAKB": 25,
+      "CIHOBFOMEDO": 4,
+      "LPDGCALINGE": "",
+      "EBNIPGCCMFF": ""
+    },
+    {
+      "NGPCCDGBLLK": 2002,
+      "PJKAOOKKJKD": 2,
+      "CIBPKBNKIBB": 35,
+      "LPKBLDAEAKB": 35,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010002",
+      "EBNIPGCCMFF": "WorldLevel_Tips_2"
+    },
+    {
+      "NGPCCDGBLLK": 2003,
+      "PJKAOOKKJKD": 2,
+      "CIBPKBNKIBB": 45,
+      "LPKBLDAEAKB": 45,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010003",
+      "EBNIPGCCMFF": "WorldLevel_Tips_3"
+    },
+    {
+      "NGPCCDGBLLK": 2004,
+      "PJKAOOKKJKD": 2,
+      "CIBPKBNKIBB": 55,
+      "LPKBLDAEAKB": 55,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010004",
+      "EBNIPGCCMFF": "WorldLevel_Tips_4"
+    },
+    {
+      "NGPCCDGBLLK": 3001,
+      "PJKAOOKKJKD": 3,
+      "CIBPKBNKIBB": 30,
+      "LPKBLDAEAKB": 30,
+      "CIHOBFOMEDO": 4,
+      "LPDGCALINGE": "",
+      "EBNIPGCCMFF": ""
+    },
+    {
+      "NGPCCDGBLLK": 3002,
+      "PJKAOOKKJKD": 3,
+      "CIBPKBNKIBB": 40,
+      "LPKBLDAEAKB": 40,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010002&30070035",
+      "EBNIPGCCMFF": "DiscBattleUnlock_Tips_3"
+    },
+    {
+      "NGPCCDGBLLK": 3003,
+      "PJKAOOKKJKD": 3,
+      "CIBPKBNKIBB": 50,
+      "LPKBLDAEAKB": 50,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010003&30070045",
+      "EBNIPGCCMFF": "DiscBattleUnlock_Tips_4"
+    },
+    {
+      "NGPCCDGBLLK": 3004,
+      "PJKAOOKKJKD": 3,
+      "CIBPKBNKIBB": 60,
+      "LPKBLDAEAKB": 60,
+      "CIHOBFOMEDO": 9,
+      "LPDGCALINGE": "1280010004&30070050",
+      "EBNIPGCCMFF": "DiscBattleUnlock_Tips_5"
+    }
+  ]
+}

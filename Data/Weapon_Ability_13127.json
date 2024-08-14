@@ -1,0 +1,81 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ListenHpShieldChangeMixin",
+      "Duration": -1,
+      "IgnoreSource": true,
+      "OnShieldEmptyActions": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "SPRecoverModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnShieldRecoverActions": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "SPRecoverModifier",
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Weapon_Ability_13127",
+  "AbilitySpecials": {
+    "AS_ElementAccumulationRatio_AssaultAid": {
+      "Value": 0.3
+    },
+    "AS_ElementAccumulationRatio_ExSP": {
+      "Value": 0.3
+    },
+    "AS_SpRecoverDelta": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackSpecial",
+              "ExSp"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_ElementAccumulationRatio_ExSP",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackAid",
+              "AssaultAid"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_ElementAccumulationRatio_AssaultAid",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "SPRecoverModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_SpRecoverDelta": "%AS_SpRecoverDelta"
+      }
+    }
+  }
+}

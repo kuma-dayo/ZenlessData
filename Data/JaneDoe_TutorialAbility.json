@@ -1,0 +1,253 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "IsEnhance",
+          "CustomReferMaxPropertyType": "MaxIsEnhance",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Quest3Modifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front_01",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back_01",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front_02",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back_02",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front_03",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest1Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back_03",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest2Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Counter_01",
+          "ForceTriggerOnTransitionIn": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest2Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Counter_02",
+          "ForceTriggerOnTransitionIn": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest2Modifier",
+              "Target": "Self"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest4Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Counter_03",
+          "ForceTriggerOnTransitionIn": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_TutorialAbility",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest5Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "JaneDoe_Attack_Branch_01_AttackProperty_01",
+              "JaneDoe_Attack_Branch_01_AttackProperty_02",
+              "JaneDoe_Attack_Branch_01_AttackProperty_03",
+              "JaneDoe_Attack_Branch_01_AttackProperty_04",
+              "JaneDoe_Attack_Branch_01_AttackProperty_05",
+              "JaneDoe_Attack_Branch_01_AttackProperty_06",
+              "JaneDoe_Attack_Branch_01_AttackProperty_07",
+              "JaneDoe_Attack_Branch_01_AttackProperty_08",
+              "JaneDoe_Attack_Branch_01_AttackProperty_09",
+              "JaneDoe_Attack_Branch_01_AttackProperty_10",
+              "JaneDoe_Attack_Branch_01_AttackProperty_11",
+              "JaneDoe_Attack_Branch_01_AttackProperty_12",
+              "JaneDoe_Attack_Branch_01_AttackProperty_13",
+              "JaneDoe_Attack_Branch_01_AttackProperty_14",
+              "JaneDoe_Attack_Branch_01_AttackProperty_15",
+              "JaneDoe_Attack_Branch_01_AttackProperty_16",
+              "JaneDoe_Attack_Branch_01_AttackProperty_17",
+              "JaneDoe_Attack_Branch_01_AttackProperty_18",
+              "JaneDoe_Attack_Branch_01_AttackProperty_19"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Quest1Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_JaneDoe_1"
+        }
+      ]
+    },
+    "Quest2Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_JaneDoe_2"
+        }
+      ]
+    },
+    "Quest3Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_JaneDoe_3"
+        }
+      ]
+    },
+    "Quest4Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_JaneDoe_4"
+        }
+      ]
+    },
+    "Quest5Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_JaneDoe_5"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1739 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": -1,
+              "CustomPropertyType": "BranchAttackUseTime",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 18,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "JaneDoe_EnhanceLevelManage",
+              "Instant": true,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "JaneDoe_EnhanceLevelManage",
+              "Instant": true,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "PropertyChangeActions": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "min(specials(AS_AddedAttackDeltaMax),specials(AS_AddedAttackDelta)*(property(ElementMystery_Battle)-specials(AS_ElementMysteryBase)))",
+              "ParamName": "AddedAttackAmount",
+              "ValueType": "Float"
+            },
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "min(specials(AS_AddedDamageRatio_Max_Talent_01),specials(AS_AddedDamageRatio_Talent_01)*(property(ElementMystery_Battle)))",
+              "ParamName": "AddedDamageRatioTotal_Talent_01",
+              "ValueType": "Float"
+            }
+          ],
+          "PropertyType": "ElementMystery_Battle",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "AddedAttackModifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Modifier_Enhance"
+                      ],
+                      "Target": "Self"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Val": "%AS_ElementMysteryBase"
+            },
+            {
+              "Val": "%AS_ElementMysteryBase",
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "AddedAttackModifier",
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "CustomPropertyType": "CurrentEnhancePoint",
+          "CustomReferMaxPropertyType": "MaxEnhancePoint",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Modifier_Enhance",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Modifier_Enhance"
+                      ],
+                      "OperatorType": "Not",
+                      "Target": "Self"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Val": 100
+            },
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Modifier_Enhance",
+                  "Predicates": [
+                    {
+                      "$type": "ByHasModifier",
+                      "ModifierNameList": [
+                        "Modifier_Enhance"
+                      ],
+                      "Target": "Self"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0
+            }
+          ]
+        },
+        {
+          "CustomPropertyType": "BranchAttackUseTime",
+          "CustomReferMaxPropertyType": "MaxBranchAttackUseTime",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": false,
+                  "ParamName": "Bool_EnableBranchAttack",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0,
+              "ValueToHighActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": true,
+                  "ParamName": "Bool_EnableBranchAttack",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "FrameCountHigh": 12,
+          "FrameCountLow": 7,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "FrameCountHigh": 6,
+          "FrameCountLow": 4,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "FrameCountHigh": 18,
+          "FrameCountLow": 11,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03",
+          "FrameCountHigh": 18,
+          "FrameCountLow": 6,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03",
+          "FrameCountHigh": 18,
+          "FrameCountLow": 11,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04",
+          "FrameCountHigh": 26,
+          "FrameCountLow": 10,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04",
+          "FrameCountHigh": 26,
+          "FrameCountLow": 15,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 29,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05",
+          "FrameCountHigh": 18,
+          "FrameCountLow": 9,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_06",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 11,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_06",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 19,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_01",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 9,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_02",
+          "FrameCountHigh": 27,
+          "FrameCountLow": 12,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_02",
+          "FrameCountHigh": 47,
+          "FrameCountLow": 15,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_03",
+          "FrameCountHigh": 22,
+          "FrameCountLow": 7,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_03",
+          "FrameCountHigh": 37,
+          "FrameCountLow": 30,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_01",
+          "FrameCountHigh": 15,
+          "FrameCountLow": 6,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_01",
+          "FrameCountHigh": 45,
+          "FrameCountLow": 9,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_01",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 15,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_02",
+          "FrameCountHigh": 45,
+          "FrameCountLow": 3,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_02",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 13,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_03",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 5,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_03",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 11,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_03",
+          "FrameCountHigh": 55,
+          "FrameCountLow": 40,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_03",
+          "FrameCountHigh": 55,
+          "FrameCountLow": 40,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Special_01",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 15,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Special_01",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 20,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 15,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 20,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 17,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 17,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Release",
+          "FrameCountHigh": 43,
+          "FrameCountLow": 17,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Release",
+          "FrameCountHigh": 43,
+          "FrameCountLow": 17,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 45,
+          "FrameCountLow": 8,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_R_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 95,
+          "FrameCountLow": 17,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack",
+          "FrameCountHigh": 90,
+          "FrameCountLow": 72,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot",
+            "Modifier_EnhanceEffect_R_Boot",
+            "Modifier_EnhanceEffect_L_Hand",
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "FrameCountHigh": 80,
+          "FrameCountLow": 58,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_EnhanceEffect_L_Boot",
+            "Modifier_EnhanceEffect_R_Boot",
+            "Modifier_EnhanceEffect_L_Hand",
+            "Modifier_EnhanceEffect_R_Hand"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "FrameCountHigh": 12,
+          "FrameCountLow": 4,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "FrameCountHigh": 24,
+          "FrameCountLow": 4,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03",
+          "FrameCountHigh": 17,
+          "FrameCountLow": 4,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 10,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_06",
+          "FrameCountHigh": 54,
+          "FrameCountLow": 11,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Special_01",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 10,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 13,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_03",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_03",
+          "FrameCountHigh": 55,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 55,
+          "FrameCountLow": 30,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Back_03",
+          "FrameCountHigh": 17,
+          "FrameCountLow": 4,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Front_03",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 5,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MaterialPropertyModifier_EnhanceAttack"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_EnhanceLevelManage",
+  "AbilitySpecials": {
+    "AS_AddedAttackDelta": {
+      "Value": 0
+    },
+    "AS_AddedAttackDeltaMax": {
+      "Value": 0
+    },
+    "AS_AddedDamageRatio_Max_Talent_01": {
+      "Value": 0
+    },
+    "AS_AddedDamageRatio_Talent_01": {
+      "Value": 0
+    },
+    "AS_AddedElementAccumulationRatio": {
+      "Value": 0
+    },
+    "AS_AddedElementAccumulationRatio_Talent_01": {
+      "Value": 0
+    },
+    "AS_CriticalDamageDelta_Talent_04": {
+      "Value": 0
+    },
+    "AS_CriticalDelta_Talent_04": {
+      "Value": 0
+    },
+    "AS_ElementMysteryBase": {
+      "Value": 120
+    },
+    "AS_EvadeRecoverAmount": {
+      "Value": 0
+    },
+    "AS_ParryRecoverAmount": {
+      "Value": 0
+    },
+    "AddedAttackAmount": {
+      "Value": 0
+    },
+    "AddedDamageRatioTotal_Talent_01": {
+      "Value": 0
+    },
+    "EnhancePointRecoverAmount": {
+      "Value": 0
+    },
+    "EnhancePointReduceAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "min(specials(AS_AddedAttackDeltaMax),specials(AS_AddedAttackDelta)*(property(ElementMystery_Battle)-specials(AS_ElementMysteryBase)))",
+        "ParamName": "AddedAttackAmount",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "min(specials(AS_AddedDamageRatio_Max_Talent_01),specials(AS_AddedDamageRatio_Talent_01)*(property(ElementMystery_Battle)))",
+        "ParamName": "AddedDamageRatioTotal_Talent_01",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "JaneDoe_Talent_06_ListenModifer",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 6,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnDodgeSuccess": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%AS_EvadeRecoverAmount",
+        "CustomPropertyType": "CurrentEnhancePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ],
+    "OnPatternAttackLanded": [
+      {
+        "$type": "SetAbilitySpecialByExpressionListAction",
+        "Expressions": [
+          {
+            "AbilitySpecialName": "EnhancePointRecoverAmount",
+            "Expression": "{0}"
+          }
+        ],
+        "Params": [
+          {
+            "$type": "ExpressionParamAttackData",
+            "AttackDataType": "AttackPropertyCustom",
+            "AttackPropertyDataIndex": 0,
+            "ParamType": "AttackData"
+          }
+        ]
+      },
+      {
+        "$type": "SetAbilitySpecialByExpressionListAction",
+        "Expressions": [
+          {
+            "AbilitySpecialName": "EnhancePointReduceAmount",
+            "Expression": "-{0}"
+          }
+        ],
+        "Params": [
+          {
+            "$type": "ExpressionParamAttackData",
+            "AttackDataType": "AttackPropertyCustom",
+            "AttackPropertyDataIndex": 1,
+            "ParamType": "AttackData"
+          }
+        ],
+        "Predicates": [
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByAnimEventIDs",
+                "AnimEventIDs": [
+                  "JaneDoe_Attack_Branch_01_AttackProperty_01",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_02",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_03",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_04",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_05",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_06",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_07",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_08",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_09",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_10",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_11",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_12",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_13",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_14",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_15",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_16",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_17",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_18",
+                  "JaneDoe_Attack_Branch_01_AttackProperty_19"
+                ],
+                "Target": "Self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$type": "SetAbilitySpecialByExpressionListAction",
+        "Expressions": [
+          {
+            "AbilitySpecialName": "EnhancePointReduceAmount",
+            "Expression": "{0}"
+          }
+        ],
+        "Params": [
+          {
+            "$type": "ExpressionParamAttackData",
+            "AttackDataType": "AttackPropertyCustom",
+            "AttackPropertyDataIndex": 1,
+            "ParamType": "AttackData"
+          }
+        ],
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "JaneDoe_Attack_Branch_01_AttackProperty_01",
+              "JaneDoe_Attack_Branch_01_AttackProperty_02",
+              "JaneDoe_Attack_Branch_01_AttackProperty_03",
+              "JaneDoe_Attack_Branch_01_AttackProperty_04",
+              "JaneDoe_Attack_Branch_01_AttackProperty_05",
+              "JaneDoe_Attack_Branch_01_AttackProperty_06",
+              "JaneDoe_Attack_Branch_01_AttackProperty_07",
+              "JaneDoe_Attack_Branch_01_AttackProperty_08",
+              "JaneDoe_Attack_Branch_01_AttackProperty_09",
+              "JaneDoe_Attack_Branch_01_AttackProperty_10",
+              "JaneDoe_Attack_Branch_01_AttackProperty_11",
+              "JaneDoe_Attack_Branch_01_AttackProperty_12",
+              "JaneDoe_Attack_Branch_01_AttackProperty_13",
+              "JaneDoe_Attack_Branch_01_AttackProperty_14",
+              "JaneDoe_Attack_Branch_01_AttackProperty_15",
+              "JaneDoe_Attack_Branch_01_AttackProperty_16",
+              "JaneDoe_Attack_Branch_01_AttackProperty_17",
+              "JaneDoe_Attack_Branch_01_AttackProperty_18",
+              "JaneDoe_Attack_Branch_01_AttackProperty_19"
+            ],
+            "Target": "Self"
+          }
+        ]
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%EnhancePointRecoverAmount",
+        "CustomPropertyType": "CurrentEnhancePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "Modifier_Enhance"
+            ],
+            "OperatorType": "Not",
+            "Target": "Self"
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%EnhancePointReduceAmount",
+        "CustomPropertyType": "CurrentEnhancePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "Modifier_Enhance"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%AS_ParryRecoverAmount",
+        "CustomPropertyType": "CurrentEnhancePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByAnd",
+            "Predicates": [
+              {
+                "$type": "ByAvatarSwitchType",
+                "SwitchType": "AidAttack",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByAidAttackType",
+                "AidAttackType": "ParryAid"
+              }
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddeDamageModifier_Talent_01": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AddedDamageRatioTotal_Talent_01"
+      }
+    },
+    "AddedAttackModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackDelta": "%AddedAttackAmount"
+      }
+    },
+    "AddedCrticalModifier_Talent_04": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_CriticalDamageRatioDelta": "%AS_CriticalDamageDelta_Talent_04",
+        "Actor_CriticalDelta": "%AS_CriticalDelta_Talent_04"
+      }
+    },
+    "AddedElementAccumulationRatioModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_AddedElementAccumulationRatio"
+      }
+    },
+    "AddedElementAccumulationRatioModifier_Talent_01": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_AddedElementAccumulationRatio_Talent_01"
+      }
+    },
+    "JaneDoe_Talent_06_ListenModifer": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnBuffDamageHitOtherPre": [
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "JaneDoe_EnhanceLevelManage",
+          "Instant": true,
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 6,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "MaterialPropertyModifier_EnhanceAttack": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_Enhance"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "JaneDoe_Body_1"
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_06",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_06"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_Enhance"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "JaneDoe_Body_1"
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_ScreenImage_06",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_JaneDoe_MA_Common_ScreenImage_06"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_06",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_ScreenImage_06",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_Enhance": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Play_SFX_Char_Skill_JaneDoe_Attack_Branch_Ready"
+        },
+        {
+          "$type": "ProcessScreenEffectAction",
+          "EffectKey": "Avatar_JaneDoe_Common_Vignette_01",
+          "EffectType": "Vignette",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                },
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack_Ex",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_IsEnhance",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "IsEnhance",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "BranchAttackUseTime",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "IsEnhance"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "ChestPoint",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_07_Flash",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                },
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack_Ex",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "RFootPoint",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_08_Lightning",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LFootPoint",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_08_Lightning",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "JaneDoe_Body_1"
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_SecondaryEmission_04",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_JaneDoe_MA_Common_SecondaryEmission_04"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack_Ex",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                },
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "SwitchIn_Attack",
+                  "FrameCountHigh": 0,
+                  "FrameCountLow": 0,
+                  "IsLoop": false,
+                  "LayerIndex": 0,
+                  "MaxFrameCountHigh": true,
+                  "MaxFrameCountLow": false
+                }
+              ]
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_05",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_05"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "min(specials(AS_AddedAttackDeltaMax),specials(AS_AddedAttackDelta)*(property(ElementMystery_Battle)-specials(AS_ElementMysteryBase)))",
+          "ParamName": "AddedAttackAmount",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedAttackModifier",
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "GreaterEqual",
+              "Numerator": "ElementMystery_Battle",
+              "Val1": "%AS_ElementMysteryBase"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddeDamageModifier_Talent_01",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedElementAccumulationRatioModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedElementAccumulationRatioModifier_Talent_01",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedCrticalModifier_Talent_04",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 6,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Play_SFX_Char_Skill_JaneDoe_Attack_Branch_End"
+        },
+        {
+          "$type": "InterruptScreenEffectAction",
+          "EffectType": "Vignette",
+          "TargetKey": "Avatar_JaneDoe_Common_Vignette_01"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsEnhance",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "IsEnhance",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "IsEnhance"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_SecondaryEmission_04",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_JaneDoe_MA_Common_OverrideRimGlow_05",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AddedAttackModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AddeDamageModifier_Talent_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AddedElementAccumulationRatioModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AddedElementAccumulationRatioModifier_Talent_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AddedCrticalModifier_Talent_04",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 6,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_EnhanceEffect_L_Boot": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_BootsWpn_01",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_04_GlowMod",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_EnhanceEffect_L_Hand": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_HandWpn_F",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_03_GlowMod",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_EnhanceEffect_R_Boot": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_BootsWpn_01",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_05_GlowMod",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_EnhanceEffect_R_Hand": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_HandWpn_F",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_03_GlowMod",
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "Modifier_Enhance",
+      "Target": "Self"
+    },
+    {
+      "$type": "ModifyProperty",
+      "Amount": 100,
+      "CustomPropertyType": "CurrentEnhancePoint",
+      "IsUsePercentage": false,
+      "Percentage": 0,
+      "PropertyModifyFunction": "Add",
+      "PropertyType": "Custom"
+    }
+  ]
+}

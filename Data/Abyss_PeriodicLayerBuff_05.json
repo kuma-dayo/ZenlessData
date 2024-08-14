@@ -1,0 +1,31 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_05",
+  "AbilitySpecials": {
+    "AS_BaseAtkRatio_Base": {
+      "Value": 0.15
+    },
+    "AS_BuffDamgeRatio_Base": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DamageUpBaseModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DamageUpBaseModifier": {
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAtkRatio_Base",
+        "Actor_BuffDamageRatio": "%AS_BuffDamgeRatio_Base"
+      }
+    }
+  }
+}

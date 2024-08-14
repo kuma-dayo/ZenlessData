@@ -1,0 +1,110 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Idle",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "BeScared_Loop",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "IntAct_WowJump",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Quarrel01_Start",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Quarrel01_Loop",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Quarrel01_End",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "IntAct_SitRelax",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "IntAct_Tried",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AddNPCMassWithIdleState"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0,
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "GamePlay_AddNPCMassWithIdleState",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AddNPCMassWithIdleState": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMassRatioAction",
+          "Ratio": 1000.0,
+          "Target": "Self"
+        }
+      ],
+      "OnRemove": [
+        {
+          "$type": "ModifyMassRatioEndAction",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

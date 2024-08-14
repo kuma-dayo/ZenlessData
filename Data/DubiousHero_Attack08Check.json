@@ -1,0 +1,91 @@
+{
+  "AbilityName": "DubiousHero_Attack08Check",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierMixins": [
+      {
+        "$type": "ActionsOnPropertyChangeMixin",
+        "PropertyActions": [
+          {
+            "IsUsePercentage": true,
+            "PropertyType": "CurStun",
+            "ReferMaxPropertyType": "MaxStun",
+            "ValueRangeActions": [
+              {
+                "LowToValueActions": [
+                  {
+                    "$type": "HandleAnimatorZoneTagsAction",
+                    "AnimatorStateTags": [
+                      "Attack08Ready"
+                    ],
+                    "IsAdd": true,
+                    "Target": "Self"
+                  }
+                ],
+                "Val": 0.9
+              },
+              {
+                "LowToValueActions": [
+                  {
+                    "$type": "HandleAnimatorZoneTagsAction",
+                    "AnimatorStateTags": [
+                      "FirstChargeReady"
+                    ],
+                    "IsAdd": true,
+                    "Target": "Self"
+                  }
+                ],
+                "Val": 0.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$type": "AttachStateWithModifierMixin",
+        "ConfigList": [
+          {
+            "AnimatorStateName": "Stun_Start_Front",
+            "FrameCountHigh": 0,
+            "FrameCountLow": 0,
+            "IsLoop": false,
+            "LayerIndex": 0,
+            "MaxFrameCountHigh": true,
+            "MaxFrameCountLow": false,
+            "ModifierNameList": [
+              "ResetTagModifier"
+            ]
+          },
+          {
+            "AnimatorStateName": "Stun_Start_Back",
+            "FrameCountHigh": 0,
+            "FrameCountLow": 0,
+            "IsLoop": false,
+            "LayerIndex": 0,
+            "MaxFrameCountHigh": true,
+            "MaxFrameCountLow": false,
+            "ModifierNameList": [
+              "ResetTagModifier"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "ResetTagModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "Attack08Ready"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

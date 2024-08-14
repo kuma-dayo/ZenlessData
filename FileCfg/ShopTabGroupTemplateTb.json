@@ -1,0 +1,85 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "EIJFALGGBDM": 10,
+      "FHPNDIPPDLE": 1,
+      "ONPGGNGAPKA": 1,
+      "KJHMOJLHPGE": "",
+      "IMLLBLDCILI": "",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 30,
+      "FHPNDIPPDLE": 3,
+      "ONPGGNGAPKA": 1,
+      "KJHMOJLHPGE": "",
+      "IMLLBLDCILI": "",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 40,
+      "FHPNDIPPDLE": 4,
+      "ONPGGNGAPKA": 1,
+      "KJHMOJLHPGE": "",
+      "IMLLBLDCILI": "",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1000,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 1,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_01",
+      "IMLLBLDCILI": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ShoppingMall/Packer/IconRecommand.png",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1001,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 2,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_02",
+      "IMLLBLDCILI": "",
+      "BGNNFJIMKIO": true,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1002,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 3,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_MonthlyFilm",
+      "IMLLBLDCILI": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ShoppingMall/Packer/IconMonthCard.png",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1003,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 5,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_04",
+      "IMLLBLDCILI": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ShoppingMall/Packer/IconGift.png",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1004,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 6,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_05",
+      "IMLLBLDCILI": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ShoppingMall/Packer/IconPuzzle.png",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    },
+    {
+      "EIJFALGGBDM": 1005,
+      "FHPNDIPPDLE": 100,
+      "ONPGGNGAPKA": 7,
+      "KJHMOJLHPGE": "DiamondShop_ShopTabGroup_Name_06",
+      "IMLLBLDCILI": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ShoppingMall/Packer/IconRecharge.png",
+      "BGNNFJIMKIO": false,
+      "FHLCCIAIBHF": false
+    }
+  ]
+}

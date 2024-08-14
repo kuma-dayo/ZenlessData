@@ -1,0 +1,72 @@
+{
+  "AbilityName": "ActivityBattleAbility_Condition_ElementAbnormalPlay",
+  "AbilitySpecials": {
+    "AS_BuffDuration": {
+      "Value": 15.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "AddSceneTagAction",
+        "SceneTagList": [
+          "ActivityBattleAbility_Condition_ElementAbnormalPlay"
+        ]
+      }
+    ],
+    "OnBuffAddToOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ConditionModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Frozen",
+              "Frostbite",
+              "Strike",
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos"
+            ]
+          }
+        ],
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ConditionModifier": {
+      "Buff": {
+        "BuffID": 9000001,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "ActivityBattleAbility_Condition_BuffAdd"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "QuestCountModifier"
+        }
+      ]
+    },
+    "QuestCountModifier": {
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Refresh",
+      "OnRemoved": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "ActivityBattleAbility_Condition_BuffRemoved"
+        }
+      ]
+    }
+  }
+}

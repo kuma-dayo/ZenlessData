@@ -1,0 +1,63 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "AJLLFDOHEEP": "Visible",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE",
+        "FLAG_CAN_MOVE"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "AJLLFDOHEEP": "VisibleAtGridAround",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE_AT_GRID_AROUND"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "AJLLFDOHEEP": "VisibleByTriggerEvent",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE_BY_TRIGGER_EVENT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "AJLLFDOHEEP": "TemporaryVisibleAtAround",
+      "IFOFAIDDNLB": [
+        "FLAG_TEMPORARY_VISIBLE_AT_AROUND"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "AJLLFDOHEEP": "Blocked",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 6,
+      "AJLLFDOHEEP": "All",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE",
+        "FLAG_CAN_MOVE"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 7,
+      "AJLLFDOHEEP": "",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE",
+        "FLAG_CAN_MOVE"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "AJLLFDOHEEP": "VisibleWhenLightning",
+      "IFOFAIDDNLB": [
+        "FLAG_VISIBLE_WHEN_LIGHTNING"
+      ]
+    }
+  ]
+}

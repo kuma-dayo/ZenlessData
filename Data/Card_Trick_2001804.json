@@ -1,0 +1,17 @@
+{
+  "AbilityName": "Card_Trick_2001804",
+  "AbilitySpecials": {
+    "DestroyRecoverRate_Ratio": {
+      "Value": 1
+    },
+    "StunTimeChange": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_StunDestroyRecoverRate_Ratio": "%DestroyRecoverRate_Ratio"
+    }
+  }
+}

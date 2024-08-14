@@ -1,0 +1,106 @@
+{
+  "AbilityName": "VR_SmallBoss_DubiousHero",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0
+    },
+    "AS_AddedElementAccumulationRatio": {
+      "Value": 10
+    },
+    "HpPercentage": {
+      "Value": 0.1
+    },
+    "HpReduceAmount": {
+      "Value": 0.25
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(HpPercentage)*property(MaxHP)",
+        "ParamName": "HpReduceAmount",
+        "ValueType": "Float"
+      }
+    ],
+    "OnBeingHit": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "Charge"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_AddedElementAccumulationRatio",
+        "Target": "Target"
+      },
+      {
+        "$type": "ReplaceDamageAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_Curse_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "TargetDamage": "%HpReduceAmount"
+      }
+    ],
+    "OnBuffAdded": [
+      {
+        "$type": "DamageByAttackPropertyAction",
+        "AnimEventID": "Monster_DubiousHero_Curse_Attackproperty_01",
+        "AttachPoint": "MiddlePoint",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos",
+              "Burn",
+              "Ignite",
+              "Strike",
+              "Frozen",
+              "Frostbite"
+            ],
+            "Target": "Self"
+          },
+          {
+            "$type": "ByRelativeCampType",
+            "Relationship": "Enemy",
+            "Target": "Other"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "Charge"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

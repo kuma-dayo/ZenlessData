@@ -1,0 +1,434 @@
+{
+  "AbilityName": "TestGraph_09",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAttach": {
+          "x": 287.879,
+          "y": 258.8544
+        },
+        "OnStart": {
+          "x": 260,
+          "y": 782
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": -165,
+          "y": -710
+        },
+        "Zoom": 1.3225
+      },
+      "Node": [
+        {
+          "x": 603,
+          "y": 258.5
+        },
+        {
+          "x": 441.2684,
+          "y": 259.2439
+        },
+        {
+          "x": 357.2174,
+          "y": 367.5218
+        },
+        {
+          "x": 625,
+          "y": 934
+        },
+        {
+          "x": 829.8696,
+          "y": 259
+        },
+        {
+          "x": 1048,
+          "y": 259
+        },
+        {
+          "x": 1267.696,
+          "y": 258.8696
+        },
+        {
+          "x": 1065.5,
+          "y": 781
+        },
+        {
+          "x": 407,
+          "y": 782
+        },
+        {
+          "x": 221,
+          "y": 873
+        },
+        {
+          "x": 2177,
+          "y": 259
+        },
+        {
+          "x": 1320.5,
+          "y": 781
+        },
+        {
+          "x": 1496,
+          "y": 259
+        },
+        {
+          "x": 2339.854,
+          "y": 259.1435
+        },
+        {
+          "x": 2178.414,
+          "y": 482.6308
+        },
+        {
+          "x": 350.6087,
+          "y": 460.6087
+        },
+        {
+          "x": 1723,
+          "y": 259
+        },
+        {
+          "x": 1936,
+          "y": 259
+        },
+        {
+          "x": 1760,
+          "y": 401
+        },
+        {
+          "x": 836.5,
+          "y": 933.5
+        },
+        {
+          "x": 434.3913,
+          "y": 935.3478
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAttach": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 1,
+        "ParametersBind": []
+      },
+      "OnStart": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 8,
+        "ParametersBind": []
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 4,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Treasure_Open"
+        },
+        "PositionOffset": {},
+        "PreActionBind": [
+          2,
+          15
+        ],
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "BindId": 1001
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1000
+        }
+      },
+      {
+        "$type": "LogValueNode",
+        "DefaultOutBind": 0,
+        "Value": {
+          "DefaultValue": "start"
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000
+          ]
+        }
+      },
+      {
+        "$type": "RotateVector",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          20
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1006
+          ]
+        },
+        "RotateValue": {
+          "$type": "ConfigInputValue",
+          "BindId": 1002
+        },
+        "V3Value": {
+          "BindId": 1011
+        }
+      },
+      {
+        "$type": "AttachAttackPredicate",
+        "DefaultOutBind": 5,
+        "Key": {
+          "DefaultValue": "Monster_Claymore_ATK01_Attackproperty_Predicate"
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 6,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.2
+        }
+      },
+      {
+        "$type": "AttachAttackProperty",
+        "DefaultOutBind": 12,
+        "Key": {
+          "DefaultValue": "Monster_Claymore_ATK01_Attackproperty"
+        }
+      },
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": 11,
+        "InitialGraphKey": {
+          "DefaultValue": "TestGraph_09"
+        },
+        "Position": {
+          "BindId": 1010
+        },
+        "PreActionBind": [
+          19
+        ],
+        "PropID": {
+          "$type": "ConfigOutputValue",
+          "BindId": []
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 1003
+        }
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "DefaultOutBind": 7,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1009
+          ]
+        },
+        "PreActionBind": [
+          9
+        ],
+        "Rotation": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1002,
+            1003
+          ]
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1004
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1004
+          ]
+        }
+      },
+      {
+        "$type": "LogValueNode",
+        "DefaultOutBind": 13,
+        "Value": {
+          "DefaultValue": "end"
+        }
+      },
+      {
+        "$type": "LogValueNode",
+        "DefaultOutBind": -1,
+        "Value": {
+          "DefaultValue": "prop"
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 16,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.5
+        }
+      },
+      {
+        "$type": "DestroyProp",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          14
+        ],
+        "PropID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1005
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1005
+          ]
+        }
+      },
+      {
+        "$type": "MakeVector",
+        "DefaultOutBind": -1,
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1001
+          ]
+        },
+        "X": {
+          "DefaultValue": 1
+        },
+        "Y": {
+          "DefaultValue": 1
+        },
+        "Z": {
+          "DefaultValue": 1
+        }
+      },
+      {
+        "$type": "GetPropCaster",
+        "Caster": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1007
+          ]
+        },
+        "DefaultOutBind": 17,
+        "PreActionBind": [],
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 10,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Treasure_Open"
+        },
+        "PositionOffset": {},
+        "PreActionBind": [
+          18
+        ],
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "BindId": 1008
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1007
+        }
+      },
+      {
+        "$type": "MakeVector",
+        "DefaultOutBind": -1,
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1008
+          ]
+        },
+        "X": {
+          "DefaultValue": 1
+        },
+        "Y": {
+          "DefaultValue": 1
+        },
+        "Z": {
+          "DefaultValue": 1
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1006
+        },
+        "InTwo": {
+          "BindId": 1009
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1010
+          ]
+        },
+        "PreActionBind": [
+          3
+        ]
+      },
+      {
+        "$type": "MakeVector",
+        "DefaultOutBind": -1,
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1011
+          ]
+        },
+        "X": {},
+        "Y": {},
+        "Z": {
+          "DefaultValue": 5
+        }
+      }
+    ],
+    "VariableRegisterList": []
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnStart"
+    }
+  ],
+  "OnAdded": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAttach"
+    }
+  ]
+}

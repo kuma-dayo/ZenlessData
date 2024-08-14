@@ -1,0 +1,70 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "DFCCNJJDHPG": 300005,
+      "OEBGHPOOEEJ": "OfficialName_Monster_DurahanBoss",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253001
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "",
+      "GMCMDNPMFIF": 1
+    },
+    {
+      "DFCCNJJDHPG": 200172,
+      "OEBGHPOOEEJ": "OfficialName_Monster_ThugBulkyEnforcerBoss",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253003
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "",
+      "GMCMDNPMFIF": 2
+    },
+    {
+      "DFCCNJJDHPG": 200034,
+      "OEBGHPOOEEJ": "OfficialName_Monster_HatiArmoredBoss",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253004
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "",
+      "GMCMDNPMFIF": 3
+    },
+    {
+      "DFCCNJJDHPG": 300051,
+      "OEBGHPOOEEJ": "OfficialName_Monster_MaterialHandlerRed",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253005
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "",
+      "GMCMDNPMFIF": 4
+    },
+    {
+      "DFCCNJJDHPG": 300081,
+      "OEBGHPOOEEJ": "BriefName_Monster_MetalGorilla",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253006
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "HB_UnlockTips_Monster300081",
+      "GMCMDNPMFIF": 5
+    },
+    {
+      "DFCCNJJDHPG": 30019,
+      "OEBGHPOOEEJ": "BriefName_Monster_DubiousHero",
+      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
+      "IGKFLEPDLCD": [
+        12253007
+      ],
+      "AJPGNCEMHFH": 301,
+      "GDOOOOLKBIO": "HB_UnlockTips_Monster300019",
+      "GMCMDNPMFIF": 6
+    }
+  ]
+}

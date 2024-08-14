@@ -1,0 +1,280 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "ENFDNAPNGPJ": "Button",
+      "LCLOMDELPII": "Play_UI_Gen_Click",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "ENFDNAPNGPJ": "ScrollButton",
+      "LCLOMDELPII": "Play_UI_Gen_CHR_Select",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "ENFDNAPNGPJ": "NegativeFeedback",
+      "LCLOMDELPII": "Play_UI_Gen_Cancel",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "ENFDNAPNGPJ": "OpenPopup1",
+      "LCLOMDELPII": "Play_UI_Gen_Menu_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "ENFDNAPNGPJ": "OpenPopup2",
+      "LCLOMDELPII": "Play_UI_Gen_OpenPopup2",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_HandShank_Select",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1007,
+      "ENFDNAPNGPJ": "ClosePopup1",
+      "LCLOMDELPII": "Play_UI_Gen_Menu_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1008,
+      "ENFDNAPNGPJ": "ClosePopup2",
+      "LCLOMDELPII": "Play_UI_Gen_ClosePopup2",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1009,
+      "ENFDNAPNGPJ": "ClosePopupTip",
+      "LCLOMDELPII": "",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1010,
+      "ENFDNAPNGPJ": "ScrollSlideLine",
+      "LCLOMDELPII": "Play_UI_Gen_Slide",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1011,
+      "ENFDNAPNGPJ": "ScrollSlideSingle",
+      "LCLOMDELPII": "Play_UI_Gen_Slide",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1012,
+      "ENFDNAPNGPJ": "ScrollSlideSimple",
+      "LCLOMDELPII": "Play_UI_Gen_Slide",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1013,
+      "ENFDNAPNGPJ": "Transition",
+      "LCLOMDELPII": "",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1014,
+      "ENFDNAPNGPJ": "SlideFadeIn",
+      "LCLOMDELPII": "Play_UI_Gen_Arrow",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1015,
+      "ENFDNAPNGPJ": "SlideFadeOut",
+      "LCLOMDELPII": "Play_UI_Gen_Arrow",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1016,
+      "ENFDNAPNGPJ": "FairyAppear",
+      "LCLOMDELPII": "Play_UI_Fairy_Appear",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1017,
+      "ENFDNAPNGPJ": "FairyDisappear",
+      "LCLOMDELPII": "Play_UI_Fairy_Disappear",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1018,
+      "ENFDNAPNGPJ": "SliderMove",
+      "LCLOMDELPII": "Play_UI_Gen_Slide",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1019,
+      "ENFDNAPNGPJ": "TabButton",
+      "LCLOMDELPII": "Play_UI_Gen_Static_Toggle",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1020,
+      "ENFDNAPNGPJ": "Warning",
+      "LCLOMDELPII": "Play_UI_Gen_Warning",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1021,
+      "ENFDNAPNGPJ": "OpenSlidemenu",
+      "LCLOMDELPII": "Play_UI_Gen_Slidemenu_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1022,
+      "ENFDNAPNGPJ": "CloseSlidemenu",
+      "LCLOMDELPII": "Play_UI_Gen_Slidemenu_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1023,
+      "ENFDNAPNGPJ": "Button_1",
+      "LCLOMDELPII": "Play_UI_Gen_Button_1",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1024,
+      "ENFDNAPNGPJ": "Button_2",
+      "LCLOMDELPII": "Play_UI_Gen_Button_2",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1025,
+      "ENFDNAPNGPJ": "OpenDropdown",
+      "LCLOMDELPII": "Play_UI_Gen_Dropdown_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1026,
+      "ENFDNAPNGPJ": "CloseDropdown",
+      "LCLOMDELPII": "Play_UI_Gen_Dropdown_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1027,
+      "ENFDNAPNGPJ": "Confirm",
+      "LCLOMDELPII": "Play_UI_Gen_Confirm",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1028,
+      "ENFDNAPNGPJ": "Arrow",
+      "LCLOMDELPII": "Play_UI_Gen_Arrow",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1029,
+      "ENFDNAPNGPJ": "Interact",
+      "LCLOMDELPII": "Play_UI_Gen_Interact",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1030,
+      "ENFDNAPNGPJ": "WarningPopupTip",
+      "LCLOMDELPII": "Play_UI_Gen_PopupTip_Open_Warning",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1031,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Maincity_Common_MetalWindow_Switch",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1032,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Unlock",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1033,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Lock",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1034,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Lock",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1035,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Buy_Item",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1036,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Bar_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1037,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Bar_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1038,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Card_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1039,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Card_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1040,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_MenuWindow_Open",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1041,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_MenuWindow_Close",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1042,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1043,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1044,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Updown_Bar_Fadein",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1045,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_Updown_Bar_Fadeout",
+      "AFOICIGAOGD": 0
+    },
+    {
+      "NGPCCDGBLLK": 1046,
+      "ENFDNAPNGPJ": "",
+      "LCLOMDELPII": "Play_UI_Gen_ChaSelConfirm",
+      "AFOICIGAOGD": 0
+    }
+  ]
+}

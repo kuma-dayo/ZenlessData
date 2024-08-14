@@ -1,0 +1,111 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachZoneTagWithModifierMixin",
+      "ConfigList": [
+        {
+          "ModifierNameList": [
+            "HitFlyModifier"
+          ],
+          "ZoneTag": "AidAttack_HitFly"
+        },
+        {
+          "ModifierNameList": [
+            "AidCommonModifier"
+          ],
+          "ZoneTag": "AidAttack_Common"
+        },
+        {
+          "ModifierNameList": [
+            "AidCommonPrevModifier"
+          ],
+          "ZoneTag": "AidAttack_Common_Prev"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "ActivityBattleAbility_Condition_AidQTEPlay",
+  "AbilitySpecials": {
+    "AS_BuffDuration": {
+      "Value": 15.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "AddSceneTagAction",
+        "SceneTagList": [
+          "ActivityBattleAbility_Condition_AidQTEPlay"
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "AidCommonModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ConditionModifier",
+          "Target": "Level"
+        }
+      ]
+    },
+    "AidCommonPrevModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ConditionModifier",
+          "Target": "Level"
+        }
+      ]
+    },
+    "ConditionModifier": {
+      "Buff": {
+        "BuffID": 9000001,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "ActivityBattleAbility_Condition_BuffAdd"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "QuestCountModifier"
+        },
+        {
+          "$type": "TriggerLevelCustomConditions",
+          "LevelConditionsID": 1504
+        }
+      ]
+    },
+    "HitFlyModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ConditionModifier",
+          "Target": "Level"
+        }
+      ]
+    },
+    "QuestCountModifier": {
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Refresh",
+      "OnRemoved": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "ActivityBattleAbility_Condition_BuffRemoved"
+        }
+      ]
+    }
+  }
+}

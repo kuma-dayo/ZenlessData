@@ -1,0 +1,64 @@
+{
+  "AbilityName": "JaneDoe_MathSkill",
+  "AbilitySpecials": {
+    "AS_AddedElementAccumulationRatio": {
+      "Value": 0.25
+    },
+    "AS_ExtraAddedElementAccumulationRatio": {
+      "Value": 0.25
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedElementAccumulationRatioModifier",
+        "Predicates": [
+          {
+            "$type": "ByMathSkillSuccess"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Frozen",
+              "Frostbite",
+              "Strike",
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos"
+            ],
+            "Target": "Target"
+          },
+          {
+            "$type": "ByMathSkillSuccess"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_ExtraAddedElementAccumulationRatio",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedElementAccumulationRatioModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_AddedElementAccumulationRatio"
+      }
+    }
+  }
+}

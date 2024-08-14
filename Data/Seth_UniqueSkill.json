@@ -1,0 +1,566 @@
+{
+  "AbilityName": "Seth_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_CD": {
+      "Value": 10
+    },
+    "AS_Duration": {
+      "Value": 20
+    },
+    "AS_ElementMysteryDelta": {
+      "Value": 60
+    },
+    "AS_ExtendDuration": {
+      "Value": 10
+    },
+    "AS_MaxShield": {
+      "Value": 3000
+    },
+    "AS_MaxShield_Talent_01": {
+      "Value": 3900
+    },
+    "AS_ShieldEnhancePercentage_Talent_01": {
+      "Value": 0.3
+    },
+    "AS_ShieldPercentage_UniqueSkill": {
+      "Value": 0.2
+    },
+    "ShieldDelta": {
+      "Value": 0
+    },
+    "ShieldEnhanceDelta": {
+      "Value": 0
+    },
+    "ShieldEnhancePercentage_Talent_01": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_ShieldPercentage_UniqueSkill)*(1+specials(AS_ShieldEnhancePercentage_Talent_01))",
+        "ParamName": "ShieldEnhancePercentage_Talent_01",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "min(property(Attack)*specials(AS_ShieldPercentage_UniqueSkill),specials(AS_MaxShield))",
+        "ParamName": "ShieldDelta",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "min(property(Attack)*specials(ShieldEnhancePercentage_Talent_01),specials(AS_MaxShield_Talent_01))",
+        "ParamName": "ShieldEnhanceDelta",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ListenModifier_AssauldAid",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "AssaultAid",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ListenModifier_Normal",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "Normal",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ShieldControlModifier",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "ExSp",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByHasModifier",
+                "ModifierNameList": [
+                  "CD_02Modifer"
+                ],
+                "Target": "Caster"
+              }
+            ]
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CD_02Modifer",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "ExSp",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ],
+    "OnStunResetOtherActions": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "TagModifier",
+        "Target": "Caster"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "TagModifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_AssaultAid_AttackProperty_04_02",
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ],
+    "OnSwitchTriggered": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ShieldControlModifier",
+        "Predicates": [
+          {
+            "$type": "ByAidAttackType",
+            "AidAttackType": "CommonAid"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          },
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByHasModifier",
+                "ModifierNameList": [
+                  "CDModifer"
+                ],
+                "Target": "Caster"
+              }
+            ]
+          }
+        ],
+        "Target": "LocalAvatar"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ShieldControlModifier",
+        "Predicates": [
+          {
+            "$type": "ByAvatarSwitchType",
+            "SwitchType": "QTE"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          },
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "QTEShield"
+            ],
+            "Target": "Caster"
+          },
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByHasModifier",
+                "ModifierNameList": [
+                  "CDModifer"
+                ],
+                "Target": "Caster"
+              }
+            ]
+          }
+        ],
+        "Target": "LocalAvatar"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CDModifer",
+        "Predicates": [
+          {
+            "$type": "ByAidAttackType",
+            "AidAttackType": "CommonAid"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          }
+        ],
+        "Target": "Caster"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CDModifer",
+        "Predicates": [
+          {
+            "$type": "ByAvatarSwitchType",
+            "SwitchType": "QTE"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          },
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "QTEShield"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ]
+  },
+  "Modifiers": {
+    "CDModifer": {
+      "Duration": "%AS_CD",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "QTEShield"
+          ],
+          "IsAdd": false,
+          "Target": "Caster"
+        }
+      ]
+    },
+    "CD_02Modifer": {
+      "Duration": "%AS_CD",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique"
+    },
+    "ElementMysteryModifier": {
+      "Buff": {
+        "BuffID": 3000101,
+        "IsOverrideDuration": true
+      },
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"
+      }
+    },
+    "ListenModifier_AssauldAid": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AidAttackTag",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Seth_Attack_AssaultAid_AttackProperty_02_01",
+                "Seth_Attack_AssaultAid_AttackProperty_02_02"
+              ]
+            },
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnSwitchOutBegin": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_Normal",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_AssauldAid",
+          "Target": "Self"
+        }
+      ]
+    },
+    "ListenModifier_Normal": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AidAttackTag",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+              ]
+            },
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnSwitchOutBegin": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_Normal",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_AssauldAid",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_AidAttackTag": {
+      "Duration": 0.5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "AidAttack_Common_Prev"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_Normal",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ListenModifier_AssauldAid",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "AidAttack_Common_Prev"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ShieldControlModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldModifier",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAvatarTalentIndex",
+                  "TalentIndex": 1,
+                  "Target": "Caster"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Talent_01_ShieldModifier",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "ShieldModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "AddedActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            }
+          ],
+          "Duration": -1,
+          "EmptyActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            }
+          ],
+          "Priority": -1,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0.0,
+          "RemovedActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            }
+          ],
+          "TotalValueConfig": {
+            "Amount": "%ShieldDelta"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace"
+    },
+    "TagModifier": {
+      "Duration": 2.5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "QTEShield"
+          ],
+          "IsAdd": true,
+          "Target": "Caster"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "QTEShield"
+          ],
+          "IsAdd": false,
+          "Target": "Caster"
+        }
+      ]
+    },
+    "Talent_01_ElementMysteryModifier": {
+      "Buff": {
+        "BuffID": 3000101,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_ExtendDuration",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"
+      }
+    },
+    "Talent_01_ShieldModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "AddedActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "Talent_01_ElementMysteryModifier",
+              "Target": "Self"
+            }
+          ],
+          "Duration": -1,
+          "EmptyActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "Talent_01_ShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "Priority": -1,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0.0,
+          "RemovedActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ElementMysteryModifier",
+              "Target": "Self"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Talent_01_ElementMysteryModifier",
+              "Target": "Self"
+            }
+          ],
+          "TotalValueConfig": {
+            "Amount": "%ShieldEnhanceDelta"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "AbilityName": "Seth_Talent_04",
+  "AbilitySpecials": {
+    "AS_AddedAttackDelta": {
+      "Value": 0
+    },
+    "AS_CriticalDamageDelta_Talent_04": {
+      "Value": 0.5
+    },
+    "AS_Magnification_Talent_04": {
+      "Value": 3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(Atk_Battle)*specials(AS_Magnification_Talent_04)",
+        "ParamName": "AS_AddedAttackDelta",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedAttackDelta",
+        "PropertyValue": "%AS_AddedAttackDelta",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_DefinitelyCritical",
+        "PropertyValue": 1,
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_CriticalDamageRatioDelta",
+        "PropertyValue": "%AS_CriticalDamageDelta_Talent_04",
+        "Target": "Self"
+      }
+    ]
+  }
+}

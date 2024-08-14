@@ -1,0 +1,43 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "CJHIEKELKLI": 1,
+      "LPDGCALINGE": "1227000010",
+      "PHLFNCCDLHJ": "HB_HadalZone_2",
+      "KOHDCIPJHJM": "61001_HADAL_NAME",
+      "ANNKGJFKKDJ": 1,
+      "GDOOOOLKBIO": "Hadal_UI_UnlockPeriodic",
+      "ENKMDBFADKB": "UIText_HADAL_FINISH_TEXT_A",
+      "MJJOLBHIPID": "UIText_HADAL_FINISH_TEXT_A",
+      "LMBDIOLJEPB": "UIText_HADAL_FINISH_TEXT",
+      "IPJCHEGKKBN": "UI/Sprite/HadalZone/UnPacker/Level_H.png",
+      "GHLMLPFHJPB": 2
+    },
+    {
+      "CJHIEKELKLI": 2,
+      "LPDGCALINGE": "",
+      "PHLFNCCDLHJ": "HB_HadalZone_1",
+      "KOHDCIPJHJM": "61001_HADAL_NAME",
+      "ANNKGJFKKDJ": 2,
+      "GDOOOOLKBIO": "HollowOutpost_lock1",
+      "ENKMDBFADKB": "UIText_HADAL_FINISH_TEXT_A",
+      "MJJOLBHIPID": "UIText_HADAL_FINISH_TEXT_A",
+      "LMBDIOLJEPB": "UIText_HADAL_FINISH_TEXT",
+      "IPJCHEGKKBN": "UI/Sprite/HadalZone/UnPacker/Level_N.png",
+      "GHLMLPFHJPB": 1
+    },
+    {
+      "CJHIEKELKLI": 3,
+      "LPDGCALINGE": "1040140255&1227000005",
+      "PHLFNCCDLHJ": "HB_HadalZone_3",
+      "KOHDCIPJHJM": "61002_HADAL_NAME",
+      "ANNKGJFKKDJ": 3,
+      "GDOOOOLKBIO": "Hadal_UI_Unlock61002",
+      "ENKMDBFADKB": "UIText_Hadal_Dispute_EvaluateS",
+      "MJJOLBHIPID": "UIText_Hadal_Dispute_Evaluate",
+      "LMBDIOLJEPB": "UIText_Hadal_Dispute_Evaluate",
+      "IPJCHEGKKBN": "UI/Sprite/HadalZone/UnPacker/Level_N_2.png",
+      "GHLMLPFHJPB": 1
+    }
+  ]
+}

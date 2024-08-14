@@ -1,0 +1,21 @@
+{
+  "AbilityName": "Level_AreaCullingExcluding",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyGameplayTagAction",
+        "IsAdd": true,
+        "Tags": [
+          "Level_AreaCullingExcluding"
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "RemoveAbilityAction",
+        "AbilityName": "Level_AreaCullingExcluding",
+        "Target": "Self"
+      }
+    ]
+  }
+}

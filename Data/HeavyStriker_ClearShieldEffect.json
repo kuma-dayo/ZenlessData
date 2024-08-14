@@ -1,0 +1,43 @@
+{
+  "AbilityName": "HeavyStriker_ClearShieldEffect",
+  "AbilityStacking": "Unique",
+  "OnAbilityTrigger": [
+    {
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "ShieldOpen"
+          ]
+        }
+      ],
+      "FailureActions": [
+        {
+          "$type": "SpecialEffectFadeAction",
+          "EffectNames": [
+            "Eff_Monster_HeavyStriker_Transform_01_08_Weapon",
+            "Eff_Monster_HeavyStriker_Transform_01_09_Weapon",
+            "Eff_Monster_HeavyStriker_Transform_01_10_Lighting"
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat01_ScreenImage_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat04_ScreenImage_04",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat03_OverrideRimGlow_03",
+          "Target": "Self"
+        }
+      ]
+    }
+  ]
+}

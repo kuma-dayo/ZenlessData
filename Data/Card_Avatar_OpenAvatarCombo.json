@@ -1,0 +1,39 @@
+{
+  "AbilityName": "Card_Avatar_OpenAvatarCombo",
+  "AbilitySpecials": {
+    "AS_OpenCombo": {
+      "Value": 1
+    },
+    "AS_TemplateID": {
+      "Value": 1011
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_TarotCard_CounterCombo",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByEntityTemplateID",
+            "EntityType": "Avatar",
+            "Target": "Self",
+            "TemplateID": "%AS_TemplateID"
+          },
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": "%AS_OpenCombo",
+            "ParamName": "AS_OpenCombo",
+            "ParamType": "Float",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

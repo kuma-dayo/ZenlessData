@@ -1,0 +1,31 @@
+{
+  "AbilityName": "Level_QingYi_CurrentEnhancePointReset",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CurrentEnhancePointReset",
+        "Target": "LocalAvatar"
+      }
+    ]
+  },
+  "Modifiers": {
+    "CurrentEnhancePointReset": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "QingYi_Spirit",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "AbilityName": "QingYi_Talent_03",
+  "AbilitySpecials": {
+    "AS_ShieldPercentage": {
+      "Value": 0.15
+    },
+    "AS_SpRecover_Amount": {
+      "Value": 5.0
+    },
+    "AS_SpRecover_CD": {
+      "Value": 5.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "HPShieldModifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "EmptyActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "HPShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "Priority": -1,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0.0,
+          "RemovedActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "HPShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "Tag": "QingYi_Talent_03_HpShield",
+          "TotalValueConfig": {
+            "Amount": 0,
+            "Percentage": "%AS_ShieldPercentage",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace"
+    },
+    "Modifier_RecoverSP": {
+      "Duration": "%AS_SpRecover_CD",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": "%AS_SpRecover_Amount",
+          "Percentage": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "Modifier_RecoverSP",
+      "Predicates": [
+        {
+          "$type": "ByHasModifier",
+          "ModifierNameList": [
+            "HPShieldModifier"
+          ]
+        }
+      ],
+      "Target": "Self"
+    },
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "HPShieldModifier",
+      "Target": "Self"
+    }
+  ]
+}

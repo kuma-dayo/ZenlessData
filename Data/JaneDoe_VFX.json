@@ -1,0 +1,90 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_04_01",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 117,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EffectModifier_SwitchIn_Attack"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_VFX",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "EffectModifier_SwitchIn_Attack": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Bip001 Prop1",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_QTE_16_Trail",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Bip001 Prop2",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_JaneDoe_Attack_QTE_16_Trail",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

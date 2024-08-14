@@ -1,0 +1,339 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 20101,
+      "BADHBABBFNN": "RamenName_20101",
+      "PJJPCNEKBMO": "MenuName_20101",
+      "OBMFNNLPMOH": [
+        1010
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 1800,
+      "LPDGCALINGE": "",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022001,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20101",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_01.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen01.png"
+    },
+    {
+      "NGPCCDGBLLK": 20201,
+      "BADHBABBFNN": "RamenName_20201",
+      "PJJPCNEKBMO": "MenuName_20201",
+      "OBMFNNLPMOH": [
+        1003,
+        1005
+      ],
+      "NMELGPOKBFI": [
+        1,
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 2500,
+      "LPDGCALINGE": "30070020",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022002,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20201",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_02.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen02.png"
+    },
+    {
+      "NGPCCDGBLLK": 20301,
+      "BADHBABBFNN": "RamenName_20301",
+      "PJJPCNEKBMO": "MenuName_20301",
+      "OBMFNNLPMOH": [
+        1003,
+        1007
+      ],
+      "NMELGPOKBFI": [
+        1,
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 2500,
+      "LPDGCALINGE": "30070020|1040140119&1240660001",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022003,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20301",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_03.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen03.png"
+    },
+    {
+      "NGPCCDGBLLK": 20401,
+      "BADHBABBFNN": "RamenName_20401",
+      "PJJPCNEKBMO": "MenuName_20401",
+      "OBMFNNLPMOH": [
+        1003,
+        1001
+      ],
+      "NMELGPOKBFI": [
+        1,
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 2500,
+      "LPDGCALINGE": "30070020",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022004,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20401",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_04.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen04.png"
+    },
+    {
+      "NGPCCDGBLLK": 20501,
+      "BADHBABBFNN": "RamenName_20501",
+      "PJJPCNEKBMO": "MenuName_20501",
+      "OBMFNNLPMOH": [
+        1003,
+        1008
+      ],
+      "NMELGPOKBFI": [
+        1,
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 2500,
+      "LPDGCALINGE": "30070020",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022005,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20501",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_05.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen05.png"
+    },
+    {
+      "NGPCCDGBLLK": 20601,
+      "BADHBABBFNN": "RamenName_20601",
+      "PJJPCNEKBMO": "MenuName_20601",
+      "OBMFNNLPMOH": [
+        1003,
+        1002
+      ],
+      "NMELGPOKBFI": [
+        1,
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 2500,
+      "LPDGCALINGE": "30070020",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022006,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20601",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_06.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen06.png"
+    },
+    {
+      "NGPCCDGBLLK": 20701,
+      "BADHBABBFNN": "RamenName_20701",
+      "PJJPCNEKBMO": "MenuName_20701",
+      "OBMFNNLPMOH": [
+        1005
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022007,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20701",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_07.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen07.png"
+    },
+    {
+      "NGPCCDGBLLK": 20801,
+      "BADHBABBFNN": "RamenName_20801",
+      "PJJPCNEKBMO": "MenuName_20801",
+      "OBMFNNLPMOH": [
+        1007
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030|1040140119&1240660001",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022008,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20801",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_08.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen08.png"
+    },
+    {
+      "NGPCCDGBLLK": 20901,
+      "BADHBABBFNN": "RamenName_20901",
+      "PJJPCNEKBMO": "MenuName_20901",
+      "OBMFNNLPMOH": [
+        1001
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022009,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_20901",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_09.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen09.png"
+    },
+    {
+      "NGPCCDGBLLK": 21001,
+      "BADHBABBFNN": "RamenName_21001",
+      "PJJPCNEKBMO": "MenuName_21001",
+      "OBMFNNLPMOH": [
+        1008
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022010,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_21001",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_10.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen10.png"
+    },
+    {
+      "NGPCCDGBLLK": 21101,
+      "BADHBABBFNN": "RamenName_21101",
+      "PJJPCNEKBMO": "MenuName_21101",
+      "OBMFNNLPMOH": [
+        1002
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022011,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_21101",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_11.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen11.png"
+    },
+    {
+      "NGPCCDGBLLK": 21201,
+      "BADHBABBFNN": "RamenName_21201",
+      "PJJPCNEKBMO": "MenuName_21201",
+      "OBMFNNLPMOH": [
+        1003
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022012,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_21201",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_12.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen12.png"
+    },
+    {
+      "NGPCCDGBLLK": 21301,
+      "BADHBABBFNN": "RamenName_21301",
+      "PJJPCNEKBMO": "MenuName_21301",
+      "OBMFNNLPMOH": [
+        1009
+      ],
+      "NMELGPOKBFI": [
+        1
+      ],
+      "MLIGFJGDGAK": 0,
+      "FEFNEGDJMBI": 5000,
+      "LPDGCALINGE": "30070030",
+      "GDOOOOLKBIO": false,
+      "OLDEAOFPFBJ": 30022013,
+      "EFACINAGHNG": [
+        "Avatar"
+      ],
+      "IHGAGCBBAFN": 0,
+      "IDECBJOPCNP": 3,
+      "CLCMAGJLODM": null,
+      "JGOPJDNINCL": "MenuDescription_21301",
+      "AJJHHCCJFPD": "Char/MainCityObject/EriduNoodle/Interface_Prop_Noodles_13.prefab",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/IconRamen/UnPacker/IconRamen13.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "AbilityName": "Device_SkyScraper_LaserByTime_Remove_LaserBeam",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "EndLaserAction"
+    }
+  ]
+}

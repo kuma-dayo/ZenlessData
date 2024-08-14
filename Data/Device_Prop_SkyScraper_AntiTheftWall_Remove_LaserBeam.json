@@ -1,0 +1,16 @@
+{
+  "AbilityName": "Device_Prop_SkyScraper_AntiTheftWall_Remove_LaserBeam",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "RemoveAbilityAction",
+      "AbilityName": "Device_Prop_SkyScraper_AntiTheftWall_LaserBeam_LP01",
+      "Target": "Self"
+    },
+    {
+      "$type": "RemoveAbilityAction",
+      "AbilityName": "Device_Prop_SkyScraper_AntiTheftWall_LaserBeam_LP02",
+      "Target": "Self"
+    }
+  ]
+}

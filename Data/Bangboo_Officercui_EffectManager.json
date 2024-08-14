@@ -1,0 +1,194 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountLow": 230,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveMaterialPropertiesModifier03"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountLow": 211,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveMaterialPropertiesModifier04"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountLow": 208,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "WeaponMaterialPropertiesModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackMove",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveMaterialPropertiesModifier03",
+            "MoveMaterialPropertiesModifier04",
+            "WeaponMaterialPropertiesModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 95,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackMaterialPropertiesModifier",
+            "WeaponMaterialPropertiesModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bangboo_Officercui_EffectManager",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AttackMaterialPropertiesModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bangboo_Officercui_Body_LOD0"
+            }
+          ],
+          "Tag": "Officercui_05",
+          "Target": "Self",
+          "key": "Bangboo_Officercui_MA_Attack_AttackLaunch_SecondaryEmission_05"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bangboo_Eyes_001_LOD0"
+            }
+          ],
+          "Tag": "Officercui_06",
+          "Target": "Self",
+          "key": "Bangboo_Officercui_MA_Attack_AttackLaunch_SecondaryEmission_06"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Officercui_05",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Officercui_06",
+          "Target": "Self"
+        }
+      ]
+    },
+    "MoveMaterialPropertiesModifier03": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bangboo_Officercui_Body_LOD0"
+            }
+          ],
+          "Tag": "Officercui_03",
+          "Target": "Self",
+          "key": "Bangboo_Officercui_MA_Attack_AttackPre_SecondaryEmission_03"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Officercui_03",
+          "Target": "Self"
+        }
+      ]
+    },
+    "MoveMaterialPropertiesModifier04": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bangboo_Eyes_001_LOD0"
+            }
+          ],
+          "Tag": "Officercui_04",
+          "Target": "Self",
+          "key": "Bangboo_Officercui_MA_Attack_AttackPre_SecondaryEmission_04"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Officercui_04",
+          "Target": "Self"
+        }
+      ]
+    },
+    "WeaponMaterialPropertiesModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bangboo_Officercui_Weapon_LOD0"
+            }
+          ],
+          "Tag": "Officercui_07",
+          "Target": "Self",
+          "key": "Bangboo_Officercui_MA_Attack_AttackPre_OverrideOutline_07"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Officercui_07",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

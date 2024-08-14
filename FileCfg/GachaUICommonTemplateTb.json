@@ -1,0 +1,38 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NNOEEJNPDME": 1001001,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/CurrencyIcon/TV_Icon.png",
+      "LNAAJMGMAEB": "TabText_1001",
+      "GGCGDODINBC": "TitleText_1001001",
+      "ONKANPHBPON": "Gacha_SubTitle_1001",
+      "ILCLGPKENHF": "Gacha_Content_1001",
+      "HPMKCKKBJJO": "",
+      "BDGJPJAHOHI": {
+        "JJHBNDNOBIE": 1,
+        "NGPCCDGBLLK": 1001
+      },
+      "DCLCGABMKBN": {
+        "JJHBNDNOBIE": 2,
+        "NGPCCDGBLLK": 5001
+      },
+      "MEPFHDDJGDF": {
+        "JJHBNDNOBIE": 2,
+        "NGPCCDGBLLK": 5001
+      },
+      "IIDMNPNLNPL": {
+        "JJHBNDNOBIE": 2,
+        "NGPCCDGBLLK": 5001
+      },
+      "FOHNENIOFCG": {
+        "JJHBNDNOBIE": 2,
+        "NGPCCDGBLLK": 5001
+      },
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        110
+      ]
+    }
+  ]
+}

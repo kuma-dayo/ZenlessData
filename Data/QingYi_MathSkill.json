@@ -1,0 +1,129 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "PropertyChangeActions": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "min(specials(AS_AddedAttackDeltaMax),specials(AS_AddedAttackDelta)*(property(BreakStun_Battle)-specials(AS_BaseBreakStun)))",
+              "ParamName": "AddedAttackAmount",
+              "ValueType": "Float"
+            }
+          ],
+          "PropertyType": "BreakStun_Battle",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "AddedAttackModifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByMathSkillSuccess"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Val": "%AS_BaseBreakStun"
+            },
+            {
+              "Val": "%AS_BaseBreakStun",
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "AddedAttackModifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByMathSkillSuccess"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "QingYi_MathSkill",
+  "AbilitySpecials": {
+    "AS_AddedAttackDelta": {
+      "Value": 2
+    },
+    "AS_AddedAttackDeltaMax": {
+      "Value": 400
+    },
+    "AS_AddedBreakStunRatio": {
+      "Value": 0.2
+    },
+    "AS_BaseBreakStun": {
+      "Value": 120
+    },
+    "AddedAttackAmount": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "min(specials(AS_AddedAttackDeltaMax),specials(AS_AddedAttackDelta)*(property(BreakStun_Battle)-specials(AS_BaseBreakStun)))",
+        "ParamName": "AddedAttackAmount",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedAttackModifier",
+        "Predicates": [
+          {
+            "$type": "ByMathSkillSuccess"
+          },
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "GreaterEqual",
+            "Numerator": "BreakStun_Battle",
+            "Val1": "%AS_BaseBreakStun"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Normal"
+            ]
+          },
+          {
+            "$type": "ByMathSkillSuccess"
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedBreakStunRatio",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedAttackModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackDelta": "%AddedAttackAmount"
+      }
+    }
+  }
+}

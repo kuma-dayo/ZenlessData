@@ -1,0 +1,94 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "EAAFCGPDFAA": "ActorMaxCurHP",
+      "JJHBNDNOBIE": 4,
+      "PIEIECGGIIA": 10000
+    },
+    {
+      "EAAFCGPDFAA": "EnableCardFusion",
+      "JJHBNDNOBIE": 3,
+      "PIEIECGGIIA": 1
+    },
+    {
+      "EAAFCGPDFAA": "EnableCardRefresh",
+      "JJHBNDNOBIE": 4,
+      "PIEIECGGIIA": 1
+    },
+    {
+      "EAAFCGPDFAA": "EnableCardUpgrade",
+      "JJHBNDNOBIE": 4,
+      "PIEIECGGIIA": 1
+    },
+    {
+      "EAAFCGPDFAA": "EnableHpBuy",
+      "JJHBNDNOBIE": 5,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "EnableHpOverflowToCoin",
+      "JJHBNDNOBIE": 5,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "Gold_Delta",
+      "JJHBNDNOBIE": 2,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "Gold_Ratio",
+      "JJHBNDNOBIE": 2,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "HollowRetryTutorial",
+      "JJHBNDNOBIE": 7,
+      "PIEIECGGIIA": 20017
+    },
+    {
+      "EAAFCGPDFAA": "HollowZeroCoinMaxNum",
+      "JJHBNDNOBIE": 2,
+      "PIEIECGGIIA": 50000
+    },
+    {
+      "EAAFCGPDFAA": "Player_View",
+      "JJHBNDNOBIE": 4,
+      "PIEIECGGIIA": 1
+    },
+    {
+      "EAAFCGPDFAA": "Shop_Price",
+      "JJHBNDNOBIE": 8,
+      "PIEIECGGIIA": 10000
+    },
+    {
+      "EAAFCGPDFAA": "Stamina",
+      "JJHBNDNOBIE": 1,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "Stamina_Delta",
+      "JJHBNDNOBIE": 1,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "Stamina_Increase",
+      "JJHBNDNOBIE": 1,
+      "PIEIECGGIIA": 10
+    },
+    {
+      "EAAFCGPDFAA": "Stamina_Max",
+      "JJHBNDNOBIE": 1,
+      "PIEIECGGIIA": 100
+    },
+    {
+      "EAAFCGPDFAA": "Stamina_Ratio",
+      "JJHBNDNOBIE": 1,
+      "PIEIECGGIIA": 0
+    },
+    {
+      "EAAFCGPDFAA": "Weather",
+      "JJHBNDNOBIE": 7,
+      "PIEIECGGIIA": 0
+    }
+  ]
+}

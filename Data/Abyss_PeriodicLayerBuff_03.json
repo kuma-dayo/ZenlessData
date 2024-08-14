@@ -1,0 +1,63 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_03",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatio_NormalAtk": {
+      "Value": 0.25
+    },
+    "AS_AddedDamageRatio_InStun": {
+      "Value": 0.5
+    },
+    "AS_AddedDamageRatio_IsQTE": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Normal"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedBreakStunRatio_NormalAtk",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackQTE",
+              "NormalQTE"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio_IsQTE",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByIsStunDestroyed",
+            "IsStunDestroyed": true,
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio_InStun",
+        "Target": "Self"
+      }
+    ]
+  }
+}

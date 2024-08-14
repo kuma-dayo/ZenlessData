@@ -1,0 +1,38 @@
+{
+  "AbilityName": "Nineveh_BossRush_VineTimedRetrieval",
+  "AbilityStacking": "Unique",
+  "OnAbilityTrigger": [
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "BossRush_VineTimedRetrieval"
+      ],
+      "CustomKey": "Monster_NinevehVine_BossRush",
+      "IsAdd": true,
+      "Target": "Custom"
+    },
+    {
+      "$type": "SetAnimCtrlerParamAction",
+      "BoolVal": true,
+      "CustomKey": "Monster_NinevehVine_BossRush",
+      "ParamName": "Trigger_Die",
+      "ParamType": 1,
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "CustomKey": "Monster_NinevehVine_BossRush",
+          "Tags": [
+            "Nineveh_BossRush_Vine"
+          ],
+          "Target": "Custom"
+        }
+      ],
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Target": "Self",
+      "soundActionKey": "BossRush_StateChange_Off"
+    }
+  ]
+}

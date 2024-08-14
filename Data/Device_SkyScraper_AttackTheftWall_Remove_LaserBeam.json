@@ -1,0 +1,9 @@
+{
+  "AbilityName": "Device_SkyScraper_AttackTheftWall_Remove_LaserBeam",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "EndLaserAction"
+    }
+  ]
+}

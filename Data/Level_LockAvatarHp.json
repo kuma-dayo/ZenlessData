@@ -1,0 +1,30 @@
+{
+  "AbilityName": "Level_LockAvatarHp",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "LockHp",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LockHp": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "LockLifePropertyMixin",
+          "DeltaLockList": [
+            {
+              "LockType": "Total",
+              "LockValue": 1
+            }
+          ],
+          "PerformBeHitEffect": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "AbilityName": "Seth_Talent_02",
+  "AbilitySpecials": {
+    "AS_ElementAccumulationRatio_Talent_02": {
+      "Value": 0.5
+    },
+    "AS_Seth_CurChargePoint_Talent_02": {
+      "Value": 90
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%AS_Seth_CurChargePoint_Talent_02",
+        "CustomPropertyType": "Seth_CurChargePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_Normal_Enhance_AttackProperty_01_01",
+              "Seth_Attack_Normal_Enhance_AttackProperty_01_02",
+              "Seth_Attack_Normal_Enhance_AttackProperty_01_03",
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_01",
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_ElementAccumulationRatio_Talent_02",
+        "Target": "Self"
+      }
+    ]
+  }
+}

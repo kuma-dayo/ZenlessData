@@ -1,0 +1,86 @@
+{
+  "AbilityName": "Seth_TutorialAbility",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnPatternAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest1Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_ExSpecial_01_AttackProperty_03_03"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest2Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_ExSpecial_01_Enhance_AttackProperty_05_03",
+              "Seth_Attack_ExSpecial_01_Enhance_Perfect_AttackProperty_05_03"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnSwitchTriggered": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest3Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAidAttackType",
+            "AidAttackType": "CommonAid"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          }
+        ],
+        "Target": "LocalAvatar"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Quest1Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Seth_1"
+        }
+      ]
+    },
+    "Quest2Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Seth_2"
+        }
+      ]
+    },
+    "Quest3Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Seth_3"
+        }
+      ]
+    }
+  }
+}

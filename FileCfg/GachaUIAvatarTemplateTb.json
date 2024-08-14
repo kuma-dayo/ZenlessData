@@ -1,0 +1,30 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NNOEEJNPDME": 2001003,
+      "LNAAJMGMAEB": "TabText_2001",
+      "GGCGDODINBC": "TitleText_2001003",
+      "ONKANPHBPON": "Gacha_SubTitle_2001",
+      "ILCLGPKENHF": "Gacha_Content_2001",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ],
+      "ECKDHGJAIKD": "UI/Menus/Widget/Activity/ActivityDemoTrial/GaChaDemoInfoBgRow_QingYi.prefab"
+    },
+    {
+      "NNOEEJNPDME": 2001004,
+      "LNAAJMGMAEB": "TabText_2001",
+      "GGCGDODINBC": "TitleText_2001004",
+      "ONKANPHBPON": "Gacha_SubTitle_2001",
+      "ILCLGPKENHF": "Gacha_Content_2001",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ],
+      "ECKDHGJAIKD": "UI/Menus/Widget/Activity/ActivityDemoTrial/GaChaDemoInfoBgRow_Jane.prefab"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "AbilityName": "Seth_MathSkill",
+  "AbilitySpecials": {
+    "AS_AbnormalResistDelta": {
+      "Value": -0.2
+    },
+    "AS_Duration": {
+      "Value": 20
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AbnormalResistRatioModifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Seth_Attack_Normal_Enhance_AttackProperty_02_02",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_01_01",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_01_02",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_02_01",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_02_02",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_03_01",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_03_02",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_03_03",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_04_01",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_04_02",
+              "Seth_Attack_SwitchIn_Attack_AttackProperty_04_03"
+            ]
+          },
+          {
+            "$type": "ByMathSkillSuccess",
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Other"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AbnormalResistRatioModifier": {
+      "Buff": {
+        "BuffID": 3000102,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Replace",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AbnormalResistDelta_Physics",
+          "PropertyValue": "%AS_AbnormalResistDelta",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AbnormalResistDelta_Fire",
+          "PropertyValue": "%AS_AbnormalResistDelta",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AbnormalResistDelta_Ice",
+          "PropertyValue": "%AS_AbnormalResistDelta",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AbnormalResistDelta_Elec",
+          "PropertyValue": "%AS_AbnormalResistDelta",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AbnormalResistDelta_Ether",
+          "PropertyValue": "%AS_AbnormalResistDelta",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

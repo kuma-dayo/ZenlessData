@@ -1,0 +1,102 @@
+{
+  "AbilityName": "QingYi_Talent_04",
+  "AbilitySpecials": {
+    "AS_CriticalDamageDelta": {
+      "Value": 1.0
+    },
+    "AS_DamageResistRatio": {
+      "Value": -0.2
+    },
+    "AS_DebuffDuration": {
+      "Value": -0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "IsUnlockTalent_04"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "BreakLevel_Delta",
+        "PropertyValue": 2,
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_CriticalDamageRatioDelta",
+        "PropertyValue": "%AS_CriticalDamageDelta",
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "QingYi_Talent_04_Debuff",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+              "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+              "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      }
+    ]
+  },
+  "Modifiers": {
+    "QingYi_Talent_04_Debuff": {
+      "Duration": "%AS_DebuffDuration",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AllDamageResist": "%AS_DamageResistRatio"
+      }
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "AbilityName": "JaneDoe_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_BaseBuffCriticalDamageDelta": {
+      "Value": 0
+    },
+    "AS_BaseBuffCriticalDelta": {
+      "Value": 0
+    },
+    "AS_BuffAddDuration": {
+      "Value": 0
+    },
+    "AS_Duration": {
+      "Value": 0
+    },
+    "AS_ExtraBuffCriticalDamageDelta_Talent_02": {
+      "Value": 0
+    },
+    "AS_ExtraBuffCriticalDelta": {
+      "Value": 0
+    },
+    "AS_IgnoreDefenceRatio_Talent_02": {
+      "Value": 0
+    },
+    "BuffCriticalDamageDeltaExtra_Talent_02": {
+      "Value": 0
+    },
+    "BuffCriticalDamageDeltaTotal": {
+      "Value": 0
+    },
+    "BuffCriticalDeltaTotal": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "JaneDoe_UniqueSkill_Debuff",
+        "Target": "Target"
+      }
+    ]
+  },
+  "Modifiers": {
+    "JaneDoe_Talent_06_ExtraDamage": {
+      "Duration": 0.05,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "World",
+        "Owner",
+        "Witch",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_02_Hit",
+          "FireEffectPosRot": {
+            "CoordsOption": "LocalAvatar",
+            "NeedRaycastGround": true,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupAngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupPositionOffset": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "ElementAbnormalAttachPoint_Default",
+              "BackupOffsetReferTarget": "Self",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "JaneDoe_Talent_06_AttackProperty_01",
+          "Attacker": "Caster",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttackCameraShakeAction",
+          "ShakeConfigKey": "JaneDoe_Talent_06_CamShake_E_01",
+          "Target": "Caster"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Hit_Slash_Large",
+          "FireEffectPosRot": {
+            "CoordsOption": "LocalAvatar",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupAngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupPositionOffset": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "ElementAbnormalAttachPoint_Default",
+              "BackupOffsetReferTarget": "Self",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Target": "Self"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Hit_Slash_Large",
+          "FireEffectPosRot": {
+            "CoordsOption": "LocalAvatar",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupAngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupPositionOffset": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "ElementAbnormalAttachPoint_Default",
+              "BackupOffsetReferTarget": "Self",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Target": "Self"
+        }
+      ]
+    },
+    "JaneDoe_UniqueSkill_Debuff": {
+      "Buff": {
+        "BuffID": 3000121,
+        "IsOverrideDuration": true
+      },
+      "BuffRevises": [
+        {
+          "BuffReviseType": "Added",
+          "FilterType": "ByBuffGroup",
+          "GroupName": "Strike",
+          "Params": [
+            {
+              "Delta": "%AS_BuffAddDuration",
+              "Name": "Duration"
+            }
+          ]
+        }
+      ],
+      "Duration": "%AS_Duration",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByEntityTemplateID",
+              "EntityType": "Avatar",
+              "Target": "Other",
+              "TemplateID": 1261
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2,
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_DefenceRatio",
+          "PropertyValue": "%AS_IgnoreDefenceRatio_Talent_02",
+          "Target": "Target"
+        }
+      ],
+      "OnBuffDamageBeAttackLanded": [
+        {
+          "$type": "AttackCameraShakeAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            },
+            {
+              "$type": "ByHitResult",
+              "HitResult": "Critical"
+            }
+          ],
+          "ShakeConfigKey": "JaneDoe_UniqueSkill_CamShake_E_01",
+          "Target": "Caster"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_JaneDoe_Attack_Common_01_Hit",
+          "FireEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupAngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BackupPositionOffset": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "ElementAbnormalAttachPoint_Default",
+              "BackupOffsetReferTarget": "Self",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            },
+            {
+              "$type": "ByHitResult",
+              "HitResult": "Critical"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "JaneDoe_Talent_06_ExtraDamage",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 6,
+              "Target": "Caster"
+            },
+            {
+              "$type": "ByHitResult",
+              "HitResult": "Critical"
+            }
+          ],
+          "Target": "Target"
+        }
+      ],
+      "OnBuffDamageBeingHit": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_ExtraBuffCriticalDelta)*property(ElementMystery_Battle)+specials(AS_BaseBuffCriticalDelta)",
+          "ParamName": "BuffCriticalDeltaTotal",
+          "Target": "Caster",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_ExtraBuffCriticalDamageDelta_Talent_02)",
+          "ParamName": "BuffCriticalDamageDeltaExtra_Talent_02",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(BuffCriticalDamageDeltaExtra_Talent_02)+specials(AS_BaseBuffCriticalDamageDelta)",
+          "ParamName": "BuffCriticalDamageDeltaTotal",
+          "Target": "Caster",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_BuffCriticalDelta",
+          "PropertyValue": "%BuffCriticalDeltaTotal",
+          "Target": "Target"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_BuffCriticalDamageRatioDelta",
+          "PropertyValue": "%BuffCriticalDamageDeltaTotal",
+          "Target": "Target"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Strike"
+              ]
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2,
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_DefenceRatio",
+          "PropertyValue": "%AS_IgnoreDefenceRatio_Talent_02",
+          "Target": "Target"
+        }
+      ]
+    }
+  }
+}

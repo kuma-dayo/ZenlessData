@@ -1,0 +1,2382 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "EAAFCGPDFAA": "MainCityMenu",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        100,
+        400,
+        500,
+        2100,
+        1900,
+        2300,
+        3600,
+        3800,
+        3700,
+        3900
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "EAAFCGPDFAA": "MainCityMiniMenu",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1602,
+        3800,
+        3801,
+        400,
+        2300,
+        1900
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 11,
+      "EAAFCGPDFAA": "Depository",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 12,
+      "EAAFCGPDFAA": "DepositoryTab1",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 13,
+      "EAAFCGPDFAA": "DepositoryTab2",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 14,
+      "EAAFCGPDFAA": "DepositoryTab3",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 15,
+      "EAAFCGPDFAA": "DepositoryTab4",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 30,
+      "EAAFCGPDFAA": "TeleportRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        31
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 31,
+      "EAAFCGPDFAA": "TeleportBlock",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 1
+    },
+    {
+      "NGPCCDGBLLK": 100,
+      "EAAFCGPDFAA": "Knot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        200,
+        1200,
+        1400,
+        2200,
+        3900
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 200,
+      "EAAFCGPDFAA": "Quest",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 300,
+      "EAAFCGPDFAA": "Knowledge",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 400,
+      "EAAFCGPDFAA": "Avatar",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        600,
+        603
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 500,
+      "EAAFCGPDFAA": "PrivateMessage_All",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        501,
+        502
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 501,
+      "EAAFCGPDFAA": "PrivateMessage_Personal",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 502,
+      "EAAFCGPDFAA": "PrivateMessage_Group",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 503,
+      "EAAFCGPDFAA": "PrivateMessage_Contact",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 504,
+      "EAAFCGPDFAA": "PrivateMessage_Partners_Reward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        505
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 505,
+      "EAAFCGPDFAA": "PrivateMessage_SinglePartner_Reward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 600,
+      "EAAFCGPDFAA": "AvatarNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 601,
+      "EAAFCGPDFAA": "AvatarThumbnail",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        701
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 602,
+      "EAAFCGPDFAA": "AvatarBreakReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 603,
+      "EAAFCGPDFAA": "AvatarRoleItemRow",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        601,
+        602
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 700,
+      "EAAFCGPDFAA": "AvatarSkill",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        704,
+        702,
+        705,
+        706
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 701,
+      "EAAFCGPDFAA": "AvatarSkill_Talent",
+      "JJHBNDNOBIE": 10,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 702,
+      "EAAFCGPDFAA": "AvatarSkill_Skill",
+      "JJHBNDNOBIE": 10,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 703,
+      "EAAFCGPDFAA": "AvatarHasBreakThroughReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 704,
+      "EAAFCGPDFAA": "AvatarSkill_PassiveSkill",
+      "JJHBNDNOBIE": 10,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 705,
+      "EAAFCGPDFAA": "AvatarSkill_PassiveSkill_IgnoreMat",
+      "JJHBNDNOBIE": 10,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 706,
+      "EAAFCGPDFAA": "AvatarSkill_Skill_IgnoreMat",
+      "JJHBNDNOBIE": 10,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 800,
+      "EAAFCGPDFAA": "Mail",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 900,
+      "EAAFCGPDFAA": "Notice",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1000,
+      "EAAFCGPDFAA": "ActiveProps",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1100,
+      "EAAFCGPDFAA": "Interactive",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1000
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1200,
+      "EAAFCGPDFAA": "InterKnotPost",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1201,
+      "EAAFCGPDFAA": "NewInterKnotPost",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1300,
+      "EAAFCGPDFAA": "NewsReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1301,
+      "EAAFCGPDFAA": "NewsStandTip",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1400,
+      "EAAFCGPDFAA": "Manual",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1401,
+      "EAAFCGPDFAA": "ManualMorning",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1402,
+      "EAAFCGPDFAA": "ManualNoon",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1403,
+      "EAAFCGPDFAA": "ManualMidnight",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1404,
+      "EAAFCGPDFAA": "ManualNight",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1500,
+      "EAAFCGPDFAA": "ActivityChain",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1501,
+        1505
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1501,
+      "EAAFCGPDFAA": "ActivityChainTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1502,
+        1504,
+        1503
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1502,
+      "EAAFCGPDFAA": "ActivityChainTabNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1503,
+      "EAAFCGPDFAA": "ActivityChainTaskNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1504,
+      "EAAFCGPDFAA": "ActivityChainTaskGetReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1505,
+      "EAAFCGPDFAA": "ActivityChainExchange",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1506,
+        1507
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1506,
+      "EAAFCGPDFAA": "ActivityChainExchangeNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1507,
+      "EAAFCGPDFAA": "ActivityChainExchangeBuy",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1601,
+      "EAAFCGPDFAA": "ActivityTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1610,
+        1611,
+        1603,
+        1604,
+        1605,
+        1613,
+        1608,
+        1609
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1602,
+      "EAAFCGPDFAA": "Activity",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1601
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1603,
+      "EAAFCGPDFAA": "ActivityLambTask",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1604,
+      "EAAFCGPDFAA": "ActivityNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1605,
+      "EAAFCGPDFAA": "ActivityTabTask",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1606,
+      "EAAFCGPDFAA": "ActivityTabRecord",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1607,
+      "EAAFCGPDFAA": "ActivityConsoleReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1608,
+      "EAAFCGPDFAA": "ActivityUnlockRedDot",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1609,
+      "EAAFCGPDFAA": "ActivityQuestRedDot",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1610,
+      "EAAFCGPDFAA": "ActivityCommonMission",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1611,
+      "EAAFCGPDFAA": "ActivityCommonMissionNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1612,
+      "EAAFCGPDFAA": "ActivityGroceryTask",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1613,
+      "EAAFCGPDFAA": "ActivityGroceryGuide",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1614,
+      "EAAFCGPDFAA": "ActivityGroceryTaskNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1615,
+      "EAAFCGPDFAA": "ActivityMiniGameNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1701,
+      "EAAFCGPDFAA": "Arcade",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1702,
+        1704
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1702,
+      "EAAFCGPDFAA": "ArcadeAchievement",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1703
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1703,
+      "EAAFCGPDFAA": "ArcadeAchievementGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1704,
+      "EAAFCGPDFAA": "ArcadeActivity",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1800,
+      "EAAFCGPDFAA": "BangbooThumbnail",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1802,
+        1803,
+        1804
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 1
+    },
+    {
+      "NGPCCDGBLLK": 1801,
+      "EAAFCGPDFAA": "BangbooRankUp",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1802,
+      "EAAFCGPDFAA": "BangbooStarUp",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1803,
+      "EAAFCGPDFAA": "BangbooNewGet",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1804,
+      "EAAFCGPDFAA": "BangbooBreakReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1805,
+      "EAAFCGPDFAA": "BangbooItemHint",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1802,
+        1803,
+        1804
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 1
+    },
+    {
+      "NGPCCDGBLLK": 1900,
+      "EAAFCGPDFAA": "Gacha",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        1901
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1901,
+      "EAAFCGPDFAA": "GachaTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1902,
+      "EAAFCGPDFAA": "GachaFate",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1903,
+      "EAAFCGPDFAA": "GachaNewbieChooseAvatar",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1904,
+      "EAAFCGPDFAA": "GachaOptionalUpItem",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1905,
+      "EAAFCGPDFAA": "GachaBangbooFullStar",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2000,
+      "EAAFCGPDFAA": "MainStoryRewardForVhs",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2001,
+      "EAAFCGPDFAA": "MainStoryRewardForArchiveType",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2002,
+      "EAAFCGPDFAA": "MainStoryRewardForRewardBtn",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2003,
+      "EAAFCGPDFAA": "MainStoryTeleport",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2100,
+      "EAAFCGPDFAA": "Option",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        900,
+        2101,
+        2102,
+        2103,
+        2104,
+        2105,
+        2106
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2101,
+      "EAAFCGPDFAA": "OptionWebLink",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2102,
+      "EAAFCGPDFAA": "OptionSocialEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2103,
+      "EAAFCGPDFAA": "OptionFeedBack",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2104,
+      "EAAFCGPDFAA": "OptionPostGirl",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2105,
+      "EAAFCGPDFAA": "OptionPGC",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2106,
+      "EAAFCGPDFAA": "OptionInterKnotTool",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2200,
+      "EAAFCGPDFAA": "InterKnotReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2201
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2201,
+      "EAAFCGPDFAA": "InterKnotLevelReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2202,
+      "EAAFCGPDFAA": "InterKnotMilestoneReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2300,
+      "EAAFCGPDFAA": "BattlePass",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2301,
+        2302,
+        2303
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2301,
+      "EAAFCGPDFAA": "BattlePassLevelReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2304
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2302,
+      "EAAFCGPDFAA": "BattlePassTask",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2305
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2303,
+      "EAAFCGPDFAA": "BattlePassCoreReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2307
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2304,
+      "EAAFCGPDFAA": "BattlePassLevelRewardItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2305,
+      "EAAFCGPDFAA": "BattlePassTaskTypeButton",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2306,
+        2308
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2306,
+      "EAAFCGPDFAA": "BattlePassTaksItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2307,
+      "EAAFCGPDFAA": "BattlePassCoreRewardItem",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2308,
+      "EAAFCGPDFAA": "BattlePassTaskActivityNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2309,
+      "EAAFCGPDFAA": "BattlePassLevelRewardConsole",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2400,
+      "EAAFCGPDFAA": "DailyQuest",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2401,
+      "EAAFCGPDFAA": "DailyQuestPlan",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2500,
+      "EAAFCGPDFAA": "AbyssRewardScroll",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2501,
+      "EAAFCGPDFAA": "AbyssTaskEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2502,
+        2503
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2502,
+      "EAAFCGPDFAA": "AbyssTaskReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2503,
+      "EAAFCGPDFAA": "AbyssTaskList",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2504,
+      "EAAFCGPDFAA": "AbyssRewardTimeLineRedPoint",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2500,
+        2503
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2505,
+      "EAAFCGPDFAA": "AbyssTalentEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2506,
+      "EAAFCGPDFAA": "AbyssEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2501,
+        2504,
+        2514
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2507,
+      "EAAFCGPDFAA": "AbyssHazalHDDEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2506,
+        2508
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2508,
+      "EAAFCGPDFAA": "HazalEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2509
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2509,
+      "EAAFCGPDFAA": "HazalEntrance_Reward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2510,
+      "EAAFCGPDFAA": "HazalEntrance_ZoneItemEntrance",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2511,
+      "EAAFCGPDFAA": "AbyssNewTask",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2512,
+      "EAAFCGPDFAA": "AbyssRewardTimeLineNew",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2511
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2513,
+      "EAAFCGPDFAA": "AbyssBossRushReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2514,
+      "EAAFCGPDFAA": "AbyssBossRushRewardEntry",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2513
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2700,
+      "EAAFCGPDFAA": "Workbench",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2713,
+        2702,
+        2703,
+        2704,
+        2705
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2701,
+      "EAAFCGPDFAA": "Workbench_TrustDegree",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2713
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 2
+    },
+    {
+      "NGPCCDGBLLK": 2702,
+      "EAAFCGPDFAA": "Workbench_Information_BigGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2707
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2703,
+      "EAAFCGPDFAA": "Workbench_InterknotNote",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2704,
+      "EAAFCGPDFAA": "Workbench_ActiveProps_BigGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2705,
+      "EAAFCGPDFAA": "Workbench_VRBossIllustratedBook",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2706,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_Partner",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2715,
+        2718
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 2
+    },
+    {
+      "NGPCCDGBLLK": 2707,
+      "EAAFCGPDFAA": "Workbench_Information_SmallGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2708
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2708,
+      "EAAFCGPDFAA": "Workbench_Information_Real",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2709,
+      "EAAFCGPDFAA": "Workbench_ActiveProps_SmallGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2710
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2710,
+      "EAAFCGPDFAA": "Workbench_ActiveProps_Item",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2711,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerMemoryGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2712
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2712,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerMemory",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2713,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_CampType",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2714
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 2
+    },
+    {
+      "NGPCCDGBLLK": 2714,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_Camp",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2706
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 2
+    },
+    {
+      "NGPCCDGBLLK": 2715,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerTrustReward",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2716
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2716,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerTrustRewardItem",
+      "JJHBNDNOBIE": 2,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2717,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerDetail",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2718,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_PartnerNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2720,
+      "EAAFCGPDFAA": "Workbench_TrustDegree_Info",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2800,
+      "EAAFCGPDFAA": "HollowExitReport",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2901,
+      "EAAFCGPDFAA": "HollowPauseWidget",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        2092,
+        2903
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2902,
+      "EAAFCGPDFAA": "HollowEventCollect",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2903,
+      "EAAFCGPDFAA": "HollowPopUpWindow",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 2904,
+      "EAAFCGPDFAA": "HollowMainPageExitBtn",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3000,
+      "EAAFCGPDFAA": "GeneralTutorial",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3100,
+      "EAAFCGPDFAA": "HeadPortrait",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3101
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3101,
+      "EAAFCGPDFAA": "HeadPortraitItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3200,
+      "EAAFCGPDFAA": "Test",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3300,
+      "EAAFCGPDFAA": "RallyQuestEntrance",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3400,
+      "EAAFCGPDFAA": "Workbench_NewMonsterCard",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3401
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3401,
+      "EAAFCGPDFAA": "NewMosnterCard_Tab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3402,
+      "EAAFCGPDFAA": "NewMosnterCard_OriginCard",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3500,
+      "EAAFCGPDFAA": "Training_Reward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3600,
+      "EAAFCGPDFAA": "ShoppingMall_Menu",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3601,
+        3602,
+        3606
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3601,
+      "EAAFCGPDFAA": "ShoppingMall_Menu_Click",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3602,
+      "EAAFCGPDFAA": "ShoppingMall_tabGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3603,
+        3605
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3603,
+      "EAAFCGPDFAA": "ShoppingMall_tab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3604
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3604,
+      "EAAFCGPDFAA": "ShoppingMall_shelft",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3605,
+      "EAAFCGPDFAA": "ShoppingMall_recommend",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3606,
+      "EAAFCGPDFAA": "ShoppingMall_notify",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3700,
+      "EAAFCGPDFAA": "AchievementRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3701
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3701,
+      "EAAFCGPDFAA": "AchievementFirstTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3702,
+      "EAAFCGPDFAA": "AchievementSecondTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3703,
+      "EAAFCGPDFAA": "AchievementItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3800,
+      "EAAFCGPDFAA": "HandBook",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3803,
+        2400,
+        2202
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3801,
+      "EAAFCGPDFAA": "HandBook_Tab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3802,
+      "EAAFCGPDFAA": "HandBook_SubTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3803,
+      "EAAFCGPDFAA": "HandBook_TopTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3801,
+        3802
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3900,
+      "EAAFCGPDFAA": "FriendSystem",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3910,
+        3911
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3901,
+      "EAAFCGPDFAA": "Friend_PersonalInfo",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3905
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3902,
+      "EAAFCGPDFAA": "Friend_FriendInfo",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3908
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3903,
+      "EAAFCGPDFAA": "Friend_AddFriend",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3904,
+      "EAAFCGPDFAA": "Friend_RecentPlayer",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3905,
+      "EAAFCGPDFAA": "Friend_PersonalInfoEditBtn",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3906,
+        3909
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3906,
+      "EAAFCGPDFAA": "Friend_PersonalInfoEditItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3907,
+      "EAAFCGPDFAA": "Friend_BusinessCard",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3908,
+      "EAAFCGPDFAA": "Friend_NewChatMsg",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3909,
+      "EAAFCGPDFAA": "Friend_NewHeadPortrait",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3100
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3910,
+      "EAAFCGPDFAA": "FriendSystem_FriendTab",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3901,
+        3902,
+        3903,
+        3904
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 3911,
+      "EAAFCGPDFAA": "FriendSystem_RopeMakerTab",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        3909
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4000,
+      "EAAFCGPDFAA": "NyakichiRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4001
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4001,
+      "EAAFCGPDFAA": "NyakichiRegion",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4004
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 1
+    },
+    {
+      "NGPCCDGBLLK": 4002,
+      "EAAFCGPDFAA": "NyakichiGroup",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4003,
+      "EAAFCGPDFAA": "NyakichiQuestItem",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4004,
+      "EAAFCGPDFAA": "NyakichiRegionNew",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4100,
+      "EAAFCGPDFAA": "HollowCollect_RewardEntry",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4101,
+        4102
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4101,
+      "EAAFCGPDFAA": "HollowCollect_RewardEntry_Single",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4102,
+      "EAAFCGPDFAA": "HollowCollect_RewardEntry_Accum",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4103,
+      "EAAFCGPDFAA": "HollowCollect_ClueGetQuest",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4200,
+      "EAAFCGPDFAA": "VideoShop_Store_SuitIcon_Click",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4300,
+      "EAAFCGPDFAA": "TrendyStoreWeaponPreview",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4400,
+      "EAAFCGPDFAA": "DailyChallenge_VIP",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4401,
+      "EAAFCGPDFAA": "DailyChallenge_Level_Root",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4402
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4402,
+      "EAAFCGPDFAA": "DailyChallenge_Level",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4403,
+      "EAAFCGPDFAA": "DailyChallenge_MonsterCard",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4404,
+      "EAAFCGPDFAA": "DailyChallenge_Suit",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4405,
+      "EAAFCGPDFAA": "DailyChallenge_Entrence",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4406,
+      "EAAFCGPDFAA": "DailyChallenge_Entrence_Root",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4405
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4410,
+      "EAAFCGPDFAA": "LittleBossDifficute",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4411,
+      "EAAFCGPDFAA": "BossDifficute",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4412,
+      "EAAFCGPDFAA": "DoubleEleDifficute",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4413,
+      "EAAFCGPDFAA": "LittleBossDifficuteRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4410
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4414,
+      "EAAFCGPDFAA": "BossDifficuteRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4411
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4415,
+      "EAAFCGPDFAA": "DoubleEleDifficuteRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4412
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4416,
+      "EAAFCGPDFAA": "LittleBossUnlock",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4417,
+      "EAAFCGPDFAA": "LittleBossUnlockRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4416
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4418,
+      "EAAFCGPDFAA": "BossUnlock",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4419,
+      "EAAFCGPDFAA": "BossUnlockRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4418
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4500,
+      "EAAFCGPDFAA": "BossChallengeReward",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4600,
+      "EAAFCGPDFAA": "ActivityCameraRoot",
+      "JJHBNDNOBIE": 0,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4601
+      ],
+      "FFOPPENDGEF": 0,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4601,
+      "EAAFCGPDFAA": "ActivityCameraTab",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 0,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [
+        4602
+      ],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    },
+    {
+      "NGPCCDGBLLK": 4602,
+      "EAAFCGPDFAA": "ActivityCameraQuestUnlock",
+      "JJHBNDNOBIE": 1,
+      "EAKKDLFKEOH": 1,
+      "FGNFEOONINO": 0,
+      "GBODIBEBBMN": [],
+      "FFOPPENDGEF": 1,
+      "JJHHPIFEHLN": 0
+    }
+  ]
+}

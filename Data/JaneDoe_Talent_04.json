@@ -1,0 +1,47 @@
+{
+  "AbilityName": "JaneDoe_Talent_04",
+  "AbilitySpecials": {
+    "AS_DamageAmountPercentage": {
+      "Value": 16
+    },
+    "DamageAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_DamageAmountPercentage)*property(ElementMystery_Battle)",
+        "ParamName": "DamageAmount",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "JaneDoe_Talent_06_AttackProperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "JaneDoe_Talent_06_AttackProperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedAttackDelta",
+        "PropertyValue": "%DamageAmount",
+        "Target": "Self"
+      }
+    ]
+  }
+}

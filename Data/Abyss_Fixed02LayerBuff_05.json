@@ -1,0 +1,51 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_05",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_DamageTakeRatio": {
+      "Value": -0.3
+    },
+    "AS_Duration": {
+      "Value": 15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_05_BuffModifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "EvadeAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "Abyss_Fixed02LayerBuff_05_BuffModifier": {
+      "Duration": "%AS_Duration",
+      "IsUnique": true,
+      "ModifierStacking": "Refresh",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio",
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    }
+  }
+}

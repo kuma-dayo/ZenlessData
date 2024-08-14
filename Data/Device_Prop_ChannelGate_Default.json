@@ -1,0 +1,139 @@
+{
+  "AbilityName": "Device_Prop_ChannelGate_Default",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ChannelGate_Enter",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ChannelGate_Enter": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "FieldRangeMixin",
+          "ColliderConfig": {
+            "BoxColliderDistance": 1.8,
+            "BoxColliderHeight": 2,
+            "BoxColliderWidth": 4,
+            "ColliderAngleOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "ColliderPosOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -0.9
+            },
+            "ColliderType": "Box"
+          },
+          "FieldEnterActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_IsBack",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByIsLocalAvatar",
+                  "IsLocalAvatar": true,
+                  "Target": "Target"
+                },
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": 0,
+                  "AngleMin": -180,
+                  "CompareTarget": "LocalAvatar",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_IsBack",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByIsLocalAvatar",
+                  "IsLocalAvatar": true,
+                  "Target": "Target"
+                },
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": 180,
+                  "AngleMin": 0,
+                  "CompareTarget": "LocalAvatar",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_IsOpen",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByIsLocalAvatar",
+                  "IsLocalAvatar": true,
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "FieldExitActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_IsOpen",
+              "ParamType": 2,
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_IsBack",
+              "ParamType": 2,
+              "Target": "Self"
+            }
+          ],
+          "FieldInitPosRot": {
+            "CoordsOption": "Self",
+            "NeedRaycastGround": true,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "IsFollow": false,
+          "TotalDuration": -1
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

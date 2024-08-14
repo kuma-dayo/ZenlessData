@@ -1,0 +1,94 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LODGDKPMICI": 100,
+      "IGKOFGFODGO": "SunShine",
+      "ANHPIBJOHAE": "Morning"
+    },
+    {
+      "LODGDKPMICI": 101,
+      "IGKOFGFODGO": "SunShine",
+      "ANHPIBJOHAE": "Evening"
+    },
+    {
+      "LODGDKPMICI": 102,
+      "IGKOFGFODGO": "SunShine",
+      "ANHPIBJOHAE": "Night"
+    },
+    {
+      "LODGDKPMICI": 103,
+      "IGKOFGFODGO": "Fog",
+      "ANHPIBJOHAE": "Morning"
+    },
+    {
+      "LODGDKPMICI": 104,
+      "IGKOFGFODGO": "Fog",
+      "ANHPIBJOHAE": "Evening"
+    },
+    {
+      "LODGDKPMICI": 105,
+      "IGKOFGFODGO": "Fog",
+      "ANHPIBJOHAE": "Night"
+    },
+    {
+      "LODGDKPMICI": 106,
+      "IGKOFGFODGO": "Rain",
+      "ANHPIBJOHAE": "Morning"
+    },
+    {
+      "LODGDKPMICI": 107,
+      "IGKOFGFODGO": "Rain",
+      "ANHPIBJOHAE": "Evening"
+    },
+    {
+      "LODGDKPMICI": 108,
+      "IGKOFGFODGO": "Rain",
+      "ANHPIBJOHAE": "Night"
+    },
+    {
+      "LODGDKPMICI": 109,
+      "IGKOFGFODGO": "SunShine",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 110,
+      "IGKOFGFODGO": "Fog",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 111,
+      "IGKOFGFODGO": "Rain",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 112,
+      "IGKOFGFODGO": "ThickFog",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 113,
+      "IGKOFGFODGO": "Thunder",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 114,
+      "IGKOFGFODGO": "ThickCloudy",
+      "ANHPIBJOHAE": ""
+    },
+    {
+      "LODGDKPMICI": 310000,
+      "IGKOFGFODGO": "ThickCloudy",
+      "ANHPIBJOHAE": "Morning"
+    },
+    {
+      "LODGDKPMICI": 410000,
+      "IGKOFGFODGO": "Rain",
+      "ANHPIBJOHAE": "Morning"
+    },
+    {
+      "LODGDKPMICI": 510000,
+      "IGKOFGFODGO": "Thunder",
+      "ANHPIBJOHAE": "Morning"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "AbilityName": "LockLife_20Percent",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "LockLife",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LockLife": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "LockLifePropertyMixin",
+          "OnLifeLockFirstTriggeredActions": [
+            {
+              "$type": "LDListenEntityAction",
+              "TargetKey": "5010311_3_LockLifeActive"
+            }
+          ],
+          "PerformBeHitEffect": true,
+          "RatioLockList": [
+            {
+              "LockType": "Total",
+              "LockValue": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "RemoveModifier",
+      "ModifierName": "LockLife"
+    }
+  ]
+}

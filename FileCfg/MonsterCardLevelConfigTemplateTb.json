@@ -1,0 +1,74 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "MNCDOKNPIBD": 10,
+      "CIHOBFOMEDO": 4,
+      "AODGJJAKMIH": 0,
+      "EGLPGKKDKFP": 0,
+      "IBLKBJHCOBD": 0,
+      "LEOHKHBDAKI": 0,
+      "OHHLJKMAKED": "",
+      "JCFBLHAFKEI": "",
+      "OJFCNPODLII": 1,
+      "IBPLCJDCKED": "UI/Sprite/A1DynamicLoad/IconDailyChallenge/UnPacker/DailyIcon01.png",
+      "PALEOEMDNNM": "UIText_779"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "MNCDOKNPIBD": 20,
+      "CIHOBFOMEDO": 4,
+      "AODGJJAKMIH": 0,
+      "EGLPGKKDKFP": 0,
+      "IBLKBJHCOBD": 0,
+      "LEOHKHBDAKI": 0,
+      "OHHLJKMAKED": "1280010001",
+      "JCFBLHAFKEI": "WorldLevel_Tips_1",
+      "OJFCNPODLII": 1,
+      "IBPLCJDCKED": "UI/Sprite/A1DynamicLoad/IconDailyChallenge/UnPacker/DailyIcon02.png",
+      "PALEOEMDNNM": "UIText_780"
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "MNCDOKNPIBD": 30,
+      "CIHOBFOMEDO": 4,
+      "AODGJJAKMIH": 0,
+      "EGLPGKKDKFP": 0,
+      "IBLKBJHCOBD": 0,
+      "LEOHKHBDAKI": 0,
+      "OHHLJKMAKED": "1280010002",
+      "JCFBLHAFKEI": "WorldLevel_Tips_2",
+      "OJFCNPODLII": 2,
+      "IBPLCJDCKED": "UI/Sprite/A1DynamicLoad/IconDailyChallenge/UnPacker/DailyIcon03.png",
+      "PALEOEMDNNM": "UIText_781"
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "MNCDOKNPIBD": 40,
+      "CIHOBFOMEDO": 4,
+      "AODGJJAKMIH": 0,
+      "EGLPGKKDKFP": 0,
+      "IBLKBJHCOBD": 0,
+      "LEOHKHBDAKI": 0,
+      "OHHLJKMAKED": "1280010003",
+      "JCFBLHAFKEI": "WorldLevel_Tips_3",
+      "OJFCNPODLII": 2,
+      "IBPLCJDCKED": "UI/Sprite/A1DynamicLoad/IconDailyChallenge/UnPacker/DailyIcon04.png",
+      "PALEOEMDNNM": "UIText_782"
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "MNCDOKNPIBD": 50,
+      "CIHOBFOMEDO": 4,
+      "AODGJJAKMIH": 0,
+      "EGLPGKKDKFP": 0,
+      "IBLKBJHCOBD": 0,
+      "LEOHKHBDAKI": 0,
+      "OHHLJKMAKED": "1280010004",
+      "JCFBLHAFKEI": "WorldLevel_Tips_4",
+      "OJFCNPODLII": 3,
+      "IBPLCJDCKED": "UI/Sprite/A1DynamicLoad/IconDailyChallenge/UnPacker/DailyIcon05.png",
+      "PALEOEMDNNM": "UIText_783"
+    }
+  ]
+}

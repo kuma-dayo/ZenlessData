@@ -1,0 +1,204 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 10100,
+      "MAKGOMJIDOI": "",
+      "CDADFAJJFCI": "",
+      "MDOEANJAHOA": "FFD600FF|FF430000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10101,
+      "MAKGOMJIDOI": "HollowQuest_Title1",
+      "CDADFAJJFCI": "FF9500FF",
+      "MDOEANJAHOA": "FFD600FF|FF430000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10102,
+      "MAKGOMJIDOI": "HollowQuest_Title2",
+      "CDADFAJJFCI": "FF9500FF",
+      "MDOEANJAHOA": "FFD600FF|FF430000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10103,
+      "MAKGOMJIDOI": "HollowQuest_Title3",
+      "CDADFAJJFCI": "FF9500FF",
+      "MDOEANJAHOA": "FFD600FF|FF430000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10104,
+      "MAKGOMJIDOI": "HollowQuest_Title4",
+      "CDADFAJJFCI": "FF9500FF",
+      "MDOEANJAHOA": "FFD600FF|FF430000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10105,
+      "MAKGOMJIDOI": "HollowQuest_Title5",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10106,
+      "MAKGOMJIDOI": "HollowQuest_Title6",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10108,
+      "MAKGOMJIDOI": "HollowQuest_Title7",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Story.png",
+      "NHGGEOPNHHM": "HollowLocation_1"
+    },
+    {
+      "NGPCCDGBLLK": 10200,
+      "MAKGOMJIDOI": "HollowQuest_Title3",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10201,
+      "MAKGOMJIDOI": "HollowQuest_Title1",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10202,
+      "MAKGOMJIDOI": "HollowQuest_Title2",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10203,
+      "MAKGOMJIDOI": "HollowQuest_Title3",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10204,
+      "MAKGOMJIDOI": "HollowQuest_Title4",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10205,
+      "MAKGOMJIDOI": "HollowQuest_Title5",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10208,
+      "MAKGOMJIDOI": "HollowQuest_Title7",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Explore.png",
+      "NHGGEOPNHHM": "HollowLocation_2"
+    },
+    {
+      "NGPCCDGBLLK": 10300,
+      "MAKGOMJIDOI": "",
+      "CDADFAJJFCI": "",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10301,
+      "MAKGOMJIDOI": "HollowQuest_Title1",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10302,
+      "MAKGOMJIDOI": "HollowQuest_Title2",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10303,
+      "MAKGOMJIDOI": "HollowQuest_Title3",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10304,
+      "MAKGOMJIDOI": "HollowQuest_Title4",
+      "CDADFAJJFCI": "00A1FFFF",
+      "MDOEANJAHOA": "00E4FFFF|0066D100",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10305,
+      "MAKGOMJIDOI": "HollowQuest_Title5",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10306,
+      "MAKGOMJIDOI": "HollowQuest_Title6",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10307,
+      "MAKGOMJIDOI": "RallyQuestType_Title_2",
+      "CDADFAJJFCI": "FF00A1FF",
+      "MDOEANJAHOA": "FF00A1FF|7400FF00",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_RallyQuest.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10308,
+      "MAKGOMJIDOI": "HollowQuest_Title7",
+      "CDADFAJJFCI": "FF2F00FF",
+      "MDOEANJAHOA": "FF2F00FF|80000000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Combat.png",
+      "NHGGEOPNHHM": "HollowLocation_3"
+    },
+    {
+      "NGPCCDGBLLK": 10400,
+      "MAKGOMJIDOI": "",
+      "CDADFAJJFCI": "",
+      "MDOEANJAHOA": "FF9500FF|FFDE0000",
+      "PPHFEODGIIM": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Abyss.png",
+      "NHGGEOPNHHM": "HollowLocation_0"
+    }
+  ]
+}

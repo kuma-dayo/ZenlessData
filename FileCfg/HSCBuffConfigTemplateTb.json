@@ -1,0 +1,80 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LIMMBDELKLB": 1,
+      "HJMJFALBKDI": 10,
+      "AMJHCDEIOHF": 20,
+      "NMICFGMGPEN": 60,
+      "NLPOOKDHOGL": 2,
+      "MLKOMNHFLFL": 2,
+      "ANPLBEFCDJH": [
+        10,
+        1
+      ],
+      "GINFLEONOHC": "UI/Sprite/A1DynamicLoad/IconRole/UnPacker/IconRole29.png",
+      "EEKEDJBPGMM": 1,
+      "ELFNBCBHHHC": 0,
+      "ABOMNGPCNHN": 0,
+      "PMEIGMGILOD": 0,
+      "MPKFPBGAADH": 1,
+      "JOAENJGAMAD": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityQuestionAnswer/Packer/SkillIcon02.png"
+    },
+    {
+      "LIMMBDELKLB": 2,
+      "HJMJFALBKDI": 10,
+      "AMJHCDEIOHF": 10,
+      "NMICFGMGPEN": 20,
+      "NLPOOKDHOGL": 2,
+      "MLKOMNHFLFL": 2,
+      "ANPLBEFCDJH": [
+        10,
+        1
+      ],
+      "GINFLEONOHC": "UI/Sprite/A1DynamicLoad/IconRole/UnPacker/IconRole23.png",
+      "EEKEDJBPGMM": 2,
+      "ELFNBCBHHHC": 0,
+      "ABOMNGPCNHN": 0,
+      "PMEIGMGILOD": 0,
+      "MPKFPBGAADH": 2,
+      "JOAENJGAMAD": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityQuestionAnswer/Packer/SkillIcon03.png"
+    },
+    {
+      "LIMMBDELKLB": 3,
+      "HJMJFALBKDI": 10,
+      "AMJHCDEIOHF": 30,
+      "NMICFGMGPEN": 30,
+      "NLPOOKDHOGL": 2,
+      "MLKOMNHFLFL": 2,
+      "ANPLBEFCDJH": [
+        10,
+        1
+      ],
+      "GINFLEONOHC": "UI/Sprite/A1DynamicLoad/IconRole/UnPacker/IconNPC300139.png",
+      "EEKEDJBPGMM": 3,
+      "ELFNBCBHHHC": 10000,
+      "ABOMNGPCNHN": 0,
+      "PMEIGMGILOD": 0,
+      "MPKFPBGAADH": 3,
+      "JOAENJGAMAD": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityQuestionAnswer/Packer/SkillIcon04.png"
+    },
+    {
+      "LIMMBDELKLB": 4,
+      "HJMJFALBKDI": 10,
+      "AMJHCDEIOHF": 0,
+      "NMICFGMGPEN": 0,
+      "NLPOOKDHOGL": 2,
+      "MLKOMNHFLFL": 2,
+      "ANPLBEFCDJH": [
+        10,
+        1
+      ],
+      "GINFLEONOHC": "UI/Sprite/A1DynamicLoad/IconRole/UnPacker/IconRole30.png",
+      "EEKEDJBPGMM": 4,
+      "ELFNBCBHHHC": 0,
+      "ABOMNGPCNHN": 1,
+      "PMEIGMGILOD": 0,
+      "MPKFPBGAADH": 4,
+      "JOAENJGAMAD": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityQuestionAnswer/Packer/SkillIcon01.png"
+    }
+  ]
+}

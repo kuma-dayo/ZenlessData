@@ -1,0 +1,70 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 20,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AddAttackTimesModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bangboo_Officercui_AttackManager",
+  "AbilitySpecials": {
+    "AttackTimes": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "IntVal": 1,
+        "ParamName": "Int_AttackLaunch",
+        "ParamType": 3,
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Bangboo_Officercui_Attackproperty_Attack01_HitCheck"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddAttackTimesModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 1,
+          "ModifyFunction": "Add",
+          "ParamName": "Int_SkillTimes_Current",
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_AttackLaunch",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "AbilityName": "DubiousHero_BeHit",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "AttachModifier",
+        "ModifierName": "BeHitModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BeHitModifier": {
+      "Duration": 0.5,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_BeHit",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "Bool_BeHit",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

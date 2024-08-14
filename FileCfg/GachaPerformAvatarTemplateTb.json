@@ -1,0 +1,524 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1101001,
+      "FKMMBBJJIPH": 1,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Anbi",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size02_Anbi.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size02_Anbi.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101002,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Nekomata",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_Tsubaki.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_Tsubaki.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101003,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Nicole",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size02_Nostradamus.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size02_Nostradamus.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": "Gacha_Nicole_LightCSAttachPoint"
+    },
+    {
+      "NGPCCDGBLLK": 1101004,
+      "FKMMBBJJIPH": 1,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_05_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_05_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_05_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Soldier11",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size02_Longinus.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size02_Longinus.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101006,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Corin",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_Corin.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_Corin.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101008,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_01_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Billy",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Male_Size03_Billy.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Male_Size03_Billy.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101010,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Koleda",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_OokumaMari.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_OokumaMari.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101011,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Anton",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Male_Size03_Anton.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Male_Size03_Anton.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101012,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Ben",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Male_Size03_Ben.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Male_Size03_Ben.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101013,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_06_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_06_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_06_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Soukaku",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_Aokaku.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_Aokaku.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101014,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Lycaon",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Male_Size03_Lycaon.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Male_Size03_Lycaon.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101015,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Lucy",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_Lucy.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_Lucy.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101018,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_03_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Grace",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size03_Lisa.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size03_Lisa.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101019,
+      "FKMMBBJJIPH": 1,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Ellen",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size02_Ellen.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size02_Ellen.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101021,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_02_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Rina",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size03_Rina.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size03_Rina.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101024,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_ZhuYuan",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size03_ZhuYuan.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size03_ZhuYuan.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101025,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_QingYi",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_QingYi.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_QingYi.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101026,
+      "FKMMBBJJIPH": 0,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_907_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_907_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_907_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Jane",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size03_JaneDoe.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size03_JaneDoe.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_02.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_05.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101027,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_07_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Seth",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Male_Size01_Seth.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Male_Size01_Seth.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    },
+    {
+      "NGPCCDGBLLK": 1101028,
+      "FKMMBBJJIPH": 2,
+      "OKCLIBPNIGE": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_D.tga",
+      "JKGNGBDKDEK": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_N.tga",
+      "NJMIMMBLHCB": "UI/3D/Gacha/GachaAvatarFlag/Textures/Gacha_AvatarFlag_04_M.tga",
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Piper",
+      "JIOPDOHIKOM": "Gacha_Scr_01|Gacha_Scr_02|Gacha_Scr_03|Gacha_Scr_04|Gacha_Scr_05|Gacha_Scr_06|Gacha_Scr_07|Gacha_Scr_08|Gacha_Scr_09|Gacha_Scr_10|Gacha_Scr_11|Gacha_Scr_12|Gacha_Decoration_01|Gacha_Decoration_02|Gacha_Decoration_03|Gacha_Decoration_04|Gacha_Decoration_05|Gacha_Decoration_06|Gacha_Decoration_07|Gacha_Decoration_08|Gacha_Decoration_09|Gacha_Decoration_10|Gacha_Decoration_11|Gacha_Decoration_12|Gacha_Decoration_13|Gacha_Decoration_14|Gacha_Decoration_15|Gacha_Decoration_16|Gacha_Decoration_17|Gacha_Decoration_18|Gacha_Decoration_19|Gacha_Decoration_20|Gacha_Decoration_21|Gacha_Decoration_22|Gacha_Decoration_23|Gacha_Decoration_24|Gacha_Decoration_25|Gacha_Decoration_26|Gacha_Decoration_27|Gacha_Decoration_28|Gacha_Decoration_29|Gacha_Decoration_30|Gacha_Decoration_31|Gacha_Decoration_32|Gacha_Decoration_33|Gacha_Decoration_34|Gacha_Decoration_35|Gacha_Decoration_36|Gacha_Decoration_37|Gacha_Decoration_38|Gacha_Decoration_39|Gacha_Decoration_40|Gacha_Decoration_41|Gacha_Decoration_42|Gacha_Decoration_43|Gacha_Decoration_44|Gacha_Decoration_45|Gacha_Decoration_46|Gacha_Decoration_47|Gacha_Decoration_48|Gacha_Decoration_49|Gacha_Decoration_50|Gacha_Decoration_51|Gacha_Decoration_52|Gacha_Decoration_53|Gacha_Decoration_54|Gacha_Decoration_55|Gacha_Decoration_56|Gacha_Decoration_57|Gacha_Decoration_58",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Avatar/GachaTL_Female_Size01_Clara.prefab",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "UI/3D/Gacha/Light/Avatar/Gacha_Light_Female_Size01_Clara.prefab",
+      "FPENNHIPOMO": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_03.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_AgentText_04.prefab"
+      ],
+      "FAJHMABIEND": [
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_01.prefab",
+        "UI/3D/Gacha/UIText/GachaStage_UI_ContractText_02.prefab"
+      ],
+      "OPIJIBLKAJA": "",
+      "PCPAMMHLMCF": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "AbilityName": "Level_JaneDoe_CurrentEnhancePointReset",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CurrentEnhancePointReset",
+        "Target": "LocalAvatar"
+      }
+    ]
+  },
+  "Modifiers": {
+    "CurrentEnhancePointReset": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "CurrentEnhancePoint",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "BranchAttackUseTime",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "AbilityName": "Prologue_ACT2_ListenQTEWindow",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Duration": -1,
+    "ModifierStacking": "MultipleRefresh",
+    "OnThinkInterval": [
+      {
+        "$type": "LDListenEntityAction",
+        "Predicates": [
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByIsInZoneTags",
+                "Tags": [
+                  "Player_IsInQTEWindow"
+                ],
+                "Target": "LocalAvatar"
+              }
+            ]
+          }
+        ],
+        "TargetKey": "ACT2QTEFinished"
+      }
+    ],
+    "ThinkInterval": 0.1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "DJIDNEMBKCL": 1,
+      "ADLIABKFEAI": "NotLastFight",
+      "CCBCJPMCLHM": "Normal",
+      "DFMLACAABKK": 10001001
+    },
+    {
+      "DJIDNEMBKCL": 2,
+      "ADLIABKFEAI": "NotLastFight",
+      "CCBCJPMCLHM": "Elite",
+      "DFMLACAABKK": 10001002
+    },
+    {
+      "DJIDNEMBKCL": 3,
+      "ADLIABKFEAI": "NotLastFight",
+      "CCBCJPMCLHM": "Boss",
+      "DFMLACAABKK": 10001003
+    },
+    {
+      "DJIDNEMBKCL": 4,
+      "ADLIABKFEAI": "IsLastFight",
+      "CCBCJPMCLHM": "Normal",
+      "DFMLACAABKK": 10001004
+    },
+    {
+      "DJIDNEMBKCL": 5,
+      "ADLIABKFEAI": "IsLastFight",
+      "CCBCJPMCLHM": "Elite",
+      "DFMLACAABKK": 10001005
+    },
+    {
+      "DJIDNEMBKCL": 6,
+      "ADLIABKFEAI": "IsLastFight",
+      "CCBCJPMCLHM": "Boss",
+      "DFMLACAABKK": 10001006
+    }
+  ]
+}

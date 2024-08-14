@@ -1,0 +1,520 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_BranchEnhance_UniqueSKill"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Enhance_End",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_BranchEnhance_UniqueSKill"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Enhance_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "PerfectEvadePredicateModifer_Branch_01_Enhance_End"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AddedStackCount)+1",
+              "ParamName": "AddedStackCount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 13,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AddedStackCount)+1",
+              "ParamName": "AddedStackCount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 27,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AddedStackCount)+1",
+              "ParamName": "AddedStackCount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 39,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AddedStackCount)+1",
+              "ParamName": "AddedStackCount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 53,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AddedStackCount)+1",
+              "ParamName": "AddedStackCount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 62,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "QingYi_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatio_Talent_02": {
+      "Value": 0.25
+    },
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_DefaultStackCount": {
+      "Value": 10
+    },
+    "AS_MaxStackCount": {
+      "Value": 30
+    },
+    "AS_StunDamageTakeRatio_X": {
+      "Value": 0.025
+    },
+    "AS_StunDamageTakeRatio_X_Talent_02": {
+      "Value": 0.0375
+    },
+    "AddedStackCount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "UseBranchTime": {
+      "Value": 0,
+      "ValueType": "Integer"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 2,
+            "Target": "Self"
+          },
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "GreaterEqual",
+            "ModifierName": "Modifier_AddStunDamageTakeRatio_Talent_02",
+            "StackCount": "%AS_MaxStackCount",
+            "Target": "Target"
+          },
+          {
+            "$type": "ByIsStunDestroyed",
+            "IsStunDestroyed": false,
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedBreakStunRatio_Talent_02",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Modifier_AddStunDamageTakeRatio": {
+      "Buff": {
+        "BuffID": 3000111,
+        "IsOverrideDuration": true
+      },
+      "Duration": -1,
+      "MaxStackingNumber": "%AS_MaxStackCount",
+      "ModifierStacking": "Multiple",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackQTE",
+                "NormalQTE"
+              ]
+            },
+            {
+              "$type": "ByEntityTemplateID",
+              "EntityType": "Avatar",
+              "Target": "Other",
+              "TemplateID": 1251
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Target"
+        }
+      ],
+      "OnStunCreateActions": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_StunDamageTakeRatio": "%AS_StunDamageTakeRatio_X"
+      }
+    },
+    "Modifier_AddStunDamageTakeRatio_Talent_02": {
+      "Buff": {
+        "BuffID": 3000112,
+        "IsOverrideDuration": true
+      },
+      "Duration": -1,
+      "MaxStackingNumber": "%AS_MaxStackCount",
+      "ModifierStacking": "Multiple",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackQTE",
+                "NormalQTE"
+              ]
+            },
+            {
+              "$type": "ByEntityTemplateID",
+              "EntityType": "Avatar",
+              "Target": "Other",
+              "TemplateID": 1251
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Target"
+        }
+      ],
+      "OnStunCreateActions": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio_Talent_02",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_StunDamageTakeRatio": "%AS_StunDamageTakeRatio_X_Talent_02"
+      }
+    },
+    "Modifier_BranchEnhance_UniqueSKill": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_DefaultStackCount)",
+          "ParamName": "AddedStackCount",
+          "Target": "Self",
+          "ValueType": "Integer"
+        }
+      ],
+      "OnHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_StunDamageHasBeenAdded"
+              ],
+              "OperatorType": "Not",
+              "Target": "Target"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAvatarTalentIndex",
+                  "TalentIndex": 2,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "StackCount": "%AddedStackCount",
+          "Target": "Target"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_StunDamageHasBeenAdded"
+              ],
+              "OperatorType": "Not",
+              "Target": "Target"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAvatarTalentIndex",
+                  "TalentIndex": 2,
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByMonsterStrengthType",
+                  "CompareType": "Equal",
+                  "StrengthType": "Normal",
+                  "Target": "Target"
+                },
+                {
+                  "$type": "ByMonsterStrengthType",
+                  "CompareType": "Equal",
+                  "StrengthType": "Elite",
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Target"
+            }
+          ],
+          "StackCount": "%AddedStackCount",
+          "Target": "Target"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio_Talent_02",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_StunDamageHasBeenAdded"
+              ],
+              "OperatorType": "Not",
+              "Target": "Target"
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2,
+              "Target": "Self"
+            }
+          ],
+          "StackCount": "%AddedStackCount",
+          "Target": "Target"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_AddStunDamageTakeRatio_Talent_02",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_StunDamageHasBeenAdded"
+              ],
+              "OperatorType": "Not",
+              "Target": "Target"
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByMonsterStrengthType",
+                  "CompareType": "Equal",
+                  "StrengthType": "Normal",
+                  "Target": "Target"
+                },
+                {
+                  "$type": "ByMonsterStrengthType",
+                  "CompareType": "Equal",
+                  "StrengthType": "Elite",
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Target"
+            }
+          ],
+          "StackCount": "%AddedStackCount",
+          "Target": "Target"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Modifier_StunDamageHasBeenAdded",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Target"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Modifier_StunDamageHasBeenAdded",
+          "Target": "EnemyAllied"
+        }
+      ]
+    },
+    "Modifier_StunDamageHasBeenAdded": {
+      "Duration": 4,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique"
+    },
+    "PerfectEvadePredicateModifer_Branch_01_Enhance_End": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnDodgeSuccess": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size01_QingYi_MA_SpecialBeHit_Unbreakable_OverrideRimGlow_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_SpecialBeHit_Unbreakable_OverrideRimGlow_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size01_QingYi_MA_SpecialBeHit_Unbreakable_ScreenImage_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_SpecialBeHit_Unbreakable_ScreenImage_01"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(AS_DefaultStackCount)+5",
+          "ParamName": "AddedStackCount",
+          "Target": "Self",
+          "ValueType": "Integer"
+        }
+      ]
+    }
+  }
+}

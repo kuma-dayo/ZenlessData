@@ -1,0 +1,76 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LCKPJCGDBEO": "BigSuccessRegion",
+      "PIPILJCBOBK": "0.05"
+    },
+    {
+      "LCKPJCGDBEO": "BigSuccessRegionCloud",
+      "PIPILJCBOBK": "0.2"
+    },
+    {
+      "LCKPJCGDBEO": "BigSuccessRegionController",
+      "PIPILJCBOBK": "0.09"
+    },
+    {
+      "LCKPJCGDBEO": "CheckRadius",
+      "PIPILJCBOBK": "4"
+    },
+    {
+      "LCKPJCGDBEO": "CountDown",
+      "PIPILJCBOBK": "3"
+    },
+    {
+      "LCKPJCGDBEO": "FailRegion",
+      "PIPILJCBOBK": "0.2"
+    },
+    {
+      "LCKPJCGDBEO": "FailRegionCloud",
+      "PIPILJCBOBK": "0.8"
+    },
+    {
+      "LCKPJCGDBEO": "FailRegionController",
+      "PIPILJCBOBK": "0.25"
+    },
+    {
+      "LCKPJCGDBEO": "LevelDifficulty1",
+      "PIPILJCBOBK": "10014"
+    },
+    {
+      "LCKPJCGDBEO": "LevelDifficulty2",
+      "PIPILJCBOBK": "10015"
+    },
+    {
+      "LCKPJCGDBEO": "LevelDifficulty3",
+      "PIPILJCBOBK": "10019"
+    },
+    {
+      "LCKPJCGDBEO": "ReferenceRadius",
+      "PIPILJCBOBK": "2"
+    },
+    {
+      "LCKPJCGDBEO": "ShowRadius",
+      "PIPILJCBOBK": "4"
+    },
+    {
+      "LCKPJCGDBEO": "ShrinkSpeed",
+      "PIPILJCBOBK": "1"
+    },
+    {
+      "LCKPJCGDBEO": "SuccessRegion",
+      "PIPILJCBOBK": "0.1"
+    },
+    {
+      "LCKPJCGDBEO": "SuccessRegionCloud",
+      "PIPILJCBOBK": "0.4"
+    },
+    {
+      "LCKPJCGDBEO": "SuccessRegionController",
+      "PIPILJCBOBK": "0.14"
+    },
+    {
+      "LCKPJCGDBEO": "VagueRadius",
+      "PIPILJCBOBK": "0.2"
+    }
+  ]
+}

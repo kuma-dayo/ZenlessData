@@ -1,0 +1,19 @@
+{
+  "AbilityName": "TrainingRoomAbility_LockLife",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierMixins": [
+      {
+        "$type": "LockLifePropertyMixin",
+        "IsUnlockStun": true,
+        "PerformBeHitEffect": true,
+        "RatioLockList": [
+          {
+            "LockType": "Total",
+            "LockValue": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

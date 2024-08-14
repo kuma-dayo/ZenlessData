@@ -1,0 +1,40 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "BHDFJBKLKIG": 1,
+      "HGMBPHPNBNI": "常驻塔A",
+      "BILHKDBMAPP": "常驻塔A",
+      "DABAACLDFON": 1,
+      "GOLOIEEKLFD": "1,2;3;5,6;7,8;9,10;11,12;13,14;15,16;17,18;19,20",
+      "OKKIDCPEJGJ": 0
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "BHDFJBKLKIG": 1,
+      "HGMBPHPNBNI": "常驻塔B",
+      "BILHKDBMAPP": "常驻塔B",
+      "DABAACLDFON": 0,
+      "GOLOIEEKLFD": "1,2;3;5,6;7,8;9,10;11,12;13,14;15,16;17,18;19,20",
+      "OKKIDCPEJGJ": 0
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "BHDFJBKLKIG": 1,
+      "HGMBPHPNBNI": "常驻塔C",
+      "BILHKDBMAPP": "常驻塔C",
+      "DABAACLDFON": 0,
+      "GOLOIEEKLFD": "1,2;3;5,6;7,8;9,10;11,12;13,14;15,16;17,18;19,20",
+      "OKKIDCPEJGJ": 0
+    },
+    {
+      "NGPCCDGBLLK": 10001,
+      "BHDFJBKLKIG": 2,
+      "HGMBPHPNBNI": "轮换塔",
+      "BILHKDBMAPP": "轮换塔",
+      "DABAACLDFON": 1,
+      "GOLOIEEKLFD": "1,2;3;5,6;7,8;9,10;11,12;13,14;15,16;17,18;19,20",
+      "OKKIDCPEJGJ": 0
+    }
+  ]
+}

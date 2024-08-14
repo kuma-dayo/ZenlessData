@@ -1,0 +1,56 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NNOEEJNPDME": 3001001,
+      "LNAAJMGMAEB": "TabText_3001",
+      "GGCGDODINBC": "TitleText_3001001",
+      "ONKANPHBPON": "Gacha_SubTitle_3001",
+      "ILCLGPKENHF": "Gacha_Content_3001",
+      "HPMKCKKBJJO": "UI/Menus/Widget/GaChaPage/ArmsBg/ArmsBgList01.prefab",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ]
+    },
+    {
+      "NNOEEJNPDME": 3001002,
+      "LNAAJMGMAEB": "TabText_3001",
+      "GGCGDODINBC": "TitleText_3001001",
+      "ONKANPHBPON": "Gacha_SubTitle_3001",
+      "ILCLGPKENHF": "Gacha_Content_3001",
+      "HPMKCKKBJJO": "UI/Menus/Widget/GaChaPage/ArmsBg/ArmsBgList02.prefab",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ]
+    },
+    {
+      "NNOEEJNPDME": 3001003,
+      "LNAAJMGMAEB": "TabText_3001",
+      "GGCGDODINBC": "TitleText_3001001",
+      "ONKANPHBPON": "Gacha_SubTitle_3001",
+      "ILCLGPKENHF": "Gacha_Content_3001",
+      "HPMKCKKBJJO": "UI/Menus/Widget/GaChaPage/ArmsBg/ArmsBgList1251.prefab",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ]
+    },
+    {
+      "NNOEEJNPDME": 3001004,
+      "LNAAJMGMAEB": "TabText_3001",
+      "GGCGDODINBC": "TitleText_3001001",
+      "ONKANPHBPON": "Gacha_SubTitle_3001",
+      "ILCLGPKENHF": "Gacha_Content_3001",
+      "HPMKCKKBJJO": "UI/Menus/Widget/GaChaPage/ArmsBg/ArmsBgList1261.prefab",
+      "EJNFDEOFMIB": [
+        101,
+        100,
+        111
+      ]
+    }
+  ]
+}

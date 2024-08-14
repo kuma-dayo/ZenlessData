@@ -1,0 +1,37 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_08",
+          "FrameCountHigh": 225,
+          "FrameCountLow": 86,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "WindFieldModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "DubiousHero_WindField",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "WindFieldModifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "WindFieldMixin",
+          "BaseVelocity": 5,
+          "IsFollow": true,
+          "WindDetectID": "Monster_DubiousHero_WindField_ATK08"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

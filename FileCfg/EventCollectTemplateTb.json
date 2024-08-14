@@ -1,0 +1,1579 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 106,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_106",
+      "NIELIMKABEF": "CollectDesc_106",
+      "HHMOMFIIILK": 87,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 108,
+      "LGAFBPPLCDN": "EventCategory_Functional",
+      "NGCLPOABGGE": "CollectName_108",
+      "NIELIMKABEF": "CollectDesc_108",
+      "HHMOMFIIILK": 98,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 109,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_109",
+      "NIELIMKABEF": "CollectDesc_109",
+      "HHMOMFIIILK": 89,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 110,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_110",
+      "NIELIMKABEF": "CollectDesc_110",
+      "HHMOMFIIILK": 88,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10000,
+      "LGAFBPPLCDN": "EventCategory_Functional",
+      "NGCLPOABGGE": "CollectName_10000",
+      "NIELIMKABEF": "CollectDesc_10000",
+      "HHMOMFIIILK": 99,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10050,
+      "LGAFBPPLCDN": "EventCategory_Functional",
+      "NGCLPOABGGE": "CollectName_10050",
+      "NIELIMKABEF": "CollectDesc_10050",
+      "HHMOMFIIILK": 96,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10051,
+      "LGAFBPPLCDN": "EventCategory_Functional",
+      "NGCLPOABGGE": "CollectName_10051",
+      "NIELIMKABEF": "CollectDesc_10051",
+      "HHMOMFIIILK": 97,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10052,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10052",
+      "NIELIMKABEF": "CollectDesc_10052",
+      "HHMOMFIIILK": 15,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10053,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10053",
+      "NIELIMKABEF": "CollectDesc_10053",
+      "HHMOMFIIILK": 14,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10055,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10055",
+      "NIELIMKABEF": "CollectDesc_10055",
+      "HHMOMFIIILK": 67,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10056,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10056",
+      "NIELIMKABEF": "CollectDesc_10056",
+      "HHMOMFIIILK": 66,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10057,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10057",
+      "NIELIMKABEF": "CollectDesc_10057",
+      "HHMOMFIIILK": 62,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10058,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10058",
+      "NIELIMKABEF": "CollectDesc_10058",
+      "HHMOMFIIILK": 61,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10059,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10059",
+      "NIELIMKABEF": "CollectDesc_10059",
+      "HHMOMFIIILK": 65,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10060,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10060",
+      "NIELIMKABEF": "CollectDesc_10060",
+      "HHMOMFIIILK": 64,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10100,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10100",
+      "NIELIMKABEF": "CollectDesc_10100",
+      "HHMOMFIIILK": 95,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10101,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10101",
+      "NIELIMKABEF": "CollectDesc_10101",
+      "HHMOMFIIILK": 94,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10102,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10102",
+      "NIELIMKABEF": "CollectDesc_10102",
+      "HHMOMFIIILK": 93,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10103,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10103",
+      "NIELIMKABEF": "CollectDesc_10103",
+      "HHMOMFIIILK": 75,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10104,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10104",
+      "NIELIMKABEF": "CollectDesc_10104",
+      "HHMOMFIIILK": 72,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10105,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10105",
+      "NIELIMKABEF": "CollectDesc_10105",
+      "HHMOMFIIILK": 73,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10106,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10106",
+      "NIELIMKABEF": "CollectDesc_10106",
+      "HHMOMFIIILK": 74,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10107,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_10107",
+      "NIELIMKABEF": "CollectDesc_10107",
+      "HHMOMFIIILK": 60,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10207,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10207",
+      "NIELIMKABEF": "CollectDesc_10207",
+      "HHMOMFIIILK": 99,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10208,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10208",
+      "NIELIMKABEF": "CollectDesc_10208",
+      "HHMOMFIIILK": 79,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10209,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_10209",
+      "NIELIMKABEF": "CollectDesc_10209",
+      "HHMOMFIIILK": 60,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10210,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10210",
+      "NIELIMKABEF": "CollectDesc_10210",
+      "HHMOMFIIILK": 86,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10212,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10212",
+      "NIELIMKABEF": "CollectDesc_10212",
+      "HHMOMFIIILK": 93,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10214,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10214",
+      "NIELIMKABEF": "CollectDesc_10214",
+      "HHMOMFIIILK": 89,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10215,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10215",
+      "NIELIMKABEF": "CollectDesc_10215",
+      "HHMOMFIIILK": 100,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10217,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_10217",
+      "NIELIMKABEF": "CollectDesc_10217",
+      "HHMOMFIIILK": 55,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10218,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10218",
+      "NIELIMKABEF": "CollectDesc_10218",
+      "HHMOMFIIILK": 99,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10219,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10219",
+      "NIELIMKABEF": "CollectDesc_10219",
+      "HHMOMFIIILK": 78,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10220,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10220",
+      "NIELIMKABEF": "CollectDesc_10220",
+      "HHMOMFIIILK": 96,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10221,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10221",
+      "NIELIMKABEF": "CollectDesc_10221",
+      "HHMOMFIIILK": 106,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10222,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10222",
+      "NIELIMKABEF": "CollectDesc_10222",
+      "HHMOMFIIILK": 105,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10223,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10223",
+      "NIELIMKABEF": "CollectDesc_10223",
+      "HHMOMFIIILK": 104,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10224,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10224",
+      "NIELIMKABEF": "CollectDesc_10224",
+      "HHMOMFIIILK": 93,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10227,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_10227",
+      "NIELIMKABEF": "CollectDesc_10227",
+      "HHMOMFIIILK": 79,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10233,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10233",
+      "NIELIMKABEF": "CollectDesc_10233",
+      "HHMOMFIIILK": 78,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10234,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10234",
+      "NIELIMKABEF": "CollectDesc_10234",
+      "HHMOMFIIILK": 77,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10235,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10235",
+      "NIELIMKABEF": "CollectDesc_10235",
+      "HHMOMFIIILK": 69,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10239,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10239",
+      "NIELIMKABEF": "CollectDesc_10239",
+      "HHMOMFIIILK": 65,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10240,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10240",
+      "NIELIMKABEF": "CollectDesc_10240",
+      "HHMOMFIIILK": 76,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10241,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10241",
+      "NIELIMKABEF": "CollectDesc_10241",
+      "HHMOMFIIILK": 79,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10245,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10245",
+      "NIELIMKABEF": "CollectDesc_10245",
+      "HHMOMFIIILK": 95,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10253,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10253",
+      "NIELIMKABEF": "CollectDesc_10253",
+      "HHMOMFIIILK": 73,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10254,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10254",
+      "NIELIMKABEF": "CollectDesc_10254",
+      "HHMOMFIIILK": 95,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10263,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_99020",
+      "NIELIMKABEF": "CollectDesc_99020",
+      "HHMOMFIIILK": 67,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10264,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10264",
+      "NIELIMKABEF": "CollectDesc_10264",
+      "HHMOMFIIILK": 64,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10270,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10270",
+      "NIELIMKABEF": "CollectDesc_10270",
+      "HHMOMFIIILK": 75,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10271,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10271",
+      "NIELIMKABEF": "CollectDesc_10271",
+      "HHMOMFIIILK": 97,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10274,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10274",
+      "NIELIMKABEF": "CollectDesc_10274",
+      "HHMOMFIIILK": 80,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10283,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_10283",
+      "NIELIMKABEF": "CollectDesc_10283",
+      "HHMOMFIIILK": 85,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10284,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_10284",
+      "NIELIMKABEF": "CollectDesc_10284",
+      "HHMOMFIIILK": 86,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10285,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10285",
+      "NIELIMKABEF": "CollectDesc_10285",
+      "HHMOMFIIILK": 74,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10286,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10286",
+      "NIELIMKABEF": "CollectDesc_10286",
+      "HHMOMFIIILK": 72,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10288,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_10288",
+      "NIELIMKABEF": "CollectDesc_10288",
+      "HHMOMFIIILK": 94,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 10291,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_10291",
+      "NIELIMKABEF": "CollectDesc_10291",
+      "HHMOMFIIILK": 110,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 12000,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_12000",
+      "NIELIMKABEF": "CollectDesc_12000",
+      "HHMOMFIIILK": 69,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 12001,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_12001",
+      "NIELIMKABEF": "CollectDesc_12001",
+      "HHMOMFIIILK": 68,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 12002,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_12002",
+      "NIELIMKABEF": "CollectDesc_12002",
+      "HHMOMFIIILK": 64,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 12003,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_12003",
+      "NIELIMKABEF": "CollectDesc_12003",
+      "HHMOMFIIILK": 63,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14001,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14001",
+      "NIELIMKABEF": "CollectDesc_14001",
+      "HHMOMFIIILK": 66,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14002,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14002",
+      "NIELIMKABEF": "CollectDesc_14002",
+      "HHMOMFIIILK": 67,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14003,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14003",
+      "NIELIMKABEF": "CollectDesc_14003",
+      "HHMOMFIIILK": 69,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14004,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14004",
+      "NIELIMKABEF": "CollectDesc_14004",
+      "HHMOMFIIILK": 68,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14008,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14008",
+      "NIELIMKABEF": "CollectDesc_14008",
+      "HHMOMFIIILK": 49,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14009,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14009",
+      "NIELIMKABEF": "CollectDesc_14009",
+      "HHMOMFIIILK": 48,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14010,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14010",
+      "NIELIMKABEF": "CollectDesc_14010",
+      "HHMOMFIIILK": 47,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14011,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14011",
+      "NIELIMKABEF": "CollectDesc_14011",
+      "HHMOMFIIILK": 46,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14012,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14012",
+      "NIELIMKABEF": "CollectDesc_14012",
+      "HHMOMFIIILK": 45,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14013,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14013",
+      "NIELIMKABEF": "CollectDesc_14013",
+      "HHMOMFIIILK": 44,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14014,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14014",
+      "NIELIMKABEF": "CollectDesc_14014",
+      "HHMOMFIIILK": 40,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14016,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14016",
+      "NIELIMKABEF": "CollectDesc_14016",
+      "HHMOMFIIILK": 83,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14031,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14031",
+      "NIELIMKABEF": "CollectDesc_14031",
+      "HHMOMFIIILK": 88,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14032,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14032",
+      "NIELIMKABEF": "CollectDesc_14032",
+      "HHMOMFIIILK": 89,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14038,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14038",
+      "NIELIMKABEF": "CollectDesc_14038",
+      "HHMOMFIIILK": 87,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14046,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14046",
+      "NIELIMKABEF": "CollectDesc_14046",
+      "HHMOMFIIILK": 53,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14047,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14047",
+      "NIELIMKABEF": "CollectDesc_14047",
+      "HHMOMFIIILK": 54,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14048,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14048",
+      "NIELIMKABEF": "CollectDesc_14048",
+      "HHMOMFIIILK": 55,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14049,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14049",
+      "NIELIMKABEF": "CollectDesc_14049",
+      "HHMOMFIIILK": 52,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14050,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14050",
+      "NIELIMKABEF": "CollectDesc_14050",
+      "HHMOMFIIILK": 57,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14051,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14051",
+      "NIELIMKABEF": "CollectDesc_14051",
+      "HHMOMFIIILK": 56,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14056,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14056",
+      "NIELIMKABEF": "CollectDesc_14056",
+      "HHMOMFIIILK": 84,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14058,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14058",
+      "NIELIMKABEF": "CollectDesc_14058",
+      "HHMOMFIIILK": 82,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14093,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_14093",
+      "NIELIMKABEF": "CollectDesc_14093",
+      "HHMOMFIIILK": 63,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14095,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14095",
+      "NIELIMKABEF": "CollectDesc_14095",
+      "HHMOMFIIILK": 86,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14101,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_14101",
+      "NIELIMKABEF": "CollectDesc_14101",
+      "HHMOMFIIILK": 85,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14102,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_14102",
+      "NIELIMKABEF": "CollectDesc_14102",
+      "HHMOMFIIILK": 91,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14103,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_14103",
+      "NIELIMKABEF": "CollectDesc_14103",
+      "HHMOMFIIILK": 90,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 14113,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14113",
+      "NIELIMKABEF": "CollectDesc_14113",
+      "HHMOMFIIILK": 41,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 14115,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14115",
+      "NIELIMKABEF": "CollectDesc_14115",
+      "HHMOMFIIILK": 42,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 14117,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_14117",
+      "NIELIMKABEF": "CollectDesc_14117",
+      "HHMOMFIIILK": 101,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 30101,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30101",
+      "NIELIMKABEF": "CollectDesc_30101",
+      "HHMOMFIIILK": 85,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30102,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30102",
+      "NIELIMKABEF": "CollectDesc_30102",
+      "HHMOMFIIILK": 60,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30103,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30103",
+      "NIELIMKABEF": "CollectDesc_30103",
+      "HHMOMFIIILK": 84,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30104,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30104",
+      "NIELIMKABEF": "CollectDesc_30104",
+      "HHMOMFIIILK": 58,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30105,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30105",
+      "NIELIMKABEF": "CollectDesc_30105",
+      "HHMOMFIIILK": 57,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30106,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_30106",
+      "NIELIMKABEF": "CollectDesc_30106",
+      "HHMOMFIIILK": 59,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32107,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32107",
+      "NIELIMKABEF": "CollectDesc_32107",
+      "HHMOMFIIILK": 72,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32110,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32110",
+      "NIELIMKABEF": "CollectDesc_32110",
+      "HHMOMFIIILK": 103,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32111,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32111",
+      "NIELIMKABEF": "CollectDesc_32111",
+      "HHMOMFIIILK": 58,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32123,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32123",
+      "NIELIMKABEF": "CollectDesc_32123",
+      "HHMOMFIIILK": 91,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32125,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32125",
+      "NIELIMKABEF": "CollectDesc_32125",
+      "HHMOMFIIILK": 102,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32146,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32146",
+      "NIELIMKABEF": "CollectDesc_32146",
+      "HHMOMFIIILK": 101,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32149,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_32100",
+      "NIELIMKABEF": "CollectDesc_32100",
+      "HHMOMFIIILK": 78,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32150,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_32101",
+      "NIELIMKABEF": "CollectDesc_32101",
+      "HHMOMFIIILK": 77,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32163,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_32163",
+      "NIELIMKABEF": "CollectDesc_32163",
+      "HHMOMFIIILK": 76,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32201,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_32201",
+      "NIELIMKABEF": "CollectDesc_32201",
+      "HHMOMFIIILK": 96,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32202,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_32202",
+      "NIELIMKABEF": "CollectDesc_32202",
+      "HHMOMFIIILK": 98,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32211,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32211",
+      "NIELIMKABEF": "CollectDesc_32211",
+      "HHMOMFIIILK": 75,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32213,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32213",
+      "NIELIMKABEF": "CollectDesc_32213",
+      "HHMOMFIIILK": 74,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32215,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32215",
+      "NIELIMKABEF": "CollectDesc_32215",
+      "HHMOMFIIILK": 73,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32218,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_32218",
+      "NIELIMKABEF": "CollectDesc_32218",
+      "HHMOMFIIILK": 95,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32223,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_32223",
+      "NIELIMKABEF": "CollectDesc_32223",
+      "HHMOMFIIILK": 97,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 32372,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_32372",
+      "NIELIMKABEF": "CollectDesc_32372",
+      "HHMOMFIIILK": 66,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 40000,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_40000",
+      "NIELIMKABEF": "CollectDesc_40000",
+      "HHMOMFIIILK": 88,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50007,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50007",
+      "NIELIMKABEF": "CollectDesc_50007",
+      "HHMOMFIIILK": 26,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50008,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50008",
+      "NIELIMKABEF": "CollectDesc_50008",
+      "HHMOMFIIILK": 25,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50009,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50009",
+      "NIELIMKABEF": "CollectDesc_50009",
+      "HHMOMFIIILK": 24,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50010,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50010",
+      "NIELIMKABEF": "CollectDesc_50010",
+      "HHMOMFIIILK": 23,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50011,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50011",
+      "NIELIMKABEF": "CollectDesc_50011",
+      "HHMOMFIIILK": 22,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50012,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50012",
+      "NIELIMKABEF": "CollectDesc_50012",
+      "HHMOMFIIILK": 21,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50013,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50013",
+      "NIELIMKABEF": "CollectDesc_50013",
+      "HHMOMFIIILK": 20,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50014,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50014",
+      "NIELIMKABEF": "CollectDesc_50014",
+      "HHMOMFIIILK": 19,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50015,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50015",
+      "NIELIMKABEF": "CollectDesc_50015",
+      "HHMOMFIIILK": 18,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50016,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50016",
+      "NIELIMKABEF": "CollectDesc_50016",
+      "HHMOMFIIILK": 17,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50017,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50017",
+      "NIELIMKABEF": "CollectDesc_50017",
+      "HHMOMFIIILK": 16,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50018,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50018",
+      "NIELIMKABEF": "CollectDesc_50018",
+      "HHMOMFIIILK": 15,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50019,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50019",
+      "NIELIMKABEF": "CollectDesc_50019",
+      "HHMOMFIIILK": 14,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50020,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50020",
+      "NIELIMKABEF": "CollectDesc_50020",
+      "HHMOMFIIILK": 13,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50022,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50022",
+      "NIELIMKABEF": "CollectDesc_50022",
+      "HHMOMFIIILK": 56,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50025,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_50025",
+      "NIELIMKABEF": "CollectDesc_50025",
+      "HHMOMFIIILK": 117,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50026,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_50026",
+      "NIELIMKABEF": "CollectDesc_50026",
+      "HHMOMFIIILK": 118,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50027,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_50027",
+      "NIELIMKABEF": "CollectDesc_50027",
+      "HHMOMFIIILK": 119,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50030,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50030",
+      "NIELIMKABEF": "CollectDesc_50030",
+      "HHMOMFIIILK": 86,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50031,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50031",
+      "NIELIMKABEF": "CollectDesc_50031",
+      "HHMOMFIIILK": 87,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50032,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50032",
+      "NIELIMKABEF": "CollectDesc_50032",
+      "HHMOMFIIILK": 88,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 50033,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_50033",
+      "NIELIMKABEF": "CollectDesc_50033",
+      "HHMOMFIIILK": 89,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 51001,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_51001",
+      "NIELIMKABEF": "CollectDesc_51001",
+      "HHMOMFIIILK": 12,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 52001,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_52001",
+      "NIELIMKABEF": "CollectDesc_52001",
+      "HHMOMFIIILK": 30,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 52002,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_52002",
+      "NIELIMKABEF": "CollectDesc_52002",
+      "HHMOMFIIILK": 29,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 52003,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_52003",
+      "NIELIMKABEF": "CollectDesc_52003",
+      "HHMOMFIIILK": 28,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 52004,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_52004",
+      "NIELIMKABEF": "CollectDesc_52004",
+      "HHMOMFIIILK": 27,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 401005,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_401005",
+      "NIELIMKABEF": "CollectDesc_401005",
+      "HHMOMFIIILK": 94,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 402001,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_402001",
+      "NIELIMKABEF": "CollectDesc_402001",
+      "HHMOMFIIILK": 98,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 500002,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_500002",
+      "NIELIMKABEF": "CollectDesc_500002",
+      "HHMOMFIIILK": 107,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 500006,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_500006",
+      "NIELIMKABEF": "CollectDesc_500006",
+      "HHMOMFIIILK": 108,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 500008,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_500008",
+      "NIELIMKABEF": "CollectDesc_500008",
+      "HHMOMFIIILK": 111,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 500039,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_500039",
+      "NIELIMKABEF": "CollectDesc_500039",
+      "HHMOMFIIILK": 106,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 500046,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_500046",
+      "NIELIMKABEF": "CollectDesc_500046",
+      "HHMOMFIIILK": 109,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 20000001,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000001",
+      "NIELIMKABEF": "CollectDesc_20000001",
+      "HHMOMFIIILK": 50,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000002,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000002",
+      "NIELIMKABEF": "CollectDesc_20000002",
+      "HHMOMFIIILK": 51,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000003,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000003",
+      "NIELIMKABEF": "CollectDesc_20000003",
+      "HHMOMFIIILK": 52,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000004,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000004",
+      "NIELIMKABEF": "CollectDesc_20000004",
+      "HHMOMFIIILK": 53,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000005,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000005",
+      "NIELIMKABEF": "CollectDesc_20000005",
+      "HHMOMFIIILK": 54,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000006,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000006",
+      "NIELIMKABEF": "CollectDesc_20000006",
+      "HHMOMFIIILK": 55,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000007,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000007",
+      "NIELIMKABEF": "CollectDesc_20000007",
+      "HHMOMFIIILK": 56,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000008,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000008",
+      "NIELIMKABEF": "CollectDesc_20000008",
+      "HHMOMFIIILK": 57,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000009,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000009",
+      "NIELIMKABEF": "CollectDesc_20000009",
+      "HHMOMFIIILK": 58,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 20000010,
+      "LGAFBPPLCDN": "EventCategory_Battle",
+      "NGCLPOABGGE": "CollectName_20000010",
+      "NIELIMKABEF": "CollectDesc_20000010",
+      "HHMOMFIIILK": 59,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30000010,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_30000010",
+      "NIELIMKABEF": "CollectDesc_30000010",
+      "HHMOMFIIILK": 31,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 30000013,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_30000013",
+      "NIELIMKABEF": "CollectDesc_30000013",
+      "HHMOMFIIILK": 32,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 30000016,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_30000016",
+      "NIELIMKABEF": "CollectDesc_30000016",
+      "HHMOMFIIILK": 33,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": true
+    },
+    {
+      "NGPCCDGBLLK": 30000020,
+      "LGAFBPPLCDN": "EventCategory_Terrain",
+      "NGCLPOABGGE": "CollectName_30000002",
+      "NIELIMKABEF": "CollectDesc_30000002",
+      "HHMOMFIIILK": 75,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 30100002,
+      "LGAFBPPLCDN": "EventCategory_Device",
+      "NGCLPOABGGE": "CollectName_30100007",
+      "NIELIMKABEF": "CollectDesc_30100007",
+      "HHMOMFIIILK": 114,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 40200001,
+      "LGAFBPPLCDN": "EventCategory_Recover",
+      "NGCLPOABGGE": "CollectName_40200001",
+      "NIELIMKABEF": "CollectDesc_40200001",
+      "HHMOMFIIILK": 96,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 70200001,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_70200001",
+      "NIELIMKABEF": "CollectDesc_70200001",
+      "HHMOMFIIILK": 95,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 70300001,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_70300001",
+      "NIELIMKABEF": "CollectDesc_70300001",
+      "HHMOMFIIILK": 92,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 70300002,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_70300002",
+      "NIELIMKABEF": "CollectDesc_70300002",
+      "HHMOMFIIILK": 93,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 70300003,
+      "LGAFBPPLCDN": "EventCategory_Story",
+      "NGCLPOABGGE": "CollectName_70300003",
+      "NIELIMKABEF": "CollectDesc_70300003",
+      "HHMOMFIIILK": 94,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 70300004,
+      "LGAFBPPLCDN": "EventCategory_NPC",
+      "NGCLPOABGGE": "CollectName_70300004",
+      "NIELIMKABEF": "CollectDesc_70300004",
+      "HHMOMFIIILK": 92,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 90010000,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_90010000",
+      "NIELIMKABEF": "CollectDesc_90010000",
+      "HHMOMFIIILK": 87,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    },
+    {
+      "NGPCCDGBLLK": 90110000,
+      "LGAFBPPLCDN": "EventCategory_Zero",
+      "NGCLPOABGGE": "CollectName_90110000",
+      "NIELIMKABEF": "CollectDesc_90110000",
+      "HHMOMFIIILK": 85,
+      "HJNEOMMPOBK": 0,
+      "AEAOKIOLEKO": false
+    }
+  ]
+}

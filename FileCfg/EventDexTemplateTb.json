@@ -1,0 +1,44 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 4,
+      "ENBDIJIAAPD": "EventCategory_Battle",
+      "EGMHCIICNCG": 5
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "ENBDIJIAAPD": "EventCategory_Device",
+      "EGMHCIICNCG": 3
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "ENBDIJIAAPD": "EventCategory_Functional",
+      "EGMHCIICNCG": 1
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "ENBDIJIAAPD": "EventCategory_NPC",
+      "EGMHCIICNCG": 7
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "ENBDIJIAAPD": "EventCategory_Recover",
+      "EGMHCIICNCG": 4
+    },
+    {
+      "NGPCCDGBLLK": 7,
+      "ENBDIJIAAPD": "EventCategory_Story",
+      "EGMHCIICNCG": 6
+    },
+    {
+      "NGPCCDGBLLK": 1,
+      "ENBDIJIAAPD": "EventCategory_Terrain",
+      "EGMHCIICNCG": 2
+    },
+    {
+      "NGPCCDGBLLK": 6,
+      "ENBDIJIAAPD": "EventCategory_Zero",
+      "EGMHCIICNCG": 8
+    }
+  ]
+}

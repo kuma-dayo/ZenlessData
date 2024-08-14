@@ -1,0 +1,104 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "LOFJIBNCNCC": "HpMax",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": 1,
+      "FJIMJPHBOLD": "propertyID(111)",
+      "MJHBFBJALFC": 111,
+      "JHALGLKGEOP": 1
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "LOFJIBNCNCC": "Atk",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(121)",
+      "MJHBFBJALFC": 121,
+      "JHALGLKGEOP": 2
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "LOFJIBNCNCC": "Def",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(131)",
+      "MJHBFBJALFC": 131,
+      "JHALGLKGEOP": 3
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "LOFJIBNCNCC": "BreakStun",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(122)",
+      "MJHBFBJALFC": 122,
+      "JHALGLKGEOP": 4
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "LOFJIBNCNCC": "Crit",
+      "DKBKNCKBLED": 1,
+      "CKHDKOFNMOP": 1,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(201)*100",
+      "MJHBFBJALFC": 201,
+      "JHALGLKGEOP": 5
+    },
+    {
+      "NGPCCDGBLLK": 6,
+      "LOFJIBNCNCC": "CritDmg",
+      "DKBKNCKBLED": 1,
+      "CKHDKOFNMOP": 1,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(211)*100",
+      "MJHBFBJALFC": 211,
+      "JHALGLKGEOP": 6
+    },
+    {
+      "NGPCCDGBLLK": 7,
+      "LOFJIBNCNCC": "ElementAbnormalPower",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(314)",
+      "MJHBFBJALFC": 314,
+      "JHALGLKGEOP": 7
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "LOFJIBNCNCC": "ElementMystery",
+      "DKBKNCKBLED": 0,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(312)",
+      "MJHBFBJALFC": 312,
+      "JHALGLKGEOP": 8
+    },
+    {
+      "NGPCCDGBLLK": 9,
+      "LOFJIBNCNCC": "PenRatio",
+      "DKBKNCKBLED": 1,
+      "CKHDKOFNMOP": 1,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(231)*100",
+      "MJHBFBJALFC": 231,
+      "JHALGLKGEOP": 9
+    },
+    {
+      "NGPCCDGBLLK": 10,
+      "LOFJIBNCNCC": "SpRecover",
+      "DKBKNCKBLED": 2,
+      "CKHDKOFNMOP": 0,
+      "COKMMEDIPMF": -1,
+      "FJIMJPHBOLD": "propertyID(305)",
+      "MJHBFBJALFC": 305,
+      "JHALGLKGEOP": 11
+    }
+  ]
+}

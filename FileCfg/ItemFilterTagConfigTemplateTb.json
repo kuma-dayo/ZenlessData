@@ -1,0 +1,28 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NHDANAKPOIH": 1001,
+      "GJCDNDCKOIH": 1,
+      "NPBBMCKJDBL": "AvatarRankMaterial",
+      "BDIJGDCMEPC": "FilterTxt_ItemTag_AvatarRankMaterial"
+    },
+    {
+      "NHDANAKPOIH": 1002,
+      "GJCDNDCKOIH": 1,
+      "NPBBMCKJDBL": "AvatarSkillMaterial",
+      "BDIJGDCMEPC": "FilterTxt_ItemTag_AvatarSkillMaterial"
+    },
+    {
+      "NHDANAKPOIH": 1003,
+      "GJCDNDCKOIH": 1,
+      "NPBBMCKJDBL": "WeaponRankMaterial",
+      "BDIJGDCMEPC": "FilterTxt_ItemTag_WeaponRankMaterial"
+    },
+    {
+      "NHDANAKPOIH": 1004,
+      "GJCDNDCKOIH": 1,
+      "NPBBMCKJDBL": "BangBooRankMaterial",
+      "BDIJGDCMEPC": "FilterTxt_ItemTag_BangBooRankMaterial"
+    }
+  ]
+}

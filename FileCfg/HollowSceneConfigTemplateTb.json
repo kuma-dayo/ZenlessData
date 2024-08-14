@@ -1,0 +1,39 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "HPDFLNDDELB": 1000,
+      "MCHHMGELOND": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/MapPic/Map_Abyss.png",
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Abyss.png",
+      "CGEGGDLPBJI": 0,
+      "EAAFCGPDFAA": "零号空洞"
+    },
+    {
+      "HPDFLNDDELB": 1001,
+      "MCHHMGELOND": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/MapPic/Map_Metro.png",
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Cretan.png",
+      "CGEGGDLPBJI": 9991245,
+      "EAAFCGPDFAA": "克里特"
+    },
+    {
+      "HPDFLNDDELB": 1002,
+      "MCHHMGELOND": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/MapPic/Map_ConstructionSite.png",
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Lemnian.png",
+      "CGEGGDLPBJI": 9991246,
+      "EAAFCGPDFAA": "莱姆尼安"
+    },
+    {
+      "HPDFLNDDELB": 1003,
+      "MCHHMGELOND": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/MapPic/Map_Skyscraper.png",
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Cretan.png",
+      "CGEGGDLPBJI": 9991251,
+      "EAAFCGPDFAA": "克里特（摩天楼）"
+    },
+    {
+      "HPDFLNDDELB": 1004,
+      "MCHHMGELOND": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Goldenweek.png",
+      "IIDOIBNCJBN": "UI/Sprite/A1DynamicLoad/YorozuyaPage/UnPacker/Icon_Goldenweek.png",
+      "CGEGGDLPBJI": 0,
+      "EAAFCGPDFAA": "黄金周活动（摩天楼）"
+    }
+  ]
+}

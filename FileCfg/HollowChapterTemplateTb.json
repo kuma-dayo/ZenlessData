@@ -1,0 +1,108 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1000,
+      "LDKNLJJOJAH": "1040140114",
+      "AHFHGLOBBJE": 2,
+      "GHIDLPFOKPA": "Hollow_Chapter_00",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Abyss_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Abyss_End.json",
+      "INHBIEAFAPN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1001,
+      "LDKNLJJOJAH": "",
+      "AHFHGLOBBJE": 1,
+      "GHIDLPFOKPA": "Hollow_Chapter_01",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter1_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter1_End.json",
+      "INHBIEAFAPN": 10
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "LDKNLJJOJAH": "1040140063",
+      "AHFHGLOBBJE": 1,
+      "GHIDLPFOKPA": "Hollow_Chapter_02",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter2_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter2_End.json",
+      "INHBIEAFAPN": 20
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "LDKNLJJOJAH": "1040140064",
+      "AHFHGLOBBJE": 1,
+      "GHIDLPFOKPA": "Hollow_Chapter_03",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter3_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter3_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter3_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter3_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter3_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter3_End.json",
+      "INHBIEAFAPN": 30
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "LDKNLJJOJAH": "1100140008",
+      "AHFHGLOBBJE": 3,
+      "GHIDLPFOKPA": "Hollow_Chapter_Event1",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Abyss_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Abyss_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Abyss_End.json",
+      "INHBIEAFAPN": 0
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "LDKNLJJOJAH": "1040140304",
+      "AHFHGLOBBJE": 1,
+      "GHIDLPFOKPA": "Hollow_Chapter_04",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter1_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter1_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter1_End.json",
+      "INHBIEAFAPN": 25
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "LDKNLJJOJAH": "30070099",
+      "AHFHGLOBBJE": 1,
+      "GHIDLPFOKPA": "Hollow_Chapter_05",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter2_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter2_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter2_End.json",
+      "INHBIEAFAPN": 40
+    },
+    {
+      "NGPCCDGBLLK": 1099,
+      "LDKNLJJOJAH": "1040140064",
+      "AHFHGLOBBJE": 4,
+      "GHIDLPFOKPA": "Hollow_Chapter_Agent",
+      "LMFHFPAGFBM": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter0_Start.png",
+      "CHHKCBNGEON": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter0_End.png",
+      "GIDKEIEAJKL": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter0_Start_NoiseMask.png",
+      "MHAFGJHAIBO": "UI/3D/Yorozuya/Texture/VAT/Eff_VAT_CubeGrid_Chapter0_End_NoiseMask.png",
+      "MCPMBCGFGAL": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter0_Start.json",
+      "EGJNOBMKHFC": "Assets/NapResources/Data/UI/Yorozuya/CubeGrid_Chapter0_End.json",
+      "INHBIEAFAPN": 0
+    }
+  ]
+}

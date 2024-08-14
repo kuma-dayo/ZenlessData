@@ -1,0 +1,105 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 5,
+      "LFNHOENPKNF": [
+        2,
+        3
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_00",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map04_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 0
+    },
+    {
+      "NGPCCDGBLLK": 10,
+      "LFNHOENPKNF": [
+        1
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_01",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map02_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 1231
+    },
+    {
+      "NGPCCDGBLLK": 20,
+      "LFNHOENPKNF": [
+        4
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_02",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map01_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 1232
+    },
+    {
+      "NGPCCDGBLLK": 30,
+      "LFNHOENPKNF": [
+        5
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_03",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map03_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 1233
+    },
+    {
+      "NGPCCDGBLLK": 40,
+      "LFNHOENPKNF": [
+        101
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_04",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map05_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 1234
+    },
+    {
+      "NGPCCDGBLLK": 50,
+      "LFNHOENPKNF": [
+        151
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_05",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map06_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 0
+    },
+    {
+      "NGPCCDGBLLK": 60,
+      "LFNHOENPKNF": [
+        153,
+        154
+      ],
+      "EAAFCGPDFAA": "TeleportName_101",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map07_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 0
+    },
+    {
+      "NGPCCDGBLLK": 70,
+      "LFNHOENPKNF": [
+        103
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_103",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map08_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 0
+    },
+    {
+      "NGPCCDGBLLK": 80,
+      "LFNHOENPKNF": [
+        102
+      ],
+      "EAAFCGPDFAA": "TeleportAreaName_102",
+      "EFCMDFEPABP": "",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map09_Pic.png",
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/NavigationPageBg.png",
+      "FOHDKEBBHMN": 0
+    }
+  ]
+}

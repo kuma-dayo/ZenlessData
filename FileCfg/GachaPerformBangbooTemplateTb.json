@@ -1,0 +1,28 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 2101003,
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Bangboo_Default",
+      "JIOPDOHIKOM": "Gacha_Bangboo_01|Gacha_Bangboo_02|Gacha_Bangboo_03|Gacha_Bangboo_04|Gacha_Bangboo_05|Gacha_Bangboo_06",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "",
+      "LHEEHFBDIPI": "UI/3D/Gacha/UIText/GachaStage_UI_BangBooA_01.prefab",
+      "JNEGIDPKCGL": ""
+    },
+    {
+      "NGPCCDGBLLK": 2101004,
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Bangboo_Default",
+      "JIOPDOHIKOM": "Gacha_Bangboo_01|Gacha_Bangboo_02|Gacha_Bangboo_03|Gacha_Bangboo_04|Gacha_Bangboo_05|Gacha_Bangboo_06",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "",
+      "LHEEHFBDIPI": "UI/3D/Gacha/UIText/GachaStage_UI_BangBooS_01.prefab",
+      "JNEGIDPKCGL": "UI/3D/Gacha/TimeLine/Bangboo/GachaTL_BangBoo.prefab"
+    }
+  ]
+}

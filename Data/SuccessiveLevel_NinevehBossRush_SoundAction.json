@@ -1,0 +1,12 @@
+{
+  "AbilityName": "SuccessiveLevel_NinevehBossRush_SoundAction",
+  "AbilityStacking": "Unique",
+  "OnAbilityTrigger": [
+    {
+      "$type": "TriggerSoundAction",
+      "CustomKey": "Monster_Nineveh",
+      "Target": "Custom",
+      "soundActionKey": "Play_SoundAction_Bossrush_Nineveh"
+    }
+  ]
+}

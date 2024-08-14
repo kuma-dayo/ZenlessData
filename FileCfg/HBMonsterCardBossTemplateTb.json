@@ -1,0 +1,34 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "GLKOGMFHBJA": 1,
+      "KCDDLHBLIAK": "OfficialName_Monster_Cottus",
+      "ABCKJEEGECI": "UIText_760",
+      "IGKFLEPDLCD": [
+        12252001
+      ],
+      "AJPGNCEMHFH": 303,
+      "GDOOOOLKBIO": ""
+    },
+    {
+      "GLKOGMFHBJA": 2,
+      "KCDDLHBLIAK": "OfficialName_Monster_ComplexCorrupted",
+      "ABCKJEEGECI": "UIText_760",
+      "IGKFLEPDLCD": [
+        12252002
+      ],
+      "AJPGNCEMHFH": 303,
+      "GDOOOOLKBIO": "HB_UnlockTips_Boss30009"
+    },
+    {
+      "GLKOGMFHBJA": 3,
+      "KCDDLHBLIAK": "OfficialName_Monster_Marionette_Twins",
+      "ABCKJEEGECI": "UIText_760",
+      "IGKFLEPDLCD": [
+        12252003
+      ],
+      "AJPGNCEMHFH": 303,
+      "GDOOOOLKBIO": "HB_UnlockTips_Boss30012"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "AbilityName": "Level_Buff_ReviveCoin",
+  "AbilitySpecials": {
+    "AS_ReviveCoinNum": {
+      "Value": 2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ModifyResurrectionItem",
+        "ItemId": 400048,
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true
+          }
+        ],
+        "Value": "%AS_ReviveCoinNum"
+      }
+    ]
+  }
+}

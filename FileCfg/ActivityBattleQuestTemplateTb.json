@@ -1,0 +1,554 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "PPPBBEOFKCC": 12510001,
+      "NEHLLLPKNBF": 70001101,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        203
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [
+        1002
+      ],
+      "DGIMMHJDKNB": [
+        61001011
+      ],
+      "GODALKGJOGG": "触发1次QTE",
+      "GCCKFFOAGCF": "属性精通提升40%，每5秒将下次冲刺攻击替换为闪避反击",
+      "OEOFLMCMMNC": [
+        11271,
+        11251,
+        11441,
+        11451
+      ],
+      "FKICGLIBFDE": 11451,
+      "ILCENEEAHLL": [
+        3101181,
+        3101111,
+        3101211
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamBlue_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamBlue_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1001
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2001
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31053010
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamBlue_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamBlue_T.png",
+      "FLHJHJAAOBB": [
+        201
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510002,
+      "NEHLLLPKNBF": 70001102,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        201
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [
+        1003
+      ],
+      "DGIMMHJDKNB": [
+        1001006
+      ],
+      "GODALKGJOGG": "触发完美闪避",
+      "GCCKFFOAGCF": "角色造成的异常积蓄提升，造成的异常伤害提升",
+      "OEOFLMCMMNC": [
+        11097,
+        11103,
+        11142,
+        11224,
+        11214
+      ],
+      "FKICGLIBFDE": 11196,
+      "ILCENEEAHLL": [
+        3101101,
+        3101121,
+        3101041
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamPurple_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamPurple_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1002
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2002
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31053007
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamPurple_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamPurple_T.png",
+      "FLHJHJAAOBB": [
+        203
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510003,
+      "NEHLLLPKNBF": 70001103,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        203
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11461,
+        11471,
+        11281,
+        11252,
+        11282,
+        11451,
+        11261
+      ],
+      "FKICGLIBFDE": 11261,
+      "ILCENEEAHLL": [
+        3101251,
+        3101031,
+        3101241
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamYellow_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamYellow_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1003
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2003
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31054003
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamYellow_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamYellow_T.png",
+      "FLHJHJAAOBB": [
+        201
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510004,
+      "NEHLLLPKNBF": 70001104,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        202,
+        205
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11098,
+        11143,
+        11144,
+        11206,
+        11144,
+        11196,
+        11215
+      ],
+      "FKICGLIBFDE": 11224,
+      "ILCENEEAHLL": [
+        3101191,
+        3101141,
+        3101131
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamYoung_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamYoung_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1004
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2004
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31053001
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamYoung_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamYoung_T.png",
+      "FLHJHJAAOBB": []
+    },
+    {
+      "PPPBBEOFKCC": 12510005,
+      "NEHLLLPKNBF": 70001105,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        205
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11771,
+        11782,
+        11772,
+        11732,
+        11741
+      ],
+      "FKICGLIBFDE": 11732,
+      "ILCENEEAHLL": [
+        3101031,
+        3101261,
+        3101271
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamGreen_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamGreen_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1005
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2005
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31053006
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamGreen_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamGreen_T.png",
+      "FLHJHJAAOBB": [
+        202
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510006,
+      "NEHLLLPKNBF": 70001106,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        201,
+        200
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11311,
+        11321,
+        11361,
+        11352,
+        11362
+      ],
+      "FKICGLIBFDE": 11352,
+      "ILCENEEAHLL": [
+        3101261,
+        3101271,
+        3101151
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamOrange_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamOrange_Icon.png",
+      "KLDDLBKNKKC": 1,
+      "BMPMACFNJHE": [
+        1006
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2006
+      ],
+      "CGCHDCDMKHJ": 1,
+      "IDMAACJIHIL": [
+        31053006
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamOrange_Buff.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamOrange_T.png",
+      "FLHJHJAAOBB": [
+        202
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510007,
+      "NEHLLLPKNBF": 70001107,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        201,
+        200
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [
+        1002,
+        1003
+      ],
+      "DGIMMHJDKNB": [
+        61001011,
+        1001006
+      ],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11342,
+        11332,
+        11351,
+        11361,
+        11671
+      ],
+      "FKICGLIBFDE": 11671,
+      "ILCENEEAHLL": [
+        3101181,
+        3101111,
+        3101101,
+        3101121,
+        3101041,
+        3101251,
+        3101271,
+        3101211,
+        3101191,
+        3101141,
+        3101131,
+        3101241,
+        3101031,
+        3101011,
+        3101261,
+        3101281,
+        3101151
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamRed_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamRed_Icon01.png",
+      "KLDDLBKNKKC": 2,
+      "BMPMACFNJHE": [
+        1001,
+        1004,
+        1003,
+        1002,
+        1005,
+        1006
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2001,
+        2004,
+        2003,
+        2002,
+        2005,
+        2006
+      ],
+      "CGCHDCDMKHJ": 2,
+      "IDMAACJIHIL": [
+        31053010,
+        31053007,
+        31053001,
+        31054003,
+        31053006
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamRed_Buff01.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamRed_T.png",
+      "FLHJHJAAOBB": [
+        202
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510008,
+      "NEHLLLPKNBF": 70001108,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        203
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11161,
+        11251,
+        11261,
+        11061
+      ],
+      "FKICGLIBFDE": 11061,
+      "ILCENEEAHLL": [
+        3101181,
+        3101111,
+        3101101,
+        3101121,
+        3101041,
+        3101251,
+        3101271,
+        3101211,
+        3101191,
+        3101141,
+        3101131,
+        3101241,
+        3101031,
+        3101011,
+        3101261,
+        3101281,
+        3101151
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamRed_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamRed_Icon02.png",
+      "KLDDLBKNKKC": 2,
+      "BMPMACFNJHE": [
+        1001,
+        1004,
+        1003,
+        1002,
+        1005,
+        1006
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2001,
+        2004,
+        2003,
+        2002,
+        2005,
+        2006
+      ],
+      "CGCHDCDMKHJ": 2,
+      "IDMAACJIHIL": [
+        31053010,
+        31053007,
+        31053001,
+        31054003,
+        31053006
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamRed_Buff02.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamRed_T.png",
+      "FLHJHJAAOBB": [
+        201
+      ]
+    },
+    {
+      "PPPBBEOFKCC": 12510009,
+      "NEHLLLPKNBF": 70001109,
+      "CIBPKBNKIBB": 55,
+      "MMHJEACJPPA": [
+        202,
+        205
+      ],
+      "CIHOBFOMEDO": 5,
+      "KNPHHKLGOFB": [],
+      "DGIMMHJDKNB": [],
+      "GODALKGJOGG": "",
+      "GCCKFFOAGCF": "",
+      "OEOFLMCMMNC": [
+        11141,
+        11103,
+        11114,
+        11213,
+        11156
+      ],
+      "FKICGLIBFDE": 11156,
+      "ILCENEEAHLL": [
+        3101181,
+        3101111,
+        3101101,
+        3101121,
+        3101041,
+        3101251,
+        3101271,
+        3101211,
+        3101191,
+        3101141,
+        3101131,
+        3101241,
+        3101031,
+        3101011,
+        3101261,
+        3101281,
+        3101151
+      ],
+      "EDGAJDBNFGB": true,
+      "PGOHABDMNGL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardBg/TeamRed_Bg.png",
+      "BDJLBLACDNK": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardIcon/TeamRed_Icon03.png",
+      "KLDDLBKNKKC": 2,
+      "BMPMACFNJHE": [
+        1001,
+        1004,
+        1003,
+        1002,
+        1005,
+        1006
+      ],
+      "DMCGFNOIGDP": 1,
+      "MMEIFJFCNPF": [
+        2001,
+        2004,
+        2003,
+        2002,
+        2005,
+        2006
+      ],
+      "CGCHDCDMKHJ": 2,
+      "IDMAACJIHIL": [
+        31053010,
+        31053007,
+        31053001,
+        31054003,
+        31053006
+      ],
+      "AAHNBMMNEGJ": false,
+      "LIMMBDELKLB": 9000001,
+      "MPGANOLHLFB": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconNewsBubbleSmall/UnPacker/Ver1_1/ActivityTeamTrial/TeamRed_Buff03.png",
+      "NDGFIKBIAJH": 1,
+      "LPKBLDAEAKB": 55,
+      "NGEPNPOOLAL": "UI/Sprite/A1DynamicLoad/Activity/Ver1_1/ActivityTeamTrial/UnPacker/CardColumn/TeamRed_T.png",
+      "FLHJHJAAOBB": []
+    }
+  ]
+}

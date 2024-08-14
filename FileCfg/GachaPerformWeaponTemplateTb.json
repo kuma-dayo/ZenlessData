@@ -1,0 +1,40 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 3101002,
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Weapon_Default",
+      "JIOPDOHIKOM": "Gacha_Weapon_01|Gacha_Weapon_02|Gacha_Weapon_03|Gacha_Weapon_04|Gacha_Weapon_05|Gacha_Weapon_06",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "",
+      "LHEEHFBDIPI": "UI/3D/Gacha/UIText/GachaStage_UI_EngineB_01.prefab",
+      "JNEGIDPKCGL": ""
+    },
+    {
+      "NGPCCDGBLLK": 3101003,
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Weapon_Default",
+      "JIOPDOHIKOM": "Gacha_Weapon_01|Gacha_Weapon_02|Gacha_Weapon_03|Gacha_Weapon_04|Gacha_Weapon_05|Gacha_Weapon_06",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "",
+      "LHEEHFBDIPI": "UI/3D/Gacha/UIText/GachaStage_UI_EngineA_01.prefab",
+      "JNEGIDPKCGL": ""
+    },
+    {
+      "NGPCCDGBLLK": 3101004,
+      "NBENLDHFIKP": "OriginalResRepos/Video/HD/Gacha/Gacha_Weapon_Default",
+      "JIOPDOHIKOM": "Gacha_Weapon_01|Gacha_Weapon_02|Gacha_Weapon_03|Gacha_Weapon_04|Gacha_Weapon_05|Gacha_Weapon_06",
+      "PMPLELHGACL": [
+        1001,
+        1002
+      ],
+      "DMACIPMMNHF": "",
+      "LHEEHFBDIPI": "UI/3D/Gacha/UIText/GachaStage_UI_EngineS_01.prefab",
+      "JNEGIDPKCGL": ""
+    }
+  ]
+}

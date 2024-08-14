@@ -1,0 +1,732 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NADBGLEMMEH": 1011,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole01",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1021,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole11",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1031,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole12",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1041,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole05",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1061,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole09",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1081,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole10",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1101,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole14",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1111,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole15",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1121,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole16",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1131,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole17",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1141,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole18",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1151,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole27",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1181,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole20",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1191,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole21",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/RoleIcon/IconRole21_GaCha_S.png",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1211,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole22",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1241,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole23",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/RoleIcon/IconRole23_GaCha_S.png",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1251,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole29",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/RoleIcon/IconRole29_GaCha_S.png",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1261,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole24",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/RoleIcon/IconRole24_GaCha_S.png",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1271,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole30",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 1281,
+      "HEIFGNMDMHM": 1,
+      "AICFHGHEPDI": "IconRole28",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12001,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_01.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12002,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_02.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12003,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_03.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12004,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_04.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12005,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_05.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12006,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_06.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12007,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_07.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12008,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_08.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12009,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_09.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12010,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_10.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12011,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_11.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12012,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_12.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12013,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_13.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 12014,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_B_Common_14.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13001,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_01.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13002,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_02.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13003,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_03.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13004,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_04.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13005,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_05.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13006,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_06.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13007,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_07.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13008,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_08.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13009,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_09.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13010,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_10.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13011,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_11.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13013,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_Common_13.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13101,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1011.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13103,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1031.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13106,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1061.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13108,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1081.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13111,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1111.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13112,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1121.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13113,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1131.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13115,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1151.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13127,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1271.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 13128,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_A_1281.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14001,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_Common_01.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14002,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_Common_02.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14003,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_Common_03.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14102,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1021.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14104,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1041.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14110,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1101.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14114,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1141.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14118,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1181.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14119,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1191.png",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/WeaponIcon/Weapon_S_1191_GaCha.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/Weapon_S_1191_GachaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 14121,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1211.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 14124,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1241.png",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/WeaponIcon/Weapon_S_1241_GaCha.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/Weapon_S_1241_GachaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 14125,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1251.png",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/WeaponIcon/Weapon_S_1251_GaCha.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/Weapon_S_1251_GachaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 14126,
+      "HEIFGNMDMHM": 3,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/IconWeapon/UnPacker/Weapon_S_1261.png",
+      "GFFAIOKIPFA": 1,
+      "MGOLDAFMAOF": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/WeaponIcon/Weapon_S_1261_GaCha.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/Weapon_S_1261_GachaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 53001,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole12.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53002,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole11.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53003,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole06.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53004,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole05.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53005,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole04.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53006,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole01.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53007,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole02.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53008,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole03.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53009,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole18.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53010,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole16.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53011,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole21.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 53012,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole17.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 54001,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole07.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54001.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole07_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54002,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole10.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54002.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole10_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54003,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole14.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "",
+      "KLGNDCLJLCL": ""
+    },
+    {
+      "NADBGLEMMEH": 54004,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole09.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54004.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole09_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54005,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole13.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54005.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole13_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54006,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole15.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54006.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole15_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54008,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole19.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54008.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole19_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54009,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole20.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54009.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole20_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54012,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole25.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54012.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole25_GaChaEF.png"
+    },
+    {
+      "NADBGLEMMEH": 54013,
+      "HEIFGNMDMHM": 2,
+      "AICFHGHEPDI": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole23.png",
+      "GFFAIOKIPFA": 0,
+      "MGOLDAFMAOF": "Assets/NapResources/UI/Sprite/A1DynamicLoad/GaCha/UnPacker/BangbooIcon/54013.png",
+      "KLGNDCLJLCL": "UI/Sprite/A1DynamicLoad/GaCha/UnPacker/GaChaPhase01/BangbooGarageRole23_GaChaEF.png"
+    }
+  ]
+}

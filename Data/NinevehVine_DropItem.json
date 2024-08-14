@@ -1,0 +1,70 @@
+{
+  "AbilityName": "NinevehVine_DropItem",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Stage_Zero_Boss_Nineveh"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByStageName",
+            "CompareType": "Equal",
+            "StageName": "Stage_Zero_Boss_Nineveh"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DropItemModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnKilled": [
+        {
+          "$type": "DropItemAction",
+          "DropStr": "1002:10000:3",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "DropItemAction",
+          "DropStr": "1220:10000:1",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

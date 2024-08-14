@@ -1,0 +1,160 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Evade_Back_01",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Short"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Evade_Back_02",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Short"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Evade_Back_03",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Long"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Taunt_01",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Short"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Taunt_02",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Short"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Taunt_03",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "MotionBlurModifier_EvadeBack_Long"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_EvadeBlurShadow",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "MotionBlurModifier_EvadeBack_Long": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "BeginBlurShadowAction",
+          "ConfigGhostEffectKey": "Common_Ghost_02",
+          "EchoTime": 0.01,
+          "IgnoreOwnerTimescale": false,
+          "IgnoreWorldTimescale": false,
+          "IsActive": true,
+          "LifeTime": 1,
+          "MaxGhostCount": 50,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "BeginBlurShadowAction",
+          "ConfigGhostEffectKey": "Common_Ghost_02",
+          "EchoTime": 0.01,
+          "IgnoreOwnerTimescale": false,
+          "IgnoreWorldTimescale": false,
+          "IsActive": false,
+          "LifeTime": 1,
+          "MaxGhostCount": 50,
+          "Target": "Self"
+        }
+      ]
+    },
+    "MotionBlurModifier_EvadeBack_Short": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "BeginBlurShadowAction",
+          "ConfigGhostEffectKey": "Common_Ghost_02",
+          "EchoTime": 0.05,
+          "IgnoreOwnerTimescale": false,
+          "IgnoreWorldTimescale": false,
+          "IsActive": true,
+          "LifeTime": 0.3,
+          "MaxGhostCount": 15,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "BeginBlurShadowAction",
+          "ConfigGhostEffectKey": "Common_Ghost_02",
+          "EchoTime": 0.05,
+          "IgnoreOwnerTimescale": false,
+          "IgnoreWorldTimescale": false,
+          "IsActive": false,
+          "LifeTime": 0.3,
+          "MaxGhostCount": 15,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

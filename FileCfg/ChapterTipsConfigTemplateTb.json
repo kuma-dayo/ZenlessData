@@ -1,0 +1,59 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "MKNEEFDLGII": 1000,
+      "ILAMILLAEPL": "ChapterTipsMain_1000",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_Begin"
+    },
+    {
+      "MKNEEFDLGII": 1001,
+      "ILAMILLAEPL": "ChapterTipsMain_1000",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    },
+    {
+      "MKNEEFDLGII": 1010,
+      "ILAMILLAEPL": "ChapterTipsMain_1010",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_Begin"
+    },
+    {
+      "MKNEEFDLGII": 1011,
+      "ILAMILLAEPL": "ChapterTipsMain_1010",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    },
+    {
+      "MKNEEFDLGII": 1020,
+      "ILAMILLAEPL": "ChapterTipsMain_1020",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_Begin"
+    },
+    {
+      "MKNEEFDLGII": 1021,
+      "ILAMILLAEPL": "ChapterTipsMain_1020",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    },
+    {
+      "MKNEEFDLGII": 1030,
+      "ILAMILLAEPL": "ChapterTipsMain_1030",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_Begin"
+    },
+    {
+      "MKNEEFDLGII": 1031,
+      "ILAMILLAEPL": "ChapterTipsMain_1030",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    },
+    {
+      "MKNEEFDLGII": 1032,
+      "ILAMILLAEPL": "ChapterTipsMain_1032",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    },
+    {
+      "MKNEEFDLGII": 102501,
+      "ILAMILLAEPL": "ChapterTipsMain_1025",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_Begin"
+    },
+    {
+      "MKNEEFDLGII": 102502,
+      "ILAMILLAEPL": "ChapterTipsMain_1025",
+      "IEFFHCDDLPP": "ChapterTipsSuffix_End"
+    }
+  ]
+}

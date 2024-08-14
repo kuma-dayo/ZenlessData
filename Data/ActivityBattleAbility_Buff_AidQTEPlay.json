@@ -1,0 +1,146 @@
+{
+  "AbilityName": "ActivityBattleAbility_Buff_AidQTEPlay",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.2
+    },
+    "AS_BuffDuration": {
+      "Value": 15.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffListenModifier",
+        "Target": "Level"
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "FireAudio",
+        "AudioPattern": "Play_SFX_Char_SwitchIn_Attack_Count_QuickAidAttack",
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          },
+          {
+            "$type": "ByAvatarSwitchType",
+            "CheckOverrideSwitch": "Override",
+            "OverrideSourceType": "AidAttack",
+            "SwitchType": "QTE",
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddDamageModifier": {
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio"
+      }
+    },
+    "BuffListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "BuffModifier": {
+      "Buff": {
+        "BuffID": 9000015,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "SwitchBuffModifier",
+          "Target": "TeamAvatars"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddDamageModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "PushOverrideSwitchInAttackAction",
+          "SourceSwitchInIndex": 30,
+          "SourceSwitchType": "AidAttack",
+          "Tag": "ActivityBattleAbility_AidQTEPlay",
+          "Target": "Self",
+          "TargetSwitchType": "QTE"
+        }
+      ]
+    },
+    "SwitchBuffModifier": {
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "OnRemoved": [
+        {
+          "$type": "PopOverrideSwitchInAttackAction",
+          "Predicates": [
+            {
+              "$type": "ByIsModifierCaster"
+            }
+          ],
+          "SourceSwitchInIndex": 30,
+          "SourceSwitchType": "AidAttack",
+          "Tag": "ActivityBattleAbility_AidQTEPlay",
+          "Target": "Caster"
+        }
+      ],
+      "OnSwitchInBegin": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "SwitchBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByAvatarSwitchType",
+              "CheckOverrideSwitch": "Override",
+              "OverrideSourceType": "AidAttack",
+              "SwitchType": "QTE",
+              "Target": "Self"
+            }
+          ],
+          "Target": "TeamAvatars"
+        }
+      ]
+    }
+  }
+}

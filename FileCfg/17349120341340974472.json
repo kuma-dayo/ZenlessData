@@ -1,0 +1,100 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NLOBDIDFMFA": 1090001,
+      "NPHPABHCPJP": [
+        604118
+      ],
+      "IPDDJJFMFDD": "HSC_Event_Special_Day1",
+      "AFJIANPCFHB": "HSC_Option_Special_Day1",
+      "LFOJELECINH": [
+        1
+      ],
+      "DAEEJHEEHIP": 604119,
+      "FHNCBBEMDIF": 1251,
+      "JBPOFIKKPHB": 0,
+      "KNKIJOADGFA": 0,
+      "MMKDLFACMNG": 0,
+      "BHFOPOHOFDP": "HSC_Event_Last_01",
+      "PIBAEMPOFEF": "HSC_Option_Last_01",
+      "IGGKODKGAIA": 0,
+      "JKBNDLEBCGE": "HSC_Option_Special_Day1_Another"
+    },
+    {
+      "NLOBDIDFMFA": 1090002,
+      "NPHPABHCPJP": [
+        604214
+      ],
+      "IPDDJJFMFDD": "HSC_Event_Special_Day2",
+      "AFJIANPCFHB": "HSC_Option_Special_Day2",
+      "LFOJELECINH": [
+        2
+      ],
+      "DAEEJHEEHIP": 604119,
+      "FHNCBBEMDIF": 1241,
+      "JBPOFIKKPHB": 0,
+      "KNKIJOADGFA": 0,
+      "MMKDLFACMNG": 0,
+      "BHFOPOHOFDP": "HSC_Event_Last_01",
+      "PIBAEMPOFEF": "HSC_Option_Last_01",
+      "IGGKODKGAIA": 0,
+      "JKBNDLEBCGE": "HSC_Option_Special_Day2_Another"
+    },
+    {
+      "NLOBDIDFMFA": 1090003,
+      "NPHPABHCPJP": [
+        604302
+      ],
+      "IPDDJJFMFDD": "HSC_Event_Special_Day3",
+      "AFJIANPCFHB": "HSC_Option_Special_Day3",
+      "LFOJELECINH": [
+        3
+      ],
+      "DAEEJHEEHIP": 604119,
+      "FHNCBBEMDIF": 0,
+      "JBPOFIKKPHB": 0,
+      "KNKIJOADGFA": 0,
+      "MMKDLFACMNG": 0,
+      "BHFOPOHOFDP": "HSC_Event_Last_01",
+      "PIBAEMPOFEF": "HSC_Option_Last_01",
+      "IGGKODKGAIA": 1,
+      "JKBNDLEBCGE": "HSC_Option_Special_Day3_Another"
+    },
+    {
+      "NLOBDIDFMFA": 1090004,
+      "NPHPABHCPJP": [
+        604401
+      ],
+      "IPDDJJFMFDD": "HSC_Event_Special_Day4",
+      "AFJIANPCFHB": "HSC_Option_Special_Day4",
+      "LFOJELECINH": [
+        4
+      ],
+      "DAEEJHEEHIP": 604119,
+      "FHNCBBEMDIF": 1271,
+      "JBPOFIKKPHB": 0,
+      "KNKIJOADGFA": 0,
+      "MMKDLFACMNG": 0,
+      "BHFOPOHOFDP": "HSC_Event_Last_01",
+      "PIBAEMPOFEF": "HSC_Option_Last_01",
+      "IGGKODKGAIA": 0,
+      "JKBNDLEBCGE": "HSC_Option_Special_Day4_Another"
+    },
+    {
+      "NLOBDIDFMFA": 1090005,
+      "NPHPABHCPJP": [],
+      "IPDDJJFMFDD": "",
+      "AFJIANPCFHB": "",
+      "LFOJELECINH": [],
+      "DAEEJHEEHIP": 604119,
+      "FHNCBBEMDIF": 0,
+      "JBPOFIKKPHB": 0,
+      "KNKIJOADGFA": 0,
+      "MMKDLFACMNG": 0,
+      "BHFOPOHOFDP": "HSC_Event_Last_01",
+      "PIBAEMPOFEF": "HSC_Option_Last_01",
+      "IGGKODKGAIA": 0,
+      "JKBNDLEBCGE": ""
+    }
+  ]
+}

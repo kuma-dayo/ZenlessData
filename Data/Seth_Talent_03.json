@@ -1,0 +1,30 @@
+{
+  "AbilityName": "Seth_Talent_03",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatio_Talent_03": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid",
+              "AttackAid"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedBreakStunRatio_Talent_03",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {}
+}

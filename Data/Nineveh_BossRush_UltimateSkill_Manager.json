@@ -1,0 +1,438 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": true,
+          "PropertyType": "CurHP",
+          "RefPropertyType": "MaxHP",
+          "ValueRangeActions": [
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "TimerModifier_1st",
+                  "Predicates": [
+                    {
+                      "$type": "ByStageName",
+                      "CompareType": "Equal",
+                      "StageName": "Stage_Zero_Boss_Nineveh"
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachZoneTagWithModifierMixin",
+      "ConfigList": [
+        {
+          "ModifierNameList": [
+            "TimerModifier_MiddleWare_InSkill"
+          ],
+          "ZoneTag": "UltimateSkill"
+        },
+        {
+          "ModifierNameList": [
+            "TimerModifier_MiddleWare_InSkill"
+          ],
+          "ZoneTag": "InvertAttack"
+        },
+        {
+          "ModifierNameList": [
+            "UltimateSkillProtectionModifier"
+          ],
+          "ZoneTag": "UltimateSkillReady"
+        },
+        {
+          "ModifierNameList": [
+            "TimerModifier_MiddleWare_InSwitchPhase"
+          ],
+          "ZoneTag": "Nineveh_BossRush_InSwitchPhase"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Nineveh_BossRush_UltimateSkill_Manager",
+  "AbilitySpecials": {
+    "AS_FirstUltimateSkillCD": {
+      "Value": 90,
+      "ValueType": "Float"
+    },
+    "AS_LockMaxStun": {
+      "Value": 0,
+      "ValueType": "Float"
+    },
+    "AS_SubsequentUltimateSkillCD": {
+      "Value": 150,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "CreateSavePointAction",
+        "PointName": "Nineveh_SkillPoint",
+        "Target": "Self",
+        "TargetPosRot": {
+          "CoordsOption": "Target",
+          "Offset": {
+            "AngleOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "IsClampOffsetDistance": false,
+            "PositionOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "RandomAngleRange": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "RandomPositionRange": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "TargetOption": {
+            "$type": "ConfigPosRotReferTarget",
+            "BackupOffsetReferTarget": "Self",
+            "OffsetReferTarget": "NodePoint",
+            "PointName": "MonsterPos_A1"
+          }
+        }
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "TimerModifier_1st",
+        "Predicates": [
+          {
+            "$type": "ByStageName",
+            "CompareType": "Equal",
+            "StageName": "Stage_Zero_Boss_Nineveh"
+          }
+        ]
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(MaxStun)-1",
+        "ParamName": "AS_LockMaxStun",
+        "Predicates": [
+          {
+            "$type": "ByStageName",
+            "CompareType": "Equal",
+            "StageName": "Stage_Zero_Boss_Nineveh"
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SendCustomEvent",
+        "EventKey": "Nineveh_Initialization_Done",
+        "Predicates": [
+          {
+            "$type": "ByStageName",
+            "CompareType": "Equal",
+            "StageName": "Stage_Zero_Boss_Nineveh"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "TimerModifier_1st": {
+      "Duration": "%AS_FirstUltimateSkillCD",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "Bool_UltimateSkill_Ready",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_UltimateSkill_Ready",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TimerModifier_2nd",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 0,
+          "ParamName": "Float_CreatingWall",
+          "Target": "Self"
+        }
+      ]
+    },
+    "TimerModifier_2nd": {
+      "Duration": "%AS_SubsequentUltimateSkillCD",
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_UltimateSkill_Ready",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "TokushuDankai"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TimerModifier_MiddleWare",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "TokushuDankai"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 0,
+          "ParamName": "Float_CreatingWall",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "TimerModifier_MiddleWare": {
+      "Duration": 0.1,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TimerModifier_2nd",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ]
+        }
+      ]
+    },
+    "TimerModifier_MiddleWare_InSkill": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "TimerModifier_2nd",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "Bool_UltimateSkill_Ready",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TimerModifier_2nd",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "TimerModifier_MiddleWare_InSwitchPhase": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "TimerModifier_2nd",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "TimerModifier_1st",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "TimerModifier_1st"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "TimerModifier_MiddleWare",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "TimerModifier_MiddleWare"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "Bool_UltimateSkill_Ready",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TimerModifier_1st",
+          "Predicates": [
+            {
+              "$type": "ByStageName",
+              "CompareType": "Equal",
+              "StageName": "Stage_Zero_Boss_Nineveh"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "UltimateSkillProtectionModifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "LockStunPropertyMixin",
+          "ValueLock": "%AS_LockMaxStun"
+        }
+      ],
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushForbidElementAbnormalAction",
+          "Element": "ElementAll",
+          "Tag": "UltimateSkillProtection",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PopForbidElementAbnormalAction",
+          "Tag": "UltimateSkillProtection",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

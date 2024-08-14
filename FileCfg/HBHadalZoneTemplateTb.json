@@ -1,0 +1,52 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "LCEEGFPHDID": 61001,
+      "KFBMBHEBLKE": "HB_HadalZone_1",
+      "KNDMPHFLDEA": "PopUp_Content_9991405",
+      "AJPGNCEMHFH": 9016,
+      "AGIEEACBPJB": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/ShiyuDefenseSunShine.png",
+      "INCHKODOGHA": [
+        100,
+        119,
+        301,
+        103030,
+        10
+      ],
+      "KNGMJMNNAJC": 0,
+      "CJHIEKELKLI": 2
+    },
+    {
+      "LCEEGFPHDID": 61002,
+      "KFBMBHEBLKE": "HB_HadalZone_3",
+      "KNDMPHFLDEA": "PopUp_Content_9991405",
+      "AJPGNCEMHFH": 9016,
+      "AGIEEACBPJB": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/SkyscraperEveningThunderstorm.png",
+      "INCHKODOGHA": [
+        100,
+        119,
+        301,
+        103030,
+        10
+      ],
+      "KNGMJMNNAJC": 10073,
+      "CJHIEKELKLI": 3
+    },
+    {
+      "LCEEGFPHDID": 62001,
+      "KFBMBHEBLKE": "HB_HadalZone_2",
+      "KNDMPHFLDEA": "PopUp_Content_9991405",
+      "AJPGNCEMHFH": 9016,
+      "AGIEEACBPJB": "UI/Sprite/A1DynamicLoad/CoverMap/Banner/UnPacker/SkyscraperEveningThunderstorm.png",
+      "INCHKODOGHA": [
+        100,
+        119,
+        301,
+        103030,
+        10
+      ],
+      "KNGMJMNNAJC": 10050,
+      "CJHIEKELKLI": 1
+    }
+  ]
+}

@@ -1,0 +1,1534 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 122810101,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        200,
+        400,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 1,
+      "CJHIEKELKLI": 10100101,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 600,
+      "FMLJHGBHDFI": 0,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010101|3601:1228010102|3605:1228010103|3606:1228010104|3607:1228010105|3608:1228010106|3604:1228010107",
+      "GFBOCEECIHL": "30111251|30111255",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11181,
+        11195
+      ],
+      "PFEANBLFMFB": [
+        10100101
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810102,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        200,
+        600,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100101,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 800,
+      "FMLJHGBHDFI": 0,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010101|3601:1228010102|3605:1228010103|3606:1228010104|3607:1228010105|3608:1228010106|3604:1228010107",
+      "GFBOCEECIHL": "30114005|30115006",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_1",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11156,
+        11213,
+        11521
+      ],
+      "PFEANBLFMFB": [
+        10100101
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1006
+    },
+    {
+      "NGPCCDGBLLK": 122810111,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        300,
+        700,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 1,
+      "CJHIEKELKLI": 10100102,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1000,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112:1228010112:1228010117|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116:1228010116:1228010118|3604:1228010117:1228010117:1228010119",
+      "GFBOCEECIHL": "30115020|30115011",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_2",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11238,
+        11154,
+        11184
+      ],
+      "PFEANBLFMFB": [
+        10100102
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1001
+    },
+    {
+      "NGPCCDGBLLK": 122810112,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        400,
+        850,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100102,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1250,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112:1228010112:1228010117|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116:1228010116:1228010118|3604:1228010117:1228010117:1228010119",
+      "GFBOCEECIHL": "30114001|30115013",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_3",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11238,
+        11154,
+        11184
+      ],
+      "PFEANBLFMFB": [
+        10100102
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1007
+    },
+    {
+      "NGPCCDGBLLK": 122810113,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100102,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112:1228010112:1228010117|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116:1228010116:1228010118|3604:1228010117:1228010117:1228010119",
+      "GFBOCEECIHL": "30114012|30115006|30115005",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_4",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_03",
+      "OHMGIEABJGE": [
+        11235,
+        11195,
+        11123,
+        11181,
+        11225,
+        11156,
+        11123,
+        11195,
+        11181,
+        11156
+      ],
+      "PFEANBLFMFB": [
+        10100102
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1008
+    },
+    {
+      "NGPCCDGBLLK": 122810114,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100102,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112:1228010112:1228010117|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116:1228010116:1228010118|3604:1228010117:1228010117:1228010119",
+      "GFBOCEECIHL": "30115007|30114013|30115005",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_5",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Prop_03|AbyssText_Dungeon_Prop_03|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Prop_01|AbyssText_Dungeon_Prop_01",
+      "OHMGIEABJGE": [
+        11114,
+        11235,
+        11181,
+        11123,
+        11195,
+        11123
+      ],
+      "PFEANBLFMFB": [
+        10100102
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1009
+    },
+    {
+      "NGPCCDGBLLK": 122810115,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100102,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010117|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116:1228010118:1228010118|3604:1228010117:1228010119:1228010119",
+      "GFBOCEECIHL": "30114014|30115019|30115001",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_6",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Prop_03|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Prop_01|AbyssText_Dungeon_Prop_01|AbyssText_Dungeon_Prop_01",
+      "OHMGIEABJGE": [
+        11233,
+        11156,
+        11184,
+        11195,
+        11123,
+        11181
+      ],
+      "PFEANBLFMFB": [
+        10100102
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1010
+    },
+    {
+      "NGPCCDGBLLK": 122810121,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        400,
+        850,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100103,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1250,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122:1228010122:1228010127|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126:1228010126:1228010128|3604:1228010127:1228010127:1228010129",
+      "GFBOCEECIHL": "30114009|30115012",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_7",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11414,
+        11051
+      ],
+      "PFEANBLFMFB": [
+        10100103
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1002
+    },
+    {
+      "NGPCCDGBLLK": 122810122,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100103,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122:1228010122:1228010127|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126:1228010126:1228010128|3604:1228010127:1228010127:1228010129",
+      "GFBOCEECIHL": "30114006|30115024|30115002",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_8",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11411,
+        11301,
+        11051
+      ],
+      "PFEANBLFMFB": [
+        10100103
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1011
+    },
+    {
+      "NGPCCDGBLLK": 122810123,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100103,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122:1228010122:1228010127|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126:1228010126:1228010128|3604:1228010127:1228010127:1228010129",
+      "GFBOCEECIHL": "30115024|30115026|30115002",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_9",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "ThickCloudy"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11412,
+        11391,
+        11061
+      ],
+      "PFEANBLFMFB": [
+        10100103
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1012
+    },
+    {
+      "NGPCCDGBLLK": 122810124,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100103,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010127|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126:1228010128:1228010128|3604:1228010127:1228010129:1228010129",
+      "GFBOCEECIHL": "30115009|30115025|30115002",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_10",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "ThickCloudy",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11412,
+        11401,
+        11061,
+        11051
+      ],
+      "PFEANBLFMFB": [
+        10100103
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1013
+    },
+    {
+      "NGPCCDGBLLK": 122810131,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100104,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010132:1228010132:1228010137|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136:1228010136:1228010138|3604:1228010137:1228010137:1228010139",
+      "GFBOCEECIHL": "30115023|30115003|30115015",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_11",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11422,
+        11432,
+        11061,
+        11451,
+        11441
+      ],
+      "PFEANBLFMFB": [
+        10100104
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1003
+    },
+    {
+      "NGPCCDGBLLK": 122810132,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100104,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010132:1228010132:1228010137|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136:1228010136:1228010138|3604:1228010137:1228010137:1228010139",
+      "GFBOCEECIHL": "30115003|30114013|30115015",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_12",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "ThickCloudy"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11422,
+        11432,
+        11781,
+        11061,
+        11441,
+        11061,
+        11261
+      ],
+      "PFEANBLFMFB": [
+        10100104
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1014
+    },
+    {
+      "NGPCCDGBLLK": 122810133,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100104,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010137|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136:1228010138:1228010138|3604:1228010137:1228010139:1228010139",
+      "GFBOCEECIHL": "30114015|30115022:30114007|30115017",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_13",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "ThickCloudy",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Must_01|AbyssText_Dungeon_Must_01",
+      "OHMGIEABJGE": [
+        11422,
+        11432,
+        11156,
+        11181,
+        11061,
+        11441
+      ],
+      "PFEANBLFMFB": [
+        10100104
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1015
+    },
+    {
+      "NGPCCDGBLLK": 122810141,
+      "HAAJBDJLOKH": 2,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 6,
+      "CJHIEKELKLI": 10100105,
+      "HBJEBHDPKMD": 1002,
+      "HCNNJAMKIMO": 11,
+      "NINPPHLMKJJ": 4000,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010141|3601:1228010147|3605:1228010143|3606:1228010144|3607:1228010145|3608:1228010146:1228010150:1228010150|3604:1228010147:1228010151:1228010151",
+      "GFBOCEECIHL": "30114013:30114014:30114015:30115009|30115019:30115021:30115022:30114007:30114002:30114004:30114003:30115024:30115026:30115025|30115004",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "NNLIGEJNDOM": "1:105081001|2:105081002|3:105081003|4:105081004|5:105081005|6:105081006|7:105081007|8:105081008|9:105081009|10:105081010|11:105081011",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_14",
+      "EILNPAMGHGB": "AbyssText_Heat_RewardTitle00|AbyssText_Heat_RewardTitle01|AbyssText_Heat_RewardTitle02|AbyssText_Heat_RewardTitle03|AbyssText_Heat_RewardTitle04|AbyssText_Heat_RewardTitle05|AbyssText_Heat_RewardTitle06|AbyssText_Heat_RewardTitle07|AbyssText_Heat_RewardTitle08|AbyssText_Heat_RewardTitle09|AbyssText_Heat_RewardTitle10",
+      "GPHCDAKPCEL": "0:AbyssText_Heat_Prefix01|1:AbyssText_Heat_Prefix02|4:AbyssText_Heat_Prefix03|7:AbyssText_Heat_Prefix04|10:AbyssText_Heat_Prefix05",
+      "MPJOPNPGPCC": [
+        "Rain",
+        "Rain",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Prop_02|AbyssText_Dungeon_Must_02|AbyssText_Dungeon_Prop_01|AbyssText_Dungeon_Prop_01|AbyssText_Dungeon_Prop_01",
+      "OHMGIEABJGE": [
+        11531,
+        11233,
+        11412,
+        11422,
+        11432,
+        11156,
+        11184,
+        11401
+      ],
+      "PFEANBLFMFB": [
+        10100105
+      ],
+      "OCHKHHDPPPB": 1,
+      "NEFEFFFIDFF": 1004
+    },
+    {
+      "NGPCCDGBLLK": 122810201,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        100,
+        400,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 1,
+      "CJHIEKELKLI": 10100201,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 500,
+      "FMLJHGBHDFI": 0,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010101|3601:1228010102|3605:1228010103|3606:1228010104|3607:1228010105|3608:1228010106|3604:1228010107",
+      "GFBOCEECIHL": "30114005|30115005",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100201
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810202,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        200,
+        550,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100201,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 750,
+      "FMLJHGBHDFI": 0,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010101|3601:1228010102|3605:1228010103|3606:1228010104|3607:1228010105|3608:1228010106|3604:1228010107",
+      "GFBOCEECIHL": "30114005|30115005",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100201
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810203,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        300,
+        700,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100201,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1000,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010101|3601:1228010102|3605:1228010103|3606:1228010104|3607:1228010105|3608:1228010106|3604:1228010107",
+      "GFBOCEECIHL": "30114005|30115005|30114001",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100201
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810211,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        400,
+        850,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 1,
+      "CJHIEKELKLI": 10100202,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1250,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116|3604:1228010117",
+      "GFBOCEECIHL": "30114001|30114002|30115003",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100202
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810212,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100202,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116|3604:1228010117",
+      "GFBOCEECIHL": "30114001|30114002|30115003",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100202
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810213,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100202,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116|3604:1228010117",
+      "GFBOCEECIHL": "30114001|30114002|30115003",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100202
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810214,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100202,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 2,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116|3604:1228010117",
+      "GFBOCEECIHL": "30114001|30114002|30115003",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100202
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810215,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        0,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100202,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 1500,
+      "FMLJHGBHDFI": 4000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010111|3601:1228010112|3605:1228010113|3606:1228010114|3607:1228010115|3608:1228010116|3604:1228010117",
+      "GFBOCEECIHL": "30114001|30114002|30115003",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100202
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810221,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 2,
+      "CJHIEKELKLI": 10100203,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126|3604:1228010127",
+      "GFBOCEECIHL": "30114006|30114004|30115002",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "Fog"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100203
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810222,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100203,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126|3604:1228010127",
+      "GFBOCEECIHL": "30114006|30114004|30115002",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "Fog",
+        "ThickCloudy"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100203
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810223,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100203,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126|3604:1228010127",
+      "GFBOCEECIHL": "30114006|30114004|30115002",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "ThickCloudy",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100203
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810224,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100203,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 2500,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010121|3601:1228010122|3605:1228010123|3606:1228010124|3607:1228010125|3608:1228010126|3604:1228010127",
+      "GFBOCEECIHL": "30114006|30114004|30115002",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "SunShine"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100203
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810231,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        1500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 3,
+      "CJHIEKELKLI": 10100204,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3000,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010132|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136|3604:1228010137",
+      "GFBOCEECIHL": "30114001|30114003|30115001:30115002:30115003|30115004",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "SunShine",
+        "ThickCloudy"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100204
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810232,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2000,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 4,
+      "CJHIEKELKLI": 10100204,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 3500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010132|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136|3604:1228010137",
+      "GFBOCEECIHL": "30114001|30114003|30115001:30115002:30115003|30115004",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "SunShine",
+        "ThickCloudy",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100204
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810233,
+      "HAAJBDJLOKH": 1,
+      "DJOBMJHOIDD": [
+        500,
+        1000,
+        2500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100204,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 4000,
+      "FMLJHGBHDFI": 3000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010131|3601:1228010132|3605:1228010133|3606:1228010134|3607:1228010135|3608:1228010136|3604:1228010137",
+      "GFBOCEECIHL": "30114001|30114003|30115001:30115002:30115003|30115004",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "Rain",
+        "Rain",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100204
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810241,
+      "HAAJBDJLOKH": 2,
+      "DJOBMJHOIDD": [
+        500,
+        1500,
+        2500,
+        0
+      ],
+      "IGBOAILHDHK": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "BJPHGPMKKHK": 5,
+      "CJHIEKELKLI": 10100205,
+      "HBJEBHDPKMD": 1002,
+      "HCNNJAMKIMO": 5,
+      "NINPPHLMKJJ": 4500,
+      "FMLJHGBHDFI": 2000,
+      "OALCODILONA": 80,
+      "KGKKALEDOAI": 3,
+      "NDIKHPNKAGM": 2,
+      "JAFMLICMFMG": "3600:1228010141|3601:1228010142|3605:1228010143|3606:1228010144|3607:1228010145|3608:1228010146|3604:1228010147",
+      "GFBOCEECIHL": "30114001:30114006:30114005|30114002:30114003|30115001:30115002:30115003|30115004",
+      "DLAEMMCABJA": 2,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [
+        "Rain",
+        "Rain",
+        "Rain"
+      ],
+      "KAFNKHLCDEC": "",
+      "OHMGIEABJGE": [],
+      "PFEANBLFMFB": [
+        10100205
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 0
+    },
+    {
+      "NGPCCDGBLLK": 122810243,
+      "HAAJBDJLOKH": 3,
+      "DJOBMJHOIDD": [
+        0
+      ],
+      "IGBOAILHDHK": [
+        0
+      ],
+      "BJPHGPMKKHK": 7,
+      "CJHIEKELKLI": 10100106,
+      "HBJEBHDPKMD": 0,
+      "HCNNJAMKIMO": 0,
+      "NINPPHLMKJJ": 0,
+      "FMLJHGBHDFI": 0,
+      "OALCODILONA": 0,
+      "KGKKALEDOAI": 0,
+      "NDIKHPNKAGM": 0,
+      "JAFMLICMFMG": "",
+      "GFBOCEECIHL": "30115004",
+      "DLAEMMCABJA": 1,
+      "BBLODMPKOGL": [],
+      "NNLIGEJNDOM": "",
+      "KCKAKEOIBJN": "AbyssText_101001_Dungeon_Unlock_15",
+      "EILNPAMGHGB": "",
+      "GPHCDAKPCEL": "",
+      "MPJOPNPGPCC": [],
+      "KAFNKHLCDEC": "AbyssText_Dungeon_Must_03",
+      "OHMGIEABJGE": [
+        11531
+      ],
+      "PFEANBLFMFB": [
+        10100106
+      ],
+      "OCHKHHDPPPB": 0,
+      "NEFEFFFIDFF": 1005
+    }
+  ]
+}

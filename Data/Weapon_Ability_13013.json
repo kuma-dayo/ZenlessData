@@ -1,0 +1,57 @@
+{
+  "AbilityName": "Weapon_Ability_13013",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.15
+    },
+    "AS_BaseAttackRatio": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BaseATKRatioModifier",
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ExSpDamageRatioModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BaseATKRatioModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAttackRatio"
+      }
+    },
+    "ExSpDamageRatioModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackSpecial",
+                "ExSp"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

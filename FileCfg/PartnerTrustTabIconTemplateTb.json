@@ -1,0 +1,39 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "MNCDOKNPIBD": -1,
+      "KIPHOICMDDD": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabSelectIcon01",
+      "FMDOLPHPMLB": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabNormalIcon01",
+      "PALEOEMDNNM": "Partner_Level0_Name",
+      "CFEFNBGLGAC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustType/TrustType01RewardIcon"
+    },
+    {
+      "MNCDOKNPIBD": 1,
+      "KIPHOICMDDD": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabSelectIcon01",
+      "FMDOLPHPMLB": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabNormalIcon01",
+      "PALEOEMDNNM": "Partner_Level1_Name",
+      "CFEFNBGLGAC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustType/TrustType01RewardIcon"
+    },
+    {
+      "MNCDOKNPIBD": 2,
+      "KIPHOICMDDD": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabSelectIcon02",
+      "FMDOLPHPMLB": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabNormalIcon02",
+      "PALEOEMDNNM": "Partner_Level2_Name",
+      "CFEFNBGLGAC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustType/TrustType02RewardIcon"
+    },
+    {
+      "MNCDOKNPIBD": 3,
+      "KIPHOICMDDD": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabSelectIcon03",
+      "FMDOLPHPMLB": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabNormalIcon03",
+      "PALEOEMDNNM": "Partner_Level3_Name",
+      "CFEFNBGLGAC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustType/TrustType03RewardIcon"
+    },
+    {
+      "MNCDOKNPIBD": 4,
+      "KIPHOICMDDD": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabSelectIcon04",
+      "FMDOLPHPMLB": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustTab/TrustTabNormalIcon04",
+      "PALEOEMDNNM": "Partner_Level4_Name",
+      "CFEFNBGLGAC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/TrustType/TrustType04RewardIcon"
+    }
+  ]
+}

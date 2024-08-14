@@ -1,0 +1,22 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 101,
+      "KIGFJDJAIMI": 2,
+      "PJGJDAGCAPP": "Gacha_B_Start",
+      "HCMPGGHOKOK": "Gacha_B_Loop"
+    },
+    {
+      "NGPCCDGBLLK": 101,
+      "KIGFJDJAIMI": 3,
+      "PJGJDAGCAPP": "Gacha_A_Start",
+      "HCMPGGHOKOK": "Gacha_A_Loop"
+    },
+    {
+      "NGPCCDGBLLK": 101,
+      "KIGFJDJAIMI": 4,
+      "PJGJDAGCAPP": "Gacha_S_Start",
+      "HCMPGGHOKOK": "Gacha_S_Loop"
+    }
+  ]
+}

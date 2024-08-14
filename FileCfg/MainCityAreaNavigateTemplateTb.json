@@ -1,0 +1,172 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 2001,
+      "CNLFODGKBDG": 2001,
+      "GMKOLEFHOMD": 2002,
+      "LGNNMCPALNC": "Workshop_GuidePos_1FtoUPStairs"
+    },
+    {
+      "NGPCCDGBLLK": 2002,
+      "CNLFODGKBDG": 2002,
+      "GMKOLEFHOMD": 2001,
+      "LGNNMCPALNC": "Workshop_GuidePos_UPStairsto1F"
+    },
+    {
+      "NGPCCDGBLLK": 2003,
+      "CNLFODGKBDG": 2002,
+      "GMKOLEFHOMD": 2003,
+      "LGNNMCPALNC": "Workshop_GuidePos_UPStairsto2F"
+    },
+    {
+      "NGPCCDGBLLK": 2004,
+      "CNLFODGKBDG": 2003,
+      "GMKOLEFHOMD": 2002,
+      "LGNNMCPALNC": "Workshop_GuidePos_2FtoUPStairs"
+    },
+    {
+      "NGPCCDGBLLK": 4001,
+      "CNLFODGKBDG": 4001,
+      "GMKOLEFHOMD": 4003,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_1FtoElevator1"
+    },
+    {
+      "NGPCCDGBLLK": 4002,
+      "CNLFODGKBDG": 4003,
+      "GMKOLEFHOMD": 4001,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4003,
+      "CNLFODGKBDG": 4001,
+      "GMKOLEFHOMD": 4004,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_1FtoElevator2"
+    },
+    {
+      "NGPCCDGBLLK": 4004,
+      "CNLFODGKBDG": 4004,
+      "GMKOLEFHOMD": 4001,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4005,
+      "CNLFODGKBDG": 4001,
+      "GMKOLEFHOMD": 4005,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_1FtoElevator3"
+    },
+    {
+      "NGPCCDGBLLK": 4006,
+      "CNLFODGKBDG": 4005,
+      "GMKOLEFHOMD": 4001,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4007,
+      "CNLFODGKBDG": 4001,
+      "GMKOLEFHOMD": 4006,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_1FtoElevator4"
+    },
+    {
+      "NGPCCDGBLLK": 4008,
+      "CNLFODGKBDG": 4006,
+      "GMKOLEFHOMD": 4001,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4009,
+      "CNLFODGKBDG": 4002,
+      "GMKOLEFHOMD": 4003,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_2FtoElevator1"
+    },
+    {
+      "NGPCCDGBLLK": 4010,
+      "CNLFODGKBDG": 4003,
+      "GMKOLEFHOMD": 4002,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4011,
+      "CNLFODGKBDG": 4002,
+      "GMKOLEFHOMD": 4004,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_2FtoElevator2"
+    },
+    {
+      "NGPCCDGBLLK": 4012,
+      "CNLFODGKBDG": 4004,
+      "GMKOLEFHOMD": 4002,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4013,
+      "CNLFODGKBDG": 4002,
+      "GMKOLEFHOMD": 4005,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_2FtoElevator3"
+    },
+    {
+      "NGPCCDGBLLK": 4014,
+      "CNLFODGKBDG": 4005,
+      "GMKOLEFHOMD": 4002,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 4015,
+      "CNLFODGKBDG": 4002,
+      "GMKOLEFHOMD": 4006,
+      "LGNNMCPALNC": "ConstructionSite_GuidePos_2FtoElevator4"
+    },
+    {
+      "NGPCCDGBLLK": 4016,
+      "CNLFODGKBDG": 4006,
+      "GMKOLEFHOMD": 4002,
+      "LGNNMCPALNC": ""
+    },
+    {
+      "NGPCCDGBLLK": 5001,
+      "CNLFODGKBDG": 5001,
+      "GMKOLEFHOMD": 5003,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_1FtoStairs1"
+    },
+    {
+      "NGPCCDGBLLK": 5002,
+      "CNLFODGKBDG": 5003,
+      "GMKOLEFHOMD": 5001,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_Stairs1to1F"
+    },
+    {
+      "NGPCCDGBLLK": 5003,
+      "CNLFODGKBDG": 5001,
+      "GMKOLEFHOMD": 5004,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_1FtoStairs2"
+    },
+    {
+      "NGPCCDGBLLK": 5004,
+      "CNLFODGKBDG": 5004,
+      "GMKOLEFHOMD": 5001,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_Stairs2to1F"
+    },
+    {
+      "NGPCCDGBLLK": 5005,
+      "CNLFODGKBDG": 5002,
+      "GMKOLEFHOMD": 5003,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_B1toStairs1"
+    },
+    {
+      "NGPCCDGBLLK": 5006,
+      "CNLFODGKBDG": 5003,
+      "GMKOLEFHOMD": 5002,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_StairstoB1"
+    },
+    {
+      "NGPCCDGBLLK": 5007,
+      "CNLFODGKBDG": 5002,
+      "GMKOLEFHOMD": 5004,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_B1toStairs2"
+    },
+    {
+      "NGPCCDGBLLK": 5008,
+      "CNLFODGKBDG": 5004,
+      "GMKOLEFHOMD": 5002,
+      "LGNNMCPALNC": "SkyScraper_GuidePos_StairstoB1"
+    }
+  ]
+}

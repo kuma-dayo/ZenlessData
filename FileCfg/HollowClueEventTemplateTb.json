@@ -1,0 +1,436 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 210101,
+      "MLLKGGEHNLB": 2101,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210101001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305001
+    },
+    {
+      "NGPCCDGBLLK": 210102,
+      "MLLKGGEHNLB": 2101,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210102001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305002
+    },
+    {
+      "NGPCCDGBLLK": 210103,
+      "MLLKGGEHNLB": 2101,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210103001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305003
+    },
+    {
+      "NGPCCDGBLLK": 210201,
+      "MLLKGGEHNLB": 2102,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210201001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305005
+    },
+    {
+      "NGPCCDGBLLK": 210202,
+      "MLLKGGEHNLB": 2102,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210202001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305006
+    },
+    {
+      "NGPCCDGBLLK": 210203,
+      "MLLKGGEHNLB": 2102,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210203001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305007
+    },
+    {
+      "NGPCCDGBLLK": 210301,
+      "MLLKGGEHNLB": 2103,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210301001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305008
+    },
+    {
+      "NGPCCDGBLLK": 210303,
+      "MLLKGGEHNLB": 2103,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210303001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305009
+    },
+    {
+      "NGPCCDGBLLK": 210304,
+      "MLLKGGEHNLB": 2103,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210304001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305010
+    },
+    {
+      "NGPCCDGBLLK": 210305,
+      "MLLKGGEHNLB": 2103,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210305001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305010
+    },
+    {
+      "NGPCCDGBLLK": 210401,
+      "MLLKGGEHNLB": 2104,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210401001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305011
+    },
+    {
+      "NGPCCDGBLLK": 210404,
+      "MLLKGGEHNLB": 2104,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210404001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305012
+    },
+    {
+      "NGPCCDGBLLK": 210501,
+      "MLLKGGEHNLB": 2105,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210501001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305013
+    },
+    {
+      "NGPCCDGBLLK": 210502,
+      "MLLKGGEHNLB": 2105,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210502001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305014
+    },
+    {
+      "NGPCCDGBLLK": 210505,
+      "MLLKGGEHNLB": 2105,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210505001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305016
+    },
+    {
+      "NGPCCDGBLLK": 210506,
+      "MLLKGGEHNLB": 2105,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 5,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210506001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305016
+    },
+    {
+      "NGPCCDGBLLK": 210601,
+      "MLLKGGEHNLB": 2106,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210601001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305017
+    },
+    {
+      "NGPCCDGBLLK": 210602,
+      "MLLKGGEHNLB": 2106,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210602001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305018
+    },
+    {
+      "NGPCCDGBLLK": 210604,
+      "MLLKGGEHNLB": 2106,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210604001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305019
+    },
+    {
+      "NGPCCDGBLLK": 210701,
+      "MLLKGGEHNLB": 2107,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210701001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305020
+    },
+    {
+      "NGPCCDGBLLK": 210702,
+      "MLLKGGEHNLB": 2107,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210702001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305031
+    },
+    {
+      "NGPCCDGBLLK": 210703,
+      "MLLKGGEHNLB": 2107,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210703001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305021
+    },
+    {
+      "NGPCCDGBLLK": 210704,
+      "MLLKGGEHNLB": 2107,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210704001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305021
+    },
+    {
+      "NGPCCDGBLLK": 210802,
+      "MLLKGGEHNLB": 2108,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210802001",
+      "ANOPAONILCE": 21080201,
+      "HCMPDADEIKP": [
+        1
+      ],
+      "NADBGLEMMEH": 305023
+    },
+    {
+      "NGPCCDGBLLK": 210803,
+      "MLLKGGEHNLB": 2108,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210803001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305024
+    },
+    {
+      "NGPCCDGBLLK": 21010401,
+      "MLLKGGEHNLB": 2101,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 4,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210104001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305004
+    },
+    {
+      "NGPCCDGBLLK": 21040201,
+      "MLLKGGEHNLB": 2104,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210402001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305030
+    },
+    {
+      "NGPCCDGBLLK": 21050301,
+      "MLLKGGEHNLB": 2105,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210503002",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305015
+    },
+    {
+      "NGPCCDGBLLK": 21060301,
+      "MLLKGGEHNLB": 2106,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 3,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210603001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305019
+    },
+    {
+      "NGPCCDGBLLK": 21080101,
+      "MLLKGGEHNLB": 2108,
+      "JGHEDCCENCB": 1,
+      "GKKBOGBBFAK": 1,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "210801001",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        1,
+        2
+      ],
+      "NADBGLEMMEH": 305022
+    },
+    {
+      "NGPCCDGBLLK": 21080201,
+      "MLLKGGEHNLB": 2108,
+      "JGHEDCCENCB": 0,
+      "GKKBOGBBFAK": 2,
+      "LPDGCALINGE": "",
+      "NDDHKPLDKGE": "",
+      "ANOPAONILCE": 0,
+      "HCMPDADEIKP": [
+        2
+      ],
+      "NADBGLEMMEH": 305032
+    }
+  ]
+}

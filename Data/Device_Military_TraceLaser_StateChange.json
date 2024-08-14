@@ -1,0 +1,305 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Born",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Remove_Shooting"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "NonCombat_Alert",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Remove_Shooting",
+            "Effect_Idle"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Combat_Alert",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Remove_Shooting",
+            "Effect_Alert"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Level_End",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Remove_Shooting",
+            "Effect_Idle"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Alert",
+          "IsLoop": false,
+          "LayerIndex": 1,
+          "ModifierNameList": [
+            "Remove_Shooting"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Attack_Standby",
+          "IsLoop": false,
+          "LayerIndex": 1,
+          "ModifierNameList": [
+            "Effect_Shooting_Standby"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Attack_Shoot",
+          "IsLoop": false,
+          "LayerIndex": 1,
+          "ModifierNameList": [
+            "Shooting",
+            "Effect_Shooting"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Attack_CoolDown",
+          "IsLoop": false,
+          "LayerIndex": 1,
+          "ModifierNameList": [
+            "Remove_Shooting"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        },
+        {
+          "AnimatorStateName": "Level_End_ShootLayer",
+          "IsLoop": false,
+          "LayerIndex": 1,
+          "ModifierNameList": [
+            "Remove_Shooting"
+          ],
+          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeLow": 0.0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Military_TraceLaser_StateChange",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Effect_Alert": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LaunchingPort_1",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_MilitaryTraceLaser_02_AlertLine",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Effect_Idle": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LaunchingPort_1",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_MachineGun_AimLine",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Effect_Shooting": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_Ring",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_MilitaryTraceLaser_01_Loop",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Effect_Shooting_Standby": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_Ring",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_MilitaryTraceLaser_01_Trail",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LaunchingPort_1",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_MilitaryTraceLaser_01_AlertLine",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Remove_Shooting": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveAbilityAction",
+          "AbilityName": "Device_Military_TraceLaser_LaserBeam",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Shooting": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityName": "Device_Military_TraceLaser_LaserBeam",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveAbilityAction",
+          "AbilityName": "Device_Military_TraceLaser_LaserBeam",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

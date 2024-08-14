@@ -1,0 +1,26 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "LockLifePropertyMixin",
+      "OnLifeLockFirstTriggeredActions": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "ListenJaneDoeLockLife"
+        },
+        {
+          "$type": "TriggerBehaviorTreeAction",
+          "Enable": false
+        }
+      ],
+      "PerformBeHitEffect": true,
+      "RatioLockList": [
+        {
+          "LockType": "Total",
+          "LockValue": 0.01
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_LockLife",
+  "AbilityStacking": "Unique"
+}

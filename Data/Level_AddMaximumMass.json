@@ -1,0 +1,23 @@
+{
+  "AbilityName": "Level_AddMaximumMass",
+  "AbilitySpecials": {
+    "AS_AbnormalResistDelta": {
+      "Value": 0.4
+    },
+    "AS_DamageResist": {
+      "Value": 0.25
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Duration": -1,
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ModifyMassRatioAction",
+        "Ratio": 999999,
+        "Target": "Self"
+      }
+    ]
+  }
+}

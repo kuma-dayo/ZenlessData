@@ -1,0 +1,25 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1001,
+      "EAAFCGPDFAA": "SkillDamageRate",
+      "BDHKIKIEOGN": 10000,
+      "JMBCNMICGIP": "{0:0.#%}",
+      "DDOCANPHAOL": 3
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "EAAFCGPDFAA": "SkillStunRatio",
+      "BDHKIKIEOGN": 10000,
+      "JMBCNMICGIP": "{0:0.#%}",
+      "DDOCANPHAOL": 3
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "EAAFCGPDFAA": "SkillSpRecovery",
+      "BDHKIKIEOGN": 10000,
+      "JMBCNMICGIP": "{0:0}",
+      "DDOCANPHAOL": 3
+    }
+  ]
+}

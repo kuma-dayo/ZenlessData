@@ -1,0 +1,151 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Parry_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_Parry_Ready"
+          ]
+        },
+        {
+          "AnimatorStateName": "Parry_Loop",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_Parry_Ready"
+          ]
+        }
+      ],
+      "IsSeam": false
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_ParryHit",
+              "ParamType": 2,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Parry_Start",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Hit_Parry_01",
+              "FireEffectPosRot": {
+                "CoordsOption": "ReferTarget",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 1
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "Self"
+                }
+              },
+              "Target": "Self"
+            },
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Hit_Parry_01",
+              "FireEffectPosRot": {
+                "CoordsOption": "ReferTarget",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 1
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "Self"
+                }
+              },
+              "Target": "Self"
+            },
+            {
+              "$type": "TimeSlowByConfigKeyAction",
+              "ConfigKey": "ParryAid_TimeSlow_01",
+              "IsGlobal": true
+            },
+            {
+              "$type": "TriggerSoundAction",
+              "Target": "Self",
+              "soundActionKey": "Monster_JaneDoe_ParrySuccess"
+            }
+          ],
+          "AnimatorStateName": "Parry_Hit",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "JaneDoe_ParryManage",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Modifier_Parry_Ready": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnBeingHit": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_ParryHit",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Monster_JaneDoe_Parry_Attackproperty_01",
+          "Target": "Target"
+        }
+      ]
+    }
+  }
+}

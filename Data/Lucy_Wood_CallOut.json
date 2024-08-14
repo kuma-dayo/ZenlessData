@@ -1,0 +1,92 @@
+{
+  "AbilityName": "Lucy_Wood_CallOut",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_CallOut",
+      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "InitAbilitySpecialList": [
+        {
+          "SpecialName": "AS_WoodNum",
+          "Value": 1,
+          "ValueType": "Integer"
+        }
+      ],
+      "Predicates": [
+        {
+          "$type": "ByAIParam",
+          "CompareType": "Equal",
+          "IntParamValue": 0,
+          "ParamName": "Int_WoodNum",
+          "Target": "Self"
+        }
+      ],
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_CallOut",
+      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "InitAbilitySpecialList": [
+        {
+          "SpecialName": "AS_WoodNum",
+          "Value": 2,
+          "ValueType": "Integer"
+        }
+      ],
+      "Predicates": [
+        {
+          "$type": "ByAIParam",
+          "CompareType": "Equal",
+          "IntParamValue": 1,
+          "ParamName": "Int_WoodNum",
+          "Target": "Self"
+        }
+      ],
+      "Target": "Custom"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Lucy_CallOut",
+      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "InitAbilitySpecialList": [
+        {
+          "SpecialName": "AS_WoodNum",
+          "Value": 3,
+          "ValueType": "Integer"
+        }
+      ],
+      "Predicates": [
+        {
+          "$type": "ByAIParam",
+          "CompareType": "Equal",
+          "IntParamValue": 2,
+          "ParamName": "Int_WoodNum",
+          "Target": "Self"
+        }
+      ],
+      "Target": "Custom"
+    },
+    {
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "ByAIParam",
+          "CompareType": "Less",
+          "IntParamValue": 0,
+          "ParamName": "Int_ShouldWhistle",
+          "Target": "Self"
+        }
+      ],
+      "SuccessActions": [
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 0,
+          "ParamName": "Int_ShouldWhistle",
+          "Target": "Self"
+        }
+      ]
+    }
+  ]
+}

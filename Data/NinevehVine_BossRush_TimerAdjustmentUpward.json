@@ -1,0 +1,159 @@
+{
+  "AbilityName": "NinevehVine_BossRush_TimerAdjustmentUpward",
+  "AbilitySpecials": {
+    "AS_Nineveh_BossRush_VineBeingKilledUpwardTime": {
+      "Value": 0,
+      "ValueType": "Float"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BossRush_TimerAdjustmentUpward_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Nineveh_BossRush_Vine"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "CustomKey": "Monster_Nineveh",
+            "Tags": [
+              "BossRush"
+            ],
+            "Target": "Custom"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BossRush_TimerAdjustmentUpward_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnKilledPre": [
+        {
+          "$type": "OperateLevelTimerAction",
+          "Key": "Nineveh_BossRush_LevelCountdown",
+          "OpCode": "OffsetDuration",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Level",
+          "Value": "%AS_Nineveh_BossRush_VineBeingKilledUpwardTime"
+        },
+        {
+          "$type": "SetTargetAbilitySpecialAction",
+          "CustomKey": "Monster_Nineveh",
+          "Params": [
+            {
+              "AbilityName": "Nineveh_BossRush_BerserkPhaseTimer",
+              "AbilitySpecials": [
+                {
+                  "ModifyFunction": "Add",
+                  "Param": "%AS_Nineveh_BossRush_VineBeingKilledUpwardTime",
+                  "ParamName": "AS_TargetTime_01",
+                  "ParamType": "Float"
+                },
+                {
+                  "ModifyFunction": "Add",
+                  "Param": "%AS_Nineveh_BossRush_VineBeingKilledUpwardTime",
+                  "ParamName": "AS_TargetTime_02",
+                  "ParamType": "Float"
+                },
+                {
+                  "ModifyFunction": "Add",
+                  "Param": "%AS_Nineveh_BossRush_VineBeingKilledUpwardTime",
+                  "ParamName": "AS_TargetTime_03",
+                  "ParamType": "Float"
+                }
+              ]
+            }
+          ],
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Custom"
+        },
+        {
+          "$type": "SetLevelExtVariableAction",
+          "ModifyFunction": "Add",
+          "Param": "%AS_Nineveh_BossRush_VineBeingKilledUpwardTime",
+          "ParamName": "BossRush_SessionTimeIncrement",
+          "ParamType": "Float",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "LDListenEntityAction",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "BossRush_VineTimedRetrieval"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "TargetKey": "Nineveh_BossRush_UpwardTime_Vine"
+        }
+      ]
+    }
+  }
+}

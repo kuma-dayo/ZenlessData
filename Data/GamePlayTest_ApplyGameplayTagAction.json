@@ -1,0 +1,28 @@
+{
+  "AbilityName": "GamePlayTest_ApplyGameplayTagAction",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Duration": -1,
+    "IgnoreTimeScale": false,
+    "OnAdded": [
+      {
+        "$type": "ApplyGameplayTagAction",
+        "IsAdd": true,
+        "Tags": [
+          "GamePlayTest_ApplyGameplayTagAction"
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyGameplayTagAction",
+      "IsAdd": false,
+      "Tags": [
+        "GamePlayTest_ApplyGameplayTagAction"
+      ],
+      "Target": "Self"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "KKJNCENHOHD": "VR_RoleExp|VR_WeaponExp|VR_Coin|VR_AvatarRankMaterial|VR_AvatarSkillMaterial|VR_WeaponBreak_1",
+      "AONIEAGPDFD": "VR_Combat"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "KKJNCENHOHD": "VR_CD|VR_CDMaterial_2|VR_CDMaterial_1",
+      "AONIEAGPDFD": "VR_Driver"
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "KKJNCENHOHD": "VR_SmallBoss_1|VR_SmallBoss_2|VR_SmallBoss_3|VR_SmallBoss_4|VR_SmallBoss_5",
+      "AONIEAGPDFD": "VR_Expert"
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "KKJNCENHOHD": "VR_BigBoss_1|VR_BigBoss_2|VR_WeaponCore",
+      "AONIEAGPDFD": "VR_Reckless"
+    }
+  ]
+}

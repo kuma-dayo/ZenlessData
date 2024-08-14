@@ -1,0 +1,22 @@
+{
+  "AbilityName": "TrainingRoomAbility_ForbidStun",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "PropertyKey": "Actor_NoStun",
+        "PropertyValue": 1,
+        "Target": "Self"
+      }
+    ],
+    "OnBuffDamageHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "PropertyKey": "Actor_NoStun",
+        "PropertyValue": 1,
+        "Target": "Self"
+      }
+    ]
+  }
+}

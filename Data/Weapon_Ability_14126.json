@@ -1,0 +1,123 @@
+{
+  "AbilityName": "Weapon_Ability_14126",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio_Physics": {
+      "Value": 0
+    },
+    "AS_Duration": {
+      "Value": 0
+    },
+    "AS_ElementAccumulationRatio": {
+      "Value": 0
+    },
+    "AS_IntervalCD": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBattleEnter": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier",
+        "StackCount": 3,
+        "Target": "Self"
+      }
+    ],
+    "OnDodgeSuccess": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier",
+        "StackCount": 3,
+        "Target": "Self"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "Rush",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "CDCountModifier"
+            ],
+            "OperatorType": "Not",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CDCountModifier",
+        "Predicates": [
+          {
+            "$type": "ByFromSkillType",
+            "SkillType": "Rush",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "CDCountModifier"
+            ],
+            "OperatorType": "Not",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Actor_AddedElementAccumulationRatioModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_ElementAccumulationRatio"
+      }
+    },
+    "AddedDamageRatioModifier": {
+      "Duration": "%AS_Duration",
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "MultipleAllRefresh",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Actor_AddedElementAccumulationRatioModifier",
+          "Predicates": [
+            {
+              "$type": "ByModifierStackCount",
+              "CompareType": "GreaterEqual",
+              "CountModifierType": "CurTargetAbility",
+              "ModifierName": "AddedDamageRatioModifier",
+              "StackCount": 3,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Actor_AddedElementAccumulationRatioModifier",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_AddedDamageRatio_Physics": "%AS_AddedDamageRatio_Physics"
+      }
+    },
+    "CDCountModifier": {
+      "Duration": "%AS_IntervalCD",
+      "ModifierStacking": "Unique"
+    }
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "PartDestroy",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RemoveChargeModifier",
+            "TriggerPartDestroyCDModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Death_Ground_S",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RemoveChargeModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Death_Ground_F",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RemoveChargeModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Death_Ground_B",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RemoveChargeModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "DubiousHero_Charge",
+  "AbilitySpecials": {
+    "AS_ATK_Percentage": {
+      "Value": 3
+    },
+    "AS_AddedBreakStunRatio": {
+      "Value": -0.5
+    },
+    "AS_ChargeCD": {
+      "Value": 4
+    },
+    "AS_DamageTakeRatio": {
+      "Value": -0.5
+    },
+    "AS_PartDestroyChargeCD": {
+      "Value": 20
+    },
+    "AS_RecoverStunPercentage": {
+      "Value": 0
+    },
+    "ElecAttack": {
+      "Value": 500
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierMixins": [
+      {
+        "$type": "ActionsOnPropertyChangeMixin",
+        "PropertyActions": [
+          {
+            "CustomPropertyType": "ChargeDisablePoint",
+            "IsUsePercentage": false,
+            "PropertyType": "Custom",
+            "ValueRangeActions": [
+              {
+                "HighToValueActions": [
+                  {
+                    "$type": "HandleAnimatorZoneTagsAction",
+                    "AnimatorStateTags": [
+                      "ElecFromAvatar"
+                    ],
+                    "IsAdd": false,
+                    "Target": "Self"
+                  }
+                ],
+                "Val": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(Attack)*specials(AS_ATK_Percentage)",
+        "ParamName": "ElecAttack",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnBuffAdded": [
+      {
+        "$type": "SetModifierDurationAction",
+        "ModifierName": "PartElecBuff",
+        "ModifierTargetType": "SameNameAbility",
+        "ModifyType": "Replace",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Disorder"
+            ]
+          },
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "PartElecBuff"
+            ]
+          }
+        ],
+        "Target": "Self",
+        "Value": 5
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "InterruptChargeByBuffModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Disorder"
+            ],
+            "Target": "Self"
+          },
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "ChargeModifier"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "ElecFromAvatar"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": 1,
+        "CustomPropertyType": "ChargeDisablePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ],
+    "OnBuffRemoved": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": -1,
+        "CustomPropertyType": "ChargeDisablePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ChargeCDModifier": {
+      "Duration": "%AS_ChargeCD",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "ChargeCD"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "ChargeCD"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ChargeEffectModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachPointName": "Bip001 L Hand",
+          "EffectPattern": "Eff_Monster_DubiousHero_Charge_04_Loop",
+          "Target": "Self"
+        }
+      ]
+    },
+    "ChargeModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 1,
+          "ParamName": "Int_ChargeTrigger",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachModifier",
+          "ModifierName": "ChargePropertyModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_Charged",
+          "Target": "Self"
+        },
+        {
+          "$type": "ShowSpecialDamageTextAction",
+          "AttachPoint": "Bip001 L Hand",
+          "Target": "Self",
+          "TextType": "Elec"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_Charged",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "Charge"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachModifier",
+          "ModifierName": "PartElecBuffModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero02"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero_Break"
+            }
+          ],
+          "Tag": "DubiousHero_04",
+          "Target": "Self",
+          "key": "Monster_DubiousHero_MA_Charge_Mat04_AbnormalProperty_04"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero02"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero_Break"
+            }
+          ],
+          "Tag": "DubiousHero_05",
+          "Target": "Self",
+          "key": "Monster_DubiousHero_MA_Charge_Mat01_OverrideRimGlow_01"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ChargeEffectModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AddedBreakStunRatio",
+          "PropertyValue": "%AS_AddedBreakStunRatio",
+          "Target": "Target"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "WriteAIParamAction",
+          "IntParamValue": 2,
+          "ParamName": "Int_ChargeTrigger",
+          "Target": "Self"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "Bool_Charged",
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_Charged",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "Charge"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "DubiousHero_05",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "DubiousHero_04",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ChargeEffectModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "PartElecBuffModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnSkillReady": [
+        {
+          "$type": "AttachModifier",
+          "ModifierName": "ChargeEffectModifier",
+          "Predicates": [
+            {
+              "$type": "BySkillName",
+              "SkillName": "DubiousHero_ATK_Combo",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnSkillStart": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ChargeEffectModifier",
+          "Predicates": [
+            {
+              "$type": "ByFromSkillID",
+              "SkillID": "DubiousHero_ATK_Combo",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "ChargePropertyModifier": {
+      "Duration": -1,
+      "MaxStackingNumber": 1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    },
+    "ElecFromAvatarModifier": {
+      "Duration": 0.1,
+      "ModifierStacking": "Unique"
+    },
+    "InterruptChargeByBuffModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Charge_End_Disorder"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ChargeModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TriggerPartDestroyCDModifier",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "HasPart"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "TriggerChargeCDModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "PartDestroyPoint",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Counter",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Hit",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "RecoverStunAction",
+          "Amount": 0,
+          "Percentage": "%AS_RecoverStunPercentage",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero02"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_DubiousHero_Break"
+            }
+          ],
+          "Tag": "DubiousHero_Hit",
+          "Target": "Self",
+          "key": "Monster_DubiousHero_MA_Parry_SecondaryEmission_01"
+        },
+        {
+          "$type": "FireEffect",
+          "AttachPointName": "Bip001 L Hand",
+          "EffectPattern": "Eff_Monster_DubiousHero_Block_01",
+          "Target": "Self"
+        }
+      ]
+    },
+    "PartDestroyCDModifier": {
+      "Duration": "%AS_PartDestroyChargeCD",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "PartDestroyChargeCD"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "PartDestroyChargeCD"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    },
+    "PartElecBuff": {
+      "Buff": {
+        "BuffID": 3300001,
+        "IgnoreForeverReplace": true,
+        "IsOverrideDuration": true,
+        "IsOverrideOdds": false
+      },
+      "Duration": -1,
+      "MaxStackingNumber": 1,
+      "ModifierStacking": "Unique",
+      "OnBuffAddResolved": [
+        {
+          "$type": "AddElementAbnormalAttackDataAction",
+          "IsUseSelfProperty": true,
+          "OverrideAttackData": {
+            "attack": "%ElecAttack",
+            "elementMystery": 100
+          },
+          "Target": "Self"
+        }
+      ]
+    },
+    "PartElecBuffModifier": {
+      "Duration": -1,
+      "MaxStackingNumber": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "PartElecBuff",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasBuffGroup",
+                  "BuffGroupList": [
+                    "Electric",
+                    "Overload"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "PartElecBuff",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffGroup",
+              "BuffGroupList": [
+                "Electric",
+                "Overload"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByRelativeCampType",
+              "Relationship": "Enemy",
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ElecFromAvatarModifier"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnElementAbnormalTriggeredPre": [
+        {
+          "$type": "AttachModifier",
+          "ModifierName": "ElecFromAvatarModifier",
+          "Predicates": [
+            {
+              "$type": "ByElementAbnormalAddBuff",
+              "BuffGroupList": [
+                "Electric",
+                "Overload"
+              ]
+            },
+            {
+              "$type": "ByRelativeCampType",
+              "Relationship": "Enemy",
+              "Target": "Other"
+            }
+          ]
+        }
+      ]
+    },
+    "RemoveChargeModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ChargeModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "TriggerChargeCDModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ChargeCDModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "TriggerPartDestroyCDModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "PartDestroyCDModifier",
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "AttachModifier",
+      "ModifierName": "ChargeModifier",
+      "Target": "Self"
+    }
+  ]
+}

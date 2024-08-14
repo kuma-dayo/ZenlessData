@@ -1,0 +1,102 @@
+{
+  "AbilityName": "ActivityBattleAbility_Buff_CounterPlay",
+  "AbilitySpecials": {
+    "AS_AccumulationRatio": {
+      "Value": 0.8
+    },
+    "AS_BuffDamageRatio": {
+      "Value": 0.8
+    },
+    "AS_BuffDuration": {
+      "Value": 15.0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffListenModifier",
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BuffListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "BuffModifier": {
+      "Buff": {
+        "BuffID": 9000016,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Refresh",
+      "OnBuffDamageHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByHasBuffID",
+              "BuffIDList": [
+                9000001
+              ],
+              "Target": "Level"
+            },
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Electric",
+                "Overload",
+                "Erosion",
+                "Chaos",
+                "Frozen",
+                "Frostbite",
+                "Burn",
+                "Ignite",
+                "Strike"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_BuffDamageRatio",
+          "PropertyValue": "%AS_BuffDamageRatio",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_AccumulationRatio"
+      }
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "PFIKGMGNCGH": 100,
+      "EIJFALGGBDM": 10,
+      "FHPNDIPPDLE": 1,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "Grocery_Name_100",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "Text_ShopTab_UnlockInfo_100",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 101,
+      "EIJFALGGBDM": 10,
+      "FHPNDIPPDLE": 1,
+      "GNPHOFPLCNA": 2,
+      "IOEFEJJILJD": "Grocery_Name_101",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "Text_ShopTab_UnlockInfo_101",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 102,
+      "EIJFALGGBDM": 10,
+      "FHPNDIPPDLE": 1,
+      "GNPHOFPLCNA": 3,
+      "IOEFEJJILJD": "Grocery_Name_102",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "Text_ShopTab_UnlockInfo_102",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 301,
+      "EIJFALGGBDM": 30,
+      "FHPNDIPPDLE": 3,
+      "GNPHOFPLCNA": 2,
+      "IOEFEJJILJD": "",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "Text_ArcadeShop_UnlockInfo_100",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 100101001,
+      "EJNFDEOFMIB": [
+        401
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 303,
+      "EIJFALGGBDM": 30,
+      "FHPNDIPPDLE": 3,
+      "GNPHOFPLCNA": 4,
+      "IOEFEJJILJD": "",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "Text_ArcadeShop_UnlockInfo_100",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 100101101,
+      "EJNFDEOFMIB": [
+        402
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 401,
+      "EIJFALGGBDM": 40,
+      "FHPNDIPPDLE": 4,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "Shop_Name_Abyss",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        118
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 402,
+      "EIJFALGGBDM": 40,
+      "FHPNDIPPDLE": 4,
+      "GNPHOFPLCNA": 2,
+      "IOEFEJJILJD": "Shop_Name_Challenge",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "ChallengeShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        119
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 10000,
+      "EIJFALGGBDM": 1000,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_Feature",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        101,
+        100
+      ],
+      "NDFBCPPJKKM": 3,
+      "HKMCDLBMAIP": true,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallRecommendationPanelBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10010,
+      "EIJFALGGBDM": 1001,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_BP",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        101,
+        100
+      ],
+      "NDFBCPPJKKM": 11,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": ""
+    },
+    {
+      "PFIKGMGNCGH": 10020,
+      "EIJFALGGBDM": 1002,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_MonthlyCard",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        101,
+        100
+      ],
+      "NDFBCPPJKKM": 10,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CardPanelBg/ShoppingMallCardPanelBG.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10030,
+      "EIJFALGGBDM": 1003,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_Bundles",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        101,
+        100
+      ],
+      "NDFBCPPJKKM": 2,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallGiftWidgetBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10040,
+      "EIJFALGGBDM": 1004,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_RedeemShop01",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        115
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10041,
+      "EIJFALGGBDM": 1004,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 4,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_RedeemShop03",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        110,
+        111,
+        100
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10042,
+      "EIJFALGGBDM": 1004,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 3,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_RedeemShop02",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_TapUnlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        116
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10043,
+      "EIJFALGGBDM": 1004,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 2,
+      "IOEFEJJILJD": "DiamondShop_ShopTab_RedeemShop04",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_TapUnlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        117
+      ],
+      "NDFBCPPJKKM": 0,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/CurrencyPanelBg/ShoppingMallCardPanelBg.prefab"
+    },
+    {
+      "PFIKGMGNCGH": 10050,
+      "EIJFALGGBDM": 1005,
+      "FHPNDIPPDLE": 100,
+      "GNPHOFPLCNA": 1,
+      "IOEFEJJILJD": "DiamondShop_ShopTabGroup_Name_06",
+      "PNDKPFLEJDI": "",
+      "LPDGCALINGE": null,
+      "MMMJEPJLCNC": 0,
+      "DOJLHCCDMAG": false,
+      "AJFOOGJDGAH": "DiamondShop_Unlockinfo_01",
+      "FIJFDPFLMNC": null,
+      "IDDPCOKCODB": 0,
+      "BHJNEMNLKNI": {
+        "JHKEIOAEJCE": 0,
+        "OLNKDJBAFOF": 0
+      },
+      "NJILGEFBHFA": false,
+      "BCEDBEPIJCL": false,
+      "JOCMNJPFAHI": 0,
+      "EJNFDEOFMIB": [
+        101,
+        100
+      ],
+      "NDFBCPPJKKM": 1,
+      "HKMCDLBMAIP": false,
+      "FHLCCIAIBHF": false,
+      "PLILIKNNBID": "Assets/NapResources/UI/Menus/Widget/ShoppingMall/ShoppingMallRechargeWidgetBg.prefab"
+    }
+  ]
+}

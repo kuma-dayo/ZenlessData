@@ -1,0 +1,73 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_08",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_Duration": {
+      "Value": 5
+    },
+    "AS_SmoothRecoverHP": {
+      "Value": 0.05
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnDodgeSuccess": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_08_BuffModifier"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_08_BuffModifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "EvadeAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "Abyss_Fixed02LayerBuff_08_BuffModifier": {
+      "Duration": "%AS_Duration",
+      "IsUnique": true,
+      "ModifierMixins": [
+        {
+          "$type": "SmoothRecoverHPMixin",
+          "IgnoreRatio": true,
+          "PropertyItem": {
+            "Percentage": "%AS_SmoothRecoverHP",
+            "PropertyModifyFunction": "Add",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace",
+      "OnBeAttackLanded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Abyss_Fixed02LayerBuff_08_BuffModifier"
+        }
+      ],
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio"
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "AJLLFDOHEEP": "EmptySub",
+      "IFOFAIDDNLB": []
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "AJLLFDOHEEP": "Blocked_Down",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "AJLLFDOHEEP": "Blocked_Left",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "AJLLFDOHEEP": "Blocked_Right",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "AJLLFDOHEEP": "Blocked_Up",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 6,
+      "AJLLFDOHEEP": "Anchor",
+      "IFOFAIDDNLB": [
+        "FLAG_ANCHOR",
+        "FLAG_NO_STAMINA"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 7,
+      "AJLLFDOHEEP": "Aim",
+      "IFOFAIDDNLB": [
+        "FLAG_AIM"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 8,
+      "AJLLFDOHEEP": "Block",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 9,
+      "AJLLFDOHEEP": "Anchor_Unlock",
+      "IFOFAIDDNLB": [
+        "FLAG_NO_STAMINA"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 10,
+      "AJLLFDOHEEP": "Aim_OverrideAll",
+      "IFOFAIDDNLB": [
+        "FLAG_OVERRIDE_PLAYER",
+        "FLAG_OVERRIDE_NPC"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 11,
+      "AJLLFDOHEEP": "Aim_OverridePlayer",
+      "IFOFAIDDNLB": [
+        "FLAG_OVERRIDE_PLAYER",
+        "FLAG_AIM"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 12,
+      "AJLLFDOHEEP": "Aim_OverrideNPC",
+      "IFOFAIDDNLB": [
+        "FLAG_OVERRIDE_NPC",
+        "FLAG_AIM"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 13,
+      "AJLLFDOHEEP": "Inaccessible_Up",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 14,
+      "AJLLFDOHEEP": "Inaccessible_Down",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_DOWN"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 15,
+      "AJLLFDOHEEP": "Inaccessible_Left",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_LEFT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 16,
+      "AJLLFDOHEEP": "Inaccessible_Right",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 17,
+      "AJLLFDOHEEP": "Inaccessible_UpDown",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 18,
+      "AJLLFDOHEEP": "Inaccessible_UpRight",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 19,
+      "AJLLFDOHEEP": "Inaccessible_UpLeft",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_LEFT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 20,
+      "AJLLFDOHEEP": "Inaccessible_DownRight",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 21,
+      "AJLLFDOHEEP": "Inaccessible_DownLeft",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 22,
+      "AJLLFDOHEEP": "Inaccessible_LeftRight",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 23,
+      "AJLLFDOHEEP": "Accessible_Up",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 24,
+      "AJLLFDOHEEP": "Accessible_Down",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 25,
+      "AJLLFDOHEEP": "Accessible_Left",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 26,
+      "AJLLFDOHEEP": "Accessible_Right",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 27,
+      "AJLLFDOHEEP": "Blocked_Single",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 28,
+      "AJLLFDOHEEP": "Affected_EMP",
+      "IFOFAIDDNLB": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 29,
+      "AJLLFDOHEEP": "Unavailable",
+      "IFOFAIDDNLB": [
+        "FLAG_ANCHOR",
+        "FLAG_NO_STAMINA"
+      ]
+    },
+    {
+      "NGPCCDGBLLK": 30,
+      "AJLLFDOHEEP": "Anchor_LockedShow",
+      "IFOFAIDDNLB": [
+        "FLAG_ANCHOR",
+        "FLAG_NO_STAMINA"
+      ]
+    }
+  ]
+}

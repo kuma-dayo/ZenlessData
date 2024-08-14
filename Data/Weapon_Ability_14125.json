@@ -1,0 +1,73 @@
+{
+  "AbilityName": "Weapon_Ability_14125",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_BreakStunRatio": {
+      "Value": 0.1
+    },
+    "AS_Duration": {
+      "Value": 8.0
+    },
+    "AS_Duration_02": {
+      "Value": 10.0
+    },
+    "AS_MinStackCount": {
+      "Value": 20
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOtherPre": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedBreakStunModifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Normal"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedBreakStunModifier": {
+      "Duration": "%AS_Duration",
+      "MaxStackingNumber": 30,
+      "ModifierStacking": "MultipleRefresh",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedDamageRatioModifier_Weapon_Ability_14125",
+          "Predicates": [
+            {
+              "$type": "ByModifierStackCount",
+              "CompareType": "GreaterEqual",
+              "ModifierName": "AddedBreakStunModifier",
+              "StackCount": "%AS_MinStackCount",
+              "Target": "Self"
+            }
+          ],
+          "Target": "TeamAvatars"
+        }
+      ],
+      "Properties": {
+        "Actor_BreakStunRatio": "%AS_BreakStunRatio"
+      }
+    },
+    "AddedDamageRatioModifier_Weapon_Ability_14125": {
+      "Duration": "%AS_Duration_02",
+      "IsUnique": true,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio"
+      }
+    }
+  }
+}

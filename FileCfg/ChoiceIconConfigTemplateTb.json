@@ -1,0 +1,264 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 100,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpTest.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 101,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpCard.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 102,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpFund.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 103,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpHPRecover.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 104,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpSupply.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 105,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpTranquilizer.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 106,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventContinue.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 107,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventGeneral.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 108,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventCoin.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 109,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventBattle.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 110,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventRole.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 111,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventResource.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 112,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventInfo.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 113,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventDevice.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 114,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpCard02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 115,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpFund02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 116,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpHPRecover02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 117,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpSupply02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 118,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpTranquilizer02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 119,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventRole02.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 120,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventExit.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 121,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventBangbooAdd.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 122,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventBangbooMinus.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 123,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventUpgrade.png",
+      "MOGFCKMNEML": 1
+    },
+    {
+      "NGPCCDGBLLK": 1000,
+      "KJFMJKPKHMI": "Fairy_Normal",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1011,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle01.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1021,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle11.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1031,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle12.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1041,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle05.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1061,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle09.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1071,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/Hollow/IconEventOption/Packer/IconEventOpTest.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1081,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle10.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1091,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle13.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1101,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle14.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1111,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle15.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1121,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle16.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1131,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle17.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1141,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle18.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1151,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle27.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1161,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle26.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1181,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle20.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1191,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle21.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1201,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle35.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1211,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle22.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1221,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle31.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1241,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle23.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1251,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle29.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1261,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle24.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1271,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle30.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 1281,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle28.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 53002,
+      "KJFMJKPKHMI": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30069.png",
+      "MOGFCKMNEML": 2
+    },
+    {
+      "NGPCCDGBLLK": 999999,
+      "KJFMJKPKHMI": "TestKey",
+      "MOGFCKMNEML": 1
+    }
+  ]
+}

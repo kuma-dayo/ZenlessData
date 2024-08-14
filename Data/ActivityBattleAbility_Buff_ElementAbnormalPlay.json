@@ -1,0 +1,72 @@
+{
+  "AbilityName": "ActivityBattleAbility_Buff_ElementAbnormalPlay",
+  "AbilitySpecials": {
+    "AS_BuffDuration": {
+      "Value": 15.0
+    },
+    "AS_ElementMysteryDelta": {
+      "Value": 50
+    },
+    "AS_SPGetRatio": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffListenModifier",
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BuffListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "SPRecoverModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "SPRecoverModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "SPRecoverModifier": {
+      "Buff": {
+        "BuffID": 9000011,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta",
+        "Actor_SPGetRatio": "%AS_SPGetRatio"
+      }
+    }
+  }
+}

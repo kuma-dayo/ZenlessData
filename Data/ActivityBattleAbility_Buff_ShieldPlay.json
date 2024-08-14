@@ -1,0 +1,140 @@
+{
+  "AbilityName": "ActivityBattleAbility_Buff_ShieldPlay",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_BuffDuration": {
+      "Value": 15.0
+    },
+    "AS_HpShieldDuration": {
+      "Value": 30.0
+    },
+    "AS_ShieldPercentage": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffListenModifier",
+        "Target": "Level"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BuffListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBuffAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnBuffRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "BuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByHandlingBuffID",
+              "BuffIDList": [
+                9000001
+              ]
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "BuffModifier": {
+      "Buff": {
+        "BuffID": 9000012,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_BuffDuration",
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldModifier"
+        }
+      ],
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByHasHpShield",
+              "HpShieldValueCompare": "Greater",
+              "Value": 0
+            },
+            {
+              "$type": "ByHasBuffID",
+              "BuffIDList": [
+                9000001
+              ],
+              "Target": "Level"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Self"
+        }
+      ]
+    },
+    "ShieldModifier": {
+      "Duration": "%AS_HpShieldDuration",
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "EmptyActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "Priority": 0,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "Tag": "ActivityBattleAbility_Buff_ShieldPlay",
+          "TotalValueConfig": {
+            "Amount": 0,
+            "Percentage": "%AS_ShieldPercentage",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetRBLAction",
+          "RBL": 3,
+          "Tag": "ShieldRBL",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "ShieldRBL",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

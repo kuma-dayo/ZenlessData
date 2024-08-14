@@ -1,0 +1,94 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "IPGEOIGLGAB": 1,
+      "KGKBFFOCAEC": 5,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "UIText_756",
+      "KNGMJMNNAJC": 10036,
+      "CNPDPGMHOJA": "HB_NormalMaterial_Desc",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "HB_UnlockTips_Material",
+      "BEJPHMOGEEM": 3
+    },
+    {
+      "IPGEOIGLGAB": 2,
+      "KGKBFFOCAEC": 6,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "UIText_755",
+      "KNGMJMNNAJC": 10056,
+      "CNPDPGMHOJA": "HB_EquipBreakMaterial_Desc",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "HB_UnlockTips_Equip",
+      "BEJPHMOGEEM": 3
+    },
+    {
+      "IPGEOIGLGAB": 3,
+      "KGKBFFOCAEC": 1,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "HB_MonsterCardDaily",
+      "KNGMJMNNAJC": 10057,
+      "CNPDPGMHOJA": "HB_MonsterCardDaily_Desc",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "HB_UnlockTips_Monster",
+      "BEJPHMOGEEM": 3
+    },
+    {
+      "IPGEOIGLGAB": 4,
+      "KGKBFFOCAEC": 2,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "HB_MonsterCardBoss",
+      "KNGMJMNNAJC": 10058,
+      "CNPDPGMHOJA": "HB_MonsterCardBoss_Desc",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "HB_UnlockTips_Boss",
+      "BEJPHMOGEEM": 4
+    },
+    {
+      "IPGEOIGLGAB": 5,
+      "KGKBFFOCAEC": 3,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "HB_Abyss",
+      "KNGMJMNNAJC": 10049,
+      "CNPDPGMHOJA": "HB_Abyss_Desc",
+      "EGGCECBGEJA": [
+        101001
+      ],
+      "GDOOOOLKBIO": "HB_UnlockTips_Abyss",
+      "BEJPHMOGEEM": 4
+    },
+    {
+      "IPGEOIGLGAB": 6,
+      "KGKBFFOCAEC": 4,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "HB_HadalZone",
+      "KNGMJMNNAJC": 10059,
+      "CNPDPGMHOJA": "HB_HadalZone_Desc",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "HB_UnlockTips_Hadal",
+      "BEJPHMOGEEM": 4
+    },
+    {
+      "IPGEOIGLGAB": 7,
+      "KGKBFFOCAEC": 0,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "",
+      "KNGMJMNNAJC": 1005,
+      "CNPDPGMHOJA": "",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "",
+      "BEJPHMOGEEM": 1
+    },
+    {
+      "IPGEOIGLGAB": 8,
+      "KGKBFFOCAEC": 0,
+      "MNDCNAFHLFO": "",
+      "NGCOFLAHJJP": "",
+      "KNGMJMNNAJC": 10036,
+      "CNPDPGMHOJA": "",
+      "EGGCECBGEJA": [],
+      "GDOOOOLKBIO": "",
+      "BEJPHMOGEEM": 2
+    }
+  ]
+}

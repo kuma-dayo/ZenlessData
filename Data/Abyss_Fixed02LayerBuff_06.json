@@ -1,0 +1,53 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_06",
+  "AbilitySpecials": {
+    "AS_AddedElementAccumulationRatio": {
+      "Value": 0.3
+    },
+    "AS_Duration": {
+      "Value": 10
+    },
+    "AS_EnemyDamageRatio": {
+      "Value": -0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBuffAddToOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Abyss_Fixed02LayerBuff_06_EnemyDamageModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos",
+              "Burn",
+              "Ignite",
+              "Frozen",
+              "Frostbite",
+              "Strike"
+            ]
+          }
+        ],
+        "Target": "Other"
+      }
+    ],
+    "Properties": {
+      "Actor_AddedElementAccumulationRatio": "%AS_AddedElementAccumulationRatio"
+    }
+  },
+  "Modifiers": {
+    "Abyss_Fixed02LayerBuff_06_EnemyDamageModifier": {
+      "Duration": "%AS_Duration",
+      "IsUnique": true,
+      "ModifierStacking": "Refresh",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_EnemyDamageRatio"
+      }
+    }
+  }
+}

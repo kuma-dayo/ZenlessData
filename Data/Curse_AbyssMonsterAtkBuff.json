@@ -1,0 +1,51 @@
+{
+  "AbilityName": "Curse_AbyssMonsterAtkBuff",
+  "AbilitySpecials": {
+    "AS_DecreaseFeverRatio": {
+      "Value": 0.1
+    },
+    "AS_DecreaseSPRatio": {
+      "Value": 0.15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DecreaseEnergyModifier",
+        "Predicates": [
+          {
+            "$type": "ByTotalDamage",
+            "CompareType": "Greater",
+            "Damage": 0,
+            "SkipDamage": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DecreaseEnergyModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "DecreaseSPAction",
+          "Amount": 0,
+          "Percentage": "%AS_DecreaseSPRatio",
+          "Target": "Self"
+        },
+        {
+          "$type": "DecreaseFeverAction",
+          "Amount": 0,
+          "Percentage": "%AS_DecreaseFeverRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

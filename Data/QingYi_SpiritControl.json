@@ -1,0 +1,511 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_01_Enhance",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 13,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_BranchEnhance"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Enhance_End",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_BranchEnhance"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "QingYi_Spirit",
+          "CustomReferMaxPropertyType": "QingYi_Spirit_MaxValue",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Modifier_SpiritEnhance",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 75
+            },
+            {
+              "Val": 75,
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Modifier_SpiritEnhance",
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Modifier_SpiritEnhance_Max",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 100
+            },
+            {
+              "Val": 100,
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Modifier_SpiritEnhance_Max",
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "QingYi_SpiritControl",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatio": {
+      "Value": 0.01
+    },
+    "AS_AddedDamageRatio": {
+      "Value": 0.01
+    },
+    "AS_CriticalDelta_Talent_01": {
+      "Value": 0.3
+    },
+    "AS_DebuffDuration_Talent_01": {
+      "Value": 15
+    },
+    "AS_DefenceRatio_Talent_01": {
+      "Value": 0.3
+    },
+    "AddedBreakStunRatioTotal": {
+      "Value": 0
+    },
+    "AddedDamageRatioTotal": {
+      "Value": 0
+    },
+    "IsTriggerTalent_01": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "RecoverRate": {
+      "Value": 1
+    },
+    "SpiritRecoverAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnPatternAttackLanded": [
+      {
+        "$type": "SetAbilitySpecialByExpressionListAction",
+        "Expressions": [
+          {
+            "AbilitySpecialName": "SpiritRecoverAmount",
+            "Expression": "{0}*{1}"
+          }
+        ],
+        "Params": [
+          {
+            "$type": "ExpressionParamAttackData",
+            "AttackDataType": "AttackPropertyCustom",
+            "AttackPropertyDataIndex": 0,
+            "ParamType": "AttackData"
+          },
+          {
+            "$type": "ExpressionParamAbilitySpecial",
+            "AbilitySpecialKey": "RecoverRate",
+            "ParamType": "AbilitySpecial"
+          }
+        ]
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%SpiritRecoverAmount",
+        "CustomPropertyType": "QingYi_Spirit",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Modifier_BranchEnhance": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "(property(QingYi_Spirit)-75)*specials(AS_AddedDamageRatio)",
+          "ParamName": "AddedDamageRatioTotal",
+          "Target": "Self",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "(property(QingYi_Spirit)-75)*specials(AS_AddedBreakStunRatio)",
+          "ParamName": "AddedBreakStunRatioTotal",
+          "Target": "Self",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "0",
+          "ParamName": "IsTriggerTalent_01",
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "Less",
+              "CustomNumerator": "QingYi_Spirit",
+              "IsUsePercent": false,
+              "Numerator": "Custom",
+              "Target": "Self",
+              "Val1": 100
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "1",
+          "ParamName": "IsTriggerTalent_01",
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "GreaterEqual",
+              "CustomNumerator": "QingYi_Spirit",
+              "IsUsePercent": false,
+              "Numerator": "Custom",
+              "Target": "Self",
+              "Val1": 100
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "QingYi_Spirit",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "GreaterEqual",
+              "CustomNumerator": "QingYi_Spirit",
+              "IsUsePercent": false,
+              "Numerator": "Custom",
+              "Target": "Self",
+              "Val1": 75
+            }
+          ],
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ],
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AddedDamageRatioTotal",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_AddedBreakStunRatio",
+          "PropertyValue": "%AddedBreakStunRatioTotal",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "QingYi_Talent_01_Debuff",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_02",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_03",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_04",
+                "QingYi_Attack_Branch_01_Enhance_AttackProperty_05",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_01",
+                "QingYi_Attack_Branch_01_Enhance_End_AttackProperty_02"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "IsTriggerTalent_01",
+              "ParamType": "Integer"
+            },
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Target"
+        }
+      ]
+    },
+    "Modifier_SpiritEnhance": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Play_SFX_Char_Skill_QingYi_Attack_Branch_Enhance_Ready"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "QingYi_Talent_03",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 4,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_IsSpiritEnhance",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "QingYi_Weapon"
+            }
+          ],
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_02_OverrideRimGlow_02",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_02_OverrideRimGlow_02"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "QingYi_Weapon"
+            }
+          ],
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsSpiritEnhance",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "QingYi_Talent_03",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 4,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_02_OverrideRimGlow_02",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Modifier_SpiritEnhance_Max": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "QingYi_Weapon"
+            }
+          ],
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "QingYi_Weapon"
+            }
+          ],
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_01_ScreenImage_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_01_ScreenImage_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_03_SecondaryEmission_03",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size01_QingYi_MA_Attack_SpiritEnhance_01_Mat_01_ScreenImage_01",
+          "Target": "Self"
+        }
+      ]
+    },
+    "QingYi_Talent_01_Debuff": {
+      "Duration": "%AS_DebuffDuration_Talent_01",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByEntityTemplateID",
+              "EntityType": "Avatar",
+              "Target": "Other",
+              "TemplateID": 1251
+            }
+          ],
+          "PropertyKey": "Actor_CriticalDelta",
+          "PropertyValue": "%AS_CriticalDelta_Talent_01",
+          "Target": "Target"
+        }
+      ],
+      "Properties": {
+        "Actor_DefenceRatio": "%AS_DefenceRatio_Talent_01"
+      }
+    },
+    "QingYi_Talent_01_SpiritBoost": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 100,
+          "CustomPropertyType": "QingYi_Spirit",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "1.3",
+          "ParamName": "RecoverRate",
+          "Target": "Self",
+          "ValueType": "Float"
+        }
+      ]
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "QingYi_Talent_01_SpiritBoost",
+      "Target": "Self"
+    }
+  ]
+}

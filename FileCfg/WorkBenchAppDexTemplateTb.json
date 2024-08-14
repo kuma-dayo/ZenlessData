@@ -1,0 +1,54 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": 1,
+      "EAAFCGPDFAA": "UIText_511",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/IconWorkBenchApp/IconWorkBenchApp03.png",
+      "NAPGNNFJFKD": "#FF000014",
+      "BIJDGMNDONG": 1356,
+      "INHBIEAFAPN": 1,
+      "LPDGCALINGE": "1040140077",
+      "PFFILDBLCEL": "UIText_857"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "EAAFCGPDFAA": "UIText_512",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/IconWorkBenchApp/IconWorkBenchApp01.png",
+      "NAPGNNFJFKD": "#00FFFF14",
+      "BIJDGMNDONG": 1364,
+      "INHBIEAFAPN": 3,
+      "LPDGCALINGE": "1040140076|1040140077",
+      "PFFILDBLCEL": "UIText_857"
+    },
+    {
+      "NGPCCDGBLLK": 3,
+      "EAAFCGPDFAA": "UIText_513",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/IconWorkBenchApp/IconWorkBenchApp02.png",
+      "NAPGNNFJFKD": "#FFFF0014",
+      "BIJDGMNDONG": 7,
+      "INHBIEAFAPN": 5,
+      "LPDGCALINGE": "1040140076|1040140077",
+      "PFFILDBLCEL": "UIText_857"
+    },
+    {
+      "NGPCCDGBLLK": 4,
+      "EAAFCGPDFAA": "UIText_514",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/IconWorkBenchApp/IconWorkBenchApp04.png",
+      "NAPGNNFJFKD": "#00FF0014",
+      "BIJDGMNDONG": 1355,
+      "INHBIEAFAPN": 2,
+      "LPDGCALINGE": "1040140076|1040140077",
+      "PFFILDBLCEL": "UIText_857"
+    },
+    {
+      "NGPCCDGBLLK": 5,
+      "EAAFCGPDFAA": "UIText_804",
+      "ELLAAEPEEPC": "UI/Sprite/A1DynamicLoad/WorkBench/UnPacker/IconWorkBenchApp/IconWorkBenchApp05.png",
+      "NAPGNNFJFKD": "#00FF0014",
+      "BIJDGMNDONG": 1355,
+      "INHBIEAFAPN": 4,
+      "LPDGCALINGE": "1040140076|1040140077",
+      "PFFILDBLCEL": "UIText_857"
+    }
+  ]
+}

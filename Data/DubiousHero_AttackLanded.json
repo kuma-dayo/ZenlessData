@@ -1,0 +1,131 @@
+{
+  "AbilityName": "DubiousHero_AttackLanded",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierMixins": [
+      {
+        "$type": "AttachStateWithModifierMixin",
+        "ConfigList": [
+          {
+            "AnimatorStateName": "Attack_07",
+            "FrameCountHigh": 0,
+            "FrameCountLow": 0,
+            "IsLoop": false,
+            "LayerIndex": 0,
+            "MaxFrameCountHigh": true,
+            "MaxFrameCountLow": false,
+            "ModifierNameList": [
+              "ResetAttackLandedModifier"
+            ]
+          },
+          {
+            "AnimatorStateName": "Attack_04_01_Pre",
+            "FrameCountHigh": 0,
+            "FrameCountLow": 0,
+            "IsLoop": false,
+            "LayerIndex": 0,
+            "MaxFrameCountHigh": true,
+            "MaxFrameCountLow": false,
+            "ModifierNameList": [
+              "ResetAttackLandedModifier"
+            ]
+          }
+        ]
+      }
+    ],
+    "OnAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Attack04HitModifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_AttackProperty_ATK04_01",
+              "Monster_DubiousHero_AttackProperty_ATK04_01_Charge"
+            ],
+            "Target": "Self"
+          },
+          {
+            "$type": "ByTargetHitEffect",
+            "HitEffectKind": "FinalHitEffect",
+            "TargetHitEffects": [
+              "HitGround",
+              "HitSky"
+            ],
+            "TargetSubHitEffectAirs": [
+              "InAir",
+              "ThrowLow",
+              "ThrowHigh",
+              "Fly",
+              "Knock"
+            ],
+            "TargetSubHitEffectGrounds": [
+              "Stay",
+              "Light",
+              "Heavy",
+              "Knock"
+            ]
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_AttackLanded",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_DubiousHero_AttackProperty_ATK07_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Attack04HitModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Self",
+          "soundActionKey": "Monster_DubiousHero_Chase_Attack04"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_AttackLanded",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ResetAttackLandedModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_AttackLanded",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_ComboType",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "AbilityName": "StoryHollowQuest_19815_lv05",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "Properties": {
+      "Actor_DamageTakeRatio": "%AS_AddedDamageRatio"
+    }
+  }
+}

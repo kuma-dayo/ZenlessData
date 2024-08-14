@@ -1,0 +1,188 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachZoneTagWithModifierMixin",
+      "ConfigList": [
+        {
+          "ModifierNameList": [
+            "Nineveh_BossRush_MaterialAnimation_Modifier"
+          ],
+          "ZoneTag": "Nineveh_BossRush_MA"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Nineveh_BossRush_MaterialAnimation",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Nineveh_BossRush_MaterialAnimation_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "EffectPattern": "Eff_Monster_Nineveh_SwithPhase_BossRush_Start_03_Dust",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachPointName": "Ctr_M_Flower",
+          "EffectPattern": "Eff_Monster_Nineveh_SwithPhase_BossRush_Start_04_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_02"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_ScreenImage_01",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_ScreenImage_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_02"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_02",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_SecondaryEmission_02"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_03"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_ScreenImage_03",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_ScreenImage_03"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_01"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_05",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_SecondaryEmission_05"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_04"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_07",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_SecondaryEmission_07"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_04"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_08",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_Invert_SecondaryEmission_08"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A1"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A2"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A3"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A4"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A5"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A6"
+            },
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Nineveh_A7"
+            }
+          ],
+          "Tag": "Monster_Nineveh_MA_SwithPhase_BossRush_Start_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Monster_Nineveh_MA_SwithPhase_BossRush_Start_SecondaryEmission_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_ScreenImage_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_02",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_ScreenImage_03",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_05",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_07",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_Invert_SecondaryEmission_08",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_Nineveh_MA_SwithPhase_BossRush_Start_SecondaryEmission_01",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

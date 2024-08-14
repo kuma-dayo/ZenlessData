@@ -1,0 +1,67 @@
+{
+  "AbilityName": "Card_DailyUse_1000963",
+  "AbilitySpecials": {
+    "AS_DamageRatio": {
+      "Value": 0.15
+    },
+    "AS_OpenCombo": {
+      "Value": 1
+    },
+    "AS_TemplateID": {
+      "Value": 1271
+    },
+    "OwnSeth_1100963": {
+      "Value": 0
+    },
+    "ShieldAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "scenevar(OwnSeth_1100963)",
+        "ParamName": "OwnSeth_1100963",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "ShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "ShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": 1,
+            "ParamName": "OwnSeth_1100963",
+            "ParamType": "Float",
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_DamageRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1744 @@
+{
+  "KHHABHLHAFG": [
+    {
+      "NGPCCDGBLLK": -1,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FAIL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 0,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SUCC_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SERVER_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SERVER_FULL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 9,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NO_GM_01"
+    },
+    {
+      "NGPCCDGBLLK": 10,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MYSQL_DUPLICATE_KEY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 20,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CONFIG_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 21,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CONFIG_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 22,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_REQUEST_DATA_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 23,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FEATURE_CLOSED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 25,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FEATURE_NOT_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 26,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REWARD_TAKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 29,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SENSITIVE_WORD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 30,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TIMEOUT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 31,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FEATURE_BAN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 32,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VERSION_NOT_LATEST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 70,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VERSION_NO_REGION_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 71,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SERVER_STOP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 72,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FORCE_UPDATE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 73,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NO_VALID_SERVER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 74,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_RSA_VER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 75,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VERSION_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 100,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PLAYER_NOT_ONLINE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 101,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AUTHKEY_VER_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 102,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SIGN_TYPE_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 200,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FILE_LENGTH_CHECK_FAILED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 201,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_HASH_CHECK_FAILED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 202,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_DISK_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 203,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REQUEST_EXCEPTION_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 204,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_OTHER_DOWNLOAD_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 205,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_RSA_FAILD_01"
+    },
+    {
+      "NGPCCDGBLLK": 206,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SERVER_EXTENSION_FAILD_01"
+    },
+    {
+      "NGPCCDGBLLK": 207,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEBREQUEST_TIMEOUT_01"
+    },
+    {
+      "NGPCCDGBLLK": 208,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEBREQUEST_CONNECTION_TIMEOUT_01"
+    },
+    {
+      "NGPCCDGBLLK": 209,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEBREQUEST_UNKNOW_EXCEPTION_01"
+    },
+    {
+      "NGPCCDGBLLK": 210,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEBREQUEST_EXCEPTION_01"
+    },
+    {
+      "NGPCCDGBLLK": 211,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEBREQUEST_ABORT_01"
+    },
+    {
+      "NGPCCDGBLLK": 1000,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_REPEATE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1001,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_RETRY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1002,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_ANTI_ADDICT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1003,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_ACCOUNT_VERIFY_FAIL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1004,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_GAME_NOT_AVAIL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1005,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_WAIT_STOP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1006,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_NOT_IN_WHITE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1007,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_NOT_WHITE_DEVICE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1008,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_RECONNECT_FAIL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1009,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_IN_BLACKLIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1010,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LOGIN_WHITE_NOT_BEGIN"
+    },
+    {
+      "NGPCCDGBLLK": 1100,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIL_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1101,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIL_REPEAT_REQ_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1102,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIL_INVALID_POS_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1103,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIL_NO_AVAIL_ATTACHMENT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1104,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIL_ATTACHMENT_NOT_TAKE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1109,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "EmailErrorTips_ItemBeyondMaxNum"
+    },
+    {
+      "NGPCCDGBLLK": 1200,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SOCIAL_TARGET_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1201,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_LIST_FULL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1202,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_TARGET_ASK_LIST_FULL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1203,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_TARGET_LIST_FULL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1204,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_IN_TARGET_BLACK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1205,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_ALREADY_SEND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1206,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_ALREADY_FRIEND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1207,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_NOT_IN_ASK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1208,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BLACK_LIST_FULL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1209,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BLACK_LIST_ALREADY_ADD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1210,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BLACK_LIST_NOT_IN_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1211,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_TARGET_NOT_FRIEND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1212,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_IS_SELF_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1213,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FRIEND_IN_SELF_ASK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1214,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ASK_FRIEND_REACH_DAY_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1215,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ASK_FRIEND_BUT_IN_TARGET_BLACK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1216,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ASK_FRIEND_BUT_IN_SELF_BLACK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1217,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AGREE_FRIEND_BUT_IN_SELF_BLACK_LIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1218,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CHAT_IN_CD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1219,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CHAT_CONTENT_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1220,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REMARK_NAME_SENSITIVE_WORD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1221,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REMARK_NAME_CONTENT_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1222,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOW_AVATAR_NUM_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1223,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SAVE_EMOJI_NUM_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1224,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ASK_MESSAGE_CONTENT_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1225,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PERSION_DESCRIPTION_CONTENT_REACH_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1226,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MODIFY_NICK_NAME_IN_CD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1227,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MODIFY_PERSION_DESCRIPTION_IN_CD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1228,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REPORT_PLAYER_DESCRIPTION_MAX_LEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1229,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REPORT_PLAYER_CHAT_COUNT_MAX_LEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1230,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INPUT_CONTENT_IS_EMPTY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1231,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SOCIAL_PS_UUID_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1232,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SOCIAL_SELF_NOT_PS_PLAYER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1233,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SOCIAL_IN_ROOM_UNABLE_SET_PS_ONLY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1234,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REMARK_FRIEND_NAME_IN_CD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1235,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CHAT_CONTENT_IS_EMPTY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1300,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_RECHARGE_ORDER_FINISHED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1301,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PRIVILEGE_DURING_TIME_LIMIT"
+    },
+    {
+      "NGPCCDGBLLK": 1302,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PRIVILEGE_LOCKED"
+    },
+    {
+      "NGPCCDGBLLK": 1400,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1401,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_STATUS_ERR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1402,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_EXISTED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1404,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_REWARD_TAKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1405,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_REWARD_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1406,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_NOT_MEET_REQUIRE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1407,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_QUEST_CREATE_FAILED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1408,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_PARAM_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1409,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_REACH_LEVEL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1410,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PREPARE_AVATAR_PARAM_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1411,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_HEAT_PARAM_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1412,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CANNOT_TRACK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1413,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PREV_NOT_CLOSED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1414,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MAIN_QUEST_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1415,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CANNOT_UNTRACK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1416,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LETTER_SAVE_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1417,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_IN_AFK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1418,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_MASTER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1419,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_OPEN_OTHER_PERSON_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1425,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PARTNER_INVITATION_TIMES_LIMIT"
+    },
+    {
+      "NGPCCDGBLLK": 1426,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PARTNER_UNFINISHED_INVITATION"
+    },
+    {
+      "NGPCCDGBLLK": 1427,
+      "FEONLLNOENL": 3,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PARTNER_CONTACT_INVITATION_TIMES_LIMIT"
+    },
+    {
+      "NGPCCDGBLLK": 1450,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_NO_ENOUGH_EXP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1451,
+      "FEONLLNOENL": 1,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_MAX_LEVEL_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1452,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_OCCUPIED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1453,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_MAX_RANK_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1454,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_LEVEL_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1456,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_SKILL_MAX_LEVEL_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1457,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_TALENT_MAX_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1459,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_INVALID_DRESS_INDEX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1460,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_DRESS_INDEX_NOT_EQUIPPED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1461,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_INVALID_WEAPON_TYPE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1462,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_NO_WEAPON_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1463,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_AVATAR_UNKNOWN_SKILL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1500,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MATERIAL_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1501,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MATERIAL_INVALID_CLASS_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1502,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ENERGY_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1503,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CURRENCY_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1504,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUY_TIMES_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1505,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ITEM_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1506,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BLESS_SLOT_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1507,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INITIATIVE_SLOT_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1508,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INITIATIVE_ITEM_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1509,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_Item_Full"
+    },
+    {
+      "NGPCCDGBLLK": 1510,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_COMPOSE_DECOMPOSE_LOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1511,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_COMPOSE_DECOMPOSE_COST_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1512,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_COMPOSE_DECOMPOSE_ITEM_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1513,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_UNSUPPORTED_TYPE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1515,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_Equip_Full"
+    },
+    {
+      "NGPCCDGBLLK": 1600,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_EQUIP_MAX_STAR_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1601,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_EQUIP_MAX_LEVEL_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1602,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_EQUIP_NO_ENOUGH_EXP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1603,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_EQUIP_NO_EQUIP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1604,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_EQUIP_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1650,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_MAX_STAR_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1651,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_MAX_LEVEL_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1652,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_NO_ENOUGH_EXP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1653,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_NO_WEAPON_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1654,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1655,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_WEAPON_REFINE_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1701,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_GACHA_CLOSE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1702,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_GACHA_SMITHY_LEVEL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1703,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_GACHA_EQUIP_TYPE_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1704,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_GACHA_EQUIP_INVALID_UP_SUIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1705,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_GACHA_TRASH_NO_VALUABLE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1751,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MONSTER_CARD_SUITE_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1752,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MONSTER_CARD_SUITE_OVER_MAX_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1753,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_CARD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1754,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_CARD_TYPE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1755,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_TEMPLATE_SLOT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1756,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CARD_IN_CD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1757,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MACHINE_LEVEL_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1758,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TEMPLATE_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1759,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NAME_LENGTH_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1760,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REWARD_CARD_DISABLED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1761,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TEMPLATE_NO_CARD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1762,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_INVALID_CARD_SLOT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1763,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REPEATE_SLOT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1764,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REPEATE_CARD_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1765,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_REPEATE_TAKE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1766,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_POINT_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1767,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_OVER_SLOT_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1768,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CARD_TYPE_OVER_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1800,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SCENE_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1801,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SCENE_NOT_RIGHT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1802,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_DUNGEON_NOT_FOUND_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1803,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_DUNGEON_NO_RETRY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1804,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SCENE_CREATE_FAILED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1805,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_DUNGEON_CREATE_FAILED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1806,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CANNOT_FIGHT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1807,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SCENE_NOT_DONE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1808,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_IN_HALL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1809,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_DUNGEON_NOT_DONE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1810,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BATTLE_REPORT_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1811,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BATTLE_REPORT_INVALID_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1812,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FORBID_AFK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1900,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_RAMEN_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1901,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_HOLLOW_ITEM_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1902,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_HOLLOW_ITEM_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1903,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_HOLLOW_ITEM_GROUP_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 1950,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_FIGHT_NO_USED_FIGHT_SERVER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2050,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2051,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_NO_ENOUGH_EXP_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2052,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_MAX_LEVEL_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2053,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_MAX_RANK_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2054,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_LEVEL_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2055,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_MAX_STAR_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2056,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_STAR_NOT_ENOUGH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2057,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_ALREADY_INSTALLED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2058,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_OCCUPY_EMPTY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2059,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_POS_ERROR_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2060,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_POS_NOT_FREE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2061,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_POS_TYPE_MISMATCH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2062,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_PACKAGE_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2063,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_MAIN_BUDDY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2064,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_BATTLE_BUDDY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2065,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_PACKAGE_NOT_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2066,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BUDDY_COMPONENT_NOT_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2070,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BATTLE_PASS_ALREADY_ADVANCED"
+    },
+    {
+      "NGPCCDGBLLK": 2100,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SCRIPT_STATE_NUM_LIMITED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2150,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2151,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_CAN_NOT_REFRESH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2152,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_REFRESH_TIMES_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2153,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_GOODS_EXPIRED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2154,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_SHELF_LOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2155,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_SHOP_GOODS_LACK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2201,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CAFE_NO_EVENT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2202,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CAFE_NOT_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2203,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_CAFE_NOT_TODAY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2204,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_OVER_DAY_CAFE_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2250,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LAND_NOT_UNLOCK_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2251,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_LAND_CONDITION_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2252,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PRE_PROGRESS_NOT_FINISH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2253,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_PROGRESS_REWARD_TAKEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2300,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ACTIVITY_NOT_OPEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2301,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ACTIVITY_TASK_REWARD_TAKEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2302,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ACTIVITY_TASK_NOT_FINISH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2303,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ACTIVITY_EXCHANGE_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2305,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ACTIVITY_NOT_ENOUGH_TIME_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2400,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TOY_DEAL_EXPIRED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2401,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TOY_DEAL_LOCKED_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2402,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TOY_DEAL_ALREADY_IN_PROCESS_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2403,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TOY_DEAL_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2404,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_TOY_DEAL_NOT_FINISH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2450,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_BIG_TV_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2500,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_ID_NOT_MATCH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2501,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ALREADY_IN_ROOM_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2502,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_ROOM_MASTER_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2503,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_UNABLE_QUIT_ROOM_FOR_ROOM_STATE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2504,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_UNABLE_CREATE_ROOM_FOR_PLAYER_STATE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2505,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_ID_NOT_MATCH_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2506,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_MINI_GAME_ID_NOT_LEGAL_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2507,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_NOT_MP_MINI_GAME_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2508,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_LOGIN_FAILED_ARCADE_GEN_VERSION"
+    },
+    {
+      "NGPCCDGBLLK": 2514,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_INVITE_PLAYER_CD"
+    },
+    {
+      "NGPCCDGBLLK": 2517,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_SELF_IS_IN_CHANGING"
+    },
+    {
+      "NGPCCDGBLLK": 2519,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_ASKER_NOT_IN_ROOM"
+    },
+    {
+      "NGPCCDGBLLK": 2522,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips24"
+    },
+    {
+      "NGPCCDGBLLK": 2523,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_UNABLE_CHANGE_POS_FOR_TARGET_STATE"
+    },
+    {
+      "NGPCCDGBLLK": 2531,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_NOT_EXIST"
+    },
+    {
+      "NGPCCDGBLLK": 2550,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_UNABLE_START_MATCH_FOR_ROOM_STATE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2551,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ALREADY_IN_MATCHING_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2552,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_NOT_START_MATCH_YET_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2553,
+      "FEONLLNOENL": 0,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_BAN_MATCH_FOR_NO_CONFIRM_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2554,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MATCH_REACH_MAX_TEAM_NUM_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2555,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_UNABLE_CANCEL_MATCH_DURRING_PREPARE_GAMING_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2556,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_PLAYER_STATE_UNABLE_TO_START_MATCH"
+    },
+    {
+      "NGPCCDGBLLK": 2600,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_ON_SALE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2601,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_NOT_ON_SALE_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2602,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_PROMOTER_OCCUPY_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2603,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2604,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_PROMOTER_NOT_EXIST_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2605,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_SLOT_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2606,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_VHS_MOOD_LIMIT_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2620,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_NOT_OPEN_DESC_01"
+    },
+    {
+      "NGPCCDGBLLK": 2621,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_ACHIEVEMENT_NO_REWARD"
+    },
+    {
+      "NGPCCDGBLLK": 2622,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_ACHIEVEMENT_NOT_FINISHED"
+    },
+    {
+      "NGPCCDGBLLK": 2623,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_ACHIEVEMENT_ALREADY_REWARDED"
+    },
+    {
+      "NGPCCDGBLLK": 2624,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_LOGIN_FAILED_ARCADE_GEN_VERSION"
+    },
+    {
+      "NGPCCDGBLLK": 2625,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_LOGIN_FAILED"
+    },
+    {
+      "NGPCCDGBLLK": 2626,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_LOGIN_ALREADY_READY"
+    },
+    {
+      "NGPCCDGBLLK": 2627,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_VALUE_VERSIONS"
+    },
+    {
+      "NGPCCDGBLLK": 2628,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_UFIGHTSERVER_CONNECTION"
+    },
+    {
+      "NGPCCDGBLLK": 2629,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_UFIGHTSERVER_RECONNECTION"
+    },
+    {
+      "NGPCCDGBLLK": 2630,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_ROOM_PLAYER_STATE_UNABLE_TO_START_MATCH"
+    },
+    {
+      "NGPCCDGBLLK": 3001,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "RET_MINI_GAME_LOGIN_FAILED_ARCADE_GEN_VERSION"
+    },
+    {
+      "NGPCCDGBLLK": 3100,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips07"
+    },
+    {
+      "NGPCCDGBLLK": 3101,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips01"
+    },
+    {
+      "NGPCCDGBLLK": 3102,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips23"
+    },
+    {
+      "NGPCCDGBLLK": 3103,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips08"
+    },
+    {
+      "NGPCCDGBLLK": 3104,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips17"
+    },
+    {
+      "NGPCCDGBLLK": 3105,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips15"
+    },
+    {
+      "NGPCCDGBLLK": 3106,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips11"
+    },
+    {
+      "NGPCCDGBLLK": 3107,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips16"
+    },
+    {
+      "NGPCCDGBLLK": 3108,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips18"
+    },
+    {
+      "NGPCCDGBLLK": 3109,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips28"
+    },
+    {
+      "NGPCCDGBLLK": 3110,
+      "FEONLLNOENL": 2,
+      "GIIMFPFKJDM": "ErrorTitle_1",
+      "FBMLEJMJPGJ": "UIText_multi_tips29"
+    }
+  ]
+}
