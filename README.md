@@ -1,5 +1,5 @@
-# ZenlessBetaData
-Repository containing the beta data for the game Zenless Zone Zero.
+# ZenlessData
+Repository containing the live data for the game Zenless Zone Zero.
 
 ## Notes
 
@@ -7,6 +7,10 @@ The repository has two modifications compared to the original data:
 
 * TextMap files were originally together with all the other FileCfg files, they've been moved to their own folder.
 * TextMap files have been optimized for simplicity by making them an object with key: value pairs.
+
+## Credits
+
+Thanks to Mero for the help with some of the FileCfg path bruteforcing.
 
 ## Support
 
