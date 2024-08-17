@@ -5900,7 +5900,7 @@
       "$type": "CHollowNPCEntityConfig",
       "BehaviorScript": 1020809,
       "ID": 1020809,
-      "InteractIconTextureSheetID": 10221,
+      "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
       "ObstacleSubstate": [
@@ -13202,7 +13202,7 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 1981517,
+      "BehaviorScript": 19815114,
       "Category": [
         "NoneInteractEventWithAnim"
       ],
@@ -13241,7 +13241,7 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 1981517,
+      "BehaviorScript": 19815115,
       "Category": [
         "NoneInteractEventWithAnim"
       ],
@@ -13277,7 +13277,7 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 1981517,
+      "BehaviorScript": 19815116,
       "Category": [
         "NoneInteractEventWithAnim"
       ],
@@ -13350,7 +13350,7 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 1981517,
+      "BehaviorScript": 19815118,
       "Category": [
         "NoneInteractEventWithAnim"
       ],

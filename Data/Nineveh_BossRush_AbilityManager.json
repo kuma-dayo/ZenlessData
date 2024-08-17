@@ -4,15 +4,20 @@
   "DefaultModifier": {
     "OnAdded": [
       {
-        "$type": "ApplyModifier",
-        "ModifierName": "RemoveDefaultAbility_Modifier",
+        "$type": "ApplyAbilityAction",
+        "AbilityName": "Nineveh_UltimateSkill_Manager",
         "Predicates": [
           {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "BossRush"
-            ],
-            "Target": "Self"
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByIsInZoneTags",
+                "Tags": [
+                  "BossRush"
+                ],
+                "Target": "Self"
+              }
+            ]
           }
         ],
         "Target": "Self"
@@ -155,17 +160,6 @@
         {
           "$type": "ApplyAbilityAction",
           "AbilityID": 20000911,
-          "Target": "Self"
-        }
-      ]
-    },
-    "RemoveDefaultAbility_Modifier": {
-      "Duration": -1,
-      "ModifierStacking": "Unique",
-      "OnAdded": [
-        {
-          "$type": "RemoveAbilityAction",
-          "AbilityName": "Nineveh_UltimateSkill_Manager",
           "Target": "Self"
         }
       ]

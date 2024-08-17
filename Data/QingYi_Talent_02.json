@@ -1,4 +1,9 @@
 {
   "AbilityName": "QingYi_Talent_02",
+  "AbilitySpecials": {
+    "AS_AddPercentage": {
+      "Value": 1.35
+    }
+  },
   "AbilityStacking": "Unique"
 }

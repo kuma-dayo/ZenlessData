@@ -72,6 +72,76 @@
         "Target": "Self"
       },
       {
+        "$type": "FireEffect",
+        "EffectPattern": "Eff_Monster_JaneDoe_Born_03_Spark",
+        "FireEffectPosRot": {
+          "CoordsOption": "ReferTarget",
+          "Offset": {
+            "AngleOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "IsUseRotationXZ": true,
+            "IsUseRotationY": true,
+            "PositionOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "TargetOption": {
+            "$type": "ConfigPosRotReferTarget",
+            "AttachPoint": "HeadPoint",
+            "OffsetReferTarget": "Self"
+          }
+        },
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "Slime"
+            ]
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "FireEffect",
+        "EffectPattern": "Eff_Monster_JaneDoe_Born_04_Spark",
+        "FireEffectPosRot": {
+          "CoordsOption": "ReferTarget",
+          "Offset": {
+            "AngleOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "IsUseRotationXZ": true,
+            "IsUseRotationY": true,
+            "PositionOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "TargetOption": {
+            "$type": "ConfigPosRotReferTarget",
+            "AttachPoint": "Skn_Tail_09",
+            "OffsetReferTarget": "Self"
+          }
+        },
+        "Predicates": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "Slime"
+            ]
+          }
+        ],
+        "Target": "Self"
+      },
+      {
         "$type": "ModifyMaterialPropertyAction",
         "ApplyAllRenderers": true,
         "Predicates": [

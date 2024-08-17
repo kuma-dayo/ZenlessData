@@ -62,8 +62,8 @@
             "outTangent": -0.4406633,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.7267248,
-            "value": 0.8252642,
+            "time": 0.684292,
+            "value": 0.8765788,
             "weightedMode": 0
           },
           {
@@ -72,14 +72,34 @@
             "outTangent": -8.505137,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.805137753,
-            "value": -0.0321005,
+            "time": 0.7665625,
+            "value": -0.214552388,
             "weightedMode": 0
           },
           {
-            "inTangent": -0.0411395654,
-            "inWeight": 0.118602842,
-            "outTangent": -0.0411395654,
+            "inTangent": -4.74210262,
+            "inWeight": 0.333333343,
+            "outTangent": -4.74210262,
+            "outWeight": 0.333333343,
+            "tangentMode": 1,
+            "time": 0.816454649,
+            "value": -0.7893825,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 2.58287239,
+            "inWeight": 0.333333343,
+            "outTangent": 2.58287239,
+            "outWeight": 0.333333343,
+            "tangentMode": 1,
+            "time": 0.9567833,
+            "value": -0.827744,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 31.6522655,
+            "inWeight": 0.334963083,
+            "outTangent": 31.6522655,
             "outWeight": 0.0,
             "tangentMode": 0,
             "time": 0.9920272,
@@ -87,7 +107,7 @@
             "weightedMode": 0
           }
         ],
-        "length": 8,
+        "length": 10,
         "postWrapMode": 8,
         "preWrapMode": 8
       },
@@ -215,7 +235,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -247,7 +267,7 @@
   "seqName": "sk_melee_12",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 3.0,

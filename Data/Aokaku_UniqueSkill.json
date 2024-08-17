@@ -190,6 +190,11 @@
       "Target": "TeamAvatars"
     },
     {
+      "$type": "RemoveModifier",
+      "ModifierName": "AokakuUniqueModifier",
+      "Target": "Self"
+    },
+    {
       "$type": "SetAbilitySpecialByExpression",
       "DoRefresh": false,
       "Expression": "specials(AS_FlagBuffDuration)+specials(FlagBuffDuration_Added_Talent01)",

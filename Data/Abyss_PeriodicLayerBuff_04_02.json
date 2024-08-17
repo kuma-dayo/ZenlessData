@@ -20,7 +20,7 @@
       },
       "Duration": "%Duration",
       "MaxStackingNumber": 3,
-      "ModifierStacking": "Multiple",
+      "ModifierStacking": "MultipleRefresh",
       "Properties": {
         "Actor_BaseAttackRatio": "%AS_BaseAtkRatio",
         "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"

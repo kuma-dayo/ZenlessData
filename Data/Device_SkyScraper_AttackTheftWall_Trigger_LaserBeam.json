@@ -1,0 +1,16 @@
+{
+  "AbilityName": "Device_SkyScraper_AttackTheftWall_Trigger_LaserBeam",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Device_SkyScraper_AttackTheftWall_LaserBeam_LP01",
+      "Target": "Self"
+    },
+    {
+      "$type": "TriggerAbilityAction",
+      "AbilityName": "Device_SkyScraper_AttackTheftWall_LaserBeam_LP02",
+      "Target": "Self"
+    }
+  ]
+}

@@ -1338,7 +1338,7 @@
       "NGPCCDGBLLK": 1037,
       "HNKGCOCKIHP": 10,
       "JJHBNDNOBIE": 0,
-      "OHHLJKMAKED": "1100140105",
+      "OHHLJKMAKED": "1040140371",
       "FMKOPDGFLNM": "TeleportName_01",
       "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "CIKHJKHMDEL": 100001,
@@ -2279,6 +2279,27 @@
       "MLNIAIEPGJJ": [],
       "ANMKHJAHNCN": 0,
       "JMGPAFCAHJL": [],
+      "BPPNCACDPBI": 0
+    },
+    {
+      "NGPCCDGBLLK": 112000002,
+      "HNKGCOCKIHP": 10,
+      "JJHBNDNOBIE": 0,
+      "OHHLJKMAKED": "1040140086",
+      "FMKOPDGFLNM": "TeleportName_01",
+      "OLJCIBPJJIP": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
+      "CIKHJKHMDEL": 100001,
+      "ENPHMLOLOMA": 2,
+      "ONHDGIGKPJN": "Workshop_PlayerPos_FromCharacterQuest",
+      "DCKMCPBDHMG": "TeleportName_01_DecorativeText",
+      "PAJCMAMMDBM": "UIMainStoryPage",
+      "HJGLMIIAFKL": [],
+      "NHJCGOCIJOO": [],
+      "MLNIAIEPGJJ": [],
+      "ANMKHJAHNCN": 0,
+      "JMGPAFCAHJL": [
+        117
+      ],
       "BPPNCACDPBI": 0
     }
   ]

@@ -22,6 +22,7 @@
       {
         "$type": "DecreaseHPAction",
         "Amount": 0,
+        "IgnoreInvincible": "true",
         "Percentage": "%AddedEnemyHPRatio_01",
         "Predicates": [
           {

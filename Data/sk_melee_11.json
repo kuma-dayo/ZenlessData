@@ -162,8 +162,8 @@
             "outTangent": 0.85931474,
             "outWeight": 1.0,
             "tangentMode": 1,
-            "time": 0.199163675,
-            "value": 0.9740747,
+            "time": 0.198279127,
+            "value": 0.7537109,
             "weightedMode": 0
           },
           {
@@ -172,8 +172,8 @@
             "outTangent": 1.64019763,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.231657088,
-            "value": 1.02778566,
+            "time": 0.23077254,
+            "value": 0.6257202,
             "weightedMode": 0
           },
           {
@@ -202,7 +202,7 @@
         "preWrapMode": 8
       },
       "effectType": 2,
-      "endFrame": 21,
+      "endFrame": 31,
       "idx": 985623936,
       "speedEuler": {
         "x": 0.0,
@@ -234,7 +234,7 @@
       "brakeDestroy": false,
       "cpDamageInternal": 1,
       "effectType": 4,
-      "endFrame": 21,
+      "endFrame": 31,
       "idx": -1244023808,
       "selectTargetType": 0,
       "startFrame": 5,
@@ -315,13 +315,13 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
       "brakeDestroy": false,
       "effectType": 1,
-      "endFrame": 21,
+      "endFrame": 31,
       "idx": 320360960,
       "moveType": 1,
       "pos": {
@@ -397,7 +397,7 @@
         "preWrapMode": 8
       },
       "effectType": 3,
-      "endFrame": 21,
+      "endFrame": 31,
       "idx": 2027586304,
       "scale": {
         "x": 1.0,
@@ -500,7 +500,7 @@
   ],
   "backFrame": 0,
   "clipPath": "",
-  "frameCount": 22,
+  "frameCount": 32,
   "frameRate": 20,
   "loop": true,
   "modelPath": "Assets/NapResources/UI/Animation/Arcade/Game/Companion/CP_weapon_prefab.prefab",
@@ -508,10 +508,10 @@
   "seqName": "sk_melee_11",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
-  "totalTime": 1.1,
+  "totalTime": 1.6,
   "trackArray": [
     {
       "order": 0,

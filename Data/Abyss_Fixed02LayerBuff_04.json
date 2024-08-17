@@ -14,13 +14,6 @@
       {
         "$type": "ApplyModifier",
         "ModifierName": "Abyss_Fixed02LayerBuff_04_StunDestroyRecoverModifier",
-        "Predicates": [
-          {
-            "$type": "ByIsStunDestroyed",
-            "IsStunDestroyed": true,
-            "Target": "Target"
-          }
-        ],
         "Target": "Target"
       }
     ],

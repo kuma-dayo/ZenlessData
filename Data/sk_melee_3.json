@@ -62,24 +62,24 @@
             "outTangent": -0.4406633,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.5852496,
+            "time": 0.5428541,
             "value": 1.76871061,
             "weightedMode": 0
           },
           {
-            "inTangent": -8.505137,
-            "inWeight": 0.333333343,
-            "outTangent": -8.505137,
-            "outWeight": 0.333333343,
+            "inTangent": -38.9593163,
+            "inWeight": 0.124648295,
+            "outTangent": -19.0823689,
+            "outWeight": 0.215073884,
             "tangentMode": 1,
-            "time": 0.6479717,
-            "value": 0.0388355255,
+            "time": 0.719210148,
+            "value": -3.30853486,
             "weightedMode": 0
           },
           {
-            "inTangent": -0.0411395654,
-            "inWeight": 0.118602842,
-            "outTangent": -0.0411395654,
+            "inTangent": 168.4449,
+            "inWeight": 0.08929347,
+            "outTangent": 168.4449,
             "outWeight": 0.0,
             "tangentMode": 0,
             "time": 0.797463536,
@@ -215,7 +215,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -247,7 +247,7 @@
   "seqName": "sk_melee_3",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 1.1,

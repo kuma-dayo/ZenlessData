@@ -3328,11 +3328,67 @@
       "ILBJFHDNOMA": "BossCard/UnPacker/CardResources/Unknown",
       "DGJJOGDMAKD": 200151,
       "MCLAIOFCHKB": 300151,
-      "GOOFAADOHOB": 11641,
+      "GOOFAADOHOB": 11642,
       "OBBAJNALDCP": "",
       "BJFKEOJIJJO": "",
       "BEFLHCLNLMF": [],
       "DNGAJNCKCDF": "CardSkillDesc_30020"
+    },
+    {
+      "NGPCCDGBLLK": 30022,
+      "LDCOBLOCGJJ": "NPCName_101172481",
+      "LLPFCLBBHIM": 3,
+      "NGMHKILHMAN": false,
+      "HKHNGIPANJH": "CardDesc_30022",
+      "NCEJECEJOBA": [],
+      "DLJCFPBDGGF": [
+        30020
+      ],
+      "AMOGGGDKFFB": 290,
+      "KLKHBFMCBFH": false,
+      "DCADMHMHEGH": 100151,
+      "CDCFLFOBLFI": 0,
+      "IGHDFCOIGEJ": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "KFOBBLKPAAP": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_JaneDoe.png",
+      "AEDBKCLPLLN": false,
+      "EFHMPKFFIAE": [
+        "Ether",
+        "NotPro"
+      ],
+      "GNIDIFNDGHO": [
+        "Metro",
+        "SkyScraper"
+      ],
+      "HBAFBNFOCGJ": null,
+      "LIJHBFNHKDD": 0,
+      "PLKKDMGEODE": false,
+      "AFMBHLAIKMP": 290,
+      "NONAMNGOLAK": "GroupDesc_290",
+      "MFCENPHOBOP": 0,
+      "MFFBNANEFMM": "CardQuote_30022",
+      "LPDGCALINGE": "",
+      "AECDOOELOIM": "CardObtain_10000",
+      "HBFFLEDFHID": 2,
+      "LNOKJOJFOKI": 1,
+      "CECCEFGAHME": 1,
+      "IANIDDAMOKL": "NPCName_101172481",
+      "IMECKCFKJDH": "BossCardLv03/Monster_JaneDoe",
+      "KOIPPLFJJJC": "BossCardLv03/Monster_JaneDoe",
+      "ILBJFHDNOMA": "BossCard/UnPacker/BossCardLv03/Monster_JaneDoe",
+      "DGJJOGDMAKD": 200151,
+      "MCLAIOFCHKB": 300151,
+      "GOOFAADOHOB": 11641,
+      "OBBAJNALDCP": "",
+      "BJFKEOJIJJO": "",
+      "BEFLHCLNLMF": [],
+      "DNGAJNCKCDF": "CardSkillDesc_30022"
     },
     {
       "NGPCCDGBLLK": 35001,

@@ -225,7 +225,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -257,7 +257,7 @@
   "seqName": "sk_melee_7",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 1.0,

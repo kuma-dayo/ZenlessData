@@ -10,7 +10,7 @@
         "Target": "Self"
       }
     ],
-    "OnBuffDamageHitOther": [
+    "OnBuffDamageBeingHit": [
       {
         "$type": "ModifyAttackDataAction",
         "PropertyKey": "Actor_NoStun",

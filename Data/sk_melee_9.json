@@ -264,8 +264,8 @@
                 "outTangent": 2.718686,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.8765851,
-                "value": 1.003876,
+                "time": 0.87438786,
+                "value": 1.1671412,
                 "weightedMode": 0
               },
               {
@@ -295,7 +295,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -327,7 +327,7 @@
   "seqName": "sk_melee_9",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 2.0,

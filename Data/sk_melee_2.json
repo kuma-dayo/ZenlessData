@@ -35,8 +35,8 @@
   "partLoop": false,
   "seqName": "sk_melee_2",
   "speedParams": {
-    "param1": 0,
-    "param2": 0
+    "param1": 44,
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 1.5,

@@ -1,37 +1,39 @@
 {
   "AbilityName": "DeathXIII_AddBreakStunRatio",
   "AbilitySpecials": {
-    "AS_AddedBreakStunRatio": {
-      "Value": 2
+    "AS_PartStun": {
+      "Value": 0.0
+    },
+    "AS_PartStunRatio": {
+      "Value": 0.25
     }
   },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(MaxStun)*specials(AS_PartStunRatio)",
+        "ParamName": "AS_PartStun",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
     "OnBeingHitPre": [
       {
-        "$type": "ModifyAttackDataAction",
+        "$type": "RecoverStunAction",
+        "Amount": "%AS_PartStun",
+        "Percentage": 0,
         "Predicates": [
           {
-            "$type": "ByOr",
-            "Predicates": [
-              {
-                "$type": "ByAnimTagList",
-                "TagList": [
-                  "ParryAid"
-                ]
-              },
-              {
-                "$type": "ByAnimTagList",
-                "TagList": [
-                  "AssaultAid"
-                ]
-              }
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid"
             ]
           }
         ],
-        "PropertyKey": "Actor_AddedBreakStunRatio",
-        "PropertyValue": "%AS_AddedBreakStunRatio",
-        "Target": "Target"
+        "Target": "Self"
       }
     ]
   }

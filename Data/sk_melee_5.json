@@ -13,7 +13,7 @@
             "outWeight": 0.992300153,
             "tangentMode": 0,
             "time": 0.007846832,
-            "value": 0.00143814087,
+            "value": -0.0101524172,
             "weightedMode": 0
           },
           {
@@ -22,8 +22,8 @@
             "outTangent": -0.09578882,
             "outWeight": 0.0753575638,
             "tangentMode": 1,
-            "time": 0.0233425163,
-            "value": -3.234232,
+            "time": 0.02613241,
+            "value": -1.91277063,
             "weightedMode": 0
           },
           {
@@ -32,8 +32,8 @@
             "outTangent": 7.15991831,
             "outWeight": 0.0190567262,
             "tangentMode": 1,
-            "time": 0.054134693,
-            "value": -3.47567081,
+            "time": 0.0624685064,
+            "value": -2.05474,
             "weightedMode": 0
           },
           {
@@ -42,8 +42,8 @@
             "outTangent": 5.14886236,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.07687399,
-            "value": 0.170788765,
+            "time": 0.08930186,
+            "value": 0.08942805,
             "weightedMode": 0
           },
           {
@@ -52,8 +52,8 @@
             "outTangent": 1.64019763,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.0872928649,
-            "value": 2.57184768,
+            "time": 0.101596586,
+            "value": 1.50128353,
             "weightedMode": 0
           },
           {
@@ -62,8 +62,8 @@
             "outTangent": -0.4406633,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.227822289,
-            "value": 1.76871061,
+            "time": 0.267427385,
+            "value": 1.02902794,
             "weightedMode": 0
           },
           {
@@ -72,8 +72,8 @@
             "outTangent": -8.505137,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.250725716,
-            "value": 0.0388355255,
+            "time": 0.2944544,
+            "value": 0.0118377544,
             "weightedMode": 0
           },
           {
@@ -82,8 +82,8 @@
             "outTangent": -7.61189651,
             "outWeight": 0.254892975,
             "tangentMode": 1,
-            "time": 0.261695832,
-            "value": -1.54285073,
+            "time": 0.3073996,
+            "value": -0.9182154,
             "weightedMode": 0
           },
           {
@@ -92,8 +92,8 @@
             "outTangent": 7.19159031,
             "outWeight": 1.0,
             "tangentMode": 1,
-            "time": 0.4126921,
-            "value": -2.0836792,
+            "time": 0.485581756,
+            "value": -1.2362299,
             "weightedMode": 0
           },
           {
@@ -102,8 +102,8 @@
             "outTangent": 21.24055,
             "outWeight": 0.4461816,
             "tangentMode": 1,
-            "time": 0.434306949,
-            "value": -0.01877366,
+            "time": 0.511088252,
+            "value": -0.0220372379,
             "weightedMode": 0
           },
           {
@@ -112,8 +112,8 @@
             "outTangent": 15.57183,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.465890348,
-            "value": -0.00166904926,
+            "time": 0.548357964,
+            "value": -0.0119795017,
             "weightedMode": 0
           },
           {
@@ -122,8 +122,8 @@
             "outTangent": 8.008176,
             "outWeight": 0.192365617,
             "tangentMode": 1,
-            "time": 0.4725206,
-            "value": 2.01471758,
+            "time": 0.556181967,
+            "value": 1.17368329,
             "weightedMode": 0
           },
           {
@@ -132,8 +132,8 @@
             "outTangent": -11.1552544,
             "outWeight": 1.0,
             "tangentMode": 1,
-            "time": 0.619511247,
-            "value": 1.9796623,
+            "time": 0.729637265,
+            "value": 1.15307033,
             "weightedMode": 0
           },
           {
@@ -142,8 +142,8 @@
             "outTangent": 0.159640089,
             "outWeight": 1.0,
             "tangentMode": 1,
-            "time": 0.6360364,
-            "value": 0.0535714477,
+            "time": 0.74913764,
+            "value": 0.0205026716,
             "weightedMode": 0
           },
           {
@@ -152,8 +152,8 @@
             "outTangent": -190.728363,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.6546965,
-            "value": -0.0569413,
+            "time": 0.7711574,
+            "value": -0.0444803275,
             "weightedMode": 0
           },
           {
@@ -162,18 +162,18 @@
             "outTangent": -10.5366488,
             "outWeight": 0.273742974,
             "tangentMode": 1,
-            "time": 0.658234954,
-            "value": -2.402446,
+            "time": 0.7753329,
+            "value": -1.42366922,
             "weightedMode": 0
           },
           {
-            "inTangent": 0.0,
-            "inWeight": 0.0,
-            "outTangent": 0.0,
-            "outWeight": 0.0,
-            "tangentMode": 1,
-            "time": 0.7749738,
-            "value": -2.73591852,
+            "inTangent": 2.61469269,
+            "inWeight": 0.331505954,
+            "outTangent": 57.5419846,
+            "outWeight": 1.0,
+            "tangentMode": 65,
+            "time": 0.8964749,
+            "value": -1.50130093,
             "weightedMode": 0
           },
           {
@@ -182,8 +182,28 @@
             "outTangent": 2.455662,
             "outWeight": 0.5448209,
             "tangentMode": 1,
-            "time": 0.7829515,
-            "value": 0.0126757622,
+            "time": 0.9225038,
+            "value": -0.003544557,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 9.76362,
+            "inWeight": 1.0,
+            "outTangent": -0.342331856,
+            "outWeight": 0.333333343,
+            "tangentMode": 1,
+            "time": 0.9326354,
+            "value": 1.47442377,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -48.667778,
+            "inWeight": 0.333333343,
+            "outTangent": -48.667778,
+            "outWeight": 0.333333343,
+            "tangentMode": 1,
+            "time": 0.9949082,
+            "value": 1.3255676,
             "weightedMode": 0
           },
           {
@@ -192,12 +212,12 @@
             "outTangent": 0.0,
             "outWeight": 0.0,
             "tangentMode": 1,
-            "time": 0.8243888,
-            "value": -0.008056641,
+            "time": 0.998096168,
+            "value": -0.0157354977,
             "weightedMode": 0
           }
         ],
-        "length": 19,
+        "length": 21,
         "postWrapMode": 8,
         "preWrapMode": 8
       },
@@ -346,8 +366,18 @@
                 "outTangent": 0.277608871,
                 "outWeight": 0.152788535,
                 "tangentMode": 0,
-                "time": 0.204981983,
-                "value": 0.9880996,
+                "time": 0.354181945,
+                "value": -0.121698976,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0.7628384,
+                "inWeight": 0.333333343,
+                "outTangent": 0.7628384,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.4674433,
+                "value": 0.127689183,
                 "weightedMode": 0
               },
               {
@@ -356,8 +386,8 @@
                 "outTangent": -1.89114952,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.652263165,
-                "value": -0.00251585245,
+                "time": 0.665446758,
+                "value": -0.126874983,
                 "weightedMode": 0
               },
               {
@@ -366,8 +396,18 @@
                 "outTangent": 0.07728131,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.7298343,
-                "value": -0.006585814,
+                "time": 0.764929533,
+                "value": 0.120184205,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": -0.7434626,
+                "inWeight": 0.333333343,
+                "outTangent": -0.7434626,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.948884547,
+                "value": -0.09675039,
                 "weightedMode": 0
               },
               {
@@ -391,13 +431,13 @@
                 "weightedMode": 0
               }
             ],
-            "length": 7,
+            "length": 9,
             "postWrapMode": 8,
             "preWrapMode": 8
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -422,17 +462,17 @@
   "backFrame": 0,
   "clipPath": "",
   "frameCount": 66,
-  "frameRate": 30,
+  "frameRate": 60,
   "loop": true,
   "modelPath": "Assets/NapResources/UI/Animation/Arcade/Game/Companion/CP_weapon_prefab.prefab",
   "partLoop": false,
   "seqName": "sk_melee_5",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
-  "totalTime": 2.2,
+  "totalTime": 1.1,
   "trackArray": [
     {
       "order": 0,

@@ -11,7 +11,7 @@
     "OnHitOther": [
       {
         "$type": "RandomOperator",
-        "Odds": "%RecoverOdds",
+        "Odds": "%RecoveryOdds",
         "OnSuccess": [
           {
             "$type": "ModifyPerfectSwitchPointAction",

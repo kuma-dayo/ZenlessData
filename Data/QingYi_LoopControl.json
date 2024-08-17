@@ -62,6 +62,18 @@
           "ModifierNameList": [
             "Modifier_Attack_Normal_05_Instate"
           ]
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_07",
+          "FrameCountHigh": 9,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Modifier_Attack_Normal_05_Instate"
+          ]
         }
       ]
     },
@@ -106,32 +118,23 @@
         {
           "ActionList": [
             {
-              "$type": "SetAnimCtrlerParamAction",
-              "BoolVal": true,
-              "ParamName": "Bool_ReachLongTimeThreshold",
-              "ParamType": 2,
-              "Predicates": [
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 2,
-                  "ParamName": "Attack_05_RepeatTime",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                }
-              ],
-              "Target": "Self"
-            },
-            {
               "$type": "FireEffect",
               "EffectPattern": "Eff_QingYi_Attack_Normal_05_13_Flash",
               "Predicates": [
                 {
                   "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
+                  "CompareType": "GreaterEqual",
                   "Param": 2,
                   "ParamName": "Attack_05_RepeatTime",
                   "ParamType": "Integer",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": false,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_ReachLongTimeThreshold",
+                  "ParamType": 2,
                   "Target": "Self"
                 }
               ],
@@ -142,15 +145,48 @@
               "Predicates": [
                 {
                   "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
+                  "CompareType": "GreaterEqual",
                   "Param": 2,
                   "ParamName": "Attack_05_RepeatTime",
                   "ParamType": "Integer",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": false,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_ReachLongTimeThreshold",
+                  "ParamType": 2,
                   "Target": "Self"
                 }
               ],
               "Target": "Self",
               "soundActionKey": "Play_SFX_Char_Skill_QingYi_Attack_Normal_07_Ready"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_ReachLongTimeThreshold",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "GreaterEqual",
+                  "Param": 2,
+                  "ParamName": "Attack_05_RepeatTime",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": false,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_ReachLongTimeThreshold",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
             }
           ],
           "AnimatorStateName": "Attack_Normal_05",

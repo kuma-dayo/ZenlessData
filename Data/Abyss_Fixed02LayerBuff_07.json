@@ -24,7 +24,7 @@
     "Abyss_Fixed02LayerBuff_07_BuffModifier": {
       "Duration": "%AS_Duration",
       "MaxStackingNumber": 3,
-      "ModifierStacking": "Multiple",
+      "ModifierStacking": "MultipleRefresh",
       "Properties": {
         "Actor_AddedDamageRatio": "%AS_AddedDamageRatio",
         "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"

@@ -27621,6 +27621,17 @@
               "ExtraIsChild": true,
               "ExtraPrefab": "RewardBtnRow",
               "ExtraType": 1,
+              "HighLightAddSortingOrder": true,
+              "HighLightButtonClick": false,
+              "HighLightIgnoreLightLoop": 0,
+              "HighLightMuteClickNextCB": false,
+              "HighLightPath": "Btn/Icon",
+              "HighLightSkipConsole": false
+            },
+            {
+              "ExtraIsChild": true,
+              "ExtraPrefab": "RewardBtnRow",
+              "ExtraType": 1,
               "HighLightAddSortingOrder": false,
               "HighLightButtonClick": false,
               "HighLightIgnoreLightLoop": 0,
@@ -27657,7 +27668,7 @@
             },
             {
               "ExtraType": 0,
-              "HighLightAddSortingOrder": false,
+              "HighLightAddSortingOrder": true,
               "HighLightButtonClick": false,
               "HighLightIgnoreLightLoop": 0,
               "HighLightMuteClickNextCB": false,
@@ -27666,7 +27677,7 @@
             },
             {
               "ExtraType": 0,
-              "HighLightAddSortingOrder": true,
+              "HighLightAddSortingOrder": false,
               "HighLightButtonClick": false,
               "HighLightIgnoreLightLoop": 0,
               "HighLightMuteClickNextCB": false,

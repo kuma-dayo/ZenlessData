@@ -22,8 +22,8 @@
             "outTangent": -0.09578882,
             "outWeight": 0.0753575638,
             "tangentMode": 1,
-            "time": 0.0222324356,
-            "value": -4.319559,
+            "time": 0.0210192688,
+            "value": -3.68331671,
             "weightedMode": 0
           },
           {
@@ -32,8 +32,8 @@
             "outTangent": 7.15991831,
             "outWeight": 0.0190567262,
             "tangentMode": 1,
-            "time": 0.0738538355,
-            "value": -4.66274357,
+            "time": 0.07264067,
+            "value": -4.026501,
             "weightedMode": 0
           },
           {
@@ -47,23 +47,13 @@
             "weightedMode": 0
           },
           {
-            "inTangent": 1.64019763,
+            "inTangent": 1.63917875,
             "inWeight": 0.333333343,
-            "outTangent": 1.64019763,
+            "outTangent": 1.63917875,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.11756701,
-            "value": 2.57184768,
-            "weightedMode": 0
-          },
-          {
-            "inTangent": -0.4406633,
-            "inWeight": 0.333333343,
-            "outTangent": -0.4406633,
-            "outWeight": 0.333333343,
-            "tangentMode": 1,
-            "time": 0.3203143,
-            "value": 2.83499479,
+            "time": 0.217367738,
+            "value": 3.76442552,
             "weightedMode": 0
           },
           {
@@ -77,43 +67,23 @@
             "weightedMode": 0
           },
           {
-            "inTangent": -1.88150477,
+            "inTangent": 2.02369833,
             "inWeight": 0.333333343,
-            "outTangent": -1.88150477,
+            "outTangent": 2.02369833,
             "outWeight": 0.333333343,
             "tangentMode": 1,
-            "time": 0.3649063,
-            "value": -3.71139479,
+            "time": 0.470484853,
+            "value": -4.57670069,
             "weightedMode": 0
           },
           {
-            "inTangent": -0.0411395654,
-            "inWeight": 0.118602842,
-            "outTangent": -0.0411395654,
-            "outWeight": 0.0,
+            "inTangent": 0.07288484,
+            "inWeight": 0.333333343,
+            "outTangent": 0.07288484,
+            "outWeight": 0.333333343,
             "tangentMode": 0,
-            "time": 0.535176,
-            "value": -3.532103,
-            "weightedMode": 0
-          },
-          {
-            "inTangent": 6.97580528,
-            "inWeight": 0.0,
-            "outTangent": 6.97580528,
-            "outWeight": 0.305274457,
-            "tangentMode": 0,
-            "time": 0.559120834,
-            "value": 2.19754148,
-            "weightedMode": 0
-          },
-          {
-            "inTangent": -6.17306137,
-            "inWeight": 0.2887004,
-            "outTangent": -6.17306137,
-            "outWeight": 0.0,
-            "tangentMode": 0,
-            "time": 0.698381,
-            "value": 2.20567,
+            "time": 0.631239831,
+            "value": 2.9810164,
             "weightedMode": 0
           },
           {
@@ -122,8 +92,8 @@
             "outTangent": 0.0,
             "outWeight": 0.0,
             "tangentMode": 0,
-            "time": 0.7041218,
-            "value": 0.07812485,
+            "time": 0.7329097,
+            "value": 0.0283521712,
             "weightedMode": 0
           },
           {
@@ -137,7 +107,7 @@
             "weightedMode": 0
           }
         ],
-        "length": 13,
+        "length": 10,
         "postWrapMode": 8,
         "preWrapMode": 8
       },
@@ -261,9 +231,9 @@
           "curve": {
             "keys": [
               {
-                "inTangent": 0.13246046,
+                "inTangent": 0.166259438,
                 "inWeight": 0.0,
-                "outTangent": 0.13246046,
+                "outTangent": 0.166259438,
                 "outWeight": 0.333333343,
                 "tangentMode": 34,
                 "time": 0.00653457642,
@@ -276,7 +246,7 @@
                 "outTangent": 0.06410432,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.60015,
+                "time": 0.479473531,
                 "value": 0.0932637453,
                 "weightedMode": 0
               },
@@ -286,8 +256,8 @@
                 "outTangent": 0.9917227,
                 "outWeight": 0.6148991,
                 "tangentMode": 0,
-                "time": 0.698036134,
-                "value": -0.119188681,
+                "time": 0.6115561,
+                "value": -0.114260875,
                 "weightedMode": 0
               },
               {
@@ -296,8 +266,8 @@
                 "outTangent": 4.848739,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.7415092,
-                "value": -0.0620366968,
+                "time": 0.692141533,
+                "value": -0.05710889,
                 "weightedMode": 0
               },
               {
@@ -306,8 +276,8 @@
                 "outTangent": 1.03511381,
                 "outWeight": 0.7084076,
                 "tangentMode": 0,
-                "time": 0.79277885,
-                "value": 1.01220286,
+                "time": 0.718178868,
+                "value": 1.07133651,
                 "weightedMode": 0
               },
               {
@@ -347,7 +317,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 10000
+            "param2": 1000
           }
         }
       ],
@@ -379,7 +349,7 @@
   "seqName": "sk_melee_6",
   "speedParams": {
     "param1": 44,
-    "param2": 100000
+    "param2": 1000
   },
   "topSpeed": 99.0,
   "totalTime": 1.0,
