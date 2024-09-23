@@ -1,0 +1,135 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_03",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 12,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ListenTransitionModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_SpecialSkill_02",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "HideMeshModifier": {
+      "Duration": 0.21,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Caesar_Weapon_2"
+          ],
+          "Tag": "Caesar_Weapon_2",
+          "Visible": false
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Caesar_Attack_Branch_02_FadeOut",
+          "FireEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "NeedRaycastGround": false,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Weapon02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Caesar_Weapon_2"
+          ],
+          "Tag": "Caesar_Weapon_2",
+          "Visible": true
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Caesar_Attack_Branch_02_FadeIn",
+          "FireEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "NeedRaycastGround": false,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Weapon02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "Target": "Self"
+        }
+      ]
+    },
+    "ListenTransitionModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "HideMeshModifier",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimatorStateNormalizedTime",
+                  "AnimatorStateName": "Attack_Normal_03",
+                  "LayerIndex": 0,
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0,
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

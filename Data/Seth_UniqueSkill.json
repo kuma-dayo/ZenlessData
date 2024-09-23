@@ -458,7 +458,7 @@
           ],
           "Priority": -1,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "RemovedActions": [
             {
               "$type": "RemoveModifier",
@@ -542,7 +542,7 @@
           ],
           "Priority": -1,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "RemovedActions": [
             {
               "$type": "RemoveModifier",

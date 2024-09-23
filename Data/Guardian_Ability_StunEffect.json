@@ -11,8 +11,8 @@
             "Stun_SFX",
             "Stun_SFX_Arm"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Stun_Start_Front",
@@ -22,8 +22,8 @@
             "Stun_SFX",
             "Stun_SFX_Arm"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Stun_Start_Back",
@@ -33,8 +33,8 @@
             "Stun_SFX",
             "Stun_SFX_Arm"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "OverLoad_Stun_Loop",
@@ -44,8 +44,8 @@
             "Stun_SFX",
             "Stun_SFX_Arm"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Stun_Loop",
@@ -55,8 +55,8 @@
             "Stun_SFX",
             "Stun_SFX_Arm"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -74,16 +74,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -109,16 +109,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

@@ -5,10 +5,10 @@
       "Value": 0.25
     },
     "AS_Duration": {
-      "Value": 8.0
+      "Value": 8
     },
     "AS_IntervalCD": {
-      "Value": 20.0
+      "Value": 20
     }
   },
   "AbilityStacking": "Unique",

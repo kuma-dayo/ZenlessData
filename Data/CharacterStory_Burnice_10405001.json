@@ -1,0 +1,65 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "SummonMixin",
+      "NeedRayCastCheck": true,
+      "OnSummonCreatedActions": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "MuteLock_Modifier",
+          "Target": "Target"
+        }
+      ],
+      "OverrideDelay": 0,
+      "SummonDuration": 10,
+      "SummonID": 900011085,
+      "SummonPosRot": {
+        "CoordsOption": "ReferTarget",
+        "NeedRaycastGround": true,
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsClampOffsetDistance": false,
+          "IsUseRotationXZ": true,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "IsUseAttachPointPos": true,
+          "IsUseAttachPointRotation": true,
+          "OffsetReferTarget": "LocalAvatar"
+        }
+      },
+      "SummonTag": [
+        "Burnice_Spider"
+      ],
+      "SummonType": "Monster",
+      "TimesUpDelay": 0
+    }
+  ],
+  "AbilityName": "CharacterStory_Burnice_10405001",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "MuteLock_Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyLockTargetDataAction",
+          "LockOnRadiusDelta": 0,
+          "LockOnRadiusRatio": 0.01,
+          "LockTargetOffsetScore": 0,
+          "LockTargetSelfWeight": 0.01
+        }
+      ]
+    }
+  }
+}

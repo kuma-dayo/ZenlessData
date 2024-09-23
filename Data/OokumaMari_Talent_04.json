@@ -25,7 +25,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "property(Atk_Battle)*specials(AS_Magnification)/3",
+        "Expression": "property(Atk_Battle)*specials(AS_Magnification)\/3",
         "ParamName": "AS_AddedAttackDelta_02",
         "Target": "Self",
         "ValueType": "Float"

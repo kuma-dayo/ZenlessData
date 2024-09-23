@@ -24,7 +24,7 @@
         },
         {
           "$type": "InterruptDitherFadeAction",
-          "OverrideExitTime": 0.0,
+          "OverrideExitTime": 0,
           "Tag": "Avatar_Rina_Attack_Rush_Dither_Fade",
           "Target": "Self"
         },

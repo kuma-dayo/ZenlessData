@@ -3,7 +3,7 @@
   "EventGraph": {
     "EditorOnlyData": {
       "Event": {
-        "OnStart": {
+        "OnAbilityTrigger": {
           "x": 641.913,
           "y": 256.4783
         }
@@ -48,10 +48,11 @@
       ]
     },
     "EventMap": {
-      "OnStart": {
+      "OnAbilityTrigger": {
         "$type": "ConfigAbilityGraphEvent",
         "EventNodeBind": 2,
-        "ParametersBind": []
+        "ParametersBind": [
+        ]
       }
     },
     "NodeList": [
@@ -148,10 +149,10 @@
       }
     ]
   },
-  "OnAbilityStart": [
+  "OnAbilityTrigger": [
     {
       "$type": "CallGraphEvent",
-      "EventName": "OnStart"
+      "EventName": "OnAbilityTrigger"
     }
   ]
 }

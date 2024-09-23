@@ -1,0 +1,177 @@
+{
+  "AbilityName": "Card_Strength_2002403",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.9,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.8,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.7,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.6,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.5,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.4,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.3,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.2,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "LessEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.1,
+            "Val2": 0
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+  }
+}

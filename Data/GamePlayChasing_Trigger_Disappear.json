@@ -2,7 +2,7 @@
   "AbilityName": "GamePlayChasing_Trigger_Disappear",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 100.0
+      "Value": 100
     },
     "ShieldAmount": {
       "Value": 1
@@ -38,7 +38,7 @@
             "Eff_Monster_Common_Ether_Promote_HeadPoint_01"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -47,7 +47,7 @@
             "Eff_Monster_Goblin_Buff_SuperArmor"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -56,7 +56,7 @@
             "Eff_Monster_Goblin_Body_01"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         }
       ]

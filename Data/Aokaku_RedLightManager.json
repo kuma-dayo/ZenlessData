@@ -657,16 +657,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -718,7 +718,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -727,7 +727,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -736,7 +736,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_L_Loop"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -745,7 +745,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_R_Loop"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -754,16 +754,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -783,16 +783,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -812,16 +812,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -841,16 +841,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -876,7 +876,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -885,7 +885,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -894,7 +894,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_L_Loop"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -903,7 +903,7 @@
             "Eff_Aokaku_Enhance_01_Weapon_R_Loop"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -912,16 +912,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -941,16 +941,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -977,16 +977,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1005,8 +1005,8 @@
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "SwitchIn_Attack_Ex_Start",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 }
               ]
             }
@@ -1024,8 +1024,8 @@
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "SwitchIn_Attack_Ex_Start",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 }
               ]
             }
@@ -1056,16 +1056,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1084,8 +1084,8 @@
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "SwitchIn_Attack_Ex_Start",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 }
               ]
             }
@@ -1103,8 +1103,8 @@
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "SwitchIn_Attack_Ex_Start",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 }
               ]
             }
@@ -1139,16 +1139,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1168,16 +1168,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1197,16 +1197,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1242,16 +1242,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1271,16 +1271,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1317,16 +1317,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1346,16 +1346,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1381,16 +1381,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1410,16 +1410,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1468,16 +1468,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

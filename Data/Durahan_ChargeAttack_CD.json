@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Front",
@@ -18,8 +18,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Back",
@@ -27,8 +27,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Attack",
@@ -36,8 +36,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Attack_02",
@@ -45,8 +45,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Counter",
@@ -54,8 +54,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Break",
@@ -63,8 +63,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Revenge",
@@ -72,8 +72,8 @@
           "ModifierNameList": [
             "SkillCDModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -136,8 +136,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Skill_01_Counter",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],

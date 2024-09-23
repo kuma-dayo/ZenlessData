@@ -1,0 +1,12 @@
+{
+  "AbilityName": "CharacterStory_Burnice_10405003",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "LDListenEntityAction",
+        "TargetKey": "BeHit_ActiveFlow"
+      }
+    ]
+  }
+}

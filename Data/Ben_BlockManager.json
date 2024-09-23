@@ -126,7 +126,7 @@
       "Value": 0.3
     },
     "AS_Duration_Talent_01": {
-      "Value": 15.0
+      "Value": 15
     }
   },
   "AbilityStacking": "Unique",
@@ -168,7 +168,7 @@
       ]
     },
     "BlockSuccessModifier_Logic": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Replace",
       "OnAdded": [
@@ -206,7 +206,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Replace",
       "OnAdded": [

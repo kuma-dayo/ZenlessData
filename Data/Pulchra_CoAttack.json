@@ -1,0 +1,406 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "CoAttack_ThrowTarget",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "CoAttackedModifier"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "EnemiesNum_InRange",
+          "CustomReferMaxPropertyType": "MaxEnemiesNum_InRange",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "AllowBellumModifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 1
+            },
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "AllowBellumModifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Pulchra_CoAttack",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Monster_Pulchra"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "EnemyCheckModifer",
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Mors_CoAttackTarget"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "BySkillReady",
+            "CustomKey": "Monster_Mors",
+            "SkillName": "Monster_Mors_CoAttack_CloseShoot",
+            "Target": "Custom"
+          },
+          {
+            "$type": "ByAIParam",
+            "BoolParamValue": true,
+            "CompareType": "Equal",
+            "CustomKey": "Monster_Mors",
+            "ParamName": "Bool_AllowCoAttack",
+            "Target": "Custom"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_Pulchra_Attack_ThrowTarget_02_Attackproperty_03"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Other"
+      },
+      {
+        "$type": "ApplyModifier",
+        "CustomKey": "Monster_Mors",
+        "ModifierName": "AllowMorsModifier",
+        "Predicates": [
+          {
+            "$type": "BySkillReady",
+            "CustomKey": "Monster_Mors",
+            "SkillName": "Monster_Mors_CoAttack_CloseShoot",
+            "Target": "Custom"
+          },
+          {
+            "$type": "ByAIParam",
+            "BoolParamValue": true,
+            "CompareType": "Equal",
+            "CustomKey": "Monster_Mors",
+            "ParamName": "Bool_AllowCoAttack",
+            "Target": "Custom"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_Pulchra_Attack_ThrowTarget_02_Attackproperty_03"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Custom"
+      }
+    ],
+    "OnKilled": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CoAttackCheckModifier",
+        "Target": "CasterAllied"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AllowBellumModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 4,
+          "TimeUpActions": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "Bellum_CoAttackTarget"
+              ],
+              "IsAdd": true,
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "CustomKey": "Monster_Bellum",
+                  "Relationship": "Allied",
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "BySkillReady",
+                  "CustomKey": "Monster_Bellum",
+                  "SkillName": "Monster_Bellum_CoAttack_FastMove",
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAIParam",
+                  "BoolParamValue": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_Bellum",
+                  "ParamName": "Bool_AllowCoAttack",
+                  "Target": "Custom"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "CustomKey": "Monster_Bellum",
+              "ParamName": "Bool_CoAttack",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "CustomKey": "Monster_Bellum",
+                  "Relationship": "Allied",
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "BySkillReady",
+                  "CustomKey": "Monster_Bellum",
+                  "SkillName": "Monster_Bellum_CoAttack_FastMove",
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAIParam",
+                  "BoolParamValue": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_Bellum",
+                  "ParamName": "Bool_AllowCoAttack",
+                  "Target": "Custom"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ]
+        }
+      ],
+      "Duration": 6,
+      "ModifierStacking": "Replace"
+    },
+    "AllowMorsModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.6,
+          "TimeUpActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "CustomKey": "Monster_Mors",
+              "ParamName": "Bool_CoAttack",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "BySkillReady",
+                  "CustomKey": "Monster_Mors",
+                  "SkillName": "Monster_Mors_CoAttack_CloseShoot",
+                  "Target": "Custom"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ]
+        }
+      ],
+      "Duration": 0.8,
+      "ModifierStacking": "Replace"
+    },
+    "CoAttackCheckModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_CoAttack",
+          "ParamType": 2,
+          "Predicates": [
+            {
+              "$type": "ByAbilityTargetCount",
+              "AbilityTargetKey": "Monster_Pulchra_CoAttackTarget",
+              "CompareType": "Less",
+              "CompareValue": 1,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "CoAttackedModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_CoAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    },
+    "EnemyCheckModifer": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "FieldRangeMixin",
+          "ColliderConfig": {
+            "ColliderAngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "ColliderPosOffset": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "ColliderType": "FanCylinder",
+            "FanCylinderColliderAngle": 360,
+            "FanCylinderColliderHeight": 2,
+            "FanCylinderColliderRadius": 4,
+            "FanCylinderColliderVertexNum": 24
+          },
+          "FieldEnterActions": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": 1,
+              "CustomPropertyType": "EnemiesNum_InRange",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "Predicates": [
+                {
+                  "$type": "ByIsLocalAvatar",
+                  "IsLocalAvatar": true,
+                  "Target": "Target"
+                }
+              ],
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom"
+            },
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "NearPulchra"
+              ],
+              "IsAdd": true,
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Target"
+            }
+          ],
+          "FieldExitActions": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": -1,
+              "CustomPropertyType": "EnemiesNum_InRange",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "Predicates": [
+                {
+                  "$type": "ByIsLocalAvatar",
+                  "IsLocalAvatar": true,
+                  "Target": "Target"
+                }
+              ],
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom"
+            },
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "NearPulchra"
+              ],
+              "IsAdd": false,
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Target"
+            }
+          ],
+          "FieldInitPosRot": {
+            "CoordsOption": "Self",
+            "NeedRaycastGround": true,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "FieldStopActions": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": 0,
+              "CustomPropertyType": "EnemiesNum_InRange",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "PropertyModifyFunction": "Replace",
+              "PropertyType": "Custom"
+            }
+          ],
+          "IsFollow": true,
+          "TotalDuration": -1
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

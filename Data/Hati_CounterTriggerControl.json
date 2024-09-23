@@ -63,7 +63,8 @@
   ],
   "AbilityName": "Hati_CounterTriggerControl",
   "AbilityStacking": "Unique",
-  "DefaultModifier": {},
+  "DefaultModifier": {
+  },
   "Modifiers": {
     "CounterTriggerControlModifier": {
       "Duration": -1,

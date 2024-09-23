@@ -10,7 +10,7 @@
           "ModifierNameList": [
             "Dust_SFX"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.231
         },
         {
@@ -20,8 +20,8 @@
           "ModifierNameList": [
             "Dust_SFX_1"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "BeScared_End",
@@ -31,7 +31,7 @@
             "Dust_SFX"
           ],
           "NormalizedTimeHigh": 0.161,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -49,16 +49,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -84,16 +84,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

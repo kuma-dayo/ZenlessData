@@ -1,0 +1,83 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "BulletMixin",
+      "AliveDuration": 2,
+      "BulletColliderConfig": {
+        "ColliderAngleOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderPosOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderType": "Sphere",
+        "SphereColliderRadius": 1.5
+      },
+      "BulletEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_Attack_ThrowTarget_02_04_Lightning"
+      },
+      "BulletHitTypeName": "Penetrate",
+      "BulletInitPosRot": {
+        "CoordsOption": "Caster",
+        "NeedRaycastGround": true,
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsUseRotationXZ": false,
+          "IsUseRotationY": false,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "RaycastGroundOffset": 0,
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "OffsetReferTarget": "Caster"
+        }
+      },
+      "BulletName": "Bullet_Empty",
+      "CanHitOther": true,
+      "CanHitStage": false,
+      "DestroyEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_Attack_ThrowTarget_02_17_Aura"
+      },
+      "DestroyExplode": true,
+      "ExplodeAnimEventID": "Monster_Pulchra_Attack_ThrowTarget_02_Attackproperty_03",
+      "ExplodePosType": "Bullet",
+      "HitAnimEventID": "Monster_Pulchra_Attack_ThrowTarget_02_Attackproperty_02",
+      "HitExplodeRadius": 1.5,
+      "HitInterval": 0.1,
+      "HitOtherExplode": false,
+      "HitStageExplode": false,
+      "IsCanReflect": false,
+      "MaxHitNum": 3,
+      "MaxHitTargetNum": 3,
+      "OnBulletCreateAction": [
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Monster_Pulchra_Attack_ThrowTarget_02_16_Aura",
+          "Target": "Other"
+        }
+      ],
+      "OnBulletExplodeAction": [
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "Monster_Pulchra_ThrowTarget_02_CamShake_E_03",
+          "Target": "Other"
+        }
+      ],
+      "Targetting": "Enemy"
+    }
+  ],
+  "AbilityName": "Pulchra_ThrowTarget_02_Bullet_Explode_02",
+  "AbilityStacking": "Unique"
+}

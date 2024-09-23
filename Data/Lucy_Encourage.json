@@ -58,7 +58,7 @@
       "ValueType": "Float"
     },
     "AS_WoodBuffRatio": {
-      "Value": 1.0
+      "Value": 1
     }
   },
   "AbilityStacking": "Unique",
@@ -407,7 +407,7 @@
         {
           "$type": "ByModifierDuration",
           "CompareType": "GreaterEqual",
-          "CompareValue": 25.0,
+          "CompareValue": 25,
           "ModifierTargetType": "CurTargetAbility",
           "Target": "Self",
           "TargetModifier": "EncourageModifier"
@@ -528,7 +528,7 @@
         {
           "$type": "ByModifierDuration",
           "CompareType": "GreaterEqual",
-          "CompareValue": 25.0,
+          "CompareValue": 25,
           "ModifierTargetType": "CurTargetAbility",
           "Target": "Self",
           "TargetModifier": "Modifier_Encourage_BuffIcon"

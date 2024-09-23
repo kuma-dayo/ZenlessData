@@ -1,0 +1,111 @@
+{
+  "AbilityName": "Card_Strength_2012401",
+  "AbilitySpecials": {
+    "HpPercentage": {
+      "Value": 0.04
+    },
+    "HpReducePercent": {
+      "Value": 0
+    },
+    "HpThreshold": {
+      "Value": 0.2
+    },
+    "Self_CurHP": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyAbilityAction",
+        "AbilityName": "Card_Strength_2002400",
+        "IsAutoTrigger": false,
+        "Target": "Self"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "HpReduceModifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ExSp",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ExQTE",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "QTE",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "EvadeAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "HpReduceModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "property(CurHP)\/property(MaxHP)",
+          "ParamName": "Self_CurHP",
+          "Target": "Self",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(HpPercentage)*specials(Self_CurHP)",
+          "ParamName": "HpReducePercent",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "DecreaseHPAction",
+          "Amount": 0,
+          "IgnoreInvincible": "true",
+          "Percentage": "%HpReducePercent",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Greater",
+              "Param": "%HpThreshold",
+              "ParamName": "Self_CurHP",
+              "ParamType": "Float"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "Card_Strength_2002400",
+          "Target": "TeamAvatars"
+        }
+      ]
+    }
+  }
+}

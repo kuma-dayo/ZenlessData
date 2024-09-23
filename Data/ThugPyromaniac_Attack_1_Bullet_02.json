@@ -2,20 +2,20 @@
   "AbilityMixins": [
     {
       "$type": "BulletMixin",
-      "AliveDuration": 10.0,
+      "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
-        "SphereColliderRadius": 1.0
+        "SphereColliderRadius": 1
       },
       "BulletEffect": {
         "EffectPattern": "Eff_Monster_ThugPyromaniac_Attack_1_Fire_01"
@@ -26,19 +26,19 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
-        "RaycastGroundOffset": 0.0,
+        "RaycastGroundOffset": 0,
         "TargetOption": {
           "$type": "ConfigPosRotReferTarget",
           "OffsetReferTarget": "Caster"
@@ -49,7 +49,7 @@
       "DestroyExplode": false,
       "ExplodePosType": "Bullet",
       "HitAnimEventID": "Monster_ThugPyromaniac_ATK01_Attackproperty_2",
-      "HitExplodeRadius": 1.0,
+      "HitExplodeRadius": 1,
       "HitInterval": 0.3,
       "HitOtherExplode": false,
       "HitStageExplode": false,

@@ -2,7 +2,7 @@
   "AbilityName": "Talent_10101_ElementMysteryDelta02",
   "AbilitySpecials": {
     "ElementMysteryDelta": {
-      "Value": 50.0
+      "Value": 50
     }
   },
   "AbilityStacking": "Unique",

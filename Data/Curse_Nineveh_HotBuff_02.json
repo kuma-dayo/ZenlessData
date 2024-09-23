@@ -1,0 +1,14 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_02",
+  "AbilitySpecials": {
+    "AS_StunMaxRatio": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_StunMaxRatio": "%AS_StunMaxRatio"
+    }
+  }
+}

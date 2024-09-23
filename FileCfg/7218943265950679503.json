@@ -1,3 +1,28 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "EGFCJGAMMEI": 998000001,
+      "COOLEALMPMI": "BackFlow/ReturnPlayer_CharacterExperience",
+      "AOCDCAIDJBE": [
+        {
+          "PAFLDEAPMFJ": 100,
+          "BIIEPGAOLEG": 100
+        },
+        {
+          "PAFLDEAPMFJ": 300003,
+          "BIIEPGAOLEG": 10
+        },
+        {
+          "PAFLDEAPMFJ": 301003,
+          "BIIEPGAOLEG": 10
+        },
+        {
+          "PAFLDEAPMFJ": 10,
+          "BIIEPGAOLEG": 100000
+        }
+      ],
+      "JANIINCCFNI": "BackFlow/SC0010G_1",
+      "FMNKAKEDCJN": "BackFlow/SC0010B_1"
+    }
+  ]
 }

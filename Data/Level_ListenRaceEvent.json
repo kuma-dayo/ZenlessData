@@ -1,0 +1,30 @@
+{
+  "AbilityName": "Level_DestructionRace",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnKilledPre": [
+      {
+        "$type": "LDListenEntityAction",
+        "Predicates": [
+          {
+            "$type": "ByCampType",
+            "Camp": "TeamGood",
+            "Target": "Other"
+          }
+        ],
+        "TargetKey": "RaceFromLocalAvatar"
+      },
+      {
+        "$type": "LDListenEntityAction",
+        "Predicates": [
+          {
+            "$type": "ByCampType",
+            "Camp": "TeamEvil",
+            "Target": "Other"
+          }
+        ],
+        "TargetKey": "RaceFromMonster"
+      }
+    ]
+  }
+}

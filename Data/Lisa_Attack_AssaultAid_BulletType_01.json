@@ -5,14 +5,14 @@
       "AliveDuration": 3,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.5
@@ -25,9 +25,9 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
@@ -57,13 +57,13 @@
       "MovementConfig": {
         "$type": "ConfigMovementParabola",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 8.0
+          "x": 0,
+          "y": 0,
+          "z": 8
         },
         "DefaultRotAngle": 0,
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.5,
         "TargetPosRot": {
@@ -71,24 +71,24 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 8.0
+              "x": 0,
+              "y": 0,
+              "z": 8
             },
             "PositionOffset": {
               "x": 0,
               "y": 0,
-              "z": -1.0
+              "z": -1
             }
           },
           "TargetOption": {
@@ -100,8 +100,8 @@
         "TargetRotLimitAngleLeft": 15,
         "TargetRotLimitAngleRight": 15,
         "TimesUpMoveOption": "Remain",
-        "h1": 1.0,
-        "h2": 1.0,
+        "h1": 1,
+        "h2": 1,
         "s1": 4,
         "s2": 8,
         "t1": 0.1,

@@ -8,19 +8,21 @@
       "ModifierStacking": "Replace",
       "OnAdded": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "LightfootRover_ATK5"
           ],
+          "IsAdd": true,
           "Target": "Self"
         }
       ],
       "OnRemoved": [
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "LightfootRover_ATK5"
           ],
+          "IsAdd": false,
           "Target": "Self"
         }
       ]

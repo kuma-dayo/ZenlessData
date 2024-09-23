@@ -1,0 +1,115 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Door1OpenOutsideIdle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Door1Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Door1OpenInsideIdle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Door1Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Door2OpenOutsideIdle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Door2Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Door2OpenInsideIdle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "Door2Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Close_Idle",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "CloseModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_WoodenElevator_Default",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "CloserModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PopPointGameObjectControlAction",
+          "Tag": "Device_Prop_WoodenElevator_Door1_Open"
+        },
+        {
+          "$type": "PopPointGameObjectControlAction",
+          "Tag": "Device_Prop_WoodenElevator_Door2_Open"
+        }
+      ]
+    },
+    "Door1Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "Door1"
+          ],
+          "IsActive": false,
+          "Tag": "Device_Prop_WoodenElevator_Door1_Open"
+        }
+      ]
+    },
+    "Door2Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "Door1"
+          ],
+          "IsActive": false,
+          "Tag": "Device_Prop_WoodenElevator_Door2_Open"
+        }
+      ]
+    }
+  }
+}

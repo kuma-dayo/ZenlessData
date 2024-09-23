@@ -35,8 +35,10 @@
           "Target": "Self"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "Device_Prop_RailWrench_Interact",

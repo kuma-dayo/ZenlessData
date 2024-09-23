@@ -1,0 +1,31 @@
+{
+  "AbilityName": "CharacterStory_Burnice_10405001_ClearStun",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "PropertyKey": "Actor_NoStun",
+        "PropertyValue": 1,
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyStunStateAction",
+        "Target": "Self",
+        "TargetState": "Normal"
+      },
+      {
+        "$type": "ProcessStunCDAction",
+        "ProcessType": "Trigger",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Percentage": 0,
+        "PropertyModifyFunction": "Replace",
+        "PropertyType": "CurStun",
+        "Target": "Self"
+      }
+    ]
+  }
+}

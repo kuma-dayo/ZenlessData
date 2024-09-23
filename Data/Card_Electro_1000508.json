@@ -20,13 +20,13 @@
       "TransmitEffect": {
         "EffectPattern": "Eff_SkillEffect_LightningChain_TransmitEffect_Basic_Test"
       },
-      "TransmitEffectDelayTime": 0.0,
+      "TransmitEffectDelayTime": 0,
       "TransmitInterval": 0.3,
       "TransmitTimes": 5,
       "TransmitingEndPointEffect": {
         "EffectPattern": "Eff_SkillEffect_LightningChain_TransmitEndEffect_Basic_Test"
       },
-      "TransmitingEndPointEffectDelayTime": 0.0,
+      "TransmitingEndPointEffectDelayTime": 0,
       "TransmitingPickTargetNum": 1,
       "TransmittingPlayTime": 0.5
     }
@@ -62,25 +62,26 @@
           "CanTransmitBack": false,
           "ChangeRatio": 1,
           "FirstCasterCustomKey": "Card_Eletric_TransmitChainMixin_Targetting01",
-          "OnTransmitingEndPointAction": [],
+          "OnTransmitingEndPointAction": [
+          ],
           "TargetCustomKey": "Card_Eletric_TransmitChainMixin_Targetting02",
           "TransmitAttackProperty": "#Card_Electirc_ChainDMG_Ability_AttackProperty_01",
           "TransmitEffect": {
             "EffectPattern": "Eff_SkillEffect_LightningChain_TransmitEffect_Basic_Test"
           },
-          "TransmitEffectDelayTime": 0.0,
-          "TransmitEndEffectDelayTime": 0.0,
+          "TransmitEffectDelayTime": 0,
+          "TransmitEndEffectDelayTime": 0,
           "TransmitInterval": 0.2,
           "TransmitPickTargetNum": 1,
           "TransmitSource": "Target",
-          "TransmitStartEffectDelayTime": 0.0,
+          "TransmitStartEffectDelayTime": 0,
           "TransmitTarget": "Custom",
           "TransmitTimes": 5,
           "TransmitingEndPointEffect": {
             "EffectPattern": "Eff_SkillEffect_LightningChain_TransmitEndEffect_Basic_Test"
           },
-          "TransmitingEndPointEffectDelayTime": 0.0,
-          "TransmitingStartPointEffectDelayTime": 0.0,
+          "TransmitingEndPointEffectDelayTime": 0,
+          "TransmitingStartPointEffectDelayTime": 0,
           "TransmittingPlayTime": 0.5
         }
       ],

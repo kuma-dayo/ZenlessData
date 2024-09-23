@@ -1,34 +1,34 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1,
-      "OBMHHBOOCJK": "VideoShop_NPC",
-      "HOMIDKMDMGL": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Elfy.asset",
-      "MECOPINMMOG": "Assets/NapResources/Char/NPC/NPC_Elfy/NPC_Elfy_InStore.prefab"
+      "DKDDFEIAMIF": 1,
+      "HJIOEFBGFED": "VideoShop_NPC",
+      "BCFLJDHGLHE": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Elfy.asset",
+      "MOODINGKDLI": "Assets/NapResources/Char/NPC/NPC_Elfy/NPC_Elfy_InStore.prefab"
     },
     {
-      "NGPCCDGBLLK": 2,
-      "OBMHHBOOCJK": "Buddy_NPC_UI3DModel",
-      "HOMIDKMDMGL": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Enzo.asset",
-      "MECOPINMMOG": "Assets/NapResources/Char/NPC/NPC_Enzo/NPC_Enzo_InStore.prefab"
+      "DKDDFEIAMIF": 2,
+      "HJIOEFBGFED": "Buddy_NPC_UI3DModel",
+      "BCFLJDHGLHE": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Enzo.asset",
+      "MOODINGKDLI": "Assets/NapResources/Char/NPC/NPC_Enzo/NPC_Enzo_InStore.prefab"
     },
     {
-      "NGPCCDGBLLK": 3,
-      "OBMHHBOOCJK": "Cafe_NPC_UI3DModel",
-      "HOMIDKMDMGL": "Assets/NapResources/Data/ScriptConfig/Character/NPC_TinMaster.asset",
-      "MECOPINMMOG": "Assets/NapResources/Char/NPC/NPC_TinMaster/NPC_TinMaster_InStore.prefab"
+      "DKDDFEIAMIF": 3,
+      "HJIOEFBGFED": "Cafe_NPC_UI3DModel",
+      "BCFLJDHGLHE": "Assets/NapResources/Data/ScriptConfig/Character/NPC_TinMaster.asset",
+      "MOODINGKDLI": "Assets/NapResources/Char/NPC/NPC_TinMaster/NPC_TinMaster_InStore.prefab"
     },
     {
-      "NGPCCDGBLLK": 4,
-      "OBMHHBOOCJK": "ArcadePage_NPC",
-      "HOMIDKMDMGL": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Asha.asset",
-      "MECOPINMMOG": "Assets/NapResources/Char/NPC/NPC_Asha/NPC_Asha_InStore.prefab"
+      "DKDDFEIAMIF": 4,
+      "HJIOEFBGFED": "ArcadePage_NPC",
+      "BCFLJDHGLHE": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Asha.asset",
+      "MOODINGKDLI": "Assets/NapResources/Char/NPC/NPC_Asha/NPC_Asha_InStore.prefab"
     },
     {
-      "NGPCCDGBLLK": 5,
-      "OBMHHBOOCJK": "TrendyStore_NPC",
-      "HOMIDKMDMGL": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Susie.asset",
-      "MECOPINMMOG": "Assets/NapResources/Char/NPC/NPC_Susie/NPC_Susie_InStore.prefab"
+      "DKDDFEIAMIF": 5,
+      "HJIOEFBGFED": "TrendyStore_NPC",
+      "BCFLJDHGLHE": "Assets/NapResources/Data/ScriptConfig/Character/NPC_Susie.asset",
+      "MOODINGKDLI": "Assets/NapResources/Char/NPC/NPC_Susie/NPC_Susie_InStore.prefab"
     }
   ]
 }

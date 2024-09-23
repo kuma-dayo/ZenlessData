@@ -168,14 +168,14 @@
           "ClosePropectTime": 0,
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 0.8,
-              "z": 0.0
+              "z": 0
             },
             "ColliderType": "Sphere",
             "SphereColliderRadius": 0.8

@@ -1,0 +1,224 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Move_Start",
+          "FrameCountLow": 18,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InvisibleModifier",
+            "MoveStartEffModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Move_Back",
+          "FrameCountLow": 20,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "InvisibleModifier",
+            "MoveStartEffModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_FloaterManager",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "PushMuteBeSelectedAction",
+        "MuteValue": true,
+        "Tag": "TyrantPompey_Floater",
+        "Target": "Self"
+      },
+      {
+        "$type": "PushHullColliderEnable",
+        "Tag": "Floater_HullCollider",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "FadeInModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.05,
+          "TimeUpActions": [
+            {
+              "$type": "AttachEffect",
+              "AttachEffectPosRot": {
+                "CoordsOption": "ReferTarget",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "AttachPoint": "LaserStartPoint",
+                  "IsUseAttachPointPos": true,
+                  "IsUseAttachPointRotation": true,
+                  "OffsetReferTarget": "Self"
+                }
+              },
+              "EffectPattern": "Eff_Monster_TyrantPompey_Floate_Move_Start_01_Dust",
+              "Target": "Self"
+            }
+          ]
+        }
+      ],
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "PopEntityVisibleWithTagAction",
+          "Tag": "TyrantFloater"
+        },
+        {
+          "$type": "InterruptDitherFadeAction",
+          "Tag": "Floater_Dither_Fade",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ]
+    },
+    "FadeOutModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.1,
+          "TimeUpActions": [
+            {
+              "$type": "PushEntityVisibleWithTagAction",
+              "Tag": "TyrantFloater",
+              "Visible": false
+            },
+            {
+              "$type": "AttachEffect",
+              "AttachEffectPosRot": {
+                "CoordsOption": "ReferTarget",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "AttachPoint": "LaserStartPoint",
+                  "IsUseAttachPointPos": true,
+                  "IsUseAttachPointRotation": true,
+                  "OffsetReferTarget": "Self"
+                }
+              },
+              "EffectPattern": "Eff_Monster_TyrantPompey_Floate_Move_Start_01_Dust",
+              "Target": "Self"
+            }
+          ]
+        }
+      ],
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "DitherFadeAction",
+          "DitherFadeKey": "Monster_TyrantPompey_Floater_Dither_Fade",
+          "Tag": "Floater_Dither_Fade",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ]
+    },
+    "InvisibleModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "FadeOutModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "FadeOutModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "FadeInModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "MoveStartEffModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.1,
+          "TimeUpActions": [
+            {
+              "$type": "PushEntityVisibleWithTagAction",
+              "Tag": "TyrantFloater",
+              "Visible": false
+            }
+          ]
+        }
+      ],
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    }
+  }
+}

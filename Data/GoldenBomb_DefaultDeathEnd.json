@@ -3,7 +3,7 @@
   "AbilityStacking": "Unique",
   "Modifiers": {
     "GoldenBomb_DefaultDeathEndModifier": {
-      "Duration": 4.0,
+      "Duration": 4,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
       "OnRemoved": [

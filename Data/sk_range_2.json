@@ -4,18 +4,18 @@
       "autoDestroy": false,
       "axisInfos": [
         {
-          "axis": 2,
-          "baseValue": 0.4,
+          "axis": 1,
+          "baseValue": 0.5,
           "curve": {
             "keys": [
               {
                 "inTangent": -23.1730175,
-                "inWeight": 0.0,
+                "inWeight": 0,
                 "outTangent": -23.1730175,
                 "outWeight": 0.333333343,
                 "tangentMode": 34,
-                "time": 0.0,
-                "value": 0.0,
+                "time": 0,
+                "value": 0,
                 "weightedMode": 0
               },
               {
@@ -32,7 +32,7 @@
                 "inTangent": 0.0351081379,
                 "inWeight": 0.213685736,
                 "outTangent": 0.0351081379,
-                "outWeight": 1.0,
+                "outWeight": 1,
                 "tangentMode": 0,
                 "time": 0.383607656,
                 "value": -0.1211853,
@@ -82,7 +82,7 @@
                 "inTangent": 1.79825366,
                 "inWeight": 0.333333343,
                 "outTangent": 1.79825366,
-                "outWeight": 0.0,
+                "outWeight": 0,
                 "tangentMode": 34,
                 "time": 1.00472569,
                 "value": -0.006865604,
@@ -97,17 +97,102 @@
             "param1": 0,
             "param2": 0
           }
+        },
+        {
+          "axis": 2,
+          "baseValue": 0.5,
+          "curve": {
+            "keys": [
+              {
+                "inTangent": 2,
+                "inWeight": 0,
+                "outTangent": 2,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 0,
+                "value": 0,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 1.68079042,
+                "inWeight": 0.333333343,
+                "outTangent": 1.68079042,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.274340451,
+                "value": 0.871077955,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 1.062059,
+                "inWeight": 0.333333343,
+                "outTangent": 1.062059,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.4273435,
+                "value": 0.010861218,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 2.31856537,
+                "inWeight": 0.333333343,
+                "outTangent": 2.31856537,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.686841547,
+                "value": 0.8162568,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0.5713688,
+                "inWeight": 0.333333343,
+                "outTangent": 0.5713688,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.7092551,
+                "value": 0.0135346651,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 3.849542,
+                "inWeight": 0.333333343,
+                "outTangent": 3.849542,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.8780934,
+                "value": 0.8206824,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0,
+                "inWeight": 0,
+                "outTangent": 0,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 0.9977417,
+                "value": 0.00653457642,
+                "weightedMode": 0
+              }
+            ],
+            "length": 7,
+            "postWrapMode": 8,
+            "preWrapMode": 8
+          },
+          "param": {
+            "param1": 0,
+            "param2": 0
+          }
         }
       ],
       "brakeDestroy": false,
       "effectType": 1,
-      "endFrame": 15,
+      "endFrame": 14,
       "idx": -1750591232,
       "moveType": 1,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -145,22 +230,128 @@
       "idx": 1765126144,
       "startFrame": 11,
       "trackOrder": 1
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "cpAnimRotationType": 0,
+      "curve": {
+        "keys": [
+          {
+            "inTangent": -9.248652,
+            "inWeight": 0,
+            "outTangent": -9.248652,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0,
+            "value": 1,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -3.86671281,
+            "inWeight": 0.333333343,
+            "outTangent": -3.86671281,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0.152298644,
+            "value": -0.408557236,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 6.041272,
+            "inWeight": 0.117712483,
+            "outTangent": 6.041272,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.3140701,
+            "value": -0.163436756,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -0.0796705559,
+            "inWeight": 0.333333343,
+            "outTangent": -0.0796705559,
+            "outWeight": 0.0989463,
+            "tangentMode": 0,
+            "time": 0.336584449,
+            "value": 1.01400208,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -4.976806,
+            "inWeight": 0.333333343,
+            "outTangent": -4.976806,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.5577283,
+            "value": -0.5330721,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -0.04183807,
+            "inWeight": 0.333333343,
+            "outTangent": -0.04183807,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.641949058,
+            "value": -0.340955943,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 4.401155,
+            "inWeight": 0.333333343,
+            "outTangent": 4.401155,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.716382265,
+            "value": 1.01899171,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 1.42965961,
+            "inWeight": 0.181274638,
+            "outTangent": 1.42965961,
+            "outWeight": 0,
+            "tangentMode": 0,
+            "time": 1.00031829,
+            "value": -0.8028915,
+            "weightedMode": 0
+          }
+        ],
+        "length": 8,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      "effectType": 2,
+      "endFrame": 14,
+      "idx": 488115840,
+      "speedEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 12
+      },
+      "speedParam": {
+        "param1": 0,
+        "param2": 0
+      },
+      "startFrame": 0,
+      "trackOrder": 2
     }
   ],
   "backFrame": 0,
   "clipPath": "",
-  "frameCount": 15,
-  "frameRate": 40,
+  "frameCount": 29,
+  "frameRate": 48,
   "loop": false,
-  "modelPath": "Assets/Scenes/Stage_SkyScraper/DemoMesh/Cube_059_Cube_028.fbx",
+  "modelPath": "Assets\/Scenes\/Stage_SkyScraper\/DemoMesh\/Cube_059_Cube_028.fbx",
   "partLoop": false,
   "seqName": "sk_range_2",
   "speedParams": {
     "param1": 44,
     "param2": 1000
   },
-  "topSpeed": 99.0,
-  "totalTime": 0.375,
+  "topSpeed": 99,
+  "totalTime": 0.6041667,
   "trackArray": [
     {
       "order": 0,
@@ -173,6 +364,12 @@
       "trackID": 2,
       "trackName": "子弹",
       "trackType": 5
+    },
+    {
+      "order": 2,
+      "trackID": 3,
+      "trackName": "动画Rotation",
+      "trackType": 2
     }
   ]
 }

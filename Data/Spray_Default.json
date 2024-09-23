@@ -2,10 +2,10 @@
   "AbilityName": "Spray_Default",
   "AbilitySpecials": {
     "IsActive": {
-      "Value": 0.0
+      "Value": 0
     },
     "IsEnter": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -50,14 +50,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "Sphere",
             "SphereColliderRadius": 3
@@ -83,22 +83,23 @@
               ]
             }
           ],
-          "FieldExitActions": [],
+          "FieldExitActions": [
+          ],
           "FieldInitPosRot": {
             "CoordsOption": "Self",
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -124,7 +125,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "IsEnter",
               "ParamType": "Float",
               "Target": "Self"

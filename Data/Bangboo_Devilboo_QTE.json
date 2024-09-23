@@ -139,15 +139,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": -1.0,
-                "y": 0.0,
+                "x": -1,
+                "y": 0,
                 "z": 0.3
               }
             },
@@ -167,15 +167,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 1.0,
-                "y": 0.0,
+                "x": 1,
+                "y": 0,
                 "z": 0.3
               }
             },
@@ -269,15 +269,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": -1.0,
-                "y": 0.0,
+                "x": -1,
+                "y": 0,
                 "z": 0.3
               }
             },
@@ -296,15 +296,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 1.0,
-                "y": 0.0,
+                "x": 1,
+                "y": 0,
                 "z": 0.3
               }
             },
@@ -401,7 +401,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -413,16 +413,16 @@
               "CoordsOption": "Camera",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
                   "x": 1.5,
-                  "y": 0.0,
+                  "y": 0,
                   "z": -0.5
                 }
               },
@@ -452,7 +452,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -464,16 +464,16 @@
               "CoordsOption": "Camera",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
                   "x": -1.5,
-                  "y": 0.0,
+                  "y": 0,
                   "z": -0.5
                 }
               },
@@ -508,7 +508,7 @@
           "BlendParamSpeed": "Float_MoveSpeed",
           "BlendParamTargetSpeed": "Float_MoveTargetSpeed",
           "LerpDuration": 0.1,
-          "MaxDistance": 2.0,
+          "MaxDistance": 2,
           "MaxTargetSpeed": 12,
           "MinDistance": 1.2,
           "MinTargetSpeed": 0,
@@ -516,17 +516,17 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -567,16 +567,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -601,7 +601,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.05,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -613,16 +613,16 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 1.0,
-                  "y": 0.0,
+                  "x": 1,
+                  "y": 0,
                   "z": 0.3
                 }
               },

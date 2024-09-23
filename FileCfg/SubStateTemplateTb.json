@@ -1,14 +1,14 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1,
-      "AJLLFDOHEEP": "EmptySub",
-      "IFOFAIDDNLB": []
+      "DKDDFEIAMIF": 1,
+      "LEJEJCMIJMB": "EmptySub",
+      "PLNDLKPHGFA": []
     },
     {
-      "NGPCCDGBLLK": 2,
-      "AJLLFDOHEEP": "Blocked_Down",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 2,
+      "LEJEJCMIJMB": "Blocked_Down",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 3,
-      "AJLLFDOHEEP": "Blocked_Left",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 3,
+      "LEJEJCMIJMB": "Blocked_Left",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -26,9 +26,9 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 4,
-      "AJLLFDOHEEP": "Blocked_Right",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 4,
+      "LEJEJCMIJMB": "Blocked_Right",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -36,9 +36,9 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 5,
-      "AJLLFDOHEEP": "Blocked_Up",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 5,
+      "LEJEJCMIJMB": "Blocked_Up",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -46,24 +46,24 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 6,
-      "AJLLFDOHEEP": "Anchor",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 6,
+      "LEJEJCMIJMB": "Anchor",
+      "PLNDLKPHGFA": [
         "FLAG_ANCHOR",
         "FLAG_NO_STAMINA"
       ]
     },
     {
-      "NGPCCDGBLLK": 7,
-      "AJLLFDOHEEP": "Aim",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 7,
+      "LEJEJCMIJMB": "Aim",
+      "PLNDLKPHGFA": [
         "FLAG_AIM"
       ]
     },
     {
-      "NGPCCDGBLLK": 8,
-      "AJLLFDOHEEP": "Block",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 8,
+      "LEJEJCMIJMB": "Block",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -71,152 +71,152 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 9,
-      "AJLLFDOHEEP": "Anchor_Unlock",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 9,
+      "LEJEJCMIJMB": "Anchor_Unlock",
+      "PLNDLKPHGFA": [
         "FLAG_NO_STAMINA"
       ]
     },
     {
-      "NGPCCDGBLLK": 10,
-      "AJLLFDOHEEP": "Aim_OverrideAll",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 10,
+      "LEJEJCMIJMB": "Aim_OverrideAll",
+      "PLNDLKPHGFA": [
         "FLAG_OVERRIDE_PLAYER",
         "FLAG_OVERRIDE_NPC"
       ]
     },
     {
-      "NGPCCDGBLLK": 11,
-      "AJLLFDOHEEP": "Aim_OverridePlayer",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 11,
+      "LEJEJCMIJMB": "Aim_OverridePlayer",
+      "PLNDLKPHGFA": [
         "FLAG_OVERRIDE_PLAYER",
         "FLAG_AIM"
       ]
     },
     {
-      "NGPCCDGBLLK": 12,
-      "AJLLFDOHEEP": "Aim_OverrideNPC",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 12,
+      "LEJEJCMIJMB": "Aim_OverrideNPC",
+      "PLNDLKPHGFA": [
         "FLAG_OVERRIDE_NPC",
         "FLAG_AIM"
       ]
     },
     {
-      "NGPCCDGBLLK": 13,
-      "AJLLFDOHEEP": "Inaccessible_Up",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 13,
+      "LEJEJCMIJMB": "Inaccessible_Up",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP"
       ]
     },
     {
-      "NGPCCDGBLLK": 14,
-      "AJLLFDOHEEP": "Inaccessible_Down",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 14,
+      "LEJEJCMIJMB": "Inaccessible_Down",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_DOWN"
       ]
     },
     {
-      "NGPCCDGBLLK": 15,
-      "AJLLFDOHEEP": "Inaccessible_Left",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 15,
+      "LEJEJCMIJMB": "Inaccessible_Left",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_LEFT"
       ]
     },
     {
-      "NGPCCDGBLLK": 16,
-      "AJLLFDOHEEP": "Inaccessible_Right",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 16,
+      "LEJEJCMIJMB": "Inaccessible_Right",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_RIGHT"
       ]
     },
     {
-      "NGPCCDGBLLK": 17,
-      "AJLLFDOHEEP": "Inaccessible_UpDown",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 17,
+      "LEJEJCMIJMB": "Inaccessible_UpDown",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN"
       ]
     },
     {
-      "NGPCCDGBLLK": 18,
-      "AJLLFDOHEEP": "Inaccessible_UpRight",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 18,
+      "LEJEJCMIJMB": "Inaccessible_UpRight",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_RIGHT"
       ]
     },
     {
-      "NGPCCDGBLLK": 19,
-      "AJLLFDOHEEP": "Inaccessible_UpLeft",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 19,
+      "LEJEJCMIJMB": "Inaccessible_UpLeft",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_LEFT"
       ]
     },
     {
-      "NGPCCDGBLLK": 20,
-      "AJLLFDOHEEP": "Inaccessible_DownRight",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 20,
+      "LEJEJCMIJMB": "Inaccessible_DownRight",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_RIGHT"
       ]
     },
     {
-      "NGPCCDGBLLK": 21,
-      "AJLLFDOHEEP": "Inaccessible_DownLeft",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_DOWN",
-        "FLAG_BLOCKED_LEFT"
-      ]
-    },
-    {
-      "NGPCCDGBLLK": 22,
-      "AJLLFDOHEEP": "Inaccessible_LeftRight",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_LEFT",
-        "FLAG_BLOCKED_RIGHT"
-      ]
-    },
-    {
-      "NGPCCDGBLLK": 23,
-      "AJLLFDOHEEP": "Accessible_Up",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_DOWN",
-        "FLAG_BLOCKED_LEFT",
-        "FLAG_BLOCKED_RIGHT"
-      ]
-    },
-    {
-      "NGPCCDGBLLK": 24,
-      "AJLLFDOHEEP": "Accessible_Down",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_UP",
-        "FLAG_BLOCKED_LEFT",
-        "FLAG_BLOCKED_RIGHT"
-      ]
-    },
-    {
-      "NGPCCDGBLLK": 25,
-      "AJLLFDOHEEP": "Accessible_Left",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_UP",
-        "FLAG_BLOCKED_DOWN",
-        "FLAG_BLOCKED_RIGHT"
-      ]
-    },
-    {
-      "NGPCCDGBLLK": 26,
-      "AJLLFDOHEEP": "Accessible_Right",
-      "IFOFAIDDNLB": [
-        "FLAG_BLOCKED_UP",
+      "DKDDFEIAMIF": 21,
+      "LEJEJCMIJMB": "Inaccessible_DownLeft",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT"
       ]
     },
     {
-      "NGPCCDGBLLK": 27,
-      "AJLLFDOHEEP": "Blocked_Single",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 22,
+      "LEJEJCMIJMB": "Inaccessible_LeftRight",
+      "PLNDLKPHGFA": [
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 23,
+      "LEJEJCMIJMB": "Accessible_Up",
+      "PLNDLKPHGFA": [
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 24,
+      "LEJEJCMIJMB": "Accessible_Down",
+      "PLNDLKPHGFA": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_LEFT",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 25,
+      "LEJEJCMIJMB": "Accessible_Left",
+      "PLNDLKPHGFA": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_RIGHT"
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 26,
+      "LEJEJCMIJMB": "Accessible_Right",
+      "PLNDLKPHGFA": [
+        "FLAG_BLOCKED_UP",
+        "FLAG_BLOCKED_DOWN",
+        "FLAG_BLOCKED_LEFT"
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 27,
+      "LEJEJCMIJMB": "Blocked_Single",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -224,9 +224,9 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 28,
-      "AJLLFDOHEEP": "Affected_EMP",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 28,
+      "LEJEJCMIJMB": "Affected_EMP",
+      "PLNDLKPHGFA": [
         "FLAG_BLOCKED_UP",
         "FLAG_BLOCKED_DOWN",
         "FLAG_BLOCKED_LEFT",
@@ -234,17 +234,17 @@
       ]
     },
     {
-      "NGPCCDGBLLK": 29,
-      "AJLLFDOHEEP": "Unavailable",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 29,
+      "LEJEJCMIJMB": "Unavailable",
+      "PLNDLKPHGFA": [
         "FLAG_ANCHOR",
         "FLAG_NO_STAMINA"
       ]
     },
     {
-      "NGPCCDGBLLK": 30,
-      "AJLLFDOHEEP": "Anchor_LockedShow",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 30,
+      "LEJEJCMIJMB": "Anchor_LockedShow",
+      "PLNDLKPHGFA": [
         "FLAG_ANCHOR",
         "FLAG_NO_STAMINA"
       ]

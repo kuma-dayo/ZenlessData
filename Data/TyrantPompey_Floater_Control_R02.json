@@ -1,0 +1,482 @@
+{
+  "AbilityName": "TyrantPompey_Floater_Control_R02",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "CustomKey": "Monster_TyrantPompey_Floater_R02",
+        "ModifierName": "Floater_FollowCaster",
+        "Target": "Custom"
+      },
+      {
+        "$type": "ApplyModifier",
+        "CustomKey": "Monster_TyrantPompey_Floater_R02",
+        "ModifierName": "Floater_FollowCasterCheck",
+        "Target": "Custom"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AimLineEffModifier": {
+      "Duration": 0.6,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "EffectPattern": "Eff_Monster_TyrantPompey_Floate_Attack_04_Line",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Monster_TyrantPompey_Floate_Attack_05_Line"
+        }
+      ]
+    },
+    "AttackDoneModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "InAttackModifier",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "FloaterComboAttack"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Floater_FollowTarget",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "FloaterComboAttack"
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "FloaterComboAttack",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "FloaterComboAttack"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "FloaterComboAttack": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_IsMoving"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_IsMoving"
+        }
+      ]
+    },
+    "FloaterMuteFollowCaster": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Floater_FollowCaster"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Floater_FollowCaster"
+        }
+      ]
+    },
+    "FloaterStartAttack": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "CustomKey": "Monster_TyrantPompey_Floater_R02",
+          "ModifierName": "Floater_FollowCaster",
+          "Target": "Custom"
+        },
+        {
+          "$type": "ApplyModifier",
+          "CustomKey": "Monster_TyrantPompey_Floater_R02",
+          "ModifierName": "Floater_Launch",
+          "Target": "Custom"
+        },
+        {
+          "$type": "ApplyModifier",
+          "CustomKey": "Monster_TyrantPompey_Floater_R02",
+          "ModifierName": "InAttackModifier",
+          "Target": "Custom"
+        }
+      ]
+    },
+    "Floater_Attack": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.3,
+          "TimeUpActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Trigger_PressAttackA",
+              "ParamType": 1
+            }
+          ]
+        }
+      ],
+      "Duration": 2,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AimLineEffModifier"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Attack_OverrideRimGlow_01",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Attack_OverrideRimGlow_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Attack_OverrideRimGlow_01"
+        }
+      ]
+    },
+    "Floater_FollowCaster": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "ApplyLogicMoveAction",
+          "MovementConfig": {
+            "$type": "ConfigMovementTarget",
+            "Duration": -1,
+            "Gravity": 0,
+            "HitNormalRatio": 1,
+            "HitTangentialRatio": 1,
+            "MoveType": {
+              "$type": "MovementTypeInstantAttach"
+            },
+            "ReachTargetStop": false,
+            "TargetPosRot": {
+              "CoordsOption": "ReferTarget",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "IsUseRotationXZ": false,
+                "IsUseRotationY": false,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "AttachPoint": "WingPoint_R02",
+                "IsUseAttachPointPos": true,
+                "IsUseAttachPointRotation": true,
+                "OffsetReferTarget": "Caster"
+              }
+            },
+            "TargetUpdateMode": "Always",
+            "TimesUpMoveOption": "Remain"
+          },
+          "RotationConfig": {
+            "$type": "ConfigRotationToTargetRotation",
+            "DirectlyApplyRotation": true,
+            "Duration": -1,
+            "ReachTargetStop": false,
+            "RotateSpeed": 8,
+            "RotateType": "Lerp",
+            "TargetPosRot": {
+              "CoordsOption": "ReferTarget",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "IsUseRotationXZ": true,
+                "IsUseRotationY": true,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "AttachPoint": "WingPoint_R02",
+                "IsUseAttachPointPos": true,
+                "IsUseAttachPointRotation": true,
+                "OffsetReferTarget": "Caster"
+              }
+            },
+            "TargetUpdateMode": "Always"
+          },
+          "Target": "Self"
+        }
+      ]
+    },
+    "Floater_FollowCasterCheck": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "AttachZoneTagWithModifierMixin",
+          "ConfigList": [
+            {
+              "ModifierNameList": [
+                "FloaterMuteFollowCaster"
+              ],
+              "ZoneTag": "FloaterMuteFollowCaster"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "Floater_FollowTarget": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.25,
+          "TimeUpActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Floater_Attack"
+            }
+          ]
+        }
+      ],
+      "Duration": 1.2,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "ApplyLogicMoveAction",
+          "MovementConfig": {
+            "$type": "ConfigMovementTarget",
+            "Duration": -1,
+            "Gravity": 0,
+            "HitNormalRatio": 1,
+            "HitTangentialRatio": 1,
+            "MoveType": {
+              "$type": "MovementTypeInstant",
+              "NeedRayCastGround": false
+            },
+            "ReachTargetStop": true,
+            "TargetPosRot": {
+              "CoordsOption": "ReferTarget",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "IsUseRotationXZ": false,
+                "IsUseRotationY": false,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "AttachPoint": "Floater_PosR02",
+                "IsUseAttachPointPos": true,
+                "IsUseAttachPointRotation": true,
+                "OffsetReferTarget": "Caster"
+              }
+            },
+            "TargetUpdateMode": "Always",
+            "TimesUpMoveOption": "Remain"
+          },
+          "RotationConfig": {
+            "$type": "ConfigRotationToTarget",
+            "DirectlyApplyRotation": true,
+            "Duration": -1,
+            "ReachTargetStop": false,
+            "RotateSpeed": 8,
+            "RotateType": "Lerp",
+            "TargetPosRot": {
+              "CoordsOption": "ReferTarget",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "IsUseRotationXZ": false,
+                "IsUseRotationY": false,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "IsUseAttachPointPos": false,
+                "IsUseAttachPointRotation": false,
+                "OffsetReferTarget": "LocalAvatar"
+              }
+            },
+            "TargetUpdateMode": "Always"
+          },
+          "Target": "Self"
+        }
+      ]
+    },
+    "Floater_Launch": {
+      "Duration": 0.75,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "NotIgnoreList": [
+        "Owner",
+        "Witch",
+        "World",
+        "Buff"
+      ],
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_StartMove",
+          "ParamType": 1
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Floater_FollowTarget"
+        }
+      ]
+    },
+    "InAttackModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "AttachStateWithModifierMixin",
+          "ConfigList": [
+            {
+              "AnimatorStateName": "Move_Back",
+              "FrameCountLow": 20,
+              "IsLoop": false,
+              "LayerIndex": 0,
+              "MaxFrameCountHigh": true,
+              "MaxFrameCountLow": false,
+              "ModifierNameList": [
+                "AttackDoneModifier"
+              ]
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "FloaterStartAttack",
+      "Predicates": [
+        {
+          "$type": "ByNot",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "CustomKey": "Monster_TyrantPompey_Floater_R02",
+              "ModifierNameList": [
+                "InAttackModifier"
+              ],
+              "Target": "Custom"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

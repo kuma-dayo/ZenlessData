@@ -5,14 +5,14 @@
       "AliveDuration": 0.1,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -23,16 +23,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": false,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": 0,
-            "z": 0.0
+            "z": 0
           }
         },
         "TargetOption": {
@@ -45,22 +45,23 @@
       "CanHitStage": false,
       "DestroyExplode": true,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 2.0,
+        "CapsuleColliderHeight": 2,
         "CapsuleColliderRadius": 2.5,
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
       "ExplodeAnimEventID": "Device_Military_SplitMine_TiniUnit_Explode_ToEnemy",
-      "ExplodeEffect": {},
+      "ExplodeEffect": {
+      },
       "ExplodePosType": "HitPoint",
       "HitExplodeRadius": 2.5,
       "HitOtherExplode": false,
@@ -79,7 +80,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -89,9 +90,11 @@
         },
         "TimesUpMoveOption": "Remain"
       },
-      "OnBulletDestroyAction": [],
+      "OnBulletDestroyAction": [
+      ],
       "Targetting": "Enemy",
-      "TrailEffect": {}
+      "TrailEffect": {
+      }
     }
   ],
   "AbilityName": "Device_Prop_Military_ClusterMunitions_SplitExplodeUnit_ToMonster",

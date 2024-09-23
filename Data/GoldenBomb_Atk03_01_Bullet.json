@@ -5,14 +5,14 @@
       "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,14 +25,14 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": -0.1,
             "z": 0
           }
@@ -52,13 +52,13 @@
         "CapsuleColliderHeight": 3.5,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 1.75
         },
         "ColliderType": "Capsule"
@@ -80,21 +80,21 @@
       "MovementConfig": {
         "$type": "ConfigMovementParabola",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 0
         },
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.75,
         "HitTangentialRatio": 0,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsClampOffsetDistance": false,
             "PositionOffset": {
@@ -114,7 +114,7 @@
         "s1": 0.1,
         "s2": 25,
         "t1": 0.3,
-        "t2": 1.0
+        "t2": 1
       },
       "OnBulletDestroyAction": [
         {

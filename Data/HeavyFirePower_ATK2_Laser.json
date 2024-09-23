@@ -13,24 +13,25 @@
       ],
       "DodgeColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
-        "SphereColliderRadius": 1.0
+        "SphereColliderRadius": 1
       },
       "EffectName": "Eff_Monster_HeavyFirepower_Attack_02_Beam",
       "FirstHitDelayTime": 0.01,
       "HitAnimEventID": "Monster_HeavyFirePower_ATK02_Attackproperty",
       "HitColliderRadius": 0.5,
-      "HitEffect": {},
-      "HitInterval": 1.0,
+      "HitEffect": {
+      },
+      "HitInterval": 1,
       "HitLayers": [
         "HitCollider"
       ],
@@ -38,9 +39,9 @@
         "CoordsOption": "Self",
         "Offset": {
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -55,14 +56,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

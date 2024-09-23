@@ -7,7 +7,7 @@
           "BtnOperations": [
             {
               "ListenerType": "Click",
-              "PressTime": 1.0,
+              "PressTime": 1,
               "TriggerActions": [
                 {
                   "$type": "ApplyModifier",
@@ -26,14 +26,14 @@
       "BulletColliderConfig": {
         "BulletTypeName": "ConfigurableSphereCollider",
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -47,19 +47,19 @@
         "NeedRaycastGround": false,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "BackupAngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "BackupPositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 5.0
+            "x": 0,
+            "y": 0,
+            "z": 5
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
@@ -79,17 +79,17 @@
       "CanHitStage": true,
       "DestroyExplode": true,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 10.0,
-        "CapsuleColliderRadius": 2.0,
+        "CapsuleColliderHeight": 10,
+        "CapsuleColliderRadius": 2,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 5.0
+          "x": 0,
+          "y": 0,
+          "z": 5
         },
         "ColliderType": "Capsule"
       },
@@ -122,7 +122,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -229,8 +229,8 @@
           "Predicates": [
             {
               "$type": "ByHitAngleRange",
-              "AngleMax": 120.0,
-              "AngleMin": 60.0
+              "AngleMax": 120,
+              "AngleMin": 60
             }
           ],
           "Target": "Self"
@@ -331,13 +331,13 @@
         {
           "$type": "ModifyArcanaCommonPropertyAction",
           "ArcanaProperty": "ShieldDuration",
-          "Delta": 5.0,
-          "Ratio": 10.0,
+          "Delta": 5,
+          "Ratio": 10,
           "Target": "Buddy"
         },
         {
           "$type": "ModifyProperty",
-          "Amount": 5.0,
+          "Amount": 5,
           "CustomPropertyType": "ShieldDuration_Delta",
           "IsUsePercentage": false,
           "Percentage": 0.2,

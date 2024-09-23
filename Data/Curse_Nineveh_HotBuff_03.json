@@ -1,0 +1,65 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_03",
+  "AbilitySpecials": {
+    "AS_SpRecoverRatio": {
+      "Value": -0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "MainModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "MainModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true,
+              "Target": "Self"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "SpRecoverDecreaseModifier",
+              "Target": "Self"
+            }
+          ]
+        }
+      ],
+      "OnSwitchInBegin": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "SpRecoverDecreaseModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnSwitchOutFinish": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "SpRecoverDecreaseModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "SpRecoverDecreaseModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_SpRecoverRatio": "%AS_SpRecoverRatio"
+      }
+    }
+  }
+}

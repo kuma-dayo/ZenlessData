@@ -23,6 +23,12 @@
                     "TagList": [
                       "ParryAid"
                     ]
+                  },
+                  {
+                    "$type": "ByAnimTagList",
+                    "TagList": [
+                      "IgnoreCounterEffect"
+                    ]
                   }
                 ],
                 "Target": "Self"
@@ -36,7 +42,7 @@
   },
   "Modifiers": {
     "OnCounterHitModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

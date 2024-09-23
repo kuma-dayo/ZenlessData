@@ -1,0 +1,42 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyPerfectSwitchPointAction",
+              "Amount": -1,
+              "ModifyFunction": "Add"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_03",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_SpinShield",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnPerfectSwitchEnergyEmpty": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": false,
+        "ParamName": "Bool_PerfectSwitchEnergyEnough",
+        "ParamType": 2
+      }
+    ],
+    "OnPerfectSwitchEnergyEnough": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_PerfectSwitchEnergyEnough",
+        "ParamType": 2
+      }
+    ]
+  }
+}

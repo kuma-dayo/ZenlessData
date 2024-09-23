@@ -1,0 +1,194 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": true,
+          "PropertyType": "CurHP",
+          "RefPropertyType": "MaxHP",
+          "ValueRangeActions": [
+            {
+              "Val": "%LowHpStartValue",
+              "ValueToHighActions": [
+                {
+                  "$type": "HandleAnimatorZoneTagsAction",
+                  "AnimatorStateTags": [
+                    "MonsterLowHp"
+                  ],
+                  "IsAdd": false,
+                  "Target": "Self"
+                }
+              ],
+              "ValueToLowActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LowHpStartActionsModifier",
+                  "Predicates": [
+                    {
+                      "$type": "ByNot",
+                      "Predicates": [
+                        {
+                          "$type": "ByIsInZoneTags",
+                          "Tags": [
+                            "MonsterLowHp"
+                          ],
+                          "Target": "Self"
+                        }
+                      ]
+                    }
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_FastMove_01",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "LowHpStartSkillModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_FastMove_04",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "LowHpStartSkillModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Mors_LowHp",
+  "AbilitySpecials": {
+    "LowHpStartDelay": {
+      "Value": 20
+    },
+    "LowHpStartValue": {
+      "Value": 0.8
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "DelayHandlers": [
+      {
+        "DelayTime": "%LowHpStartDelay",
+        "TimeUpActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "LowHpStartActionsModifier",
+            "Predicates": [
+              {
+                "$type": "ByNot",
+                "Predicates": [
+                  {
+                    "$type": "ByIsInZoneTags",
+                    "Tags": [
+                      "MonsterLowHp"
+                    ],
+                    "Target": "Self"
+                  }
+                ]
+              }
+            ],
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "LowHpStartActionsModifier": {
+      "Duration": 5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "MonsterLowHp"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "LowHpStartSkill"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ]
+    },
+    "LowHpStartSkillModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "FireAudio",
+          "AudioPattern": "Play_VO_Monster_Mors_HPLine",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "LowHpStartSkill"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "Slime"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "LowHpStartSkill"
+          ],
+          "IsAdd": false,
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "LowHpStartSkill"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

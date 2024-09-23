@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "Unactive_SFX"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "NonCombat_Alert",
@@ -20,8 +20,8 @@
           "ModifierNameList": [
             "Unactive_SFX"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Combat_Alert",
@@ -30,8 +30,8 @@
           "ModifierNameList": [
             "Active_SFX"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Shoot",
@@ -40,8 +40,8 @@
           "ModifierNameList": [
             "Attack_Over_OverHeat"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -59,16 +59,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -105,16 +105,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -140,16 +140,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

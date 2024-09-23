@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "HitShakeModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Front",
@@ -18,8 +18,8 @@
           "ModifierNameList": [
             "HitShakeModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Back",
@@ -27,8 +27,8 @@
           "ModifierNameList": [
             "HitShakeModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -48,7 +48,7 @@
   },
   "Modifiers": {
     "HitShakeModifier": {
-      "Duration": -1.0,
+      "Duration": -1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
       "OnAdded": [

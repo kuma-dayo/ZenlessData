@@ -1,3 +1,148 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "GGNPDPFJMGL": "攻击力",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": 1,
+      "JNLNBKKLEBF": "propertyID(1)"
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "GGNPDPFJMGL": "防御力",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(2)"
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "GGNPDPFJMGL": "血量",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(3)"
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "GGNPDPFJMGL": "额外伤害",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "(propertyID(26)-1)*100"
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "GGNPDPFJMGL": "攻击速度",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "(propertyID(4)/property(1004)-1)*100"
+    },
+    {
+      "DKDDFEIAMIF": 6,
+      "GGNPDPFJMGL": "移动速度",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "(propertyID(5)/property(1005)-1)*100"
+    },
+    {
+      "DKDDFEIAMIF": 7,
+      "GGNPDPFJMGL": "生命恢复",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(8)"
+    },
+    {
+      "DKDDFEIAMIF": 8,
+      "GGNPDPFJMGL": "攻击范围",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(11)"
+    },
+    {
+      "DKDDFEIAMIF": 9,
+      "GGNPDPFJMGL": "暴击率",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(24)*100"
+    },
+    {
+      "DKDDFEIAMIF": 10,
+      "GGNPDPFJMGL": "弹道数量",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(15)"
+    },
+    {
+      "DKDDFEIAMIF": 11,
+      "GGNPDPFJMGL": "近战攻击",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(22)"
+    },
+    {
+      "DKDDFEIAMIF": 12,
+      "GGNPDPFJMGL": "远程攻击",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(23)"
+    },
+    {
+      "DKDDFEIAMIF": 13,
+      "GGNPDPFJMGL": "探宝",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(33)"
+    },
+    {
+      "DKDDFEIAMIF": 14,
+      "GGNPDPFJMGL": "幸运",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 0,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(34)"
+    },
+    {
+      "DKDDFEIAMIF": 15,
+      "GGNPDPFJMGL": "闪避率",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(35)*100"
+    },
+    {
+      "DKDDFEIAMIF": 16,
+      "GGNPDPFJMGL": "额外金币",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/IconType01.png",
+      "PEBNOOFJOEB": 0,
+      "CODECFCKDLK": 1,
+      "CPNBLFGCMND": -1,
+      "JNLNBKKLEBF": "propertyID(47)*100"
+    }
+  ]
 }

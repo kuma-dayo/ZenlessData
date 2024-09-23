@@ -20,43 +20,43 @@
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_01_Enhance",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_02_Loop_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_02_Loop_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_02_Loop_Enhance_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Branch_02_Loop_Enhance_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         }
                       ]
                     }

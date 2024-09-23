@@ -1,0 +1,48 @@
+{
+  "AbilityName": "Caesar_ExQTE",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatioBase": {
+      "Value": 0.2
+    },
+    "AS_AddedBreakStunRatioDelta": {
+      "Value": 0.05
+    },
+    "AS_AddedBreakStunRatioFinal": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "Expression": "specials(AS_AddedBreakStunRatioBase)+(specials(AS_AddedBreakStunRatioDelta)*avatarskilllevel(3))",
+        "ParamName": "AS_AddedBreakStunRatioFinal",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByHasHpShield",
+            "HpShieldValueCompare": "Greater",
+            "Target": "Target",
+            "Value": 0
+          },
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ExQTE"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedBreakStunRatioFinal",
+        "Target": "Self"
+      }
+    ]
+  }
+}

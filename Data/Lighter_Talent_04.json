@@ -1,0 +1,87 @@
+{
+  "AbilityName": "Lighter_Talent_04",
+  "AbilitySpecials": {
+    "AS_ActCD_Talent04": {
+      "Value": 8
+    },
+    "AS_HitTimesValue_Talent_04": {
+      "Value": 50
+    },
+    "AS_UniqueUpRatio_Talent_04": {
+      "Value": 1.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetTargetAbilitySpecialAction",
+        "Params": [
+          {
+            "AbilityName": "Lighter_UniqueSkill",
+            "AbilitySpecials": [
+              {
+                "ModifyFunction": "Replace",
+                "Param": "%AS_UniqueUpRatio_Talent_04",
+                "ParamName": "AS_DamageTalent04Ratio",
+                "ParamType": "Float"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "LighterTalent04Modifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "QTE",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "AssaultAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "BeHitAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LighterTalent04Modifier": {
+      "Duration": "%AS_ActCD_Talent04",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": "%AS_HitTimesValue_Talent_04",
+          "CustomPropertyType": "HitTimes",
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

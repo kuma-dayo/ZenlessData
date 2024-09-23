@@ -1,0 +1,189 @@
+{
+  "AbilityName": "CampIdle_envbuff_04",
+  "AbilitySpecials": {
+    "AS_ShieldToDamageRatio": {
+      "Value": 0.1
+    },
+    "CurShieldAmount": {
+      "Value": 0
+    },
+    "RBLValue": {
+      "Value": 4
+    },
+    "ShieldAmount": {
+      "Value": 0
+    },
+    "ShieldGetCD": {
+      "Value": 2
+    },
+    "ShieldToDamage": {
+      "Value": 0
+    },
+    "ShieldToMaxHp": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "GetItemListenerModifier",
+        "Target": "Self"
+      }
+    ],
+    "OnBeingHitPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "CurShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RBLUpModifier",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "CurShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "RBLUpModifier",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": 0,
+            "ParamName": "CurShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "CurShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "CurShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "SuccessActions": [
+          {
+            "$type": "SetAbilitySpecialByExpression",
+            "DoRefresh": true,
+            "Expression": "specials(CurShieldAmount)\/property(MaxHP)",
+            "ParamName": "ShieldToMaxHp",
+            "Target": "Self",
+            "ValueType": "Float"
+          },
+          {
+            "$type": "SetAbilitySpecialByExpression",
+            "DoRefresh": true,
+            "Expression": "specials(ShieldToMaxHp)*specials(AS_ShieldToDamageRatio)",
+            "ParamName": "ShieldToDamage",
+            "Target": "Self",
+            "ValueType": "Float"
+          },
+          {
+            "$type": "ModifyAttackDataAction",
+            "PropertyKey": "Actor_AddedDamageRatio",
+            "PropertyValue": "%ShieldToDamage",
+            "Target": "Self"
+          }
+        ]
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DropItemModifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Counter"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DropItemModifier": {
+      "Duration": "%ShieldGetCD",
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "DropItemAction",
+          "DropStr": "1002:10000:1",
+          "Target": "Target"
+        }
+      ]
+    },
+    "GetItemListenerModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnGetItem": [
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "CampIdle_envbuff_04_shield",
+          "Predicates": [
+            {
+              "$type": "ByGetItem",
+              "ItemID": 201001
+            }
+          ],
+          "Target": "TeamAvatars"
+        }
+      ]
+    },
+    "RBLUpModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetRBLOffsetAction",
+          "RBLOffset": "%RBLValue",
+          "Tag": "CampIdleenvbuff04",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLOffsetAction",
+          "Tag": "CampIdleenvbuff04",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

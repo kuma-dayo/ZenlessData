@@ -30,7 +30,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.66,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -42,15 +42,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {

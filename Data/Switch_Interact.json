@@ -12,8 +12,10 @@
           "Target": "Self"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "Switch_Interact",

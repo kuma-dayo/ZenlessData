@@ -11,10 +11,10 @@
       "Value": 0.1
     },
     "AS_Duration_01": {
-      "Value": 8.0
+      "Value": 8
     },
     "AS_Duration_02": {
-      "Value": 15.0
+      "Value": 15
     }
   },
   "AbilityStacking": "Unique",

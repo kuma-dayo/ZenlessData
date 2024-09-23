@@ -321,10 +321,10 @@
       "Value": 0.025
     },
     "AS_BreakStunRatio_Total": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_Duration": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_StackCount": {
       "Value": 0,

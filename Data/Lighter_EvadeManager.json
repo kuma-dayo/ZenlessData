@@ -1,0 +1,553 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_06",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_06_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Start",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03",
+          "FrameCountHigh": 16,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Normal",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Normal_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Front",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Front_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Back",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Back_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Side",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Side_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Normal",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Normal_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Side",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Side_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Rush",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Rush_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_BeHitAid",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_BeHitAid_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Evade_Blend_Left",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Evade_Blend_Right",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "AllowLateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_EvadeManager",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AllowLateralEvadeModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_AllowLateralEvade",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_AllowLateralEvade",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -86,11 +86,6 @@
         "Target": "Self"
       },
       {
-        "$type": "ApplyModifier",
-        "ModifierName": "DamageModifier_Effect_AddedDamageRatio",
-        "Target": "TeamAvatars"
-      },
-      {
         "$type": "SetAbilitySpecialAction",
         "ModifyFunction": "Replace",
         "Param": "%AS_PenFinalValue",
@@ -304,28 +299,6 @@
         }
       ]
     },
-    "DamageModifier_Effect_AddedDamageRatio": {
-      "Duration": -1,
-      "ModifierStacking": "Unique",
-      "OnHitOther": [
-        {
-          "$type": "ModifyAttackDataAction",
-          "Predicates": [
-            {
-              "$type": "ByAbilitySpecial",
-              "CompareType": "Greater",
-              "Param": 0,
-              "ParamName": "AS_ProviderCount",
-              "ParamType": "Integer",
-              "Target": "Self"
-            }
-          ],
-          "PropertyKey": "Actor_AddedDamageRatio_Elec",
-          "PropertyValue": "%AS_AddedDamageRatio_Anastacia_Default_InElec",
-          "Target": "Self"
-        }
-      ]
-    },
     "DamageModifier_Effect_PenRatio": {
       "Duration": -1,
       "ModifierStacking": "Unique",
@@ -341,8 +314,10 @@
           "$type": "ListenBuffMixin",
           "OnBuffAdd": [
             {
-              "$type": "ApplyModifier",
-              "ModifierName": "RinaElecModifier_Mark",
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AS_ProviderCount)+1",
+              "ParamName": "AS_ProviderCount",
               "Predicates": [
                 {
                   "$type": "ByHandlingBuffGroup",
@@ -353,15 +328,65 @@
                   "Target": "Self"
                 }
               ],
-              "Target": "Caster"
+              "Target": "Caster",
+              "ValueType": "Integer"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "RinaElecModifier_Mark",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Greater",
+                  "Param": 0,
+                  "ParamName": "AS_ProviderCount",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByHandlingBuffGroup",
+                  "BuffGroupList": [
+                    "Electric",
+                    "Overload"
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Target": "TeamAvatars"
             }
           ],
           "OnBuffRemove": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(AS_ProviderCount)-1",
+              "ParamName": "AS_ProviderCount",
+              "Predicates": [
+                {
+                  "$type": "ByHandlingBuffGroup",
+                  "BuffGroupList": [
+                    "Electric",
+                    "Overload"
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Caster",
+              "ValueType": "Integer"
+            },
             {
               "$type": "RemoveModifier",
               "ModifierName": "RinaElecModifier_Mark",
               "Predicates": [
                 {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "LessEqual",
+                  "Param": 0,
+                  "ParamName": "AS_ProviderCount",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                },
+                {
                   "$type": "ByHandlingBuffGroup",
                   "BuffGroupList": [
                     "Electric",
@@ -370,8 +395,7 @@
                   "Target": "Self"
                 }
               ],
-              "StackCount": 1,
-              "Target": "Caster"
+              "Target": "TeamAvatars"
             }
           ],
           "TargetPredicates": [
@@ -391,14 +415,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "FanCylinder",
             "FanCylinderColliderAngle": 360,
@@ -439,19 +463,19 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
-            "RaycastGroundOffset": 0.0,
+            "RaycastGroundOffset": 0,
             "TargetOption": {
               "$type": "ConfigPosRotReferTarget",
               "OffsetReferTarget": "Self"
@@ -513,14 +537,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "FanCylinder",
             "FanCylinderColliderAngle": 360,
@@ -561,19 +585,19 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
-            "RaycastGroundOffset": 0.0,
+            "RaycastGroundOffset": 0,
             "TargetOption": {
               "$type": "ConfigPosRotReferTarget",
               "OffsetReferTarget": "Self"
@@ -741,28 +765,10 @@
     },
     "RinaElecModifier_Mark": {
       "Duration": -1,
-      "MaxStackingNumber": 99,
-      "ModifierStacking": "MultipleRefresh",
-      "OnAdded": [
-        {
-          "$type": "SetAbilitySpecialByExpression",
-          "DoRefresh": true,
-          "Expression": "specials(AS_ProviderCount)+1",
-          "ParamName": "AS_ProviderCount",
-          "Target": "Caster",
-          "ValueType": "Integer"
-        }
-      ],
-      "OnRemoved": [
-        {
-          "$type": "SetAbilitySpecialByExpression",
-          "DoRefresh": true,
-          "Expression": "specials(AS_ProviderCount)-1",
-          "ParamName": "AS_ProviderCount",
-          "Target": "Caster",
-          "ValueType": "Integer"
-        }
-      ]
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio_Elec": "%AS_AddedDamageRatio_Anastacia_Default_InElec"
+      }
     },
     "Rina_UniqueSkill_BuffIcon": {
       "Buff": {

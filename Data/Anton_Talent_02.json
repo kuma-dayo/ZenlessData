@@ -106,7 +106,7 @@
           "Duration": -1,
           "Priority": -1,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "TotalValueConfig": {
             "Amount": 0,
             "Percentage": "%AS_ShieldPercentage",

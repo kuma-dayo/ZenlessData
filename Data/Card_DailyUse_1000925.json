@@ -81,7 +81,7 @@
           "$type": "AddGlobalValue",
           "Key": "_Global_AliveNum",
           "Target": "TeamAvatars",
-          "Value": 1.0
+          "Value": 1
         }
       ],
       "OnKilled": [
@@ -89,7 +89,7 @@
           "$type": "AddGlobalValue",
           "Key": "_Global_AliveNum",
           "Target": "TeamAvatars",
-          "Value": -1.0
+          "Value": -1
         }
       ],
       "OnRevived": [
@@ -97,7 +97,7 @@
           "$type": "AddGlobalValue",
           "Key": "_Global_AliveNum",
           "Target": "TeamAvatars",
-          "Value": 1.0
+          "Value": 1
         }
       ]
     }

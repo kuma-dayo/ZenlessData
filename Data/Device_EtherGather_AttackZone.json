@@ -1,0 +1,65 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "BulletMixin",
+      "AliveDuration": 2,
+      "BulletColliderConfig": {
+        "ColliderAngleOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderPosOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderType": "Sphere",
+        "SphereColliderRadius": 3
+      },
+      "BulletEffect": {
+        "EffectPattern": "Eff_Device_EtherGather_08_01_Aura"
+      },
+      "BulletHitTypeName": "Penetrate",
+      "BulletInitPosRot": {
+        "CoordsOption": "ReferTarget",
+        "NeedRaycastGround": true,
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsUseRotationXZ": false,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "RaycastGroundOffset": 0,
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "OffsetReferTarget": "SelfAttackTarget"
+        }
+      },
+      "BulletName": "Bullet_Empty_IgnoreWall",
+      "CanHitStage": false,
+      "DestroyExplode": false,
+      "ExplodeAnimEventID": "Device_EtherGather_Attackproperty",
+      "ExplodePosType": "HitPoint",
+      "HitExplodeRadius": 3,
+      "HitInterval": 0.1,
+      "HitOtherExplode": false,
+      "HitStageExplode": false,
+      "MaxHitNum": -1,
+      "MaxHitStageNum": 0,
+      "MaxHitTargetNum": -1,
+      "MaxTouchStageNum": 0,
+      "Targetting": "Stage"
+    }
+  ],
+  "AbilityName": "Device_EtherGather_AttackZone",
+  "AbilityStacking": "Unique"
+}

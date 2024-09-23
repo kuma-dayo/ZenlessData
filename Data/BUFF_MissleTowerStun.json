@@ -2,10 +2,10 @@
   "AbilityName": "BUFF_MissleTowerStun",
   "AbilitySpecials": {
     "BreakStunTake_Ratio": {
-      "Value": 2.0
+      "Value": 2
     },
     "HpPercentage": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

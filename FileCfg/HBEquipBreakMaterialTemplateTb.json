@@ -1,106 +1,123 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "DKLOJGHDHNO": 1,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251001",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 1,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251001",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         832540,
         831340,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251001
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1101
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1101
     },
     {
-      "DKLOJGHDHNO": 2,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251002",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 2,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251002",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         832240,
         831140,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251002
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1102
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1102
     },
     {
-      "DKLOJGHDHNO": 3,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251003",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 3,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251003",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         832440,
         831240,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251003
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1103
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1103
     },
     {
-      "DKLOJGHDHNO": 4,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251004",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 4,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251004",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         832640,
         831440,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251004
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1104
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1104
     },
     {
-      "DKLOJGHDHNO": 5,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251005",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 5,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251005",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         832340,
         831640,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251005
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1105
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1105
     },
     {
-      "DKLOJGHDHNO": 6,
-      "LMILBNEBIOE": "DoubleElite_QuestName_12251006",
-      "EOGEBFNAKID": "HB_EquipBreakMaterial",
-      "INCHKODOGHA": [
+      "BFDKCDPNNFG": 6,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251006",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
         831040,
         831540,
         302003,
         302002,
         302001
       ],
-      "IGKFLEPDLCD": [
+      "FNOJEFLFDAO": [
         12251006
       ],
-      "AJPGNCEMHFH": 304,
-      "ENKEGNONPMA": 1106
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1106
+    },
+    {
+      "BFDKCDPNNFG": 7,
+      "LDPHGIFAKLJ": "DoubleElite_QuestName_12251007",
+      "OFKLLEIKHMM": "HB_EquipBreakMaterial",
+      "JKIOCJLIMGP": [
+        831040,
+        831540,
+        302003,
+        302002,
+        302001
+      ],
+      "FNOJEFLFDAO": [
+        12251007
+      ],
+      "PJGBONJMELI": 304,
+      "DPCNAFDHFNB": 1107
     }
   ]
 }

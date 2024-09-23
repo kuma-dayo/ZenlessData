@@ -1,10 +1,5 @@
 {
   "AbilityMixins": [
-    {
-      "$type": "ListenMuteNormalHitProcessMixin",
-      "OnMuteNormalBeingHit": [],
-      "OnlySummonMasterHit": false
-    }
   ],
   "AbilityName": "Lucy_Wood_AttackProcessOverride",
   "AbilityStacking": "Unique",
@@ -13,6 +8,11 @@
       {
         "$type": "ApplyModifier",
         "ModifierName": "ExitBattleModifier",
+        "Target": "Self"
+      },
+      {
+        "$type": "SetModifierAttackDataCallBack",
+        "IsNormal": false,
         "Target": "Self"
       }
     ],

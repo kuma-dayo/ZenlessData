@@ -1,3 +1,977 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPGetCoin",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetItem_Coin"
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CpCoinBoom",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_CoinGet_Large"
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_Cpcommon",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPGetEgg",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetItem_Egg"
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMonster_Die_02",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 2000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Monster_GenDeathSmall"
+    },
+    {
+      "DKDDFEIAMIF": 6,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMonster_Die_01",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Monster_GenDeathLarge"
+    },
+    {
+      "DKDDFEIAMIF": 7,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPCharacterCreate",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterCreate",
+      "MACBHPGANHI": 400,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Partner_Appear"
+    },
+    {
+      "DKDDFEIAMIF": 8,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBuy",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 400,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Partner_Disappear"
+    },
+    {
+      "DKDDFEIAMIF": 9,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHPRecover",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPHPRecover",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetCure"
+    },
+    {
+      "DKDDFEIAMIF": 10,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHPReduce",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPHPReduce",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetHurt"
+    },
+    {
+      "DKDDFEIAMIF": 11,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPPropertyUp",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPPropertyUp",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Attribute_Promotion"
+    },
+    {
+      "DKDDFEIAMIF": 12,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CpCoinBoom_Middle",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_CoinGet_Mid"
+    },
+    {
+      "DKDDFEIAMIF": 13,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CpCoinBoom_Small",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_CoinGet_Small"
+    },
+    {
+      "DKDDFEIAMIF": 14,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPGetCandy",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetItem_Candy"
+    },
+    {
+      "DKDDFEIAMIF": 15,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_2",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 16,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_3",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 17,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_4",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 18,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPKick_01_Boom",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Kickout"
+    },
+    {
+      "DKDDFEIAMIF": 19,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPKick_02_Trail",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 20,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_1",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_1",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 21,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMonsterAlert",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 22,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPMainCharacterLight_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMainCharacterLight",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 23,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_1_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_1",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 24,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_2_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_2",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 25,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_3_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_3",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 26,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_4_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_4",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 27,
+      "HGEIPJFCJIM": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_5_Particle",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_5",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 28,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_2",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_2",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 29,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_3",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_3",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 30,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_4",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_4",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Altar_PartnerCompound_Done"
+    },
+    {
+      "DKDDFEIAMIF": 31,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 32,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMoveTrail",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 33,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPTreasureLight",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPTreasureLight",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_CoinGet_Mid"
+    },
+    {
+      "DKDDFEIAMIF": 34,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPSelect",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Shop_ItemFocus"
+    },
+    {
+      "DKDDFEIAMIF": 35,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPShop",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Shop_ItemFocus"
+    },
+    {
+      "DKDDFEIAMIF": 36,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDark",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 37,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_Start",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 38,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_Loop",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 39,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_End",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 40,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_Start",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 41,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_Loop",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 42,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_End",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 43,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMainCharacterPlayer",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 44,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBuy",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBuy",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Shop_BuySuccess"
+    },
+    {
+      "DKDDFEIAMIF": 45,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPItemLight_1",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPItemLight_1",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 46,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPItemLight_2",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPItemLight_2",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 47,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPItemLight_3",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPItemLight_3",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 48,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_4",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 49,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterLight_5",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 50,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_DarkCharacter",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 51,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPDim",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 52,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPItemSelect",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Shop_ItemFocus"
+    },
+    {
+      "DKDDFEIAMIF": 53,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPCameraDark",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 54,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPLowHp",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 55,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_FireExtinguisher",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 900,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 56,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_WaterBullet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 57,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_WaterBullet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 58,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_InkBullet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 59,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_InkBullet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 60,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Wave",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 61,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_Wave",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 62,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Boom_01",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_CPWeapon_Boom_01"
+    },
+    {
+      "DKDDFEIAMIF": 63,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Boom_02",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_CPWeapon_Boom_02"
+    },
+    {
+      "DKDDFEIAMIF": 64,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Boom_05",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_CPWeapon_Boom_03"
+    },
+    {
+      "DKDDFEIAMIF": 65,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Trumpet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 900,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 66,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_Flower",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 2000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 67,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Bullet_Monster",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 68,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Bullet_01",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 69,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Bullet_02",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 70,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Bullet_03",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 71,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Bullet_04",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 72,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_01",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 73,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_02",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 74,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_03",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 75,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_04",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 76,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_05",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 77,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_BulletPro_06",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 78,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMonsterHit",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Monster_GenHit"
+    },
+    {
+      "DKDDFEIAMIF": 79,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDot",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 80,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMonster_Dot",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 81,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDot_Hit",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 82,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDot_Ring",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 83,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBuff_Ring",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 84,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMergeBullet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 85,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPCharacterMerge_Select",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 86,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_Start",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 87,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_Loop",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 88,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Big_End",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 2000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 89,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_Start",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 90,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_Loop",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 91,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPFire_Small_End",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 2000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 92,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMergeSelect",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMergeSelect",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_Shop_ItemFocus"
+    },
+    {
+      "DKDDFEIAMIF": 93,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPGetMagnet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 2000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Hint_GetItem_Magnet"
+    },
+    {
+      "DKDDFEIAMIF": 94,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPItemCreate",
+      "MACBHPGANHI": 500,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 95,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBuy",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBuy",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 96,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDarkAltar_Start",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 97,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDarkAltar_Loop",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 98,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPDarkAltar_End",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 99,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPContinue",
+      "MACBHPGANHI": -1,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 100,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_Start_01",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 101,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_Start_02",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_Start_01",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Yellow_Born"
+    },
+    {
+      "DKDDFEIAMIF": 102,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_Start_03",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_Start_01",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Red_Born"
+    },
+    {
+      "DKDDFEIAMIF": 103,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_End_03",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_End_03",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Red_Death"
+    },
+    {
+      "DKDDFEIAMIF": 104,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_End_03",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_End_03",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Red_Death"
+    },
+    {
+      "DKDDFEIAMIF": 105,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_End_03",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_End_03",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Red_Death"
+    },
+    {
+      "DKDDFEIAMIF": 106,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPBoss_Die_03",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 107,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_5",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 108,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMergeHenshin",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 109,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Green_HalfHP"
+    },
+    {
+      "DKDDFEIAMIF": 110,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Yellow_HalfHP"
+    },
+    {
+      "DKDDFEIAMIF": 111,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 3000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Red_HalfHP"
+    },
+    {
+      "DKDDFEIAMIF": 112,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPBoss_Start_01",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Boss_Green_Born"
+    },
+    {
+      "DKDDFEIAMIF": 113,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPRandom_Hit",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 114,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPRainbow_Hit",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 115,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeapon_Boom_04",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 1000,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_CPWeapon_Boom_03"
+    },
+    {
+      "DKDDFEIAMIF": 116,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_Trumpet",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 900,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 250,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPMerge_2",
+      "IPCBEALAODF": "Animation/Arcade/Game/CompanionAnimation/CPMerge_2",
+      "MACBHPGANHI": 5000,
+      "BHLGFEAKHFN": ""
+    },
+    {
+      "DKDDFEIAMIF": 10001,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Iron"
+    },
+    {
+      "DKDDFEIAMIF": 10002,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPWeaponHit_Flower",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Rose"
+    },
+    {
+      "DKDDFEIAMIF": 10003,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Meat"
+    },
+    {
+      "DKDDFEIAMIF": 10004,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Fist"
+    },
+    {
+      "DKDDFEIAMIF": 10005,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Bottle"
+    },
+    {
+      "DKDDFEIAMIF": 10006,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Wood"
+    },
+    {
+      "DKDDFEIAMIF": 10007,
+      "HGEIPJFCJIM": "",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Weapon_Hit_Rock"
+    },
+    {
+      "DKDDFEIAMIF": 10008,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Slingshot"
+    },
+    {
+      "DKDDFEIAMIF": 10009,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_NuclearButton"
+    },
+    {
+      "DKDDFEIAMIF": 10010,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Laser"
+    },
+    {
+      "DKDDFEIAMIF": 10011,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Shotgun"
+    },
+    {
+      "DKDDFEIAMIF": 10012,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Extinguisher"
+    },
+    {
+      "DKDDFEIAMIF": 10013,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Bomb"
+    },
+    {
+      "DKDDFEIAMIF": 10014,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Loudspeaker"
+    },
+    {
+      "DKDDFEIAMIF": 10015,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_Octopus"
+    },
+    {
+      "DKDDFEIAMIF": 10016,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_WaterGun"
+    },
+    {
+      "DKDDFEIAMIF": 10017,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_Plumber"
+    },
+    {
+      "DKDDFEIAMIF": 10018,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Hit_AirHammer"
+    },
+    {
+      "DKDDFEIAMIF": 10019,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Hit_BBGun"
+    },
+    {
+      "DKDDFEIAMIF": 10020,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Wood"
+    },
+    {
+      "DKDDFEIAMIF": 10021,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Iron"
+    },
+    {
+      "DKDDFEIAMIF": 10022,
+      "HGEIPJFCJIM": "Effect/Arcade/Companion/Eff_CPHit_1",
+      "IPCBEALAODF": "",
+      "MACBHPGANHI": 700,
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Iron"
+    }
+  ]
 }

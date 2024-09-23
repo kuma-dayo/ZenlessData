@@ -1,0 +1,12 @@
+{
+  "AbilityName": "Device_Prop_Switch_03_FinishedAudio",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "FireAudio",
+        "AudioPattern": "Play_sfx_Device_Prop_Switch_03_hit"
+      }
+    ]
+  }
+}

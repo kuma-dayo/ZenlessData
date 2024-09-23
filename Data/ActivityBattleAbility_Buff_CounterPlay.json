@@ -8,7 +8,7 @@
       "Value": 0.8
     },
     "AS_BuffDuration": {
-      "Value": 15.0
+      "Value": 15
     }
   },
   "AbilityStacking": "Unique",

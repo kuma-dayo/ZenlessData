@@ -1,0 +1,55 @@
+{
+  "AbilityName": "TyrantPompey_P1_Attack04_02",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+  },
+  "Modifiers": {
+    "ATK04_02_FeatureTargetModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PopFeatureTargetEnableAction",
+          "Tag": "LockPoint_TwistEnd",
+          "Target": "Self"
+        },
+        {
+          "$type": "PopHullColliderEnable",
+          "Tag": "Tyrant_HullCollider_Wing",
+          "Target": "Self"
+        },
+        {
+          "$type": "PopHitColliderEnable",
+          "Tag": "Tyrant_HullCollider_Wing",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PushFeatureTargetEnableAction",
+          "Tag": "LockPoint_TwistEnd",
+          "Target": "Self"
+        },
+        {
+          "$type": "PushHullColliderEnable",
+          "ColliderName": [
+            "HullCollider_Wing"
+          ],
+          "HullColliderEnable": false,
+          "Tag": "Tyrant_HullCollider_Wing",
+          "Target": "Self"
+        },
+        {
+          "$type": "PushHitColliderEnable",
+          "ColliderName": [
+            "HitCollider_Wing"
+          ],
+          "HitColliderEnable": false,
+          "Tag": "Tyrant_HitCollider_Wing",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

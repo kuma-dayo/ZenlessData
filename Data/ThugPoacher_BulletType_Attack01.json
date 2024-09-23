@@ -4,16 +4,16 @@
       "$type": "BulletMixin",
       "AliveDuration": 3,
       "BulletColliderConfig": {
-        "CapsuleColliderHeight": 1.0,
+        "CapsuleColliderHeight": 1,
         "CapsuleColliderRadius": 0.2,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": -0.2
         },
         "ColliderType": "Capsule"
@@ -26,14 +26,14 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": 1.2,
             "z": 0.5
           }
@@ -47,17 +47,17 @@
       "CanHitStage": true,
       "DestroyExplode": false,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 8.0,
-        "CapsuleColliderRadius": 1.0,
+        "CapsuleColliderHeight": 8,
+        "CapsuleColliderRadius": 1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 4.0
+          "x": 0,
+          "y": 0,
+          "z": 4
         },
         "ColliderType": "Capsule"
       },
@@ -80,7 +80,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {

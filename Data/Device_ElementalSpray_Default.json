@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "Idle_Ice"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Idle_Fire",
@@ -20,8 +20,8 @@
           "ModifierNameList": [
             "Idle_Fire"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Idle_Electro",
@@ -30,8 +30,8 @@
           "ModifierNameList": [
             "Idle_Electro"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Idle_Ether",
@@ -40,8 +40,8 @@
           "ModifierNameList": [
             "Idle_Ether"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -62,22 +62,22 @@
           "AttachEffectPosRot": {
             "CoordsOption": "ReferTarget",
             "EffectScale": {
-              "x": 4.0,
-              "y": 4.0,
-              "z": 4.0
+              "x": 4,
+              "y": 4,
+              "z": 4
             },
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -102,22 +102,22 @@
           "AttachEffectPosRot": {
             "CoordsOption": "ReferTarget",
             "EffectScale": {
-              "x": 4.0,
-              "y": 4.0,
-              "z": 4.0
+              "x": 4,
+              "y": 4,
+              "z": 4
             },
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -142,22 +142,22 @@
           "AttachEffectPosRot": {
             "CoordsOption": "ReferTarget",
             "EffectScale": {
-              "x": 4.0,
-              "y": 4.0,
-              "z": 4.0
+              "x": 4,
+              "y": 4,
+              "z": 4
             },
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 180.0
+                "x": 0,
+                "y": 0,
+                "z": 180
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -182,22 +182,22 @@
           "AttachEffectPosRot": {
             "CoordsOption": "ReferTarget",
             "EffectScale": {
-              "x": 4.0,
-              "y": 4.0,
-              "z": 4.0
+              "x": 4,
+              "y": 4,
+              "z": 4
             },
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

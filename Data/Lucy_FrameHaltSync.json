@@ -101,7 +101,8 @@
       "Duration": -1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
-      "OnPatternAttackLanded": []
+      "OnPatternAttackLanded": [
+      ]
     },
     "SingleFrameHaltModifier": {
       "Duration": -1,

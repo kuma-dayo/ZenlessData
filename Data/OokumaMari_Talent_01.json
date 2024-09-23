@@ -28,29 +28,29 @@
                 "$type": "ByAnimatorStateNormalizedTime",
                 "AnimatorStateName": "Attack_Branch_01_Explode",
                 "LayerIndex": 0,
-                "NormalizedTimeHigh": 1.0,
-                "NormalizedTimeLow": 0.0
+                "NormalizedTimeHigh": 1,
+                "NormalizedTimeLow": 0
               },
               {
                 "$type": "ByAnimatorStateNormalizedTime",
                 "AnimatorStateName": "Attack_Branch_02_Explode",
                 "LayerIndex": 0,
-                "NormalizedTimeHigh": 1.0,
-                "NormalizedTimeLow": 0.0
+                "NormalizedTimeHigh": 1,
+                "NormalizedTimeLow": 0
               },
               {
                 "$type": "ByAnimatorStateNormalizedTime",
                 "AnimatorStateName": "CoAttack_Branch_01_Explode",
                 "LayerIndex": 0,
-                "NormalizedTimeHigh": 1.0,
-                "NormalizedTimeLow": 0.0
+                "NormalizedTimeHigh": 1,
+                "NormalizedTimeLow": 0
               },
               {
                 "$type": "ByAnimatorStateNormalizedTime",
                 "AnimatorStateName": "CoAttack_Branch_02_Explode",
                 "LayerIndex": 0,
-                "NormalizedTimeHigh": 1.0,
-                "NormalizedTimeLow": 0.0
+                "NormalizedTimeHigh": 1,
+                "NormalizedTimeLow": 0
               }
             ],
             "Target": "Self"

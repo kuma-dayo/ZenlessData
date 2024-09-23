@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "ExQTEModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "ExQTEModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -29,8 +29,8 @@
           "ModifierNameList": [
             "WalkToRunModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -40,8 +40,8 @@
           "ModifierNameList": [
             "WalkToRunModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -51,8 +51,8 @@
           "ModifierNameList": [
             "AFKModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -62,8 +62,8 @@
           "ModifierNameList": [
             "AFKModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ]
@@ -792,7 +792,7 @@
           "Target": "Self"
         }
       ],
-      "ThinkInterval": 12.0
+      "ThinkInterval": 12
     },
     "BlurShadowModifier": {
       "Duration": 0.3,
@@ -1108,7 +1108,7 @@
     "WalkToRunModifier": {
       "DelayHandlers": [
         {
-          "DelayTime": 2.0,
+          "DelayTime": 2,
           "TimeUpActions": [
             {
               "$type": "SetAnimCtrlerParamAction",
@@ -1140,8 +1140,8 @@
               "AnimatorStateName": "Run_Loop",
               "IsLoop": true,
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Self"
             }
           ],

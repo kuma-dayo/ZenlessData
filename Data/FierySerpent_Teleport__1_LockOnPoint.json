@@ -10,25 +10,25 @@
         "CoordsOption": "Target",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
+            "x": 0,
+            "y": 0,
             "z": 1.5
           },
           "RandomAngleRange": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "RandomPositionRange": {
-            "x": 2.0,
-            "y": 0.0,
-            "z": 2.0
+            "x": 2,
+            "y": 0,
+            "z": 2
           }
         },
         "TargetOption": {

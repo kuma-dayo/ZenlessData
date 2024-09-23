@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "TanutModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_Tanut_02_Start",
@@ -20,7 +20,7 @@
           "ModifierNameList": [
             "TanutModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.261
         },
         {
@@ -30,7 +30,7 @@
           "ModifierNameList": [
             "BeScaredStart"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.574
         },
         {
@@ -40,7 +40,7 @@
           "ModifierNameList": [
             "BeScaredLoop"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0
         },
         {
@@ -50,7 +50,7 @@
           "ModifierNameList": [
             "BeScaredEnd"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.11
         },
         {
@@ -73,7 +73,7 @@
             "RemoveIdleEffectModifier"
           ],
           "NormalizedTimeHigh": 0.99,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Death_Leave",
@@ -118,7 +118,7 @@
           "ModifierNameList": [
             "RunLoop"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0
         },
         {
@@ -128,7 +128,7 @@
           "ModifierNameList": [
             "RunLoop"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0
         },
         {
@@ -182,16 +182,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -217,16 +217,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -262,16 +262,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -337,16 +337,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -373,16 +373,16 @@
                 "CoordsOption": "ReferTarget",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -402,16 +402,16 @@
                 "CoordsOption": "ReferTarget",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -437,16 +437,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

@@ -1,0 +1,22 @@
+{
+  "AbilityName": "Charpter_Metro_1_1_Audio",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "CottusP1_Born_Roar": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "FireAudio",
+          "AudioPattern": "Play_SFX_Monster_Foley_CottusP1_Born_Roar"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "FireAudio",
+      "AudioPattern": "Play_SFX_Monster_Foley_CottusP1_Born_Roar"
+    }
+  ]
+}

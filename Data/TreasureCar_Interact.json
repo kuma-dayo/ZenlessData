@@ -40,8 +40,10 @@
           "Target": "Self"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "TreasureCar_Interact",

@@ -1,0 +1,92 @@
+{
+  "AbilityName": "Burnice_Talent_01",
+  "AbilitySpecials": {
+    "AS_AddedAttackDelta": {
+      "Value": 1
+    },
+    "AS_AddedElementAccumulationRatio": {
+      "Value": 0.3
+    },
+    "AS_MaxValue": {
+      "Value": 40
+    },
+    "FinalMaxValue": {
+      "Value": 0
+    },
+    "Final_AddedAttackDelta": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_MaxValue)*1000",
+        "ParamName": "FinalMaxValue",
+        "Target": "Caster",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%FinalMaxValue",
+        "CustomPropertyType": "Burnice_MaxChargePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": "%FinalMaxValue",
+        "CustomPropertyType": "Burnice_CurChargePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(Atk_Battle)*specials(AS_AddedAttackDelta)",
+        "ParamName": "Final_AddedAttackDelta",
+        "Target": "Caster",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Explode_AttackProperty_01",
+              "Burnice_Explode_AttackProperty_01_Talent_02"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "PropertyKey": "Actor_AddedAttackDelta",
+        "PropertyValue": "%Final_AddedAttackDelta",
+        "Target": "Caster"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Explode_AttackProperty_01"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_AddedElementAccumulationRatio",
+        "Target": "Caster"
+      }
+    ]
+  }
+}

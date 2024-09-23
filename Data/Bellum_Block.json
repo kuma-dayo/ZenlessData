@@ -1,0 +1,100 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_1_3",
+          "FrameCountHigh": 115,
+          "FrameCountLow": 52,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "BlockEffectAndMaterialModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "CoAttack_Block",
+          "FrameCountHigh": 115,
+          "FrameCountLow": 52,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "BlockEffectAndMaterialModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bellum_Block",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "BlockEffectAndMaterialModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetRBLAction",
+          "RBL": 99,
+          "Tag": "Bellum_Block",
+          "Target": "Self"
+        },
+        {
+          "$type": "PushBlockStateAction"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "FireEffect",
+          "AttachPointName": "Bip001Prop1Point",
+          "EffectPattern": "Eff_Monster_Bellum_Attack_Block_03_Flare",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Bellum_Weapon_1_2"
+            }
+          ],
+          "Tag": "Bellum_BlockMat",
+          "Target": "Self",
+          "key": "Monster_Bellum_MA_CoAttack_Block_Override2Tone_01"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_NoHitEffect",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Monster_Bellum_Block_AttackProperty_01",
+          "Target": "Target"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "ParamName": "Trigger_Counter",
+          "ParamType": 1,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "Bellum_Block",
+          "Target": "Self"
+        },
+        {
+          "$type": "PopBlockStateAction"
+        }
+      ]
+    }
+  }
+}

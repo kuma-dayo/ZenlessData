@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "CameraEventModifier_Attack_Branch_02_Start"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Start_2",
@@ -18,8 +18,8 @@
           "ModifierNameList": [
             "CameraEventModifier_Attack_Branch_02_Start"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Cancel",
@@ -27,8 +27,8 @@
           "ModifierNameList": [
             "CameraEventModifier_Attack_Branch_02_Start"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Charge",
@@ -37,8 +37,8 @@
           "ModifierNameList": [
             "CameraEventModifier_Attack_Branch_02_Start"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Fire",
@@ -47,8 +47,8 @@
           "ModifierNameList": [
             "CameraEventModifier_Attack_Branch_02_Start"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }

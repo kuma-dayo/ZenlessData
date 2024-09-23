@@ -1,0 +1,24 @@
+{
+  "AbilityName": "Level_Caesar_SwitchPointRecover",
+  "Modifiers": {
+    "SwtichPointRecoverdModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "MultipleRefresh",
+      "OnAdded": [
+        {
+          "$type": "ModifyPerfectSwitchPointAction",
+          "Amount": 1,
+          "ModifyFunction": "Add"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "SwtichPointRecoverdModifier",
+      "Target": "Self"
+    }
+  ]
+}

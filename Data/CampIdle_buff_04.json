@@ -1,0 +1,145 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": true,
+          "PropertyType": "CurHP",
+          "ReferMaxPropertyType": "MaxHP",
+          "ValueRangeActions": [
+            {
+              "Val": 0.5,
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "DamageUpMore",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "DamageUpLess",
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "DamageUpLess",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "DamageUpMore",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "CampIdle_buff_04",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatioLess": {
+      "Value": 0.1
+    },
+    "AS_AddedDamageRatioMore": {
+      "Value": 0.2
+    },
+    "CampAddRatio": {
+      "Value": 2
+    },
+    "TextAS_AddedDamageRatioLess": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_AddedDamageRatioMore)*specials(CampAddRatio)",
+        "ParamName": "AS_AddedDamageRatioMore",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 1,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_AddedDamageRatioLess)*specials(CampAddRatio)",
+        "ParamName": "AS_AddedDamageRatioLess",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 1,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "GreaterEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.5,
+            "Val2": 0
+          }
+        ],
+        "FailureActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "DamageUpLess",
+            "Target": "Self"
+          }
+        ],
+        "SuccessActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "DamageUpMore",
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "DamageUpLess": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatioLess"
+      }
+    },
+    "DamageUpMore": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatioMore"
+      }
+    }
+  }
+}

@@ -2,16 +2,17 @@
   "aaEventData": [
     {
       "autoDestroy": false,
-      "axisInfos": [],
+      "axisInfos": [
+      ],
       "brakeDestroy": false,
       "effectType": 1,
       "endFrame": 6,
       "idx": -91803904,
       "moveType": 1,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -26,23 +27,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -55,9 +56,9 @@
       "idx": -1087599104,
       "moveType": 0,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -72,23 +73,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -101,9 +102,9 @@
       "idx": 290874880,
       "moveType": 0,
       "pos": {
-        "x": 3.0,
-        "y": 5.0,
-        "z": 0.0
+        "x": 3,
+        "y": 5,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -118,14 +119,14 @@
   "frameCount": 30,
   "frameRate": 20,
   "loop": false,
-  "modelPath": "Assets/NapResources/Char/Avatar/Female/Female_Size01/Avatar_Female_Size01_Clara/Avatar_Female_Size01_Clara_LOD3.prefab",
+  "modelPath": "Assets\/NapResources\/Char\/Avatar\/Female\/Female_Size01\/Avatar_Female_Size01_Clara\/Avatar_Female_Size01_Clara_LOD3.prefab",
   "partLoop": false,
   "seqName": "sk_limit",
   "speedParams": {
     "param1": 0,
     "param2": 0
   },
-  "topSpeed": 99.0,
+  "topSpeed": 99,
   "totalTime": 1.5,
   "trackArray": [
     {

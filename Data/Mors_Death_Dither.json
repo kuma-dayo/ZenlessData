@@ -1,0 +1,12 @@
+{
+  "AbilityName": "Mors_Death_Dither",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "DitherFadeAction",
+      "DitherFadeKey": "Monster_MorsType_Dither_Fade",
+      "Tag": "Mors_Death",
+      "Target": "Self"
+    }
+  ]
+}

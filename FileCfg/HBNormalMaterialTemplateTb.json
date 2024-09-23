@@ -1,63 +1,63 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "OGBGJHDFJGH": 1,
-      "AMFBANBLDMN": "VR_MonsterCardEntrance1",
-      "FMOEMECCDOH": "UIText_758",
-      "AJPGNCEMHFH": 114,
-      "INCHKODOGHA": [
+      "NKGDMPBGPHL": 1,
+      "HEPDFOHOHOP": "VR_MonsterCardEntrance1",
+      "OJMDBDHMGDD": "UIText_758",
+      "PJGBONJMELI": 114,
+      "JKIOCJLIMGP": [
         10,
         300003,
         301003,
         302003
       ],
-      "KNGMJMNNAJC": 0,
-      "ENKEGNONPMA": 1001
+      "GNJMDPCPMMG": 0,
+      "DPCNAFDHFNB": 1001
     },
     {
-      "OGBGJHDFJGH": 2,
-      "AMFBANBLDMN": "VR_MonsterCardEntrance2",
-      "FMOEMECCDOH": "UIText_758",
-      "AJPGNCEMHFH": 115,
-      "INCHKODOGHA": [
+      "NKGDMPBGPHL": 2,
+      "HEPDFOHOHOP": "VR_MonsterCardEntrance2",
+      "OJMDBDHMGDD": "UIText_758",
+      "PJGBONJMELI": 115,
+      "JKIOCJLIMGP": [
         100231,
         100232,
         100233,
         100234,
         100235
       ],
-      "KNGMJMNNAJC": 0,
-      "ENKEGNONPMA": 1002
+      "GNJMDPCPMMG": 0,
+      "DPCNAFDHFNB": 1002
     },
     {
-      "OGBGJHDFJGH": 3,
-      "AMFBANBLDMN": "VR_MonsterCardEntrance4",
-      "FMOEMECCDOH": "UIText_758",
-      "AJPGNCEMHFH": 117,
-      "INCHKODOGHA": [
+      "NKGDMPBGPHL": 3,
+      "HEPDFOHOHOP": "VR_MonsterCardEntrance4",
+      "OJMDBDHMGDD": "UIText_758",
+      "PJGBONJMELI": 117,
+      "JKIOCJLIMGP": [
         101030,
         101031,
         101032,
         101033,
         101034
       ],
-      "KNGMJMNNAJC": 0,
-      "ENKEGNONPMA": 1003
+      "GNJMDPCPMMG": 0,
+      "DPCNAFDHFNB": 1003
     },
     {
-      "OGBGJHDFJGH": 4,
-      "AMFBANBLDMN": "VR_MonsterCardEntrance3",
-      "FMOEMECCDOH": "UIText_758",
-      "AJPGNCEMHFH": 116,
-      "INCHKODOGHA": [
+      "NKGDMPBGPHL": 4,
+      "HEPDFOHOHOP": "VR_MonsterCardEntrance3",
+      "OJMDBDHMGDD": "UIText_758",
+      "PJGBONJMELI": 116,
+      "JKIOCJLIMGP": [
         100130,
         100131,
         100132,
         100133,
         100135
       ],
-      "KNGMJMNNAJC": 10061,
-      "ENKEGNONPMA": 1004
+      "GNJMDPCPMMG": 10061,
+      "DPCNAFDHFNB": 1004
     }
   ]
 }

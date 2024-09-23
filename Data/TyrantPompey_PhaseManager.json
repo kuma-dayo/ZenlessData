@@ -1,0 +1,497 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ColliderModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchPhase",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 145,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "MeshModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchPhase",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 230,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "P1BurstFireModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Born",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": true,
+          "Frame": 30,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_PhaseManager",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByIsInZoneTags",
+            "Tags": [
+              "CutScene"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "FailureActions": [
+          {
+            "$type": "ApplyAbilityAction",
+            "AbilityName": "TyrantPompey_SwitchPhase",
+            "IsAutoTrigger": false
+          }
+        ],
+        "SuccessActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "SwitchPhaseCutSceneModifer",
+            "Target": "Self"
+          }
+        ]
+      },
+      {
+        "$type": "PushHullColliderEnable",
+        "ColliderName": [
+          "HullCollider_P2_Weapon"
+        ],
+        "Tag": "HullCollider_P2_Weapon",
+        "Target": "Self"
+      },
+      {
+        "$type": "PushHitColliderEnable",
+        "ColliderName": [
+          "HitCollider_P2_Weapon"
+        ],
+        "Tag": "HitCollider_P2_Weapon",
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "P1LightEffectModifier"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ColliderModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushHullColliderEnable",
+          "ColliderName": [
+            "HullCollider_Motor"
+          ],
+          "Tag": "HullCollider_Motor"
+        },
+        {
+          "$type": "PushHitColliderEnable",
+          "ColliderName": [
+            "HitCollider_Motor"
+          ],
+          "Tag": "HitCollider_Motor"
+        },
+        {
+          "$type": "PushWallColliderEnable",
+          "ColliderName": [
+            "WallCollider_Motor"
+          ],
+          "Tag": "WallCollider_Motor"
+        },
+        {
+          "$type": "PopHullColliderEnable",
+          "Tag": "HullCollider_P2_Weapon"
+        },
+        {
+          "$type": "PopHitColliderEnable",
+          "Tag": "HitCollider_P2_Weapon"
+        },
+        {
+          "$type": "PushFeatureTargetEnableAction",
+          "FeatureTargetEnable": false,
+          "FeatureTargetName": [
+            "LockPoint_MotorHead"
+          ],
+          "Tag": "LockPoint_MotorHead",
+          "Target": "Self"
+        }
+      ]
+    },
+    "MeshModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Monster_Tyrantpompey_Weapon_01"
+          ],
+          "Tag": "Monster_Tyrantpompey_Weapon_01",
+          "Visible": false
+        },
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Monster_Tyrantpompey_Weapon_03"
+          ],
+          "Tag": "Monster_Tyrantpompey_Weapon_03",
+          "Visible": false
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "P1LightEffectModifier"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "P1BurstFireModifier"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Phase2EffModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "CustomKey": "Monster_TyrantPompey_Floater",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Common_ScreenImage_01",
+          "Target": "Custom",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Common_ScreenImage_01"
+        }
+      ]
+    },
+    "P1BurstFireModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_Pipe_02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_05_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_Pipe_02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_05_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Tyrantpompey_Weapon_02"
+            }
+          ],
+          "Tag": "Monster_TyrantPompey_MA_Common_SecondaryEmission_02",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_MA_Common_SecondaryEmission_02"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_MA_Common_SecondaryEmission_02"
+        }
+      ]
+    },
+    "P1LightEffectModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_Headstock",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_08_Light",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Phase2EffModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_Pipe_02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_02_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_Pipe_02",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_02_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_Guan_04",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_04_Fire",
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_TyrantPompey_Body_01"
+            }
+          ],
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_08",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_MA_Common_ScreenImage_08"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Tyrantpompey_Weapon_02"
+            }
+          ],
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_09",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_MA_Common_ScreenImage_09"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_TyrantPompey_Body_02"
+            }
+          ],
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_10",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_MA_Common_ScreenImage_10"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Monster_Tyrantpompey_Weapon_02"
+            }
+          ],
+          "Tag": "Monster_TyrantPompey_MA_Common_SecondaryEmission_11",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_MA_Common_SecondaryEmission_11"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_08"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_09"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_MA_Common_ScreenImage_10"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Monster_TyrantPompey_MA_Common_SecondaryEmission_11"
+        }
+      ]
+    },
+    "SwitchPhaseCutSceneModifer": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityName": "TyrantPompey_SwitchPhase",
+          "IsAutoTrigger": false
+        },
+        {
+          "$type": "ApplyAbilityAction",
+          "AbilityName": "TyrantPompey_SwitchPhase_CutScene",
+          "IsAutoTrigger": false
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_HasCutScene",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

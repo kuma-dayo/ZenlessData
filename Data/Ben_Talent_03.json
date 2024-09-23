@@ -1,5 +1,6 @@
 {
   "AbilityName": "Ben_Talent_03",
   "AbilityStacking": "Unique",
-  "DefaultModifier": {}
+  "DefaultModifier": {
+  }
 }

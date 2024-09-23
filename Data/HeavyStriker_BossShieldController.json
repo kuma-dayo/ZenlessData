@@ -2,19 +2,19 @@
   "AbilityName": "HeavyStriker_BossShieldController",
   "AbilitySpecials": {
     "AS_ShieldCD": {
-      "Value": 15.0,
+      "Value": 15,
       "ValueType": "Float"
     },
     "AS_ShieldOpenTimer": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     },
     "AS_ShieldReduceAmount": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     },
     "AS_ShieldReduceSkillRatio": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     }
   },
@@ -57,7 +57,7 @@
           {
             "$type": "SetAbilitySpecialAction",
             "ModifyFunction": "Replace",
-            "Param": 0.0,
+            "Param": 0,
             "ParamName": "AS_ShieldOpenTimer",
             "ParamType": "Float"
           }
@@ -71,7 +71,7 @@
           {
             "$type": "ByAbilitySpecial",
             "CompareType": "GreaterEqual",
-            "Param": 10.0,
+            "Param": 10,
             "ParamName": "AS_ShieldOpenTimer",
             "ParamType": "Float"
           }
@@ -98,7 +98,7 @@
               {
                 "$type": "SetAbilitySpecialAction",
                 "ModifyFunction": "Replace",
-                "Param": 1.0,
+                "Param": 1,
                 "ParamName": "AS_ShieldReduceSkillRatio",
                 "ParamType": "Float"
               }
@@ -107,7 +107,7 @@
               {
                 "$type": "SetAbilitySpecialAction",
                 "ModifyFunction": "Replace",
-                "Param": 3.0,
+                "Param": 3,
                 "ParamName": "AS_ShieldReduceSkillRatio",
                 "ParamType": "Float"
               }
@@ -118,7 +118,7 @@
             "Expressions": [
               {
                 "AbilitySpecialName": "AS_ShieldReduceAmount",
-                "Expression": "-min((min(({0}/10-1),10)/100*{1}*{2}),({3}-0.01*{4}))",
+                "Expression": "-min((min(({0}\/10-1),10)\/100*{1}*{2}),({3}-0.01*{4}))",
                 "OutputType": "Float"
               }
             ],
@@ -154,7 +154,7 @@
               {
                 "$type": "ByAbilitySpecial",
                 "CompareType": "Less",
-                "Param": 0.0,
+                "Param": 0,
                 "ParamName": "AS_ShieldReduceAmount",
                 "ParamType": "Float"
               }

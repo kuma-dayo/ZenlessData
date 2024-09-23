@@ -1,0 +1,848 @@
+{
+  "AbilityName": "Graph_HeavyStriker_Transform_Pre_Bullet_Special",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAdded": {
+          "Position": {
+            "x": -824,
+            "y": -12
+          }
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": 440,
+          "y": 228
+        },
+        "Zoom": 0.4971767
+      },
+      "Group": [
+      ],
+      "Node": [
+        {
+          "Position": {
+            "x": 882,
+            "y": -11
+          }
+        },
+        {
+          "Position": {
+            "x": 732,
+            "y": 772
+          }
+        },
+        {
+          "Position": {
+            "x": 204,
+            "y": 771
+          }
+        },
+        {
+          "Position": {
+            "x": 467,
+            "y": 771
+          }
+        },
+        {
+          "Position": {
+            "x": 662,
+            "y": 1127
+          }
+        },
+        {
+          "Position": {
+            "x": 194,
+            "y": 1464
+          }
+        },
+        {
+          "Position": {
+            "x": 491,
+            "y": 1465
+          }
+        },
+        {
+          "Position": {
+            "x": 492,
+            "y": 1578
+          }
+        },
+        {
+          "Position": {
+            "x": -189,
+            "y": -12
+          }
+        },
+        {
+          "Position": {
+            "x": 613,
+            "y": -11
+          }
+        },
+        {
+          "Position": {
+            "x": 214,
+            "y": -11
+          }
+        },
+        {
+          "Position": {
+            "x": -28,
+            "y": -12
+          }
+        },
+        {
+          "Position": {
+            "x": 400,
+            "y": 90
+          }
+        },
+        {
+          "Position": {
+            "x": 1137,
+            "y": -12
+          }
+        },
+        {
+          "Position": {
+            "x": 1471,
+            "y": 71
+          }
+        },
+        {
+          "Position": {
+            "x": 1917,
+            "y": -13
+          }
+        },
+        {
+          "Position": {
+            "x": 212,
+            "y": 442
+          }
+        },
+        {
+          "Position": {
+            "x": 1444,
+            "y": 439
+          }
+        },
+        {
+          "Position": {
+            "x": 1644,
+            "y": 439
+          }
+        },
+        {
+          "Position": {
+            "x": 1496,
+            "y": 904
+          }
+        },
+        {
+          "Position": {
+            "x": 203,
+            "y": 1127
+          }
+        },
+        {
+          "Position": {
+            "x": 1178,
+            "y": 1127
+          }
+        },
+        {
+          "Position": {
+            "x": 931,
+            "y": 1127
+          }
+        },
+        {
+          "Position": {
+            "x": 679,
+            "y": 1464
+          }
+        },
+        {
+          "Position": {
+            "x": 2129,
+            "y": -13
+          }
+        },
+        {
+          "Position": {
+            "x": 1515,
+            "y": 181
+          }
+        },
+        {
+          "Position": {
+            "x": 1751,
+            "y": 658
+          }
+        },
+        {
+          "Position": {
+            "x": 1670,
+            "y": 71
+          }
+        },
+        {
+          "Position": {
+            "x": -643,
+            "y": -12
+          }
+        },
+        {
+          "Position": {
+            "x": 40,
+            "y": 461
+          }
+        },
+        {
+          "Position": {
+            "x": -640,
+            "y": 104
+          }
+        },
+        {
+          "Position": {
+            "x": -421,
+            "y": -12
+          }
+        },
+        {
+          "Position": {
+            "x": 1500,
+            "y": 658
+          }
+        },
+        {
+          "Position": {
+            "x": 444,
+            "y": 1127
+          }
+        },
+        {
+          "Position": {
+            "x": 1981,
+            "y": 659
+          }
+        },
+        {
+          "Position": {
+            "x": 961,
+            "y": 796
+          }
+        },
+        {
+          "Position": {
+            "x": 1178,
+            "y": 772
+          }
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAdded": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 28,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 13,
+        "EffectID": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1012
+          ]
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Transform_01_14_Trail"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1004
+        }
+      },
+      {
+        "$type": "RandomFloatNode",
+        "DefaultOutBind": 36,
+        "MaxValue": {
+          "DefaultValue": 1
+        },
+        "MinValue": {
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1022
+          ]
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "AutoDynamicInfo": {
+          "$type": "EffectAutoDynamicValue",
+          "EffFadeInTime": 1.5,
+          "EffFadeOutTime": 0.2,
+          "EffHoldTime": 0.2,
+          "EffStartSizeX": 3,
+          "EffStartSizeY": 3,
+          "EffectTarget": 0
+        },
+        "DefaultOutBind": 3,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Common_Alert_Circle"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 1,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Transform_01_15_Burst"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 22,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Attack_07_04_Dust"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 6,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 1
+        }
+      },
+      {
+        "$type": "DestroyProp",
+        "DefaultOutBind": 23,
+        "PropID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1000
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1013
+          ]
+        }
+      },
+      {
+        "$type": "SequenceNode",
+        "DefaultOutBind": -1,
+        "Then": [
+          11,
+          16
+        ]
+      },
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": 0,
+        "InitialGraphKey": {
+        },
+        "ModelSize": {
+          "DefaultValue": 1
+        },
+        "Position": {
+          "BindId": 1003
+        },
+        "PreActionBind": [
+          12
+        ],
+        "PropID": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000,
+            1004,
+            1006,
+            1008,
+            1009,
+            1011,
+            1017
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "AttachPoint": {
+        },
+        "DefaultOutBind": 9,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1002
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1001
+        }
+      },
+      {
+        "$type": "GetPropCaster",
+        "Caster": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1001
+          ]
+        },
+        "DefaultOutBind": 10,
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1002
+        },
+        "InTwo": {
+          "DefaultValue": {
+            "x": 0,
+            "y": 35,
+            "z": 0
+          }
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1003,
+            1014
+          ]
+        }
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "AttachPoint": {
+        },
+        "DefaultOutBind": 15,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1005,
+            1010
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "VectorSub",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1005
+        },
+        "InTwo": {
+          "BindId": 1014
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1008
+          ]
+        },
+        "PreActionBind": [
+          12
+        ]
+      },
+      {
+        "$type": "ApplySimpleMove",
+        "DefaultOutBind": 24,
+        "PreActionBind": [
+          27,
+          25
+        ],
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 1017
+        },
+        "Time": {
+          "BindId": 1015,
+          "DefaultValue": 1
+        },
+        "Velocity": {
+          "BindId": 1016
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 17,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "BindId": 1020,
+          "DefaultValue": 1
+        },
+        "PreActionBind": [
+          29
+        ]
+      },
+      {
+        "$type": "SetPosition",
+        "DefaultOutBind": 18,
+        "Position": {
+          "BindId": 1010
+        },
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 1009
+        }
+      },
+      {
+        "$type": "InterruptMovement",
+        "DefaultOutBind": 2,
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 1011
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 20,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 1.5
+        }
+      },
+      {
+        "$type": "AttachAttackPredicate",
+        "DefaultOutBind": 33,
+        "Key": {
+          "DefaultValue": "HeavyStriker_Transform_Pre_Bullet_Predicate"
+        }
+      },
+      {
+        "$type": "DestroyEffectNode",
+        "DefaultOutBind": 5,
+        "EffectID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1012
+        }
+      },
+      {
+        "$type": "AttachAttackProperty",
+        "DefaultOutBind": 21,
+        "Key": {
+          "DefaultValue": "HeavyStriker_Transform_Pre_Bullet"
+        }
+      },
+      {
+        "$type": "DestroyProp",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          7
+        ],
+        "PropID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1013
+        }
+      },
+      {
+        "$type": "ApplyRotateToVelocity",
+        "DefaultOutBind": -1,
+        "TargetProp": {
+          "$type": "ConfigInputValue",
+          "BindId": 1006
+        }
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1015,
+            1018
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Float_DropTime"
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 34,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.9
+        }
+      },
+      {
+        "$type": "VectorDivNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1018
+        },
+        "PreActionBind": [
+          14,
+          25
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1016
+          ]
+        },
+        "Vector": {
+          "BindId": 1008
+        }
+      },
+      {
+        "$type": "RandomFloatNode",
+        "DefaultOutBind": 31,
+        "MaxValue": {
+          "DefaultValue": 0.1
+        },
+        "MinValue": {
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1007
+          ]
+        }
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1020
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Float_DropTime"
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 8,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "BindId": 1007,
+          "DefaultValue": 0.5
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 26,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Device_EtherGather_06_01_Aura"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 4,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.2
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 20,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Device_EtherGather_07_01_Burst"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "FloatCompareNode",
+        "CompareType": "Less",
+        "DefaultOutBind": -1,
+        "ParamOne": {
+          "BindId": 1022
+        },
+        "ParamTwo": {
+          "DefaultValue": 0.2
+        },
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1021
+          ]
+        }
+      },
+      {
+        "$type": "BranchNode",
+        "Condition": {
+          "BindId": 1021,
+          "DefaultValue": false
+        },
+        "DefaultOutBind": -1,
+        "FalseBind": 19,
+        "PreActionBind": [
+          35
+        ],
+        "TrueBind": 32
+      }
+    ],
+    "VariableRegisterList": [
+      {
+        "$type": "AbilityVariableRegister",
+        "DefaultValue": {
+          "$type": "ConfigDynamicValueFloat",
+          "Value": 0.6
+        },
+        "ElementType": "Float",
+        "Key": "Float_DropTime",
+        "Scope": "Auto",
+        "Type": "Float"
+      }
+    ]
+  },
+  "OnAdded": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAdded"
+    }
+  ]
+}

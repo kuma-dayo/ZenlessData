@@ -1,3 +1,54 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "DEPJKIPACJK": "Arcade_CP_Difficulty_1_name",
+      "HEGHNPFDFDN": "正常怪物血量，正常怪物伤害",
+      "FKJKEJMJJDD": 0,
+      "PJJDANBEKEH": 1000,
+      "DDJNAEHKALH": 1000,
+      "DBKGODAFDCP": "Assets/NapResources/UI/Sprite/Arcade/Game/Companion/Packer/IconDifficulty01.png",
+      "FMFPCAOFEPA": 3
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "DEPJKIPACJK": "Arcade_CP_Difficulty_2_name",
+      "HEGHNPFDFDN": "<color=#CF4029>+30%</color> 怪物血量，<color=#CF4029>+50%</color> 怪物伤害，<color=#2BAD00>+25%</color> 分数",
+      "FKJKEJMJJDD": 4001,
+      "PJJDANBEKEH": 1250,
+      "DDJNAEHKALH": 1500,
+      "DBKGODAFDCP": "Assets/NapResources/UI/Sprite/Arcade/Game/Companion/Packer/IconDifficulty02.png",
+      "FMFPCAOFEPA": 6
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "DEPJKIPACJK": "Arcade_CP_Difficulty_3_name",
+      "HEGHNPFDFDN": "<color=#CF4029>+60%</color> 怪物血量，<color=#CF4029>+100%</color> 怪物伤害，<color=#2BAD00>+50%</color> 分数",
+      "FKJKEJMJJDD": 4002,
+      "PJJDANBEKEH": 1500,
+      "DDJNAEHKALH": 2000,
+      "DBKGODAFDCP": "Assets/NapResources/UI/Sprite/Arcade/Game/Companion/Packer/IconDifficulty03.png",
+      "FMFPCAOFEPA": 10
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "DEPJKIPACJK": "Arcade_CP_Difficulty_4_name",
+      "HEGHNPFDFDN": "<color=#CF4029>+90%</color> 怪物血量，<color=#CF4029>+150%</color> 怪物伤害，<color=#2BAD00>+75%</color> 分数",
+      "FKJKEJMJJDD": 4003,
+      "PJJDANBEKEH": 1750,
+      "DDJNAEHKALH": 3000,
+      "DBKGODAFDCP": "Assets/NapResources/UI/Sprite/Arcade/Game/Companion/Packer/IconDifficulty04.png",
+      "FMFPCAOFEPA": 10
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "DEPJKIPACJK": "Arcade_CP_Difficulty_5_name",
+      "HEGHNPFDFDN": "<color=#CF4029>+120%</color> 怪物血量，<color=#CF4029>+200%</color> 怪物伤害，<color=#2BAD00>+100%</color> 分数",
+      "FKJKEJMJJDD": 4004,
+      "PJJDANBEKEH": 2000,
+      "DDJNAEHKALH": 4000,
+      "DBKGODAFDCP": "Assets/NapResources/UI/Sprite/Arcade/Game/Companion/Packer/IconDifficulty05.png",
+      "FMFPCAOFEPA": 10
+    }
+  ]
 }

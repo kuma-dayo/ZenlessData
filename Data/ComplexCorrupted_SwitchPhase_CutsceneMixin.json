@@ -21,7 +21,8 @@
           "Target": "Self"
         }
       ],
-      "OnCutSceneStartPhase": [],
+      "OnCutSceneStartPhase": [
+      ],
       "PerformID": 5020006,
       "ProtectTime": 30
     }

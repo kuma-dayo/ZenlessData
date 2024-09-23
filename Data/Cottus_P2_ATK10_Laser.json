@@ -18,14 +18,14 @@
       ],
       "DodgeColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.85
@@ -38,8 +38,9 @@
       "FirstHitDelayTime": 0.2,
       "HitAnimEventID": "Monster_Cottus_P2_ATK10_Attackproperty_01",
       "HitColliderRadius": 0.5,
-      "HitEffect": {},
-      "HitInterval": 1.0,
+      "HitEffect": {
+      },
+      "HitInterval": 1,
       "HitLayers": [
         "HitCollider"
       ],
@@ -48,9 +49,9 @@
         "CoordsOption": "Self",
         "Offset": {
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": -3,
-            "z": 0.0
+            "z": 0
           }
         },
         "TargetOption": {
@@ -65,14 +66,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
             "x": 0,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -95,7 +96,8 @@
           "Target": "Self"
         }
       ],
-      "OnLaserStartAction": [],
+      "OnLaserStartAction": [
+      ],
       "StartEffect": {
         "EffectPattern": ""
       },

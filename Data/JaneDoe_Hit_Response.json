@@ -614,14 +614,14 @@
                 "CoordsOption": "ReferTarget",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
+                    "x": 0,
                     "y": 0.8,
                     "z": 0.7
                   }
@@ -666,6 +666,19 @@
       {
         "$type": "ApplyModifier",
         "ModifierName": "SkillListenerModifier",
+        "Predicates": [
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "ByIsInZoneTags",
+                "Tags": [
+                  "Slime"
+                ]
+              }
+            ]
+          }
+        ],
         "Target": "TeamAvatars"
       }
     ],
@@ -1028,19 +1041,12 @@
         {
           "$type": "SetAnimCtrlerParamAction",
           "BoolVal": true,
-          "ParamName": "Trigger_Evade",
-          "ParamType": 1,
-          "Target": "Caster"
-        },
-        {
-          "$type": "SetAnimCtrlerParamAction",
-          "BoolVal": true,
           "ParamName": "Bool_IsEvadeBack",
           "ParamType": 2,
           "Predicates": [
             {
               "$type": "ByDistance",
-              "CompareTarget": "Self",
+              "CompareTarget": "LocalAvatar",
               "CompareType": "LessEqual",
               "Distance": 4,
               "Target": "Caster"
@@ -1056,12 +1062,19 @@
           "Predicates": [
             {
               "$type": "ByDistance",
-              "CompareTarget": "Self",
+              "CompareTarget": "LocalAvatar",
               "CompareType": "Greater",
               "Distance": 4,
               "Target": "Caster"
             }
           ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_Evade",
+          "ParamType": 1,
           "Target": "Caster"
         }
       ]
@@ -1081,6 +1094,21 @@
       ]
     }
   },
+  "OnAbilityTrigger": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "SkillListenerModifier",
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Slime"
+          ]
+        }
+      ],
+      "Target": "TeamAvatars"
+    }
+  ],
   "Predicates": {
     "ByIsInAir": {
       "Predicates": [

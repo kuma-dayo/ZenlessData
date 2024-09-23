@@ -1,0 +1,68 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_07",
+  "AbilitySpecials": {
+    "AS_AccumulationRatio": {
+      "Value": 0.3
+    },
+    "AS_AddDamageRatio": {
+      "Value": 0.35
+    },
+    "ShieldAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Frozen",
+              "Frostbite",
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload",
+              "Strike",
+              "Erosion",
+              "Chaos"
+            ],
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddDamageRatio"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "ShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "ShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedElementAccumulationRatio",
+        "PropertyValue": "%AS_AccumulationRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

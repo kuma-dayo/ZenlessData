@@ -5,10 +5,10 @@
       "Value": 0.4
     },
     "AS_Duration": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_PairACount": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

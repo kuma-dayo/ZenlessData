@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "FinishAttack01Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -21,8 +21,8 @@
           "ModifierNameList": [
             "FinishAttack01Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -32,8 +32,8 @@
           "ModifierNameList": [
             "FinishAttack02Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -43,8 +43,8 @@
           "ModifierNameList": [
             "FinishAttack02Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -54,8 +54,8 @@
           "ModifierNameList": [
             "FinishAttack03Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -65,8 +65,8 @@
           "ModifierNameList": [
             "FinishAttack03Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -76,8 +76,8 @@
           "ModifierNameList": [
             "FinishAttack03Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -87,8 +87,8 @@
           "ModifierNameList": [
             "FinishAttack03Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -98,8 +98,8 @@
           "ModifierNameList": [
             "FinishAttack04Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -109,8 +109,8 @@
           "ModifierNameList": [
             "FinishAttack04Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -120,8 +120,8 @@
           "ModifierNameList": [
             "FinishAttack05Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -131,8 +131,8 @@
           "ModifierNameList": [
             "FinishAttack05Modifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -143,8 +143,8 @@
           "ModifierNameList": [
             "MoveAttackModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -155,8 +155,8 @@
           "ModifierNameList": [
             "MoveAttackModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -167,8 +167,8 @@
           "ModifierNameList": [
             "MoveAttackModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -179,8 +179,8 @@
           "ModifierNameList": [
             "MoveAttackModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ]

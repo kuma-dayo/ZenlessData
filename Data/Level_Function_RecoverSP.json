@@ -1,0 +1,46 @@
+{
+  "AbilityName": "Level_Function_RecoverSP",
+  "AbilitySpecials": {
+    "RecoverSP": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "BUFF_HitRecoverSPModifier": {
+      "Duration": 5,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": 0,
+          "IgnoreRatio": false,
+          "Percentage": "%RecoverSP",
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "BUFF_HitRecoverSPModifier",
+      "Target": "TeamAvatars"
+    },
+    {
+      "$type": "FireAudio",
+      "AudioPattern": "Play_sfx_interact_inlevel_pickup_sp"
+    },
+    {
+      "$type": "ModifyMaterialPropertyAction",
+      "Tag": "Common_MA_Buff_AddSp_RimGlow_01",
+      "Target": "LocalAvatar",
+      "key": "Common_MA_Buff_AddSp_RimGlow_01"
+    },
+    {
+      "$type": "FireEffect",
+      "EffectPattern": "Eff_InLevelItem_Prop_ResourceItem_02_AddSp",
+      "Target": "LocalAvatar"
+    }
+  ]
+}

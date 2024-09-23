@@ -14,13 +14,13 @@
       "Value": 0.15
     },
     "AS_ShieldValueDelta": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ShieldValueRatio": {
       "Value": 2
     },
     "AS_ShiledDurationDelta": {
-      "Value": 3.0
+      "Value": 3
     }
   },
   "AbilityStacking": "Unique",
@@ -224,14 +224,14 @@
           "$type": "ValueProtectShieldMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 0.8,
-              "z": 0.0
+              "z": 0
             },
             "ColliderType": "Sphere",
             "SphereColliderRadius": 0.8

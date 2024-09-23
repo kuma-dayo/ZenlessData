@@ -1,0 +1,110 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AddedDamageRatioModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AddedDamageRatioModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Evade_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AddedDamageRatioModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Parry_Hit",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "VR_SmallBoss_JaneDoe",
+  "AbilitySpecials": {
+    "AS_Actor_AddedDamageRatio": {
+      "Value": 0.04
+    },
+    "AS_AddedDamageRatio": {
+      "Value": 0.2
+    },
+    "AS_BuffMax": {
+      "Value": 0
+    },
+    "AS_BuffMaxStack": {
+      "Value": 5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByAnimTagList",
+                "TagList": [
+                  "AssaultAid"
+                ]
+              },
+              {
+                "$type": "ByAnimTagList",
+                "TagList": [
+                  "Counter"
+                ]
+              }
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Target"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedDamageRatioModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "MaxStackingNumber": "%AS_BuffMaxStack",
+      "ModifierStacking": "MultipleRefresh",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_Actor_AddedDamageRatio"
+      }
+    }
+  }
+}

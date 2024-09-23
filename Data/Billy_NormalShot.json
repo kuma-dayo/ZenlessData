@@ -107,8 +107,8 @@
           "ModifierNameList": [
             "ReEnterModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_A",
@@ -117,8 +117,8 @@
           "ModifierNameList": [
             "ReEnterModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_B",
@@ -127,8 +127,8 @@
           "ModifierNameList": [
             "ReEnterModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_End",
@@ -136,8 +136,8 @@
           "ModifierNameList": [
             "ReEnterModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start",
@@ -145,8 +145,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
@@ -154,8 +154,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
@@ -163,8 +163,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_A",
@@ -173,8 +173,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_B",
@@ -183,8 +183,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_End",
@@ -192,8 +192,8 @@
           "ModifierNameList": [
             "ReEnterModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start",
@@ -201,8 +201,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
@@ -210,8 +210,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
@@ -219,8 +219,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
@@ -228,8 +228,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
@@ -237,8 +237,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_A",
@@ -247,8 +247,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_B",
@@ -257,8 +257,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_End",
@@ -266,8 +266,8 @@
           "ModifierNameList": [
             "ReEnterModifier_03"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_Start",
@@ -275,8 +275,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_A",
@@ -285,8 +285,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_B",
@@ -295,8 +295,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_01_End",
@@ -305,7 +305,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.206,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start",
@@ -313,8 +313,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
@@ -322,8 +322,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
@@ -331,8 +331,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_A",
@@ -341,8 +341,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_B",
@@ -351,8 +351,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_End",
@@ -361,7 +361,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.322,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start",
@@ -369,8 +369,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
@@ -378,8 +378,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
@@ -387,8 +387,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
@@ -396,8 +396,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
@@ -405,8 +405,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_A",
@@ -415,8 +415,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_B",
@@ -425,8 +425,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_End",
@@ -435,7 +435,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.32,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_End_02",
@@ -444,7 +444,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.409,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01",
@@ -452,8 +452,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01_End",
@@ -462,7 +462,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.3,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02",
@@ -470,8 +470,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_End",
@@ -480,7 +480,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_03",
@@ -488,8 +488,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_03_End",
@@ -498,7 +498,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.3,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_04",
@@ -506,8 +506,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_04_End",
@@ -516,7 +516,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Evade_Front",
@@ -525,7 +525,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.22,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Evade_Front_02",
@@ -534,7 +534,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.215,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Evade_Back",
@@ -543,7 +543,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.198,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Rush",
@@ -552,7 +552,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.8,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Rush_02",
@@ -560,8 +560,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Counter",
@@ -569,8 +569,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Counter_End",
@@ -579,7 +579,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_BeHitAid",
@@ -587,8 +587,8 @@
           "ModifierNameList": [
             "AttackIndexModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_BeHitAid_End",
@@ -597,7 +597,7 @@
             "AttackIndexModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Rush",
@@ -606,7 +606,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.8,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Counter",
@@ -614,8 +614,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Counter_End",
@@ -624,7 +624,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_BeHitAid",
@@ -632,8 +632,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_BeHitAid_End",
@@ -642,7 +642,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01",
@@ -650,8 +650,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01_End",
@@ -660,7 +660,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.3,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02",
@@ -668,8 +668,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_End",
@@ -678,7 +678,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_03",
@@ -686,8 +686,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_03_End",
@@ -696,7 +696,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.3,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_04",
@@ -704,8 +704,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_04_End",
@@ -714,7 +714,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.15,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "SwitchIn_Attack",
@@ -722,8 +722,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "SwitchIn_Attack_End",
@@ -732,7 +732,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_EvadeAid",
@@ -740,8 +740,8 @@
           "ModifierNameList": [
             "GapShotModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_EvadeAid_End",
@@ -750,7 +750,7 @@
             "GapShotModifier"
           ],
           "NormalizedTimeHigh": 0.16,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -966,8 +966,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -983,8 +983,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1000,8 +1000,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1017,8 +1017,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1034,8 +1034,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1051,8 +1051,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1068,8 +1068,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1085,8 +1085,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_End_02",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1102,8 +1102,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Branch_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1119,8 +1119,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Branch_02",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1136,8 +1136,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Branch_03",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1153,8 +1153,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Branch_04",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1170,8 +1170,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1188,8 +1188,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1206,8 +1206,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1224,8 +1224,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1242,8 +1242,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1260,8 +1260,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -1278,8 +1278,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Attack_Normal_03_End_02",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],

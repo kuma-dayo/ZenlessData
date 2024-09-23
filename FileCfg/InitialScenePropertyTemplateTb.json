@@ -1,94 +1,94 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "EAAFCGPDFAA": "ActorMaxCurHP",
-      "JJHBNDNOBIE": 4,
-      "PIEIECGGIIA": 10000
+      "DEPJKIPACJK": "ActorMaxCurHP",
+      "PPINBGPFKAA": 4,
+      "ECLEFPLCFCM": 10000
     },
     {
-      "EAAFCGPDFAA": "EnableCardFusion",
-      "JJHBNDNOBIE": 3,
-      "PIEIECGGIIA": 1
+      "DEPJKIPACJK": "EnableCardFusion",
+      "PPINBGPFKAA": 3,
+      "ECLEFPLCFCM": 1
     },
     {
-      "EAAFCGPDFAA": "EnableCardRefresh",
-      "JJHBNDNOBIE": 4,
-      "PIEIECGGIIA": 1
+      "DEPJKIPACJK": "EnableCardRefresh",
+      "PPINBGPFKAA": 4,
+      "ECLEFPLCFCM": 1
     },
     {
-      "EAAFCGPDFAA": "EnableCardUpgrade",
-      "JJHBNDNOBIE": 4,
-      "PIEIECGGIIA": 1
+      "DEPJKIPACJK": "EnableCardUpgrade",
+      "PPINBGPFKAA": 4,
+      "ECLEFPLCFCM": 1
     },
     {
-      "EAAFCGPDFAA": "EnableHpBuy",
-      "JJHBNDNOBIE": 5,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "EnableHpBuy",
+      "PPINBGPFKAA": 5,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "EnableHpOverflowToCoin",
-      "JJHBNDNOBIE": 5,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "EnableHpOverflowToCoin",
+      "PPINBGPFKAA": 5,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "Gold_Delta",
-      "JJHBNDNOBIE": 2,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Gold_Delta",
+      "PPINBGPFKAA": 2,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "Gold_Ratio",
-      "JJHBNDNOBIE": 2,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Gold_Ratio",
+      "PPINBGPFKAA": 2,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "HollowRetryTutorial",
-      "JJHBNDNOBIE": 7,
-      "PIEIECGGIIA": 20017
+      "DEPJKIPACJK": "HollowRetryTutorial",
+      "PPINBGPFKAA": 7,
+      "ECLEFPLCFCM": 20017
     },
     {
-      "EAAFCGPDFAA": "HollowZeroCoinMaxNum",
-      "JJHBNDNOBIE": 2,
-      "PIEIECGGIIA": 50000
+      "DEPJKIPACJK": "HollowZeroCoinMaxNum",
+      "PPINBGPFKAA": 2,
+      "ECLEFPLCFCM": 50000
     },
     {
-      "EAAFCGPDFAA": "Player_View",
-      "JJHBNDNOBIE": 4,
-      "PIEIECGGIIA": 1
+      "DEPJKIPACJK": "Player_View",
+      "PPINBGPFKAA": 4,
+      "ECLEFPLCFCM": 1
     },
     {
-      "EAAFCGPDFAA": "Shop_Price",
-      "JJHBNDNOBIE": 8,
-      "PIEIECGGIIA": 10000
+      "DEPJKIPACJK": "Shop_Price",
+      "PPINBGPFKAA": 8,
+      "ECLEFPLCFCM": 10000
     },
     {
-      "EAAFCGPDFAA": "Stamina",
-      "JJHBNDNOBIE": 1,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Stamina",
+      "PPINBGPFKAA": 1,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "Stamina_Delta",
-      "JJHBNDNOBIE": 1,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Stamina_Delta",
+      "PPINBGPFKAA": 1,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "Stamina_Increase",
-      "JJHBNDNOBIE": 1,
-      "PIEIECGGIIA": 10
+      "DEPJKIPACJK": "Stamina_Increase",
+      "PPINBGPFKAA": 1,
+      "ECLEFPLCFCM": 10
     },
     {
-      "EAAFCGPDFAA": "Stamina_Max",
-      "JJHBNDNOBIE": 1,
-      "PIEIECGGIIA": 100
+      "DEPJKIPACJK": "Stamina_Max",
+      "PPINBGPFKAA": 1,
+      "ECLEFPLCFCM": 100
     },
     {
-      "EAAFCGPDFAA": "Stamina_Ratio",
-      "JJHBNDNOBIE": 1,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Stamina_Ratio",
+      "PPINBGPFKAA": 1,
+      "ECLEFPLCFCM": 0
     },
     {
-      "EAAFCGPDFAA": "Weather",
-      "JJHBNDNOBIE": 7,
-      "PIEIECGGIIA": 0
+      "DEPJKIPACJK": "Weather",
+      "PPINBGPFKAA": 7,
+      "ECLEFPLCFCM": 0
     }
   ]
 }

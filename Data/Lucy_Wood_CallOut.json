@@ -5,7 +5,7 @@
     {
       "$type": "TriggerAbilityAction",
       "AbilityName": "Lucy_CallOut",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "InitAbilitySpecialList": [
         {
           "SpecialName": "AS_WoodNum",
@@ -27,7 +27,7 @@
     {
       "$type": "TriggerAbilityAction",
       "AbilityName": "Lucy_CallOut",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "InitAbilitySpecialList": [
         {
           "SpecialName": "AS_WoodNum",
@@ -49,7 +49,7 @@
     {
       "$type": "TriggerAbilityAction",
       "AbilityName": "Lucy_CallOut",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "InitAbilitySpecialList": [
         {
           "SpecialName": "AS_WoodNum",

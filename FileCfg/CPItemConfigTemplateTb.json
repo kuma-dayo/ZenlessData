@@ -1,3 +1,5375 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1001,
+      "FCGKPNFCMLE": 900001,
+      "DEPJKIPACJK": "Arcade_CP_Item_1001_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_1.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1001_des",
+      "AMLHEGPNCHC": [
+        100101
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1002,
+      "FCGKPNFCMLE": 900002,
+      "DEPJKIPACJK": "Arcade_CP_Item_1002_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_2.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1002_des",
+      "AMLHEGPNCHC": [
+        100201,
+        100202
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1003,
+      "FCGKPNFCMLE": 900003,
+      "DEPJKIPACJK": "Arcade_CP_Item_1003_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_3.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1003_des",
+      "AMLHEGPNCHC": [
+        100303,
+        100301,
+        100302
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1004,
+      "FCGKPNFCMLE": 900004,
+      "DEPJKIPACJK": "Arcade_CP_Item_1004_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_4.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1004_des",
+      "AMLHEGPNCHC": [
+        100401,
+        100402
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1005,
+      "FCGKPNFCMLE": 900005,
+      "DEPJKIPACJK": "Arcade_CP_Item_1005_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_5.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1005_des",
+      "AMLHEGPNCHC": [
+        100501
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1006,
+      "FCGKPNFCMLE": 900006,
+      "DEPJKIPACJK": "Arcade_CP_Item_1006_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_6.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1006_des",
+      "AMLHEGPNCHC": [
+        100603,
+        100601,
+        100602
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1007,
+      "FCGKPNFCMLE": 900007,
+      "DEPJKIPACJK": "Arcade_CP_Item_1007_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_7.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1007_des",
+      "AMLHEGPNCHC": [
+        100701
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        24
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1008,
+      "FCGKPNFCMLE": 900008,
+      "DEPJKIPACJK": "Arcade_CP_Item_1008_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_8.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1008_des",
+      "AMLHEGPNCHC": [
+        100801,
+        100802
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        12
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1009,
+      "FCGKPNFCMLE": 900009,
+      "DEPJKIPACJK": "Arcade_CP_Item_1009_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_9.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1009_des",
+      "AMLHEGPNCHC": [
+        100903,
+        100901,
+        100902
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1010,
+      "FCGKPNFCMLE": 900010,
+      "DEPJKIPACJK": "Arcade_CP_Item_1010_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_10.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1010_des",
+      "AMLHEGPNCHC": [
+        101001,
+        101002
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1011,
+      "FCGKPNFCMLE": 900011,
+      "DEPJKIPACJK": "Arcade_CP_Item_1011_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_11.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1011_des",
+      "AMLHEGPNCHC": [
+        101101,
+        101102
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1012,
+      "FCGKPNFCMLE": 900012,
+      "DEPJKIPACJK": "Arcade_CP_Item_1012_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_12.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1012_des",
+      "AMLHEGPNCHC": [
+        107801,
+        107802
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        78
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1013,
+      "FCGKPNFCMLE": 900013,
+      "DEPJKIPACJK": "Arcade_CP_Item_1013_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_13.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1013_des",
+      "AMLHEGPNCHC": [
+        101301,
+        101302
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        45
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1014,
+      "FCGKPNFCMLE": 900014,
+      "DEPJKIPACJK": "Arcade_CP_Item_1014_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_14.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1014_des",
+      "AMLHEGPNCHC": [
+        101401,
+        101402
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        79
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1015,
+      "FCGKPNFCMLE": 900015,
+      "DEPJKIPACJK": "Arcade_CP_Item_1015_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_15.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1015_des",
+      "AMLHEGPNCHC": [
+        101501,
+        101502
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        23
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1016,
+      "FCGKPNFCMLE": 900033,
+      "DEPJKIPACJK": "Arcade_CP_Item_1016_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_33.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1016_des",
+      "AMLHEGPNCHC": [
+        101601,
+        101602
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1017,
+      "FCGKPNFCMLE": 900017,
+      "DEPJKIPACJK": "Arcade_CP_Item_1017_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_17.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1017_des",
+      "AMLHEGPNCHC": [
+        101704,
+        101701,
+        101702,
+        101703
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        40
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1018,
+      "FCGKPNFCMLE": 900018,
+      "DEPJKIPACJK": "Arcade_CP_Item_1018_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_18.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1018_des",
+      "AMLHEGPNCHC": [
+        101801,
+        101802
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        50
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1019,
+      "FCGKPNFCMLE": 900019,
+      "DEPJKIPACJK": "Arcade_CP_Item_1019_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_19.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1019_des",
+      "AMLHEGPNCHC": [
+        101901,
+        101902,
+        101902,
+        101902,
+        101902,
+        101902
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 5,
+      "DNLJGPFBJCN": [
+        1,
+        27
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1020,
+      "FCGKPNFCMLE": 900020,
+      "DEPJKIPACJK": "Arcade_CP_Item_1020_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_20.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1020_des",
+      "AMLHEGPNCHC": [
+        102001,
+        102002,
+        102003
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        1,
+        28
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1021,
+      "FCGKPNFCMLE": 900021,
+      "DEPJKIPACJK": "Arcade_CP_Item_1021_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_21.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1021_des",
+      "AMLHEGPNCHC": [
+        102101,
+        102102
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        42
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1022,
+      "FCGKPNFCMLE": 900022,
+      "DEPJKIPACJK": "Arcade_CP_Item_1022_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_22.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1022_des",
+      "AMLHEGPNCHC": [
+        102201,
+        102202
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1023,
+      "FCGKPNFCMLE": 900023,
+      "DEPJKIPACJK": "Arcade_CP_Item_1023_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_23.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1023_des",
+      "AMLHEGPNCHC": [
+        102301,
+        102302,
+        102303
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1024,
+      "FCGKPNFCMLE": 900024,
+      "DEPJKIPACJK": "Arcade_CP_Item_1024_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_24.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1024_des",
+      "AMLHEGPNCHC": [
+        102401,
+        102402
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1025,
+      "FCGKPNFCMLE": 900025,
+      "DEPJKIPACJK": "Arcade_CP_Item_1025_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_25.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1025_des",
+      "AMLHEGPNCHC": [
+        102501,
+        102502,
+        102503
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        30
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1026,
+      "FCGKPNFCMLE": 900026,
+      "DEPJKIPACJK": "Arcade_CP_Item_1026_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_26.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1026_des",
+      "AMLHEGPNCHC": [
+        102601,
+        102602
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1027,
+      "FCGKPNFCMLE": 900027,
+      "DEPJKIPACJK": "Arcade_CP_Item_1027_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_27.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1027_des",
+      "AMLHEGPNCHC": [
+        102701,
+        102702
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1028,
+      "FCGKPNFCMLE": 900028,
+      "DEPJKIPACJK": "Arcade_CP_Item_1028_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_28.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1028_des",
+      "AMLHEGPNCHC": [
+        102801,
+        102802
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1029,
+      "FCGKPNFCMLE": 900029,
+      "DEPJKIPACJK": "Arcade_CP_Item_1029_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_29.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1029_des",
+      "AMLHEGPNCHC": [
+        102901,
+        102902
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1030,
+      "FCGKPNFCMLE": 900030,
+      "DEPJKIPACJK": "Arcade_CP_Item_1030_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_30.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1030_des",
+      "AMLHEGPNCHC": [
+        103001,
+        103002
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        12
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        1,
+        12
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1031,
+      "FCGKPNFCMLE": 900031,
+      "DEPJKIPACJK": "Arcade_CP_Item_1031_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_31.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1031_des",
+      "AMLHEGPNCHC": [
+        103101,
+        103102
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        65
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1032,
+      "FCGKPNFCMLE": 900032,
+      "DEPJKIPACJK": "Arcade_CP_Item_1032_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_32.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1032_des",
+      "AMLHEGPNCHC": [
+        103201
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1033,
+      "FCGKPNFCMLE": 900016,
+      "DEPJKIPACJK": "Arcade_CP_Item_1033_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_16.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1033_des",
+      "AMLHEGPNCHC": [
+        103301,
+        103302
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1034,
+      "FCGKPNFCMLE": 900034,
+      "DEPJKIPACJK": "Arcade_CP_Item_1034_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_34.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1034_des",
+      "AMLHEGPNCHC": [
+        103401,
+        103402
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        64
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1035,
+      "FCGKPNFCMLE": 900035,
+      "DEPJKIPACJK": "Arcade_CP_Item_1035_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_35.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1035_des",
+      "AMLHEGPNCHC": [
+        103501,
+        103502
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1036,
+      "FCGKPNFCMLE": 900036,
+      "DEPJKIPACJK": "Arcade_CP_Item_1036_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_36.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1036_des",
+      "AMLHEGPNCHC": [
+        103601,
+        103602
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1037,
+      "FCGKPNFCMLE": 900037,
+      "DEPJKIPACJK": "Arcade_CP_Item_1037_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_37.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1037_des",
+      "AMLHEGPNCHC": [
+        103701,
+        103702
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        110
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1038,
+      "FCGKPNFCMLE": 900038,
+      "DEPJKIPACJK": "Arcade_CP_Item_1038_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_38.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1038_des",
+      "AMLHEGPNCHC": [
+        103801,
+        103802
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        25
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1039,
+      "FCGKPNFCMLE": 900039,
+      "DEPJKIPACJK": "Arcade_CP_Item_1039_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_39.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1039_des",
+      "AMLHEGPNCHC": [
+        103901
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        16
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1040,
+      "FCGKPNFCMLE": 900040,
+      "DEPJKIPACJK": "Arcade_CP_Item_1040_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_40.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1040_des",
+      "AMLHEGPNCHC": [
+        104001
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        10
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1041,
+      "FCGKPNFCMLE": 900041,
+      "DEPJKIPACJK": "Arcade_CP_Item_1041_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_41.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1041_des",
+      "AMLHEGPNCHC": [
+        104101
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        13
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1042,
+      "FCGKPNFCMLE": 900042,
+      "DEPJKIPACJK": "Arcade_CP_Item_1042_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_42.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1042_des",
+      "AMLHEGPNCHC": [
+        104201,
+        104202
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1043,
+      "FCGKPNFCMLE": 900043,
+      "DEPJKIPACJK": "Arcade_CP_Item_1043_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_43.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1043_des",
+      "AMLHEGPNCHC": [
+        104301,
+        104302
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        11
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1044,
+      "FCGKPNFCMLE": 900044,
+      "DEPJKIPACJK": "Arcade_CP_Item_1044_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_44.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1044_des",
+      "AMLHEGPNCHC": [
+        104402
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        14
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1045,
+      "FCGKPNFCMLE": 900045,
+      "DEPJKIPACJK": "Arcade_CP_Item_1045_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_45.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1045_des",
+      "AMLHEGPNCHC": [
+        104501,
+        104502
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        12
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1046,
+      "FCGKPNFCMLE": 900046,
+      "DEPJKIPACJK": "Arcade_CP_Item_1046_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_46.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1046_des",
+      "AMLHEGPNCHC": [
+        104601,
+        104602
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1047,
+      "FCGKPNFCMLE": 900047,
+      "DEPJKIPACJK": "Arcade_CP_Item_1047_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_47.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1047_des",
+      "AMLHEGPNCHC": [
+        104701,
+        104702
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        10
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1048,
+      "FCGKPNFCMLE": 900048,
+      "DEPJKIPACJK": "Arcade_CP_Item_1048_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_48.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1048_des",
+      "AMLHEGPNCHC": [
+        104801
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        4,
+        7,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        32
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1049,
+      "FCGKPNFCMLE": 900049,
+      "DEPJKIPACJK": "Arcade_CP_Item_1049_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_49.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1049_des",
+      "AMLHEGPNCHC": [
+        104901
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        9
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1050,
+      "FCGKPNFCMLE": 900050,
+      "DEPJKIPACJK": "Arcade_CP_Item_1050_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_50.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1050_des",
+      "AMLHEGPNCHC": [
+        105001,
+        105002
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        19
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1051,
+      "FCGKPNFCMLE": 900051,
+      "DEPJKIPACJK": "Arcade_CP_Item_1051_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_51.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1051_des",
+      "AMLHEGPNCHC": [
+        105101
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        4,
+        7,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        32
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1052,
+      "FCGKPNFCMLE": 900052,
+      "DEPJKIPACJK": "Arcade_CP_Item_1052_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_52.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1052_des",
+      "AMLHEGPNCHC": [
+        105201,
+        105202
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        4,
+        7,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        26
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1053,
+      "FCGKPNFCMLE": 900053,
+      "DEPJKIPACJK": "Arcade_CP_Item_1053_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_53.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1053_des",
+      "AMLHEGPNCHC": [
+        105301
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        10
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1054,
+      "FCGKPNFCMLE": 900054,
+      "DEPJKIPACJK": "Arcade_CP_Item_1054_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_54.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1054_des",
+      "AMLHEGPNCHC": [
+        105401
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        11
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1055,
+      "FCGKPNFCMLE": 900055,
+      "DEPJKIPACJK": "Arcade_CP_Item_1055_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_55.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1055_des",
+      "AMLHEGPNCHC": [
+        105502
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        4,
+        7,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        32
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1056,
+      "FCGKPNFCMLE": 900056,
+      "DEPJKIPACJK": "Arcade_CP_Item_1056_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_56.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1056_des",
+      "AMLHEGPNCHC": [
+        105601,
+        105602
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1057,
+      "FCGKPNFCMLE": 900057,
+      "DEPJKIPACJK": "Arcade_CP_Item_1057_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_57.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1057_des",
+      "AMLHEGPNCHC": [
+        105701
+      ],
+      "FFIMHKNJGLG": [
+        1,
+        24,
+        5,
+        24
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        10
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 1058,
+      "FCGKPNFCMLE": 900058,
+      "DEPJKIPACJK": "Arcade_CP_Item_1058_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_58.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1058_des",
+      "AMLHEGPNCHC": [
+        105801,
+        105803
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1059,
+      "FCGKPNFCMLE": 900059,
+      "DEPJKIPACJK": "Arcade_CP_Item_1059_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_59.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1059_des",
+      "AMLHEGPNCHC": [
+        105901,
+        105902
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        4,
+        7,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        32
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1060,
+      "FCGKPNFCMLE": 900060,
+      "DEPJKIPACJK": "Arcade_CP_Item_1060_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_60.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1060_des",
+      "AMLHEGPNCHC": [
+        106001,
+        106002
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        8,
+        6,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1061,
+      "FCGKPNFCMLE": 900061,
+      "DEPJKIPACJK": "Arcade_CP_Item_1061_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_61.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1061_des",
+      "AMLHEGPNCHC": [
+        106101,
+        106102
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        3,
+        8,
+        3
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        67
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1062,
+      "FCGKPNFCMLE": 900062,
+      "DEPJKIPACJK": "Arcade_CP_Item_1062_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_62.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1062_des",
+      "AMLHEGPNCHC": [
+        106201,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1063,
+      "FCGKPNFCMLE": 900063,
+      "DEPJKIPACJK": "Arcade_CP_Item_1063_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_63.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1063_des",
+      "AMLHEGPNCHC": [
+        106301,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1064,
+      "FCGKPNFCMLE": 900064,
+      "DEPJKIPACJK": "Arcade_CP_Item_1064_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_64.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1064_des",
+      "AMLHEGPNCHC": [
+        106401,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1065,
+      "FCGKPNFCMLE": 900065,
+      "DEPJKIPACJK": "Arcade_CP_Item_1065_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_65.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1065_des",
+      "AMLHEGPNCHC": [
+        106501,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1066,
+      "FCGKPNFCMLE": 900066,
+      "DEPJKIPACJK": "Arcade_CP_Item_1066_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_66.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1066_des",
+      "AMLHEGPNCHC": [
+        106601,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1067,
+      "FCGKPNFCMLE": 900067,
+      "DEPJKIPACJK": "Arcade_CP_Item_1067_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_67.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1067_des",
+      "AMLHEGPNCHC": [
+        106701,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1068,
+      "FCGKPNFCMLE": 900068,
+      "DEPJKIPACJK": "Arcade_CP_Item_1068_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_68.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1068_des",
+      "AMLHEGPNCHC": [
+        106801,
+        900701
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1069,
+      "FCGKPNFCMLE": 900069,
+      "DEPJKIPACJK": "Arcade_CP_Item_1069_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_69.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1069_des",
+      "AMLHEGPNCHC": [
+        106901,
+        106902,
+        106903,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1070,
+      "FCGKPNFCMLE": 900070,
+      "DEPJKIPACJK": "Arcade_CP_Item_1070_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_70.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1070_des",
+      "AMLHEGPNCHC": [
+        107001,
+        107002,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1071,
+      "FCGKPNFCMLE": 900071,
+      "DEPJKIPACJK": "Arcade_CP_Item_1071_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_71.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1071_des",
+      "AMLHEGPNCHC": [
+        107101,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1072,
+      "FCGKPNFCMLE": 900072,
+      "DEPJKIPACJK": "Arcade_CP_Item_1072_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_72.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1072_des",
+      "AMLHEGPNCHC": [
+        107201,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1073,
+      "FCGKPNFCMLE": 900073,
+      "DEPJKIPACJK": "Arcade_CP_Item_1073_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_73.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1073_des",
+      "AMLHEGPNCHC": [
+        107301,
+        107302,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1074,
+      "FCGKPNFCMLE": 900074,
+      "DEPJKIPACJK": "Arcade_CP_Item_1074_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_74.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1074_des",
+      "AMLHEGPNCHC": [
+        107401,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1075,
+      "FCGKPNFCMLE": 900075,
+      "DEPJKIPACJK": "Arcade_CP_Item_1075_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_75.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1075_des",
+      "AMLHEGPNCHC": [
+        107501,
+        107502,
+        900702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        8
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1076,
+      "FCGKPNFCMLE": 900076,
+      "DEPJKIPACJK": "Arcade_CP_Item_1076_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_76.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1076_des",
+      "AMLHEGPNCHC": [
+        107601,
+        107602
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        67
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1077,
+      "FCGKPNFCMLE": 900077,
+      "DEPJKIPACJK": "Arcade_CP_Item_1077_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_77.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1077_des",
+      "AMLHEGPNCHC": [
+        107701,
+        107702
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        67
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1078,
+      "FCGKPNFCMLE": 900078,
+      "DEPJKIPACJK": "Arcade_CP_Item_1078_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_78.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1078_des",
+      "AMLHEGPNCHC": [
+        101201
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        67
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1079,
+      "FCGKPNFCMLE": 900079,
+      "DEPJKIPACJK": "Arcade_CP_Item_1079_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_79.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1079_des",
+      "AMLHEGPNCHC": [
+        107901,
+        107903
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        70
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1080,
+      "FCGKPNFCMLE": 900080,
+      "DEPJKIPACJK": "Arcade_CP_Item_1080_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_80.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1080_des",
+      "AMLHEGPNCHC": [
+        108001,
+        108003
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1081,
+      "FCGKPNFCMLE": 900081,
+      "DEPJKIPACJK": "Arcade_CP_Item_1081_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_81.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1081_des",
+      "AMLHEGPNCHC": [
+        108101,
+        108102,
+        108103
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1082,
+      "FCGKPNFCMLE": 900082,
+      "DEPJKIPACJK": "Arcade_CP_Item_1082_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_82.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1082_des",
+      "AMLHEGPNCHC": [
+        108201,
+        108202
+      ],
+      "FFIMHKNJGLG": [
+        2,
+        12
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 1083,
+      "FCGKPNFCMLE": 900083,
+      "DEPJKIPACJK": "Arcade_CP_Item_1083_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_83.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1083_des",
+      "AMLHEGPNCHC": [
+        108301,
+        108302
+      ],
+      "FFIMHKNJGLG": [
+        3,
+        8
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 1084,
+      "FCGKPNFCMLE": 900084,
+      "DEPJKIPACJK": "Arcade_CP_Item_1084_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_84.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1084_des",
+      "AMLHEGPNCHC": [
+        108401
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        0
+      ],
+      "HBOAOGLHFAA": [
+        72,
+        1,
+        6000
+      ],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 1085,
+      "FCGKPNFCMLE": 900085,
+      "DEPJKIPACJK": "Arcade_CP_Item_1085_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_85.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1085_des",
+      "AMLHEGPNCHC": [
+        108501
+      ],
+      "FFIMHKNJGLG": [
+        4,
+        4
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        0
+      ],
+      "HBOAOGLHFAA": [
+        73,
+        1,
+        6000
+      ],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3001,
+      "FCGKPNFCMLE": 900001,
+      "DEPJKIPACJK": "Arcade_CP_Item_1001_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_1.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1001_des",
+      "AMLHEGPNCHC": [
+        100101
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3002,
+      "FCGKPNFCMLE": 900002,
+      "DEPJKIPACJK": "Arcade_CP_Item_1002_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_2.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1002_des",
+      "AMLHEGPNCHC": [
+        100201,
+        100202
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3003,
+      "FCGKPNFCMLE": 900003,
+      "DEPJKIPACJK": "Arcade_CP_Item_1003_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_3.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1003_des",
+      "AMLHEGPNCHC": [
+        100303,
+        100301,
+        100302
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3004,
+      "FCGKPNFCMLE": 900004,
+      "DEPJKIPACJK": "Arcade_CP_Item_1004_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_4.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1004_des",
+      "AMLHEGPNCHC": [
+        100401,
+        100402
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 3005,
+      "FCGKPNFCMLE": 900005,
+      "DEPJKIPACJK": "Arcade_CP_Item_1005_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_5.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1005_des",
+      "AMLHEGPNCHC": [
+        100501
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3006,
+      "FCGKPNFCMLE": 900006,
+      "DEPJKIPACJK": "Arcade_CP_Item_1006_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_6.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1006_des",
+      "AMLHEGPNCHC": [
+        100603,
+        100601,
+        100602
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3007,
+      "FCGKPNFCMLE": 900007,
+      "DEPJKIPACJK": "Arcade_CP_Item_1007_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_7.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1007_des",
+      "AMLHEGPNCHC": [
+        100701
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3008,
+      "FCGKPNFCMLE": 900008,
+      "DEPJKIPACJK": "Arcade_CP_Item_1008_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_8.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1008_des",
+      "AMLHEGPNCHC": [
+        100801,
+        100802
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 3009,
+      "FCGKPNFCMLE": 900009,
+      "DEPJKIPACJK": "Arcade_CP_Item_1009_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_9.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1009_des",
+      "AMLHEGPNCHC": [
+        100903,
+        100901,
+        100902
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3010,
+      "FCGKPNFCMLE": 900010,
+      "DEPJKIPACJK": "Arcade_CP_Item_1010_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_10.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1010_des",
+      "AMLHEGPNCHC": [
+        101001,
+        101002
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3011,
+      "FCGKPNFCMLE": 900011,
+      "DEPJKIPACJK": "Arcade_CP_Item_1011_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_11.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1011_des",
+      "AMLHEGPNCHC": [
+        101101,
+        101102
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3012,
+      "FCGKPNFCMLE": 900012,
+      "DEPJKIPACJK": "Arcade_CP_Item_1012_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_12.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1012_des",
+      "AMLHEGPNCHC": [
+        107801,
+        107802
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        11
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3013,
+      "FCGKPNFCMLE": 900013,
+      "DEPJKIPACJK": "Arcade_CP_Item_1013_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_13.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1013_des",
+      "AMLHEGPNCHC": [
+        101301,
+        101302
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3014,
+      "FCGKPNFCMLE": 900014,
+      "DEPJKIPACJK": "Arcade_CP_Item_1014_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_14.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1014_des",
+      "AMLHEGPNCHC": [
+        101401,
+        101402
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3015,
+      "FCGKPNFCMLE": 900015,
+      "DEPJKIPACJK": "Arcade_CP_Item_1015_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_15.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1015_des",
+      "AMLHEGPNCHC": [
+        101501,
+        101502
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3016,
+      "FCGKPNFCMLE": 900033,
+      "DEPJKIPACJK": "Arcade_CP_Item_1016_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_33.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1016_des",
+      "AMLHEGPNCHC": [
+        101601,
+        101602
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3017,
+      "FCGKPNFCMLE": 900017,
+      "DEPJKIPACJK": "Arcade_CP_Item_1017_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_17.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1017_des",
+      "AMLHEGPNCHC": [
+        101704,
+        101701,
+        101702,
+        101703
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3018,
+      "FCGKPNFCMLE": 900018,
+      "DEPJKIPACJK": "Arcade_CP_Item_1018_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_18.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1018_des",
+      "AMLHEGPNCHC": [
+        101801,
+        101802
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3019,
+      "FCGKPNFCMLE": 900019,
+      "DEPJKIPACJK": "Arcade_CP_Item_1019_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_19.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1019_des",
+      "AMLHEGPNCHC": [
+        101901,
+        101902,
+        101902,
+        101902,
+        101902,
+        101902
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 5,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3020,
+      "FCGKPNFCMLE": 900020,
+      "DEPJKIPACJK": "Arcade_CP_Item_1020_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_20.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1020_des",
+      "AMLHEGPNCHC": [
+        102001,
+        102002,
+        102003
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3021,
+      "FCGKPNFCMLE": 900021,
+      "DEPJKIPACJK": "Arcade_CP_Item_1021_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_21.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1021_des",
+      "AMLHEGPNCHC": [
+        102101,
+        102102
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3022,
+      "FCGKPNFCMLE": 900022,
+      "DEPJKIPACJK": "Arcade_CP_Item_1022_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_22.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1022_des",
+      "AMLHEGPNCHC": [
+        102201,
+        102202
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3023,
+      "FCGKPNFCMLE": 900023,
+      "DEPJKIPACJK": "Arcade_CP_Item_1023_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_23.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1023_des",
+      "AMLHEGPNCHC": [
+        102301,
+        102302,
+        102303
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3024,
+      "FCGKPNFCMLE": 900024,
+      "DEPJKIPACJK": "Arcade_CP_Item_1024_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_24.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1024_des",
+      "AMLHEGPNCHC": [
+        102401,
+        102402
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3025,
+      "FCGKPNFCMLE": 900025,
+      "DEPJKIPACJK": "Arcade_CP_Item_1025_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_25.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1025_des",
+      "AMLHEGPNCHC": [
+        102501,
+        102502,
+        102503
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3026,
+      "FCGKPNFCMLE": 900026,
+      "DEPJKIPACJK": "Arcade_CP_Item_1026_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_26.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1026_des",
+      "AMLHEGPNCHC": [
+        102601,
+        102602
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3027,
+      "FCGKPNFCMLE": 900027,
+      "DEPJKIPACJK": "Arcade_CP_Item_1027_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_27.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1027_des",
+      "AMLHEGPNCHC": [
+        102701,
+        102702
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3028,
+      "FCGKPNFCMLE": 900028,
+      "DEPJKIPACJK": "Arcade_CP_Item_1028_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_28.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1028_des",
+      "AMLHEGPNCHC": [
+        102801,
+        102802
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        1,
+        1002,
+        1
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3029,
+      "FCGKPNFCMLE": 900029,
+      "DEPJKIPACJK": "Arcade_CP_Item_1029_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_29.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1029_des",
+      "AMLHEGPNCHC": [
+        102901,
+        102902
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3030,
+      "FCGKPNFCMLE": 900030,
+      "DEPJKIPACJK": "Arcade_CP_Item_1030_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_30.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1030_des",
+      "AMLHEGPNCHC": [
+        103001,
+        103002
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 2,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 3031,
+      "FCGKPNFCMLE": 900031,
+      "DEPJKIPACJK": "Arcade_CP_Item_1031_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_31.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1031_des",
+      "AMLHEGPNCHC": [
+        103101,
+        103102
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3032,
+      "FCGKPNFCMLE": 900032,
+      "DEPJKIPACJK": "Arcade_CP_Item_1032_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_32.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1032_des",
+      "AMLHEGPNCHC": [
+        103201
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3033,
+      "FCGKPNFCMLE": 900016,
+      "DEPJKIPACJK": "Arcade_CP_Item_1033_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_16.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1033_des",
+      "AMLHEGPNCHC": [
+        103301,
+        103302
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3034,
+      "FCGKPNFCMLE": 900034,
+      "DEPJKIPACJK": "Arcade_CP_Item_1034_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_34.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1034_des",
+      "AMLHEGPNCHC": [
+        103401,
+        103402
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3035,
+      "FCGKPNFCMLE": 900035,
+      "DEPJKIPACJK": "Arcade_CP_Item_1035_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_35.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1035_des",
+      "AMLHEGPNCHC": [
+        103501,
+        103502
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        6
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3036,
+      "FCGKPNFCMLE": 900036,
+      "DEPJKIPACJK": "Arcade_CP_Item_1036_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_36.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1036_des",
+      "AMLHEGPNCHC": [
+        103601,
+        103602
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3037,
+      "FCGKPNFCMLE": 900037,
+      "DEPJKIPACJK": "Arcade_CP_Item_1037_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_37.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1037_des",
+      "AMLHEGPNCHC": [
+        103701,
+        103702
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        10
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 3038,
+      "FCGKPNFCMLE": 900038,
+      "DEPJKIPACJK": "Arcade_CP_Item_1038_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_38.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1038_des",
+      "AMLHEGPNCHC": [
+        103801,
+        103802
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 3039,
+      "FCGKPNFCMLE": 900039,
+      "DEPJKIPACJK": "Arcade_CP_Item_1039_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_39.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1039_des",
+      "AMLHEGPNCHC": [
+        103901
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 3040,
+      "FCGKPNFCMLE": 900040,
+      "DEPJKIPACJK": "Arcade_CP_Item_1040_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_40.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1040_des",
+      "AMLHEGPNCHC": [
+        104001
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        5,
+        3
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    },
+    {
+      "DKDDFEIAMIF": 5001,
+      "FCGKPNFCMLE": 100701,
+      "DEPJKIPACJK": "Arcade_CP_Companion_201_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion33.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_201_des",
+      "AMLHEGPNCHC": [
+        15002010,
+        15002011
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        12
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5002,
+      "FCGKPNFCMLE": 100301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_301_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion27.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_301_des",
+      "AMLHEGPNCHC": [
+        15003010
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        13
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5003,
+      "FCGKPNFCMLE": 100401,
+      "DEPJKIPACJK": "Arcade_CP_Companion_401_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion17.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_401_des",
+      "AMLHEGPNCHC": [
+        15004010
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        14
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5004,
+      "FCGKPNFCMLE": 100501,
+      "DEPJKIPACJK": "Arcade_CP_Companion_501_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion19.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_501_des",
+      "AMLHEGPNCHC": [
+        15005010,
+        15005011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        15
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5005,
+      "FCGKPNFCMLE": 100801,
+      "DEPJKIPACJK": "Arcade_CP_Companion_601_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion31.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_601_des",
+      "AMLHEGPNCHC": [
+        15006010
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        16
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5006,
+      "FCGKPNFCMLE": 101301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_701_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion37.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_701_des",
+      "AMLHEGPNCHC": [
+        15007010,
+        15007011,
+        15007013
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        17
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5007,
+      "FCGKPNFCMLE": 101501,
+      "DEPJKIPACJK": "Arcade_CP_Companion_801_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion35.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_801_des",
+      "AMLHEGPNCHC": [
+        15008010,
+        15008012
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        12
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5008,
+      "FCGKPNFCMLE": 101601,
+      "DEPJKIPACJK": "Arcade_CP_Companion_901_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion29.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_901_des",
+      "AMLHEGPNCHC": [
+        15009010
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        35
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5009,
+      "FCGKPNFCMLE": 101901,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1001_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion25.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1001_des",
+      "AMLHEGPNCHC": [
+        15010010
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5010,
+      "FCGKPNFCMLE": 102101,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1101_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion23.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1101_des",
+      "AMLHEGPNCHC": [
+        15011010,
+        15011011
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        52
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5011,
+      "FCGKPNFCMLE": 102301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1201_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion21.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1201_des",
+      "AMLHEGPNCHC": [
+        15012010,
+        15012011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        16
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5012,
+      "FCGKPNFCMLE": 102601,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1301_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion13.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1301_des",
+      "AMLHEGPNCHC": [
+        15013010,
+        15013011
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        17
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5013,
+      "FCGKPNFCMLE": 102801,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1401_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion11.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1401_des",
+      "AMLHEGPNCHC": [
+        15014010,
+        15014011
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        50
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5014,
+      "FCGKPNFCMLE": 102901,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1501_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion9.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1501_des",
+      "AMLHEGPNCHC": [
+        15015010,
+        15015011
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        13
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5015,
+      "FCGKPNFCMLE": 103101,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1601_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion3.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1601_des",
+      "AMLHEGPNCHC": [
+        15016010,
+        15016011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5016,
+      "FCGKPNFCMLE": 103301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1701_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion5.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1701_des",
+      "AMLHEGPNCHC": [
+        15017010,
+        15017011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        19
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5017,
+      "FCGKPNFCMLE": 103601,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1801_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion7.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1801_des",
+      "AMLHEGPNCHC": [
+        15018010,
+        15018011
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 1,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5018,
+      "FCGKPNFCMLE": 103801,
+      "DEPJKIPACJK": "Arcade_CP_Companion_1901_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion39.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_1901_des",
+      "AMLHEGPNCHC": [
+        15019010,
+        15019011
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5019,
+      "FCGKPNFCMLE": 103901,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2001_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion47.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2001_des",
+      "AMLHEGPNCHC": [
+        15020010,
+        15020012
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5020,
+      "FCGKPNFCMLE": 104101,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2101_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion44.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2101_des",
+      "AMLHEGPNCHC": [
+        15021010,
+        15021011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5021,
+      "FCGKPNFCMLE": 104301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2201_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion45.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2201_des",
+      "AMLHEGPNCHC": [
+        15022010,
+        15022011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        19
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5022,
+      "FCGKPNFCMLE": 104601,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2301_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion42.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2301_des",
+      "AMLHEGPNCHC": [
+        15023010,
+        15023012
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5023,
+      "FCGKPNFCMLE": 104801,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2401_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion55.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2401_des",
+      "AMLHEGPNCHC": [
+        15024010,
+        15024011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5024,
+      "FCGKPNFCMLE": 105001,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2501_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion53.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2501_des",
+      "AMLHEGPNCHC": [
+        15025010
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        22
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5025,
+      "FCGKPNFCMLE": 105201,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2601_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion48.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2601_des",
+      "AMLHEGPNCHC": [
+        15026010
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5026,
+      "FCGKPNFCMLE": 105401,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2701_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion51.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2701_des",
+      "AMLHEGPNCHC": [
+        15027010,
+        15027011
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        19
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5027,
+      "FCGKPNFCMLE": 105701,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2801_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion57.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2801_des",
+      "AMLHEGPNCHC": [
+        15028011,
+        15028012
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5028,
+      "FCGKPNFCMLE": 105801,
+      "DEPJKIPACJK": "Arcade_CP_Companion_2901_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion61.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_2901_des",
+      "AMLHEGPNCHC": [],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        21
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5029,
+      "FCGKPNFCMLE": 106101,
+      "DEPJKIPACJK": "Arcade_CP_Companion_3001_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion59.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_3001_des",
+      "AMLHEGPNCHC": [
+        15030010
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        18
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5030,
+      "FCGKPNFCMLE": 106301,
+      "DEPJKIPACJK": "Arcade_CP_Companion_3101_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion63.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_3101_des",
+      "AMLHEGPNCHC": [
+        15031010
+      ],
+      "FFIMHKNJGLG": [
+        11,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        19
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5031,
+      "FCGKPNFCMLE": 106401,
+      "DEPJKIPACJK": "Arcade_CP_Companion_3201_name",
+      "DBKGODAFDCP": "UnPacker/Companion/Companion15.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Companion_3201_des",
+      "AMLHEGPNCHC": [
+        15032010,
+        15032011
+      ],
+      "FFIMHKNJGLG": [
+        10,
+        10
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        20
+      ],
+      "HBOAOGLHFAA": [
+        69,
+        1,
+        1
+      ],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5041,
+      "FCGKPNFCMLE": 900041,
+      "DEPJKIPACJK": "Arcade_CP_Item_1041_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_41.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1041_des",
+      "AMLHEGPNCHC": [
+        104101
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5042,
+      "FCGKPNFCMLE": 900042,
+      "DEPJKIPACJK": "Arcade_CP_Item_1042_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_42.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1042_des",
+      "AMLHEGPNCHC": [
+        104201,
+        104202
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5043,
+      "FCGKPNFCMLE": 900043,
+      "DEPJKIPACJK": "Arcade_CP_Item_1043_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_43.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1043_des",
+      "AMLHEGPNCHC": [
+        104301,
+        104302
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5044,
+      "FCGKPNFCMLE": 900044,
+      "DEPJKIPACJK": "Arcade_CP_Item_1044_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_44.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1044_des",
+      "AMLHEGPNCHC": [
+        104402
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5045,
+      "FCGKPNFCMLE": 900045,
+      "DEPJKIPACJK": "Arcade_CP_Item_1045_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_45.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1045_des",
+      "AMLHEGPNCHC": [
+        104501,
+        104502
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5046,
+      "FCGKPNFCMLE": 900046,
+      "DEPJKIPACJK": "Arcade_CP_Item_1046_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_46.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1046_des",
+      "AMLHEGPNCHC": [
+        104601,
+        104602
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 3,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5047,
+      "FCGKPNFCMLE": 900047,
+      "DEPJKIPACJK": "Arcade_CP_Item_1047_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_47.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1047_des",
+      "AMLHEGPNCHC": [
+        104701,
+        104702
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5048,
+      "FCGKPNFCMLE": 900048,
+      "DEPJKIPACJK": "Arcade_CP_Item_1048_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_48.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1048_des",
+      "AMLHEGPNCHC": [
+        104801
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5049,
+      "FCGKPNFCMLE": 900049,
+      "DEPJKIPACJK": "Arcade_CP_Item_1049_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_49.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1049_des",
+      "AMLHEGPNCHC": [
+        104901
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5050,
+      "FCGKPNFCMLE": 900050,
+      "DEPJKIPACJK": "Arcade_CP_Item_1050_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_50.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1050_des",
+      "AMLHEGPNCHC": [
+        105001,
+        105002
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5051,
+      "FCGKPNFCMLE": 900051,
+      "DEPJKIPACJK": "Arcade_CP_Item_1051_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_51.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1051_des",
+      "AMLHEGPNCHC": [
+        105101
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5052,
+      "FCGKPNFCMLE": 900052,
+      "DEPJKIPACJK": "Arcade_CP_Item_1052_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_52.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1052_des",
+      "AMLHEGPNCHC": [
+        105201,
+        105202
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5053,
+      "FCGKPNFCMLE": 900053,
+      "DEPJKIPACJK": "Arcade_CP_Item_1053_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_53.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1053_des",
+      "AMLHEGPNCHC": [
+        105301
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5054,
+      "FCGKPNFCMLE": 900054,
+      "DEPJKIPACJK": "Arcade_CP_Item_1054_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_54.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1054_des",
+      "AMLHEGPNCHC": [
+        105401
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5055,
+      "FCGKPNFCMLE": 900055,
+      "DEPJKIPACJK": "Arcade_CP_Item_1055_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_55.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1055_des",
+      "AMLHEGPNCHC": [
+        105502
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5056,
+      "FCGKPNFCMLE": 900056,
+      "DEPJKIPACJK": "Arcade_CP_Item_1056_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_56.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1056_des",
+      "AMLHEGPNCHC": [
+        105601,
+        105602
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5057,
+      "FCGKPNFCMLE": 900057,
+      "DEPJKIPACJK": "Arcade_CP_Item_1057_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_57.png",
+      "PLODHLIDFNM": 1,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        0
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1057_des",
+      "AMLHEGPNCHC": [
+        105701
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 500
+    },
+    {
+      "DKDDFEIAMIF": 5058,
+      "FCGKPNFCMLE": 900058,
+      "DEPJKIPACJK": "Arcade_CP_Item_1058_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_58.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1058_des",
+      "AMLHEGPNCHC": [
+        105801,
+        105803
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5059,
+      "FCGKPNFCMLE": 900059,
+      "DEPJKIPACJK": "Arcade_CP_Item_1059_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_59.png",
+      "PLODHLIDFNM": 3,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        46
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1059_des",
+      "AMLHEGPNCHC": [
+        105901,
+        105902
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        5,
+        1002,
+        400
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        3,
+        1
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 5000
+    },
+    {
+      "DKDDFEIAMIF": 5060,
+      "FCGKPNFCMLE": 900060,
+      "DEPJKIPACJK": "Arcade_CP_Item_1060_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_60.png",
+      "PLODHLIDFNM": 2,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        45
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1060_des",
+      "AMLHEGPNCHC": [
+        106001,
+        106002
+      ],
+      "FFIMHKNJGLG": [
+        99999,
+        0
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        1,
+        0
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 1500
+    },
+    {
+      "DKDDFEIAMIF": 5061,
+      "FCGKPNFCMLE": 900061,
+      "DEPJKIPACJK": "Arcade_CP_Item_1061_name",
+      "DBKGODAFDCP": "UnPacker/Item/item_61.png",
+      "PLODHLIDFNM": 4,
+      "FHALFPAELKD": [
+        44
+      ],
+      "BENLNNDLMNO": [
+        47
+      ],
+      "HEGHNPFDFDN": "Arcade_CP_Item_1061_des",
+      "AMLHEGPNCHC": [
+        106101,
+        106102
+      ],
+      "FFIMHKNJGLG": [
+        1001,
+        2,
+        1002,
+        100
+      ],
+      "CLNFANCKEOK": 16,
+      "DNLJGPFBJCN": [
+        5,
+        9
+      ],
+      "HBOAOGLHFAA": [],
+      "OOCMBPIEBLG": 15000
+    }
+  ]
 }

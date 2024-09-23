@@ -1,0 +1,45 @@
+{
+  "$type": "CHollowPluginCollectionConfig",
+  "CollectionName": "plugin_OuterRing_UpGround",
+  "Plugin": [
+    {
+      "$type": "COverwriteGridStateTextureConfig",
+      "FinishTextureOverride": {
+        "TextureList": {
+          "EventIcon_OuterRing_Floor_UpGround_1": {
+          },
+          "EventIcon_OuterRing_Floor_UpGround_2": {
+          }
+        }
+      },
+      "PathTextureOverride": {
+        "TextureList": {
+          "EventIcon_OuterRing_Floor_UpGround_1": {
+          },
+          "EventIcon_OuterRing_Floor_UpGround_2": {
+          }
+        }
+      },
+      "SpecifiedEventTextureOverride": [
+        {
+          "$type": "COverwriteEventTextureConfig",
+          "SpecifiedEventIDList": [
+            1030547,
+            1030364,
+            1030365,
+            1030807
+          ],
+          "TextureList": [
+            "EventIcon_InnerPath_01",
+            "EventIcon_InnerPath_02",
+            "EventIcon_InnerPath_03"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CChessboardAtmosphere",
+      "key": "Chapter04_OuterRing_Common"
+    }
+  ]
+}

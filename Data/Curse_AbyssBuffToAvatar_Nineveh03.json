@@ -1,0 +1,16 @@
+{
+  "AbilityName": "Curse_AbyssBuffToAvatar_Nineveh03",
+  "AbilitySpecials": {
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnTeamAvatarConstructed": [
+      {
+        "$type": "ApplyAbilityAction",
+        "AbilityName": "Curse_Nineveh_HotBuff_03",
+        "IsAutoTrigger": false,
+        "Target": "TeamAvatars"
+      }
+    ]
+  }
+}

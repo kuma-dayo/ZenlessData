@@ -20,20 +20,20 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": 0,
+                "y": 0,
                 "z": 1.5
               },
               "RandomPositionRange": {
                 "x": 1.5,
-                "y": 0.0,
-                "z": 0.0
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -50,14 +50,14 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": 3,
-                "y": 0.0,
+                "y": 0,
                 "z": 2
               }
             },
@@ -75,14 +75,14 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": -3,
-                "y": 0.0,
+                "y": 0,
                 "z": 2
               }
             },
@@ -100,20 +100,20 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 6.0
+                "x": 0,
+                "y": 0,
+                "z": 6
               },
               "RandomPositionRange": {
-                "x": 3.0,
-                "y": 0.0,
-                "z": 1.0
+                "x": 3,
+                "y": 0,
+                "z": 1
               }
             },
             "TargetOption": {
@@ -130,20 +130,20 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 6.0
+                "x": 0,
+                "y": 0,
+                "z": 6
               },
               "RandomPositionRange": {
-                "x": 3.0,
-                "y": 0.0,
-                "z": 1.0
+                "x": 3,
+                "y": 0,
+                "z": 1
               }
             },
             "TargetOption": {
@@ -160,20 +160,20 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 4.0
+                "x": 0,
+                "y": 0,
+                "z": 4
               },
               "RandomPositionRange": {
-                "x": 5.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 5,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -192,20 +192,20 @@
             "CoordsOption": "Camera",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": 0,
+                "y": 0,
                 "z": 1.5
               },
               "RandomPositionRange": {
                 "x": 1.5,
-                "y": 0.0,
-                "z": 0.0
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -222,14 +222,14 @@
             "CoordsOption": "Camera",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": 3,
-                "y": 0.0,
+                "y": 0,
                 "z": 2
               }
             },
@@ -247,14 +247,14 @@
             "CoordsOption": "Camera",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": -3,
-                "y": 0.0,
+                "y": 0,
                 "z": 2
               }
             },
@@ -272,20 +272,20 @@
             "CoordsOption": "Camera",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 6.0
+                "x": 0,
+                "y": 0,
+                "z": 6
               },
               "RandomPositionRange": {
-                "x": 3.0,
-                "y": 0.0,
-                "z": 1.0
+                "x": 3,
+                "y": 0,
+                "z": 1
               }
             },
             "TargetOption": {
@@ -302,20 +302,20 @@
             "CoordsOption": "Target",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 6.0
+                "x": 0,
+                "y": 0,
+                "z": 6
               },
               "RandomPositionRange": {
-                "x": 3.0,
-                "y": 0.0,
-                "z": 1.0
+                "x": 3,
+                "y": 0,
+                "z": 1
               }
             },
             "TargetOption": {
@@ -332,20 +332,20 @@
             "CoordsOption": "Camera",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 4.0
+                "x": 0,
+                "y": 0,
+                "z": 4
               },
               "RandomPositionRange": {
-                "x": 5.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 5,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

@@ -15,12 +15,12 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "DefaultOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 5.0
+              "x": 0,
+              "y": 0,
+              "z": 5
             },
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -36,20 +36,20 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 1.0,
-                  "y": 0.0,
+                  "x": 1,
+                  "y": 0,
                   "z": 0.5
                 },
                 "RandomPositionRange": {
-                  "x": 2.0,
-                  "y": 0.0,
-                  "z": 2.0
+                  "x": 2,
+                  "y": 0,
+                  "z": 2
                 }
               },
               "TargetOption": {
@@ -70,14 +70,14 @@
               "CoordsOption": "Camera",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 9999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 9999
                 }
               },
               "TargetOption": {
@@ -104,12 +104,12 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "DefaultOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 5.0
+              "x": 0,
+              "y": 0,
+              "z": 5
             },
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -125,14 +125,14 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 1.0,
-                  "y": 0.0,
+                  "x": 1,
+                  "y": 0,
                   "z": 0.5
                 }
               },
@@ -154,14 +154,14 @@
               "CoordsOption": "Camera",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 9999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 9999
                 }
               },
               "TargetOption": {

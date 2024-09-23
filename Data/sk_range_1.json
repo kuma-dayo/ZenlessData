@@ -10,7 +10,7 @@
             "keys": [
               {
                 "inTangent": -1.45248735,
-                "inWeight": 0.0,
+                "inWeight": 0,
                 "outTangent": -1.45248735,
                 "outWeight": 0.333333343,
                 "tangentMode": 34,
@@ -35,7 +35,7 @@
                 "outWeight": 0.333333343,
                 "tangentMode": 34,
                 "time": 0.590163648,
-                "value": 1.0,
+                "value": 1,
                 "weightedMode": 0
               },
               {
@@ -52,7 +52,7 @@
                 "inTangent": -0.256902456,
                 "inWeight": 0.333333343,
                 "outTangent": -0.256902456,
-                "outWeight": 0.0,
+                "outWeight": 0,
                 "tangentMode": 34,
                 "time": 0.9985962,
                 "value": 0.000247955322,
@@ -75,9 +75,9 @@
       "idx": 542308352,
       "moveType": 1,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -94,7 +94,7 @@
         "keys": [
           {
             "inTangent": -41.8081131,
-            "inWeight": 0.0,
+            "inWeight": 0,
             "outTangent": -41.8081131,
             "outWeight": 0.333333343,
             "tangentMode": 34,
@@ -176,7 +176,7 @@
             "inTangent": 17.5674953,
             "inWeight": 0.333333343,
             "outTangent": 17.5674953,
-            "outWeight": 0.0,
+            "outWeight": 0,
             "tangentMode": 34,
             "time": 0.99705565,
             "value": -0.005051587,
@@ -191,9 +191,9 @@
       "endFrame": 24,
       "idx": 1081232512,
       "speedEuler": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": -10.0
+        "x": 0,
+        "y": 0,
+        "z": -10
       },
       "speedParam": {
         "param1": 11,
@@ -207,26 +207,26 @@
       "brakeDestroy": false,
       "bullet": 0,
       "effectType": 5,
-      "endFrame": 9,
+      "endFrame": 10,
       "idx": 233591296,
-      "startFrame": 8,
+      "startFrame": 9,
       "trackOrder": 2
     }
   ],
   "backFrame": 0,
   "clipPath": "",
   "frameCount": 25,
-  "frameRate": 31,
+  "frameRate": 55,
   "loop": false,
-  "modelPath": "Assets/NapResources/UI/Animation/Arcade/Game/Companion/CP_weapon_prefab.prefab",
+  "modelPath": "Assets\/NapResources\/UI\/Animation\/Arcade\/Game\/Companion\/CP_weapon_prefab.prefab",
   "partLoop": false,
   "seqName": "sk_range_1",
   "speedParams": {
     "param1": 44,
     "param2": 1000
   },
-  "topSpeed": 99.0,
-  "totalTime": 0.8064516,
+  "topSpeed": 99,
+  "totalTime": 0.454545468,
   "trackArray": [
     {
       "order": 0,

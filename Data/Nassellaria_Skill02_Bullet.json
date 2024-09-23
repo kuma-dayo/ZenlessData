@@ -5,14 +5,14 @@
       "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.75
@@ -25,9 +25,9 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
@@ -52,13 +52,13 @@
         "CapsuleColliderHeight": 3,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 1.5
         },
         "ColliderType": "Capsule"
@@ -86,14 +86,14 @@
         "$type": "ConfigMovementAutoParabola",
         "Accelerated": -10,
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 12.0
+          "x": 0,
+          "y": 0,
+          "z": 12
         },
         "DefaultRotAngle": 0,
         "Duration": -1,
         "ExpectSpeed": 10,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.5,
         "MaxAngle": 50,
@@ -105,24 +105,24 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 12.0
+              "x": 0,
+              "y": 0,
+              "z": 12
             },
             "PositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 0.8,
-              "z": 0.0
+              "z": 0
             }
           },
           "TargetOption": {

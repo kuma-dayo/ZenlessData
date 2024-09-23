@@ -2,10 +2,10 @@
   "AbilityName": "Card_DailyUse_1005001",
   "AbilitySpecials": {
     "NewAS_IceAccumulationRatio_Elite": {
-      "Value": 2.0
+      "Value": 2
     },
     "NewAS_IceAccumulationRatio_Normal": {
-      "Value": 3.0
+      "Value": 3
     }
   },
   "AbilityStacking": "Unique",

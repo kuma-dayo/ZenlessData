@@ -3,13 +3,13 @@
   "EventGraph": {
     "EditorOnlyData": {
       "Event": {
-        "OnAttach": {
-          "x": 287.879,
-          "y": 258.8544
-        },
-        "OnStart": {
+        "OnAbilityTrigger": {
           "x": 260,
           "y": 782
+        },
+        "OnAdded": {
+          "x": 287.879,
+          "y": 258.8544
         }
       },
       "Graph": {
@@ -107,15 +107,17 @@
       ]
     },
     "EventMap": {
-      "OnAttach": {
-        "$type": "ConfigAbilityGraphEvent",
-        "EventNodeBind": 1,
-        "ParametersBind": []
-      },
-      "OnStart": {
+      "OnAbilityTrigger": {
         "$type": "ConfigAbilityGraphEvent",
         "EventNodeBind": 8,
-        "ParametersBind": []
+        "ParametersBind": [
+        ]
+      },
+      "OnAdded": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 1,
+        "ParametersBind": [
+        ]
       }
     },
     "NodeList": [
@@ -129,7 +131,8 @@
         "Key": {
           "DefaultValue": "Eff_Treasure_Open"
         },
-        "PositionOffset": {},
+        "PositionOffset": {
+        },
         "PreActionBind": [
           2,
           15
@@ -219,7 +222,8 @@
         ],
         "PropID": {
           "$type": "ConfigOutputValue",
-          "BindId": []
+          "BindId": [
+          ]
         },
         "Rotation": {
           "$type": "ConfigInputValue",
@@ -331,7 +335,8 @@
           ]
         },
         "DefaultOutBind": 17,
-        "PreActionBind": [],
+        "PreActionBind": [
+        ],
         "TargetProp": {
           "$type": "ConfigInputValue",
           "BindId": 0
@@ -347,7 +352,8 @@
         "Key": {
           "DefaultValue": "Eff_Treasure_Open"
         },
-        "PositionOffset": {},
+        "PositionOffset": {
+        },
         "PreActionBind": [
           18
         ],
@@ -410,25 +416,28 @@
             1011
           ]
         },
-        "X": {},
-        "Y": {},
+        "X": {
+        },
+        "Y": {
+        },
         "Z": {
           "DefaultValue": 5
         }
       }
     ],
-    "VariableRegisterList": []
+    "VariableRegisterList": [
+    ]
   },
-  "OnAbilityStart": [
+  "OnAbilityTrigger": [
     {
       "$type": "CallGraphEvent",
-      "EventName": "OnStart"
+      "EventName": "OnAbilityTrigger"
     }
   ],
   "OnAdded": [
     {
       "$type": "CallGraphEvent",
-      "EventName": "OnAttach"
+      "EventName": "OnAdded"
     }
   ]
 }

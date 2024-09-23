@@ -5,17 +5,17 @@
       "AliveDuration": 8,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
-        "SphereColliderRadius": 1.0
+        "SphereColliderRadius": 1
       },
       "BulletEffect": {
         "EffectPattern": "Eff_Bangboo_Avocaboo_Bullet_Ground_Exploded"
@@ -26,16 +26,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": false,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "RaycastGroundOffset": 0.1,
@@ -52,7 +52,7 @@
       },
       "ExplodePosType": "Bullet",
       "HitExplodeRadius": 3,
-      "HitInterval": 0.0,
+      "HitInterval": 0,
       "HitOtherExplode": true,
       "HitStageExplode": false,
       "IsCanReflect": false,

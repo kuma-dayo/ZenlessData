@@ -7,14 +7,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -26,16 +26,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -90,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -92,14 +92,14 @@
           "CoordsOption": "Self",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -121,14 +121,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -140,16 +140,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -90,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -206,14 +206,14 @@
           "CoordsOption": "Self",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -235,14 +235,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -254,16 +254,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -90,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -320,14 +320,14 @@
           "CoordsOption": "Self",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -371,14 +371,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -396,14 +396,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -421,14 +421,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -448,14 +448,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -471,13 +471,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 120.0,
-                "z": 0.0
+                "x": 0,
+                "y": 120,
+                "z": 0
               },
               "PositionOffset": {
                 "x": 4.33,
-                "y": 0.0,
+                "y": 0,
                 "z": 2.5
               }
             },
@@ -494,13 +494,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 180.0,
-                "z": 0.0
+                "x": 0,
+                "y": 180,
+                "z": 0
               },
               "PositionOffset": {
                 "x": 4.33,
-                "y": 0.0,
+                "y": 0,
                 "z": -2.5
               }
             },

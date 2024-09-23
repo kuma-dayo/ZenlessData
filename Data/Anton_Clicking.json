@@ -21,57 +21,57 @@
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_Enhance_03",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_Enhance_03_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_Enhance_04",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_Enhance_03_Loop",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_Enhance_04_Loop",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Counter_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_BeHitAid_Enhance",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_AssaultAid_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         }
                       ],
                       "Target": "Self"

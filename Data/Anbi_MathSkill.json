@@ -2,10 +2,10 @@
   "AbilityName": "Anbi_MathSkill",
   "AbilitySpecials": {
     "AS_SpRecoverFinal": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_SpRecover_CD": {
-      "Value": 5.0
+      "Value": 5
     }
   },
   "AbilityStacking": "Unique",

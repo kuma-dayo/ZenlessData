@@ -2,7 +2,7 @@
   "AbilityName": "Lisa_MathSkill",
   "AbilitySpecials": {
     "AS_PairACount": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

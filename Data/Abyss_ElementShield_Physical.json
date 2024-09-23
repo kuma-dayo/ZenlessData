@@ -65,7 +65,7 @@
           "IfTakeRestDamageWhenEmpty": true,
           "Priority": 0,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "Tag": "FollowerHyperShield",
           "TotalValueConfig": {
             "Amount": 0,

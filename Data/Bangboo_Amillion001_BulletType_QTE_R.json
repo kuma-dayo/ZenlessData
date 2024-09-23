@@ -5,14 +5,14 @@
       "AliveDuration": 5,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.1
@@ -25,26 +25,26 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "RandomAngleRange": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "RandomPositionRange": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -73,14 +73,14 @@
         "EffectPattern": "Eff_Bangboo_Amillion001_SwitchIn_Attack_05_Exploded"
       },
       "HitWallEffectScaleMax": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "HitWallEffectScaleMin": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "HitWallNormalType": "ReverseHitNormal",
       "IsCanReflect": false,
@@ -97,7 +97,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -122,14 +122,14 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
               "x": 0.2,
-              "y": 0.0,
-              "z": 0.0
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

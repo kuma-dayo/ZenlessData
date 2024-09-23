@@ -19,16 +19,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 130.0,
-            "z": 0.0
+            "x": 0,
+            "y": 130,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
             "x": -1.7,
-            "y": 0.0,
+            "y": 0,
             "z": 0.6
           }
         },

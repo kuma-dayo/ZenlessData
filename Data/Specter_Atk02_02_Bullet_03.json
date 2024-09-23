@@ -4,16 +4,16 @@
       "$type": "BulletMixin",
       "AliveDuration": 4,
       "BulletColliderConfig": {
-        "CapsuleColliderHeight": 1.0,
+        "CapsuleColliderHeight": 1,
         "CapsuleColliderRadius": 0.2,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 0.5
         },
         "ColliderType": "Capsule"
@@ -26,16 +26,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -50,17 +50,17 @@
       "CanHitStage": true,
       "DestroyExplode": true,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 12.0,
-        "CapsuleColliderRadius": 1.0,
+        "CapsuleColliderHeight": 12,
+        "CapsuleColliderRadius": 1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 6.0
+          "x": 0,
+          "y": 0,
+          "z": 6
         },
         "ColliderType": "Capsule"
       },
@@ -126,14 +126,14 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

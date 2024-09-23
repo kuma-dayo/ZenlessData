@@ -1,0 +1,59 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DamageTakeRatioModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_01",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DamageTakeRatioModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_02",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DamageTakeRatioModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_DamageTakeRatio",
+  "AbilitySpecials": {
+    "AS_DamageTakeRatio": {
+      "Value": -0.4
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "DamageTakeRatioModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    }
+  }
+}

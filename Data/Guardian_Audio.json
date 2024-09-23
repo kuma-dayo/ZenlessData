@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Loop_F",
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_End_F",
@@ -29,7 +29,7 @@
             "AudioModifier_01"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Start_B",
@@ -37,8 +37,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Loop_B",
@@ -47,8 +47,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_End_B",
@@ -57,7 +57,7 @@
             "AudioModifier_01"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Start_L",
@@ -65,8 +65,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Loop_L",
@@ -75,8 +75,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_End_L",
@@ -85,7 +85,7 @@
             "AudioModifier_01"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Start_R",
@@ -93,8 +93,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_Loop_R",
@@ -103,8 +103,8 @@
           "ModifierNameList": [
             "AudioModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "FastMove_End_R",
@@ -113,7 +113,7 @@
             "AudioModifier_01"
           ],
           "NormalizedTimeHigh": 0.25,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         }
       ]
     }

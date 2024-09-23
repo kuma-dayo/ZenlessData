@@ -38,6 +38,32 @@
       "ParamType": "Integer"
     },
     {
+      "$type": "FireEffect",
+      "EffectPattern": "Eff_Monster_HeavyStriker_Attack_05_11_Lightning",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Greater",
+          "Param": 1,
+          "ParamName": "AS_Attack5_Count",
+          "ParamType": "Integer"
+        }
+      ]
+    },
+    {
+      "$type": "FireEffect",
+      "EffectPattern": "Eff_Monster_HeavyStriker_Attack_05_12_Boost",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Greater",
+          "Param": 1,
+          "ParamName": "AS_Attack5_Count",
+          "ParamType": "Integer"
+        }
+      ]
+    },
+    {
       "$type": "BranchOperator",
       "Conditions": [
         {

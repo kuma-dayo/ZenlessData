@@ -1,0 +1,27 @@
+{
+  "AbilityName": "Level_Caesar_ShieldReduceReset",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ShieldReduceResetModifier",
+        "Target": "LocalAvatar"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ShieldReduceResetModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "MultipleRefresh",
+      "OnAdded": [
+        {
+          "$type": "ModifyHpShieldAction",
+          "CurValueDelta": -99999,
+          "Tag": "Caesar_UniqueSkill_Shield"
+        }
+      ]
+    }
+  }
+}

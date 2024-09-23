@@ -1,0 +1,183 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "FireDamageResistListenModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01_Explode",
+          "FrameCountHigh": 5,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "ModifierNameList": [
+            "FireDamageResistListenModifier"
+          ]
+        }
+      ],
+      "IsSeam": false
+    }
+  ],
+  "AbilityName": "Burnice_Talent_04",
+  "AbilitySpecials": {
+    "AS_CD": {
+      "Value": 30
+    },
+    "AS_DamageRatio": {
+      "Value": 5
+    },
+    "AS_FireDamageResist_Talent_04": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "TriggerBuffAttackAction",
+        "BuffGroupList": [
+          "Burn",
+          "Ignite"
+        ],
+        "DamageRatio": "%AS_DamageRatio",
+        "Predicates": [
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "Less",
+            "CountModifierType": "GlobalAbility",
+            "ModifierName": "BuffAttackCDModifier_Burnice_Talent_04",
+            "StackCount": 1,
+            "Target": "Other"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+              "Burnice_Attack_ExSpecial_01_AttackProperty_02_02"
+            ],
+            "Target": "Caster"
+          },
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite"
+            ],
+            "Target": "Other"
+          }
+        ],
+        "Target": "Other"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BuffAttackCDModifier_Burnice_Talent_04",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+              "Burnice_Attack_ExSpecial_01_AttackProperty_02_02"
+            ],
+            "Target": "Caster"
+          },
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite"
+            ],
+            "Target": "Other"
+          }
+        ],
+        "Target": "Other"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BuffAttackCDModifier_Burnice_Talent_04": {
+      "Duration": "%AS_CD",
+      "ModifierStacking": "Unique"
+    },
+    "FireDamageResistDebuffModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Attack_ExSpecial_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_02",
+                "Burnice_Explode_AttackProperty_01_Talent_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_FireDamageResist",
+          "PropertyValue": "%AS_FireDamageResist_Talent_04",
+          "Target": "Self"
+        }
+      ],
+      "OnBuffDamageBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByBuffAttackProperty",
+              "BuffGroupList": [
+                "Burn",
+                "Ignite"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_FireDamageResist",
+          "PropertyValue": "%AS_FireDamageResist_Talent_04",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FireDamageResistListenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "FireDamageResistDebuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Attack_ExSpecial_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_02",
+                "Burnice_Explode_AttackProperty_01_Talent_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Other"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "FireDamageResistDebuffModifier",
+          "Target": "EnemyAllied"
+        }
+      ]
+    }
+  }
+}

@@ -7,12 +7,12 @@
       "MovementConfig": {
         "$type": "ConfigMovementTarget",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "Duration": 0.1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "MoveType": {
@@ -23,15 +23,15 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsClampOffsetDistance": false,
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -1.0
+              "x": 0,
+              "y": 0,
+              "z": -1
             }
           },
           "TargetOption": {

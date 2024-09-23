@@ -1,25 +1,25 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1001,
-      "EAAFCGPDFAA": "SkillDamageRate",
-      "BDHKIKIEOGN": 10000,
-      "JMBCNMICGIP": "{0:0.#%}",
-      "DDOCANPHAOL": 3
+      "DKDDFEIAMIF": 1001,
+      "DEPJKIPACJK": "SkillDamageRate",
+      "DOOKLEOJGBE": 10000,
+      "JEINFEFICAO": "{0:0.#%}",
+      "IBAHFNJFBLA": 3
     },
     {
-      "NGPCCDGBLLK": 1002,
-      "EAAFCGPDFAA": "SkillStunRatio",
-      "BDHKIKIEOGN": 10000,
-      "JMBCNMICGIP": "{0:0.#%}",
-      "DDOCANPHAOL": 3
+      "DKDDFEIAMIF": 1002,
+      "DEPJKIPACJK": "SkillStunRatio",
+      "DOOKLEOJGBE": 10000,
+      "JEINFEFICAO": "{0:0.#%}",
+      "IBAHFNJFBLA": 3
     },
     {
-      "NGPCCDGBLLK": 1003,
-      "EAAFCGPDFAA": "SkillSpRecovery",
-      "BDHKIKIEOGN": 10000,
-      "JMBCNMICGIP": "{0:0}",
-      "DDOCANPHAOL": 3
+      "DKDDFEIAMIF": 1003,
+      "DEPJKIPACJK": "SkillSpRecovery",
+      "DOOKLEOJGBE": 10000,
+      "JEINFEFICAO": "{0:0}",
+      "IBAHFNJFBLA": 3
     }
   ]
 }

@@ -5,10 +5,10 @@
       "Value": 0.15
     },
     "AS_SpRecover_Amount": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_SpRecover_CD": {
-      "Value": 5.0
+      "Value": 5
     }
   },
   "AbilityStacking": "Unique",
@@ -28,7 +28,7 @@
           ],
           "Priority": -1,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "RemovedActions": [
             {
               "$type": "RemoveModifier",

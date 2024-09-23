@@ -2,7 +2,7 @@
   "AbilityName": "ActivityBattleAbility_Buff_ElementAbnormalPlay",
   "AbilitySpecials": {
     "AS_BuffDuration": {
-      "Value": 15.0
+      "Value": 15
     },
     "AS_ElementMysteryDelta": {
       "Value": 50

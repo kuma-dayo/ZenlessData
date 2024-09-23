@@ -116,7 +116,7 @@
             },
             {
               "$type": "WriteAIParamAction",
-              "FloatParamValue": 1.0,
+              "FloatParamValue": 1,
               "ModifyFunction": "Replace",
               "ParamName": "Timer_AdjustConfrontation",
               "Target": "Self"
@@ -130,7 +130,7 @@
             },
             {
               "$type": "WriteAIParamAction",
-              "FloatParamValue": 1.0,
+              "FloatParamValue": 1,
               "ModifyFunction": "Replace",
               "ParamName": "Timer_AdjustRelaxed",
               "Target": "Self"
@@ -191,7 +191,7 @@
         },
         {
           "$type": "WriteAIParamAction",
-          "FloatParamValue": 2.0,
+          "FloatParamValue": 2,
           "ModifyFunction": "Replace",
           "ParamName": "Timer_AdjustConfrontation",
           "Target": "Self"
@@ -205,7 +205,7 @@
         },
         {
           "$type": "WriteAIParamAction",
-          "FloatParamValue": 2.0,
+          "FloatParamValue": 2,
           "ModifyFunction": "Replace",
           "ParamName": "Timer_AdjustRelaxed",
           "Target": "Self"

@@ -21,7 +21,7 @@
   "AbilityName": "Arlaune_Attack02Weakness",
   "AbilitySpecials": {
     "AS_PartStun": {
-      "Value": 100.0
+      "Value": 100
     },
     "AS_PartStunRatio": {
       "Value": 0.3

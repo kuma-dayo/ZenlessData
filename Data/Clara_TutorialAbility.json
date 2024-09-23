@@ -49,7 +49,7 @@
   },
   "Modifiers": {
     "Quest1Modifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

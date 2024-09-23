@@ -1,0 +1,111 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "HitFly_F",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetHitTimesModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "HitFly_B",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetHitTimesModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Death",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetHitTimesModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_HitTimesManager",
+  "AbilitySpecials": {
+    "AS_LimitTime": {
+      "Value": 15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnPatternAttackLanded": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": 1,
+        "CustomPropertyType": "HitTimes",
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Normal"
+            ]
+          }
+        ],
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "TimeLimitModifier",
+        "Target": "Self"
+      },
+      {
+        "$type": "SendWwiseRTPCAction",
+        "CustomPropertyType": "HitTimes",
+        "IsUseCustomProperty": true,
+        "RTPCName": "SFX_Char_Lighter_ComboCount",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ResetHitTimesModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "HitTimes",
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ]
+    },
+    "TimeLimitModifier": {
+      "Duration": "%AS_LimitTime",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnRemoved": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "HitTimes",
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ]
+    }
+  }
+}

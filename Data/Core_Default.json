@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "SpecialEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -26,19 +26,19 @@
         "MovementConfig": {
           "$type": "ConfigMovementSimple",
           "Acceleration": {
-            "x": 0.0,
-            "y": -20.0,
-            "z": -5.0
+            "x": 0,
+            "y": -20,
+            "z": -5
           },
           "CoordinateType": "Local",
           "Duration": 1,
-          "Gravity": 0.0,
+          "Gravity": 0,
           "HitNormalRatio": 1,
           "HitTangentialRatio": 1,
           "InitVelocity": {
-            "x": 0.0,
-            "y": 6.0,
-            "z": 5.0
+            "x": 0,
+            "y": 6,
+            "z": 5
           },
           "MaxHitNumber": 0,
           "TimesUpMoveOption": "Stop"
@@ -53,24 +53,24 @@
             "CoordsOption": "Relative",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": -10.0
+                "x": 0,
+                "y": 0,
+                "z": -10
               },
               "RandomAngleRange": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "RandomPositionRange": {
                 "x": 2.68,
-                "y": 0.0,
-                "z": 0.0
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -95,16 +95,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -121,5 +121,6 @@
       ]
     }
   },
-  "OnAbilityStart": []
+  "OnAbilityStart": [
+  ]
 }

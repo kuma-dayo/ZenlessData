@@ -1,76 +1,76 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "LCKPJCGDBEO": "BigSuccessRegion",
-      "PIPILJCBOBK": "0.05"
+      "GCKLFDABJCB": "BigSuccessRegion",
+      "EDOMDKKLKHB": "0.08"
     },
     {
-      "LCKPJCGDBEO": "BigSuccessRegionCloud",
-      "PIPILJCBOBK": "0.2"
+      "GCKLFDABJCB": "BigSuccessRegionCloud",
+      "EDOMDKKLKHB": "0.2"
     },
     {
-      "LCKPJCGDBEO": "BigSuccessRegionController",
-      "PIPILJCBOBK": "0.09"
+      "GCKLFDABJCB": "BigSuccessRegionController",
+      "EDOMDKKLKHB": "0.09"
     },
     {
-      "LCKPJCGDBEO": "CheckRadius",
-      "PIPILJCBOBK": "4"
+      "GCKLFDABJCB": "CheckRadius",
+      "EDOMDKKLKHB": "4"
     },
     {
-      "LCKPJCGDBEO": "CountDown",
-      "PIPILJCBOBK": "3"
+      "GCKLFDABJCB": "CountDown",
+      "EDOMDKKLKHB": "3"
     },
     {
-      "LCKPJCGDBEO": "FailRegion",
-      "PIPILJCBOBK": "0.2"
+      "GCKLFDABJCB": "FailRegion",
+      "EDOMDKKLKHB": "0.2"
     },
     {
-      "LCKPJCGDBEO": "FailRegionCloud",
-      "PIPILJCBOBK": "0.8"
+      "GCKLFDABJCB": "FailRegionCloud",
+      "EDOMDKKLKHB": "0.8"
     },
     {
-      "LCKPJCGDBEO": "FailRegionController",
-      "PIPILJCBOBK": "0.25"
+      "GCKLFDABJCB": "FailRegionController",
+      "EDOMDKKLKHB": "0.25"
     },
     {
-      "LCKPJCGDBEO": "LevelDifficulty1",
-      "PIPILJCBOBK": "10014"
+      "GCKLFDABJCB": "LevelDifficulty1",
+      "EDOMDKKLKHB": "10014"
     },
     {
-      "LCKPJCGDBEO": "LevelDifficulty2",
-      "PIPILJCBOBK": "10015"
+      "GCKLFDABJCB": "LevelDifficulty2",
+      "EDOMDKKLKHB": "10015"
     },
     {
-      "LCKPJCGDBEO": "LevelDifficulty3",
-      "PIPILJCBOBK": "10019"
+      "GCKLFDABJCB": "LevelDifficulty3",
+      "EDOMDKKLKHB": "10019"
     },
     {
-      "LCKPJCGDBEO": "ReferenceRadius",
-      "PIPILJCBOBK": "2"
+      "GCKLFDABJCB": "ReferenceRadius",
+      "EDOMDKKLKHB": "2"
     },
     {
-      "LCKPJCGDBEO": "ShowRadius",
-      "PIPILJCBOBK": "4"
+      "GCKLFDABJCB": "ShowRadius",
+      "EDOMDKKLKHB": "4"
     },
     {
-      "LCKPJCGDBEO": "ShrinkSpeed",
-      "PIPILJCBOBK": "1"
+      "GCKLFDABJCB": "ShrinkSpeed",
+      "EDOMDKKLKHB": "1"
     },
     {
-      "LCKPJCGDBEO": "SuccessRegion",
-      "PIPILJCBOBK": "0.1"
+      "GCKLFDABJCB": "SuccessRegion",
+      "EDOMDKKLKHB": "0.12"
     },
     {
-      "LCKPJCGDBEO": "SuccessRegionCloud",
-      "PIPILJCBOBK": "0.4"
+      "GCKLFDABJCB": "SuccessRegionCloud",
+      "EDOMDKKLKHB": "0.4"
     },
     {
-      "LCKPJCGDBEO": "SuccessRegionController",
-      "PIPILJCBOBK": "0.14"
+      "GCKLFDABJCB": "SuccessRegionController",
+      "EDOMDKKLKHB": "0.14"
     },
     {
-      "LCKPJCGDBEO": "VagueRadius",
-      "PIPILJCBOBK": "0.2"
+      "GCKLFDABJCB": "VagueRadius",
+      "EDOMDKKLKHB": "0.2"
     }
   ]
 }

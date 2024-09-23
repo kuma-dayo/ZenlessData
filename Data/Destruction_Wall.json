@@ -2,7 +2,8 @@
   "AbilityMixins": [
     {
       "$type": "DestructionMixin",
-      "BeHitFailedActions": [],
+      "BeHitFailedActions": [
+      ],
       "BeHitSuccessActions": [
         {
           "$type": "FireEffect",
@@ -96,7 +97,7 @@
           "CompareType": "Equal",
           "Key": "_Switching_Status",
           "Target": "Self",
-          "Value": 0.0
+          "Value": 0
         }
       ],
       "SwitchStatusActions": [
@@ -115,7 +116,7 @@
         {
           "$type": "SetGlobalValue",
           "Key": "_Switching_Status",
-          "Value": 1.0
+          "Value": 1
         }
       ]
     }
@@ -179,7 +180,7 @@
       {
         "$type": "SetGlobalValue",
         "Key": "_Switching_Status",
-        "Value": 0.0
+        "Value": 0
       }
     ],
     "OnBeingHitPre": [
@@ -210,16 +211,16 @@
           "CoordsOption": "ReferTarget",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 180.0,
-              "z": 0.0
+              "x": 0,
+              "y": 180,
+              "z": 0
             },
             "IsUseRotationXZ": true,
             "IsUseRotationY": true,
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -320,7 +321,7 @@
       {
         "$type": "SetGlobalValue",
         "Key": "_Switching_Status",
-        "Value": 1.0
+        "Value": 1
       }
     ]
   },
@@ -345,7 +346,7 @@
     {
       "$type": "SetGlobalValue",
       "Key": "_Switching_Status",
-      "Value": 0.0
+      "Value": 0
     }
   ]
 }

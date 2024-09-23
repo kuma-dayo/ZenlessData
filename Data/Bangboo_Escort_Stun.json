@@ -1,0 +1,100 @@
+{
+  "AbilityName": "Bangboo_Escort_Stun",
+  "AbilitySpecials": {
+    "HitCount": {
+      "Value": 0
+    },
+    "HitCountMax": {
+      "Value": 10
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "StunModifier",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": "%HitCountMax",
+            "ParamName": "HitCount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Caster"
+      },
+      {
+        "$type": "SetAbilitySpecialAction",
+        "ModifyFunction": "Add",
+        "Param": 1,
+        "ParamName": "HitCount",
+        "ParamType": "Integer"
+      }
+    ],
+    "OnTeamAvatarsBattleExit": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "StunModifier",
+        "Predicates": [
+          {
+            "$type": "ByHasModifier",
+            "ModifierNameList": [
+              "StunModifier"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ]
+  },
+  "Modifiers": {
+    "StunModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_EscortStun",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Replace",
+          "Param": 0,
+          "ParamName": "HitCount",
+          "ParamType": "Integer"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_EscortStun",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "RemoveModifier",
+      "ModifierName": "StunModifier",
+      "Predicates": [
+        {
+          "$type": "ByHasModifier",
+          "ModifierNameList": [
+            "StunModifier"
+          ],
+          "Target": "Caster"
+        }
+      ]
+    }
+  ]
+}

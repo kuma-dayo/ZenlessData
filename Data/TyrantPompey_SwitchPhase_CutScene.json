@@ -1,0 +1,34 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "CutSceneMixin",
+      "BlackScreenFadeIn": true,
+      "BlackScreenFadeInTime": 0.5,
+      "BlackScreenFadeOut": true,
+      "BlackScreenFadeOutTime": 0.5,
+      "CutSceneTag": "TyrantPompey_SwitchPhase",
+      "MuteInputBeginAhead": 0.25,
+      "MuteInputEndDelay": 0.25,
+      "OnCutSceneEndPhase": [
+        {
+          "$type": "SwitchPhaseEndAction",
+          "MixinTag": "TyrantPompey_SwitchPhase",
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_CutSceneEnd",
+          "ParamType": 1,
+          "Target": "Self"
+        }
+      ],
+      "OnCutSceneStartPhase": [
+      ],
+      "PerformID": 50400009,
+      "ProtectTime": 30
+    }
+  ],
+  "AbilityName": "TyrantPompey_SwitchPhase_CutScene",
+  "AbilityStacking": "Unique"
+}

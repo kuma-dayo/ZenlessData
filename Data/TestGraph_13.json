@@ -1,0 +1,222 @@
+{
+  "AbilityName": "TestGraph_13",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "CallGraphHitEvent",
+        "EventName": "OnBeingHit"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "CallGraphHitEvent",
+        "EventName": "OnHitOther"
+      }
+    ]
+  },
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnBeingHit": {
+          "x": 413,
+          "y": 373.3425
+        },
+        "OnHitOther": {
+          "x": 423,
+          "y": 181
+        },
+        "TestCustomEvent": {
+          "x": 404.0549,
+          "y": 579.847
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": 180,
+          "y": -41
+        },
+        "Zoom": 0.8695652
+      },
+      "Node": [
+        {
+          "x": 622.5491,
+          "y": 181.123
+        },
+        {
+          "x": 719.9566,
+          "y": 579.2609
+        },
+        {
+          "x": 609.1935,
+          "y": 373.1386
+        },
+        {
+          "x": 431.5778,
+          "y": 659.6575
+        },
+        {
+          "x": 794.315,
+          "y": 176.3711
+        },
+        {
+          "x": 796.7673,
+          "y": 369.9725
+        },
+        {
+          "x": 980.3424,
+          "y": 182
+        }
+      ]
+    },
+    "EventMap": {
+      "OnBeingHit": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 2,
+        "ParametersBind": [
+          {
+            "$type": "ConfigDynamicOutputValue",
+            "BindId": [
+              1001
+            ],
+            "OutputName": "AnimKey"
+          },
+          {
+            "$type": "ConfigDynamicOutputValue",
+            "BindId": [
+              1004
+            ],
+            "OutputName": "Attacker"
+          }
+        ]
+      },
+      "OnHitOther": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 0,
+        "ParametersBind": [
+          {
+            "$type": "ConfigDynamicOutputValue",
+            "BindId": [
+              1000
+            ],
+            "OutputName": "AnimKey"
+          },
+          {
+            "$type": "ConfigDynamicOutputValue",
+            "BindId": [
+              1003
+            ],
+            "OutputName": "Attackee"
+          }
+        ]
+      },
+      "TestCustomEvent": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 1,
+        "IsCustom": true,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "LogValueNode",
+        "DefaultOutBind": 4,
+        "Value": {
+          "BindId": 1000
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": -1,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Treasure_Open"
+        },
+        "PositionOffset": {
+        },
+        "PreActionBind": [
+          3
+        ],
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1002
+        }
+      },
+      {
+        "$type": "LogValueNode",
+        "DefaultOutBind": 5,
+        "Value": {
+          "BindId": 1001
+        }
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1002
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Entity_Pther"
+      },
+      {
+        "$type": "SetVariable",
+        "DefaultOutBind": 6,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1003
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Entity_Pther"
+      },
+      {
+        "$type": "SetVariable",
+        "DefaultOutBind": 6,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1004
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Entity_Pther"
+      },
+      {
+        "$type": "InvokeEventNode",
+        "AbilityName": "TestGraph_13",
+        "DefaultOutBind": -1,
+        "EventName": "TestCustomEvent",
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      }
+    ],
+    "VariableRegisterList": [
+      {
+        "$type": "AbilityVariableRegister",
+        "DefaultValue": {
+          "$type": "ConfigDynamicValue"
+        },
+        "ElementType": "Integer",
+        "Key": "Entity_Pther",
+        "Scope": "Auto",
+        "Type": "Entity"
+      }
+    ]
+  }
+}

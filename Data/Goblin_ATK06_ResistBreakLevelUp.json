@@ -74,7 +74,7 @@
         },
         {
           "$type": "WriteAIParamAction",
-          "FloatParamValue": 0.0,
+          "FloatParamValue": 0,
           "ParamName": "AttackCD",
           "Target": "Self"
         }
@@ -112,7 +112,7 @@
         },
         {
           "$type": "WriteAIParamAction",
-          "FloatParamValue": 0.0,
+          "FloatParamValue": 0,
           "ParamName": "AttackCD",
           "Target": "Self"
         },
@@ -195,16 +195,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

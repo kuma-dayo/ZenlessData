@@ -12,22 +12,29 @@
         40002801
       ],
       "NoInteractEventEffect": "InteractionDisable_TV",
-      "TarotCardIDCanUse": []
+      "TarotCardIDCanUse": [
+      ]
     },
     {
       "$type": "COverwriteGridStateTextureConfig",
       "FinishTextureOverride": {
         "TextureList": {
-          "EventIcon_InnerPath_01": {},
-          "EventIcon_InnerPath_02": {},
-          "EventIcon_InnerPath_03": {}
+          "EventIcon_InnerPath_01": {
+          },
+          "EventIcon_InnerPath_02": {
+          },
+          "EventIcon_InnerPath_03": {
+          }
         }
       },
       "PathTextureOverride": {
         "TextureList": {
-          "EventIcon_InnerPath_01": {},
-          "EventIcon_InnerPath_02": {},
-          "EventIcon_InnerPath_03": {}
+          "EventIcon_InnerPath_01": {
+          },
+          "EventIcon_InnerPath_02": {
+          },
+          "EventIcon_InnerPath_03": {
+          }
         }
       },
       "SpecifiedEventTextureOverride": [

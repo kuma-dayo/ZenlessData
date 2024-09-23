@@ -1,186 +1,334 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1001,
-      "GOEGLOHPHJF": 1,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "MainCityStreet_Street",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 1001,
+      "GBHCMGMNBMG": 1,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "MainCityStreet_Street",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 2001,
-      "GOEGLOHPHJF": 2,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Workshop_1F",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 2001,
+      "GBHCMGMNBMG": 2,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Workshop_1F",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 2002,
-      "GOEGLOHPHJF": 2,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Workshop_Stairs",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 2002,
+      "GBHCMGMNBMG": 2,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Workshop_Stairs",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 2003,
-      "GOEGLOHPHJF": 2,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Workshop_2F",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 2003,
+      "GBHCMGMNBMG": 2,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Workshop_2F",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 3001,
-      "GOEGLOHPHJF": 3,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "MainCityStreet_Garage",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 3001,
+      "GBHCMGMNBMG": 3,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "MainCityStreet_Garage",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4001,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "ConstructionSite_1F",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 4001,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "ConstructionSite_1F",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4002,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "ConstructionSite_2F",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 4002,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "ConstructionSite_2F",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4003,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "ConstructionSite_Elevator1",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 4003,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "ConstructionSite_Elevator1",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4004,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "ConstructionSite_Elevator2",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 4004,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "ConstructionSite_Elevator2",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4005,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "ConstructionSite_Elevator3",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 4005,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "ConstructionSite_Elevator3",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 4006,
-      "GOEGLOHPHJF": 4,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "ConstructionSite_Elevator4",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 4006,
+      "GBHCMGMNBMG": 4,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "ConstructionSite_Elevator4",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 5001,
-      "GOEGLOHPHJF": 5,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "SkyScraper_1F",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 5001,
+      "GBHCMGMNBMG": 5,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "SkyScraper_1F",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 5002,
-      "GOEGLOHPHJF": 5,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "SkyScraper_B1",
-      "GKKBOGBBFAK": 1000
+      "DKDDFEIAMIF": 5002,
+      "GBHCMGMNBMG": 5,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "SkyScraper_B1",
+      "CJKFJMPEHBB": 1000,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 5003,
-      "GOEGLOHPHJF": 5,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "SkyScraper_Stairs1",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 5003,
+      "GBHCMGMNBMG": 5,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "SkyScraper_Stairs1",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 5004,
-      "GOEGLOHPHJF": 5,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "SkyScraper_Stairs2",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 5004,
+      "GBHCMGMNBMG": 5,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "SkyScraper_Stairs2",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 101001,
-      "GOEGLOHPHJF": 101,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "FortuneSquare_Maincity",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 101001,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "FortuneSquare_Maincity",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 101002,
-      "GOEGLOHPHJF": 101,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "Traffic_Green",
-      "GKKBOGBBFAK": 1
+      "DKDDFEIAMIF": 101002,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Green",
+      "CJKFJMPEHBB": 1,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 101003,
-      "GOEGLOHPHJF": 101,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "Traffic_Red",
-      "GKKBOGBBFAK": 2
+      "DKDDFEIAMIF": 101003,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Red",
+      "CJKFJMPEHBB": 2,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 101004,
-      "GOEGLOHPHJF": 101,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "Traffic_Red2",
-      "GKKBOGBBFAK": 3
+      "DKDDFEIAMIF": 101004,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Red2",
+      "CJKFJMPEHBB": 3,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 101005,
-      "GOEGLOHPHJF": 101,
-      "PPGNLMPJCII": false,
-      "GHCBNMPAPDN": "Traffic_Light01",
-      "GKKBOGBBFAK": 4
+      "DKDDFEIAMIF": 101005,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Light01",
+      "CJKFJMPEHBB": 4,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 102001,
-      "GOEGLOHPHJF": 102,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "MainCity_FortuneNEPS",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 101006,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Light02",
+      "CJKFJMPEHBB": 4,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 103001,
-      "GOEGLOHPHJF": 103,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "MainCity_FortuneHIA",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 101007,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Light03",
+      "CJKFJMPEHBB": 4,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 151001,
-      "GOEGLOHPHJF": 151,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Maincity_Zero",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 101008,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_Light04",
+      "CJKFJMPEHBB": 4,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 152001,
-      "GOEGLOHPHJF": 152,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Stage_SkyScraper_JaneOVA",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 101009,
+      "GBHCMGMNBMG": 101,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Traffic_PlayerHoldon",
+      "CJKFJMPEHBB": 5,
+      "KFMNOCMKBCE": [
+        3
+      ]
     },
     {
-      "NGPCCDGBLLK": 153001,
-      "GOEGLOHPHJF": 153,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Maincity_Subway_Street",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 102001,
+      "GBHCMGMNBMG": 102,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "MainCity_FortuneNEPS",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     },
     {
-      "NGPCCDGBLLK": 154001,
-      "GOEGLOHPHJF": 154,
-      "PPGNLMPJCII": true,
-      "GHCBNMPAPDN": "Maincity_Subway",
-      "GKKBOGBBFAK": 100
+      "DKDDFEIAMIF": 103001,
+      "GBHCMGMNBMG": 103,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "MainCity_FortuneHIA",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 104001,
+      "GBHCMGMNBMG": 104,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Maincity_OuterRing_1F",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 104002,
+      "GBHCMGMNBMG": 104,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Maincity_OuterRing_2F",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 104003,
+      "GBHCMGMNBMG": 104,
+      "BGEBPFPLPNA": false,
+      "HILFCOPDBGJ": "Maincity_OuterRing_Elevator",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 151001,
+      "GBHCMGMNBMG": 151,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Maincity_Zero",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 152001,
+      "GBHCMGMNBMG": 152,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Stage_SkyScraper_JaneOVA",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 153001,
+      "GBHCMGMNBMG": 153,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Maincity_Subway_Street",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 154001,
+      "GBHCMGMNBMG": 154,
+      "BGEBPFPLPNA": true,
+      "HILFCOPDBGJ": "Maincity_Subway",
+      "CJKFJMPEHBB": 100,
+      "KFMNOCMKBCE": [
+        1
+      ]
     }
   ]
 }

@@ -1,0 +1,143 @@
+{
+  "AbilityName": "Device_EtherGather_DamageControl",
+  "AbilitySpecials": {
+    "BossPercentage": {
+      "Value": 0.01
+    },
+    "DamageValue": {
+      "Value": 0
+    },
+    "ElitePercentage": {
+      "Value": 0.05
+    },
+    "NormalPercentage": {
+      "Value": 0.2
+    },
+    "PlayerPercentage": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DamageControlModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DamageControlModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_EnableLastKill",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_AddedDamageReplace",
+          "PropertyValue": "%DamageValue",
+          "Target": "Target"
+        }
+      ],
+      "OnHitOtherPre": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true,
+              "Target": "Target"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "ByEntityType",
+                  "EntityType": "Monster",
+                  "Target": "Target"
+                }
+              ],
+              "FailureActions": [
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Replace",
+                  "Param": 100,
+                  "ParamName": "DamageValue",
+                  "ParamType": "Float"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(NormalPercentage)*property(MaxHP)",
+                  "ParamName": "DamageValue",
+                  "Predicates": [
+                    {
+                      "$type": "ByMonsterStrengthType",
+                      "CompareType": "Equal",
+                      "StrengthType": "Normal",
+                      "Target": "Target"
+                    }
+                  ],
+                  "Target": "Target",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(ElitePercentage)*property(MaxHP)",
+                  "ParamName": "DamageValue",
+                  "Predicates": [
+                    {
+                      "$type": "ByMonsterStrengthType",
+                      "CompareType": "Equal",
+                      "StrengthType": "Elite",
+                      "Target": "Target"
+                    }
+                  ],
+                  "Target": "Target",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(BossPercentage)*property(MaxHP)",
+                  "ParamName": "DamageValue",
+                  "Predicates": [
+                    {
+                      "$type": "ByMonsterStrengthType",
+                      "CompareType": "Equal",
+                      "StrengthType": "Boss",
+                      "Target": "Target"
+                    }
+                  ],
+                  "Target": "Target",
+                  "ValueType": "Float"
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(PlayerPercentage)*property(MaxHP)",
+              "ParamName": "DamageValue",
+              "Target": "Target",
+              "ValueType": "Float"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

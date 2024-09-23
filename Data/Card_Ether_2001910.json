@@ -2,7 +2,7 @@
   "AbilityName": "Card_Ether_2001910",
   "AbilitySpecials": {
     "AS_ElementMysteryDelta": {
-      "Value": 10.0
+      "Value": 10
     },
     "Duration": {
       "Value": 30

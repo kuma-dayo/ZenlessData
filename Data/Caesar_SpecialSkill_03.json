@@ -1,0 +1,73 @@
+{
+  "AbilityName": "Caesar_SpecialSkill_03",
+  "AbilitySpecials": {
+    "AS_BreakStunRatioBase": {
+      "Value": 0.3
+    },
+    "AS_BreakStunRatioDelta": {
+      "Value": 0.05
+    },
+    "AS_BreakStunRatioFinal": {
+      "Value": 0.3
+    },
+    "AS_Duration": {
+      "Value": 3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "Expression": "specials(AS_BreakStunRatioBase)+(specials(AS_BreakStunRatioDelta)*avatarskilllevel(1))",
+        "ParamName": "AS_BreakStunRatioFinal",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnCustomEventReceived": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DefenceCounterModifier",
+        "Predicates": [
+          {
+            "$type": "ByCustomEvent",
+            "EventKey": "Caesar_GuardSuccess"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Caesar_SpecialSkill_03_BuffIcon": {
+      "Buff": {
+        "BuffID": 3000162,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Refresh"
+    },
+    "DefenceCounterModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Caesar_SpecialSkill_03_BuffIcon",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "Caesar_SpecialSkill_03_BuffIcon",
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_BreakStunRatio": "%AS_BreakStunRatioFinal"
+      }
+    }
+  }
+}

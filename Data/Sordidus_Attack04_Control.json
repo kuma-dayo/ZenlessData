@@ -1,0 +1,139 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Monster_Sordidus_Attack_03_05_Decal",
+              "FireEffectPosRot": {
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "SavePoint",
+                  "PointName": "Sordidus_Attack04_SavePoint_01"
+                }
+              }
+            }
+          ],
+          "AnimatorStateName": "Attack_4",
+          "Frame": 101,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Monster_Sordidus_Attack_04A_05_Mod",
+              "FireEffectPosRot": {
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "SavePoint",
+                  "PointName": "Sordidus_Attack04_SavePoint_01"
+                }
+              }
+            }
+          ],
+          "AnimatorStateName": "Attack_4",
+          "Frame": 99,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Monster_Sordidus_Attack_04A_01_Decal",
+              "FireEffectPosRot": {
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "SavePoint",
+                  "PointName": "Sordidus_Attack04_SavePoint_01"
+                }
+              }
+            }
+          ],
+          "AnimatorStateName": "Attack_4A",
+          "Frame": 30,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Monster_Sordidus_Attack_04A_06_Aure",
+              "FireEffectPosRot": {
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "SavePoint",
+                  "PointName": "Sordidus_Attack04_SavePoint_01"
+                }
+              }
+            }
+          ],
+          "AnimatorStateName": "Attack_4A",
+          "Frame": 67,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Sordidus_Attack04_Bullet_01",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_4",
+          "Frame": 105,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Sordidus_Attack04_Bullet_02",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_4A",
+          "Frame": 30,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Sordidus_Attack04_Control",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "CreateSavePointAction",
+      "PointName": "Sordidus_Attack04_SavePoint_01",
+      "Target": "Self",
+      "TargetPosRot": {
+        "CoordsOption": "Target",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsClampOffsetDistance": false,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "RandomPositionRange": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "OffsetReferTarget": "SelfAttackTarget"
+        }
+      }
+    }
+  ]
+}

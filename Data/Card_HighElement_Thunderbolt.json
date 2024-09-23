@@ -2,7 +2,7 @@
   "AbilityName": "Card_HighElement_Thunderbolt",
   "AbilitySpecials": {
     "AS_ThunderboltCoolDownTime": {
-      "Value": 10.0
+      "Value": 10
     }
   },
   "AbilityStacking": "Unique",

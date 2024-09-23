@@ -1,0 +1,15 @@
+{
+  "AbilityName": "Device_Prop_OilTank_01_Special_For_Motor_Default",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Trigger_Crash",
+        "ParamType": 1,
+        "Target": "Self"
+      }
+    ]
+  }
+}

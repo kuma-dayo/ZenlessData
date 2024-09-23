@@ -1,0 +1,417 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 6,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid_End",
+          "FrameCountHigh": 10,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Back",
+          "FrameCountHigh": 70,
+          "FrameCountLow": 8,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Front",
+          "FrameCountHigh": 70,
+          "FrameCountLow": 8,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Side",
+          "FrameCountHigh": 65,
+          "FrameCountLow": 24,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Normal",
+          "FrameCountHigh": 70,
+          "FrameCountLow": 8,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Normal",
+          "FrameCountHigh": 130,
+          "FrameCountLow": 2,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Normal_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back",
+          "FrameCountHigh": 130,
+          "FrameCountLow": 2,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back_02",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back_02_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front",
+          "FrameCountHigh": 130,
+          "FrameCountLow": 2,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_02",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_02_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Side",
+          "FrameCountHigh": 115,
+          "FrameCountLow": 24,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter",
+          "FrameCountHigh": 95,
+          "FrameCountLow": 5,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_End",
+          "FrameCountHigh": 30,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack",
+          "FrameCountHigh": 124,
+          "FrameCountLow": 52,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack_End",
+          "FrameCountHigh": 41,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_01",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 28,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Start",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "FrameCountHigh": 99,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03",
+          "FrameCountHigh": 50,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03_End",
+          "FrameCountHigh": 35,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "Lighter_FireEffModifier",
+            "Lighter_FireMatModifier01"
+          ],
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_EffectManager",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Lighter_FireEffModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_WpnB_04",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Lighter_Common_Fire_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_WpnB_03",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Lighter_Common_Fire_02",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Lighter_FireMatModifier01": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Lighter_Weapon"
+            }
+          ],
+          "Tag": "Lighter_Mat01_SecondaryEmission",
+          "Target": "Self",
+          "key": "Avatar_Male_Size02_Lighter_MA_Attack_Common_Mat01_SecondaryEmission_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Lighter_Weapon"
+            }
+          ],
+          "Tag": "Lighter_Mat02_OverrideRimGlow",
+          "Target": "Self",
+          "key": "Avatar_Male_Size02_Lighter_MA_Attack_Common_Mat02_OverrideRimGlow_02"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Lighter_Mat01_SecondaryEmission",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Lighter_Mat02_OverrideRimGlow",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

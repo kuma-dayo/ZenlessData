@@ -62,19 +62,19 @@
       "Value": 0.05
     },
     "AS_ConsumeSp_Delta": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ConsumeSp_Total": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_Duration": {
-      "Value": 10.0
+      "Value": 10
     }
   },
   "AbilityStacking": "Unique",
   "Modifiers": {
     "BuffModifier_Controller": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

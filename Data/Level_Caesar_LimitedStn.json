@@ -1,0 +1,43 @@
+{
+  "AbilityName": "Level_Caesar_LimitedStn",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "StnLimitedModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "StnLimitedModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnIndirectHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "AttackAid"
+                  ],
+                  "Target": "Target"
+                }
+              ],
+              "Target": "Target"
+            }
+          ],
+          "PropertyKey": "Actor_BreakStunRatio",
+          "PropertyValue": -5,
+          "Target": "Target"
+        }
+      ]
+    }
+  }
+}

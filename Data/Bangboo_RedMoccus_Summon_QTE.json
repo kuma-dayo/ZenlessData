@@ -1,0 +1,50 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "SummonMixin",
+      "IsSameAsMaster": true,
+      "OnSummonCreatedActions": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "ParamName": "Trigger_QTE",
+          "ParamType": 1,
+          "Target": "Target"
+        }
+      ],
+      "OverrideDelay": 0,
+      "SummonDuration": -1,
+      "SummonID": 199141611,
+      "SummonPosRot": {
+        "CoordsOption": "ReferTarget",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsClampOffsetDistance": false,
+          "IsUseRotationXZ": true,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "IsUseAttachPointPos": true,
+          "IsUseAttachPointRotation": true,
+          "OffsetReferTarget": "Caster"
+        }
+      },
+      "SummonTag": [
+        "RedMoccus_Summon"
+      ],
+      "SummonType": "Monster",
+      "TimesUpDelay": 0
+    }
+  ],
+  "AbilityName": "Bangboo_RedMoccus_Summon_QTE",
+  "AbilityStacking": "Unique"
+}

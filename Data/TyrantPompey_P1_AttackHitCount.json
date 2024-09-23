@@ -1,0 +1,273 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P2_Attack_01_Slow",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "P2ATK01SlowCountModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P2_Attack_02_01",
+          "FrameCountHigh": 80,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "P2ATK02CountModifier"
+          ]
+        }
+      ],
+      "IsSeam": true
+    }
+  ],
+  "AbilityName": "TyrantPompey_P1_AttackHitCount",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "HitCountModifier_P1_06",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_ATK06_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      },
+      {
+        "$type": "DamageByAttackPropertyAction",
+        "AnimEventID": "Monster_TyrantPompey_P1_ATK06_Attackproperty_02",
+        "Predicates": [
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "Equal",
+            "CountModifierType": "CurTargetAbility",
+            "ModifierName": "HitCountModifier_P1_06",
+            "StackCount": 3,
+            "Target": "Target"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_ATK06_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      },
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "HitCountModifier_P1_06",
+        "Predicates": [
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "Equal",
+            "CountModifierType": "CurTargetAbility",
+            "ModifierName": "HitCountModifier_P1_06",
+            "StackCount": 3,
+            "Target": "Target"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_ATK06_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "StackCount": 3,
+        "Target": "Target"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "HitCountModifier_P1_Turn90",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_Turn90_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      },
+      {
+        "$type": "DamageByAttackPropertyAction",
+        "AnimEventID": "Monster_TyrantPompey_P1_Turn90_Attackproperty_02",
+        "Predicates": [
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "Equal",
+            "CountModifierType": "CurTargetAbility",
+            "ModifierName": "HitCountModifier_P1_Turn90",
+            "StackCount": 3,
+            "Target": "Target"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_Turn90_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Target"
+      },
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "HitCountModifier_P1_Turn90",
+        "Predicates": [
+          {
+            "$type": "ByModifierStackCount",
+            "CompareType": "Equal",
+            "CountModifierType": "CurTargetAbility",
+            "ModifierName": "HitCountModifier_P1_Turn90",
+            "StackCount": 3,
+            "Target": "Target"
+          },
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_TyrantPompey_P1_Turn90_Attackproperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "StackCount": 3,
+        "Target": "Target"
+      }
+    ]
+  },
+  "Modifiers": {
+    "HitCountModifier_P1_05": {
+      "Duration": 2,
+      "IgnoreTimeScale": false,
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "MultipleAllRefresh"
+    },
+    "HitCountModifier_P1_06": {
+      "Duration": 2,
+      "IgnoreTimeScale": false,
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "MultipleAllRefresh"
+    },
+    "HitCountModifier_P1_Turn90": {
+      "Duration": 2,
+      "IgnoreTimeScale": false,
+      "MaxStackingNumber": 3,
+      "ModifierStacking": "MultipleAllRefresh"
+    },
+    "P2ATK01SlowCountModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_Slow03_Hit"
+          ],
+          "IsAdd": true,
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Monster_TyrantPompey_P2_ATK01_Slow_Attackproperty_03"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Target"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_Slow05_Hit"
+          ],
+          "IsAdd": true,
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Monster_TyrantPompey_P2_ATK01_Slow_Attackproperty_05"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Target"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_Slow03_Hit"
+          ],
+          "IsAdd": false,
+          "Target": "EnemyAllied"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_Slow05_Hit"
+          ],
+          "IsAdd": false,
+          "Target": "EnemyAllied"
+        }
+      ]
+    },
+    "P2ATK02CountModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_P2ATK02_Hit"
+          ],
+          "IsAdd": true,
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Monster_TyrantPompey_P2_ATK02_01_Attackproperty_01",
+                "Monster_TyrantPompey_P2_ATK02_01_Attackproperty_02"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Target"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TyrantPompey_P2ATK02_Hit"
+          ],
+          "IsAdd": false,
+          "Target": "EnemyAllied"
+        }
+      ]
+    }
+  }
+}

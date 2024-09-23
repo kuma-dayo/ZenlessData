@@ -1,0 +1,431 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "CreateSavePointAction",
+              "PointName": "SpecialAttack_StartPoint",
+              "Target": "Self",
+              "TargetPosRot": {
+                "CoordsOption": "Caster",
+                "Offset": {
+                  "AngleOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "IsUseRotationXZ": true,
+                  "IsUseRotationY": true,
+                  "PositionOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "RandomAngleRange": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "RandomPositionRange": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "TargetOption": {
+                  "$type": "ConfigPosRotReferTarget",
+                  "OffsetReferTarget": "Self"
+                }
+              }
+            },
+            {
+              "$type": "WriteAIParamAction",
+              "BoolParamValue": false,
+              "ParamName": "isSpecialAttackReady"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_isSpecialAttack",
+              "ParamType": 2
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "SpecialAttackReadyModifier"
+            },
+            {
+              "$type": "SetAbilitySpecialAction",
+              "ModifyFunction": "Replace",
+              "Param": 0,
+              "ParamName": "AS_SpecialAttackUsed"
+            }
+          ],
+          "AnimatorStateName": "P2_Attack_SpecialAttack",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 75,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "SpecialAttack_ATK03"
+              ],
+              "IsAdd": false
+            }
+          ],
+          "AnimatorStateName": "P2_Attack_SpecialAttack_2",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": true,
+          "Frame": 145,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": true,
+          "PropertyType": "CurHP",
+          "RefPropertyType": "MaxHP",
+          "ValueRangeActions": [
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "WriteAIParamAction",
+                  "BoolParamValue": true,
+                  "ParamName": "isSpecialAttackReady",
+                  "Predicates": [
+                    {
+                      "$type": "ByAbilitySpecial",
+                      "CompareType": "Equal",
+                      "Param": 1,
+                      "ParamName": "AS_SpecialAttackUsed",
+                      "ParamType": "Float"
+                    }
+                  ]
+                }
+              ],
+              "Val": "%AS_SpecialAttackReadyHP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P2_Evade",
+          "FrameCountHigh": 46,
+          "FrameCountLow": 10,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "EvadeCheck"
+          ]
+        },
+        {
+          "AnimatorStateName": "P2_Attack_SpecialAttack_2",
+          "FrameCountHigh": 95,
+          "FrameCountLow": 30,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SpecialAttack_2_LocigMoveModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_P2_SpecialAttack",
+  "AbilitySpecials": {
+    "AS_SpecialAttackReadyHP": {
+      "Value": 0.8
+    },
+    "AS_SpecialAttackUsed": {
+      "Value": 1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "EvadeCheck": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "EvadeLogicMoveModifier",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "SpecialAttackReadyModifier"
+              ]
+            }
+          ]
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "EvadeLogicMoveModifier"
+        }
+      ]
+    },
+    "EvadeLogicMoveModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyLogicMoveAction",
+          "MovementConfig": {
+            "$type": "ConfigMovementTarget",
+            "DefaultOffset": {
+              "x": 0,
+              "y": 0,
+              "z": -999
+            },
+            "Duration": 0.65,
+            "Gravity": 0,
+            "HitNormalRatio": 1,
+            "HitTangentialRatio": 1,
+            "MoveType": {
+              "$type": "MovementTypeLerpSpeed",
+              "Speed": 1.5
+            },
+            "ReachTargetStop": true,
+            "TargetPosRot": {
+              "CoordsOption": "Self",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "BackupOffsetReferTarget": "Self",
+                "NodePoint": "MonsterPos_A61",
+                "OffsetReferTarget": "NodePoint"
+              }
+            },
+            "TargetUpdateMode": "Always",
+            "TimesUpMoveOption": "Stop"
+          },
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "FadeOutModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "FadeOutModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "FadeInModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "BlinkEvade"
+          ],
+          "IsAdd": false
+        }
+      ]
+    },
+    "FadeInModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "PopEntityVisibleWithTagAction",
+          "Tag": "TyrantEvade"
+        },
+        {
+          "$type": "InterruptDitherFadeAction",
+          "Tag": "Evade_Dither_Fade",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptDitherFadeAction",
+          "CustomKey": "Monster_TyrantPompey_Floater",
+          "Tag": "Evade_Dither_Fade",
+          "Target": "Custom"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "CustomKey": "Monster_TyrantPompey_Floater",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Custom",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ]
+    },
+    "FadeOutModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.1,
+          "TimeUpActions": [
+            {
+              "$type": "PushEntityVisibleWithTagAction",
+              "Tag": "TyrantEvade",
+              "Visible": false
+            }
+          ]
+        }
+      ],
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "DitherFadeAction",
+          "DitherFadeKey": "Monster_DeathXIII_Dither_Fade",
+          "Tag": "Evade_Dither_Fade",
+          "Target": "Self"
+        },
+        {
+          "$type": "DitherFadeAction",
+          "CustomKey": "Monster_TyrantPompey_Floater",
+          "DitherFadeKey": "Monster_DeathXIII_Dither_Fade",
+          "Tag": "Evade_Dither_Fade",
+          "Target": "Custom"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "CustomKey": "Monster_TyrantPompey_Floater",
+          "Tag": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01",
+          "Target": "Custom",
+          "key": "Monster_TyrantPompey_Floate_01_MA_Move_Start_02_SecondaryEmission_01"
+        }
+      ]
+    },
+    "SpecialAttackReadyModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    },
+    "SpecialAttack_2_LocigMoveModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "MuteRootMotionAction",
+          "EnableMute": true
+        },
+        {
+          "$type": "ApplyLogicMoveAction",
+          "MovementConfig": {
+            "$type": "ConfigMovementTarget",
+            "DefaultOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "Duration": 1,
+            "Gravity": 0,
+            "MoveType": {
+              "$type": "MovementTypeFixedTime",
+              "Time": 1
+            },
+            "MuteRootMotionMovement": true,
+            "ReachTargetStop": false,
+            "TargetPosRot": {
+              "CoordsOption": "Self",
+              "Offset": {
+                "AngleOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "IsClampOffsetDistance": false,
+                "PositionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              "TargetOption": {
+                "$type": "ConfigPosRotReferTarget",
+                "BackupOffsetReferTarget": "Self",
+                "OffsetReferTarget": "SavePoint",
+                "PointName": "SpecialAttack_StartPoint"
+              }
+            },
+            "TargetUpdateMode": "Always",
+            "TimesUpMoveOption": "Stop"
+          },
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "MuteRootMotionAction",
+          "EnableMute": false
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "SpecialAttack_ATK03"
+      ],
+      "IsAdd": true
+    },
+    {
+      "$type": "HandleAnimatorZoneTagsAction",
+      "AnimatorStateTags": [
+        "BlinkEvade"
+      ],
+      "IsAdd": true
+    },
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "SpecialAttackReadyModifier"
+    }
+  ]
+}

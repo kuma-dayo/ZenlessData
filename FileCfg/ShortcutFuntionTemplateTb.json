@@ -1,114 +1,124 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "BCOIKMCDGPN": 9001,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Role",
-      "BNPPJHFLKHC": "Assets/NapResources/UI/Sprite/MainCityMenus/Packer/IconRoleBtn.png",
-      "DNNMEALACPB": 1,
-      "FJCPKFMKHIK": 1008,
-      "NPKCKPMOJMH": 400,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9001,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Role",
+      "AEAKEGKKMKE": "Assets/NapResources/UI/Sprite/MainCityMenus/Packer/IconRoleBtn.png",
+      "LPNNFBOPGMP": 1,
+      "DOBJLOINLEN": 1008,
+      "NGABMLEEDNM": 400,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9002,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Gashapon",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconGashaponBtn.png",
-      "DNNMEALACPB": 2,
-      "FJCPKFMKHIK": 1002,
-      "NPKCKPMOJMH": 1900,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9002,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Gashapon",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconGashaponBtn.png",
+      "LPNNFBOPGMP": 2,
+      "DOBJLOINLEN": 1002,
+      "NGABMLEEDNM": 1900,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9003,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_BP",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconBPBtn.png",
-      "DNNMEALACPB": 3,
-      "FJCPKFMKHIK": 1038,
-      "NPKCKPMOJMH": 2300,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9003,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_BP",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconBPBtn.png",
+      "LPNNFBOPGMP": 3,
+      "DOBJLOINLEN": 1038,
+      "NGABMLEEDNM": 2300,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9004,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Bag",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconBagBtn.png",
-      "DNNMEALACPB": 4,
-      "FJCPKFMKHIK": 1006,
-      "NPKCKPMOJMH": 0,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9004,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Bag",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconBagBtn.png",
+      "LPNNFBOPGMP": 4,
+      "DOBJLOINLEN": 1006,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9005,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Setting",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconSetUp.png",
-      "DNNMEALACPB": 5,
-      "FJCPKFMKHIK": 1014,
-      "NPKCKPMOJMH": 0,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9005,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Setting",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconSetUp.png",
+      "LPNNFBOPGMP": 5,
+      "DOBJLOINLEN": 1014,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9006,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Mail",
-      "BNPPJHFLKHC": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconMail.png",
-      "DNNMEALACPB": 6,
-      "FJCPKFMKHIK": 1015,
-      "NPKCKPMOJMH": 800,
-      "NLNMPNADHNA": true
+      "HCLEPMHPOBH": 9006,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Mail",
+      "AEAKEGKKMKE": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconMail.png",
+      "LPNNFBOPGMP": 6,
+      "DOBJLOINLEN": 1015,
+      "NGABMLEEDNM": 800,
+      "JPFHHJAEHPA": true
     },
     {
-      "BCOIKMCDGPN": 9007,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Activity",
-      "BNPPJHFLKHC": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconActivity.png",
-      "DNNMEALACPB": 7,
-      "FJCPKFMKHIK": 1020,
-      "NPKCKPMOJMH": 1602,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9007,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Activity",
+      "AEAKEGKKMKE": "UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconActivity.png",
+      "LPNNFBOPGMP": 7,
+      "DOBJLOINLEN": 1020,
+      "NGABMLEEDNM": 1602,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9008,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Navigation",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconNavigationBtn.png",
-      "DNNMEALACPB": 8,
-      "FJCPKFMKHIK": 1009,
-      "NPKCKPMOJMH": 0,
-      "NLNMPNADHNA": false
+      "HCLEPMHPOBH": 9008,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Navigation",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconNavigationBtn.png",
+      "LPNNFBOPGMP": 8,
+      "DOBJLOINLEN": 1009,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": false
     },
     {
-      "BCOIKMCDGPN": 9009,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_HandBook",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconHandBookBtn.png",
-      "DNNMEALACPB": 9,
-      "FJCPKFMKHIK": 10037,
-      "NPKCKPMOJMH": 0,
-      "NLNMPNADHNA": true
+      "HCLEPMHPOBH": 9009,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_HandBook",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconHandBookBtn.png",
+      "LPNNFBOPGMP": 9,
+      "DOBJLOINLEN": 10037,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": true
     },
     {
-      "BCOIKMCDGPN": 9022,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_IconNotice",
-      "BNPPJHFLKHC": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconNotice.png",
-      "DNNMEALACPB": 10,
-      "FJCPKFMKHIK": 1016,
-      "NPKCKPMOJMH": 900,
-      "NLNMPNADHNA": true
+      "HCLEPMHPOBH": 9022,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_IconNotice",
+      "AEAKEGKKMKE": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconMenusOption/Packer/IconNotice.png",
+      "LPNNFBOPGMP": 10,
+      "DOBJLOINLEN": 1016,
+      "NGABMLEEDNM": 900,
+      "JPFHHJAEHPA": true
     },
     {
-      "BCOIKMCDGPN": 90011,
-      "MEDBECBOFKM": [],
-      "JFAJOFLFLDC": "ShortcutFuntion_Photograph",
-      "BNPPJHFLKHC": "UI/Sprite/MainCityMenus/Packer/IconPhotograph.png",
-      "DNNMEALACPB": 11,
-      "FJCPKFMKHIK": 1021,
-      "NPKCKPMOJMH": 0,
-      "NLNMPNADHNA": true
+      "HCLEPMHPOBH": 90011,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_Photograph",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconPhotograph.png",
+      "LPNNFBOPGMP": 11,
+      "DOBJLOINLEN": 1021,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": true
+    },
+    {
+      "HCLEPMHPOBH": 9030,
+      "HEJLHOBHLEF": [],
+      "DEKCHIMNMAD": "ShortcutFuntion_BackFlow",
+      "AEAKEGKKMKE": "UI/Sprite/MainCityMenus/Packer/IconBagBtn.png",
+      "LPNNFBOPGMP": 12,
+      "DOBJLOINLEN": 10076,
+      "NGABMLEEDNM": 0,
+      "JPFHHJAEHPA": false
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "JIJNDLLPCHO": [
+    {
+      "OCCHLJNCLGJ": 200101,
+      "KEJHIAAAAFA": [
+        20010101,
+        20010102,
+        20010103
+      ],
+      "FMOCIALPKJI": 1111,
+      "PGEEBIOCOKC": "ActivityRestaurant_Chapter_01"
+    },
+    {
+      "OCCHLJNCLGJ": 200102,
+      "KEJHIAAAAFA": [
+        20010201,
+        20010202,
+        20010203
+      ],
+      "FMOCIALPKJI": 1112,
+      "PGEEBIOCOKC": "ActivityRestaurant_Chapter_02"
+    },
+    {
+      "OCCHLJNCLGJ": 200103,
+      "KEJHIAAAAFA": [
+        20010301,
+        20010302,
+        20010303
+      ],
+      "FMOCIALPKJI": 1113,
+      "PGEEBIOCOKC": "ActivityRestaurant_Chapter_03"
+    }
+  ]
+}

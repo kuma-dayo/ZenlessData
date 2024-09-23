@@ -78,7 +78,7 @@
       "OnAdded": [
         {
           "$type": "ModifyTeamFeverAddRatioAction",
-          "FeverAddRatio": 0.0
+          "FeverAddRatio": 0
         }
       ]
     },

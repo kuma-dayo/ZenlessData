@@ -5,31 +5,31 @@
       "Value": 0.15
     },
     "AS_AddedDamageRatio_Final_01": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_02": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_03": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_04": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_05": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_06": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Final_07": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_Tick": {
       "Value": 0.025
     },
     "AS_Duration": {
-      "Value": 3.0
+      "Value": 3
     },
     "AS_SpRecoverDelta": {
       "Value": 0.45
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "DelayTime": 1.0,
+          "DelayTime": 1,
           "TimeUpActions": [
             {
               "$type": "RemoveModifier",
@@ -192,7 +192,7 @@
           ]
         },
         {
-          "DelayTime": 2.0,
+          "DelayTime": 2,
           "TimeUpActions": [
             {
               "$type": "RemoveModifier",
@@ -222,7 +222,7 @@
           ]
         },
         {
-          "DelayTime": 3.0,
+          "DelayTime": 3,
           "TimeUpActions": [
             {
               "$type": "RemoveModifier",

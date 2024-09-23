@@ -1,0 +1,16 @@
+{
+  "AbilityName": "Quest_NPC_Man_03_Part_WalkingStick",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "PushPointGameObjectControlAction",
+        "AttachPointNameList": [
+          "Man03_Parts01"
+        ],
+        "IsActive": true,
+        "Tag": "Man_03_Part_WalkingStick"
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
       "Value": 0
     },
     "AS_BuffDamageRatio_0": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_BuffDamageRatio_1": {
       "Value": 0.2
@@ -14,10 +14,10 @@
       "Value": 0.5
     },
     "AS_MaxElementAccumulationRatio": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_MaxElementAccumulationRatio_0": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_MaxElementAccumulationRatio_1": {
       "Value": 0.2

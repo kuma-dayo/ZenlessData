@@ -1,0 +1,50 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Falling_Start",
+          "FrameCountHigh": 210,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "HideEtherModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_Background_01_Falling_Default",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "HideEtherModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "TriggerCollider"
+          ],
+          "IsActive": false,
+          "Tag": "Device_Prop_Background_01_Falling_DisableCollider"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "TriggerCollider"
+          ],
+          "IsActive": true,
+          "Tag": "Device_Prop_Background_01_Falling_DisableCollider"
+        }
+      ],
+      "Target": "Self"
+    }
+  }
+}

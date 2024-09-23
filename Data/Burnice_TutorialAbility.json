@@ -1,0 +1,95 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "IsEnhance",
+          "CustomReferMaxPropertyType": "MaxIsEnhance",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Quest1Modifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_TutorialAbility",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnPatternAttackLanded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest2Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Attack_Enhance_01_AttackProperty_01",
+              "Burnice_Attack_Enhance_01_Explode_AttackProperty_01",
+              "Burnice_Attack_Enhance_01_Explode_AttackProperty_02"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest3Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Explode_AttackProperty_01"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Quest1Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Burnice_1"
+        }
+      ]
+    },
+    "Quest2Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Burnice_2"
+        }
+      ]
+    },
+    "Quest3Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Burnice_3"
+        }
+      ]
+    }
+  }
+}

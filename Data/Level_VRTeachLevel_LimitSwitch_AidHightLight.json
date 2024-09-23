@@ -2,6 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "AttachStateWithModifierMixin",
+      "CheckCloudPlatformPerfectSwitch": true,
       "ConfigList": [
         {
           "AnimatorStateName": "Attack_1",
@@ -266,6 +267,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -278,6 +282,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"

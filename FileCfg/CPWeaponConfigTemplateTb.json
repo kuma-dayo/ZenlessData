@@ -1,3 +1,2075 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 4,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400001,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.6
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 2,
+      "JAHDPEEJPCI": [
+        800001
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 28,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400002,
+      "GGMGABICFJA": [
+        0.4,
+        1.7
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800002
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.85
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 28,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400003,
+      "GGMGABICFJA": [
+        0.4,
+        1.2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800003
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.6
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400004,
+      "GGMGABICFJA": [
+        0.4,
+        1.1
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800004
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 30,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400005,
+      "GGMGABICFJA": [
+        0.4,
+        1.1
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800005
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 6,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400006,
+      "GGMGABICFJA": [
+        0.4,
+        1.1
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800006
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 7,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 5,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400007,
+      "GGMGABICFJA": [
+        0.4,
+        1.1
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800007
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 8,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 29,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400008,
+      "GGMGABICFJA": [
+        0.4,
+        1.1
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800008
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 9,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 5,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400009,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800009
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 10,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 29,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400010,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800010
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 11,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 6,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10017
+      ],
+      "FCGKPNFCMLE": 400011,
+      "GGMGABICFJA": [
+        0.4,
+        1.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800011
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Plumber",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.75
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 12,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 3,
+      "BJCPMLCBGOI": 110,
+      "EGNFLICPCOH": [
+        10019
+      ],
+      "FCGKPNFCMLE": 400012,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0.15,
+        0.6
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 7,
+      "JAHDPEEJPCI": [
+        800012
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_BBGun",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 13,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 8,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10003
+      ],
+      "FCGKPNFCMLE": 400013,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800013
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Meat",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 14,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 17,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400014,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800014
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 15,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 9,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400015,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800015
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 16,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 17,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10018
+      ],
+      "FCGKPNFCMLE": 400016,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800016
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_AirHammer",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 17,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 10,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400017,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800017
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 18,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 10,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10007
+      ],
+      "FCGKPNFCMLE": 400018,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800018
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Weapon_Wave_Rock",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 19,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 12,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400019,
+      "GGMGABICFJA": [
+        0.4,
+        0.7
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800019
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0,
+        0
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 20,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 24,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10002
+      ],
+      "FCGKPNFCMLE": 400020,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 27,
+      "JAHDPEEJPCI": [
+        800020
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Rose",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 21,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 13,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10003
+      ],
+      "FCGKPNFCMLE": 400021,
+      "GGMGABICFJA": [
+        0.4,
+        4.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800021
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Meat",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        2.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 22,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 14,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400022,
+      "GGMGABICFJA": [
+        0.4,
+        2.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 5,
+      "JAHDPEEJPCI": [
+        800022
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 23,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 15,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400023,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800023
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 180,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 24,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 16,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400024,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        102,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800024
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 25,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 30,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400025,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800025
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 26,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10004
+      ],
+      "FCGKPNFCMLE": 400026,
+      "GGMGABICFJA": [
+        0.4,
+        0.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800026
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Fist",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 27,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 2,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10003
+      ],
+      "FCGKPNFCMLE": 400027,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800027
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Meat",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 28,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 30,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10005
+      ],
+      "FCGKPNFCMLE": 400028,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800028
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Bottle",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 29,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 5,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400029,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800029
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 30,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 6,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10003
+      ],
+      "FCGKPNFCMLE": 400030,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800030
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Meat",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 31,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10007
+      ],
+      "FCGKPNFCMLE": 400031,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800031
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_Weapon_Wave_Rock",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 32,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 4,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10008
+      ],
+      "FCGKPNFCMLE": 400032,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.4
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 14,
+      "JAHDPEEJPCI": [
+        800032
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Slingshot",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 33,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 26,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        63
+      ],
+      "FCGKPNFCMLE": 400033,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 26,
+      "JAHDPEEJPCI": [
+        800033
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_NuclearButton",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 34,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 24,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400034,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0.2,
+        1
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 23,
+      "JAHDPEEJPCI": [
+        800034
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 35,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 18,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10011
+      ],
+      "FCGKPNFCMLE": 400035,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.3
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 16,
+      "JAHDPEEJPCI": [
+        800035
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Shotgun",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 36,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 24,
+      "BJCPMLCBGOI": 110,
+      "EGNFLICPCOH": [
+        10012
+      ],
+      "FCGKPNFCMLE": 400036,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        -0.1,
+        0.25
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 24,
+      "JAHDPEEJPCI": [
+        800036
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Extinguisher",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 37,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 27,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10013
+      ],
+      "FCGKPNFCMLE": 400037,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 13,
+      "JAHDPEEJPCI": [
+        800037
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Bomb",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 38,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 24,
+      "BJCPMLCBGOI": 110,
+      "EGNFLICPCOH": [
+        10014
+      ],
+      "FCGKPNFCMLE": 400038,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0.3,
+        0.9
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 23,
+      "JAHDPEEJPCI": [
+        800038
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Loudspeaker",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 39,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 3,
+      "BJCPMLCBGOI": 110,
+      "EGNFLICPCOH": [
+        10015
+      ],
+      "FCGKPNFCMLE": 400039,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0.2,
+        0.4
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 12,
+      "JAHDPEEJPCI": [
+        800039,
+        900401
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Octopus",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 40,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 4,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        31
+      ],
+      "FCGKPNFCMLE": 400040,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.2
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 11,
+      "JAHDPEEJPCI": [
+        800040
+      ],
+      "BHLGFEAKHFN": "",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 41,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 23,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400041,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        2
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 10,
+      "JAHDPEEJPCI": [
+        800041
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 42,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 23,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400042,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        2
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 9,
+      "JAHDPEEJPCI": [
+        800042
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 43,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 7,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400043,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.5
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 8,
+      "JAHDPEEJPCI": [
+        800043
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 360,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 44,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 19,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10020
+      ],
+      "FCGKPNFCMLE": 400044,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        101,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800044
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 45,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 26,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10021
+      ],
+      "FCGKPNFCMLE": 400045,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 15,
+      "JAHDPEEJPCI": [
+        800045
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 46,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 7,
+      "BJCPMLCBGOI": 110,
+      "EGNFLICPCOH": [
+        10016
+      ],
+      "FCGKPNFCMLE": 400046,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0.2,
+        0.7
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 11,
+      "JAHDPEEJPCI": [
+        800046
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_WaterGun",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 47,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 27,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10013
+      ],
+      "FCGKPNFCMLE": 400047,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        202,
+        20000
+      ],
+      "JCLBJBIOOPH": 17,
+      "JAHDPEEJPCI": [
+        800047
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Bomb",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 48,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 26,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10021
+      ],
+      "FCGKPNFCMLE": 400048,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.5
+      ],
+      "FFIMHKNJGLG": [
+        201,
+        20000
+      ],
+      "JCLBJBIOOPH": 18,
+      "JAHDPEEJPCI": [
+        800048
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 49,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 27,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400049,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        91901,
+        20000
+      ],
+      "JCLBJBIOOPH": 19,
+      "JAHDPEEJPCI": [
+        800049
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 50,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 28,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400050,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        91601,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800050
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 51,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 28,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10001
+      ],
+      "FCGKPNFCMLE": 400051,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        91602,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800051
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Iron",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 52,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 26,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400052,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        91902,
+        20000
+      ],
+      "JCLBJBIOOPH": 20,
+      "JAHDPEEJPCI": [
+        800052
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 53,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400053,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        91701,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800053
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 54,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10006
+      ],
+      "FCGKPNFCMLE": 400054,
+      "GGMGABICFJA": [
+        0.4,
+        1.3
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        91702,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800054
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Wood",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.65
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 55,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 20,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10005
+      ],
+      "FCGKPNFCMLE": 400055,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        92901,
+        20000
+      ],
+      "JCLBJBIOOPH": 21,
+      "JAHDPEEJPCI": [
+        800055
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Bottle",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 56,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 21,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10005
+      ],
+      "FCGKPNFCMLE": 400056,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        0.2
+      ],
+      "FFIMHKNJGLG": [
+        92902,
+        20000
+      ],
+      "JCLBJBIOOPH": 22,
+      "JAHDPEEJPCI": [
+        800056
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Bottle",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 57,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 29,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        62
+      ],
+      "FCGKPNFCMLE": 400026,
+      "GGMGABICFJA": [
+        0.4,
+        0.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        92801,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800026
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Fist",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 58,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 29,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        115
+      ],
+      "FCGKPNFCMLE": 400026,
+      "GGMGABICFJA": [
+        0.4,
+        0.5
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        92802,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800026
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_Fist",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        0.25
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 10000,
+      "HJBMEGBNBBB": 0,
+      "ADOLFHIHFKI": 1,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [],
+      "FCGKPNFCMLE": 0,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        10000,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [],
+      "BHLGFEAKHFN": "",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 10001,
+      "HJBMEGBNBBB": 2,
+      "ADOLFHIHFKI": 10001,
+      "BJCPMLCBGOI": 20,
+      "EGNFLICPCOH": [
+        10010
+      ],
+      "FCGKPNFCMLE": 400000,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        10001,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        810001
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponDistance_Fire_Laser",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 1,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 9999903,
+      "HJBMEGBNBBB": 1,
+      "ADOLFHIHFKI": 17,
+      "BJCPMLCBGOI": 0,
+      "EGNFLICPCOH": [
+        10018
+      ],
+      "FCGKPNFCMLE": 400016,
+      "GGMGABICFJA": [
+        0.4,
+        2
+      ],
+      "HAOBOCMOCML": [
+        0,
+        1.6
+      ],
+      "FFIMHKNJGLG": [
+        9999903,
+        20000
+      ],
+      "JCLBJBIOOPH": 0,
+      "JAHDPEEJPCI": [
+        800016
+      ],
+      "BHLGFEAKHFN": "Play_sfx_minigame_Survival_WeaponClose_Wave_AirHammer",
+      "HJJFDJIGLNM": [],
+      "CMOCOIKBCMA": 0,
+      "KPNNEEOOLON": 720,
+      "GKHKDLDJBBP": [
+        0.2,
+        1
+      ]
+    }
+  ]
 }

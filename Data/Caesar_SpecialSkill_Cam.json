@@ -1,0 +1,115 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_01_Guard_Start",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Guard_Loop",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Guard_Hit_F_Perfect",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Guard_Hit_F",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_CounterAttack_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_CounterAttack_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraInterruptionModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_SpecialSkill_Cam",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "CameraInterruptionModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Caesar_Attack_Branch_01_Guard_Start_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Caesar_Attack_Branch_01_Guard_Hit_F_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Caesar_Attack_Branch_01_Guard_Hit_F_CamZoom_02"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Caesar_Attack_Branch_01_Guard_Hit_F_Perfect_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Caesar_Attack_Branch_01_Guard_Hit_F_Perfect_CamZoom_02"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Caesar_Attack_Branch_01_Guard_Start_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Caesar_Attack_Branch_01_Guard_Hit_F_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Caesar_Attack_Branch_01_Guard_Hit_F_CamStretch_02"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Caesar_Attack_Branch_01_Guard_Hit_F_Perfect_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Caesar_Attack_Branch_01_Guard_Hit_F_Perfect_CamStretch_02"
+        }
+      ]
+    }
+  }
+}

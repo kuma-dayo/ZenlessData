@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -20,7 +20,7 @@
             "RemoveEffectModifier"
           ],
           "NormalizedTimeHigh": 0.39,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -29,8 +29,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -40,7 +40,7 @@
             "RemoveEffectModifier"
           ],
           "NormalizedTimeHigh": 0.075,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -49,8 +49,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -59,8 +59,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -69,8 +69,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -80,7 +80,7 @@
             "RemoveEffectModifier"
           ],
           "NormalizedTimeHigh": 0.24,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -89,8 +89,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -99,8 +99,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -110,7 +110,7 @@
             "RemoveEffectModifier"
           ],
           "NormalizedTimeHigh": 0.38,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -119,8 +119,8 @@
           "ModifierNameList": [
             "RemoveEffectModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -130,7 +130,7 @@
             "RemoveEffectModifier"
           ],
           "NormalizedTimeHigh": 0.33,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -190,16 +190,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -219,16 +219,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -436,6 +436,74 @@
                     {
                       "$type": "RemoveModifier",
                       "ModifierName": "ExModeModifier",
+                      "Predicates": [
+                        {
+                          "$type": "ByNot",
+                          "Predicates": [
+                            {
+                              "$type": "ByOr",
+                              "Predicates": [
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_Counter_02",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Self"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_Counter_02_End",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Self"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_BeHitAid_Enhance",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Caster"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_BeHitAid_Enhance_End",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Caster"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_Normal_Enhance_03",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Caster"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_Normal_Enhance_03_Loop",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Caster"
+                                },
+                                {
+                                  "$type": "ByAnimatorStateNormalizedTime",
+                                  "AnimatorStateName": "Attack_Normal_Enhance_03_End",
+                                  "LayerIndex": 0,
+                                  "NormalizedTimeHigh": 1,
+                                  "NormalizedTimeLow": 0,
+                                  "Target": "Caster"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
                       "Target": "Self"
                     }
                   ],

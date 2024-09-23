@@ -1,0 +1,23 @@
+{
+  "AbilityName": "Pulchra_TriggerThrowTarget02_Explode",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "InterruptBulletAction",
+        "InterruptType": "AsTimeUp",
+        "IsGlobal": false,
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Monster_Pulchra_Attack_ThrowTarget_02_Attackproperty_03"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Tag": "Pulchra_ThrowTarget_02"
+      }
+    ]
+  }
+}

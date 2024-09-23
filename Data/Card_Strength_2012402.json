@@ -1,0 +1,59 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ListenAbilityMixin",
+      "AbilityName": "Card_Strength_2002400",
+      "OnListenAbilityAdded": [
+        {
+          "$type": "SetTargetAbilitySpecialAction",
+          "Params": [
+            {
+              "AbilityName": "Card_Strength_2002400",
+              "AbilitySpecials": [
+                {
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_HasCard_2002102",
+                  "ParamName": "HasCard_20102402",
+                  "ParamType": "Float"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "SetTargetAbilitySpecialAction",
+          "Params": [
+            {
+              "AbilityName": "Card_Strength_2012401",
+              "AbilitySpecials": [
+                {
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_NewThreshold",
+                  "ParamName": "HpThreshold",
+                  "ParamType": "Float"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Targetting": "Self"
+    }
+  ],
+  "AbilityName": "Card_Strength_2012402",
+  "AbilitySpecials": {
+    "AS_AddBreakStunRatio": {
+      "Value": 0.04
+    },
+    "AS_HasCard_2002102": {
+      "Value": 1
+    },
+    "AS_NewStackNum": {
+      "Value": 10
+    },
+    "AS_NewThreshold": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique"
+}

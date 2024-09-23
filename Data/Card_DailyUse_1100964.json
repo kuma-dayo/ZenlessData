@@ -1,0 +1,64 @@
+{
+  "AbilityName": "Card_DailyUse_1100964",
+  "AbilitySpecials": {
+    "AS_TemplateID": {
+      "Value": 1071
+    },
+    "AddedStunRatio": {
+      "Value": 0.15
+    },
+    "OwnCaesar_1100964": {
+      "Value": 0
+    },
+    "ShieldAmount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "scenevar(OwnCaesar_1100964)",
+        "ParamName": "OwnCaesar_1100964",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "ShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "ShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": 1,
+            "ParamName": "OwnCaesar_1100964",
+            "ParamType": "Float",
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AddedStunRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

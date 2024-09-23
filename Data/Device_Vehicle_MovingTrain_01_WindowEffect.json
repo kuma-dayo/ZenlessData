@@ -5,12 +5,14 @@
     "MoveStartModifier": {
       "Duration": -1,
       "ModifierStacking": "Unique",
-      "OnAdded": []
+      "OnAdded": [
+      ]
     },
     "WindowModifier": {
       "Duration": -1,
       "ModifierStacking": "Unique",
-      "OnAdded": []
+      "OnAdded": [
+      ]
     }
   }
 }

@@ -26,7 +26,8 @@
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",
-    "OnAdded": []
+    "OnAdded": [
+    ]
   },
   "Modifiers": {
     "Card_Froze_2001100_BuffIcon_01": {

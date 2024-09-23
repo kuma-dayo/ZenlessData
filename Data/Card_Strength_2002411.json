@@ -1,0 +1,14 @@
+{
+  "AbilityName": "Card_Strength_2002411",
+  "AbilitySpecials": {
+    "AS_MaxHPRatio": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_MaxHPRatio": "%AS_MaxHPRatio"
+    }
+  }
+}

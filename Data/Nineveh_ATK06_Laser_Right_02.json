@@ -2,7 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "LaserMixin",
-      "AliveDuration": 1.0,
+      "AliveDuration": 1,
       "AudioEffect": "",
       "BlockCameraShake": "Monster_Nineveh_ATK06_CamShake_E",
       "BlockColliderRadius": 0,
@@ -15,14 +15,14 @@
       ],
       "DodgeColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.45
@@ -38,7 +38,7 @@
       "HitEffect": {
         "EffectPattern": ""
       },
-      "HitInterval": 1.0,
+      "HitInterval": 1,
       "HitLayers": [
         "HitCollider"
       ],
@@ -47,14 +47,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -69,14 +69,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -99,7 +99,8 @@
           "Target": "Self"
         }
       ],
-      "OnLaserStartAction": [],
+      "OnLaserStartAction": [
+      ],
       "StartEffect": {
         "EffectPattern": ""
       },

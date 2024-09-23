@@ -1,0 +1,12 @@
+{
+  "AbilityName": "Bellum_Death_Dither",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "DitherFadeAction",
+      "DitherFadeKey": "Monster_MorsType_Dither_Fade",
+      "Tag": "Bellum_Death",
+      "Target": "Self"
+    }
+  ]
+}

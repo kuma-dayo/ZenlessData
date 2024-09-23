@@ -1,0 +1,14 @@
+{
+  "AbilityName": "TyrantPompey_Floater_Death",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "SetAnimCtrlerParamAction",
+      "BoolVal": true,
+      "CustomKey": "Monster_TyrantPompey_Floater",
+      "ParamName": "Trigger_Die",
+      "ParamType": 1,
+      "Target": "Custom"
+    }
+  ]
+}

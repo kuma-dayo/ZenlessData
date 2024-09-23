@@ -9,7 +9,7 @@
           "ModifierNameList": [
             "LucySwitchOutModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.1
         },
         {
@@ -18,8 +18,8 @@
           "ModifierNameList": [
             "LucySwitchOutModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Death",
@@ -27,8 +27,8 @@
           "ModifierNameList": [
             "LucySwitchOutModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     },

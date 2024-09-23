@@ -1,0 +1,71 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ListenHpShieldChangeMixin",
+      "Duration": -1,
+      "IgnoreSource": false,
+      "OnShieldRecoverActions": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AvatarPropertyModifier_02_AbyssPeriodicLayer06",
+          "Target": "TeamAvatars"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Abyss_PeriodicLayerBuff_06",
+  "AbilitySpecials": {
+    "AS_BaseAtkRatio": {
+      "Value": 0.2
+    },
+    "AS_DamageTakeRatio": {
+      "Value": 0.2
+    },
+    "AS_ExtraBaseAtkRatio": {
+      "Value": 0.2
+    },
+    "AS_SpRecover": {
+      "Value": 10
+    },
+    "Duration": {
+      "Value": 20
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AvatarPropertyModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AvatarPropertyModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAtkRatio",
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    },
+    "AvatarPropertyModifier_02_AbyssPeriodicLayer06": {
+      "Duration": "%Duration",
+      "IsUnique": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": "%AS_SpRecover",
+          "Percentage": 0,
+          "Target": "Self"
+        }
+      ],
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_ExtraBaseAtkRatio"
+      }
+    }
+  }
+}

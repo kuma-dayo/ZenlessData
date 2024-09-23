@@ -34,7 +34,7 @@
       ]
     },
     "Trigger_Skill12": {
-      "Duration": 6.0,
+      "Duration": 6,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -61,7 +61,7 @@
       ]
     },
     "Trigger_Skill63": {
-      "Duration": 3.0,
+      "Duration": 3,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {

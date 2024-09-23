@@ -7,13 +7,13 @@
         "CapsuleColliderHeight": 1.2,
         "CapsuleColliderRadius": 0.4,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": -0.6
         },
         "ColliderType": "Capsule"
@@ -27,24 +27,24 @@
         "Offset": {
           "AngleOffset": {
             "x": 0,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": 0,
             "z": 0.7
           },
           "RandomAngleRange": {
             "x": 0.85,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           },
           "RandomPositionRange": {
-            "x": 0.0,
-            "y": 0.0,
+            "x": 0,
+            "y": 0,
             "z": 0
           }
         },
@@ -80,7 +80,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -92,14 +92,14 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

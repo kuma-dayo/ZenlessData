@@ -121,7 +121,8 @@
   ],
   "AbilityName": "Cottus_SwitchPhase_MeshVisible",
   "AbilityStacking": "Unique",
-  "DefaultModifier": {},
+  "DefaultModifier": {
+  },
   "Modifiers": {
     "WeaponLockModifier": {
       "Duration": -1,
@@ -133,16 +134,16 @@
           "FollowPosRot": {
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -153,9 +154,9 @@
               "OffsetReferTarget": "Self"
             }
           },
-          "PosSpeed": 1.0,
+          "PosSpeed": 1,
           "PosType": "Instant",
-          "RotRatio": 8.0,
+          "RotRatio": 8,
           "RotType": "Instant"
         }
       ],
@@ -175,16 +176,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

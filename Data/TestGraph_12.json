@@ -1,0 +1,276 @@
+{
+  "AbilityName": "TestGraph_12",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAbilityTrigger": {
+          "x": 129.0246,
+          "y": 514.0491
+        },
+        "OnAdded": {
+          "x": 114.7935,
+          "y": 263.7673
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": -299,
+          "y": 54
+        },
+        "Zoom": 1
+      },
+      "Node": [
+        {
+          "x": 645.8771,
+          "y": 514.2438
+        },
+        {
+          "x": 690.6491,
+          "y": 263.7221
+        },
+        {
+          "x": 362.8544,
+          "y": 513.7562
+        },
+        {
+          "x": 1446.343,
+          "y": 265.315
+        },
+        {
+          "x": 770.7039,
+          "y": 468.1389
+        },
+        {
+          "x": 1408.066,
+          "y": 468.5718
+        },
+        {
+          "x": 1006.859,
+          "y": 468.4283
+        },
+        {
+          "x": 1199.014,
+          "y": 584.679
+        },
+        {
+          "x": 1906.131,
+          "y": 469
+        },
+        {
+          "x": 1719.85,
+          "y": 587.8771
+        },
+        {
+          "x": 1219.85,
+          "y": 265.3425
+        },
+        {
+          "x": 288.2601,
+          "y": 264.3425
+        },
+        {
+          "x": 479.4654,
+          "y": 344
+        },
+        {
+          "x": 946.6026,
+          "y": 264.0275
+        },
+        {
+          "x": 1669.863,
+          "y": 265
+        },
+        {
+          "x": 1497.575,
+          "y": 369.9725
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAbilityTrigger": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 2,
+        "ParametersBind": [
+        ]
+      },
+      "OnAdded": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 11,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": -1,
+        "InitialGraphKey": {
+          "DefaultValue": "TestGraph_12"
+        },
+        "Position": {
+          "BindId": 1000
+        },
+        "PropID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "CreateAttackProperty",
+        "DefaultOutBind": 13,
+        "Key": {
+          "DefaultValue": "Anbi_Attack_Normal_01_AttackProperty_01"
+        },
+        "Position": {
+          "BindId": 1006
+        },
+        "PreActionBind": [
+          12
+        ],
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "DefaultOutBind": 0,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 14,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 1
+        }
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "AttachAttackProperty",
+        "DefaultOutBind": 3,
+        "Key": {
+          "DefaultValue": "Anbi_Attack_Normal_01_AttackProperty_01"
+        }
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "DefaultOutBind": 1,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1005
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1005
+        },
+        "InTwo": {
+          "DefaultValue": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          }
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1006
+          ]
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 10,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 1
+        }
+      },
+      {
+        "$type": "DestroyProp",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          15
+        ],
+        "PropID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1007
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1007
+          ]
+        }
+      }
+    ],
+    "VariableRegisterList": [
+    ]
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAbilityTrigger"
+    }
+  ],
+  "OnAdded": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAdded"
+    }
+  ]
+}

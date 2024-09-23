@@ -42,16 +42,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -64,9 +64,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_01_IdleRareS_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -85,16 +85,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -107,9 +107,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_01_IdelRareA_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -128,16 +128,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -150,9 +150,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_01_IdleRareB_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -171,16 +171,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -193,9 +193,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_01_IdleRareC_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -220,16 +220,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -242,9 +242,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_02_IdleRareS_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -263,16 +263,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -285,9 +285,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_02_IdleRareA_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -306,16 +306,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -328,9 +328,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_02_IdleRareB_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {
@@ -349,16 +349,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -371,9 +371,9 @@
           },
           "EffectPattern": "Eff_Device_Prop_TreasureCar_02_IdleRareC_01_01_Light",
           "EffectScale": {
-            "x": 1.0,
+            "x": 1,
             "y": 1.02,
-            "z": 1.0
+            "z": 1
           },
           "Predicates": [
             {

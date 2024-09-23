@@ -1,151 +1,151 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1,
-      "EAAFCGPDFAA": "Raw",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 1,
+      "DEPJKIPACJK": "Raw",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2,
-      "EAAFCGPDFAA": "Test2",
-      "JGCAJDFNJBK": "TriggerName",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2,
+      "DEPJKIPACJK": "Test2",
+      "PCANFHBAKOE": "TriggerName",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2000,
-      "EAAFCGPDFAA": "Sleep_Allied_Normal",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 2,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2000,
+      "DEPJKIPACJK": "Sleep_Allied_Normal",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 2,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2001,
-      "EAAFCGPDFAA": "Error_Allied_Normal",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 3,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2001,
+      "DEPJKIPACJK": "Error_Allied_Normal",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 3,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2002,
-      "EAAFCGPDFAA": "Funny_Allied_Normal",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 5,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2002,
+      "DEPJKIPACJK": "Funny_Allied_Normal",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 5,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2003,
-      "EAAFCGPDFAA": "Evil_Sleep",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 2,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2003,
+      "DEPJKIPACJK": "Evil_Sleep",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 2,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2004,
-      "EAAFCGPDFAA": "Error_Evil",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 3,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2004,
+      "DEPJKIPACJK": "Error_Evil",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 3,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2005,
-      "EAAFCGPDFAA": "LevelUp_Evil_EliteToBoss",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 4,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2005,
+      "DEPJKIPACJK": "LevelUp_Evil_EliteToBoss",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 4,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2006,
-      "EAAFCGPDFAA": "LevelUp_Evil_NormalToElite",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 4,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2006,
+      "DEPJKIPACJK": "LevelUp_Evil_NormalToElite",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 4,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2007,
-      "EAAFCGPDFAA": "Sleep_Neutral_Normal",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 2,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2007,
+      "DEPJKIPACJK": "Sleep_Neutral_Normal",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 2,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2008,
-      "EAAFCGPDFAA": "Error_Neutral_Normal",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 3,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2008,
+      "DEPJKIPACJK": "Error_Neutral_Normal",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 3,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2009,
-      "EAAFCGPDFAA": "Common_Attack",
-      "JGCAJDFNJBK": "Common_Attack",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2009,
+      "DEPJKIPACJK": "Common_Attack",
+      "PCANFHBAKOE": "Common_Attack",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2010,
-      "EAAFCGPDFAA": "Common_BeAttacked",
-      "JGCAJDFNJBK": "Common_BeAttacked",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2010,
+      "DEPJKIPACJK": "Common_BeAttacked",
+      "PCANFHBAKOE": "Common_BeAttacked",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2000201,
-      "EAAFCGPDFAA": "BoombBox_1",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 3,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2000201,
+      "DEPJKIPACJK": "BoombBox_1",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 3,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2000202,
-      "EAAFCGPDFAA": "BoombBox_2",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 4,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2000202,
+      "DEPJKIPACJK": "BoombBox_2",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 4,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 2000203,
-      "EAAFCGPDFAA": "BoombBox_3",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 5,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 2000203,
+      "DEPJKIPACJK": "BoombBox_3",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 5,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 102010701,
-      "EAAFCGPDFAA": "MRL_LoadAmo_Enemy_Bangboo",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 1,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 102010701,
+      "DEPJKIPACJK": "MRL_LoadAmo_Enemy_Bangboo",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 1,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 102010702,
-      "EAAFCGPDFAA": "MRL_Attack_Enemy_Bangboo",
-      "JGCAJDFNJBK": "MRL_Attack_Enemy_Bangboo",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 102010702,
+      "DEPJKIPACJK": "MRL_Attack_Enemy_Bangboo",
+      "PCANFHBAKOE": "MRL_Attack_Enemy_Bangboo",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 102010703,
-      "EAAFCGPDFAA": "MRL_BeAttacked_Enemy_Bangboo",
-      "JGCAJDFNJBK": "MRL_BeAttacked_Enemy_Bangboo",
-      "BFNJPGMACCE": 0,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 102010703,
+      "DEPJKIPACJK": "MRL_BeAttacked_Enemy_Bangboo",
+      "PCANFHBAKOE": "MRL_BeAttacked_Enemy_Bangboo",
+      "CGHGLPIAGHF": 0,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 1980701141,
-      "EAAFCGPDFAA": "EventIconBangbooEvil03_Show",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 4,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 1980701141,
+      "DEPJKIPACJK": "EventIconBangbooEvil03_Show",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 4,
+      "CCOIEMMDEED": 0
     },
     {
-      "NGPCCDGBLLK": 1999999999,
-      "EAAFCGPDFAA": "MRL_AilledMachine",
-      "JGCAJDFNJBK": "",
-      "BFNJPGMACCE": 10,
-      "LKABAAELANN": 0
+      "DKDDFEIAMIF": 1999999999,
+      "DEPJKIPACJK": "MRL_AilledMachine",
+      "PCANFHBAKOE": "",
+      "CGHGLPIAGHF": 10,
+      "CCOIEMMDEED": 0
     }
   ]
 }

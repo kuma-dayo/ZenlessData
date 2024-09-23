@@ -159,8 +159,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -184,8 +184,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -245,8 +245,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -270,8 +270,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -313,8 +313,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -338,8 +338,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -363,8 +363,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front_02",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -460,8 +460,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -485,8 +485,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -510,8 +510,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -535,8 +535,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -560,8 +560,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -585,8 +585,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -610,8 +610,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Front",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"
@@ -635,8 +635,8 @@
             "$type": "ByAnimatorStateNormalizedTime",
             "AnimatorStateName": "Evade_Back",
             "LayerIndex": 0,
-            "NormalizedTimeHigh": 1.0,
-            "NormalizedTimeLow": 0.0
+            "NormalizedTimeHigh": 1,
+            "NormalizedTimeLow": 0
           }
         ],
         "Target": "Self"

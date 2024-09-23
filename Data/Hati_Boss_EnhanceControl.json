@@ -2,7 +2,8 @@
   "AbilityName": "Hati_Boss_EnhanceControl",
   "AbilityStacking": "Unique",
   "DefaultModifier": {
-    "OnBeingHitPre": []
+    "OnBeingHitPre": [
+    ]
   },
   "Modifiers": {
     "EnhanceModifier": {

@@ -1,0 +1,155 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 297,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier1"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 352,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier2"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackPre",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 366,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier3"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackMove",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier1",
+            "MoveEffectModifier2",
+            "MoveEffectModifier3"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 93,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier1"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 6,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier2"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 100,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier3"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackEnd",
+          "FrameCountHigh": 12,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier2"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackEnd",
+          "FrameCountHigh": 105,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveEffectModifier3"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bangboo_RedMoccus_EffectManager",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "MoveEffectModifier1": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachPointName": "Ctr_Wpn",
+          "EffectPattern": "Eff_Bangboo_RedMoccus_Attack_AttackPre_02_Fire"
+        }
+      ]
+    },
+    "MoveEffectModifier2": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "EffectPattern": "Eff_Bangboo_RedMoccus_Attack_AttackPre_04_Spark"
+        }
+      ]
+    },
+    "MoveEffectModifier3": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachPointName": "Ctr_Wpn",
+          "EffectPattern": "Eff_Bangboo_RedMoccus_Attack_AttackPre_01_Weapon"
+        }
+      ]
+    }
+  }
+}

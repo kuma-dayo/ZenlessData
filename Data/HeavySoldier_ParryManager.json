@@ -133,7 +133,7 @@
       ]
     },
     "HitCountModifier": {
-      "Duration": 5.0,
+      "Duration": 5,
       "IgnoreTimeScale": false,
       "MaxStackingNumber": 5,
       "ModifierStacking": "MultipleAllRefresh"
@@ -168,8 +168,8 @@
         },
         {
           "$type": "ByHitAngleRange",
-          "AngleMax": 135.0,
-          "AngleMin": 45.0
+          "AngleMax": 135,
+          "AngleMin": 45
         },
         {
           "$type": "ByDistance",

@@ -1,0 +1,152 @@
+{
+  "AbilityName": "Weapon_Ability_14117",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.05
+    },
+    "AS_Duration": {
+      "Value": 6
+    },
+    "AS_ElementMysteryDelta": {
+      "Value": 30
+    },
+    "AS_IntervalCD": {
+      "Value": 0.3
+    },
+    "AS_SpRecoverDelta": {
+      "Value": 0.6
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "SpRecoverDeltaModifier",
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnBattleEnter": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "SpRecoverDeltaModifier",
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CDModifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByAnimTagList",
+                "TagList": [
+                  "AttackSpecial",
+                  "ExSp"
+                ]
+              },
+              {
+                "$type": "ByAnimTagList",
+                "TagList": [
+                  "AttackAid"
+                ]
+              }
+            ]
+          }
+        ],
+        "Target": "Caster"
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "SpRecoverDeltaModifier",
+        "Target": "Self"
+      }
+    ],
+    "OnSwitchOutFinish": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "SpRecoverDeltaModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedDamageRatioModifier": {
+      "Duration": "%AS_Duration",
+      "MaxStackingNumber": 10,
+      "ModifierStacking": "MultipleAllRefresh",
+      "Properties": {
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio"
+      }
+    },
+    "CDModifier": {
+      "Duration": "%AS_IntervalCD",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedDamageRatioModifier",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedDamageRatioModifier",
+          "Predicates": [
+            {
+              "$type": "ByAvatarSwitchState",
+              "SwitchState": "Out",
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ElementMysteryModifier",
+          "Predicates": [
+            {
+              "$type": "ByModifierStackCount",
+              "CompareType": "GreaterEqual",
+              "ModifierName": "AddedDamageRatioModifier",
+              "StackCount": 5
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "ElementMysteryModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Refresh",
+      "Properties": {
+        "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"
+      }
+    },
+    "SpRecoverDeltaModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_SpRecoverDelta": "%AS_SpRecoverDelta"
+      }
+    }
+  }
+}

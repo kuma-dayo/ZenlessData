@@ -1,0 +1,39 @@
+{
+  "AbilityName": "CampIdle_buff_06",
+  "AbilitySpecials": {
+    "AS_ElementMysteryDelta": {
+      "Value": 10
+    },
+    "CampAddRatio": {
+      "Value": 2
+    },
+    "TextAS_ElementMysteryDelta": {
+      "Value": 10
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_ElementMysteryRatio)*specials(CampAddRatio)",
+        "ParamName": "AS_ElementMysteryRatio",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 4,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "Properties": {
+      "Actor_ElementMysteryDelta": "%AS_ElementMysteryDelta"
+    }
+  }
+}

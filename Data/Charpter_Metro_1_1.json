@@ -1,0 +1,30 @@
+{
+  "AbilityName": "Charpter_Metro_1_1",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Close_Stage_Collider": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "Wall_Collider",
+            "WallCollider_Body_Attack_06",
+            "HullCollider_Body_Attack_06",
+            "HullCollider_Body_Attack_04"
+          ],
+          "IsActive": false,
+          "Tag": "MakeItCanGOAnyWhere"
+        }
+      ]
+    }
+  },
+  "OnAdded": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "Close_Stage_Collider",
+      "Target": "Self"
+    }
+  ]
+}

@@ -5,14 +5,14 @@
       "AliveDuration": 2.1,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,16 +25,16 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -50,7 +50,7 @@
             {
               "$type": "FireEffect",
               "EffectAutoDynamic": {
-                "EffFadeInTime": 1.0,
+                "EffFadeInTime": 1,
                 "EffFadeOutTime": 0.1,
                 "EffHoldTime": 0.1,
                 "EffStartSizeX": 2.7,
@@ -62,26 +62,26 @@
                 "NeedRaycastGround": true,
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -91,7 +91,7 @@
               "Target": "Other"
             }
           ],
-          "DelayTime": 1.0
+          "DelayTime": 1
         },
         {
           "Actions": [
@@ -102,16 +102,16 @@
                 "CoordsOption": "Self",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -142,27 +142,27 @@
       "MovementConfig": {
         "$type": "ConfigMovementParabola",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "DefaultRotAngle": 0,
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.8,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -171,9 +171,9 @@
           }
         },
         "TimesUpMoveOption": "Remain",
-        "h1": 2.0,
+        "h1": 2,
         "h2": 3.5,
-        "s1": 3.0,
+        "s1": 3,
         "s2": 5.5,
         "t1": 0.8,
         "t2": 0.8

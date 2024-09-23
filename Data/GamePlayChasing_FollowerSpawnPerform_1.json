@@ -12,7 +12,7 @@
   },
   "Modifiers": {
     "Monster_Spawn_CameraAim": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {

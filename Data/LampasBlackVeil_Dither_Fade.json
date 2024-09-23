@@ -118,7 +118,7 @@
   "AbilityStacking": "Unique",
   "Modifiers": {
     "FadeInModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -134,7 +134,7 @@
       ]
     },
     "FadeInModifier_02": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -162,7 +162,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -187,7 +187,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [

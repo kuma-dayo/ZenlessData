@@ -1,6 +1,7 @@
 {
   "AbilityName": "Card_Sports_2000803",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",

@@ -323,7 +323,7 @@
                 "Eff_Ellen_Attack_Common_01_GlowMod"
               ],
               "OverrideFadeOutCurve": "QuintEaseInReverse",
-              "OverrideFadeOutTime": 0.0,
+              "OverrideFadeOutTime": 0,
               "Target": "Self"
             },
             {
@@ -332,7 +332,7 @@
                 "Eff_Ellen_Attack_Common_02_Flash"
               ],
               "OverrideFadeOutCurve": "QuintEaseInReverse",
-              "OverrideFadeOutTime": 0.0,
+              "OverrideFadeOutTime": 0,
               "Target": "Self"
             },
             {

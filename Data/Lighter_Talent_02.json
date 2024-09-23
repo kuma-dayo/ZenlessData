@@ -1,0 +1,261 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_05_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LighterTalent02Modifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Start",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LighterTalent02Modifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LighterTalent02Modifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LighterTalent02Modifier02"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "Talent02_HitTimes",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 10
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 20
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 30
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 40
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 50
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 60
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 70
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialsByPropertyAction",
+                  "CustomPropertyType": "Talent02_HitTimes",
+                  "ModifyFunction": "Replace",
+                  "ParamName": "AS_AddedDamageRatio_Talent_02",
+                  "Percentage": "%AS_HitTimestoDamageUpRatio",
+                  "PropertyType": "Custom",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 80
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_Talent_02",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio_Talent_02": {
+      "Value": 0
+    },
+    "AS_HitTimestoDamageUpRatio": {
+      "Value": 0.01
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ModifyProperty",
+        "Amount": 3,
+        "CustomPropertyType": "MaxLoopTimes",
+        "Percentage": 0,
+        "PropertyModifyFunction": "Replace",
+        "PropertyType": "Custom"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LighterTalent02Modifier01": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "Talent02_HitTimes",
+          "Percentage": 0,
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackNormal"
+              ]
+            }
+          ],
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom"
+        }
+      ]
+    },
+    "LighterTalent02Modifier02": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Lighter_Attack_Normal_05_03_AttackProperty_01",
+                "Lighter_Attack_Normal_05_03_AttackProperty_02"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio_Talent_02",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "Talent02_HitTimes",
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Replace",
+          "Param": 0,
+          "ParamName": "AS_AddedDamageRatio_Talent_02",
+          "ParamType": "Float"
+        }
+      ]
+    }
+  }
+}

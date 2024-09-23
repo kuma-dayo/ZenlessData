@@ -11,8 +11,10 @@
           "TargetKey": "Device_Prop_Console_01_OnInteract"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "Device_Prop_Console_01_Interact",

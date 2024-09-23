@@ -1,0 +1,82 @@
+{
+  "AbilityName": "Lighter_MathSkill",
+  "AbilitySpecials": {
+    "AS_Actor_BurnAddedDamageRatio": {
+      "Value": 2.25
+    },
+    "AS_BuffAddDuration": {
+      "Value": 2
+    },
+    "AS_PairACount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByMathSkillSuccess"
+          },
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite"
+            ],
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_Actor_BurnAddedDamageRatio"
+      }
+    ],
+    "OnTeamAvatarConstructed": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "FireBuffReviseModifier",
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "FireBuffReviseModifier",
+        "Predicates": [
+          {
+            "$type": "ByMathSkillSuccess"
+          }
+        ],
+        "Target": "TeamAvatars"
+      }
+    ]
+  },
+  "Modifiers": {
+    "FireBuffReviseModifier": {
+      "BuffRevises": [
+        {
+          "FilterType": "ByBuffGroup",
+          "GroupName": "Burn",
+          "Params": [
+            {
+              "Delta": "%AS_BuffAddDuration",
+              "Name": "Duration"
+            }
+          ]
+        },
+        {
+          "FilterType": "ByBuffGroup",
+          "GroupName": "Ignite",
+          "Params": [
+            {
+              "Delta": "%AS_BuffAddDuration",
+              "Name": "Duration"
+            }
+          ]
+        }
+      ],
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    }
+  }
+}

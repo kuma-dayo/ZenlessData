@@ -1,0 +1,22 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_10",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "PushEnablePerfectSwitchAttackWarningAction",
+        "Enabled": false,
+        "Tag": "Curse_Nineveh_HotBuff_10",
+        "Target": "Self"
+      }
+    ],
+    "OnRemoved": [
+      {
+        "$type": "PopEnablePerfectSwitchAttackWarningAction",
+        "Tag": "Curse_Nineveh_HotBuff_10",
+        "Target": "Self"
+      }
+    ]
+  }
+}

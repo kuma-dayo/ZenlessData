@@ -1,0 +1,70 @@
+{
+  "AbilityName": "Bangboo_Escort_Escape",
+  "AbilitySpecials": {
+    "HitCount": {
+      "Value": 0
+    },
+    "HitCountMax": {
+      "Value": 5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "EscapeModifier",
+        "Target": "Caster"
+      }
+    ]
+  },
+  "Modifiers": {
+    "EscapeModifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ActionsOnPropertyChangeMixin",
+          "PropertyActions": [
+            {
+              "CustomPropertyType": "EnemiesNum_InRange",
+              "CustomReferMaxPropertyType": "EnemiesNum_InRange_Max",
+              "IsUsePercentage": false,
+              "PropertyType": "Custom",
+              "ReferMaxPropertyType": "Custom",
+              "ValueRangeActions": [
+                {
+                  "HighToValueActions": [
+                    {
+                      "$type": "RemoveModifier",
+                      "ModifierName": "EscapeModifier",
+                      "Target": "Self"
+                    }
+                  ],
+                  "Val": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_BeingHit",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_BeingHit",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -4,16 +4,16 @@
       "$type": "BulletMixin",
       "AliveDuration": 4,
       "BulletColliderConfig": {
-        "CapsuleColliderHeight": 1.0,
+        "CapsuleColliderHeight": 1,
         "CapsuleColliderRadius": 0.2,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 0.5
         },
         "ColliderType": "Capsule"
@@ -26,16 +26,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": -60.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -60,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -47,23 +47,23 @@
       "CanHitStage": true,
       "DestroyExplode": true,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 8.0,
-        "CapsuleColliderRadius": 1.0,
+        "CapsuleColliderHeight": 8,
+        "CapsuleColliderRadius": 1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 4.0
+          "x": 0,
+          "y": 0,
+          "z": 4
         },
         "ColliderType": "Capsule"
       },
       "ExplodeAnimEventID": "Specter_Attack_02_01_Bullet_01_Attackproperty",
       "ExplodePosType": "HitPoint",
-      "HitExplodeRadius": 1.0,
+      "HitExplodeRadius": 1,
       "HitOtherExplode": true,
       "HitStageExplode": true,
       "HitStageGroundExplodeEffect": {
@@ -91,7 +91,8 @@
         "TimesUpMoveOption": "Remain",
         "VelocityCurveZ": "Monster_Specter_Attack_02_01_SpeendLimit_01"
       },
-      "OnBulletDestroyAction": [],
+      "OnBulletDestroyAction": [
+      ],
       "OverrideReflectDestroyExplode": "NotExplode",
       "ReflectEffect": {
         "EffectPattern": "Reflector_Bullet_Ether_M"
@@ -109,14 +110,14 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

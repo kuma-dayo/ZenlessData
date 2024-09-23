@@ -1,0 +1,54 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_09",
+  "AbilitySpecials": {
+    "AS_DecreaseStunPercent": {
+      "Value": -0.5
+    },
+    "AS_RecoverHPRatio": {
+      "Value": 0.5
+    },
+    "Recover_Duration": {
+      "Value": 5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Recover_Modifier",
+        "Predicates": [
+          {
+            "$type": "ByTotalDamage",
+            "CompareType": "Greater",
+            "Damage": 0,
+            "SkipDamage": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Recover_Modifier": {
+      "Duration": "%Recover_Duration",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "DecreaseStunAction",
+          "Amount": 0,
+          "Percentage": "%AS_DecreaseStunPercent",
+          "Target": "Self"
+        },
+        {
+          "$type": "RecoverHPAction",
+          "Amount": 0,
+          "Percentage": "%AS_RecoverHPRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

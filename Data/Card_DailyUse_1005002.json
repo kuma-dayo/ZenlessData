@@ -2,10 +2,10 @@
   "AbilityName": "Card_DailyUse_1005002",
   "AbilitySpecials": {
     "NewAS_AccumulationRatio_Elite": {
-      "Value": 2.0
+      "Value": 2
     },
     "NewAS_AccumulationRatio_Normal": {
-      "Value": 3.0
+      "Value": 3
     },
     "NewAS_RecoverSp": {
       "Value": 20

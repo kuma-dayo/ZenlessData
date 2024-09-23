@@ -89,16 +89,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -111,9 +111,9 @@
           },
           "EffectPattern": "Buff_Chaos_Head_Hit",
           "EffectScale": {
-            "x": 2.0,
-            "y": 2.0,
-            "z": 2.0
+            "x": 2,
+            "y": 2,
+            "z": 2
           },
           "Target": "Self"
         }
@@ -129,16 +129,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -151,9 +151,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Ether_Core",
           "EffectScale": {
-            "x": 2.0,
-            "y": 2.0,
-            "z": 2.0
+            "x": 2,
+            "y": 2,
+            "z": 2
           },
           "Target": "Self"
         }
@@ -169,16 +169,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

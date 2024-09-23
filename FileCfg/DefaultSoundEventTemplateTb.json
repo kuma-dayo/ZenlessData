@@ -1,280 +1,280 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1001,
-      "ENFDNAPNGPJ": "Button",
-      "LCLOMDELPII": "Play_UI_Gen_Click",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1001,
+      "LMEDILMGKGM": "Button",
+      "FOGJBEIKOPF": "Play_UI_Gen_Click",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1002,
-      "ENFDNAPNGPJ": "ScrollButton",
-      "LCLOMDELPII": "Play_UI_Gen_CHR_Select",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1002,
+      "LMEDILMGKGM": "ScrollButton",
+      "FOGJBEIKOPF": "Play_UI_Gen_CHR_Select",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1003,
-      "ENFDNAPNGPJ": "NegativeFeedback",
-      "LCLOMDELPII": "Play_UI_Gen_Cancel",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1003,
+      "LMEDILMGKGM": "NegativeFeedback",
+      "FOGJBEIKOPF": "Play_UI_Gen_Cancel",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1004,
-      "ENFDNAPNGPJ": "OpenPopup1",
-      "LCLOMDELPII": "Play_UI_Gen_Menu_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1004,
+      "LMEDILMGKGM": "OpenPopup1",
+      "FOGJBEIKOPF": "Play_UI_Gen_Menu_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1005,
-      "ENFDNAPNGPJ": "OpenPopup2",
-      "LCLOMDELPII": "Play_UI_Gen_OpenPopup2",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1005,
+      "LMEDILMGKGM": "OpenPopup2",
+      "FOGJBEIKOPF": "Play_UI_Gen_OpenPopup2",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1006,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_HandShank_Select",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1006,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_HandShank_Select",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1007,
-      "ENFDNAPNGPJ": "ClosePopup1",
-      "LCLOMDELPII": "Play_UI_Gen_Menu_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1007,
+      "LMEDILMGKGM": "ClosePopup1",
+      "FOGJBEIKOPF": "Play_UI_Gen_Menu_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1008,
-      "ENFDNAPNGPJ": "ClosePopup2",
-      "LCLOMDELPII": "Play_UI_Gen_ClosePopup2",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1008,
+      "LMEDILMGKGM": "ClosePopup2",
+      "FOGJBEIKOPF": "Play_UI_Gen_ClosePopup2",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1009,
-      "ENFDNAPNGPJ": "ClosePopupTip",
-      "LCLOMDELPII": "",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1009,
+      "LMEDILMGKGM": "ClosePopupTip",
+      "FOGJBEIKOPF": "",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1010,
-      "ENFDNAPNGPJ": "ScrollSlideLine",
-      "LCLOMDELPII": "Play_UI_Gen_Slide",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1010,
+      "LMEDILMGKGM": "ScrollSlideLine",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slide",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1011,
-      "ENFDNAPNGPJ": "ScrollSlideSingle",
-      "LCLOMDELPII": "Play_UI_Gen_Slide",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1011,
+      "LMEDILMGKGM": "ScrollSlideSingle",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slide",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1012,
-      "ENFDNAPNGPJ": "ScrollSlideSimple",
-      "LCLOMDELPII": "Play_UI_Gen_Slide",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1012,
+      "LMEDILMGKGM": "ScrollSlideSimple",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slide",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1013,
-      "ENFDNAPNGPJ": "Transition",
-      "LCLOMDELPII": "",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1013,
+      "LMEDILMGKGM": "Transition",
+      "FOGJBEIKOPF": "",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1014,
-      "ENFDNAPNGPJ": "SlideFadeIn",
-      "LCLOMDELPII": "Play_UI_Gen_Arrow",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1014,
+      "LMEDILMGKGM": "SlideFadeIn",
+      "FOGJBEIKOPF": "Play_UI_Gen_Arrow",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1015,
-      "ENFDNAPNGPJ": "SlideFadeOut",
-      "LCLOMDELPII": "Play_UI_Gen_Arrow",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1015,
+      "LMEDILMGKGM": "SlideFadeOut",
+      "FOGJBEIKOPF": "Play_UI_Gen_Arrow",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1016,
-      "ENFDNAPNGPJ": "FairyAppear",
-      "LCLOMDELPII": "Play_UI_Fairy_Appear",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1016,
+      "LMEDILMGKGM": "FairyAppear",
+      "FOGJBEIKOPF": "Play_UI_Fairy_Appear",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1017,
-      "ENFDNAPNGPJ": "FairyDisappear",
-      "LCLOMDELPII": "Play_UI_Fairy_Disappear",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1017,
+      "LMEDILMGKGM": "FairyDisappear",
+      "FOGJBEIKOPF": "Play_UI_Fairy_Disappear",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1018,
-      "ENFDNAPNGPJ": "SliderMove",
-      "LCLOMDELPII": "Play_UI_Gen_Slide",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1018,
+      "LMEDILMGKGM": "SliderMove",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slide",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1019,
-      "ENFDNAPNGPJ": "TabButton",
-      "LCLOMDELPII": "Play_UI_Gen_Static_Toggle",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1019,
+      "LMEDILMGKGM": "TabButton",
+      "FOGJBEIKOPF": "Play_UI_Gen_Static_Toggle",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1020,
-      "ENFDNAPNGPJ": "Warning",
-      "LCLOMDELPII": "Play_UI_Gen_Warning",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1020,
+      "LMEDILMGKGM": "Warning",
+      "FOGJBEIKOPF": "Play_UI_Gen_Warning",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1021,
-      "ENFDNAPNGPJ": "OpenSlidemenu",
-      "LCLOMDELPII": "Play_UI_Gen_Slidemenu_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1021,
+      "LMEDILMGKGM": "OpenSlidemenu",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slidemenu_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1022,
-      "ENFDNAPNGPJ": "CloseSlidemenu",
-      "LCLOMDELPII": "Play_UI_Gen_Slidemenu_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1022,
+      "LMEDILMGKGM": "CloseSlidemenu",
+      "FOGJBEIKOPF": "Play_UI_Gen_Slidemenu_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1023,
-      "ENFDNAPNGPJ": "Button_1",
-      "LCLOMDELPII": "Play_UI_Gen_Button_1",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1023,
+      "LMEDILMGKGM": "Button_1",
+      "FOGJBEIKOPF": "Play_UI_Gen_Button_1",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1024,
-      "ENFDNAPNGPJ": "Button_2",
-      "LCLOMDELPII": "Play_UI_Gen_Button_2",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1024,
+      "LMEDILMGKGM": "Button_2",
+      "FOGJBEIKOPF": "Play_UI_Gen_Button_2",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1025,
-      "ENFDNAPNGPJ": "OpenDropdown",
-      "LCLOMDELPII": "Play_UI_Gen_Dropdown_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1025,
+      "LMEDILMGKGM": "OpenDropdown",
+      "FOGJBEIKOPF": "Play_UI_Gen_Dropdown_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1026,
-      "ENFDNAPNGPJ": "CloseDropdown",
-      "LCLOMDELPII": "Play_UI_Gen_Dropdown_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1026,
+      "LMEDILMGKGM": "CloseDropdown",
+      "FOGJBEIKOPF": "Play_UI_Gen_Dropdown_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1027,
-      "ENFDNAPNGPJ": "Confirm",
-      "LCLOMDELPII": "Play_UI_Gen_Confirm",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1027,
+      "LMEDILMGKGM": "Confirm",
+      "FOGJBEIKOPF": "Play_UI_Gen_Confirm",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1028,
-      "ENFDNAPNGPJ": "Arrow",
-      "LCLOMDELPII": "Play_UI_Gen_Arrow",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1028,
+      "LMEDILMGKGM": "Arrow",
+      "FOGJBEIKOPF": "Play_UI_Gen_Arrow",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1029,
-      "ENFDNAPNGPJ": "Interact",
-      "LCLOMDELPII": "Play_UI_Gen_Interact",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1029,
+      "LMEDILMGKGM": "Interact",
+      "FOGJBEIKOPF": "Play_UI_Gen_Interact",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1030,
-      "ENFDNAPNGPJ": "WarningPopupTip",
-      "LCLOMDELPII": "Play_UI_Gen_PopupTip_Open_Warning",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1030,
+      "LMEDILMGKGM": "WarningPopupTip",
+      "FOGJBEIKOPF": "Play_UI_Gen_PopupTip_Open_Warning",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1031,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Maincity_Common_MetalWindow_Switch",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1031,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Maincity_Common_MetalWindow_Switch",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1032,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Unlock",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1032,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Maincity_Common_Item_Unlock",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1033,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Lock",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1033,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Maincity_Common_Item_Lock",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1034,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Maincity_Common_Item_Lock",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1034,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Maincity_Common_Item_Lock",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1035,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Buy_Item",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1035,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Buy_Item",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1036,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Bar_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1036,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Bar_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1037,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Bar_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1037,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Bar_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1038,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Card_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1038,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Card_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1039,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Card_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1039,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Card_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1040,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_MenuWindow_Open",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1040,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_MenuWindow_Open",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1041,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_MenuWindow_Close",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1041,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_MenuWindow_Close",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1042,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1042,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1043,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1043,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1044,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Updown_Bar_Fadein",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1044,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Updown_Bar_Fadein",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1045,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_Updown_Bar_Fadeout",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1045,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_Updown_Bar_Fadeout",
+      "GIGOFGFEHGD": 0
     },
     {
-      "NGPCCDGBLLK": 1046,
-      "ENFDNAPNGPJ": "",
-      "LCLOMDELPII": "Play_UI_Gen_ChaSelConfirm",
-      "AFOICIGAOGD": 0
+      "DKDDFEIAMIF": 1046,
+      "LMEDILMGKGM": "",
+      "FOGJBEIKOPF": "Play_UI_Gen_ChaSelConfirm",
+      "GIGOFGFEHGD": 0
     }
   ]
 }

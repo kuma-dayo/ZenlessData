@@ -1,0 +1,10 @@
+{
+  "AbilityName": "ThugBulkyEnforcer_5010411_Special",
+  "AbilityStacking": "Unique",
+  "OnAbilityTrigger": [
+    {
+      "$type": "LDListenEntityAction",
+      "TargetKey": "5010411_Bossaid"
+    }
+  ]
+}

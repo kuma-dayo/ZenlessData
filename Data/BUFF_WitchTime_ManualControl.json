@@ -11,7 +11,8 @@
             "EventKey": "BUFF_WitchTime_Dodge_EventSend"
           }
         ],
-        "FailureActions": [],
+        "FailureActions": [
+        ],
         "SuccessActions": [
           {
             "$type": "TimeSlowByConfigKeyAction",
@@ -29,7 +30,8 @@
             "EventKey": "BUFF_WitchTime_Dodge_EventEnd"
           }
         ],
-        "FailureActions": [],
+        "FailureActions": [
+        ],
         "SuccessActions": [
           {
             "$type": "InterruptTimeSlowAction",
@@ -44,8 +46,10 @@
     "SlowDownModifier": {
       "Duration": -1,
       "ModifierStacking": "Refresh",
-      "OnAdded": [],
-      "OnRemoved": []
+      "OnAdded": [
+      ],
+      "OnRemoved": [
+      ]
     }
   }
 }

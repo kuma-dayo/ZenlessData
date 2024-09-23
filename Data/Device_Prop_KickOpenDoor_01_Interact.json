@@ -11,8 +11,10 @@
           "TargetKey": "Object_KickOpenDoor"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     },
     {
       "$type": "AttachStateWithModifierMixin",

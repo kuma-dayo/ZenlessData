@@ -1,0 +1,645 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Caesar_ShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_GuardPoint_02",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Caesar_ShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Caesar_ShieldModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_AddedAttackDeltaBase": {
+      "Value": 0.1
+    },
+    "AS_AddedAttackDeltaFinal": {
+      "Value": 0
+    },
+    "AS_AllDamageResist": {
+      "Value": -0.15
+    },
+    "AS_SPGetRatio_Talent02": {
+      "Value": 0.2
+    },
+    "AS_ShieldBaseValue": {
+      "Value": 500
+    },
+    "AS_ShieldPercentage": {
+      "Value": 5
+    },
+    "AS_Talent02Bonus": {
+      "Value": 1.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "Expression": "specials(AS_AddedAttackDeltaBase)",
+        "ParamName": "AS_AddedAttackDeltaFinal",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "Expression": "specials(AS_AddedAttackDeltaBase)*specials(AS_Talent02Bonus)",
+        "ParamName": "AS_AddedAttackDeltaFinal",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 2,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnBattleEnter": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BattleEnterShieldModifier",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 1,
+            "Target": "Self"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ]
+      }
+    ],
+    "OnCustomEventReceived": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Caesar_ShieldModifier",
+        "Predicates": [
+          {
+            "$type": "ByCustomEvent",
+            "EventKey": "Caesar_ApplyUniqueSkill"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BattleEnterShieldModifier",
+        "Predicates": [
+          {
+            "$type": "ByInOutBattleStatus",
+            "IsInBattle": true,
+            "Target": "Self"
+          },
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 1,
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "AttackDeltaModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackDelta": "%AS_AddedAttackDeltaFinal"
+      }
+    },
+    "AttackEffectModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "InterruptScreenEffectAction",
+          "EffectType": "ScreenEffects",
+          "TargetKey": "Avatar_Default_Character_Ghost_01"
+        },
+        {
+          "$type": "ProcessScreenEffectAction",
+          "AlwaysFollow": true,
+          "EffectKey": "Avatar_Default_Character_Ghost_01",
+          "EffectType": "ScreenEffects",
+          "Follow": true
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_ScreenImage_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_ScreenImage_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_GhostMask_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_GhostMask_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_AbnormalPropertyElectro_02",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_AbnormalPropertyElectro_02"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataEffectAction",
+          "OverrideAttackEffect": {
+            "EffectName": "Eff_Caesar_Attack_GuardHit_01_Spark",
+            "XRotOffset": 0,
+            "YRotOffset": 0,
+            "ZRotOffset": 0
+          },
+          "OverrideRot": true
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "#Caesar_LocalAvatarShield_AttackProperty_Guard",
+          "Predicates": [
+            {
+              "$type": "ByHitDataType",
+              "TheHitDataType": "Melee"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "ParryNotCount"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Target": "Other"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "LessEqual",
+              "IsUsePercent": false,
+              "Numerator": "ResistBreakLevel",
+              "Target": "Other",
+              "Val1": 2
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "Caesar_GuardPoint"
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "Stray"
+                  ]
+                }
+              ]
+            }
+          ],
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Shield_Normal"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "Greater",
+              "IsUsePercent": false,
+              "Numerator": "ResistBreakLevel",
+              "Target": "Other",
+              "Val1": 2
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "Caesar_GuardPoint"
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "Stray"
+                  ]
+                }
+              ]
+            }
+          ],
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Shield_Interrupt"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_AbnormalPropertyElectro_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_AbnormalPropertyElectro_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_ScreenImage_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_GhostMask_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_GuardHit_AbnormalPropertyElectro_02",
+          "Target": "Self"
+        }
+      ]
+    },
+    "AuraModifier": {
+      "ModifierMixins": [
+        {
+          "$type": "FieldRangeMixin",
+          "ColliderConfig": {
+            "ColliderAngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "ColliderPosOffset": {
+              "x": 0,
+              "y": 0,
+              "z": -2
+            },
+            "ColliderType": "FanCylinder",
+            "FanCylinderColliderAngle": 360,
+            "FanCylinderColliderHeight": 5,
+            "FanCylinderColliderRadius": 5,
+            "FanCylinderColliderVertexNum": 24
+          },
+          "FieldEnterActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AuraModifier_Effect",
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Other"
+                }
+              ],
+              "Target": "Other"
+            }
+          ],
+          "FieldExitActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "AuraModifier_Effect",
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Other"
+                }
+              ],
+              "Target": "Other"
+            }
+          ],
+          "FieldInitPosRot": {
+            "CoordsOption": "Self",
+            "NeedRaycastGround": true,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "RaycastGroundOffset": 0,
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "IsFollow": true,
+          "TotalDuration": -1
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AuraModifier_Effect": {
+      "Properties": {
+        "Actor_AllDamageResist": "%AS_AllDamageResist"
+      }
+    },
+    "BattleEnterShieldModifier": {
+      "Duration": 300,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Caesar_ShieldModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Caesar_ShieldModifier": {
+      "Duration": 60,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "EmptyActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "Caesar_ShieldModifier"
+            },
+            {
+              "$type": "TriggerSoundAction",
+              "soundActionKey": "Play_SFX_Char_Skill_Caesar_Shield_Break"
+            }
+          ],
+          "IfTakeRestDamageWhenEmpty": false,
+          "Priority": 10,
+          "ShieldType": "LocalAvatarShield",
+          "Tag": "Caesar_UniqueSkill_Shield",
+          "TotalValueConfig": {
+            "Amount": "%AS_ShieldBaseValue",
+            "Percentage": "%AS_ShieldPercentage",
+            "PropertyType": "BreakStun"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "RBLController",
+          "Target": "TeamAvatars"
+        },
+        {
+          "$type": "ProcessScreenEffectAction",
+          "AlwaysFollow": true,
+          "EffectKey": "Avatar_Default_Character_Ghost_01",
+          "EffectType": "ScreenEffects",
+          "Follow": true
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Shield_Start"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "SPGetRatioModifier_Talent02",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 2
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "RBLController",
+          "Target": "TeamAvatars"
+        },
+        {
+          "$type": "InterruptScreenEffectAction",
+          "EffectType": "ScreenEffects",
+          "TargetKey": "Avatar_Default_Character_Ghost_01"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldBuffModifier_Remain",
+          "Target": "LocalAvatar"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Shield_End"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "SPGetRatioModifier_Talent02",
+          "Target": "Self"
+        }
+      ]
+    },
+    "RBLController": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetRBLAction",
+          "Predicates": [
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true
+            }
+          ],
+          "RBL": 6,
+          "Tag": "Caesar_ShieldRBL"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AttackEffectModifier",
+          "Predicates": [
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByIsLocalAvatar",
+              "IsLocalAvatar": true
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "Caesar_ShieldRBL"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AttackEffectModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ShieldBuffModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnSwitchInBegin": [
+        {
+          "$type": "SetRBLAction",
+          "RBL": 6,
+          "Tag": "Caesar_ShieldRBL"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AttackEffectModifier",
+          "Target": "TeamAvatars"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AttackEffectModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ShieldBuffModifier",
+          "Target": "TeamAvatars"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldBuffModifier",
+          "Target": "LocalAvatar"
+        }
+      ],
+      "OnSwitchOutBegin": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "Caesar_ShieldRBL"
+        }
+      ]
+    },
+    "SPGetRatioModifier_Talent02": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_SPGetRatio": "%AS_SPGetRatio_Talent02"
+      }
+    },
+    "ShieldBuffModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ShieldBuffModifier_Remain",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AttackDeltaModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AuraModifier",
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 1,
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AuraModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AttackDeltaModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "ShieldBuffModifier_Remain": {
+      "Duration": 5,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackDelta": "%AS_AddedAttackDeltaFinal"
+      }
+    }
+  }
+}

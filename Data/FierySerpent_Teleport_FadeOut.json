@@ -15,7 +15,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [

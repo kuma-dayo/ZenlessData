@@ -45,7 +45,8 @@
                     "Target": "Self"
                   }
                 ],
-                "SuccessActions": []
+                "SuccessActions": [
+                ]
               }
             ],
             "SuccessActions": [

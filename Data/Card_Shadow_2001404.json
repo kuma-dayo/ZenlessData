@@ -5,14 +5,14 @@
       "AliveDuration": "%AS_AfterImage01Duration",
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 2.5
@@ -26,16 +26,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "RaycastGroundOffset": 0.6,
@@ -47,8 +47,8 @@
       "BulletName": "Bullet_Empty_IgnoreWall",
       "CanHitStage": false,
       "ExplodePosType": "HitPoint",
-      "HitExplodeRadius": 3.0,
-      "HitInterval": 0.0,
+      "HitExplodeRadius": 3,
+      "HitInterval": 0,
       "HitOtherExplode": true,
       "HitStageExplode": false,
       "MaxHitNum": 1,

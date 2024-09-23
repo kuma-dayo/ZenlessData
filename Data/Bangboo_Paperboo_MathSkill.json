@@ -11,10 +11,10 @@
       "Value": 0.5
     },
     "AS_PairACount": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ShieldDelta": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ShieldDuration": {
       "Value": 24
@@ -26,7 +26,7 @@
       {
         "$type": "SetAbilitySpecialAction",
         "ModifyFunction": "Replace",
-        "Param": 0.0,
+        "Param": 0,
         "ParamName": "AS_PairACount",
         "ParamType": "Float"
       },
@@ -155,7 +155,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Add",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "AS_PairACount",
           "ParamType": "Float"
         },
@@ -166,7 +166,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "GreaterEqual",
-              "Param": 1.0,
+              "Param": 1,
               "ParamName": "AS_PairACount",
               "ParamType": "Float",
               "Target": "Self"

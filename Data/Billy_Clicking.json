@@ -20,95 +20,95 @@
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_A",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_B",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_A",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_B",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_End",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         }
                       ]
                     }
@@ -131,95 +131,95 @@
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start_02_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_Start_02_02",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_A",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_02_B",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_B_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_F_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_L_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_Start_02_R_01",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_A",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_B",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03_End",
                           "IsLoop": true,
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         }
                       ]
                     }

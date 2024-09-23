@@ -1,0 +1,23 @@
+{
+  "AbilityName": "Device_Prop_LiftPlatform_01_PlayCameraShake",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "ShakeModifier": {
+      "Duration": 7,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttackCameraShakeAction",
+          "ShakeConfigKey": "Device_Ground_LiftPlatform_CamShake_E_03",
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "ShakeModifier"
+    }
+  ]
+}

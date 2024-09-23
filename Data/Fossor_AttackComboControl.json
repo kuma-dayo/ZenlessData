@@ -1,0 +1,97 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "Expression": "rand(78,110)",
+              "ParamName": "AS_Attack1ComboFrame",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_1",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "Expression": "rand(106,146)",
+              "ParamName": "AS_Attack2ComboFrame",
+              "ValueType": "Integer"
+            }
+          ],
+          "AnimatorStateName": "Attack_2",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "WriteAIParamAction",
+              "BoolParamValue": true,
+              "ParamName": "isChainSkillWindow"
+            }
+          ],
+          "AnimatorStateName": "Attack_1",
+          "Frame": "%AS_Attack1ComboFrame",
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "WriteAIParamAction",
+              "BoolParamValue": true,
+              "ParamName": "isChainSkillWindow"
+            }
+          ],
+          "AnimatorStateName": "Attack_2",
+          "Frame": "%AS_Attack2ComboFrame",
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "WriteAIParamAction",
+              "BoolParamValue": true,
+              "ParamName": "isChainSkillWindowEnd"
+            }
+          ],
+          "AnimatorStateName": "Attack_1",
+          "Frame": 110,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "WriteAIParamAction",
+              "BoolParamValue": true,
+              "ParamName": "isChainSkillWindowEnd"
+            }
+          ],
+          "AnimatorStateName": "Attack_2",
+          "Frame": 164,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Fossor_AttackComboControl",
+  "AbilitySpecials": {
+    "AS_Attack1ComboFrame": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "AS_Attack2ComboFrame": {
+      "Value": 0,
+      "ValueType": "Integer"
+    }
+  },
+  "AbilityStacking": "Unique"
+}

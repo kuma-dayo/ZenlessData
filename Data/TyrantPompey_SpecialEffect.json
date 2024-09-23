@@ -1,0 +1,308 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P1_Dash_Start",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 14,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Loop",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_End",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Turn_Left",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Turn_Right",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_Turn_Right",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_Turn_Left",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_Start",
+          "FrameCountLow": 10,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RaisedModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_Start",
+          "FrameCountLow": 14,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier",
+            "P1RaiseSmokeModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_Loop",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RaisedModifier",
+            "FireEffectModifier",
+            "SmokeEffectModifier",
+            "P1RaiseSmokeModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Dash_Raised_End",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "RaisedModifier",
+            "FireEffectModifier",
+            "SmokeEffectModifier",
+            "P1RaiseSmokeModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_01",
+          "FrameCountHigh": 85,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier",
+            "RaisedModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_02",
+          "FrameCountHigh": 85,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_04_01",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_04_02",
+          "FrameCountHigh": 220,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_05",
+          "FrameCountHigh": 170,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "FireEffectModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P1_Attack_06",
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "SmokeEffectModifier",
+            "FireEffectModifier"
+          ]
+        }
+      ],
+      "IsSeam": false
+    }
+  ],
+  "AbilityName": "TyrantPompey_SpecialEffect",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "FireEffectModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    },
+    "P1RaiseSmokeModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_MotorHead_01",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Raised_Start_05_Smoke",
+          "Target": "Self"
+        }
+      ]
+    },
+    "RaisedModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_MotorHead_01",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Raised_Start_05_Smoke",
+          "Target": "Self"
+        }
+      ]
+    },
+    "SmokeEffectModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_B_Wheel_Loc",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Monster_TyrantPompey_P1_Dash_Common_03_Smoke",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

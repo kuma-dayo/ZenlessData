@@ -1,0 +1,62 @@
+{
+  "AbilityName": "Card_Strength_2002409",
+  "AbilitySpecials": {
+    "AS_LosedHpToShieldRatio": {
+      "Value": 0.5
+    },
+    "ShieldAmountByHp": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnTeamAvatarConstructed": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_LosedHpToShieldRatio)*(1-property(CurHP)\/property(MaxHP))",
+        "ParamName": "ShieldAmountByHp",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Card_2002409_ShieldModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Card_2002409_ShieldModifier": {
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "AddedActions": [
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Buff_Common_Defense",
+              "Target": "Self"
+            },
+            {
+              "$type": "ModifyMaterialPropertyAction",
+              "Tag": "CommonDefenseMaterial",
+              "Target": "Self",
+              "key": "Common_MA_Buff_Defence_RimGlow_01"
+            }
+          ],
+          "Duration": -1,
+          "IfTakeRestDamageWhenEmpty": true,
+          "Priority": 1,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "Tag": "CardStrength",
+          "TotalValueConfig": {
+            "Amount": 0,
+            "Percentage": "%ShieldAmountByHp",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

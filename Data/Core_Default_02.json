@@ -40,19 +40,19 @@
         "MovementConfig": {
           "$type": "ConfigMovementSimple",
           "Acceleration": {
-            "x": 0.0,
-            "y": -20.0,
-            "z": 0.0
+            "x": 0,
+            "y": -20,
+            "z": 0
           },
           "CoordinateType": "Local",
           "Duration": 0.5,
-          "Gravity": 0.0,
+          "Gravity": 0,
           "HitNormalRatio": 1,
           "HitTangentialRatio": 1,
           "InitVelocity": {
-            "x": 0.0,
-            "y": 10.0,
-            "z": 0.0
+            "x": 0,
+            "y": 10,
+            "z": 0
           },
           "TimesUpMoveOption": "Stop"
         },
@@ -62,7 +62,7 @@
   },
   "Modifiers": {
     "CloseModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
@@ -77,19 +77,19 @@
           "MovementConfig": {
             "$type": "ConfigMovementSimple",
             "Acceleration": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "CoordinateType": "Local",
             "Duration": -1,
-            "Gravity": -40.0,
+            "Gravity": -40,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "InitVelocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "MaxHitNumber": 3,
             "TimesUpMoveOption": "Remain"
@@ -99,7 +99,7 @@
       ]
     },
     "EnterModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
@@ -140,7 +140,7 @@
       ]
     },
     "ExitModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
@@ -187,14 +187,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "FanCylinder",
             "FanCylinderColliderAngle": 360,
@@ -279,16 +279,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -304,7 +304,7 @@
       "ModifierStacking": "Refresh"
     },
     "OpenModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
@@ -326,16 +326,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -352,7 +352,7 @@
       ]
     },
     "TestModifier_01": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
@@ -363,7 +363,7 @@
       ]
     },
     "TestModifier_02": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {

@@ -7,6 +7,9 @@
     "AS_Duration": {
       "Value": 5
     },
+    "AS_RecoverHPTotal": {
+      "Value": 0
+    },
     "AS_SmoothRecoverHP": {
       "Value": 0.05
     }

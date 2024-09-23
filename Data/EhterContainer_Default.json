@@ -2,7 +2,8 @@
   "AbilityMixins": [
     {
       "$type": "DestructionMixin",
-      "BeHitFailedActions": [],
+      "BeHitFailedActions": [
+      ],
       "BeHitSuccessActions": [
         {
           "$type": "FireEffect",
@@ -96,7 +97,7 @@
           "CompareType": "Equal",
           "Key": "_Switching_Status",
           "Target": "Self",
-          "Value": 0.0
+          "Value": 0
         }
       ],
       "SwitchStatusActions": [
@@ -110,7 +111,7 @@
         {
           "$type": "SetGlobalValue",
           "Key": "_Switching_Status",
-          "Value": 1.0
+          "Value": 1
         }
       ]
     }
@@ -168,7 +169,7 @@
       {
         "$type": "SetGlobalValue",
         "Key": "_Switching_Status",
-        "Value": 0.0
+        "Value": 0
       }
     ],
     "OnKilled": [
@@ -237,12 +238,7 @@
       {
         "$type": "SetGlobalValue",
         "Key": "_Switching_Status",
-        "Value": 1.0
-      },
-      {
-        "$type": "ApplyModifier",
-        "ModifierName": "DelayDieModifier",
-        "Target": "Self"
+        "Value": 1
       }
     ]
   },
@@ -261,28 +257,13 @@
           ]
         }
       ]
-    },
-    "DelayDieModifier": {
-      "DelayHandlers": [
-        {
-          "DelayTime": 0.13,
-          "TimeUpActions": [
-            {
-              "$type": "DropItemAction",
-              "DropStr": "%Destruction_BeHit_RewardID_Pattern",
-              "Target": "Self"
-            }
-          ]
-        }
-      ],
-      "Duration": -1
     }
   },
   "OnAbilityStart": [
     {
-      "$type": "SetGlobalValue",
-      "Key": "_Switching_Status",
-      "Value": 0.0
+      "$type": "DropItemAction",
+      "DropStr": "%Destruction_BeHit_RewardID_Pattern",
+      "Target": "Self"
     }
   ]
 }

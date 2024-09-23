@@ -1,28 +1,28 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NHDANAKPOIH": 1001,
-      "GJCDNDCKOIH": 1,
-      "NPBBMCKJDBL": "AvatarRankMaterial",
-      "BDIJGDCMEPC": "FilterTxt_ItemTag_AvatarRankMaterial"
+      "EBBOMNLEBBC": 1001,
+      "FHKKNKCEKOH": 1,
+      "NFIBMKEPOPL": "AvatarRankMaterial",
+      "BGOMAJHEHKF": "FilterTxt_ItemTag_AvatarRankMaterial"
     },
     {
-      "NHDANAKPOIH": 1002,
-      "GJCDNDCKOIH": 1,
-      "NPBBMCKJDBL": "AvatarSkillMaterial",
-      "BDIJGDCMEPC": "FilterTxt_ItemTag_AvatarSkillMaterial"
+      "EBBOMNLEBBC": 1002,
+      "FHKKNKCEKOH": 1,
+      "NFIBMKEPOPL": "AvatarSkillMaterial",
+      "BGOMAJHEHKF": "FilterTxt_ItemTag_AvatarSkillMaterial"
     },
     {
-      "NHDANAKPOIH": 1003,
-      "GJCDNDCKOIH": 1,
-      "NPBBMCKJDBL": "WeaponRankMaterial",
-      "BDIJGDCMEPC": "FilterTxt_ItemTag_WeaponRankMaterial"
+      "EBBOMNLEBBC": 1003,
+      "FHKKNKCEKOH": 1,
+      "NFIBMKEPOPL": "WeaponRankMaterial",
+      "BGOMAJHEHKF": "FilterTxt_ItemTag_WeaponRankMaterial"
     },
     {
-      "NHDANAKPOIH": 1004,
-      "GJCDNDCKOIH": 1,
-      "NPBBMCKJDBL": "BangBooRankMaterial",
-      "BDIJGDCMEPC": "FilterTxt_ItemTag_BangBooRankMaterial"
+      "EBBOMNLEBBC": 1004,
+      "FHKKNKCEKOH": 1,
+      "NFIBMKEPOPL": "BangBooRankMaterial",
+      "BGOMAJHEHKF": "FilterTxt_ItemTag_BangBooRankMaterial"
     }
   ]
 }

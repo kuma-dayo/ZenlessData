@@ -63,7 +63,7 @@
       "Value": 0.1
     },
     "AS_HpShieldRatioCur": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HpShieldRatioMax": {
       "Value": 0.5
@@ -72,10 +72,10 @@
       "Value": 0.1
     },
     "AS_HpShieldRemainAmount": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HpShieldRemainPercentage": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -166,7 +166,7 @@
           "Amount": 0,
           "CustomPropertyType": "HpShieldRatioCur",
           "IsUsePercentage": false,
-          "Percentage": 1.0,
+          "Percentage": 1,
           "Predicates": [
             {
               "$type": "ByAnimatorStateNormalizedTime",
@@ -187,7 +187,7 @@
           "CustomPropertyType": "HpShieldRatioCur",
           "ModifyFunction": "Replace",
           "ParamName": "AS_HpShieldRatioCur",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "Custom",
           "Target": "Self"
         },
@@ -223,7 +223,7 @@
         {
           "$type": "SetAbilitySpecialByExpression",
           "DoRefresh": true,
-          "Expression": "specials(AS_HpShieldRemainAmount)/property(MaxHP)",
+          "Expression": "specials(AS_HpShieldRemainAmount)\/property(MaxHP)",
           "ParamName": "AS_HpShieldRemainPercentage",
           "Target": "Self",
           "ValueType": "Float"

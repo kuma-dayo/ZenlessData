@@ -1,0 +1,141 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Quest3Modifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_GuardPoint_02",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_TutorialAbility",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest4Modifier",
+        "Predicates": [
+          {
+            "$type": "ByHasHpShield",
+            "HpShieldValueCompare": "Greater",
+            "Tag": "Caesar_UniqueSkill_Shield",
+            "Value": 0
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnCustomEventReceived": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest2Modifier",
+        "Predicates": [
+          {
+            "$type": "ByCustomEvent",
+            "EventKey": "Caesar_TutorialQuest2"
+          }
+        ]
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest5Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Caesar_Attack_Branch_03_AttackProperty_01_01",
+              "Caesar_Attack_Branch_03_AttackProperty_01_02",
+              "Caesar_Attack_Branch_03_AttackProperty_01_03",
+              "Caesar_Attack_Branch_03_AttackProperty_01_04",
+              "Caesar_Attack_Branch_03_AttackProperty_02"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnIndirectHitOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Quest1Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_Guard",
+              "Caesar_Attack_Branch_GuardPoint_01_AttackProperty_Guard"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Quest1Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Caesar_1"
+        }
+      ]
+    },
+    "Quest2Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Caesar_2"
+        }
+      ]
+    },
+    "Quest3Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Caesar_3"
+        }
+      ]
+    },
+    "Quest4Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Caesar_4"
+        }
+      ]
+    },
+    "Quest5Modifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "AvatarTutorial_Caesar_5"
+        }
+      ]
+    }
+  }
+}

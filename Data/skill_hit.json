@@ -6,23 +6,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -35,9 +35,9 @@
       "idx": 887151360,
       "moveType": 0,
       "pos": {
-        "x": 1.0,
-        "y": 4.0,
-        "z": 0.0
+        "x": 1,
+        "y": 4,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -52,23 +52,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -81,9 +81,9 @@
       "idx": 557682176,
       "moveType": 0,
       "pos": {
-        "x": 4.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 4,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -98,23 +98,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -127,9 +127,9 @@
       "idx": -447887232,
       "moveType": 0,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -144,23 +144,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -173,9 +173,9 @@
       "idx": 900512256,
       "moveType": 0,
       "pos": {
-        "x": 3.0,
-        "y": 2.0,
-        "z": 0.0
+        "x": 3,
+        "y": 2,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -190,23 +190,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -219,9 +219,9 @@
       "idx": -1898356992,
       "moveType": 0,
       "pos": {
-        "x": 3.0,
-        "y": -2.0,
-        "z": 0.0
+        "x": 3,
+        "y": -2,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -236,23 +236,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 0.0,
+            "time": 0,
+            "value": 0,
             "weightedMode": 0
           },
           {
-            "inTangent": 1.0,
-            "inWeight": 0.0,
-            "outTangent": 1.0,
-            "outWeight": 0.0,
+            "inTangent": 1,
+            "inWeight": 0,
+            "outTangent": 1,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -265,9 +265,9 @@
       "idx": -152310528,
       "moveType": 0,
       "pos": {
-        "x": 1.0,
-        "y": -4.0,
-        "z": 0.0
+        "x": 1,
+        "y": -4,
+        "z": 0
       },
       "posParam": {
         "param1": 0,
@@ -282,14 +282,14 @@
   "frameCount": 30,
   "frameRate": 20,
   "loop": false,
-  "modelPath": "Assets/Cube.prefab",
+  "modelPath": "Assets\/Cube.prefab",
   "partLoop": false,
   "seqName": "skill_hit",
   "speedParams": {
     "param1": 0,
     "param2": 0
   },
-  "topSpeed": 99.0,
+  "topSpeed": 99,
   "totalTime": 1.5,
   "trackArray": [
     {

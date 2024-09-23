@@ -1,0 +1,850 @@
+{
+  "AbilityName": "Graph_HeavyStriker_Transform_Pre",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAbilityTrigger": {
+          "x": 403.4783,
+          "y": 187.6087
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": -410,
+          "y": 141
+        },
+        "Zoom": 0.6575162
+      },
+      "Node": [
+        {
+          "x": 552.4783,
+          "y": 188.6087
+        },
+        {
+          "x": 849.4783,
+          "y": 187.6087
+        },
+        {
+          "x": 852.4783,
+          "y": 349.6087
+        },
+        {
+          "x": 696.4783,
+          "y": 374.6087
+        },
+        {
+          "x": 662.2609,
+          "y": 739.6522
+        },
+        {
+          "x": 669,
+          "y": 748
+        },
+        {
+          "x": 669,
+          "y": 844
+        },
+        {
+          "x": 1094.174,
+          "y": 717.913
+        },
+        {
+          "x": 852.1739,
+          "y": 718.913
+        },
+        {
+          "x": 1110.718,
+          "y": 724.2871
+        },
+        {
+          "x": 1090,
+          "y": 1103.828
+        },
+        {
+          "x": 1280.512,
+          "y": 804.2439
+        },
+        {
+          "x": 1572,
+          "y": 936.5
+        },
+        {
+          "x": 1231.478,
+          "y": 519.6087
+        },
+        {
+          "x": 1042.478,
+          "y": 543.6086
+        },
+        {
+          "x": 1406.395,
+          "y": 346.5127
+        },
+        {
+          "x": 1842,
+          "y": 912
+        },
+        {
+          "x": 1384,
+          "y": 937
+        },
+        {
+          "x": 1819.512,
+          "y": 780.244
+        },
+        {
+          "x": 1640.512,
+          "y": 780.244
+        },
+        {
+          "x": 1599.832,
+          "y": 347.4283
+        },
+        {
+          "x": 1445.37,
+          "y": 804
+        },
+        {
+          "x": 2017.174,
+          "y": 718.913
+        },
+        {
+          "x": 1235.478,
+          "y": 417.6087
+        },
+        {
+          "x": 1428.478,
+          "y": 519.6087
+        },
+        {
+          "x": 1101.304,
+          "y": 437.6522
+        },
+        {
+          "x": 1279.261,
+          "y": 625.3478
+        },
+        {
+          "x": 1278.63,
+          "y": 926
+        },
+        {
+          "x": 2225.174,
+          "y": 718.913
+        },
+        {
+          "x": 1843,
+          "y": 1027.828
+        },
+        {
+          "x": 3648.957,
+          "y": 724.8261
+        },
+        {
+          "x": 2022,
+          "y": 1143.828
+        },
+        {
+          "x": 1642.512,
+          "y": 902.2439
+        },
+        {
+          "x": 1444.512,
+          "y": 926.2439
+        },
+        {
+          "x": 2208,
+          "y": 1079.828
+        },
+        {
+          "x": 3645.001,
+          "y": 1081.027
+        },
+        {
+          "x": 2785.739,
+          "y": 821.3478
+        },
+        {
+          "x": 2988.739,
+          "y": 797.3478
+        },
+        {
+          "x": 3651.7,
+          "y": 1077.55
+        },
+        {
+          "x": 2414.285,
+          "y": 1080
+        },
+        {
+          "x": 2644,
+          "y": 1198
+        },
+        {
+          "x": 2816,
+          "y": 1198
+        },
+        {
+          "x": 3012,
+          "y": 1173.696
+        },
+        {
+          "x": 1573,
+          "y": 1052
+        },
+        {
+          "x": 2416.739,
+          "y": 845.3479
+        },
+        {
+          "x": 2588.739,
+          "y": 845.3479
+        },
+        {
+          "x": 3211.739,
+          "y": 772.3478
+        },
+        {
+          "x": 3223.87,
+          "y": 1149.957
+        },
+        {
+          "x": 3418.739,
+          "y": 723.3478
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAbilityTrigger": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 0,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "SequenceNode",
+        "DefaultOutBind": -1,
+        "Then": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "DefaultOutBind": -1,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1050
+          ]
+        },
+        "PreActionBind": [
+          3
+        ],
+        "Rotation": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1000
+        }
+      },
+      {
+        "$type": "GetEntityDirection",
+        "DefaultOutBind": 15,
+        "Forward": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1013
+          ]
+        },
+        "PreActionBind": [
+          3
+        ],
+        "Right": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1022
+          ]
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1001
+        },
+        "Up": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1012,
+            1039
+          ]
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000,
+            1001
+          ]
+        }
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1002,
+            1003
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Int_MaxCount"
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "ForNode",
+        "Count": {
+          "BindId": 1003
+        },
+        "CurIndex": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1019
+          ]
+        },
+        "DefaultOutBind": -1,
+        "Do": 22,
+        "PreActionBind": [
+          4
+        ]
+      },
+      {
+        "$type": "ForNode",
+        "Count": {
+          "BindId": 1002
+        },
+        "CurIndex": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1027
+          ]
+        },
+        "DefaultOutBind": -1,
+        "Do": 7,
+        "PreActionBind": [
+          4
+        ]
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "AsFloatNode",
+        "DefaultOutBind": -1,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1019
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1010
+          ]
+        }
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "RotateVector",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          14
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1025
+          ]
+        },
+        "RotateValue": {
+          "$type": "ConfigInputValue",
+          "BindId": 1014
+        },
+        "V3Value": {
+          "BindId": 1013
+        }
+      },
+      {
+        "$type": "MakeRotationByAxis",
+        "Angle": {
+          "DefaultValue": -30
+        },
+        "Axis": {
+          "BindId": 1012
+        },
+        "DefaultOutBind": -1,
+        "OutRotation": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1014
+          ]
+        }
+      },
+      {
+        "$type": "StageVariableNode",
+        "DefaultOutBind": 20,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1015
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1009
+          ]
+        },
+        "PreActionBind": [
+          23
+        ]
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1007
+        },
+        "InTwo": {
+          "BindId": 1008
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1021
+          ]
+        },
+        "PreActionBind": [
+          19,
+          32
+        ]
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1016
+        },
+        "PreActionBind": [
+          21
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1007
+          ]
+        },
+        "Vector": {
+          "BindId": 1017
+        }
+      },
+      {
+        "$type": "StageVariableNode",
+        "DefaultOutBind": -1,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1024
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1017
+          ]
+        },
+        "PreActionBind": [
+          24
+        ]
+      },
+      {
+        "$type": "FloatAddNode",
+        "DefaultOutBind": -1,
+        "ParamOne": {
+          "BindId": 1010
+        },
+        "ParamTwo": {
+          "DefaultValue": 0.666667
+        },
+        "PreActionBind": [
+          11
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1016
+          ]
+        }
+      },
+      {
+        "$type": "StageVariableNode",
+        "DefaultOutBind": 28,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1021
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1037
+          ]
+        },
+        "PreActionBind": [
+          18
+        ]
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1023
+        },
+        "PreActionBind": [
+          25
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1015
+          ]
+        },
+        "Vector": {
+          "BindId": 1022
+        }
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1026
+        },
+        "PreActionBind": [
+          13,
+          26
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1024
+          ]
+        },
+        "Vector": {
+          "BindId": 1025
+        }
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1023
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Float_Distance"
+      },
+      {
+        "$type": "GetVariable",
+        "DefaultOutBind": -1,
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1026
+          ]
+        },
+        "VarScope": "Auto",
+        "VariableKey": "Float_Distance"
+      },
+      {
+        "$type": "AsFloatNode",
+        "DefaultOutBind": -1,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1027
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1029
+          ]
+        }
+      },
+      {
+        "$type": "ForNode",
+        "Count": {
+          "DefaultValue": 3
+        },
+        "CurIndex": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1046
+          ]
+        },
+        "DefaultOutBind": -1,
+        "Do": 48
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1032
+        },
+        "PreActionBind": [
+          33
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1008
+          ]
+        },
+        "Vector": {
+          "BindId": 1009
+        }
+      },
+      {
+        "$type": "FloatAddNode",
+        "DefaultOutBind": -1,
+        "ParamOne": {
+          "BindId": 1029
+        },
+        "ParamTwo": {
+          "DefaultValue": 0.333333
+        },
+        "PreActionBind": [
+          27
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1032
+          ]
+        }
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "MakeRotationByAxis",
+        "Angle": {
+          "BindId": 1048
+        },
+        "Axis": {
+          "BindId": 1039
+        },
+        "DefaultOutBind": -1,
+        "OutRotation": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1038
+          ]
+        },
+        "PreActionBind": [
+          45
+        ]
+      },
+      {
+        "$type": "RotateVector",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          36
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1049
+          ]
+        },
+        "RotateValue": {
+          "$type": "ConfigInputValue",
+          "BindId": 1038
+        },
+        "V3Value": {
+          "BindId": 1037
+        }
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "AsFloatNode",
+        "DefaultOutBind": -1,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1046
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1047
+          ]
+        }
+      },
+      {
+        "$type": "FloatMulNode",
+        "DefaultOutBind": -1,
+        "ParamOne": {
+          "BindId": 1047
+        },
+        "ParamTwo": {
+          "DefaultValue": 120
+        },
+        "PreActionBind": [
+          44
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1048
+          ]
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1050
+        },
+        "InTwo": {
+          "BindId": 1049
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1036
+          ]
+        },
+        "PreActionBind": [
+          37
+        ]
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": -1,
+        "InitialGraphKey": {
+          "DefaultValue": "Graph_HeavyStriker_Transform_Pre_Bullet"
+        },
+        "Position": {
+          "BindId": 1036
+        },
+        "PreActionBind": [
+          46
+        ],
+        "PropID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      }
+    ],
+    "VariableRegisterList": [
+      {
+        "$type": "AbilityVariableRegister",
+        "DefaultValue": {
+          "$type": "ConfigDynamicValueInt",
+          "Value": 3
+        },
+        "ElementType": "Integer",
+        "Key": "Int_MaxCount",
+        "Scope": "Auto",
+        "Type": "Integer"
+      },
+      {
+        "$type": "AbilityVariableRegister",
+        "DefaultValue": {
+          "$type": "ConfigDynamicValueFloat",
+          "Value": 6
+        },
+        "ElementType": "Float",
+        "Key": "Float_Distance",
+        "Scope": "Auto",
+        "Type": "Float"
+      }
+    ]
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAbilityTrigger"
+    }
+  ]
+}

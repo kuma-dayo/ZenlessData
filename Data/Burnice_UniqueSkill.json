@@ -1,0 +1,959 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "DoInitialCheck": true,
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "Burnice_CurChargePoint",
+          "CustomReferMaxPropertyType": "Burnice_CurChargePoint",
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Modifier_AttackEnhance",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "Burnice_EnhanceBuffModifier",
+                  "Target": "TeamAvatars"
+                }
+              ],
+              "Val": 50000
+            },
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Modifier_AttackEnhance",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "Burnice_EnhanceBuffModifier",
+                  "Target": "TeamAvatars"
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "DebuffModifier",
+                  "Target": "EnemyAllied"
+                }
+              ],
+              "Val": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_AddedAttackDelta": {
+      "Value": 0
+    },
+    "AS_AddedAttackDelta_Talent04": {
+      "Value": 0
+    },
+    "AS_AddedDamageRatioMax": {
+      "Value": 3
+    },
+    "AS_AddedDamageRatio_ElementMystery": {
+      "Value": 0.01
+    },
+    "AS_Consume": {
+      "Value": 0.05
+    },
+    "AS_Interval": {
+      "Value": 1.5
+    },
+    "AS_Interval_Talent01": {
+      "Value": 1.2
+    },
+    "AS_Magnification": {
+      "Value": 2
+    },
+    "AS_Magnification_Talent_04": {
+      "Value": 4
+    },
+    "AS_Recover": {
+      "Value": 2
+    },
+    "AddedDamageRatio": {
+      "Value": 0.4
+    },
+    "FinalConsume": {
+      "Value": 0
+    },
+    "FinalRecover": {
+      "Value": 0
+    },
+    "Layers": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "SP_Delta": {
+      "Value": 0
+    },
+    "SP_Delta_02": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierMixins": [
+      {
+        "$type": "ActionsOnPropertyChangeMixin",
+        "DoInitialCheck": false,
+        "PropertyActions": [
+          {
+            "InstantPropertyChangeActions": [
+              {
+                "$type": "SetAbilitySpecialByExpression",
+                "DoRefresh": true,
+                "Expression": "specials(SP_Delta)*specials(FinalRecover)",
+                "ParamName": "SP_Delta_02",
+                "Target": "Self",
+                "ValueType": "Float"
+              },
+              {
+                "$type": "ModifyProperty",
+                "Amount": "%SP_Delta_02",
+                "CustomPropertyType": "Burnice_CurChargePoint",
+                "IsUsePercentage": false,
+                "Percentage": 0,
+                "Predicates": [
+                  {
+                    "$type": "ByAbilitySpecial",
+                    "CompareType": "Greater",
+                    "Param": 0,
+                    "ParamName": "SP_Delta_02",
+                    "ParamType": "Float"
+                  }
+                ],
+                "PropertyModifyFunction": "Add",
+                "PropertyType": "Custom"
+              }
+            ],
+            "IsSaveToSpecial": true,
+            "IsUsePercentage": false,
+            "NameSaveToSpecial": "SP_Delta",
+            "PropertyType": "CurSP"
+          }
+        ]
+      }
+    ],
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_Consume)*(-100000)",
+        "ParamName": "FinalConsume",
+        "Target": "Caster",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_Recover)*(-1000)",
+        "ParamName": "FinalRecover",
+        "Target": "Caster",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyProperty",
+        "Amount": 1000000,
+        "CustomPropertyType": "Burnice_CurChargePoint",
+        "IsUsePercentage": false,
+        "Percentage": 0,
+        "PropertyModifyFunction": "Add",
+        "PropertyType": "Custom"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Enhance_Talent_00"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Enhance_Talent_00"
+        ],
+        "IsAdd": false,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 6,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Enhance_Talent_02"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 6,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Audio_Talent_00"
+        ],
+        "IsAdd": true,
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Audio_Talent_00"
+        ],
+        "IsAdd": false,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 1,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "Audio_Talent_01"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 1,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "BurniceTalent04Modifier",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 6,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ]
+  },
+  "Modifiers": {
+    "BurniceTalent04Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnHitOtherPre": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "property(Atk_Battle)*specials(AS_Magnification_Talent_04)",
+          "ParamName": "AS_AddedAttackDelta_Talent04",
+          "Target": "Caster",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "min(specials(AS_AddedDamageRatioMax),specials(AS_AddedDamageRatio_ElementMystery)*(property(ElementMystery_Battle)))",
+          "ParamName": "AddedDamageRatio",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01_Talent_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_AddedAttackDelta",
+          "PropertyValue": "%AS_AddedAttackDelta_Talent04",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01_Talent_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AddedDamageRatio",
+          "Target": "Caster"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Burnice_Explode_AttackProperty_01_Talent_02",
+          "Attacker": "Caster",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer_Talent04"
+                  ],
+                  "Target": "Caster"
+                }
+              ]
+            },
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Attack_ExSpecial_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Other"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Burnice_Attack_Common_03_Fire",
+          "FireEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "RandomAngleRange": {
+                "x": 10,
+                "y": 0,
+                "z": 10
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "MiddlePoint",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false
+            }
+          },
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer_Talent04"
+                  ],
+                  "Target": "Caster"
+                }
+              ]
+            },
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Attack_ExSpecial_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Other"
+        }
+      ],
+      "OnPatternAttackLandedFinished": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ExplodeCDModifer_Talent04",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01_Talent_02"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "Burnice_EnhanceBuffModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnHitOtherPre": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "property(Atk_Battle)*specials(AS_Magnification)",
+          "ParamName": "AS_AddedAttackDelta",
+          "Target": "Caster",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "min(specials(AS_AddedDamageRatioMax),specials(AS_AddedDamageRatio_ElementMystery)*(property(ElementMystery_Battle)))",
+          "ParamName": "AddedDamageRatio",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_AddedAttackDelta",
+          "PropertyValue": "%AS_AddedAttackDelta",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AddedDamageRatio",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Explode_AttackProperty_01"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_CanTriggerElementAbnormal",
+          "PropertyValue": 1,
+          "Target": "Caster"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Burnice_Explode_AttackProperty_01",
+          "Attacker": "Caster",
+          "OverrideDirAttacker": "LocalAvatar",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer_Talent01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByAnimEventIDs",
+                  "AnimEventIDs": [
+                    "Burnice_Explode_AttackProperty_01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByEntityTemplateID",
+                  "EntityType": "Avatar",
+                  "Target": "Self",
+                  "TemplateID": 1171
+                },
+                {
+                  "$type": "BySkipDamage"
+                }
+              ]
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "DebuffModifier"
+              ],
+              "Target": "Other"
+            }
+          ],
+          "Target": "Other"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Burnice_Attack_Common_03_Fire",
+          "FireEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "RandomAngleRange": {
+                "x": 10,
+                "y": 0,
+                "z": 10
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "MiddlePoint",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false
+            }
+          },
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer_Talent01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByAnimEventIDs",
+                  "AnimEventIDs": [
+                    "Burnice_Explode_AttackProperty_01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByEntityTemplateID",
+                  "EntityType": "Avatar",
+                  "Target": "Self",
+                  "TemplateID": 1171
+                },
+                {
+                  "$type": "BySkipDamage"
+                }
+              ]
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "DebuffModifier"
+              ],
+              "Target": "Other"
+            }
+          ],
+          "Target": "Other"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ExplodeCDModiferDMG",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "ExplodeCDModifer_Talent01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByAnimEventIDs",
+                  "AnimEventIDs": [
+                    "Burnice_Explode_AttackProperty_01"
+                  ],
+                  "Target": "Caster"
+                },
+                {
+                  "$type": "ByEntityTemplateID",
+                  "EntityType": "Avatar",
+                  "Target": "Self",
+                  "TemplateID": 1171
+                },
+                {
+                  "$type": "BySkipDamage"
+                }
+              ]
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "DebuffModifier"
+              ],
+              "Target": "Other"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ],
+      "OnPatternAttackLandedFinished": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ExplodeCDModifer",
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByEntityTemplateID",
+                  "EntityType": "Avatar",
+                  "Target": "Self",
+                  "TemplateID": 1171
+                }
+              ]
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "ExplodeCDModiferDMG"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "DebuffModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LockBone",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Burnice_Attack_Common_05_Fire",
+          "Predicates": [
+            {
+              "$type": "ByCharacterSize",
+              "CharacterSize": "Small",
+              "CompareType": "LessEqual",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "LockBone",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Burnice_Attack_Common_06_Fire",
+          "Predicates": [
+            {
+              "$type": "ByCharacterSize",
+              "CharacterSize": "Small",
+              "CompareType": "Greater",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "ExplodeCDModifer": {
+      "Duration": "%AS_Interval",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": "%FinalConsume",
+          "CustomPropertyType": "Burnice_CurChargePoint",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom",
+          "Target": "Caster"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "ExplodeCDModiferDMG",
+          "Target": "Caster"
+        }
+      ]
+    },
+    "ExplodeCDModiferDMG": {
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    },
+    "ExplodeCDModifer_Talent04": {
+      "Duration": 0.5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+      ]
+    },
+    "Modifier_AttackEnhance": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_CanEnhanceAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "UniqueMaterialModifer",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "IsEnhance",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom",
+          "Target": "Caster"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Target": "Caster",
+          "soundActionKey": "Play_SFX_Char_Skill_Burnice_Attack_Enhance_Ready"
+        }
+      ],
+      "OnHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "DebuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Burnice_Attack_Enhance_01_AttackProperty_01",
+                "Burnice_Attack_Enhance_01_Explode_AttackProperty_01",
+                "Burnice_Attack_Enhance_01_Explode_AttackProperty_02",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_01_AttackProperty_02_02",
+                "Burnice_Attack_ExSpecial_02_01_AttackProperty_01",
+                "Burnice_Attack_ExSpecial_02_01_AttackProperty_02_01",
+                "Burnice_Attack_ExSpecial_02_01_AttackProperty_02_02",
+                "Burnice_Attack_SwitchIn_Attack_AttackProperty_01",
+                "Burnice_Attack_SwitchIn_Attack_AttackProperty_02_01",
+                "Burnice_Attack_SwitchIn_Attack_AttackProperty_02_02",
+                "Burnice_Attack_SwitchIn_Attack_AttackProperty_02_03",
+                "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_01",
+                "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_02_01",
+                "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_03_01",
+                "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_03_02"
+              ]
+            },
+            {
+              "$type": "ByMonsterFunctionType",
+              "CompareType": "Equal",
+              "MonsterFunctionType": "Monster",
+              "Target": "Other"
+            }
+          ],
+          "Target": "Other"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_CanEnhanceAttack",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "UniqueMaterialModifer",
+          "Target": "Caster"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "IsEnhance",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom",
+          "Target": "Caster"
+        }
+      ]
+    },
+    "UniqueMaterialModifer": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Burnice_Weapon"
+            }
+          ],
+          "Tag": "Burnice_MA_Attack_Common_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Burnice_MA_Attack_Common_SecondaryEmission_01"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_Weapon",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Burnice_Attack_Common_04_GlowMod",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Burnice_Weapon"
+            }
+          ],
+          "Tag": "Burnice_MA_Attack_Common_SecondaryEmission_01",
+          "Target": "Self",
+          "key": "Burnice_MA_Attack_Common_SecondaryEmission_01"
+        }
+      ]
+    }
+  }
+}

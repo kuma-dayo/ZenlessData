@@ -11,8 +11,10 @@
           "ModifierName": "DieModifier"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "TarotCard_1100108",
@@ -40,5 +42,6 @@
       ]
     }
   },
-  "OnAbilityStart": []
+  "OnAbilityStart": [
+  ]
 }

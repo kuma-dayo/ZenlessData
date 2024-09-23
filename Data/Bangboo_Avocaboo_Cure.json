@@ -2,13 +2,13 @@
   "AbilityName": "Bangboo_Avocaboo_Cure",
   "AbilitySpecials": {
     "AS_ExtraRecoverRatio": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_RecoverRatio": {
       "Value": 0.1
     },
     "AS_RecoverValue": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

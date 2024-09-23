@@ -7,14 +7,14 @@
         "CapsuleColliderHeight": 0.4,
         "CapsuleColliderRadius": 0.07,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -26,16 +26,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": -90.0,
-            "z": 0.0
+            "x": 0,
+            "y": -90,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -50,17 +50,17 @@
       "CanHitStage": true,
       "DestroyExplode": true,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 5.0,
+        "CapsuleColliderHeight": 5,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 2.0
+          "x": 0,
+          "y": 0,
+          "z": 2
         },
         "ColliderType": "Capsule"
       },
@@ -123,14 +123,14 @@
           "CoordsOption": "ReferTarget",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 0.5,
-              "z": 0.0
+              "z": 0
             }
           },
           "TargetOption": {

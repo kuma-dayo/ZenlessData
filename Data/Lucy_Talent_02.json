@@ -6,5 +6,6 @@
     }
   },
   "AbilityStacking": "Unique",
-  "DefaultModifier": {}
+  "DefaultModifier": {
+  }
 }

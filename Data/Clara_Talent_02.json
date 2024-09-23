@@ -18,10 +18,11 @@
   "DefaultModifier": {
     "OnAdded": [
       {
-        "$type": "PushAnimatorZoneTagsAction",
+        "$type": "HandleAnimatorZoneTagsAction",
         "AnimatorStateTags": [
           "Clara_Talent_02"
         ],
+        "IsAdd": true,
         "Target": "Self"
       }
     ],

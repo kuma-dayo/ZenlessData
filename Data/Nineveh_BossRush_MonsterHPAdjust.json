@@ -6,23 +6,23 @@
       "ValueType": "Integer"
     },
     "AS_MaxHPRatio_Lives_01": {
-      "Value": 4.0,
+      "Value": 4,
       "ValueType": "Float"
     },
     "AS_MaxHPRatio_Lives_02": {
-      "Value": 6.0,
+      "Value": 6,
       "ValueType": "Float"
     },
     "AS_MaxHPRatio_Lives_03": {
-      "Value": 8.0,
+      "Value": 8,
       "ValueType": "Float"
     },
     "AS_MaxHPRatio_Lives_04": {
-      "Value": 10.0,
+      "Value": 10,
       "ValueType": "Float"
     },
     "AS_MaxHPRatio_Lives_05": {
-      "Value": 12.0,
+      "Value": 12,
       "ValueType": "Float"
     }
   },

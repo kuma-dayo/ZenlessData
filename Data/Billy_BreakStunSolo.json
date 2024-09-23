@@ -364,9 +364,9 @@
           "$type": "CameraOverrideScreenDampingAction",
           "EnableHorizontalDamping": true,
           "EnableVerticalDamping": true,
-          "HorizontalDampingValue": 0.0,
+          "HorizontalDampingValue": 0,
           "Target": "Self",
-          "VerticalDampingValue": 0.0
+          "VerticalDampingValue": 0
         },
         {
           "$type": "PushMuteManullyCameraLockAction",
@@ -391,26 +391,26 @@
             "NeedRaycastGround": false,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "RandomAngleRange": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "RandomPositionRange": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

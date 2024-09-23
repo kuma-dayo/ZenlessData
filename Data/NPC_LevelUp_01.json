@@ -1,7 +1,8 @@
 {
   "AbilityName": "NPC_LevelUp_01",
   "DefaultModifier": {
-    "OnNPCTalk": [],
+    "OnNPCTalk": [
+    ],
     "OnNPCTalkOver": [
       {
         "$type": "SetAnimCtrlerParamAction",

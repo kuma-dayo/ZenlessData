@@ -1,14 +1,24 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1,
-      "INIMNDGJNNH": "SpecialEnviroment_Test",
-      "FLPPHEGKIJI": "Assets/Scenes/Test/EnvironmentTest/EnvVolume_test_for_special_environment.prefab"
+      "DKDDFEIAMIF": 2,
+      "GGMGHBJCCDF": "EnvVolume_SkyScraper",
+      "BLJPCKLAIEB": "Assets/NapResources/Stage/SpecialEnvVolume/EnvVolume_SkyScraper.prefab"
     },
     {
-      "NGPCCDGBLLK": 2,
-      "INIMNDGJNNH": "EnvVolume_SkyScraper",
-      "FLPPHEGKIJI": "Assets/Scenes/SpecialEnvVolume/EnvVolume_SkyScraper.prefab"
+      "DKDDFEIAMIF": 3,
+      "GGMGHBJCCDF": "EnvVolume_OuterRing_Boss",
+      "BLJPCKLAIEB": "Assets/NapResources/Stage/SpecialEnvVolume/EnvVolume_OutRing_03.prefab"
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "GGMGHBJCCDF": "EnvVolume_OuterRing_Rally",
+      "BLJPCKLAIEB": "Assets/NapResources/Stage/SpecialEnvVolume/EnvVolume_OutRing_01.prefab"
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "GGMGHBJCCDF": "EnvVolume_OuterRing_Boss2",
+      "BLJPCKLAIEB": "Assets/NapResources/Stage/SpecialEnvVolume/EnvVolume_OutRing_02.prefab"
     }
   ]
 }

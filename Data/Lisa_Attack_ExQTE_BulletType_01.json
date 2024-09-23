@@ -5,14 +5,14 @@
       "AliveDuration": 0.15,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.4
@@ -25,14 +25,14 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": 0.9,
             "z": 1.05
           }
@@ -60,7 +60,7 @@
         "DefaultRotAngle": 0,
         "Duration": -1,
         "ExpectTime": 0.15,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.5,
         "MaxAngle": 80,
@@ -72,24 +72,24 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 2.5,
-              "z": 10.0
+              "z": 10
             },
             "PositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 2.5,
-              "z": 0.0
+              "z": 0
             }
           },
           "TargetOption": {

@@ -31,145 +31,6 @@
         ],
         "Target": "Self",
         "soundActionKey": "Monster_JaneDoe_Type_MainStory"
-      },
-      {
-        "$type": "TriggerSoundAction",
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Target": "Self",
-        "soundActionKey": "Monster_JaneDoe_Type_Slime"
-      },
-      {
-        "$type": "ApplyModifier",
-        "ModifierName": "Modifier_DelayEffect",
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Target": "Self"
-      },
-      {
-        "$type": "FireEffect",
-        "EffectPattern": "Eff_Monster_JaneDoe_Born_01_Glitch",
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Target": "Self"
-      },
-      {
-        "$type": "FireEffect",
-        "EffectPattern": "Eff_Monster_JaneDoe_Born_03_Spark",
-        "FireEffectPosRot": {
-          "CoordsOption": "ReferTarget",
-          "Offset": {
-            "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "IsUseRotationXZ": true,
-            "IsUseRotationY": true,
-            "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "TargetOption": {
-            "$type": "ConfigPosRotReferTarget",
-            "AttachPoint": "HeadPoint",
-            "OffsetReferTarget": "Self"
-          }
-        },
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Target": "Self"
-      },
-      {
-        "$type": "FireEffect",
-        "EffectPattern": "Eff_Monster_JaneDoe_Born_04_Spark",
-        "FireEffectPosRot": {
-          "CoordsOption": "ReferTarget",
-          "Offset": {
-            "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "IsUseRotationXZ": true,
-            "IsUseRotationY": true,
-            "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "TargetOption": {
-            "$type": "ConfigPosRotReferTarget",
-            "AttachPoint": "Skn_Tail_09",
-            "OffsetReferTarget": "Self"
-          }
-        },
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Target": "Self"
-      },
-      {
-        "$type": "ModifyMaterialPropertyAction",
-        "ApplyAllRenderers": true,
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Tag": "Monster_JaneDoe_MA_Born_OverrideRimGlow_01",
-        "Target": "Self",
-        "key": "Monster_JaneDoe_MA_Born_OverrideRimGlow_01"
-      },
-      {
-        "$type": "ModifyMaterialPropertyAction",
-        "ApplyAllRenderers": true,
-        "Predicates": [
-          {
-            "$type": "ByIsInZoneTags",
-            "Tags": [
-              "Slime"
-            ]
-          }
-        ],
-        "Tag": "Monster_JaneDoe_MA_Born_ScreenImage_02",
-        "Target": "Self",
-        "key": "Monster_JaneDoe_MA_Born_ScreenImage_02"
       }
     ]
   },
@@ -185,16 +46,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -213,8 +74,117 @@
   "OnAbilityTrigger": [
     {
       "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByNot",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "Slime"
+              ]
+            }
+          ]
+        }
+      ],
       "Target": "Self",
       "soundActionKey": "Monster_JaneDoe_Type_MainStory"
+    },
+    {
+      "$type": "TriggerSoundAction",
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Slime"
+          ]
+        }
+      ],
+      "Target": "Self",
+      "soundActionKey": "Monster_JaneDoe_Type_Slime"
+    },
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "Modifier_DelayEffect",
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Slime"
+          ]
+        }
+      ],
+      "Target": "Self"
+    },
+    {
+      "$type": "FireEffect",
+      "EffectPattern": "Eff_Monster_JaneDoe_Born_03_Spark",
+      "FireEffectPosRot": {
+        "CoordsOption": "ReferTarget",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsUseRotationXZ": true,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "AttachPoint": "HeadPoint",
+          "OffsetReferTarget": "Self"
+        }
+      },
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Slime"
+          ]
+        }
+      ],
+      "Target": "Self"
+    },
+    {
+      "$type": "FireEffect",
+      "EffectPattern": "Eff_Monster_JaneDoe_Born_04_Spark",
+      "FireEffectPosRot": {
+        "CoordsOption": "ReferTarget",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsUseRotationXZ": true,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "AttachPoint": "Skn_Tail_09",
+          "OffsetReferTarget": "Self"
+        }
+      },
+      "Predicates": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Slime"
+          ]
+        }
+      ],
+      "Target": "Self"
     }
   ]
 }

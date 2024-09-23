@@ -9,7 +9,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.391
         },
         {
@@ -18,7 +18,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.453
         },
         {
@@ -27,7 +27,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.453
         },
         {
@@ -37,8 +37,8 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_02_B",
@@ -47,8 +47,8 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_Start",
@@ -56,7 +56,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.293
         },
         {
@@ -65,7 +65,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.561
         },
         {
@@ -74,7 +74,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.549
         },
         {
@@ -83,7 +83,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.549
         },
         {
@@ -92,7 +92,7 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.549
         },
         {
@@ -102,8 +102,8 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Normal_03_B",
@@ -112,8 +112,8 @@
           "ModifierNameList": [
             "SepcialEffectModifier_Dust"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -136,16 +136,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -165,16 +165,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

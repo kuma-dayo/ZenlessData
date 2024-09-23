@@ -3,7 +3,7 @@
   "EventGraph": {
     "EditorOnlyData": {
       "Event": {
-        "OnStart": {
+        "OnAbilityTrigger": {
           "x": 20.5,
           "y": 192.94
         }
@@ -71,10 +71,11 @@
       ]
     },
     "EventMap": {
-      "OnStart": {
+      "OnAbilityTrigger": {
         "$type": "ConfigAbilityGraphEvent",
         "EventNodeBind": 6,
-        "ParametersBind": []
+        "ParametersBind": [
+        ]
       }
     },
     "NodeList": [
@@ -112,7 +113,8 @@
         "MaxValue": {
           "DefaultValue": 9
         },
-        "MinValue": {},
+        "MinValue": {
+        },
         "Output": {
           "$type": "ConfigOutputValue",
           "BindId": [
@@ -240,12 +242,13 @@
         }
       }
     ],
-    "VariableRegisterList": []
+    "VariableRegisterList": [
+    ]
   },
-  "OnAbilityStart": [
+  "OnAbilityTrigger": [
     {
       "$type": "CallGraphEvent",
-      "EventName": "OnStart"
+      "EventName": "OnAbilityTrigger"
     }
   ]
 }

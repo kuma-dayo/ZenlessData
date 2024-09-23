@@ -1,0 +1,41 @@
+{
+  "AbilityName": "Burnice_EvadeCD",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnSkillReady": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_EvadeCD",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "BySkillName",
+            "SkillName": "Burnice_Exsp_Evade"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnSkillStartResolve": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": false,
+        "ParamName": "Bool_EvadeCD",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByNot",
+            "Predicates": [
+              {
+                "$type": "BySkillReady",
+                "SkillName": "Burnice_Exsp_Evade"
+              }
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

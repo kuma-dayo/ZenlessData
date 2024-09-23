@@ -110,8 +110,8 @@
           "ModifierNameList": [
             "ChargeCalModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -121,8 +121,8 @@
           "ModifierNameList": [
             "ChargeCalModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ]

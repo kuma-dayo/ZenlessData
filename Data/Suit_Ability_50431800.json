@@ -1,0 +1,184 @@
+{
+  "AbilityName": "Suit_Ability_50431800",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio_Elec": {
+      "Value": 0.15
+    },
+    "AS_AddedDamageRatio_ExSP": {
+      "Value": 0.25
+    },
+    "AS_AddedDamageRatio_Fire": {
+      "Value": 0.15
+    },
+    "AS_Duration": {
+      "Value": 5
+    },
+    "AS_IntervalCD": {
+      "Value": 15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier",
+        "Target": "Caster"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier_Elec",
+        "Target": "Caster"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier_Exsp_01",
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ],
+    "OnBattleEnter": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "AddedDamageRatioModifier_Exsp_01",
+        "Predicates": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Caster"
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "AddedDamageRatioModifier_Exsp_01",
+        "Target": "Caster"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier_Exsp_02_CD",
+        "Target": "Caster"
+      }
+    ],
+    "OnSwitchOutFinish": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AddedDamageRatioModifier_Exsp_01",
+        "Target": "Caster"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AddedDamageRatioModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AddedDamageRatio_Fire": "%AS_AddedDamageRatio_Fire"
+      }
+    },
+    "AddedDamageRatioModifier_Elec": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AddedDamageRatio_Elec": "%AS_AddedDamageRatio_Elec"
+      }
+    },
+    "AddedDamageRatioModifier_Exsp_01": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "AttackSpecial",
+                    "ExSp"
+                  ]
+                },
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "AttackAid"
+                  ]
+                }
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio_ExSP",
+          "Target": "Self"
+        }
+      ]
+    },
+    "AddedDamageRatioModifier_Exsp_02": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Unique",
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "AttackSpecial",
+                    "ExSp"
+                  ]
+                },
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "AttackAid"
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierNameList": [
+                    "AddedDamageRatioModifier_Exsp_01"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio_ExSP",
+          "Target": "Self"
+        }
+      ]
+    },
+    "AddedDamageRatioModifier_Exsp_02_CD": {
+      "Duration": "%AS_IntervalCD",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AddedDamageRatioModifier_Exsp_02",
+          "Target": "Caster"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "AbilityName": "Card_Strength_2002400",
+  "AbilitySpecials": {
+    "AS_AccumulationRatio": {
+      "Value": 0.05
+    },
+    "AS_AddedDamageRatio": {
+      "Value": 0.1
+    },
+    "AS_AddedStunRatio": {
+      "Value": 0.04
+    },
+    "Duration": {
+      "Value": 30
+    },
+    "HasCard_20102402": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "StregthModifier_01": {
+      "Buff": {
+        "BuffID": 3100091,
+        "IsOverrideDuration": false
+      },
+      "Duration": "%Duration",
+      "MaxStackingNumber": 5,
+      "ModifierStacking": "MultipleRefresh",
+      "Properties": {
+        "Actor_AddedDamageRatio_Elec": "%AS_AddedDamageRatio",
+        "Actor_AddedDamageRatio_Ether": "%AS_AddedDamageRatio",
+        "Actor_AddedDamageRatio_Fire": "%AS_AddedDamageRatio",
+        "Actor_AddedDamageRatio_Ice": "%AS_AddedDamageRatio",
+        "Actor_AddedDamageRatio_Physics": "%AS_AddedDamageRatio",
+        "Actor_AddedElementAccumulationRatio": "%AS_AccumulationRatio"
+      }
+    },
+    "StregthModifier_02": {
+      "Duration": "%Duration",
+      "MaxStackingNumber": 10,
+      "ModifierStacking": "MultipleRefresh",
+      "Properties": {
+        "Actor_AddedBreakStunRatio": "%AS_AddedStunRatio"
+      }
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "StregthModifier_01",
+      "Target": "Self"
+    },
+    {
+      "$type": "SetModifierMaxStackingNum",
+      "MaxStackingNum": 10,
+      "ModifierName": "StregthModifier_01",
+      "ModifierTargetType": "CurTargetAbility",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Greater",
+          "Param": 0,
+          "ParamName": "HasCard_20102402",
+          "ParamType": "Float",
+          "Target": "Self"
+        }
+      ],
+      "Target": "Self"
+    },
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "StregthModifier_02",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Greater",
+          "Param": 0,
+          "ParamName": "HasCard_20102402",
+          "ParamType": "Float",
+          "Target": "Self"
+        }
+      ],
+      "Target": "Self"
+    }
+  ]
+}

@@ -19,23 +19,23 @@
       ],
       "DodgeColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
-        "SphereColliderRadius": 1.0
+        "SphereColliderRadius": 1
       },
       "EffectName": "Eff_Monster_TarasqueMixer_Attack_03_Beam",
       "EndEffect": {
         "EffectPattern": "Eff_Monster_TarasqueMixer_Attack_03_Burst"
       },
-      "FirstHitDelayTime": 0.0,
+      "FirstHitDelayTime": 0,
       "HitAnimEventID": "Monster_TarasqueMixer_ATK05_AttackProperty_Laser_01",
       "HitColliderRadius": 0.3,
       "HitInterval": 0.05,
@@ -48,14 +48,14 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -70,14 +70,14 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

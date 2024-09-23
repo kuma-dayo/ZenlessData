@@ -1,6 +1,7 @@
 {
   "AbilityName": "Curse_AbyssBuffToAvatar",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "OnTeamAvatarConstructed": [

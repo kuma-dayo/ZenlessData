@@ -44,7 +44,7 @@
               "DamageElement": "Fire"
             }
           ],
-          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyKey": "Actor_AddedDamageRatio_Fire",
           "PropertyValue": "%AS_Actor_AddedDamageRatio_Stun",
           "Target": "Self"
         }

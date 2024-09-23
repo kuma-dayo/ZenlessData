@@ -2,7 +2,7 @@
   "AbilityName": "GamePlaySUMO_MonsterHyperShield",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 200.0
+      "Value": 200
     }
   },
   "AbilityStacking": "Unique",
@@ -30,7 +30,7 @@
           "IfTakeRestDamageWhenEmpty": true,
           "Priority": 0,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "Tag": "MonsterHyperShield",
           "TotalValueConfig": {
             "Amount": 0,

@@ -2,7 +2,7 @@
   "AbilityName": "GamePlayHiddenBomb_Trigger_Special_Teleport",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 100.0
+      "Value": 100
     },
     "ShieldAmount": {
       "Value": 1
@@ -30,7 +30,7 @@
   },
   "Modifiers": {
     "Teleport_End_Modifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
       "OnRemoved": [

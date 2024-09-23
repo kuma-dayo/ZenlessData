@@ -2,7 +2,7 @@
   "AbilityName": "GamePlay_EliteShieldEffect",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 100.0
+      "Value": 100
     }
   },
   "AbilityStacking": "Unique",
@@ -25,22 +25,22 @@
           "AttachEffectPosRot": {
             "CoordsOption": "ReferTarget",
             "EffectScale": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
+              "x": 5,
+              "y": 5,
+              "z": 5
             },
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

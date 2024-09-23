@@ -1,0 +1,259 @@
+{
+  "AbilityName": "Graph_HeavyStriker_Attack_4_Burst",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAdded": {
+          "Position": {
+            "x": 592,
+            "y": 283
+          }
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": -315,
+          "y": -94
+        },
+        "Zoom": 1
+      },
+      "Group": [
+      ],
+      "Node": [
+        {
+          "Position": {
+            "x": 831,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 746,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 1068,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 1354,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 1606,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 1836,
+            "y": 283
+          }
+        },
+        {
+          "Position": {
+            "x": 749,
+            "y": 635
+          }
+        },
+        {
+          "Position": {
+            "x": 757,
+            "y": 635
+          }
+        },
+        {
+          "Position": {
+            "x": 969,
+            "y": 635
+          }
+        },
+        {
+          "Position": {
+            "x": 1200,
+            "y": 635
+          }
+        },
+        {
+          "Position": {
+            "x": 1025,
+            "y": 762
+          }
+        },
+        {
+          "Position": {
+            "x": 2102,
+            "y": 283
+          }
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAdded": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 1,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "AutoDynamicInfo": {
+          "$type": "EffectAutoDynamicValue",
+          "EffFadeInTime": 0.9,
+          "EffFadeOutTime": 0.2,
+          "EffHoldTime": 0,
+          "EffStartSizeX": 3,
+          "EffStartSizeY": 3,
+          "EffectTarget": 1
+        },
+        "DefaultOutBind": 2,
+        "EffectID": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1001
+          ]
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Alert_Circle_Electric_01"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 3,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.8
+        }
+      },
+      {
+        "$type": "AttachAttackPredicate",
+        "DefaultOutBind": 4,
+        "Key": {
+          "DefaultValue": "HeavyStriker_Attack04_Attackproperty_ExtraBurst_Predicate"
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 5,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.2
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": 11,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Attack_04_07_Burst"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "PlaceholderNode",
+        "DefaultOutBind": -1
+      },
+      {
+        "$type": "DestroyEffectNode",
+        "DefaultOutBind": 8,
+        "EffectID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1001
+        }
+      },
+      {
+        "$type": "DelayNode",
+        "Complete": 9,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.5
+        }
+      },
+      {
+        "$type": "DestroyProp",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          10
+        ],
+        "PropID": {
+          "$type": "ConfigInputValue",
+          "BindId": 1000
+        }
+      },
+      {
+        "$type": "GetSelfEntity",
+        "DefaultOutBind": -1,
+        "Self": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000
+          ]
+        }
+      },
+      {
+        "$type": "AttachAttackProperty",
+        "DefaultOutBind": 7,
+        "Key": {
+          "DefaultValue": "HeavyStriker_Attack04_Attackproperty_ExtraBurst"
+        }
+      }
+    ],
+    "VariableRegisterList": [
+    ]
+  },
+  "OnAdded": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAdded"
+    }
+  ]
+}

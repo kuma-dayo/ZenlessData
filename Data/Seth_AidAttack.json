@@ -34,26 +34,26 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "BackupAngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "BackupPositionOffset": {
-                  "x": 3.0,
-                  "y": 0.0,
-                  "z": -3.0
+                  "x": 3,
+                  "y": 0,
+                  "z": -3
                 },
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 3.0,
-                  "y": 0.0,
-                  "z": -3.0
+                  "x": 3,
+                  "y": 0,
+                  "z": -3
                 }
               },
               "TargetOption": {
@@ -116,25 +116,25 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 180.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
                 },
                 "BackupAngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "BackupPositionOffset": {
                   "x": 1.5,
-                  "y": 0.0,
-                  "z": -4.0
+                  "y": 0,
+                  "z": -4
                 },
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
+                  "x": 0,
+                  "y": 0,
                   "z": 3
                 }
               },
@@ -193,25 +193,25 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 180.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
                 },
                 "BackupAngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "BackupPositionOffset": {
                   "x": 1.5,
-                  "y": 0.0,
-                  "z": -4.0
+                  "y": 0,
+                  "z": -4
                 },
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
+                  "x": 0,
+                  "y": 0,
                   "z": 5
                 }
               },
@@ -274,25 +274,25 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 180.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
                 },
                 "BackupAngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "BackupPositionOffset": {
                   "x": 1.5,
-                  "y": 0.0,
-                  "z": -4.0
+                  "y": 0,
+                  "z": -4
                 },
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
+                  "x": 0,
+                  "y": 0,
                   "z": 2
                 }
               },
@@ -318,26 +318,26 @@
           "NeedRaycastGround": true,
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
               "x": 1.5,
-              "y": 0.0,
-              "z": -4.0
+              "y": 0,
+              "z": -4
             },
             "IsUseRotationXZ": false,
             "IsUseRotationY": true,
             "PositionOffset": {
               "x": 1.5,
-              "y": 0.0,
-              "z": -4.0
+              "y": 0,
+              "z": -4
             }
           },
           "TargetOption": {

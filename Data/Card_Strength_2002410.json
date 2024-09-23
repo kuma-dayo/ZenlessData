@@ -1,0 +1,57 @@
+{
+  "AbilityName": "Card_Strength_2002410",
+  "AbilitySpecials": {
+    "AddedDamageRatio_Greater": {
+      "Value": 0.15
+    },
+    "AddedDamageRatio_Less": {
+      "Value": 0.05
+    },
+    "Self_CurHP": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "property(CurHP)\/property(MaxHP)",
+        "ParamName": "Self_CurHP",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0.5,
+            "ParamName": "Self_CurHP",
+            "ParamType": "Float"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AddedDamageRatio_Less",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Less",
+            "Param": 0.5,
+            "ParamName": "Self_CurHP",
+            "ParamType": "Float"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AddedDamageRatio_Greater",
+        "Target": "Self"
+      }
+    ]
+  }
+}

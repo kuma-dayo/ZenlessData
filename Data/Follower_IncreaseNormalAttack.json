@@ -16,7 +16,8 @@
   },
   "Modifiers": {
     "IncreaseAttackModifier": {
-      "OnHitOther": []
+      "OnHitOther": [
+      ]
     }
   }
 }

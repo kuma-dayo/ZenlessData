@@ -54,15 +54,6 @@
               "AbilityName": "Monster_Common_Death_Start",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -72,14 +63,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -136,24 +119,8 @@
             },
             {
               "$type": "ReadyToDieAction",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -167,6 +134,7 @@
             {
               "$type": "ReadyToDieAction",
               "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
                 {
                   "$type": "ByAnimCtrlerParam",
@@ -199,23 +167,6 @@
               "$type": "LDListenEntityAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -240,15 +191,6 @@
               "AbilityName": "Monster_Common_Death_MA_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -258,14 +200,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -335,15 +269,6 @@
               "AbilityName": "Monster_Common_Death_Effect_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -353,14 +278,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -419,23 +336,6 @@
               "$type": "AttackCameraShakeAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -481,23 +381,6 @@
             {
               "$type": "DropItemAction",
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -585,23 +468,6 @@
               "$type": "TriggerAbilityAction",
               "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -671,15 +537,6 @@
               "AbilityName": "Monster_Common_Death_Start",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -689,14 +546,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -753,24 +602,8 @@
             },
             {
               "$type": "ReadyToDieAction",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -784,6 +617,7 @@
             {
               "$type": "ReadyToDieAction",
               "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
                 {
                   "$type": "ByAnimCtrlerParam",
@@ -816,23 +650,6 @@
               "$type": "LDListenEntityAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -857,15 +674,6 @@
               "AbilityName": "Monster_Common_Death_MA_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -875,14 +683,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -952,15 +752,6 @@
               "AbilityName": "Monster_Common_Death_Effect_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -970,14 +761,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -1036,23 +819,6 @@
               "$type": "AttackCameraShakeAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -1098,23 +864,6 @@
             {
               "$type": "DropItemAction",
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -1202,23 +951,6 @@
               "$type": "TriggerAbilityAction",
               "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -1288,15 +1020,6 @@
               "AbilityName": "Monster_Common_Death_Start",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -1306,14 +1029,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -1370,24 +1085,8 @@
             },
             {
               "$type": "ReadyToDieAction",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -1401,6 +1100,7 @@
             {
               "$type": "ReadyToDieAction",
               "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "OverrideLastMonsterKill": false,
               "Predicates": [
                 {
                   "$type": "ByAnimCtrlerParam",
@@ -1433,23 +1133,6 @@
               "$type": "LDListenEntityAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -1474,15 +1157,6 @@
               "AbilityName": "Monster_Common_Death_MA_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -1492,14 +1166,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -1569,15 +1235,6 @@
               "AbilityName": "Monster_Common_Death_Effect_End",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
                   "$type": "ByNot",
                   "Predicates": [
                     {
@@ -1587,14 +1244,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
                 },
                 {
                   "$type": "ByTags",
@@ -1653,23 +1302,6 @@
               "$type": "AttackCameraShakeAction",
               "Predicates": [
                 {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
-                {
                   "$type": "ByTags",
                   "TagList": [
                     "Lampas_CoAttack"
@@ -1715,23 +1347,6 @@
             {
               "$type": "DropItemAction",
               "Predicates": [
-                {
-                  "$type": "ByAnimCtrlerParam",
-                  "BoolVal": true,
-                  "CompareType": "Equal",
-                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
-                  "ParamName": "Bool_IsBreakDown",
-                  "ParamType": 2,
-                  "Target": "Custom"
-                },
-                {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Equal",
-                  "Param": 0,
-                  "ParamName": "BlockDeathEvent",
-                  "ParamType": "Integer",
-                  "Target": "Self"
-                },
                 {
                   "$type": "ByTags",
                   "TagList": [
@@ -1820,6 +1435,43 @@
               "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
               "Predicates": [
                 {
+                  "$type": "ByTags",
+                  "TagList": [
+                    "Lampas_CoAttack"
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Death_Ground_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 180,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetTargetAbilitySpecialAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Params": [
+                {
+                  "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+                  "AbilitySpecials": [
+                    {
+                      "ModifyFunction": "Replace",
+                      "Param": 1,
+                      "ParamName": "BlockDeathEvent",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                }
+              ],
+              "Predicates": [
+                {
                   "$type": "ByAnimCtrlerParam",
                   "BoolVal": true,
                   "CompareType": "Equal",
@@ -1835,19 +1487,1480 @@
                   "ParamName": "BlockDeathEvent",
                   "ParamType": "Integer",
                   "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
                 },
                 {
-                  "$type": "ByTags",
-                  "TagList": [
-                    "Lampas_CoAttack"
-                  ],
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "LDListenEntityAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "TargetKey": "EntityReadyToDie"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Stay",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Stay",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 133,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Self"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Custom"
+            },
+            {
+              "$type": "DropItemAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "DropItemAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Stay",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 146,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
                   "Target": "Self"
                 }
               ],
               "Target": "Self"
             }
           ],
-          "AnimatorStateName": "Death_Ground_Back",
+          "AnimatorStateName": "BreakDown_Stay",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 180,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetTargetAbilitySpecialAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Params": [
+                {
+                  "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+                  "AbilitySpecials": [
+                    {
+                      "ModifyFunction": "Replace",
+                      "Param": 1,
+                      "ParamName": "BlockDeathEvent",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                }
+              ],
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "LDListenEntityAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "TargetKey": "EntityReadyToDie"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 133,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Self"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Custom"
+            },
+            {
+              "$type": "DropItemAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "DropItemAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 146,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Front",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 180,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetTargetAbilitySpecialAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Params": [
+                {
+                  "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+                  "AbilitySpecials": [
+                    {
+                      "ModifyFunction": "Replace",
+                      "Param": 1,
+                      "ParamName": "BlockDeathEvent",
+                      "ParamType": "Integer"
+                    }
+                  ]
+                }
+              ],
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Start",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "ReadyToDieAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "LDListenEntityAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "TargetKey": "EntityReadyToDie"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_MA_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 133,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "Monster_Common_Death_Effect_End",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "SpecialNoDeath"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Self"
+            },
+            {
+              "$type": "AttackCameraShakeAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "ShakeConfigKey": "Monster_Death_CamShake_02",
+              "Target": "Custom"
+            },
+            {
+              "$type": "DropItemAction",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "DropItemAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Back",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 146,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Custom"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "LampasBlackVeil_BreakDownDeathEvent",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+                  "ParamName": "Bool_IsBreakDown",
+                  "ParamType": 2,
+                  "Target": "Custom"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "BlockDeathEvent",
+                  "ParamType": "Integer",
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "BreakDown_Back",
           "ForceTriggerOnTransitionIn": true,
           "ForceTriggerOnTransitionOut": false,
           "Frame": 180,

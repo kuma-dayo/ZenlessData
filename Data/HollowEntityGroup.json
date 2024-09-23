@@ -5,7 +5,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000001,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/BomberMan/Enemy",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/BomberMan\/Enemy",
       "StateMachinePath": "MiniGameBomberMan_Enemy",
       "USER_COMMENT": "炸弹人-敌人"
     },
@@ -13,7 +13,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000002,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/BomberMan/Player",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/BomberMan\/Player",
       "StateMachinePath": "MiniGameBomberMan_Player",
       "USER_COMMENT": "炸弹人-玩家"
     },
@@ -21,7 +21,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000003,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/BomberMan/Enemy",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/BomberMan\/Enemy",
       "StateMachinePath": "MiniGameBomberMan_Enemy",
       "USER_COMMENT": "炸弹人-敌人"
     },
@@ -29,7 +29,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000004,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/BomberMan/Wall",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/BomberMan\/Wall",
       "StateMachinePath": "MiniGameBomberMan_Player",
       "USER_COMMENT": "墙壁"
     },
@@ -37,7 +37,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000005,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/BomberMan/BombFire",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/BomberMan\/BombFire",
       "StateMachinePath": "MiniGameBomberMan_BombFire",
       "USER_COMMENT": "炸弹炸出来的火焰"
     },
@@ -45,7 +45,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000006,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/Test_Entity",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/Test_Entity",
       "StateMachinePath": "MiniGamePushBox_Player",
       "USER_COMMENT": "推箱子-Player"
     },
@@ -53,7 +53,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000007,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/Test_Entity",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/Test_Entity",
       "StateMachinePath": "Entity_Test",
       "USER_COMMENT": "推箱子-箱子"
     },
@@ -61,7 +61,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000008,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/Coin",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/Coin",
       "StateMachinePath": "MiniGameDefenseScene_Coin",
       "USER_COMMENT": "屏幕保卫战-金币"
     },
@@ -69,7 +69,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000009,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/CoinAlert",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/CoinAlert",
       "StateMachinePath": "MiniGameDefenseScene_CoinAlert",
       "USER_COMMENT": "屏幕保卫战-金币预警"
     },
@@ -77,7 +77,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000010,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/Virus",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/Virus",
       "StateMachinePath": "MiniGameDefenseScene_Virus",
       "USER_COMMENT": "屏幕保卫战-病毒"
     },
@@ -85,7 +85,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000011,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/Virus2",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/Virus2",
       "StateMachinePath": "MiniGameDefenseScene_Virus2",
       "USER_COMMENT": "屏幕保卫战-病毒2"
     },
@@ -93,7 +93,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000012,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/VirusShort",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/VirusShort",
       "StateMachinePath": "MiniGameDefenseScene_VirusShort",
       "USER_COMMENT": "屏幕保卫战-病毒Short"
     },
@@ -101,7 +101,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000013,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/AntiVirus",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/AntiVirus",
       "StateMachinePath": "MiniGameDefenseScene_AntiVirus",
       "USER_COMMENT": "屏幕保卫战-杀毒软件"
     },
@@ -109,7 +109,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000014,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/Trap",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/Trap",
       "StateMachinePath": "MiniGameDefenseScene_Trap",
       "USER_COMMENT": "屏幕保卫战-陷阱"
     },
@@ -117,7 +117,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000015,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/RhythmMove/RedBlock",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/RhythmMove\/RedBlock",
       "StateMachinePath": "MiniGameRhythmMove_RedBlock",
       "USER_COMMENT": "别踩红块-红块"
     },
@@ -125,7 +125,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000016,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/RhythmMove/RedAlert",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/RhythmMove\/RedAlert",
       "StateMachinePath": "MiniGameRhythmMove_RedAlert",
       "USER_COMMENT": "别踩红块-预警"
     },
@@ -133,7 +133,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000017,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/General/FCLocalPlayer",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/General\/FCLocalPlayer",
       "StateMachinePath": "MiniGameGeneral_Player",
       "USER_COMMENT": "小游戏通用-玩家"
     },
@@ -141,7 +141,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000018,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/DefenseScene/Virus",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/DefenseScene\/Virus",
       "StateMachinePath": "MiniGameDefenseScene_Virus",
       "USER_COMMENT": "屏幕保卫战-病毒-永久"
     },
@@ -149,7 +149,7 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000019,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/General/FCLocalPlayer",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/General\/FCLocalPlayer",
       "StateMachinePath": "MiniGameRhythmMove_Player",
       "USER_COMMENT": "别踩红块-玩家"
     },
@@ -157,9 +157,25 @@
       "$type": "CHollowMiniGameEntityConfig",
       "HollowEntityType": 4,
       "ID": 100000020,
-      "ScriptConfigPath": "Data/ScriptConfig/HollowEntity/MiniGame/General/Background",
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/General\/Background",
       "StateMachinePath": "MiniGameGeneral_Background",
       "USER_COMMENT": "小游戏通用雪花屏背景"
+    },
+    {
+      "$type": "CHollowMiniGameEntityConfig",
+      "HollowEntityType": 4,
+      "ID": 100000021,
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/General\/FCHackLocalPlayer",
+      "StateMachinePath": "Hack_LocalPlayer",
+      "USER_COMMENT": "黑客小游戏-玩家"
+    },
+    {
+      "$type": "CHollowMiniGameEntityConfig",
+      "HollowEntityType": 4,
+      "ID": 100000022,
+      "ScriptConfigPath": "Data\/ScriptConfig\/HollowEntity\/MiniGame\/General\/FCHackLocalPlayer",
+      "StateMachinePath": "Hack_LocalPlayer_Sub",
+      "USER_COMMENT": "病毒 - 玩家分身"
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -9972,7 +9988,8 @@
       "ObstacleVisible": [
         3
       ],
-      "Param": {},
+      "Param": {
+      },
       "Priority": 1,
       "StateMachine": 2024,
       "USER_COMMENT": "三章MRL5-双子1"
@@ -9990,7 +10007,8 @@
       "ObstacleVisible": [
         3
       ],
-      "Param": {},
+      "Param": {
+      },
       "Priority": 1,
       "StateMachine": 2024,
       "USER_COMMENT": "三章MRL5-双子2"
@@ -10009,7 +10027,8 @@
       "ObstacleVisible": [
         3
       ],
-      "Param": {},
+      "Param": {
+      },
       "Priority": 1,
       "StateMachine": 2014,
       "USER_COMMENT": "三章MRL5 芭莱双子1"
@@ -10028,7 +10047,8 @@
       "ObstacleVisible": [
         3
       ],
-      "Param": {},
+      "Param": {
+      },
       "Priority": 1,
       "StateMachine": 2014,
       "USER_COMMENT": "三章MRL5 芭莱双子2"
@@ -10046,7 +10066,8 @@
       "ObstacleVisible": [
         3
       ],
-      "Param": {},
+      "Param": {
+      },
       "Priority": 1,
       "StateMachine": 2024,
       "USER_COMMENT": "三章MRL5-通用观众"
@@ -11756,31 +11777,36 @@
       "$type": "CBarrierConfig",
       "ID": 10401001,
       "ScriptID": 10401001,
-      "StateMachine": 1000001
+      "StateMachine": 1000001,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
       "ID": 10401002,
       "ScriptID": 10401002,
-      "StateMachine": 1000002
+      "StateMachine": 1000002,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
       "ID": 10401003,
       "ScriptID": 10401003,
-      "StateMachine": 1000003
+      "StateMachine": 1000003,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
       "ID": 10401004,
       "ScriptID": 10401004,
-      "StateMachine": 1000004
+      "StateMachine": 1000004,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
       "ID": 10401005,
       "ScriptID": 10401005,
-      "StateMachine": 1000011
+      "StateMachine": 1000011,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -11863,7 +11889,8 @@
       },
       "ID": 10401101,
       "ScriptID": 10401101,
-      "StateMachine": 1000005
+      "StateMachine": 1000005,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -11946,7 +11973,8 @@
       },
       "ID": 10401102,
       "ScriptID": 10401102,
-      "StateMachine": 1000005
+      "StateMachine": 1000005,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -12029,7 +12057,8 @@
       },
       "ID": 10401103,
       "ScriptID": 10401103,
-      "StateMachine": 1000006
+      "StateMachine": 1000006,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -12112,7 +12141,8 @@
       },
       "ID": 10401104,
       "ScriptID": 10401104,
-      "StateMachine": 1000006
+      "StateMachine": 1000006,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -12195,7 +12225,8 @@
       },
       "ID": 10401105,
       "ScriptID": 10401103,
-      "StateMachine": 1000006
+      "StateMachine": 1000006,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -12278,7 +12309,8 @@
       },
       "ID": 10401106,
       "ScriptID": 10401104,
-      "StateMachine": 1000006
+      "StateMachine": 1000006,
+      "Transparent": 1
     },
     {
       "$type": "CBarrierConfig",
@@ -12301,8 +12333,596 @@
     {
       "$type": "CBarrierConfig",
       "ID": 10400004,
-      "ScriptID": 10401004,
+      "ScriptID": 10400004,
       "StateMachine": 1000010
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1042918,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1042918,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 1
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1042921,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1042921,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 2
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10429310,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10429310,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 3
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10429311,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10429311,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 4
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10429312,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10429312,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 5
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10429313,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10429313,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Param": {
+        "num": 6
+      },
+      "Priority": 1,
+      "StateMachine": 4000005,
+      "USER_COMMENT": "四章SRL5-矿车"
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429001,
+      "ScriptID": 10429001,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429002,
+      "Param": {
+        "coin": 100
+      },
+      "ScriptID": 10429002,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429003,
+      "Param": {
+        "coin": 200
+      },
+      "ScriptID": 10429002,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429004,
+      "Param": {
+        "coin": 400
+      },
+      "ScriptID": 10429002,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429101,
+      "ScriptID": 10429101,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429102,
+      "Param": {
+        "coin": 100
+      },
+      "ScriptID": 10429102,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429103,
+      "Param": {
+        "coin": 200
+      },
+      "ScriptID": 10429102,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429104,
+      "Param": {
+        "coin": 400
+      },
+      "ScriptID": 10429102,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429105,
+      "Param": {
+        "decrease": 15
+      },
+      "ScriptID": 10429105,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429201,
+      "ScriptID": 10429201,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429202,
+      "Param": {
+        "coin": 100
+      },
+      "ScriptID": 10429202,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429203,
+      "Param": {
+        "coin": 200
+      },
+      "ScriptID": 10429202,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429204,
+      "Param": {
+        "coin": 400
+      },
+      "ScriptID": 10429202,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429205,
+      "Param": {
+        "decrease": 15
+      },
+      "ScriptID": 10429205,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "Component": [
+        {
+          "$type": "CBlockComponentConfig"
+        }
+      ],
+      "ID": 10429206,
+      "Param": {
+        "diny": 500
+      },
+      "ScriptID": 10429206,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401201,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401201,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-黄金矿工1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401202,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401202,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 3011341,
+      "USER_COMMENT": "四章MRL1-跑路的坏人1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401203,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401203,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 3011351,
+      "USER_COMMENT": "四章MRL1-跑路的坏人2"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401204,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401204,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-跑路的坏人2-1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401205,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401205,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-跑路的坏人2-2"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401206,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401206,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-跑路的坏人2-3"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401207,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401207,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-跑路的坏人2-4"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401208,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10401208,
+      "InteractIconTextureSheetID": 10220,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "四章MRL1-黄金矿工2"
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401209,
+      "ScriptID": 10401209,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401210,
+      "ScriptID": 10401210,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401211,
+      "ScriptID": 10401211,
+      "StateMachine": 1000002,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401212,
+      "ScriptID": 10401212,
+      "StateMachine": 1000011,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401213,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401213,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3011341,
+      "USER_COMMENT": "四章MRL1 偷数据桩的"
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401214,
+      "ScriptID": 10401214,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401215,
+      "ScriptID": 10401215,
+      "StateMachine": 1000003,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401216,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401216,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL1 初始矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401217,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401217,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL1 初始矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401218,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401218,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 20001161,
+      "USER_COMMENT": "四章MRL1 莱特"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401219,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401219,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 20001071,
+      "USER_COMMENT": "四章MRL1 凯撒"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10401220,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 10401220,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3011351,
+      "USER_COMMENT": "四章MRL1 偷数据桩的猛男"
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10401221,
+      "ScriptID": 10401001,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 10424001,
+      "ScriptID": 10424001,
+      "StateMachine": 1000002,
+      "Transparent": 1
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -12314,7 +12934,8 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
-      "ObstacleEvent": [],
+      "ObstacleEvent": [
+      ],
       "ObstacleVisible": [
         3
       ],
@@ -12331,7 +12952,8 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
-      "ObstacleEvent": [],
+      "ObstacleEvent": [
+      ],
       "ObstacleVisible": [
         3
       ],
@@ -12348,7 +12970,8 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
-      "ObstacleEvent": [],
+      "ObstacleEvent": [
+      ],
       "ObstacleVisible": [
         3
       ],
@@ -12366,7 +12989,8 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
-      "ObstacleEvent": [],
+      "ObstacleEvent": [
+      ],
       "ObstacleVisible": [
         3
       ],
@@ -12383,7 +13007,8 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 1,
-      "ObstacleEvent": [],
+      "ObstacleEvent": [
+      ],
       "ObstacleVisible": [
         3
       ],
@@ -12476,16 +13101,18 @@
       "InteractIconTextureSheetID": 10000,
       "NPCType": 1,
       "NpcHp": 999,
-      "ObstacleEvent": [
+      "Obstacle_Event": [
         1059,
         1060
       ],
-      "ObstacleVisible": [
+      "Obstacle_Substate": [
+        8
+      ],
+      "Obstacle_Visible": [
         3
       ],
       "Priority": 1,
-      "StateMachine": 2005,
-      "USER_COMMENT": "四章MRL4-卡萨村长"
+      "StateMachine": 2005
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -12494,19 +13121,21 @@
         "CameraMoveToCenter"
       ],
       "ID": 1040391,
-      "InteractIconTextureSheetID": 10000,
+      "InteractIconTextureSheetID": 10236,
       "NPCType": 1,
       "NpcHp": 999,
-      "ObstacleEvent": [
+      "Obstacle_Event": [
         1059,
         1060
       ],
-      "ObstacleVisible": [
+      "Obstacle_Substate": [
+        8
+      ],
+      "Obstacle_Visible": [
         3
       ],
       "Priority": 1,
-      "StateMachine": 2008,
-      "USER_COMMENT": "四章MRL4-莫尔斯（霸主阵营）"
+      "StateMachine": 2005
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -13223,24 +13852,6 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 10263001,
-      "Category": [
-        "NoneInteractEventWithAnim",
-        "UnaffectedEvent_Boom"
-      ],
-      "ID": 10263001,
-      "InteractIconTextureSheetID": 32111,
-      "NPCType": 1,
-      "NpcHp": 1,
-      "ObstacleVisible": [
-        3
-      ],
-      "Priority": 10,
-      "StateMachine": 2002,
-      "USER_COMMENT": "2.5章MRL16炸弹"
-    },
-    {
-      "$type": "CHollowNPCEntityConfig",
       "BehaviorScript": 19815115,
       "Category": [
         "NoneInteractEventWithAnim"
@@ -13259,21 +13870,6 @@
       "StateMachine": 11008,
       "USER_COMMENT": "彻底坏掉的邦布",
       "rescue": 1
-    },
-    {
-      "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 10263011,
-      "Category": [
-        "NoneInteractEventWithAnim",
-        "UnaffectedEvent_Boom"
-      ],
-      "ID": 10263011,
-      "InteractIconTextureSheetID": 10000,
-      "NPCType": 1,
-      "NpcHp": 1,
-      "Priority": 1,
-      "StateMachine": 2016,
-      "USER_COMMENT": "2.5章轻松一刻-黄金邦布1"
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -13298,21 +13894,6 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 10263012,
-      "Category": [
-        "NoneInteractEventWithAnim",
-        "UnaffectedEvent_Boom"
-      ],
-      "ID": 10263012,
-      "InteractIconTextureSheetID": 10000,
-      "NPCType": 1,
-      "NpcHp": 1,
-      "Priority": 1,
-      "StateMachine": 2026,
-      "USER_COMMENT": "2.5章轻松一刻-白金邦布1"
-    },
-    {
-      "$type": "CHollowNPCEntityConfig",
       "BehaviorScript": 1981517,
       "Category": [
         "NoneInteractEventWithAnim"
@@ -13334,22 +13915,6 @@
     },
     {
       "$type": "CHollowNPCEntityConfig",
-      "BehaviorScript": 10263013,
-      "Category": [
-        "CameraMoveToCenter"
-      ],
-      "ID": 10263013,
-      "InteractIconTextureSheetID": 10221,
-      "NPCType": 1,
-      "NpcHp": 1,
-      "ObstacleVisible": [
-        3
-      ],
-      "Priority": 1,
-      "StateMachine": 3010001
-    },
-    {
-      "$type": "CHollowNPCEntityConfig",
       "BehaviorScript": 19815118,
       "Category": [
         "NoneInteractEventWithAnim"
@@ -13368,6 +13933,70 @@
       "StateMachine": 11016,
       "USER_COMMENT": "彻底坏掉的邦布",
       "rescue": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10263001,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "UnaffectedEvent_Boom"
+      ],
+      "ID": 10263001,
+      "InteractIconTextureSheetID": 32111,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 10,
+      "StateMachine": 2002,
+      "USER_COMMENT": "2.5章MRL16炸弹"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10263011,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "UnaffectedEvent_Boom"
+      ],
+      "ID": 10263011,
+      "InteractIconTextureSheetID": 10000,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2016,
+      "USER_COMMENT": "2.5章轻松一刻-黄金邦布1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10263012,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "UnaffectedEvent_Boom"
+      ],
+      "ID": 10263012,
+      "InteractIconTextureSheetID": 10000,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2026,
+      "USER_COMMENT": "2.5章轻松一刻-白金邦布1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10263013,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10263013,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3010001
     },
     {
       "$type": "CHollowNPCEntityConfig",
@@ -13574,6 +14203,2416 @@
       "Priority": 1,
       "StateMachine": 2014,
       "USER_COMMENT": "观众坏幽灵"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040481,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040481,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 20001161,
+      "USER_COMMENT": "MRL4-4莱特"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040482,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040482,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 20001151,
+      "USER_COMMENT": "MRL4-4露西"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040483,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040483,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 20001071,
+      "USER_COMMENT": "MRL4-4凯撒"
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 1040484,
+      "ScriptID": 1040484,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 1040485,
+      "ScriptID": 1040485,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 1040486,
+      "ScriptID": 1040486,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CBarrierConfig",
+      "ID": 1040487,
+      "ScriptID": 1040487,
+      "StateMachine": 1000001,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040488,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040488,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3010001,
+      "USER_COMMENT": "MRL4-4莫尔斯"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040489,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040489,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3011351,
+      "USER_COMMENT": "MRL4-4霸主"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040490,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040490,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-4霸主阵营二把手"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040491,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 1040491,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL4 矿车1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040492,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 1040492,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL4 矿车2"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040493,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 1040493,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL4 矿车3"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040494,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040494,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040495,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040495,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸2"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040496,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040496,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸3"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040497,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040497,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸4"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040498,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040498,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸4"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040499,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1040499,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "MRL4-追击以骸6"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040392,
+      "ID": 1040392,
+      "InteractIconTextureSheetID": 10228,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2048,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040393,
+      "ID": 1040393,
+      "InteractIconTextureSheetID": 10228,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2047,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040394,
+      "ID": 1040394,
+      "InteractIconTextureSheetID": 10228,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2050,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040395,
+      "ID": 1040395,
+      "InteractIconTextureSheetID": 10228,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Priority": 1,
+      "StateMachine": 2049,
+      "Transparent": 1
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040396,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "CheckNPCBlockedDirection",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1040396,
+      "InteractIconTextureSheetID": 10000,
+      "NPCType": 1,
+      "NpcHp": 999,
+      "ObstacleEvent": [
+        1059,
+        1060,
+        1028
+      ],
+      "ObstacleSubstate": [
+        8
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2004
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1040397,
+      "Category": [
+        "CameraMoveToCenter",
+        "InnerNotInteract"
+      ],
+      "ID": 1040397,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 999,
+      "ObstacleEvent": [
+        1003,
+        1025
+      ],
+      "ObstacleState": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 4000004,
+      "USER_COMMENT": "四章MRL1 初始矿车"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402001,
+      "Category": [
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10402001,
+      "InteractIconTextureSheetID": 128,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 20001071,
+      "USER_COMMENT": "凯撒"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402002,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10402002,
+      "InteractIconTextureSheetID": 128,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 2011,
+      "USER_COMMENT": "老板"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402003,
+      "Category": [
+        "CameraMoveToCenter"
+      ],
+      "ID": 10402003,
+      "InteractIconTextureSheetID": 128,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+        "BattleID": "10104006"
+      },
+      "Priority": 1,
+      "StateMachine": 2006,
+      "USER_COMMENT": "偷子"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402004,
+      "Category": [
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 10402004,
+      "InteractIconTextureSheetID": 128,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 3010000,
+      "USER_COMMENT": "柏妮思"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402011,
+      "Category": [
+        "CameraMoveToCenter",
+        "SpringPathEntity"
+      ],
+      "ID": 10402011,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+      },
+      "Priority": 1,
+      "StateMachine": 3011281,
+      "USER_COMMENT": "四章MRL2 追我的人1"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402012,
+      "Category": [
+        "CameraMoveToCenter",
+        "SpringPathEntity"
+      ],
+      "ID": 10402012,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+      },
+      "Priority": 1,
+      "StateMachine": 3011281,
+      "USER_COMMENT": "四章MRL2 追我的人2"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402013,
+      "Category": [
+        "CameraMoveToCenter",
+        "SpringPathEntity"
+      ],
+      "ID": 10402013,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+      },
+      "Priority": 1,
+      "StateMachine": 3011281,
+      "USER_COMMENT": "四章MRL2 追我的人3"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402014,
+      "Category": [
+        "CameraMoveToCenter",
+        "SpringPathEntity"
+      ],
+      "ID": 10402014,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+      },
+      "Priority": 1,
+      "StateMachine": 3011281,
+      "USER_COMMENT": "四章MRL2 追我的人4"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 10402015,
+      "Category": [
+        "CameraMoveToCenter",
+        "SpringPathEntity"
+      ],
+      "ID": 10402015,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleVisible": [
+        3
+      ],
+      "Param": {
+      },
+      "Priority": 1,
+      "StateMachine": 3011281,
+      "USER_COMMENT": "四章MRL2 追我的人5"
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971600,
+      "Priority": 1,
+      "StateMachine": 1000005,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971601,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971601,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2016,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "Damage": {
+            "$type": "CHackerGameSimpleDamage",
+            "Damage": 1
+          },
+          "HP": 1,
+          "MoveSpeed": 2,
+          "OnBeforeMoveEvent": "SwitchAppearance",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SpawnTrapOnDeath",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971602,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971602,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2007,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "Damage": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              },
+              {
+                "$type": "CHackerGameStunDamage",
+                "Duration": 1
+              }
+            ]
+          },
+          "HP": 1,
+          "MoveSpeed": 3,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SpawnLaserOnDeath",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971603,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971603,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971609,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "EntityCanTriggerEnter",
+        "PathQuick"
+      ],
+      "ID": 1971609,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2024
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971610,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "EntityCanTriggerEnter",
+        "PathQuick"
+      ],
+      "ID": 1971610,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2024
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971612,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971612,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2001,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "HP": 1,
+          "MoveSpeed": 3,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971613,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971613,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2001
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971614,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971614,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2001
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971615,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971615,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2001,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "HP": 1,
+          "MoveSpeed": 3,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "BodyDescription": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971616,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971616,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2001
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971617,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971617,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 4000003
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971618,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971618,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971619,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971619,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971620,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971620,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971621,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971621,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971622,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971622,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2026,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "HP": 1,
+          "MoveSpeed": 2,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "QTE",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971623,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971623,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2019
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971624,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971624,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2019
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971625,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971625,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2019
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971626,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971626,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2019
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971627,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971627,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2019
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971630,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971630,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971631,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971631,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971632,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971632,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971633,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971633,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971638,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "HideNpc",
+        "PathQuick"
+      ],
+      "ID": 1971638,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2005
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971640,
+      "Priority": 1,
+      "StateMachine": 1000012,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971641,
+      "Priority": 1,
+      "StateMachine": 1000014,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971642,
+      "Priority": 1,
+      "StateMachine": 1000013,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971643,
+      "Priority": 1,
+      "StateMachine": 1000015,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971644,
+      "Priority": 1,
+      "StateMachine": 1000016,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971645,
+      "Priority": 1,
+      "StateMachine": 1000016,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowTerrainEntityConfig",
+      "ID": 1971646,
+      "Priority": 1,
+      "StateMachine": 1000016,
+      "TraitList": [
+        {
+          "$type": "CCommonTrait"
+        },
+        {
+          "$type": "CEntityStateMachineTrait"
+        },
+        {
+          "$type": "CExtScriptVariableTrait",
+          "EntityParam": {
+            "Level": "1"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971651,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2037,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus03",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnBeforeMoveEvent": "",
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus03",
+          "OnDamagedEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus03",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971652,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2032,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus02",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus02",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus02",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land07",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971653,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971653,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2032
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971654,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2028,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus01",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus01",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus01",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land01",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971655,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971655,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2028
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971656,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971656,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 3,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2028
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971657,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971657,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2040,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "Damage": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Trap",
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedCameraShakeKey": "RoamingTheEther_Shake_Light",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971658,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971658,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2044,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "Damage": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": -1
+              }
+            ]
+          },
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971659,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2045,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "StartSports",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971660,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2036,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus04",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnBeforeMoveEvent": "",
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus03",
+          "OnDamagedEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus03",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971661,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2038,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus07",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnBeforeMoveEvent": "",
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus03",
+          "OnDamagedEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus03",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971662,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2039,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus10",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnBeforeMoveEvent": "",
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus03",
+          "OnDamagedEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus03",
+          "Reward": 1
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971663,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2033,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus06",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus02",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus02",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land07",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971664,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2034,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus09",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus02",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus02",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land07",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971665,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2035,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus12",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus02",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus02",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land07",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971666,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2029,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus08",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus01",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus01",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land01",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971667,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2030,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus05",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus01",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus01",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land01",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971668,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2031,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "EntityTag": "Virus11",
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEffectKey": "Hollow_Activity_RoamingTheEther_GetVirus01",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "OnEscapeEffectKey": "Hollow_Activity_RoamingTheEther_Miss01",
+          "OnFeverDamagedEffectKey": "Hollow_Activity_RoamingTheEther_Fever_GetVirus01",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "AdditiveTextureConfig": {
+            "AdditiveTextureKey": "EventIcon_RoamingTheEther_Land01",
+            "BaseBlendMode": 0,
+            "BaseSpecialScreenLayerTransparent": 1,
+            "RecordTextureSheetFrameIndex": true,
+            "SpecialScreenLayerIndex": -1,
+            "Sync": false
+          },
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971669,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2031,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "BodyOffset": 12,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick",
+        "EntityCanTriggerEnter"
+      ],
+      "ID": 1971670,
+      "InteractIconTextureSheetID": 14003,
+      "NPCType": 2,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 2,
+      "StateMachine": 2042,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "DamageWhenEscape": {
+            "$type": "CHackerGameMultiDamage",
+            "DamageList": [
+              {
+                "$type": "CHackerGameSimpleDamage",
+                "Damage": 1
+              }
+            ]
+          },
+          "FeverReward": 7,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnCreatedEvent": "SpawnLaserOnCreated",
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "",
+          "Reward": 1
+        },
+        {
+          "$type": "CClientSnakeTrait",
+          "BodyDescription": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971671,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2046,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1042590,
+      "Category": [
+        "CameraMoveToCenter",
+        "NoneInteractEventWithAnim"
+      ],
+      "ID": 1042590,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "ObstacleEvent": [
+        1059,
+        1060
+      ],
+      "ObstacleVisible": [
+        3
+      ],
+      "Priority": 1,
+      "StateMachine": 1000017,
+      "USER_COMMENT": "支线-黄金游隼"
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971672,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2051,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SPEEDUP_1",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971673,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2052,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SPEEDUP_2",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971674,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2053,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SPEEDUP_3",
+          "Reward": 0
+        }
+      ]
+    },
+    {
+      "$type": "CHollowNPCEntityConfig",
+      "BehaviorScript": 1971651,
+      "Category": [
+        "NoneInteractEventWithAnim",
+        "PathQuick"
+      ],
+      "ID": 1971675,
+      "InteractIconTextureSheetID": 10221,
+      "NPCType": 1,
+      "NpcHp": 1,
+      "Obstacle_Event": [
+        1003,
+        1025
+      ],
+      "Priority": 1,
+      "StateMachine": 2054,
+      "TraitList": [
+        {
+          "$type": "CHackerGameTrait",
+          "FeverReward": 0,
+          "HP": 1,
+          "MoveSpeed": 4,
+          "OnDamagedEvent": "",
+          "OnDeathEvent": "SpeedDown",
+          "Reward": 0
+        }
+      ]
     }
   ]
 }

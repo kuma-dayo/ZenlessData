@@ -11,22 +11,22 @@
     {
       "$type": "ProcessAttachPointAction",
       "AttachPointName": "LucyWoodAttackPoint",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "HierarchyType": "World",
       "PosRot": {
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -42,7 +42,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_01_AttackProperty_01_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -58,7 +58,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_01_AttackProperty_02_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -74,7 +74,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_01_AttackProperty_03_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -90,7 +90,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_02_AttackProperty_01_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -106,7 +106,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_02_AttackProperty_02_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -122,7 +122,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Attack_Branch_02_AttackProperty_03_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",
@@ -138,7 +138,7 @@
     {
       "$type": "HandleAnimEvent",
       "AnimEventID": "Lucy_Wood_Switch_Attack_Ex_AttackProperty_01_Explosion",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "Predicates": [
         {
           "$type": "ByAbilitySpecial",

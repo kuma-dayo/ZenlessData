@@ -9,17 +9,17 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsClampOffsetDistance": false,
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -34,17 +34,19 @@
           "Target": "Target"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "VineSmall_04_Exist"
           ],
+          "IsAdd": true,
           "Target": "Self"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "FirstWave"
           ],
+          "IsAdd": true,
           "Predicates": [
             {
               "$type": "ByIsInZoneTags",
@@ -57,10 +59,11 @@
           "Target": "Target"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "SecondWave"
           ],
+          "IsAdd": true,
           "Predicates": [
             {
               "$type": "ByIsInZoneTags",
@@ -73,10 +76,11 @@
           "Target": "Target"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "ThirdWave"
           ],
+          "IsAdd": true,
           "Predicates": [
             {
               "$type": "ByIsInZoneTags",
@@ -101,17 +105,17 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -230,27 +234,27 @@
         "NeedRaycastGround": false,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "RandomAngleRange": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "RandomPositionRange": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

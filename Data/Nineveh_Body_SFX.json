@@ -38,16 +38,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -60,9 +60,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -72,16 +72,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -94,9 +94,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -106,16 +106,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -128,9 +128,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -140,16 +140,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -162,9 +162,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -174,16 +174,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -196,9 +196,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -208,16 +208,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -230,9 +230,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -242,16 +242,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -264,9 +264,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         },
@@ -276,16 +276,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -310,16 +310,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -332,9 +332,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 2.0,
-            "y": 2.0,
-            "z": 2.0
+            "x": 2,
+            "y": 2,
+            "z": 2
           },
           "Target": "Self"
         },
@@ -344,16 +344,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

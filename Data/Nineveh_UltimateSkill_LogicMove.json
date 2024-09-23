@@ -106,37 +106,41 @@
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "Disarm"
           ],
           "CustomKey": "Monster_Nineveh_Bee_01",
+          "IsAdd": true,
           "Target": "Custom"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "Disarm"
           ],
           "CustomKey": "Monster_Nineveh_Bee_02",
+          "IsAdd": true,
           "Target": "Custom"
         }
       ],
       "OnRemoved": [
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "Disarm"
           ],
           "CustomKey": "Monster_Nineveh_Bee_01",
+          "IsAdd": false,
           "Target": "Custom"
         },
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "Disarm"
           ],
           "CustomKey": "Monster_Nineveh_Bee_02",
+          "IsAdd": false,
           "Target": "Custom"
         }
       ]
@@ -149,8 +153,8 @@
           "$type": "ApplyLogicMoveAction",
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
-            "Duration": 2.0,
-            "Gravity": 0.0,
+            "Duration": 2,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -162,15 +166,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -196,7 +200,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -208,15 +212,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -242,7 +246,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 2,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -254,15 +258,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -288,7 +292,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 2,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -300,15 +304,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -346,40 +350,45 @@
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "UltimateSkill"
           ],
+          "IsAdd": true,
           "Target": "Self"
         },
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "UltimateSkillReady"
           ],
+          "IsAdd": false,
           "Target": "Self"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "TokushuDankai"
           ],
+          "IsAdd": true,
           "Target": "Self"
         }
       ],
       "OnRemoved": [
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "UltimateSkill"
           ],
+          "IsAdd": false,
           "Target": "Self"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "TokushuDankai"
           ],
+          "IsAdd": true,
           "Target": "Self"
         }
       ]

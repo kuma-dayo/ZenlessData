@@ -69,6 +69,11 @@
               "Target": "Custom"
             },
             {
+              "$type": "UnsetRBLOffsetAction",
+              "Tag": "LampasBlackVeil_LastLive",
+              "Target": "Self"
+            },
+            {
               "$type": "RemoveAbilityAction",
               "AbilityName": "LampasBlackVeil_LockLife",
               "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
@@ -84,6 +89,24 @@
               "$type": "ApplyAbilityAction",
               "AbilityName": "LampasBlackVeil_LockLife",
               "Target": "Self"
+            },
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "ExcludeFromLiveCount"
+              ],
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "IsAdd": false,
+              "Target": "Custom"
+            },
+            {
+              "$type": "ApplyGameplayTagAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "IsAdd": false,
+              "Tags": [
+                "NotCounting"
+              ],
+              "Target": "Custom"
             },
             {
               "$type": "SetAbilitySpecialByExpression",
@@ -185,6 +208,11 @@
               "Target": "Custom"
             },
             {
+              "$type": "UnsetRBLOffsetAction",
+              "Tag": "LampasBlackVeil_LastLive",
+              "Target": "Self"
+            },
+            {
               "$type": "RemoveAbilityAction",
               "AbilityName": "LampasBlackVeil_LockLife",
               "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
@@ -200,6 +228,24 @@
               "$type": "ApplyAbilityAction",
               "AbilityName": "LampasBlackVeil_LockLife",
               "Target": "Self"
+            },
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "ExcludeFromLiveCount"
+              ],
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "IsAdd": false,
+              "Target": "Custom"
+            },
+            {
+              "$type": "ApplyGameplayTagAction",
+              "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
+              "IsAdd": false,
+              "Tags": [
+                "NotCounting"
+              ],
+              "Target": "Custom"
             },
             {
               "$type": "SetAbilitySpecialByExpression",

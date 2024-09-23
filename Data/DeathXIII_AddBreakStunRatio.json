@@ -2,7 +2,7 @@
   "AbilityName": "DeathXIII_AddBreakStunRatio",
   "AbilitySpecials": {
     "AS_PartStun": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_PartStunRatio": {
       "Value": 0.25

@@ -511,6 +511,14 @@
         "ModifierName": "LampasBlackVeil_Body_HeadPoint_SFX",
         "Target": "Self"
       }
+    ],
+    "OnFinalEnemyInvincible": [
+      {
+        "$type": "SetRBLOffsetAction",
+        "RBLOffset": -5,
+        "Tag": "LampasBlackVeil_LastLive",
+        "Target": "Self"
+      }
     ]
   },
   "Modifiers": {
@@ -524,16 +532,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -546,9 +554,9 @@
           },
           "EffectPattern": "Eff_Monster_Common_Ether_Demote_HeadPoint_01",
           "EffectScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
+            "x": 1,
+            "y": 1,
+            "z": 1
           },
           "Target": "Self"
         }

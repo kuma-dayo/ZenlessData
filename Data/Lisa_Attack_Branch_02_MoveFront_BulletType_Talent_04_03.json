@@ -5,14 +5,14 @@
       "AliveDuration": 3,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,9 +25,9 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
@@ -58,15 +58,15 @@
         "$type": "ConfigMovementAutoParabola",
         "Accelerated": -200,
         "DefaultOffset": {
-          "x": 4.0,
-          "y": 0.0,
-          "z": 12.0
+          "x": 4,
+          "y": 0,
+          "z": 12
         },
         "DefaultRotAngle": 20,
         "Duration": -1,
         "ExpectAngle": 35,
         "ExpectTime": 0.15,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.5,
         "MaxAngle": 45,
@@ -78,24 +78,24 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
-              "x": 4.0,
-              "y": 0.0,
-              "z": 12.0
+              "x": 4,
+              "y": 0,
+              "z": 12
             },
             "PositionOffset": {
-              "x": 2.0,
+              "x": 2,
               "y": 0,
-              "z": 0.0
+              "z": 0
             }
           },
           "TargetOption": {

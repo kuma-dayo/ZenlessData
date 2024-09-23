@@ -2,7 +2,7 @@
   "AbilityName": "LightfootRover_EvadeManager",
   "AbilitySpecials": {
     "AS_EvadeProbability": {
-      "Value": 1.0,
+      "Value": 1,
       "ValueType": "Float"
     }
   },
@@ -12,7 +12,7 @@
       {
         "$type": "SetAbilitySpecialAction",
         "ModifyFunction": "Replace",
-        "Param": 1.0,
+        "Param": 1,
         "ParamName": "AS_EvadeProbability",
         "ParamType": "Float",
         "Predicates": [

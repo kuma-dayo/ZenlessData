@@ -148,10 +148,10 @@
         }
       ],
       "ProtectTime": 30,
-      "RecoverHPRatio": 1.0,
+      "RecoverHPRatio": 1,
       "SourcePhase": 2,
       "SwitchPhaseTag": "ComplexCorrupted_SwitchPhase_Phase3",
-      "TargetHPRatio": -1.0,
+      "TargetHPRatio": -1,
       "TargetHPValue": 1,
       "TargetPhase": 3
     }
@@ -163,13 +163,13 @@
       "ValueType": "Boolean"
     },
     "AS_LockHPRatio": {
-      "Value": -1.0
+      "Value": -1
     },
     "AS_RecoverHPRatio": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_TargetHPRatio": {
-      "Value": -1.0
+      "Value": -1
     },
     "ComplexCorrupted_CurPartHP_Leg_BL": {
       "Value": 1

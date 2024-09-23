@@ -1,9 +1,11 @@
 {
   "AbilityName": "Card_Froze_1001104",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",
-    "OnDestroyFrozen": []
+    "OnDestroyFrozen": [
+    ]
   }
 }

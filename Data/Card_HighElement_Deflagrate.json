@@ -2,7 +2,7 @@
   "AbilityName": "Card_HighElement_Deflagrate",
   "AbilitySpecials": {
     "AS_DeflagrateCoolDownTime": {
-      "Value": 1.0
+      "Value": 1
     }
   },
   "AbilityStacking": "Unique",
@@ -101,7 +101,8 @@
     "DeflagrateCoolDownModifier_Card_Deflagrate": {
       "Duration": "%AS_DeflagrateCoolDownTime",
       "ModifierStacking": "GlobalUnique",
-      "OnAdded": []
+      "OnAdded": [
+      ]
     },
     "DeflagrateModifier": {
       "Duration": 0.5,

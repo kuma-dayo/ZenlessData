@@ -2,19 +2,19 @@
   "AbilityName": "ThugBulkyEnforcer_AttackCDUpdateRatio",
   "AbilitySpecials": {
     "AttackCDUpdateRatio": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     },
     "AttackLandedRatio": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     },
     "AttackResolvedRatio": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     },
     "RapidAttackRatio": {
-      "Value": 0.0,
+      "Value": 0,
       "ValueType": "Float"
     }
   },
@@ -53,12 +53,12 @@
         "Expressions": [
           {
             "AbilitySpecialName": "AttackResolvedRatio",
-            "Expression": "{1}/{0}",
+            "Expression": "{1}\/{0}",
             "OutputType": "Float"
           },
           {
             "AbilitySpecialName": "AttackLandedRatio",
-            "Expression": "{2}/{0}",
+            "Expression": "{2}\/{0}",
             "OutputType": "Float"
           },
           {

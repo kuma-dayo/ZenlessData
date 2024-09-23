@@ -1,0 +1,250 @@
+{
+  "AbilityName": "Card_Strength_2002402",
+  "AbilitySpecials": {
+    "AS_ActualDamage": {
+      "Value": 0,
+      "ValueType": "Float"
+    },
+    "AS_Damage": {
+      "Value": 0,
+      "ValueType": "Float"
+    },
+    "AS_DamageTakeRatio": {
+      "Value": 0
+    },
+    "AS_Shield": {
+      "Value": 0,
+      "ValueType": "Float"
+    },
+    "AS_TakeDamageHPRatio": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeAttackLanded": [
+      {
+        "$type": "SetAbilitySpecialByAttackData",
+        "AttackDataType": "Damage",
+        "ModifyFunction": "Replace",
+        "ParamName": "AS_Damage"
+      },
+      {
+        "$type": "SetAbilitySpecialByAttackData",
+        "AttackDataType": "ShieldDamage",
+        "ModifyFunction": "Add",
+        "ParamName": "AS_Damage"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "FlagModifier"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "DecreaseHpModifier",
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnBeingHitResolved": [
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByAvatarCount",
+            "CompareType": "Equal",
+            "CompareValue": 1
+          }
+        ],
+        "FailureActions": [
+          {
+            "$type": "SetAbilitySpecialByAttackData",
+            "AttackDataType": "Damage",
+            "ModifyFunction": "Replace",
+            "ParamName": "AS_Damage"
+          },
+          {
+            "$type": "SetAbilitySpecialAction",
+            "ModifyFunction": "Div",
+            "Param": 3,
+            "ParamName": "AS_Damage",
+            "ParamType": "Float",
+            "Predicates": [
+              {
+                "$type": "ByAvatarCount",
+                "CompareType": "Equal",
+                "CompareValue": 3
+              }
+            ]
+          },
+          {
+            "$type": "SetAbilitySpecialAction",
+            "ModifyFunction": "Div",
+            "Param": 2,
+            "ParamName": "AS_Damage",
+            "ParamType": "Float",
+            "Predicates": [
+              {
+                "$type": "ByAvatarCount",
+                "CompareType": "Equal",
+                "CompareValue": 2
+              }
+            ]
+          },
+          {
+            "$type": "ReplaceDamageAction",
+            "TargetDamage": "%AS_Damage"
+          }
+        ]
+      }
+    ],
+    "Properties": {
+      "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+    }
+  },
+  "Modifiers": {
+    "DecreaseHpModifier": {
+      "Duration": 0.1,
+      "IsUnique": true,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByPlayerPropertyValue",
+                  "CompareType": "LessEqual",
+                  "Denominator": "MaxHP",
+                  "IsUsePercent": true,
+                  "Numerator": "CurHP",
+                  "Target": "Self",
+                  "Val1": "%AS_TakeDamageHPRatio"
+                },
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierCaster": "Caster",
+                  "ModifierNameList": [
+                    "FlagModifier"
+                  ],
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "SetAbilitySpecialsByHpShiledValueAction",
+              "ModifyFunction": "Replace",
+              "ParamName": "AS_Shield",
+              "ParamType": "Float",
+              "Target": "Self",
+              "ValueType": "CurValue"
+            },
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Greater",
+                  "Param": "%AS_Shield",
+                  "ParamName": "AS_Damage",
+                  "ParamType": "Float"
+                }
+              ],
+              "FailureActions": [
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_Damage",
+                  "ParamName": "AS_ActualDamage",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Mul",
+                  "Param": -1,
+                  "ParamName": "AS_ActualDamage",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "ModifyHpShieldAction",
+                  "CurValueDelta": "%AS_ActualDamage",
+                  "IsCalculateAll": true,
+                  "Target": "Self"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_Shield",
+                  "ParamName": "AS_ActualDamage",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Mul",
+                  "Param": -1,
+                  "ParamName": "AS_ActualDamage",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "ModifyHpShieldAction",
+                  "CurValueDelta": "%AS_ActualDamage",
+                  "IsCalculateAll": true,
+                  "Target": "Self"
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Add",
+                  "Param": "%AS_Damage",
+                  "ParamName": "AS_ActualDamage",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "DecreaseHPAction",
+                  "Amount": "%AS_ActualDamage",
+                  "IgnoreInvincible": false,
+                  "IgnoreLifeLock": false,
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "FlagModifier",
+              "ModifierTargetType": "CurTargetAbility",
+              "Predicates": [
+                {
+                  "$type": "ByHasModifier",
+                  "ModifierCaster": "Caster",
+                  "ModifierNameList": [
+                    "FlagModifier"
+                  ],
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "FlagModifier": {
+      "Duration": 0.1,
+      "IsUnique": true,
+      "ModifierStacking": "Replace"
+    },
+    "LowHPModifier": {
+      "Duration": -1,
+      "IsUnique": true,
+      "ModifierStacking": "Replace"
+    }
+  }
+}

@@ -20,7 +20,7 @@
             "IsUsePercent": false,
             "Numerator": "CurSP",
             "Target": "Other",
-            "Val1": 12.0
+            "Val1": 12
           }
         ],
         "Target": "Other"
@@ -36,7 +36,7 @@
           "$type": "SmoothRecoverSPMixin",
           "IgnoreRatio": true,
           "PropertyItem": {
-            "Amount": 3.0
+            "Amount": 3
           }
         }
       ],
@@ -44,7 +44,7 @@
       "OnAdded": [
         {
           "$type": "DecreaseSPAction",
-          "Amount": 12.0,
+          "Amount": 12,
           "Target": "Self"
         }
       ]

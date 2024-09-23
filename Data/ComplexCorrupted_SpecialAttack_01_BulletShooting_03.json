@@ -8,14 +8,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -32,13 +32,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": -10.87,
-                "y": 0.0,
+                "y": 0,
                 "z": 14.96
               }
             },
@@ -51,13 +51,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": 7.6,
-                "y": 0.0,
+                "y": 0,
                 "z": -11.1
               }
             },
@@ -70,13 +70,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": 18.18,
-                "y": 0.0,
+                "y": 0,
                 "z": -11.53
               }
             },
@@ -89,13 +89,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": -6.18,
-                "y": 0.0,
+                "y": 0,
                 "z": -16.83
               }
             },
@@ -108,13 +108,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": -0.24,
-                "y": 0.0,
+                "y": 0,
                 "z": 6.55
               }
             },
@@ -127,13 +127,13 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
                 "x": 5.76,
-                "y": 0.0,
+                "y": 0,
                 "z": 18.73
               }
             },
@@ -146,18 +146,18 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": 0,
+                "y": 0,
                 "z": 0.3
               },
               "RandomPositionRange": {
                 "x": 0.8,
-                "y": 0.0,
+                "y": 0,
                 "z": 0.8
               }
             },

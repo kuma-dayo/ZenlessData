@@ -1,0 +1,580 @@
+{
+  "JIJNDLLPCHO": [
+    {
+      "LENJOGNHPGD": "ActivityCollapse_Boss_19707",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityCollapse_Door_19707",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityCollapse_Map1_19707",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityCollapse_Map2_19707",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityCollapse_Map3_19707",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_Collapse_01",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_Collapse_02",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_Collapse_03",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_Collapse_04",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_Collapse_05",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_GoldenWeek_01",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_GoldenWeek_02",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_GoldenWeek_03",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_GoldenWeek_04",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ActivityHollow_GoldenWeek_05",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Anbi_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Anton_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Bank1228003809_Blood",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Bank1228003809_Coin",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Bank1228003809_Stamina",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Battle30150001",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Battle30150006",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Battle30150012",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Ben_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Billy_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Clue210301",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Corin_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ERL_FirstSafeLayer",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ERL_MapLayer",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Ellen_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Event101050101_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Event1032303_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Event1228003809_best_level",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Grace_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "IsAbyssGuideGal",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "IsTutorial1000101ed",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Koleda_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Lina_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Lycaon_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ManyCars_Puzzles01",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "ManyCars_Puzzles02",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "MiniGame_Difficulty",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Nekomata_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Nico_BlindBoxTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Nico_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10006",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest1001000252",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10010105",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_2",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_3",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_4",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_5",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F1_6",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_2",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_3",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_4",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_5",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F2_6",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_2",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_3",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_4",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_5",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F3_6",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_2",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_3",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_4",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_5",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10109F4_6",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest10207_Secret_1",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest199003801",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest199003802",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest_210404",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Quest_210803",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "QuizTime01",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "QuizTime02",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "QuizTime03",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Reward107060005",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Reward107060006",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Reward107060007",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "Soldier11_TrustTime",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "abyss_shop_addpoint_mark",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_card",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_coin",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_hp",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_point",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_point_times",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_save_times",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_shop_times",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_stress",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "more_withdraw_times",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "no_consumed_points",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    },
+    {
+      "LENJOGNHPGD": "shop_point",
+      "CHPEKPMIMGF": 0,
+      "FBFNKDCOIAO": false,
+      "KOFFKMHIKEB": false
+    }
+  ]
+}

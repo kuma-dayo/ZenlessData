@@ -1,0 +1,19 @@
+{
+  "AbilityName": "Curse_AbyssBuffToAvatar_Nineveh05",
+  "AbilitySpecials": {
+    "Actor_SPGetRatio": {
+      "Value": -0.4
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnTeamAvatarConstructed": [
+      {
+        "$type": "ApplyAbilityAction",
+        "AbilityName": "Curse_Nineveh_HotBuff_05",
+        "IsAutoTrigger": false,
+        "Target": "TeamAvatars"
+      }
+    ]
+  }
+}

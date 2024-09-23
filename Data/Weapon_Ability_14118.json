@@ -5,10 +5,10 @@
       "Value": 0.2
     },
     "AS_Duration": {
-      "Value": 8.0
+      "Value": 8
     },
     "AS_ElementMysteryDelta": {
-      "Value": 25.0
+      "Value": 25
     }
   },
   "AbilityStacking": "Unique",

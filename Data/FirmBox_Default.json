@@ -2,10 +2,10 @@
   "AbilityName": "FirmBox_Default",
   "AbilitySpecials": {
     "BeHitCoolDown": {
-      "Value": 0.0
+      "Value": 0
     },
     "BeHitCount": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -314,7 +314,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "BeHitCount",
               "ParamType": "Float",
               "Target": "Self"
@@ -322,7 +322,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "BeHitCoolDown",
               "ParamType": "Float",
               "Target": "Self"
@@ -344,7 +344,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 1.0,
+              "Param": 1,
               "ParamName": "BeHitCount",
               "ParamType": "Float",
               "Target": "Self"
@@ -352,7 +352,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "BeHitCoolDown",
               "ParamType": "Float",
               "Target": "Self"
@@ -374,7 +374,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 2.0,
+              "Param": 2,
               "ParamName": "BeHitCount",
               "ParamType": "Float",
               "Target": "Self"
@@ -382,7 +382,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "Equal",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "BeHitCoolDown",
               "ParamType": "Float",
               "Target": "Self"
@@ -406,14 +406,14 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "BeHitCount",
           "ParamType": "Float"
         },
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "BeHitCoolDown",
           "ParamType": "Float"
         }
@@ -422,7 +422,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 0.0,
+          "Param": 0,
           "ParamName": "BeHitCoolDown",
           "ParamType": "Float"
         }
@@ -435,14 +435,14 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 2.0,
+          "Param": 2,
           "ParamName": "BeHitCount",
           "ParamType": "Float"
         },
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "BeHitCoolDown",
           "ParamType": "Float"
         }
@@ -451,7 +451,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Replace",
-          "Param": 0.0,
+          "Param": 0,
           "ParamName": "BeHitCoolDown",
           "ParamType": "Float"
         }

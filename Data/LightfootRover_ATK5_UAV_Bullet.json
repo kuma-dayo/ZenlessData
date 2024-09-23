@@ -4,17 +4,17 @@
       "$type": "BulletMixin",
       "AliveDuration": 5,
       "BulletColliderConfig": {
-        "CapsuleColliderHeight": 1.0,
+        "CapsuleColliderHeight": 1,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -26,16 +26,16 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -50,17 +50,17 @@
       "CanHitStage": true,
       "DestroyExplode": false,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 10.0,
+        "CapsuleColliderHeight": 10,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 2.0
+          "x": 0,
+          "y": 0,
+          "z": 2
         },
         "ColliderType": "Capsule"
       },
@@ -96,7 +96,7 @@
         "HitTangentialRatio": 1,
         "InitVelocity": {
           "x": 0,
-          "y": 0.0,
+          "y": 0,
           "z": 100
         },
         "TimesUpMoveOption": "Remain"
@@ -115,14 +115,14 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

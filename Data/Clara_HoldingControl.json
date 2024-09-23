@@ -17,7 +17,7 @@
             },
             {
               "ListenerType": "PointUp",
-              "PressTime": 0.0,
+              "PressTime": 0,
               "TriggerActions": [
                 {
                   "$type": "RemoveModifier",

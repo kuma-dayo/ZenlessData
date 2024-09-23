@@ -1,70 +1,81 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "DFCCNJJDHPG": 300005,
-      "OEBGHPOOEEJ": "OfficialName_Monster_DurahanBoss",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 300005,
+      "KJGNHCFHKKC": "OfficialName_Monster_DurahanBoss",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253001
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "",
-      "GMCMDNPMFIF": 1
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "",
+      "AMEHJAEOLIP": 1
     },
     {
-      "DFCCNJJDHPG": 200172,
-      "OEBGHPOOEEJ": "OfficialName_Monster_ThugBulkyEnforcerBoss",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 200172,
+      "KJGNHCFHKKC": "OfficialName_Monster_ThugBulkyEnforcerBoss",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253003
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "",
-      "GMCMDNPMFIF": 2
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "",
+      "AMEHJAEOLIP": 2
     },
     {
-      "DFCCNJJDHPG": 200034,
-      "OEBGHPOOEEJ": "OfficialName_Monster_HatiArmoredBoss",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 200034,
+      "KJGNHCFHKKC": "OfficialName_Monster_HatiArmoredBoss",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253004
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "",
-      "GMCMDNPMFIF": 3
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "",
+      "AMEHJAEOLIP": 3
     },
     {
-      "DFCCNJJDHPG": 300051,
-      "OEBGHPOOEEJ": "OfficialName_Monster_MaterialHandlerRed",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 300051,
+      "KJGNHCFHKKC": "OfficialName_Monster_MaterialHandlerRed",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253005
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "",
-      "GMCMDNPMFIF": 4
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "",
+      "AMEHJAEOLIP": 4
     },
     {
-      "DFCCNJJDHPG": 300081,
-      "OEBGHPOOEEJ": "BriefName_Monster_MetalGorilla",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 300081,
+      "KJGNHCFHKKC": "BriefName_Monster_MetalGorilla",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253006
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "HB_UnlockTips_Monster300081",
-      "GMCMDNPMFIF": 5
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "HB_UnlockTips_Monster300081",
+      "AMEHJAEOLIP": 5
     },
     {
-      "DFCCNJJDHPG": 30019,
-      "OEBGHPOOEEJ": "BriefName_Monster_DubiousHero",
-      "DAOHHJNBOOM": "HB_PassiveSkillBreakMaterial",
-      "IGKFLEPDLCD": [
+      "PHFENPDAEIL": 30019,
+      "KJGNHCFHKKC": "BriefName_Monster_DubiousHero",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
         12253007
       ],
-      "AJPGNCEMHFH": 301,
-      "GDOOOOLKBIO": "HB_UnlockTips_Monster300019",
-      "GMCMDNPMFIF": 6
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "HB_UnlockTips_Monster300019",
+      "AMEHJAEOLIP": 6
+    },
+    {
+      "PHFENPDAEIL": 30020,
+      "KJGNHCFHKKC": "BriefName_Monster_JaneDoeSlime",
+      "JPHBFJJHFPP": "HB_PassiveSkillBreakMaterial",
+      "FNOJEFLFDAO": [
+        12253008
+      ],
+      "PJGBONJMELI": 301,
+      "LFENNKHNEBI": "",
+      "AMEHJAEOLIP": 7
     }
   ]
 }

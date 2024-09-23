@@ -2,7 +2,8 @@
   "AbilityMixins": [
     {
       "$type": "DomainNPCOccupyMixin",
-      "OnFailureActions": [],
+      "OnFailureActions": [
+      ],
       "OnOccupyStartActions": [
         {
           "$type": "SetAnimCtrlerParamAction",
@@ -23,7 +24,8 @@
       ],
       "ResourceRangeActions": [
         {
-          "HighToValueActions": [],
+          "HighToValueActions": [
+          ],
           "LowToValueActions": [
             {
               "$type": "FireEffect",
@@ -144,8 +146,8 @@
           "ModifierNameList": [
             "IdleUndomainModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Domaining",
@@ -153,8 +155,8 @@
           "ModifierNameList": [
             "DomainingModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Idle_Domained",
@@ -163,15 +165,16 @@
           "ModifierNameList": [
             "IdleDomainedModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
   ],
   "AbilityName": "NPC_DomainOccupy",
   "DefaultModifier": {
-    "OnNPCActive": []
+    "OnNPCActive": [
+    ]
   },
   "Modifiers": {
     "DomainingModifier": {

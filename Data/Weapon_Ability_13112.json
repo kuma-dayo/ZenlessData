@@ -2,13 +2,13 @@
   "AbilityName": "Weapon_Ability_13112",
   "AbilitySpecials": {
     "AS_AddedAttackDelta": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_DamageTakeRatio": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_DefenceToDamageRatio": {
-      "Value": 6.0
+      "Value": 6
     },
     "AS_IntervalCD": {
       "Value": 7.5
@@ -53,27 +53,11 @@
         {
           "$type": "ApplyModifier",
           "ModifierName": "IntervalCDModifier",
-          "Predicates": [
-            {
-              "$type": "ByHitDataValue",
-              "CompareType": "Greater",
-              "CompareValue": 0,
-              "isRatio": false
-            }
-          ],
           "Target": "Self"
         },
         {
           "$type": "RemoveModifier",
           "ModifierName": "AddedAttackDeltaModifier",
-          "Predicates": [
-            {
-              "$type": "ByHitDataValue",
-              "CompareType": "Greater",
-              "CompareValue": 0,
-              "isRatio": false
-            }
-          ],
           "Target": "Self"
         }
       ],

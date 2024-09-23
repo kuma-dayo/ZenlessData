@@ -7,23 +7,23 @@
       "curve": {
         "keys": [
           {
-            "inTangent": 0.0,
-            "inWeight": 0.0,
-            "outTangent": 0.0,
-            "outWeight": 0.0,
+            "inTangent": 0,
+            "inWeight": 0,
+            "outTangent": 0,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 0.0,
-            "value": 1.0,
+            "time": 0,
+            "value": 1,
             "weightedMode": 0
           },
           {
-            "inTangent": 0.0,
-            "inWeight": 0.0,
-            "outTangent": 0.0,
-            "outWeight": 0.0,
+            "inTangent": 0,
+            "inWeight": 0,
+            "outTangent": 0,
+            "outWeight": 0,
             "tangentMode": 34,
-            "time": 1.0,
-            "value": 1.0,
+            "time": 1,
+            "value": 1,
             "weightedMode": 0
           }
         ],
@@ -35,9 +35,9 @@
       "endFrame": 44,
       "idx": 985623936,
       "speedEuler": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": -10.0
+        "x": 0,
+        "y": 0,
+        "z": -10
       },
       "speedParam": {
         "param1": 11,
@@ -48,8 +48,8 @@
     },
     {
       "aoeAreaParam": {
-        "areaParam1": 2.0,
-        "areaParam2": 1.0,
+        "areaParam1": 2,
+        "areaParam2": 1,
         "areaType": 3,
         "param1Param": {
           "param1": 0,
@@ -72,8 +72,8 @@
     },
     {
       "aoeAreaParam": {
-        "areaParam1": 2.0,
-        "areaParam2": 1.0,
+        "areaParam1": 2,
+        "areaParam2": 1,
         "areaType": 3,
         "param1Param": {
           "param1": 0,
@@ -96,8 +96,8 @@
     },
     {
       "aoeAreaParam": {
-        "areaParam1": 0.0,
-        "areaParam2": 0.0,
+        "areaParam1": 0,
+        "areaParam2": 0,
         "areaType": 3,
         "param1Param": {
           "param1": 0,
@@ -123,12 +123,12 @@
       "axisInfos": [
         {
           "axis": 2,
-          "baseValue": 3.0,
+          "baseValue": 5,
           "curve": {
             "keys": [
               {
                 "inTangent": 4.880012,
-                "inWeight": 0.0,
+                "inWeight": 0,
                 "outTangent": 4.880012,
                 "outWeight": 0.09497142,
                 "tangentMode": 0,
@@ -180,7 +180,7 @@
                 "inTangent": 4.66617727,
                 "inWeight": 0.333333343,
                 "outTangent": 4.66617727,
-                "outWeight": 0.0,
+                "outWeight": 0,
                 "tangentMode": 34,
                 "time": 0.9873047,
                 "value": 0.0054473877,
@@ -193,21 +193,21 @@
           },
           "param": {
             "param1": 11,
-            "param2": 1000
+            "param2": 5000
           }
         },
         {
           "axis": 1,
-          "baseValue": 3.0,
+          "baseValue": 5,
           "curve": {
             "keys": [
               {
                 "inTangent": 7.078255,
-                "inWeight": 0.0,
+                "inWeight": 0,
                 "outTangent": 7.078255,
                 "outWeight": 0.333333343,
                 "tangentMode": 34,
-                "time": 0.0,
+                "time": 0,
                 "value": 0.0995636,
                 "weightedMode": 0
               },
@@ -265,7 +265,7 @@
                 "inTangent": -10.5080452,
                 "inWeight": 0.333333343,
                 "outTangent": -10.5080452,
-                "outWeight": 0.0,
+                "outWeight": 0,
                 "tangentMode": 34,
                 "time": 0.9940274,
                 "value": -0.004591346,
@@ -278,7 +278,7 @@
           },
           "param": {
             "param1": 11,
-            "param2": 1000
+            "param2": 5000
           }
         }
       ],
@@ -288,9 +288,9 @@
       "idx": 320360960,
       "moveType": 1,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 11,
@@ -298,22 +298,112 @@
       },
       "startFrame": 0,
       "trackOrder": 2
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 5,
+      "idx": -353458688,
+      "startFrame": 4,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 9,
+      "idx": -386628352,
+      "startFrame": 9,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 14,
+      "idx": 1415174784,
+      "startFrame": 13,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 18,
+      "idx": 990525952,
+      "startFrame": 17,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 23,
+      "idx": -705391488,
+      "startFrame": 22,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 27,
+      "idx": 827914112,
+      "startFrame": 26,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 31,
+      "idx": 1545428992,
+      "startFrame": 30,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 36,
+      "idx": -393293312,
+      "startFrame": 35,
+      "trackOrder": 3
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "bullet": 0,
+      "effectType": 5,
+      "endFrame": 40,
+      "idx": 1686268288,
+      "startFrame": 39,
+      "trackOrder": 3
     }
   ],
   "backFrame": 0,
   "clipPath": "",
   "frameCount": 45,
-  "frameRate": 20,
+  "frameRate": 18,
   "loop": true,
-  "modelPath": "Assets/NapResources/UI/Animation/Arcade/Game/Companion/CP_weapon_prefab.prefab",
+  "modelPath": "Assets\/NapResources\/UI\/Animation\/Arcade\/Game\/Companion\/CP_weapon_prefab.prefab",
   "partLoop": false,
   "seqName": "sk_melee_16",
   "speedParams": {
     "param1": 44,
     "param2": 1000
   },
-  "topSpeed": 99.0,
-  "totalTime": 2.25,
+  "topSpeed": 99,
+  "totalTime": 2.5,
   "trackArray": [
     {
       "order": 0,
@@ -332,6 +422,12 @@
       "trackID": 4,
       "trackName": "动画Move",
       "trackType": 1
+    },
+    {
+      "order": 3,
+      "trackID": 5,
+      "trackName": "子弹",
+      "trackType": 5
     }
   ]
 }

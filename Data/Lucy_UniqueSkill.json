@@ -2,7 +2,7 @@
   "AbilityName": "Lucy_UniqueSkill",
   "AbilitySpecials": {
     "AS_WoodBuffRatio": {
-      "Value": 2.0
+      "Value": 2
     }
   },
   "AbilityStacking": "Unique",

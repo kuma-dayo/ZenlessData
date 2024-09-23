@@ -48,7 +48,7 @@
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
       "Properties": {
-        "Actor_AddedElementAccumulationRatio": 5.0
+        "Actor_AddedElementAccumulationRatio": 5
       }
     }
   }

@@ -1,0 +1,59 @@
+{
+  "AbilityName": "Weapon_Ability_14107",
+  "AbilitySpecials": {
+    "AS_AddedBreakStunRatio": {
+      "Value": 0.2
+    },
+    "AS_AddedDamageRatio": {
+      "Value": 0.2
+    },
+    "AS_CastHpShieldGetRatio": {
+      "Value": 0.15
+    },
+    "AS_Duration": {
+      "Value": 20
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "TeamListener",
+        "Target": "TeamAvatars"
+      }
+    ],
+    "Properties": {
+      "Actor_CastHpShieldGetRatio": "%AS_CastHpShieldGetRatio"
+    }
+  },
+  "Modifiers": {
+    "TeamListener": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnCounterHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Weapon_Ability_14107_BuffModifier",
+          "Target": "TeamAvatars"
+        }
+      ],
+      "OnDodgeSuccess": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Weapon_Ability_14107_BuffModifier",
+          "Target": "TeamAvatars"
+        }
+      ]
+    },
+    "Weapon_Ability_14107_BuffModifier": {
+      "Duration": "%AS_Duration",
+      "IsUnique": true,
+      "ModifierStacking": "Refresh",
+      "Properties": {
+        "Actor_AddedBreakStunRatio": "%AS_AddedBreakStunRatio",
+        "Actor_AddedDamageRatio": "%AS_AddedDamageRatio"
+      }
+    }
+  }
+}

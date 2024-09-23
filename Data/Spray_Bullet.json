@@ -5,17 +5,17 @@
       "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
-        "SphereColliderRadius": 5.0
+        "SphereColliderRadius": 5
       },
       "BulletEffect": {
         "EffectPattern": "Buff_Burn_02"
@@ -26,19 +26,19 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": false,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
-        "RaycastGroundOffset": 1.0,
+        "RaycastGroundOffset": 1,
         "TargetOption": {
           "$type": "ConfigPosRotReferTarget",
           "AttachPoint": "Root",
@@ -52,7 +52,7 @@
       "DestroyExplode": false,
       "ExplodePosType": "Bullet",
       "HitAnimEventID": "LeveLItem_Searchlight_BulletAttackproperty",
-      "HitExplodeRadius": 1.0,
+      "HitExplodeRadius": 1,
       "HitInterval": 0.1,
       "HitOtherExplode": false,
       "HitStageExplode": false,
@@ -68,8 +68,8 @@
           "z": 0
         },
         "CoordinateType": "Local",
-        "Duration": 0.0,
-        "Gravity": 0.0,
+        "Duration": 0,
+        "Gravity": 0,
         "HitNormalRatio": 0,
         "HitTangentialRatio": 0,
         "InitVelocity": {

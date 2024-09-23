@@ -5,13 +5,13 @@
       "Value": 0.05
     },
     "AS_AddedBreakStunRatio_Final": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ChargePoint": {
       "Value": 0
     },
     "AS_ThinkInterval": {
-      "Value": 3.0
+      "Value": 3
     }
   },
   "AbilityStacking": "Unique",

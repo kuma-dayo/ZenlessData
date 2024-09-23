@@ -1,0 +1,58 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P2_Attack_04",
+          "FrameCountHigh": 62,
+          "FrameCountLow": 50,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ATK04CheckModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_P2_Attack_04_AngleDetect",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+  },
+  "Modifiers": {
+    "ATK04CheckModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "P2_Attack_04_CanLock"
+          ],
+          "IsAdd": true,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 80,
+              "AngleMin": -80,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "P2_Attack_04_CanLock"
+          ],
+          "IsAdd": false
+        }
+      ]
+    }
+  }
+}

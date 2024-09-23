@@ -1,0 +1,34 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": -20000,
+              "CustomPropertyType": "Burnice_CurChargePoint",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom"
+            }
+          ],
+          "AnimatorStateName": "Attack_Enhance_01",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 21,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_EnhanceControl",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnPatternHitOther": [
+    ]
+  }
+}

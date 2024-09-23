@@ -72,7 +72,8 @@
                       "PredicateName": "CheckWoodAvailable"
                     }
                   ],
-                  "FailureActions": [],
+                  "FailureActions": [
+                  ],
                   "SuccessActions": [
                     {
                       "$type": "ApplyModifier",
@@ -279,7 +280,6 @@
         {
           "$type": "TriggerAbilityAction",
           "AbilityName": "Lucy_Encourage",
-          "CustomKey": "Lucy_Self_AbilityTargetting_01",
           "InitAbilitySpecialList": [
             {
               "SpecialName": "AS_Encourage_HighBallTime",
@@ -292,7 +292,7 @@
               "ValueType": "Integer"
             }
           ],
-          "Target": "Custom"
+          "Target": "Self"
         },
         {
           "$type": "WriteAIParamAction",
@@ -353,7 +353,6 @@
         {
           "$type": "TriggerAbilityAction",
           "AbilityName": "Lucy_Encourage",
-          "CustomKey": "Lucy_Self_AbilityTargetting_01",
           "InitAbilitySpecialList": [
             {
               "SpecialName": "AS_Encourage_HighBallTime",
@@ -366,7 +365,7 @@
               "ValueType": "Integer"
             }
           ],
-          "Target": "Custom"
+          "Target": "Self"
         },
         {
           "$type": "WriteAIParamAction",
@@ -427,7 +426,6 @@
         {
           "$type": "TriggerAbilityAction",
           "AbilityName": "Lucy_Encourage",
-          "CustomKey": "Lucy_Self_AbilityTargetting_01",
           "InitAbilitySpecialList": [
             {
               "SpecialName": "AS_Encourage_HighBallTime",
@@ -440,7 +438,7 @@
               "ValueType": "Integer"
             }
           ],
-          "Target": "Custom"
+          "Target": "Self"
         },
         {
           "$type": "WriteAIParamAction",
@@ -462,7 +460,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -477,21 +475,21 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -3.0
+                  "x": 0,
+                  "y": 0,
+                  "z": -3
                 }
               },
               "TargetOption": {
                 "$type": "ConfigPosRotReferTarget",
                 "BackupOffsetReferTarget": "LocalAvatar",
-                "OffsetReferTarget": "SelfAttackTarget"
+                "OffsetReferTarget": "LastLocalAvatarAttackTarget"
               }
             },
             "TargetUpdateMode": "OnStart",
@@ -507,17 +505,17 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -541,7 +539,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -556,21 +554,21 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -3.0
+                  "x": 0,
+                  "y": 0,
+                  "z": -3
                 }
               },
               "TargetOption": {
                 "$type": "ConfigPosRotReferTarget",
                 "BackupOffsetReferTarget": "LocalAvatar",
-                "OffsetReferTarget": "SelfAttackTarget"
+                "OffsetReferTarget": "LastLocalAvatarAttackTarget"
               }
             },
             "TargetUpdateMode": "OnStart",
@@ -586,17 +584,17 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -620,7 +618,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -635,21 +633,21 @@
               "NeedRaycastGround": true,
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -3.0
+                  "x": 0,
+                  "y": 0,
+                  "z": -3
                 }
               },
               "TargetOption": {
                 "$type": "ConfigPosRotReferTarget",
                 "BackupOffsetReferTarget": "LocalAvatar",
-                "OffsetReferTarget": "SelfAttackTarget"
+                "OffsetReferTarget": "LastLocalAvatarAttackTarget"
               }
             },
             "TargetUpdateMode": "OnStart",
@@ -665,17 +663,17 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": false,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {

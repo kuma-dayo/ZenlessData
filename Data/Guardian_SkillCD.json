@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "SkillCDModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_01_Loop",
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "SkillCDModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_01_End",
@@ -28,8 +28,8 @@
           "ModifierNameList": [
             "SkillCDModifier_01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_02_Start",
@@ -37,8 +37,8 @@
           "ModifierNameList": [
             "SkillCDModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_02_Start_2",
@@ -46,8 +46,8 @@
           "ModifierNameList": [
             "SkillCDModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_02_Loop",
@@ -56,8 +56,8 @@
           "ModifierNameList": [
             "SkillCDModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Range_Attack_02_End",
@@ -65,8 +65,8 @@
           "ModifierNameList": [
             "SkillCDModifier_02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }

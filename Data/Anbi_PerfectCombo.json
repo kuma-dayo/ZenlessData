@@ -110,7 +110,7 @@
   },
   "Modifiers": {
     "PerfectComboModifier_Count": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {
@@ -158,7 +158,7 @@
       ]
     },
     "PerfectComboModifier_Reset": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

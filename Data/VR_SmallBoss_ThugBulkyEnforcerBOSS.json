@@ -23,7 +23,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "specials(AS_BuffMaxStack)/2",
+        "Expression": "specials(AS_BuffMaxStack)\/2",
         "ParamName": "AS_MAShowStack",
         "Target": "Self",
         "ValueType": "Float"

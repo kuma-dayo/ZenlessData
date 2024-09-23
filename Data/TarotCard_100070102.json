@@ -18,8 +18,10 @@
           "Target": "Self"
         }
       ],
-      "OnInteractForbidden": [],
-      "OnInteractRemove": []
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
     }
   ],
   "AbilityName": "TarotCard_100070102",
@@ -47,5 +49,6 @@
       ]
     }
   },
-  "OnAbilityStart": []
+  "OnAbilityStart": [
+  ]
 }

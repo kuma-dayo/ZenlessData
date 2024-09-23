@@ -33,14 +33,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "FanCylinder",
             "FanCylinderColliderAngle": 360,
@@ -82,16 +82,16 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -187,7 +187,7 @@
               "ModifierNameList": [
                 "FieldRangeModifier"
               ],
-              "NormalizedTimeHigh": 1.0,
+              "NormalizedTimeHigh": 1,
               "NormalizedTimeLow": 0.4
             },
             {
@@ -197,8 +197,8 @@
               "ModifierNameList": [
                 "FieldRangeModifier"
               ],
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0
             }
           ]
         }
@@ -218,12 +218,12 @@
       "MovementConfig": {
         "$type": "ConfigMovementTarget",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 5.0
+          "x": 0,
+          "y": 0,
+          "z": 5
         },
         "Duration": 0.1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "MoveType": {
@@ -234,15 +234,15 @@
           "CoordsOption": "Camera",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsClampOffsetDistance": false,
             "PositionOffset": {
-              "x": 2.0,
-              "y": 0.0,
-              "z": 2.0
+              "x": 2,
+              "y": 0,
+              "z": 2
             }
           },
           "TargetOption": {
@@ -263,14 +263,14 @@
           "CoordsOption": "Camera",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
+              "x": 0,
+              "y": 0,
+              "z": 1
             }
           },
           "TargetOption": {

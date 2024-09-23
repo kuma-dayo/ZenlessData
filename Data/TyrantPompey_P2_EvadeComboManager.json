@@ -1,0 +1,244 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "EvadeComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_P2_EvadeCombo",
+                  "ParamType": 2
+                }
+              ]
+            }
+          ],
+          "AnimatorStateName": "P2_Evade",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "SpecialEvadeComboModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P2_SpecialEvade",
+          "Frame": 45,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Bool_P2_EvadeCombo",
+              "ParamType": 2,
+              "Predicates": [
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "Weak"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P2_Hit_Parry_Sword",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_P2_EvadeComboManager",
+  "AbilitySpecials": {
+    "AS_AIBlendDir_Target": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "EvadeComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "GreaterEqual",
+              "Distance": 8
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.5,
+              "OnFailure": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 41,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 2,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.7,
+              "OnFailure": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 3,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "RandomOperator",
+                  "Odds": 0.5,
+                  "OnFailure": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 6,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ],
+                  "OnSuccess": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 5,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SpecialEvadeComboModifier": {
+      "Duration": 1.5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "GreaterEqual",
+              "Distance": 8
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.7,
+              "OnFailure": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 41,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "RandomOperator",
+                  "Odds": 0.5,
+                  "OnFailure": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "BoolVal": true,
+                      "ParamName": "Bool_P2_EvadeCombo",
+                      "ParamType": 2,
+                      "Target": "Self"
+                    }
+                  ],
+                  "OnSuccess": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 2,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.6,
+              "OnFailure": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 3,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 5,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -2,19 +2,19 @@
   "AbilityName": "Bangboo_Eous001_Skill_Resonate_Recover_Heal",
   "AbilitySpecials": {
     "AS_HPPre": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HPResolved": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HealAmount_01": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HealAmount_02": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HealAmount_03": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -36,14 +36,14 @@
           "$type": "FieldRangeMixin",
           "ColliderConfig": {
             "ColliderAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderPosOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "ColliderType": "FanCylinder",
             "FanCylinderColliderAngle": 360,
@@ -70,16 +70,16 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -94,7 +94,7 @@
             {
               "$type": "SetAbilitySpecialAction",
               "ModifyFunction": "Replace",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "AS_HealAmount_01",
               "ParamType": "Float",
               "Target": "Self"
@@ -102,7 +102,7 @@
             {
               "$type": "SetAbilitySpecialAction",
               "ModifyFunction": "Replace",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "AS_HealAmount_02",
               "ParamType": "Float",
               "Target": "Self"
@@ -110,7 +110,7 @@
             {
               "$type": "SetAbilitySpecialAction",
               "ModifyFunction": "Replace",
-              "Param": 0.0,
+              "Param": 0,
               "ParamName": "AS_HealAmount_03",
               "ParamType": "Float",
               "Target": "Self"
@@ -140,16 +140,16 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": false,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -277,7 +277,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_HPPre",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "CurHP",
           "Target": "Self"
         }
@@ -287,14 +287,14 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_HPResolved",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "CurHP",
           "Target": "Self"
         },
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Mul",
-          "Param": -1.0,
+          "Param": -1,
           "ParamName": "AS_HPResolved",
           "ParamType": "Float",
           "Target": "Self"

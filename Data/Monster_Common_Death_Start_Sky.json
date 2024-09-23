@@ -49,7 +49,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -62,7 +62,7 @@
       ]
     },
     "DeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -153,7 +153,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -183,7 +183,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {

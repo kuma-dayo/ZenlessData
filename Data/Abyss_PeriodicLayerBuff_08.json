@@ -1,0 +1,89 @@
+{
+  "AbilityName": "Abyss_PeriodicLayerBuff_08",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.25
+    },
+    "AS_BaseAtkRatio": {
+      "Value": 0.2
+    },
+    "AS_Duration": {
+      "Value": 15
+    },
+    "AS_StunRecoverPercent": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnBuffAddToOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AvatarAtkBuff_AbyssPeriodicLayer08",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload"
+            ]
+          }
+        ],
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "MonsterStunRecoverModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite",
+              "Electric",
+              "Overload"
+            ]
+          },
+          {
+            "$type": "ByIsStunDestroyed",
+            "IsStunDestroyed": false,
+            "Target": "Target"
+          }
+        ],
+        "Target": "Target"
+      }
+    ],
+    "Properties": {
+      "Actor_AddedDamageRatio_Elec": "%AS_AddedDamageRatio",
+      "Actor_AddedDamageRatio_Ether": "%AS_AddedDamageRatio",
+      "Actor_AddedDamageRatio_Fire": "%AS_AddedDamageRatio",
+      "Actor_AddedDamageRatio_Ice": "%AS_AddedDamageRatio",
+      "Actor_AddedDamageRatio_Physics": "%AS_AddedDamageRatio"
+    }
+  },
+  "Modifiers": {
+    "AvatarAtkBuff_AbyssPeriodicLayer08": {
+      "Duration": "%AS_Duration",
+      "IsUnique": true,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAtkRatio"
+      }
+    },
+    "MonsterStunRecoverModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "RecoverStunAction",
+          "Amount": 0,
+          "Percentage": "%AS_StunRecoverPercent",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

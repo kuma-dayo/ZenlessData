@@ -333,7 +333,8 @@
   ],
   "AbilityName": "Billy_TutorialAbility",
   "AbilityStacking": "Unique",
-  "DefaultModifier": {},
+  "DefaultModifier": {
+  },
   "Modifiers": {
     "Quest1Modifier": {
       "Duration": 1,

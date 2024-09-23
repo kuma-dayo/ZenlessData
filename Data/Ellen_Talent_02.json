@@ -49,7 +49,7 @@
       "Value": 0
     },
     "AS_ExtraAddedDamageCritRatio": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_SingleStackAddCritDamage": {
       "Value": 0.15
@@ -86,7 +86,7 @@
             "CustomPropertyType": "EnhanceCount",
             "ModifyFunction": "Replace",
             "ParamName": "AS_EnhanceCount",
-            "Percentage": 1.0,
+            "Percentage": 1,
             "PropertyType": "Custom",
             "Target": "Self"
           }

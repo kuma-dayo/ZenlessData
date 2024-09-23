@@ -1,0 +1,450 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 6,
+          "FrameCountLow": 2,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DistanceCheck_AssaultAid"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "FrameCountHigh": 6,
+          "FrameCountLow": 2,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "DistanceCheck_ExQTE"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountHigh": 37,
+          "FrameCountLow": 8,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "HideShieldModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "FrameCountHigh": 49,
+          "FrameCountLow": 8,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "HideShieldModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_03",
+          "FrameCountHigh": 28,
+          "FrameCountLow": 12,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "HideShieldModifier"
+          ]
+        }
+      ],
+      "IsSeam": true
+    }
+  ],
+  "AbilityName": "Caesar_BlendTreeControl",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "DistanceCheck_AssaultAid": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.2,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 5,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.3,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 5,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 6,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.4,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 6,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 7,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.6,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 7,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 8,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.8,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 8,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 9,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 9,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "DistanceCheck_ExQTE": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.1,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 5,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.2,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 5,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 6,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.3,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 6,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 7,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.4,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 7,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 8,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.5,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 8,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 9,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.6,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 9,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 9,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.6,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 9,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 10,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.7,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 10,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 11,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0.8,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 11,
+              "Target": "Self"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 12,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AssaultAidBlend",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LastLocalAvatarAttackTarget",
+              "CompareType": "Greater",
+              "Distance": 12,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "HideShieldModifier": {
+      "OnAdded": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Caesar_Weapon_2"
+          ],
+          "Tag": "Caesar_Weapon_2",
+          "Visible": false
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Caesar_Weapon_2"
+          ],
+          "Tag": "Caesar_Weapon_2",
+          "Visible": true
+        }
+      ]
+    }
+  }
+}

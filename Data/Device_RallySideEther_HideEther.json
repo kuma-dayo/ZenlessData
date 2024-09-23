@@ -1,0 +1,93 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Disappear",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "HideEtherModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Death",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "GlichDeathEffectModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_RallySideEther_HideEther",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "GlichDeathEffectModifier": {
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "FireEffect",
+          "AttachPointName": "Device_RallySideEther_02",
+          "EffectPattern": "Eff_Device_RallySideEther_02_Glitch_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Device_RallySideEther_02"
+          ],
+          "Tag": "Device_RallySideEther_02",
+          "Target": "Self",
+          "Visible": false
+        }
+      ]
+    },
+    "HideEtherModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 2,
+          "TimeUpActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Trigger_Die",
+              "ParamType": 1,
+              "Target": "Self"
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "PushPointGameObjectControlAction",
+          "AttachPointNameList": [
+            "Device_RallySideEther_01"
+          ],
+          "IsActive": false,
+          "Tag": "Device_RallySideEther_01"
+        },
+        {
+          "$type": "PushRenderVisibleAction",
+          "Paths": [
+            "Device_RallySideEther_01_Proxy"
+          ],
+          "Tag": "Device_RallySideEther_01_Proxy",
+          "Target": "Self",
+          "Visible": false
+        }
+      ]
+    }
+  }
+}

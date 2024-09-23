@@ -28,16 +28,16 @@
   "AbilityName": "Player_CoAttackPartner",
   "AbilitySpecials": {
     "AS_IntervalCD_01": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_IntervalCD_02": {
       "Value": 7.5
     },
     "AS_IntervalCD_03": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_IntervalCD_Current": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_PartnerAvatarID_Current": {
       "Value": 0
@@ -335,7 +335,7 @@
   },
   "Modifiers": {
     "CoAttackModifier_CountManager": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Replace",
       "OnAdded": [
@@ -631,25 +631,25 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "BackupAngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "BackupPositionOffset": {
                 "x": 1.5,
-                "y": 0.0,
-                "z": -2.0
+                "y": 0,
+                "z": -2
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": 1.5,
                 "y": 0,
-                "z": -2.0
+                "z": -2
               }
             },
             "TargetOption": {
@@ -789,25 +789,25 @@
             "NeedRaycastGround": true,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "BackupAngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "BackupPositionOffset": {
                 "x": 1.5,
-                "y": 0.0,
-                "z": -2.0
+                "y": 0,
+                "z": -2
               },
               "IsClampOffsetDistance": false,
               "PositionOffset": {
                 "x": 1.5,
                 "y": 0,
-                "z": -2.0
+                "z": -2
               }
             },
             "TargetOption": {

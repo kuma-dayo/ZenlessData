@@ -5,7 +5,7 @@
       "Value": 0.3
     },
     "AS_AddedDamageRatio_Current": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_AddedDamageRatio_PerCount": {
       "Value": 0.05
@@ -166,7 +166,7 @@
       }
     },
     "HpRecoverModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

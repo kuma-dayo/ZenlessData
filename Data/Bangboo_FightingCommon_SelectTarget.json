@@ -10,8 +10,8 @@
             "AddAttackCheckModifier",
             "SwitchinModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -20,8 +20,8 @@
           "ModifierNameList": [
             "RemoveAttackCheckModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -30,8 +30,8 @@
           "ModifierNameList": [
             "RemoveAttackCheckModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -41,8 +41,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -51,8 +51,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -62,8 +62,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -72,8 +72,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -83,8 +83,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -94,8 +94,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -105,8 +105,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         },
         {
@@ -116,8 +116,8 @@
           "ModifierNameList": [
             "AllowChangeTargetModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ]

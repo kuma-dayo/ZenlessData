@@ -2,8 +2,8 @@
   "aaEventData": [
     {
       "aoeAreaParam": {
-        "areaParam1": 2.0,
-        "areaParam2": 1.0,
+        "areaParam1": 3.5,
+        "areaParam2": 1,
         "areaType": 3,
         "param1Param": {
           "param1": 0,
@@ -18,58 +18,10 @@
       "brakeDestroy": false,
       "cpDamageInternal": 1,
       "effectType": 4,
-      "endFrame": 7,
-      "idx": -1244023808,
-      "selectTargetType": 0,
-      "startFrame": 1,
-      "trackOrder": 0
-    },
-    {
-      "aoeAreaParam": {
-        "areaParam1": 2.0,
-        "areaParam2": 1.0,
-        "areaType": 3,
-        "param1Param": {
-          "param1": 0,
-          "param2": 0
-        },
-        "param2Param": {
-          "param1": 0,
-          "param2": 0
-        }
-      },
-      "autoDestroy": false,
-      "brakeDestroy": false,
-      "cpDamageInternal": 0,
-      "effectType": 4,
-      "endFrame": 13,
+      "endFrame": 21,
       "idx": 96634368,
       "selectTargetType": 0,
-      "startFrame": 7,
-      "trackOrder": 0
-    },
-    {
-      "aoeAreaParam": {
-        "areaParam1": 2.0,
-        "areaParam2": 1.0,
-        "areaType": 3,
-        "param1Param": {
-          "param1": 0,
-          "param2": 0
-        },
-        "param2Param": {
-          "param1": 0,
-          "param2": 0
-        }
-      },
-      "autoDestroy": false,
-      "brakeDestroy": false,
-      "cpDamageInternal": 0,
-      "effectType": 4,
-      "endFrame": 21,
-      "idx": 1493970944,
-      "selectTargetType": 0,
-      "startFrame": 13,
+      "startFrame": 2,
       "trackOrder": 0
     },
     {
@@ -77,117 +29,132 @@
       "axisInfos": [
         {
           "axis": 2,
-          "baseValue": 1.4,
+          "baseValue": 1,
           "curve": {
             "keys": [
               {
-                "inTangent": -0.946929157,
-                "inWeight": 0.0,
-                "outTangent": -0.946929157,
-                "outWeight": 0.333333343,
-                "tangentMode": 34,
-                "time": 0.00653457642,
-                "value": 0.0146331787,
-                "weightedMode": 0
-              },
-              {
-                "inTangent": 5.441481,
-                "inWeight": 0.333333343,
-                "outTangent": 5.441481,
-                "outWeight": 0.333333343,
+                "inTangent": 2,
+                "inWeight": 0,
+                "outTangent": 2,
+                "outWeight": 0,
                 "tangentMode": 0,
-                "time": 0.087268725,
-                "value": -0.0618163422,
+                "time": 0,
+                "value": 0,
                 "weightedMode": 0
               },
               {
-                "inTangent": 0.277608871,
+                "inTangent": 1.8992523,
                 "inWeight": 0.333333343,
-                "outTangent": 0.277608871,
-                "outWeight": 0.152788535,
-                "tangentMode": 0,
-                "time": 0.09576958,
-                "value": 0.4941207,
-                "weightedMode": 0
-              },
-              {
-                "inTangent": 0.8198316,
-                "inWeight": 0.333333343,
-                "outTangent": 0.8198316,
+                "outTangent": 1.8992523,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.316432863,
-                "value": -0.133726239,
+                "time": 0.06750947,
+                "value": 0.131665111,
                 "weightedMode": 0
               },
               {
-                "inTangent": 0.265020549,
-                "inWeight": 0.333333343,
-                "outTangent": 0.265020549,
-                "outWeight": 0.281156659,
+                "inTangent": -0.04221637,
+                "inWeight": 0.0816620141,
+                "outTangent": -0.04221637,
+                "outWeight": 0.3555777,
                 "tangentMode": 0,
-                "time": 0.3456125,
-                "value": 0.493961483,
+                "time": 0.6671744,
+                "value": 1.00724649,
                 "weightedMode": 0
               },
               {
-                "inTangent": -2.64815712,
+                "inTangent": -4.252707,
                 "inWeight": 0.333333343,
-                "outTangent": -2.64815712,
+                "outTangent": -4.252707,
                 "outWeight": 0.333333343,
                 "tangentMode": 0,
-                "time": 0.5240301,
-                "value": -0.0213032141,
+                "time": 0.9951366,
+                "value": 0.0326471329,
                 "weightedMode": 0
               },
               {
-                "inTangent": 0.6273826,
-                "inWeight": 0.241576552,
-                "outTangent": 0.6273826,
-                "outWeight": 0.333333343,
+                "inTangent": 0,
+                "inWeight": 0,
+                "outTangent": 0,
+                "outWeight": 0,
                 "tangentMode": 0,
-                "time": 0.7124916,
-                "value": -0.137108117,
-                "weightedMode": 0
-              },
-              {
-                "inTangent": -1.89114952,
-                "inWeight": 0.333333343,
-                "outTangent": -1.89114952,
-                "outWeight": 0.333333343,
-                "tangentMode": 0,
-                "time": 0.733596742,
-                "value": 1.10550427,
-                "weightedMode": 0
-              },
-              {
-                "inTangent": -0.0554745272,
-                "inWeight": 0.18423447,
-                "outTangent": -0.0554745272,
-                "outWeight": 0.333333343,
-                "tangentMode": 0,
-                "time": 0.98633,
-                "value": 0.0008991957,
-                "weightedMode": 0
-              },
-              {
-                "inTangent": 4.66617727,
-                "inWeight": 0.333333343,
-                "outTangent": 4.66617727,
-                "outWeight": 0.0,
-                "tangentMode": 34,
-                "time": 0.9873047,
-                "value": 0.0054473877,
+                "time": 1,
+                "value": -0.000260829926,
                 "weightedMode": 0
               }
             ],
-            "length": 10,
+            "length": 5,
             "postWrapMode": 8,
             "preWrapMode": 8
           },
           "param": {
             "param1": 11,
             "param2": 1000
+          }
+        },
+        {
+          "axis": 1,
+          "baseValue": 5,
+          "curve": {
+            "keys": [
+              {
+                "inTangent": -0.510133564,
+                "inWeight": 0,
+                "outTangent": -0.510133564,
+                "outWeight": 0.12617673,
+                "tangentMode": 0,
+                "time": 0,
+                "value": 0,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 2.14751363,
+                "inWeight": 0.333333343,
+                "outTangent": 2.14751363,
+                "outWeight": 0.173424721,
+                "tangentMode": 0,
+                "time": 0.268084645,
+                "value": 6.56545162E-05,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 2.22978735,
+                "inWeight": 0.170076817,
+                "outTangent": 2.22978735,
+                "outWeight": 0.1131814,
+                "tangentMode": 0,
+                "time": 0.403125972,
+                "value": 0.9879603,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": -0.5253582,
+                "inWeight": 0.333333343,
+                "outTangent": -0.5253582,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.767301738,
+                "value": 0.829435945,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0,
+                "inWeight": 0,
+                "outTangent": 0,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 1,
+                "value": 0,
+                "weightedMode": 0
+              }
+            ],
+            "length": 5,
+            "postWrapMode": 8,
+            "preWrapMode": 8
+          },
+          "param": {
+            "param1": 11,
+            "param2": 5000
           }
         }
       ],
@@ -197,9 +164,9 @@
       "idx": 320360960,
       "moveType": 1,
       "pos": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "posParam": {
         "param1": 11,
@@ -207,6 +174,132 @@
       },
       "startFrame": 0,
       "trackOrder": 1
+    },
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "cpAnimRotationType": 0,
+      "curve": {
+        "keys": [
+          {
+            "inTangent": -1.225879,
+            "inWeight": 0,
+            "outTangent": -1.225879,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0,
+            "value": -0.0144846439,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 13.4820852,
+            "inWeight": 0.333333343,
+            "outTangent": 13.4820852,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0.022109665,
+            "value": -0.04158842,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 5.35661,
+            "inWeight": 0.226875916,
+            "outTangent": 5.35661,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.0481330156,
+            "value": 0.6920111,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 0.169586256,
+            "inWeight": 0.333333343,
+            "outTangent": 0.169586256,
+            "outWeight": 0.250525117,
+            "tangentMode": 0,
+            "time": 0.171599329,
+            "value": 0.8057299,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -9.855129,
+            "inWeight": 0.333333343,
+            "outTangent": -9.855129,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.364635885,
+            "value": 0.7292574,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -0.0624158345,
+            "inWeight": 0.333333343,
+            "outTangent": -0.0624158345,
+            "outWeight": 0.161228046,
+            "tangentMode": 0,
+            "time": 0.379366726,
+            "value": 0.0100628361,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 0.455653131,
+            "inWeight": 0.333333343,
+            "outTangent": 0.455653131,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.7197743,
+            "value": 0.026025936,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -13.2167759,
+            "inWeight": 0.333333343,
+            "outTangent": -13.2167759,
+            "outWeight": 0.120348059,
+            "tangentMode": 0,
+            "time": 0.7968687,
+            "value": -0.590933,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -0.226026922,
+            "inWeight": 0.5622114,
+            "outTangent": -0.226026922,
+            "outWeight": 0.333333343,
+            "tangentMode": 0,
+            "time": 0.982670844,
+            "value": -0.917710245,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 51.22875,
+            "inWeight": 0.333333343,
+            "outTangent": 51.22875,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 1.00043249,
+            "value": -0.00780326128,
+            "weightedMode": 0
+          }
+        ],
+        "length": 10,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      "effectType": 2,
+      "endFrame": 21,
+      "idx": -1000008320,
+      "speedEuler": {
+        "x": 0,
+        "y": 0,
+        "z": -12
+      },
+      "speedParam": {
+        "param1": 0,
+        "param2": 0
+      },
+      "startFrame": 0,
+      "trackOrder": 2
     }
   ],
   "backFrame": 0,
@@ -214,14 +307,14 @@
   "frameCount": 22,
   "frameRate": 20,
   "loop": true,
-  "modelPath": "Assets/NapResources/UI/Animation/Arcade/Game/Companion/CP_weapon_prefab.prefab",
+  "modelPath": "Assets\/NapResources\/UI\/Animation\/Arcade\/Game\/Companion\/CP_weapon_prefab.prefab",
   "partLoop": false,
   "seqName": "sk_melee_10",
   "speedParams": {
     "param1": 44,
     "param2": 1000
   },
-  "topSpeed": 99.0,
+  "topSpeed": 99,
   "totalTime": 1.1,
   "trackArray": [
     {
@@ -235,6 +328,12 @@
       "trackID": 4,
       "trackName": "动画Move",
       "trackType": 1
+    },
+    {
+      "order": 2,
+      "trackID": 5,
+      "trackName": "动画Rotation",
+      "trackType": 2
     }
   ]
 }

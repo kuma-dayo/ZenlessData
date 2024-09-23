@@ -8,6 +8,7 @@
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",
-    "OnOpenBox": []
+    "OnOpenBox": [
+    ]
   }
 }

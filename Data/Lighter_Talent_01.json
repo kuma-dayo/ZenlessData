@@ -1,0 +1,101 @@
+{
+  "AbilityName": "Lighter_Talent_01",
+  "AbilitySpecials": {
+    "AS_Lighter_Talent_01_CD": {
+      "Value": 15
+    },
+    "AS_ShieldLifeTime": {
+      "Value": 12
+    },
+    "AS_ShieldPercentage": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "LighterTalent01Modifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "QTE",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "AssaultAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "BeHitAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LighterTalent01Modifier": {
+      "Duration": "%AS_Lighter_Talent_01_CD",
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "AddedActions": [
+            {
+              "$type": "SetRBLOffsetAction",
+              "RBLOffset": 2,
+              "Tag": "Lighter_Talent01",
+              "Target": "Self"
+            }
+          ],
+          "Duration": "%AS_ShieldLifeTime",
+          "EmptyActions": [
+            {
+              "$type": "UnsetRBLOffsetAction",
+              "Tag": "Lighter_Talent01",
+              "Target": "Self"
+            }
+          ],
+          "Priority": -1,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "RemovedActions": [
+            {
+              "$type": "UnsetRBLOffsetAction",
+              "Tag": "Lighter_Talent01",
+              "Target": "Self"
+            }
+          ],
+          "TimeUpActions": [
+            {
+              "$type": "UnsetRBLOffsetAction",
+              "Tag": "Lighter_Talent01",
+              "Target": "Self"
+            }
+          ],
+          "TotalValueConfig": {
+            "Percentage": "%AS_ShieldPercentage",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

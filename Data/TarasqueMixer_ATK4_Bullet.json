@@ -5,14 +5,14 @@
       "AliveDuration": 2.5,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.5
@@ -25,14 +25,14 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
+            "x": 0,
             "y": 0,
             "z": 0
           }
@@ -52,13 +52,13 @@
         "CapsuleColliderHeight": 3.5,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 1.75
         },
         "ColliderType": "Capsule"
@@ -85,25 +85,25 @@
       "MovementConfig": {
         "$type": "ConfigMovementParabola",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 0
         },
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.75,
         "HitTangentialRatio": 0.75,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsClampOffsetDistance": true,
             "PositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 1.5,
               "z": 0
             }
@@ -114,7 +114,7 @@
           }
         },
         "TimesUpMoveOption": "Remain",
-        "h1": 1.0,
+        "h1": 1,
         "h2": 2.5,
         "s1": 0.3,
         "s2": 15,

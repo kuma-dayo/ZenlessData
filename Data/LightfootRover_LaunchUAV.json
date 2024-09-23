@@ -16,7 +16,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -28,17 +28,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -56,23 +56,23 @@
             "$type": "ConfigRotationToTarget",
             "Duration": -1,
             "ReachTargetStop": false,
-            "RotateSpeed": 8.0,
+            "RotateSpeed": 8,
             "RotateType": "Lerp",
             "TargetPosRot": {
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -99,26 +99,29 @@
           ],
           "FailureActions": [
             {
-              "$type": "PopAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_ExtraUAV"
               ],
+              "IsAdd": false,
               "Target": "Caster"
             }
           ],
           "SuccessActions": [
             {
-              "$type": "PushAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_UAV_Extra"
               ],
+              "IsAdd": true,
               "Target": "Target"
             },
             {
-              "$type": "PushAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_ExtraUAV"
               ],
+              "IsAdd": true,
               "Target": "Caster"
             }
           ],
@@ -130,10 +133,11 @@
           "Target": "Other"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "LightfootRover_UAV_L"
           ],
+          "IsAdd": true,
           "Target": "Target"
         },
         {
@@ -166,17 +170,17 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -209,7 +213,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -221,17 +225,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -249,23 +253,23 @@
             "$type": "ConfigRotationToTarget",
             "Duration": -1,
             "ReachTargetStop": false,
-            "RotateSpeed": 8.0,
+            "RotateSpeed": 8,
             "RotateType": "Lerp",
             "TargetPosRot": {
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -292,26 +296,29 @@
           ],
           "FailureActions": [
             {
-              "$type": "PopAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_ExtraUAV"
               ],
+              "IsAdd": false,
               "Target": "Caster"
             }
           ],
           "SuccessActions": [
             {
-              "$type": "PushAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_UAV_Extra"
               ],
+              "IsAdd": true,
               "Target": "Target"
             },
             {
-              "$type": "PushAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LightfootRover_ExtraUAV"
               ],
+              "IsAdd": true,
               "Target": "Caster"
             }
           ],
@@ -323,10 +330,11 @@
           "Target": "Other"
         },
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "LightfootRover_UAV_R"
           ],
+          "IsAdd": true,
           "Target": "Target"
         },
         {
@@ -359,17 +367,17 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -399,16 +407,16 @@
           "CoordsOption": "ReferTarget",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsUseRotationXZ": false,
             "IsUseRotationY": true,
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -429,16 +437,16 @@
           "CoordsOption": "ReferTarget",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsUseRotationXZ": false,
             "IsUseRotationY": true,
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -470,16 +478,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -490,9 +498,9 @@
               "OffsetReferTarget": "Caster"
             }
           },
-          "PosRatio": 3.0,
+          "PosRatio": 3,
           "PosType": "Lerp",
-          "RotRatio": 8.0,
+          "RotRatio": 8,
           "RotType": "Lerp"
         },
         {
@@ -502,16 +510,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -522,9 +530,9 @@
               "OffsetReferTarget": "Caster"
             }
           },
-          "PosRatio": 3.0,
+          "PosRatio": 3,
           "PosType": "Lerp",
-          "RotRatio": 8.0,
+          "RotRatio": 8,
           "RotType": "Lerp"
         }
       ],
@@ -533,19 +541,21 @@
     "UpdateTargetModifier": {
       "OnAdded": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "OnUAV"
           ],
+          "IsAdd": true,
           "Target": "Caster"
         }
       ],
       "OnRemoved": [
         {
-          "$type": "PopAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "OnUAV"
           ],
+          "IsAdd": false,
           "Target": "Caster"
         }
       ],

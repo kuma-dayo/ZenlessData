@@ -1,0 +1,31 @@
+{
+  "AbilityName": "Level_Burnice_CurrentEnhancePointMax",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "CurrentEnhancePointReset",
+        "Target": "LocalAvatar"
+      }
+    ]
+  },
+  "Modifiers": {
+    "CurrentEnhancePointReset": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1000000,
+          "CustomPropertyType": "Burnice_CurChargePoint",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom"
+        }
+      ]
+    }
+  }
+}

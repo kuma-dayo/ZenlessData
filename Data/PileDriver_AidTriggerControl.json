@@ -2,6 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "AttachStateWithModifierMixin",
+      "CheckCloudPlatformPerfectSwitch": true,
       "ConfigList": [
         {
           "AnimatorStateName": "Base_Attack_Foot_FL",
@@ -299,6 +300,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -311,6 +315,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -333,6 +340,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -345,6 +355,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -367,6 +380,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -379,6 +395,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -401,6 +420,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -413,6 +435,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -435,6 +460,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -447,6 +475,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"

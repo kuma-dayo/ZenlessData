@@ -7,16 +7,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -27,9 +27,9 @@
           "OffsetReferTarget": "Self"
         }
       },
-      "PosSpeed": 5.0,
+      "PosSpeed": 5,
       "PosType": "Instant",
-      "RotRatio": 8.0,
+      "RotRatio": 8,
       "RotType": "Instant"
     }
   ],
@@ -45,16 +45,16 @@
           "CoordsOption": "ReferTarget",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsUseRotationXZ": false,
             "IsUseRotationY": true,
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

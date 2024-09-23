@@ -2,7 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "LaserMixin",
-      "AliveDuration": 999999.0,
+      "AliveDuration": 999999,
       "AudioEffect": "",
       "BlockColliderRadius": 0.001,
       "BlockEffect": {
@@ -15,14 +15,14 @@
       ],
       "DodgeColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.45
@@ -45,9 +45,9 @@
         "CoordsOption": "Self",
         "Offset": {
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -62,14 +62,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -81,7 +81,8 @@
         }
       },
       "Length": 50,
-      "OnLaserStartAction": [],
+      "OnLaserStartAction": [
+      ],
       "StartEffect": {
         "EffectPattern": ""
       }

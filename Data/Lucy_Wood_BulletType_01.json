@@ -5,14 +5,14 @@
       "AliveDuration": 3,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.1
@@ -26,15 +26,15 @@
         "Offset": {
           "AngleOffset": {
             "x": -3,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -69,7 +69,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -95,19 +95,19 @@
         "ReachTargetStop": true,
         "RotateSpeed": 360,
         "RotateType": "Fixed",
-        "RotationAngleLimit": 30.0,
+        "RotationAngleLimit": 30,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
+              "x": 0,
               "y": 0.75,
-              "z": 0.0
+              "z": 0
             }
           },
           "TargetOption": {

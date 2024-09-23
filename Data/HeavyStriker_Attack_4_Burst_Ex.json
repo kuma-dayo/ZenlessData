@@ -2,7 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "BulletMixin",
-      "AliveDuration": 1.0,
+      "AliveDuration": 1,
       "BulletEffect": {
         "EffectPattern": "Eff_Monster_HeavyStriker_Attack_04_06_Store"
       },
@@ -30,7 +30,7 @@
               "PositionArgument": "Bullet"
             }
           ],
-          "DelayTime": 0.0
+          "DelayTime": 0
         }
       ],
       "DestroyExplode": true,

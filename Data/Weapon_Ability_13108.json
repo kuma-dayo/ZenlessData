@@ -5,7 +5,7 @@
       "Value": 0.2
     },
     "AS_Duration": {
-      "Value": 8.0
+      "Value": 8
     }
   },
   "AbilityStacking": "Unique",
@@ -19,7 +19,7 @@
             "$type": "ByDistance",
             "CompareTarget": "Self",
             "CompareType": "GreaterEqual",
-            "Distance": 6.0,
+            "Distance": 6,
             "Target": "Target"
           },
           {

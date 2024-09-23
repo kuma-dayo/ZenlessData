@@ -1,3 +1,330 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "NGHEGGIDAPN": 1000,
+      "JDHMOPDHBAI": 3,
+      "CCELHHGJCMO": "5,50,6,30,7,10,8,0;5,50,6,30,7,10,8,0;5,50,6,30,7,10,8,0",
+      "CENKAJMIJMI": [],
+      "HJGGBBBDOEL": [
+        6,
+        400,
+        7,
+        300,
+        8,
+        200
+      ],
+      "PJJEDBKEBKG": [
+        0.5,
+        6
+      ],
+      "HKGNPJDCEGM": [
+        -3.26,
+        -2.47,
+        0,
+        -3.35,
+        3.63,
+        -2.47
+      ],
+      "FEHBNDGLMLO": [
+        0,
+        -136
+      ],
+      "KPGCJLKDMME": 1003,
+      "KAGODEFMPOD": 1,
+      "CMKGPJILAHC": [
+        -1.16,
+        -1.22
+      ],
+      "DFBDFJPDOKK": [
+        0,
+        -8.3
+      ],
+      "HELKHAIJOOK": 0,
+      "KJPMDIJNNHJ": 1,
+      "DMPBMNLPMLH": [],
+      "DFMBEGEGOKL": [],
+      "CFNHKOELJEM": [],
+      "LHDDDJCLFNL": 0,
+      "ADKGBGLIDEI": 0,
+      "KMOPBCIEBJL": 0,
+      "POPOCBFHGPE": [
+        1002,
+        1005,
+        1005,
+        1005,
+        1004,
+        1006
+      ],
+      "EIMAABAEBJG": [
+        0.12,
+        -3.65,
+        -3.26,
+        -3.21,
+        0,
+        -4.07,
+        3.63,
+        -3.21,
+        0,
+        1.05,
+        0,
+        0.85
+      ],
+      "LFDAOCNPPEH": [
+        0,
+        -3
+      ],
+      "CNOLKHMELDE": 6,
+      "LEIJNNJAPFK": 7,
+      "DBELMKECLOP": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CAHIGGDOOOH": [
+        0,
+        -0.6
+      ],
+      "FELJKHDFBHK": 1001,
+      "JCIDPPILBIO": 0,
+      "ALCNFKMANPM": [],
+      "LNDNJDKCDJN": [
+        0.3,
+        -1
+      ],
+      "CMOOKKKADJF": 5,
+      "MABHPDGPPNI": [
+        0,
+        -42
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "NGHEGGIDAPN": 1000,
+      "JDHMOPDHBAI": 3,
+      "CCELHHGJCMO": "1,100,2,35,3,0,4,0;1,1,10,100,11,10;1,100,2,35,3,0,4,0",
+      "CENKAJMIJMI": [
+        10,
+        -55,
+        11,
+        -30
+      ],
+      "HJGGBBBDOEL": [
+        2,
+        10000,
+        3,
+        4000,
+        4,
+        700,
+        10,
+        1000,
+        11,
+        1000
+      ],
+      "PJJEDBKEBKG": [
+        0.5,
+        6
+      ],
+      "HKGNPJDCEGM": [
+        -3.26,
+        -2.47,
+        0,
+        -3.35,
+        3.63,
+        -2.47
+      ],
+      "FEHBNDGLMLO": [
+        0,
+        -136
+      ],
+      "KPGCJLKDMME": 2,
+      "KAGODEFMPOD": 1,
+      "CMKGPJILAHC": [
+        -1.16,
+        -1.22
+      ],
+      "DFBDFJPDOKK": [
+        0,
+        -8.3
+      ],
+      "HELKHAIJOOK": 0,
+      "KJPMDIJNNHJ": 1,
+      "DMPBMNLPMLH": [],
+      "DFMBEGEGOKL": [],
+      "CFNHKOELJEM": [],
+      "LHDDDJCLFNL": 0,
+      "ADKGBGLIDEI": 0,
+      "KMOPBCIEBJL": 0,
+      "POPOCBFHGPE": [
+        1002,
+        1005,
+        1005,
+        1005,
+        1004,
+        1006
+      ],
+      "EIMAABAEBJG": [
+        0.12,
+        -3.65,
+        -3.26,
+        -3.21,
+        0,
+        -4.07,
+        3.63,
+        -3.21,
+        0,
+        1.05,
+        0,
+        0.85
+      ],
+      "LFDAOCNPPEH": [
+        0,
+        -3
+      ],
+      "CNOLKHMELDE": 6,
+      "LEIJNNJAPFK": 7,
+      "DBELMKECLOP": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CAHIGGDOOOH": [
+        0,
+        -0.6
+      ],
+      "FELJKHDFBHK": 1001,
+      "JCIDPPILBIO": 0,
+      "ALCNFKMANPM": [],
+      "LNDNJDKCDJN": [
+        0.3,
+        -1
+      ],
+      "CMOOKKKADJF": 5,
+      "MABHPDGPPNI": [
+        0,
+        -42
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "NGHEGGIDAPN": 1000,
+      "JDHMOPDHBAI": 3,
+      "CCELHHGJCMO": "1001,100;1003,100;1001,100",
+      "CENKAJMIJMI": [],
+      "HJGGBBBDOEL": [],
+      "PJJEDBKEBKG": [
+        0.5,
+        6
+      ],
+      "HKGNPJDCEGM": [
+        -3.26,
+        -3,
+        0,
+        -3.8,
+        3.63,
+        -3
+      ],
+      "FEHBNDGLMLO": [
+        0,
+        -136
+      ],
+      "KPGCJLKDMME": 2,
+      "KAGODEFMPOD": 1,
+      "CMKGPJILAHC": [
+        -1.21,
+        -2.15
+      ],
+      "DFBDFJPDOKK": [
+        0,
+        -8.3
+      ],
+      "HELKHAIJOOK": 10,
+      "KJPMDIJNNHJ": 5,
+      "DMPBMNLPMLH": [],
+      "DFMBEGEGOKL": [
+        97
+      ],
+      "CFNHKOELJEM": [
+        98
+      ],
+      "LHDDDJCLFNL": 0,
+      "ADKGBGLIDEI": 0,
+      "KMOPBCIEBJL": 0,
+      "POPOCBFHGPE": [
+        2001,
+        2002,
+        2002,
+        2002,
+        2003,
+        2003,
+        2003,
+        2004,
+        2004,
+        2005,
+        2006
+      ],
+      "EIMAABAEBJG": [
+        0,
+        -4.02,
+        -3.26,
+        -4.12,
+        0,
+        -4.96,
+        3.63,
+        -4.21,
+        -3.27,
+        -4.18,
+        0,
+        -5.02,
+        3.63,
+        -4.17,
+        -5.66,
+        -2.99,
+        5.6,
+        -2.99,
+        0,
+        0.85,
+        0,
+        -3.21
+      ],
+      "LFDAOCNPPEH": [
+        0,
+        -3
+      ],
+      "CNOLKHMELDE": 6,
+      "LEIJNNJAPFK": 7,
+      "DBELMKECLOP": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CAHIGGDOOOH": [
+        0,
+        -1.4
+      ],
+      "FELJKHDFBHK": 1000,
+      "JCIDPPILBIO": 1002,
+      "ALCNFKMANPM": [
+        96
+      ],
+      "LNDNJDKCDJN": [
+        0.3,
+        -1
+      ],
+      "CMOOKKKADJF": 6,
+      "MABHPDGPPNI": [
+        0,
+        -42
+      ]
+    }
+  ]
 }

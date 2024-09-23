@@ -1,6 +1,7 @@
 {
   "AbilityName": "Card_Electro_2000507",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "OnAdded": [

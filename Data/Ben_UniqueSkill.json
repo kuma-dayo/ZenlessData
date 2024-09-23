@@ -58,10 +58,10 @@
       "Value": 0.5
     },
     "AS_HpShieldBase_Ben_UniqueSkill": {
-      "Value": 300.0
+      "Value": 300
     },
     "AS_HpShieldDuration_Ben_UniqueSkill": {
-      "Value": 30.0
+      "Value": 30
     },
     "AS_HpShieldPercentage_Ben_UniqueSkill": {
       "Value": 0.25

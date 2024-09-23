@@ -2,7 +2,7 @@
   "AbilityName": "QingYi_Talent_04",
   "AbilitySpecials": {
     "AS_CriticalDamageDelta": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_DamageResistRatio": {
       "Value": -0.2

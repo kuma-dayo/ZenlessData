@@ -5,14 +5,14 @@
       "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,16 +25,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 30.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 30,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -66,7 +66,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -111,14 +111,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0,
                 "z": 0
               }
@@ -154,7 +154,7 @@
               "MovementConfig": {
                 "$type": "ConfigMovementTarget",
                 "Duration": 0.01,
-                "Gravity": 0.0,
+                "Gravity": 0,
                 "HitNormalRatio": 1,
                 "HitTangentialRatio": 1,
                 "MoveType": {
@@ -168,14 +168,14 @@
                   "CoordsOption": "Relative",
                   "Offset": {
                     "AngleOffset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
                     },
                     "IsClampOffsetDistance": false,
                     "PositionOffset": {
-                      "x": 0.0,
-                      "y": 0.0,
+                      "x": 0,
+                      "y": 0,
                       "z": -0.25
                     }
                   },
@@ -201,7 +201,6 @@
             {
               "$type": "TriggerAbilityAction",
               "AbilityName": "Lucy_FrameHaltSync",
-              "CustomKey": "Lucy_Self_AbilityTargetting_01",
               "InitAbilitySpecialList": [
                 {
                   "SpecialName": "AS_AttackIndex",
@@ -209,12 +208,13 @@
                   "ValueType": "Integer"
                 }
               ],
-              "Target": "Custom"
+              "Target": "Caster"
             }
           ]
         }
       ],
-      "OnBulletExplodeAction": [],
+      "OnBulletExplodeAction": [
+      ],
       "OnBulletHitStageGroundDestroyAction": [
         {
           "$type": "SetAnimCtrlerParamAction",
@@ -254,20 +254,20 @@
         "ReachTargetStop": false,
         "RotateSpeed": 360,
         "RotateType": "Instant",
-        "RotationAngleLimit": 360.0,
+        "RotationAngleLimit": 360,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "NeedRaycastGround": true,
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "RaycastGroundOffset": 0.5,

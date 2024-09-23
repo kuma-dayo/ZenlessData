@@ -1,0 +1,452 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_EvadeState_01",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ResetIntModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_EvadeState_02",
+          "FrameCountHigh": 999,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ResetIntModifier"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "Hitnum_InEvadeState",
+          "CustomReferMaxPropertyType": "MaxHitnum_InEvadeState",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ReferMaxPropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "PulchraWeakModifier",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Pulchra_EvadeState",
+  "AbilitySpecials": {
+    "AS_EvadeStateDuration": {
+      "Value": 6
+    },
+    "IntTypeControl01": {
+      "Value": 0.8
+    },
+    "IntTypeControl02": {
+      "Value": 0.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "PulchraEvadeStateModifier": {
+      "Duration": "%AS_EvadeStateDuration",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "PulchraEvadeState01",
+          "Target": "Self",
+          "key": "Monster_Pulchra_MA_Attack_ThrowSelf_OverrideRimGlow_01"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": true,
+          "Tag": "PulchraEvadeState02",
+          "Target": "Self",
+          "key": "Monster_Pulchra_MA_Attack_ThrowSelf_SecondaryEmission_01"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 0,
+          "CustomPropertyType": "Hitnum_InEvadeState",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Replace",
+          "PropertyType": "Custom"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "NearPulchra"
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_NoHitEffect",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "NearPulchra"
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_NoDamage",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "NearPulchra"
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_NoStun",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "NearPulchra"
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyKey": "Actor_NoElementAccumulation",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyProperty",
+          "Amount": 1,
+          "CustomPropertyType": "Hitnum_InEvadeState",
+          "IsUsePercentage": false,
+          "Percentage": 0,
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "NearPulchra"
+                  ],
+                  "Target": "Other"
+                }
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "Custom",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "PulchraEvadeStateModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackAid",
+                "ParryAid"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "PulchraWeakModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "AttackAid",
+                "ParryAid"
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHitPre": [
+        {
+          "$type": "RandomOperator",
+          "Odds": "%IntTypeControl01",
+          "OnFailure": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 11,
+              "ParamName": "Int_AttackIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "ParamName": "Trigger_PressAttackA",
+              "ParamType": 1,
+              "Target": "Self"
+            }
+          ],
+          "OnSuccess": [
+            {
+              "$type": "RandomOperator",
+              "Odds": "%IntTypeControl02",
+              "OnFailure": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 13,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                },
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "ParamName": "Trigger_PressAttackA",
+                  "ParamType": 1,
+                  "Target": "Self"
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 12,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                },
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "ParamName": "Trigger_PressAttackA",
+                  "ParamType": 1,
+                  "Target": "Self"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "NearPulchra"
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "AidAttack_Parry_ZoneCheck"
+                  ],
+                  "Target": "Caster"
+                }
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "PulchraEvadeState01",
+          "Target": "Self"
+        },
+        {
+          "$type": "InterruptMaterialPropertyAction",
+          "Tag": "PulchraEvadeState02",
+          "Target": "Self"
+        }
+      ]
+    },
+    "PulchraWeakModifier": {
+      "Duration": 3,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetRBLAction",
+          "RBL": 1,
+          "Tag": "PulchraWeak",
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "CounterHitWindow"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ],
+      "OnBeingCounterHit": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "PulchraEvadeStateModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "PulchraWeakModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "BreakLevel_Delta",
+          "PropertyValue": 2,
+          "Target": "Other"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "PulchraWeak",
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "CounterHitWindow"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ResetIntModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_AttackIndex",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "PulchraEvadeStateModifier",
+      "Target": "Self"
+    }
+  ]
+}

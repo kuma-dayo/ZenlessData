@@ -2,7 +2,7 @@
   "AbilityName": "GamePlay_EliteShield",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 100.0
+      "Value": 100
     }
   },
   "AbilityStacking": "Unique",
@@ -35,7 +35,7 @@
           "IfTakeRestDamageWhenEmpty": true,
           "Priority": 0,
           "RecoverAmount": 0,
-          "RecoverPercentage": 0.0,
+          "RecoverPercentage": 0,
           "Tag": "FollowerHyperShield",
           "TotalValueConfig": {
             "Amount": 0,

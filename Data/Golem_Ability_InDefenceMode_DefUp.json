@@ -10,8 +10,8 @@
           "ModifierNameList": [
             "AddDefenceMax"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_5_DefenceLoop",
@@ -20,8 +20,8 @@
           "ModifierNameList": [
             "AddDefenceMax"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_6_CounterDefence",
@@ -30,8 +30,8 @@
           "ModifierNameList": [
             "AddDefenceMax"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_6_Counter_Pre",
@@ -40,8 +40,8 @@
           "ModifierNameList": [
             "AddDefenceMax"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -77,8 +77,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "InDefence_Stun_Start",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0
             }
           ],
           "Target": "Self"
@@ -95,16 +95,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {

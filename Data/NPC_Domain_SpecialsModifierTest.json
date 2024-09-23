@@ -1,0 +1,33 @@
+{
+  "AbilityName": "NPC_Domain_SpecialsModifierTest",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AbilitySpecialsModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "LogStringAction",
+          "LogStr": "FFFFFFFuck!!!Add!"
+        },
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Replace",
+          "Param": 15,
+          "ParamName": "NormalRatio",
+          "ParamType": "Float"
+        }
+      ]
+    }
+  },
+  "OnAdded": [
+    {
+      "$type": "LogStringAction",
+      "LogStr": "FFFFFFFuck!!!Start!"
+    },
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "AbilitySpecialsModifier"
+    }
+  ]
+}

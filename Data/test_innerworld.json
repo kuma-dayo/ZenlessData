@@ -9,7 +9,8 @@
         400029
       ],
       "NoInteractEventEffect": "InteractionDisable_TV",
-      "TarotCardIDCanUse": []
+      "TarotCardIDCanUse": [
+      ]
     },
     {
       "$type": "COverwriteGridStateTextureConfig",

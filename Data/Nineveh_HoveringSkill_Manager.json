@@ -24,10 +24,11 @@
             {
               "HighToValueActions": [
                 {
-                  "$type": "PopAnimatorZoneTagsAction",
+                  "$type": "HandleAnimatorZoneTagsAction",
                   "AnimatorStateTags": [
                     "ThirdHoveringHovering"
                   ],
+                  "IsAdd": false,
                   "Target": "Self"
                 }
               ],

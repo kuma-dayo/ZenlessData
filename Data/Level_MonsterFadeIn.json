@@ -2,7 +2,7 @@
   "AbilityName": "Level_MonsterFadeIn",
   "AbilityStacking": "Unique",
   "DefaultModifier": {
-    "Duration": 1.0,
+    "Duration": 1,
     "IgnoreTimeScale": false,
     "ModifierStacking": "MultipleRefresh",
     "OnAdded": [

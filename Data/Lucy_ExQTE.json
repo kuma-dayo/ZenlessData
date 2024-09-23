@@ -409,12 +409,12 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "DefaultOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -426,15 +426,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -455,17 +455,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 9999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 9999
                 }
               },
               "TargetOption": {
@@ -480,7 +480,7 @@
       ]
     },
     "SpRecoverModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {
@@ -516,7 +516,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -530,15 +530,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -562,17 +562,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 30.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 30,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
                   "x": 0.5,
-                  "y": 0.0,
-                  "z": 1.0
+                  "y": 0,
+                  "z": 1
                 }
               },
               "TargetOption": {
@@ -599,7 +599,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": 0.1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -613,15 +613,15 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -645,17 +645,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": -30.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": -30,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
                   "x": -0.5,
-                  "y": 0.0,
-                  "z": 1.0
+                  "y": 0,
+                  "z": 1
                 }
               },
               "TargetOption": {
@@ -688,16 +688,16 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -716,16 +716,16 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

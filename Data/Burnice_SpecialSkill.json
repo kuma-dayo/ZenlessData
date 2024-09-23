@@ -1,0 +1,363 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": false,
+          "PropertyType": "CurSP",
+          "ReferMaxPropertyType": "MaxSP",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 1,
+                  "ParamName": "Int_BranchIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 40,
+              "ValueToLowActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 0,
+                  "ParamName": "Int_BranchIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": true,
+                  "ParamName": "Bool_ExSpecial_02_SpEnough",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 5,
+              "ValueToLowActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": false,
+                  "ParamName": "Bool_ExSpecial_02_SpEnough",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": true,
+                  "ParamName": "Bool_ExSpecial_01_SpEnough",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 10,
+              "ValueToLowActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": false,
+                  "ParamName": "Bool_ExSpecial_01_SpEnough",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_01",
+          "FrameCountLow": 13,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpReduceModifier_01",
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_02",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpReduceModifier_01",
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_Front",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_Front_02",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_Left",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_Right",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_Back",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_01_Explode",
+          "FrameCountHigh": 13,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_02_02_Explode",
+          "FrameCountHigh": 13,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "ModifierNameList": [
+            "SpUIModifier_01"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpReduceModifier_02",
+            "SpUIModifier_02"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_ExSpecial_01_Explode",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_02"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Enhance_01_Explode",
+          "FrameCountHigh": 75,
+          "FrameCountLow": 45,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "ModifierNameList": [
+            "SpUIModifier_02"
+          ]
+        },
+        {
+          "AnimatorStateName": "SwitchIn_Attack",
+          "FrameCountLow": 100,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_02"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountLow": 60,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "SpUIModifier_02"
+          ]
+        }
+      ],
+      "IsSeam": false
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "DecreaseSPAction",
+              "Amount": 5,
+              "Percentage": 0
+            },
+            {
+              "$type": "SetUIArrowAction",
+              "position": 40
+            }
+          ],
+          "AnimatorStateName": "Attack_ExSpecial_02_01_Explode",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 13,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "DecreaseSPAction",
+              "Amount": 5,
+              "Percentage": 0
+            },
+            {
+              "$type": "SetUIArrowAction",
+              "position": 40
+            }
+          ],
+          "AnimatorStateName": "Attack_ExSpecial_02_02_Explode",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 13,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "DecreaseSPAction",
+              "Amount": 10,
+              "Percentage": 0
+            },
+            {
+              "$type": "SetUIArrowAction",
+              "position": 40
+            }
+          ],
+          "AnimatorStateName": "Attack_ExSpecial_01_Explode",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 3,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_SpecialSkill",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetUIArrowAction",
+        "position": 40
+      }
+    ]
+  },
+  "Modifiers": {
+    "SpReduceModifier_01": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "SmoothDecreaseSPMixin",
+          "PropertyItem": {
+            "Amount": 12.5,
+            "Percentage": 0
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "SpReduceModifier_02": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "SmoothDecreaseSPMixin",
+          "PropertyItem": {
+            "Amount": 25,
+            "Percentage": 0
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "SpUIModifier_01": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetUIArrowAction",
+          "position": 5
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetUIArrowAction",
+          "position": 40
+        }
+      ]
+    },
+    "SpUIModifier_02": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetUIArrowAction",
+          "position": 10
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetUIArrowAction",
+          "position": 40
+        }
+      ]
+    }
+  }
+}

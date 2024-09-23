@@ -22,7 +22,7 @@
   },
   "Modifiers": {
     "HealSpEffectModifier": {
-      "Duration": 2.0,
+      "Duration": 2,
       "ModifierStacking": "GlobalUnique",
       "OnAdded": [
         {
@@ -84,7 +84,7 @@
       ]
     },
     "HealSpModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {

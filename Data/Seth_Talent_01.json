@@ -1,7 +1,10 @@
 {
   "AbilityName": "Seth_Talent_01",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
-  "DefaultModifier": {},
-  "Modifiers": {}
+  "DefaultModifier": {
+  },
+  "Modifiers": {
+  }
 }

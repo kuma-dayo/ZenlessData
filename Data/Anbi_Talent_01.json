@@ -2,7 +2,7 @@
   "AbilityName": "Anbi_Talent_01",
   "AbilitySpecials": {
     "AS_SPGetBuffTime_Talent_01": {
-      "Value": 30.0
+      "Value": 30
     },
     "AS_SPGetRatio_Talent_01": {
       "Value": 0.2

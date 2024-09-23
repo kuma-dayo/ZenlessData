@@ -1,0 +1,85 @@
+{
+  "AbilityName": "Card_Strength_2002406",
+  "AbilitySpecials": {
+    "AS_DamageTakeRatio": {
+      "Value": -0.5
+    },
+    "AS_Duration": {
+      "Value": 20
+    },
+    "AS_RecoverPercent": {
+      "Value": 0.1
+    },
+    "HpPercentage": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Control_Modifier"
+      }
+    ]
+  },
+  "Modifiers": {
+    "Control_Modifier": {
+      "Duration": -1,
+      "OnBeingHit": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "HpListenerModifier"
+        }
+      ]
+    },
+    "DamageTakeRatioModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Buff_Common_Defense",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "HpListenerModifier"
+        }
+      ],
+      "Properties": {
+        "Actor_DamageTakeRatio": "%AS_DamageTakeRatio"
+      }
+    },
+    "HpListenerModifier": {
+      "ModifierMixins": [
+        {
+          "$type": "ActionsOnPropertyChangeMixin",
+          "PropertyActions": [
+            {
+              "IsUsePercentage": true,
+              "PropertyType": "CurHP",
+              "ReferMaxPropertyType": "MaxHP",
+              "ValueRangeActions": [
+                {
+                  "HighToValueActions": [
+                    {
+                      "$type": "ApplyModifier",
+                      "ModifierName": "DamageTakeRatioModifier"
+                    },
+                    {
+                      "$type": "RemoveModifier",
+                      "ModifierName": "Control_Modifier"
+                    }
+                  ],
+                  "Val": "%HpPercentage"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  }
+}

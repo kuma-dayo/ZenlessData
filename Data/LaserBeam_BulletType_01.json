@@ -2,18 +2,18 @@
   "AbilityMixins": [
     {
       "$type": "LaserMixin",
-      "AliveDuration": 120.0,
+      "AliveDuration": 120,
       "AudioEffect": "",
       "ColliderLayers": [
         "StageCollider",
         "HitCollider"
       ],
-      "ColliderRadius": 0.0,
+      "ColliderRadius": 0,
       "EffectName": "Eff_SkillEffect_LightningChain_TransmitEffect_Basic_Test",
       "EndEffect": {
         "EffectPattern": "Eff_Monster_Patroller_Debuff_Stun_Loop_Spark"
       },
-      "FirstHitDelayTime": 0.0,
+      "FirstHitDelayTime": 0,
       "HitAnimEventID": "#SkillEffect_Test_LaserBeam",
       "HitEffect": {
         "EffectPattern": "Eff_Nostradamus_Attack_Branch_01_Explode"
@@ -23,9 +23,9 @@
         "CoordsOption": "Self",
         "Offset": {
           "PositionOffset": {
-            "x": 0.0,
-            "y": 1.0,
-            "z": 2.0
+            "x": 0,
+            "y": 1,
+            "z": 2
           }
         },
         "TargetOption": {
@@ -37,14 +37,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
             "x": 0,
             "y": 0,
-            "z": 0.0
+            "z": 0
           }
         },
         "TargetOption": {
@@ -56,7 +56,8 @@
         }
       },
       "Length": 40,
-      "OnLaserStartAction": []
+      "OnLaserStartAction": [
+      ]
     }
   ],
   "AbilityName": "LaserBeam_BulletType_01",

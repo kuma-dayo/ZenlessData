@@ -1,0 +1,14 @@
+{
+  "AbilityName": "Suit_Ability_50431901",
+  "AbilitySpecials": {
+    "AS_CastHpShieldGetRatio": {
+      "Value": 0.15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_CastHpShieldGetRatio": "%AS_CastHpShieldGetRatio"
+    }
+  }
+}

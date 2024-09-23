@@ -16,7 +16,7 @@
   "AbilityName": "Card_Electro_2010501",
   "AbilitySpecials": {
     "AS_ThunderboltCoolDownTime": {
-      "Value": 10.0
+      "Value": 10
     }
   },
   "AbilityStacking": "Unique",

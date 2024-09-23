@@ -1,0 +1,85 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": 99,
+              "CustomPropertyType": "LoopTimes",
+              "Percentage": 0,
+              "PropertyModifyFunction": "Replace",
+              "PropertyType": "Custom",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Normal_05_02_Start",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": -1,
+              "CustomPropertyType": "LoopTimes",
+              "Percentage": 0,
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "ForceTriggerOnTransitionIn": true,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": true,
+          "LayerIndex": 0
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "LoopTimes",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "Val": 0,
+              "ValueToHighActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": true,
+                  "ParamName": "Bool_ContinueLoop",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "BoolVal": false,
+                  "ParamName": "Bool_ContinueLoop",
+                  "ParamType": 2,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_LoopControl",
+  "AbilityStacking": "Unique"
+}

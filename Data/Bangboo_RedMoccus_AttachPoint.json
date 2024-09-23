@@ -1,0 +1,91 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 75,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttachPointMocifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bangboo_RedMoccus_AttachPoint",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AttachPointCtrMocifier": {
+      "ModifierMixins": [
+        {
+          "$type": "AttachPointFollowMixin",
+          "AttachPointName": "AttachPointA",
+          "FollowPosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 1.5
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "LocalAvatar"
+            }
+          },
+          "PosType": "Instant",
+          "RotType": "Instant"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AttachPointMocifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ProcessAttachPointAction",
+          "AttachPointName": "AttachPointA",
+          "HierarchyType": "World",
+          "MpRecoverOnRemote": true,
+          "PosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 1.5
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "LocalAvatar"
+            }
+          },
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

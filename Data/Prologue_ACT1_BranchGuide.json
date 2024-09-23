@@ -20,7 +20,8 @@
           "TargetKey": "Prologue_ACT1_BranchGuide"
         }
       ],
-      "OnRemoved": []
+      "OnRemoved": [
+      ]
     },
     "SPListenerModifier": {
       "Duration": -1,

@@ -4,10 +4,11 @@
       "$type": "SummonMixin",
       "OnSummonCreatedActions": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "NormalBottom"
           ],
+          "IsAdd": true,
           "Target": "Other"
         },
         {
@@ -22,23 +23,25 @@
         }
       ],
       "OverrideDelay": 0,
+      "SafeAreaCorrection": true,
+      "SafeAreaRadius": 3.25,
       "SummonDuration": -1,
       "SummonID": 900011652,
       "SummonPosRot": {
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

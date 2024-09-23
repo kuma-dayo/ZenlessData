@@ -1,34 +1,44 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "GLKOGMFHBJA": 1,
-      "KCDDLHBLIAK": "OfficialName_Monster_Cottus",
-      "ABCKJEEGECI": "UIText_760",
-      "IGKFLEPDLCD": [
+      "OECPMHNLJHI": 1,
+      "CLECAGLBNJA": "OfficialName_Monster_Cottus",
+      "JAJLLEDJBJP": "UIText_760",
+      "FNOJEFLFDAO": [
         12252001
       ],
-      "AJPGNCEMHFH": 303,
-      "GDOOOOLKBIO": ""
+      "PJGBONJMELI": 303,
+      "LFENNKHNEBI": ""
     },
     {
-      "GLKOGMFHBJA": 2,
-      "KCDDLHBLIAK": "OfficialName_Monster_ComplexCorrupted",
-      "ABCKJEEGECI": "UIText_760",
-      "IGKFLEPDLCD": [
+      "OECPMHNLJHI": 2,
+      "CLECAGLBNJA": "OfficialName_Monster_ComplexCorrupted",
+      "JAJLLEDJBJP": "UIText_760",
+      "FNOJEFLFDAO": [
         12252002
       ],
-      "AJPGNCEMHFH": 303,
-      "GDOOOOLKBIO": "HB_UnlockTips_Boss30009"
+      "PJGBONJMELI": 303,
+      "LFENNKHNEBI": "HB_UnlockTips_Boss30009"
     },
     {
-      "GLKOGMFHBJA": 3,
-      "KCDDLHBLIAK": "OfficialName_Monster_Marionette_Twins",
-      "ABCKJEEGECI": "UIText_760",
-      "IGKFLEPDLCD": [
+      "OECPMHNLJHI": 3,
+      "CLECAGLBNJA": "OfficialName_Monster_Marionette_Twins",
+      "JAJLLEDJBJP": "UIText_760",
+      "FNOJEFLFDAO": [
         12252003
       ],
-      "AJPGNCEMHFH": 303,
-      "GDOOOOLKBIO": "HB_UnlockTips_Boss30012"
+      "PJGBONJMELI": 303,
+      "LFENNKHNEBI": "HB_UnlockTips_Boss30012"
+    },
+    {
+      "OECPMHNLJHI": 4,
+      "CLECAGLBNJA": "OfficialName_Monster_TyrantPompey",
+      "JAJLLEDJBJP": "UIText_760",
+      "FNOJEFLFDAO": [
+        12252004
+      ],
+      "PJGBONJMELI": 303,
+      "LFENNKHNEBI": "HB_UnlockTips_Boss30021"
     }
   ]
 }

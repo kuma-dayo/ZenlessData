@@ -5,14 +5,14 @@
       "AliveDuration": 2.1,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,16 +25,16 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 60.0,
-            "z": 0.0
+            "x": 0,
+            "y": 60,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 3.0,
-            "z": 0.0
+            "x": 0,
+            "y": 3,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -49,8 +49,9 @@
       "CanHitStage": true,
       "DelayActionList": [
         {
-          "Actions": [],
-          "DelayTime": 2.0,
+          "Actions": [
+          ],
+          "DelayTime": 2,
           "HitAnimEventID": "Device_Military_SplitMine_TiniUnit_Explode_ToEnemy"
         }
       ],
@@ -71,27 +72,27 @@
       "MovementConfig": {
         "$type": "ConfigMovementParabola",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "DefaultRotAngle": 0,
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 0.4,
         "HitTangentialRatio": 0.8,
         "TargetPosRot": {
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -100,9 +101,9 @@
           }
         },
         "TimesUpMoveOption": "Remain",
-        "h1": 2.0,
+        "h1": 2,
         "h2": 3.5,
-        "s1": 3.0,
+        "s1": 3,
         "s2": 5.5,
         "t1": 0.8,
         "t2": 0.8

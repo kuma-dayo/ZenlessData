@@ -1,0 +1,55 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Move",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "MoveModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_LiftPlatform_01_Group_Default",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "MoveModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "FireEffect",
+          "AttachPointName": "Root",
+          "EffectPattern": "Eff_Device_Ground_LiftPlatform_01_Start_01_Dust",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttackCameraShakeAction",
+          "ShakeConfigKey": "Device_Ground_LiftPlatform_CamShake_E_03",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "FireEffect",
+          "AttachPointName": "Root",
+          "EffectPattern": "Eff_Device_Ground_LiftPlatform_01_End_02_Dust",
+          "Target": "Self"
+        },
+        {
+          "$type": "AttackCameraShakeAction",
+          "ShakeConfigKey": "Device_Ground_LiftPlatform_CamShake_E_03",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

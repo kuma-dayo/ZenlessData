@@ -104,7 +104,7 @@
         "Target": "Self"
       }
     ],
-    "ThinkInterval": 1.0
+    "ThinkInterval": 1
   },
   "Modifiers": {
     "ResetHealingLimitModifier": {

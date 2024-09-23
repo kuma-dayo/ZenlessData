@@ -12,6 +12,7 @@
               "BuffGroupList": [
                 "Frozen",
                 "Frostbite",
+                "Frost",
                 "Burn",
                 "Ignite",
                 "Electric",
@@ -36,6 +37,7 @@
               "BuffGroupList": [
                 "Frozen",
                 "Frostbite",
+                "Frost",
                 "Burn",
                 "Ignite",
                 "Electric",
@@ -68,7 +70,7 @@
       "Value": 0.15
     },
     "AS_BaseAttackRatio_Final": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ProviderCount": {
       "Value": 0
@@ -85,6 +87,7 @@
             "BuffGroupList": [
               "Frozen",
               "Frostbite",
+              "Frost",
               "Burn",
               "Ignite",
               "Electric",

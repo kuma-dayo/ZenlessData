@@ -1,0 +1,18 @@
+{
+  "AbilityName": "CampIdle_Monsterbuff_02",
+  "AbilitySpecials": {
+    "AS_AddDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_StunMaxRatio": {
+      "Value": 0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_AddedDamageRatio": "%AS_AddDamageRatio",
+      "Actor_StunMaxRatio": "%AS_StunMaxRatio"
+    }
+  }
+}

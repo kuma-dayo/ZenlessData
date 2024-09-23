@@ -1,0 +1,22 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AddInteractMixin",
+      "InteractKey": "Object_EtherSwitch",
+      "InteractTag": "Device_Prop_EtherSwitch_01_Interact",
+      "IsMonopolize": false,
+      "OnInteract": [
+        {
+          "$type": "LDListenEntityAction",
+          "TargetKey": "Device_Prop_EtherSwitch_01_Interact"
+        }
+      ],
+      "OnInteractForbidden": [
+      ],
+      "OnInteractRemove": [
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_EtherSwitch_01_Interact",
+  "AbilityStacking": "Unique"
+}

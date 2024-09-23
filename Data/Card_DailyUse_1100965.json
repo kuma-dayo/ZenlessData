@@ -1,0 +1,68 @@
+{
+  "AbilityName": "Card_DailyUse_1100965",
+  "AbilitySpecials": {
+    "AS_DamageRatio": {
+      "Value": 0.15
+    },
+    "AS_TemplateID": {
+      "Value": 1171
+    },
+    "OwnBurnice_1100965": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "scenevar(OwnBurnice_1100965)",
+        "ParamName": "OwnBurnice_1100965",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_TarotCard_CounterCombo",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByEntityTemplateID",
+            "EntityType": "Avatar",
+            "Target": "Self",
+            "TemplateID": "%AS_TemplateID"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": 1,
+            "ParamName": "OwnBurnice_1100965",
+            "ParamType": "Float",
+            "Target": "Self"
+          },
+          {
+            "$type": "ByHasBuffGroup",
+            "BuffGroupList": [
+              "Burn",
+              "Ignite"
+            ],
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_DamageRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

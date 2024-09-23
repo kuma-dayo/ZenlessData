@@ -7,7 +7,7 @@
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
       "Properties": {
-        "Actor_BreakStunRatio": 5.0
+        "Actor_BreakStunRatio": 5
       }
     }
   },

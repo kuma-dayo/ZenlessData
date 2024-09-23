@@ -1,0 +1,270 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Normal_05_Loop"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Normal_05_Loop"
+          ],
+          "NormalizedTimeHigh": 0.24,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_03",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Normal_05_Finish"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.24
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Normal",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Normal"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_02",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Normal"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Front"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Front_02",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Front"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Back"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Back_02",
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "CameraModifier_Attack_Branch_02_Attack_Back"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_CameraManager",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "CameraModifier_Attack_Branch_02_Attack_Back": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Back_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Back_CamZoom_02"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Back_CamZoom_03"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Back_CamZoom_04"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Back_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Back_CamStretch_02"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Back_CamStretch_03"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Back_CamStretch_04"
+        }
+      ]
+    },
+    "CameraModifier_Attack_Branch_02_Attack_Front": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Front_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Front_CamZoom_02"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Front_CamZoom_03"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Front_CamZoom_04"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Front_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Front_CamStretch_02"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Front_CamStretch_03"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Front_CamStretch_04"
+        }
+      ]
+    },
+    "CameraModifier_Attack_Branch_02_Attack_Normal": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Normal_CamZoom_01"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Normal_CamZoom_02"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Normal_CamZoom_03"
+        },
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Branch_02_Attack_Normal_CamZoom_04"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Normal_CamStretch_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Normal_CamStretch_02"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Normal_CamStretch_03"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Branch_02_Attack_Normal_CamStretch_04"
+        }
+      ]
+    },
+    "CameraModifier_Attack_Normal_05_Finish": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "CameraZoomAction",
+          "ZoomConfigKey": "Lighter_Attack_Normal_05_03_CamZoom_01"
+        },
+        {
+          "$type": "CameraStretchAction",
+          "StretchConfigKey": "Lighter_Attack_Normal_05_03_CamStretch_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Normal_05_03_CamZoom_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Normal_05_03_CamStretch_01"
+        }
+      ]
+    },
+    "CameraModifier_Attack_Normal_05_Loop": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "CameraZoomAction",
+          "ZoomConfigKey": "Lighter_Attack_Normal_05_02_Loop_CamZoom_01"
+        },
+        {
+          "$type": "CameraStretchAction",
+          "StretchConfigKey": "Lighter_Attack_Normal_05_02_Loop_CamStretch_01"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "CameraZoomEndAction",
+          "EndCameraZoomKey": "Lighter_Attack_Normal_05_02_Loop_CamZoom_01"
+        },
+        {
+          "$type": "CameraStretchEndAction",
+          "EndCameraStretchKey": "Lighter_Attack_Normal_05_02_Loop_CamStretch_01"
+        }
+      ]
+    }
+  }
+}

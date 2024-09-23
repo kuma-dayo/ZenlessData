@@ -9,7 +9,7 @@
           "ModifierNameList": [
             "HitListenerModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.144
         },
         {
@@ -18,7 +18,7 @@
           "ModifierNameList": [
             "HitListenerModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.308
         },
         {
@@ -27,7 +27,7 @@
           "ModifierNameList": [
             "HitListenerModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
+          "NormalizedTimeHigh": 1,
           "NormalizedTimeLow": 0.308
         },
         {
@@ -38,8 +38,8 @@
             "ChargePointModifier",
             "ReduceDamageModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Front",
@@ -49,8 +49,8 @@
             "ChargePointModifier",
             "ReduceDamageModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Hit_Back",
@@ -60,8 +60,8 @@
             "ChargePointModifier",
             "ReduceDamageModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     },
@@ -450,7 +450,7 @@
       "Value": 0
     },
     "AS_Odds_CounterAttack_Default_01": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_Odds_CounterAttack_Default_02": {
       "Value": 0.3333
@@ -459,10 +459,10 @@
       "Value": 0
     },
     "AS_Odds_CounterPoint_Default_01": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_Odds_CounterPoint_Default_02": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -644,14 +644,14 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -804,14 +804,14 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -872,7 +872,7 @@
       ]
     },
     "Skill_01_Hit_Back_Modifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -920,7 +920,7 @@
       ]
     },
     "Skill_01_Hit_Front_Modifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -977,8 +977,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Skill_01_Hit_Front",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -992,8 +992,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Skill_01_Hit_Back",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],

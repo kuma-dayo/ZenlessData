@@ -3,7 +3,7 @@
   "AbilityStacking": "Unique",
   "Modifiers": {
     "CounterListenModifier": {
-      "Duration": 3.0,
+      "Duration": 3,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {

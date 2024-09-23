@@ -2,16 +2,16 @@
   "AbilityName": "Weapon_Ability_12005",
   "AbilitySpecials": {
     "AS_Duration": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_ElementAbnormalPowerDelta": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_ElementMysteryDelta": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_IntervalCD": {
-      "Value": 20.0
+      "Value": 20
     }
   },
   "AbilityStacking": "Unique",

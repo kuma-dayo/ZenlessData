@@ -58,17 +58,17 @@
         "NeedRaycastGround": false,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsClampOffsetDistance": false,
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": -5.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -5,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -97,17 +97,19 @@
           "IgnoreTimeScale": false,
           "TimeUpActions": [
             {
-              "$type": "PopAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "LongCD"
               ],
+              "IsAdd": false,
               "Target": "Self"
             },
             {
-              "$type": "PushAnimatorZoneTagsAction",
+              "$type": "HandleAnimatorZoneTagsAction",
               "AnimatorStateTags": [
                 "ShortCD"
               ],
+              "IsAdd": true,
               "Target": "Self"
             }
           ]
@@ -117,10 +119,11 @@
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
-          "$type": "PushAnimatorZoneTagsAction",
+          "$type": "HandleAnimatorZoneTagsAction",
           "AnimatorStateTags": [
             "LongCD"
           ],
+          "IsAdd": true,
           "Target": "Self"
         }
       ],

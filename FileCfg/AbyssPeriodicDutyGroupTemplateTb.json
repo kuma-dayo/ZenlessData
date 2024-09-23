@@ -1,0 +1,346 @@
+{
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "BMPEJCNPFLK": 10100101,
+      "NCJCLFLIFDI": 1,
+      "ABNOJEGCOLM": [
+        12
+      ],
+      "AEAJOIODBKC": [
+        205070501,
+        205070502,
+        205070503,
+        205070504
+      ],
+      "OFACJPIKJND": [
+        2,
+        4,
+        5
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "BMPEJCNPFLK": 10100102,
+      "NCJCLFLIFDI": 1,
+      "ABNOJEGCOLM": [
+        13
+      ],
+      "AEAJOIODBKC": [
+        205070505,
+        205070506,
+        205070507,
+        205070508
+      ],
+      "OFACJPIKJND": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "BMPEJCNPFLK": 10100103,
+      "NCJCLFLIFDI": 1,
+      "ABNOJEGCOLM": [
+        14
+      ],
+      "AEAJOIODBKC": [
+        205070509,
+        205070510,
+        205070511,
+        205070512
+      ],
+      "OFACJPIKJND": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "BMPEJCNPFLK": 10100104,
+      "NCJCLFLIFDI": 1,
+      "ABNOJEGCOLM": [
+        15
+      ],
+      "AEAJOIODBKC": [
+        205070513,
+        205070514,
+        205070515,
+        205070516
+      ],
+      "OFACJPIKJND": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "BMPEJCNPFLK": 10100105,
+      "NCJCLFLIFDI": 1,
+      "ABNOJEGCOLM": [
+        16
+      ],
+      "AEAJOIODBKC": [
+        205070517,
+        205070518,
+        205070519,
+        205070520
+      ],
+      "OFACJPIKJND": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 6,
+      "BMPEJCNPFLK": 10100101,
+      "NCJCLFLIFDI": 2,
+      "ABNOJEGCOLM": [
+        20
+      ],
+      "AEAJOIODBKC": [
+        205070521,
+        205070522
+      ],
+      "OFACJPIKJND": [
+        25,
+        4,
+        26
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 7,
+      "BMPEJCNPFLK": 10100102,
+      "NCJCLFLIFDI": 2,
+      "ABNOJEGCOLM": [
+        21
+      ],
+      "AEAJOIODBKC": [
+        205070523,
+        205070524
+      ],
+      "OFACJPIKJND": [
+        25,
+        4,
+        26,
+        8,
+        27,
+        28,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 8,
+      "BMPEJCNPFLK": 10100103,
+      "NCJCLFLIFDI": 2,
+      "ABNOJEGCOLM": [
+        22
+      ],
+      "AEAJOIODBKC": [
+        205070525,
+        205070526
+      ],
+      "OFACJPIKJND": [
+        25,
+        4,
+        26,
+        8,
+        27,
+        28,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 9,
+      "BMPEJCNPFLK": 10100104,
+      "NCJCLFLIFDI": 2,
+      "ABNOJEGCOLM": [
+        23
+      ],
+      "AEAJOIODBKC": [
+        205070527,
+        205070528
+      ],
+      "OFACJPIKJND": [
+        25,
+        4,
+        26,
+        8,
+        27,
+        28,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 10,
+      "BMPEJCNPFLK": 10100105,
+      "NCJCLFLIFDI": 2,
+      "ABNOJEGCOLM": [
+        24
+      ],
+      "AEAJOIODBKC": [
+        205070529,
+        205070530
+      ],
+      "OFACJPIKJND": [
+        25,
+        4,
+        26,
+        8,
+        27,
+        28,
+        11
+      ],
+      "HLNMAFOIOKJ": [
+        205070201,
+        205070301,
+        205070401
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 11,
+      "BMPEJCNPFLK": 10100101,
+      "NCJCLFLIFDI": 3,
+      "ABNOJEGCOLM": [],
+      "AEAJOIODBKC": [],
+      "OFACJPIKJND": [
+        29
+      ],
+      "HLNMAFOIOKJ": [
+        205070102,
+        205070202,
+        205070302,
+        205070402
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 12,
+      "BMPEJCNPFLK": 10100102,
+      "NCJCLFLIFDI": 3,
+      "ABNOJEGCOLM": [],
+      "AEAJOIODBKC": [],
+      "OFACJPIKJND": [
+        30
+      ],
+      "HLNMAFOIOKJ": [
+        205070103,
+        205070203,
+        205070303,
+        205070403
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 13,
+      "BMPEJCNPFLK": 10100103,
+      "NCJCLFLIFDI": 3,
+      "ABNOJEGCOLM": [],
+      "AEAJOIODBKC": [],
+      "OFACJPIKJND": [
+        31
+      ],
+      "HLNMAFOIOKJ": [
+        205070104,
+        205070204,
+        205070304,
+        205070404
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 14,
+      "BMPEJCNPFLK": 10100104,
+      "NCJCLFLIFDI": 3,
+      "ABNOJEGCOLM": [],
+      "AEAJOIODBKC": [],
+      "OFACJPIKJND": [
+        32
+      ],
+      "HLNMAFOIOKJ": [
+        205070105,
+        205070205,
+        205070305,
+        205070405
+      ]
+    },
+    {
+      "DKDDFEIAMIF": 15,
+      "BMPEJCNPFLK": 10100105,
+      "NCJCLFLIFDI": 3,
+      "ABNOJEGCOLM": [],
+      "AEAJOIODBKC": [],
+      "OFACJPIKJND": [
+        33
+      ],
+      "HLNMAFOIOKJ": [
+        205070106,
+        205070206,
+        205070306,
+        205070406
+      ]
+    }
+  ]
+}

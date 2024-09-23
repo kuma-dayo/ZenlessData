@@ -206,7 +206,7 @@
         },
         {
           "$type": "SetAnimCtrlerParamAction",
-          "FloatVal": 0.0,
+          "FloatVal": 0,
           "ParamName": "Float_QTEBlend",
           "ParamType": 4,
           "Predicates": [

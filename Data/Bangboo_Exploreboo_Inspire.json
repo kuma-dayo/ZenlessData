@@ -14,13 +14,13 @@
       "Value": 0.3
     },
     "AS_RecoverValue": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ShieldDelta": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_SpRecover_Delta": {
-      "Value": 3.0
+      "Value": 3
     }
   },
   "AbilityStacking": "Unique",
@@ -96,16 +96,16 @@
             "NeedRaycastGround": false,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -162,16 +162,16 @@
             "NeedRaycastGround": false,
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -240,16 +240,16 @@
                 "NeedRaycastGround": false,
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {

@@ -1,0 +1,44 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_06",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "MainModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "MainModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnSkillStart": [
+        {
+          "$type": "ModifyPerfectSwitchPointAction",
+          "Amount": -1,
+          "ModifyFunction": "Add",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "EvadeAid",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByFromSkillType",
+                  "SkillType": "ParryAid",
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

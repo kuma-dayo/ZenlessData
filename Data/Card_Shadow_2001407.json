@@ -103,7 +103,7 @@
         "$type": "SetAbilitySpecialsByPropertyAction",
         "ModifyFunction": "Replace",
         "ParamName": "AS_BeforeDamageHp",
-        "Percentage": 1.0,
+        "Percentage": 1,
         "PropertyType": "CurHP",
         "Target": "Self"
       }
@@ -189,7 +189,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_AfterDamageHp",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "CurHP",
           "Target": "Self"
         },

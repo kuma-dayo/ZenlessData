@@ -5,14 +5,14 @@
       "AliveDuration": 10,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -25,9 +25,9 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": -15.0,
-            "z": 0.0
+            "x": 0,
+            "y": -15,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
@@ -49,20 +49,20 @@
         "CapsuleColliderHeight": 3.5,
         "CapsuleColliderRadius": 0.5,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 1.75
         },
         "ColliderType": "Capsule"
       },
       "ExplodeAnimEventID": "Monster_Cyclops_ATK04_Attackproperty_1",
       "ExplodePosType": "HitPoint",
-      "HitExplodeRadius": 1.0,
+      "HitExplodeRadius": 1,
       "HitOtherExplode": true,
       "HitStageExplode": true,
       "HitStageGroundExplodeEffect": {
@@ -83,7 +83,7 @@
         "$type": "ConfigMovementAutoParabola",
         "Accelerated": -10,
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "MaxAngle": 45,
@@ -95,24 +95,24 @@
           "CoordsOption": "Relative",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupAngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "BackupPositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 10.0
+              "x": 0,
+              "y": 0,
+              "z": 10
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           },
           "TargetOption": {

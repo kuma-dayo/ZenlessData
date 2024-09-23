@@ -18,13 +18,13 @@
   "AbilityName": "Bangboo_Eous001_Skill_Resonate_Recover",
   "AbilitySpecials": {
     "AS_HPPre": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HPResolved": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_HealAmount": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -63,7 +63,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_HPPre",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "CurHP",
           "Target": "Self"
         }
@@ -73,14 +73,14 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_HPResolved",
-          "Percentage": 1.0,
+          "Percentage": 1,
           "PropertyType": "CurHP",
           "Target": "Self"
         },
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Mul",
-          "Param": -1.0,
+          "Param": -1,
           "ParamName": "AS_HPResolved",
           "ParamType": "Float",
           "Target": "Self"
@@ -161,16 +161,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -205,7 +205,7 @@
     {
       "$type": "SetAbilitySpecialAction",
       "ModifyFunction": "Replace",
-      "Param": 0.0,
+      "Param": 0,
       "ParamName": "AS_HealAmount",
       "ParamType": "Float",
       "Target": "Self"

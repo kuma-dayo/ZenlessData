@@ -1,0 +1,239 @@
+{
+  "aaEventData": [
+    {
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "cpAnimRotationType": 0,
+      "curve": {
+        "keys": [
+          {
+            "inTangent": -5.11435,
+            "inWeight": 0,
+            "outTangent": -5.11435,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0,
+            "value": 1,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": -0.724678159,
+            "inWeight": 0.333333343,
+            "outTangent": -0.724678159,
+            "outWeight": 0.333333343,
+            "tangentMode": 34,
+            "time": 0.495386541,
+            "value": -1.53358006,
+            "weightedMode": 0
+          },
+          {
+            "inTangent": 3.66499352,
+            "inWeight": 0.333333343,
+            "outTangent": 3.66499352,
+            "outWeight": 0,
+            "tangentMode": 34,
+            "time": 0.994375646,
+            "value": 0.295211762,
+            "weightedMode": 0
+          }
+        ],
+        "length": 3,
+        "postWrapMode": 8,
+        "preWrapMode": 8
+      },
+      "effectType": 2,
+      "endFrame": 39,
+      "idx": -937163904,
+      "speedEuler": {
+        "x": 0,
+        "y": 0,
+        "z": 15
+      },
+      "speedParam": {
+        "param1": 0,
+        "param2": 0
+      },
+      "startFrame": 0,
+      "trackOrder": 0
+    },
+    {
+      "autoDestroy": false,
+      "axisInfos": [
+        {
+          "axis": 1,
+          "baseValue": 1.5,
+          "curve": {
+            "keys": [
+              {
+                "inTangent": 2,
+                "inWeight": 0,
+                "outTangent": 2,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 0,
+                "value": 0,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": -0.4803141,
+                "inWeight": 0.333333343,
+                "outTangent": -0.4803141,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.5298401,
+                "value": 0.9903139,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": -2.23343682,
+                "inWeight": 0.17996949,
+                "outTangent": -2.23343682,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 1.00219727,
+                "value": -0.0248641968,
+                "weightedMode": 0
+              }
+            ],
+            "length": 3,
+            "postWrapMode": 8,
+            "preWrapMode": 8
+          },
+          "param": {
+            "param1": 11,
+            "param2": 1000
+          }
+        },
+        {
+          "axis": 2,
+          "baseValue": 1.5,
+          "curve": {
+            "keys": [
+              {
+                "inTangent": 2,
+                "inWeight": 0,
+                "outTangent": 2,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 0,
+                "value": 0,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0.0137712695,
+                "inWeight": 0.333333343,
+                "outTangent": 0.0137712695,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.255867124,
+                "value": 0.8931035,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": -1.44675744,
+                "inWeight": 0.333333343,
+                "outTangent": -1.44675744,
+                "outWeight": 0.333333343,
+                "tangentMode": 0,
+                "time": 0.7514634,
+                "value": -0.964619458,
+                "weightedMode": 0
+              },
+              {
+                "inTangent": 0,
+                "inWeight": 0,
+                "outTangent": 0,
+                "outWeight": 0,
+                "tangentMode": 0,
+                "time": 1,
+                "value": -0.028793335,
+                "weightedMode": 0
+              }
+            ],
+            "length": 4,
+            "postWrapMode": 8,
+            "preWrapMode": 8
+          },
+          "param": {
+            "param1": 11,
+            "param2": 1000
+          }
+        }
+      ],
+      "brakeDestroy": false,
+      "effectType": 1,
+      "endFrame": 39,
+      "idx": 479690752,
+      "moveType": 1,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "posParam": {
+        "param1": 0,
+        "param2": 0
+      },
+      "startFrame": 0,
+      "trackOrder": 1
+    },
+    {
+      "aoeAreaParam": {
+        "areaParam1": 1.5,
+        "areaParam2": 0.7,
+        "areaType": 3,
+        "param1Param": {
+          "param1": 0,
+          "param2": 0
+        },
+        "param2Param": {
+          "param1": 0,
+          "param2": 0
+        }
+      },
+      "autoDestroy": false,
+      "brakeDestroy": false,
+      "cpDamageInternal": 1,
+      "effectType": 4,
+      "endFrame": 35,
+      "idx": -1165641728,
+      "selectTargetType": 0,
+      "startFrame": 4,
+      "trackOrder": 2
+    }
+  ],
+  "backFrame": 0,
+  "clipPath": "",
+  "frameCount": 45,
+  "frameRate": 20,
+  "loop": false,
+  "modelPath": "Assets\/NapResources\/UI\/Animation\/Arcade\/Game\/Companion\/CP_weapon_prefab.prefab",
+  "partLoop": false,
+  "seqName": "sk_melee_23",
+  "speedParams": {
+    "param1": 44,
+    "param2": 1000
+  },
+  "topSpeed": 99,
+  "totalTime": 2.25,
+  "trackArray": [
+    {
+      "order": 0,
+      "trackID": 1,
+      "trackName": "动画Rotation",
+      "trackType": 2
+    },
+    {
+      "order": 1,
+      "trackID": 2,
+      "trackName": "动画Move",
+      "trackType": 1
+    },
+    {
+      "order": 2,
+      "trackID": 3,
+      "trackName": "伤害判定",
+      "trackType": 4
+    }
+  ]
+}

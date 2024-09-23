@@ -1,60 +1,68 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "ILOELIEMIDG": 10010,
-      "FAHEPAJDADB": "PartnerCamp_Name_01",
-      "LNMAEBKDCOA": "CampGentleHouse",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampGentleHouse.png",
-      "LPDGCALINGE": "1040140111",
-      "NAOHBMMFIEK": "1"
+      "INHEHMHGMJA": 10010,
+      "LDPKGDEPFCH": "PartnerCamp_Name_01",
+      "MLADLNCFEBH": "CampGentleHouse",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampGentleHouse.png",
+      "MCBGAPHPMAO": "1040140111",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10012,
-      "FAHEPAJDADB": "PartnerCamp_Name_02",
-      "LNMAEBKDCOA": "CampBelobogIndustries",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampBelobogIndustries.png",
-      "LPDGCALINGE": "1020100018",
-      "NAOHBMMFIEK": "1"
+      "INHEHMHGMJA": 10012,
+      "LDPKGDEPFCH": "PartnerCamp_Name_02",
+      "MLADLNCFEBH": "CampBelobogIndustries",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampBelobogIndustries.png",
+      "MCBGAPHPMAO": "1020100018",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10013,
-      "FAHEPAJDADB": "PartnerCamp_Name_03",
-      "LNMAEBKDCOA": "CampVictoriaHousekeepingCo.",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampVictoriaHousekeepingCo..png",
-      "LPDGCALINGE": "1020100018",
-      "NAOHBMMFIEK": "1"
+      "INHEHMHGMJA": 10013,
+      "LDPKGDEPFCH": "PartnerCamp_Name_03",
+      "MLADLNCFEBH": "CampVictoriaHousekeepingCo.",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampVictoriaHousekeepingCo..png",
+      "MCBGAPHPMAO": "1020100018",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10014,
-      "FAHEPAJDADB": "PartnerCamp_Name_04",
-      "LNMAEBKDCOA": "CampObols",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampObols.png",
-      "LPDGCALINGE": "1020100018",
-      "NAOHBMMFIEK": "1"
+      "INHEHMHGMJA": 10014,
+      "LDPKGDEPFCH": "PartnerCamp_Name_04",
+      "MLADLNCFEBH": "CampObols",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampObols.png",
+      "MCBGAPHPMAO": "1020100018",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10015,
-      "FAHEPAJDADB": "PartnerCamp_Name_05",
-      "LNMAEBKDCOA": "CampN.E.P.S.",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampN.E.P.S..png",
-      "LPDGCALINGE": "1020100018",
-      "NAOHBMMFIEK": "1"
+      "INHEHMHGMJA": 10015,
+      "LDPKGDEPFCH": "PartnerCamp_Name_05",
+      "MLADLNCFEBH": "CampN.E.P.S.",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampN.E.P.S..png",
+      "MCBGAPHPMAO": "1020100018",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10998,
-      "FAHEPAJDADB": "PartnerCamp_Name_998",
-      "LNMAEBKDCOA": "LuminaSquare",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map05_Pic.png",
-      "LPDGCALINGE": "",
-      "NAOHBMMFIEK": "2"
+      "INHEHMHGMJA": 10016,
+      "LDPKGDEPFCH": "PartnerCamp_Name_06",
+      "MLADLNCFEBH": "SonsOfCalydon",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/IconRoleCamp/UnPacker/IconCampSonsOfCalydon.png",
+      "MCBGAPHPMAO": "1040140424",
+      "DLPIMDJINOP": "1"
     },
     {
-      "ILOELIEMIDG": 10999,
-      "FAHEPAJDADB": "PartnerCamp_Name_999",
-      "LNMAEBKDCOA": "SixthStreet",
-      "FHJCKMALNDN": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map02_Pic.png",
-      "LPDGCALINGE": "1090140030",
-      "NAOHBMMFIEK": "2"
+      "INHEHMHGMJA": 10998,
+      "LDPKGDEPFCH": "PartnerCamp_Name_998",
+      "MLADLNCFEBH": "LuminaSquare",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map05_Pic.png",
+      "MCBGAPHPMAO": "",
+      "DLPIMDJINOP": "2"
+    },
+    {
+      "INHEHMHGMJA": 10999,
+      "LDPKGDEPFCH": "PartnerCamp_Name_999",
+      "MLADLNCFEBH": "SixthStreet",
+      "LBELMEHEKDA": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/MapPic/Map02_Pic.png",
+      "MCBGAPHPMAO": "1090140030",
+      "DLPIMDJINOP": "2"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "AbilityName": "BUFF_MissleTower_RevetPlayerInjure",
   "AbilitySpecials": {
     "HpPercentage": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

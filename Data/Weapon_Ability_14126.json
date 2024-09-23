@@ -86,7 +86,7 @@
     "AddedDamageRatioModifier": {
       "Duration": "%AS_Duration",
       "MaxStackingNumber": 3,
-      "ModifierStacking": "MultipleAllRefresh",
+      "ModifierStacking": "MultipleAllRefreshNotReplace",
       "OnAdded": [
         {
           "$type": "ApplyModifier",

@@ -1472,7 +1472,7 @@
       ]
     },
     "PerformModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {
@@ -1511,7 +1511,7 @@
       ]
     },
     "SelfAttackTargetModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Replace",
       "OnAdded": [

@@ -11,16 +11,16 @@
         "CoordsOption": "ReferTarget",
         "Offset": {
           "AngleOffset": {
-            "x": -90.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -90,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -80,7 +80,8 @@
             }
           ],
           "PositionArgument": "Bullet",
-          "Predicates": []
+          "Predicates": [
+          ]
         },
         {
           "$type": "SetAbilitySpecialAction",
@@ -115,14 +116,14 @@
           "CoordsOption": "Self",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 30.0,
-              "z": 0.0
+              "x": 0,
+              "y": 30,
+              "z": 0
             }
           },
           "TargetOption": {
@@ -196,15 +197,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": -120.0,
-                "z": 0.0
+                "x": 0,
+                "y": -120,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 3.0
+                "x": 0,
+                "y": 0,
+                "z": 3
               }
             },
             "TargetOption": {
@@ -220,14 +221,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 180.0,
-                "z": 0.0
+                "x": 0,
+                "y": 180,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
                 "x": -2.6,
-                "y": 0.0,
+                "y": 0,
                 "z": 1.5
               }
             },
@@ -244,14 +245,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 120.0,
-                "z": 0.0
+                "x": 0,
+                "y": 120,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
                 "x": -2.6,
-                "y": 0.0,
+                "y": 0,
                 "z": -1.5
               }
             },
@@ -268,15 +269,15 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": -3.0
+                "x": 0,
+                "y": 0,
+                "z": -3
               }
             },
             "TargetOption": {
@@ -292,14 +293,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
                 "x": 2.6,
-                "y": 0.0,
+                "y": 0,
                 "z": -1.5
               }
             },
@@ -316,14 +317,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": -60.0,
-                "z": 0.0
+                "x": 0,
+                "y": -60,
+                "z": 0
               },
               "IsUseRotationY": true,
               "PositionOffset": {
                 "x": 2.6,
-                "y": 0.0,
+                "y": 0,
                 "z": 1.5
               }
             },

@@ -254,8 +254,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Start",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -271,8 +271,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Start",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -358,7 +358,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -372,17 +372,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -409,23 +409,23 @@
             "$type": "ConfigRotationToTarget",
             "Duration": -1,
             "ReachTargetStop": false,
-            "RotateSpeed": 8.0,
+            "RotateSpeed": 8,
             "RotateType": "Instant",
             "TargetPosRot": {
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -446,7 +446,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -460,17 +460,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -497,23 +497,23 @@
             "$type": "ConfigRotationToTarget",
             "Duration": -1,
             "ReachTargetStop": false,
-            "RotateSpeed": 8.0,
+            "RotateSpeed": 8,
             "RotateType": "Instant",
             "TargetPosRot": {
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -534,7 +534,7 @@
           "MovementConfig": {
             "$type": "ConfigMovementTarget",
             "Duration": -1,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 1,
             "HitTangentialRatio": 1,
             "MoveType": {
@@ -548,17 +548,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -585,23 +585,23 @@
             "$type": "ConfigRotationToTarget",
             "Duration": -1,
             "ReachTargetStop": false,
-            "RotateSpeed": 8.0,
+            "RotateSpeed": 8,
             "RotateType": "Instant",
             "TargetPosRot": {
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 99999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 99999
                 }
               },
               "TargetOption": {
@@ -658,7 +658,8 @@
                       "Target": "Self"
                     }
                   ],
-                  "FailureActions": [],
+                  "FailureActions": [
+                  ],
                   "SuccessActions": [
                     {
                       "$type": "ApplyModifier",

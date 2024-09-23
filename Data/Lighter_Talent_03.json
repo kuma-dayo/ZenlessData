@@ -1,0 +1,64 @@
+{
+  "AbilityName": "Lighter_Talent_03",
+  "AbilitySpecials": {
+    "AS_RecoverSpCD_Talent03": {
+      "Value": 12
+    },
+    "AS_RecoverSpValue_Talent03": {
+      "Value": 20
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "LighterTalent03Modifier",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "QTE",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "AssaultAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "BeHitAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ],
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "LighterTalent03Modifier": {
+      "Duration": "%AS_RecoverSpCD_Talent03",
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": "%AS_RecoverSpValue_Talent03",
+          "IgnoreRatio": false,
+          "Percentage": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

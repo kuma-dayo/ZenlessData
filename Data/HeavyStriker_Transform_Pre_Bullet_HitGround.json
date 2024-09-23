@@ -26,7 +26,7 @@
               "PositionArgument": "Bullet"
             }
           ],
-          "DelayTime": 2.0
+          "DelayTime": 2
         }
       ],
       "DestroyExplode": true,

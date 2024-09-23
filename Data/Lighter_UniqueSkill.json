@@ -1,0 +1,214 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "CustomPropertyType": "HitTimes",
+          "IsUsePercentage": false,
+          "PropertyType": "Custom",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ModifyMaterialPropertyAction",
+                  "ApplyAllRenderers": false,
+                  "RendererList": [
+                    {
+                      "ApplyAllMaterials": true,
+                      "RenderPath": "Lighter_Body_2_2"
+                    }
+                  ],
+                  "Tag": "Lighter_UniqueSkill_01",
+                  "Target": "Self",
+                  "key": "Avatar_Male_Size02_Lighter_MA_Attack_Normal_05_01_Transition_01"
+                },
+                {
+                  "$type": "ModifyMaterialPropertyAction",
+                  "ApplyAllRenderers": false,
+                  "RendererList": [
+                    {
+                      "ApplyAllMaterials": true,
+                      "RenderPath": "Lighter_Body_2_2"
+                    }
+                  ],
+                  "Tag": "Lighter_UniqueSkill_02_Lv1",
+                  "Target": "Self",
+                  "key": "Avatar_Male_Size02_Lighter_MA_Attack_Normal_05_03_SecondaryEmission_03"
+                },
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(AS_DamageRatioUp_Lv1)*specials(AS_DamageTalent04Ratio)",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "Target": "Self",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 10
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(AS_DamageRatioUp_Lv2)*specials(AS_DamageTalent04Ratio)",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "Target": "Self",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 20
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(AS_DamageRatioUp_Lv3)*specials(AS_DamageTalent04Ratio)",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "Target": "Self",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 30
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(AS_DamageRatioUp_Lv4)*specials(AS_DamageTalent04Ratio)",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "Target": "Self",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 40
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "ModifyMaterialPropertyAction",
+                  "ApplyAllRenderers": false,
+                  "RendererList": [
+                    {
+                      "ApplyAllMaterials": true,
+                      "RenderPath": "Lighter_Body_2_2"
+                    }
+                  ],
+                  "Tag": "Lighter_UniqueSkill_02_Lv5",
+                  "Target": "Self",
+                  "key": "Avatar_Male_Size02_Lighter_MA_Attack_Normal_05_02_SecondaryEmission_02"
+                },
+                {
+                  "$type": "SetAbilitySpecialByExpression",
+                  "DoRefresh": true,
+                  "Expression": "specials(AS_DamageRatioUp_Lv5)*specials(AS_DamageTalent04Ratio)",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "Target": "Self",
+                  "ValueType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 50
+            },
+            {
+              "HighToValueActions": [
+                {
+                  "$type": "InterruptMaterialPropertyAction",
+                  "Tag": "Lighter_UniqueSkill_01",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "InterruptMaterialPropertyAction",
+                  "Tag": "Lighter_UniqueSkill_02_Lv1",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "InterruptMaterialPropertyAction",
+                  "Tag": "Lighter_UniqueSkill_02_Lv5",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_DamageRatioUp_Lv0",
+                  "ParamName": "AS_DamageRatioUp_LighterUniqueSkill",
+                  "ParamType": "Float"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "LighterUniqueSkill_FireDamageRatioUp",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_UniqueSkill",
+  "AbilitySpecials": {
+    "AS_DamageRatioUp_LighterUniqueSkill": {
+      "Value": 0
+    },
+    "AS_DamageRatioUp_Lv0": {
+      "Value": 0
+    },
+    "AS_DamageRatioUp_Lv1": {
+      "Value": 0.1
+    },
+    "AS_DamageRatioUp_Lv2": {
+      "Value": 0.2
+    },
+    "AS_DamageRatioUp_Lv3": {
+      "Value": 0.3
+    },
+    "AS_DamageRatioUp_Lv4": {
+      "Value": 0.4
+    },
+    "AS_DamageRatioUp_Lv5": {
+      "Value": 0.5
+    },
+    "AS_DamageTalent04Ratio": {
+      "Value": 1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "LighterUniqueSkill_FireDamageRatioUp": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "Properties": {
+        "Actor_AddedDamageRatio_Fire": "%AS_DamageRatioUp_LighterUniqueSkill"
+      }
+    }
+  }
+}

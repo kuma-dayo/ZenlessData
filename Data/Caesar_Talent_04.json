@@ -1,0 +1,139 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "CriticalDeltaModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_Branch_02",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "CriticalDeltaModifier",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "Attack_AssaultAid",
+          "ForceTriggerOnTransitionIn": true,
+          "Frame": 0,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_Talent_04",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Caesar_Attack_Branch_02_AttackProperty_01",
+              "Caesar_Attack_Branch_02_AttackProperty_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_03",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_04",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_03"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_DefinitelyCritical",
+        "PropertyValue": 1,
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Caesar_Attack_Branch_02_AttackProperty_01",
+              "Caesar_Attack_Branch_02_AttackProperty_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_03",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_04",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_03"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Caesar_Attack_Branch_02_AttackProperty_01",
+              "Caesar_Attack_Branch_02_AttackProperty_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_03",
+              "Caesar_Attack_AssaultAid_AttackProperty_01_04",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_01",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_02",
+              "Caesar_Attack_AssaultAid_AttackProperty_02_03"
+            ]
+          },
+          {
+            "$type": "ByIsSelfAttackTarget",
+            "IsSelfAttackTarget": true,
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio_Target",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AbilitySpecials": {
+      "AS_AddedDamageRatio": {
+        "Value": 1
+      },
+      "AS_AddedDamageRatio_Target": {
+        "Value": 1
+      },
+      "AS_CriticalDamageRatioDelta": {
+        "Value": 0.2
+      },
+      "AS_CriticalDelta": {
+        "Value": 0.5
+      },
+      "AS_Duration": {
+        "Value": 15
+      }
+    },
+    "CriticalDeltaModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Refresh",
+      "Properties": {
+        "Actor_CriticalDamageRatioDelta": "%AS_CriticalDamageRatioDelta",
+        "Actor_CriticalDelta": "%AS_CriticalDelta"
+      }
+    }
+  }
+}

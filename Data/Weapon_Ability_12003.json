@@ -2,10 +2,10 @@
   "AbilityName": "Weapon_Ability_12003",
   "AbilitySpecials": {
     "AS_IntervalCD": {
-      "Value": 12.0
+      "Value": 12
     },
     "AS_SpRecover": {
-      "Value": 3.0
+      "Value": 3
     }
   },
   "AbilityStacking": "Unique",

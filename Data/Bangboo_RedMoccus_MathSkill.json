@@ -1,0 +1,194 @@
+{
+  "AbilityName": "Bangboo_RedMoccus_MathSkill",
+  "AbilitySpecials": {
+    "AS_AddSkillCD": {
+      "Value": -10
+    },
+    "AS_AddedDamageRatio:": {
+      "Value": 0.6
+    },
+    "AS_DecreaseSkillCD": {
+      "Value": 10
+    },
+    "AS_PairACount": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnTeamAvatarConstructed": [
+      {
+        "$type": "SetAbilitySpecialAction",
+        "ModifyFunction": "Replace",
+        "Param": 0,
+        "ParamName": "AS_PairACount",
+        "ParamType": "Float"
+      },
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "PairCheckModifier",
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "PairCheckModifier",
+        "Target": "TeamAvatars"
+      }
+    ]
+  },
+  "Modifiers": {
+    "DecreaseCDControlerModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Replace",
+      "OnHitOther": [
+        {
+          "$type": "AttachModifier",
+          "ModifierName": "KilledCheckModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "BangbooAttack"
+              ]
+            }
+          ],
+          "Target": "Target"
+        }
+      ]
+    },
+    "DecreaseCDModifier": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": "%AS_AddSkillCD",
+          "ModifyFunction": "Add",
+          "ParamName": "Float_AttackCD_Current",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "DecreaseCDControlerModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "KilledCheckModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnKilled": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "DecreaseCDModifier",
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "DecreaseCDControlerModifier"
+              ],
+              "Target": "Caster"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    },
+    "MathSkillModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "(-1)*specials(AS_DecreaseSkillCD)",
+          "ParamName": "AS_AddSkillCD",
+          "Target": "Self",
+          "ValueType": "Float"
+        }
+      ],
+      "OnHitOther": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByAnimTagList",
+              "TagList": [
+                "BangbooAttack"
+              ]
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Self"
+        }
+      ],
+      "OnSkillStart": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "DecreaseCDControlerModifier",
+          "Predicates": [
+            {
+              "$type": "ByFromSkillID",
+              "SkillID": "Bangboo_RedMoccus_Skill"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "PairAModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "MultipleRefresh",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Add",
+          "Param": 1,
+          "ParamName": "AS_PairACount",
+          "ParamType": "Float"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "MathSkillModifier",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "GreaterEqual",
+              "Param": 2,
+              "ParamName": "AS_PairACount",
+              "ParamType": "Float",
+              "Target": "Self"
+            },
+            {
+              "$type": "ByBuddyTeamType",
+              "CheckBuddyTeam": "Fighting",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "PairCheckModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "PairAModifier",
+          "Predicates": [
+            {
+              "$type": "ByAvatarCamp",
+              "Camp": 4,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Caster"
+        }
+      ]
+    }
+  }
+}

@@ -26,7 +26,8 @@
             "EventKey": "BUFF_WitchTime_Dodge_EventSend"
           }
         ],
-        "FailureActions": [],
+        "FailureActions": [
+        ],
         "SuccessActions": [
           {
             "$type": "SetAbilitySpecialAction",
@@ -54,7 +55,8 @@
             "EventKey": "BUFF_WitchTime_Dodge_EventEnd"
           }
         ],
-        "FailureActions": [],
+        "FailureActions": [
+        ],
         "SuccessActions": [
           {
             "$type": "SetAbilitySpecialAction",

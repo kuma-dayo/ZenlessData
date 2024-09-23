@@ -1,0 +1,412 @@
+{
+  "AbilityName": "CampIdle_envbuff_05_shield",
+  "AbilitySpecials": {
+    "CurShieldAmount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "MaxShieldAmount": {
+      "Value": 0
+    },
+    "MaxShieldGetOnce": {
+      "Value": 0.1
+    },
+    "MaxShieldGetRatioOnce": {
+      "Value": 0.1
+    },
+    "ShieldAfterAdd": {
+      "Value": 0
+    },
+    "ShieldAmount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "ShieldAmountInitial": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "Shield_tag": {
+      "Value": " ",
+      "ValueType": "String"
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialAction",
+        "ModifyFunction": "Replace",
+        "Param": "envbuff_05_shield_01",
+        "ParamName": "Shield_tag",
+        "ParamType": "String",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 1
+          }
+        ]
+      },
+      {
+        "$type": "SetAbilitySpecialAction",
+        "ModifyFunction": "Replace",
+        "Param": "envbuff_05_shield_02",
+        "ParamName": "Shield_tag",
+        "ParamType": "String",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 2
+          }
+        ]
+      },
+      {
+        "$type": "SetAbilitySpecialAction",
+        "ModifyFunction": "Replace",
+        "Param": "envbuff_05_shield_03",
+        "ParamName": "Shield_tag",
+        "ParamType": "String",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 3
+          }
+        ]
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "GetShield_01",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 1
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "GetShield_02",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 2
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "GetShield_03",
+        "Predicates": [
+          {
+            "$type": "ByAvatarTeamIndex",
+            "Target": "Self",
+            "TeamIndex": 3
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "GetShield_01": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "IfTakeRestDamageWhenEmpty": true,
+          "Priority": 0,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "Tag": "envbuff_05_shield_01",
+          "TotalValueConfig": {
+            "Amount": "%ShieldAmountInitial"
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "GetShield_02": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "IfTakeRestDamageWhenEmpty": true,
+          "Priority": 0,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "Tag": "envbuff_05_shield_02",
+          "TotalValueConfig": {
+            "Amount": "%ShieldAmountInitial"
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "GetShield_03": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": -1,
+          "IfTakeRestDamageWhenEmpty": true,
+          "Priority": 0,
+          "RecoverAmount": 0,
+          "RecoverPercentage": 0,
+          "Tag": "envbuff_05_shield_03",
+          "TotalValueConfig": {
+            "Amount": "%ShieldAmountInitial"
+          }
+        }
+      ],
+      "ModifierStacking": "Unique"
+    }
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "SetAbilitySpecialByExpression",
+      "DoRefresh": false,
+      "Expression": "property(MaxHP)*0.5",
+      "ParamName": "MaxShieldAmount",
+      "Target": "Self",
+      "ValueType": "Integer"
+    },
+    {
+      "$type": "SetAbilitySpecialByExpression",
+      "DoRefresh": true,
+      "Expression": "property(MaxHP)*specials(MaxShieldGetRatioOnce)",
+      "ParamName": "MaxShieldGetOnce",
+      "Target": "Self",
+      "ValueType": "Integer"
+    },
+    {
+      "$type": "SetAbilitySpecialByExpression",
+      "DoRefresh": true,
+      "Expression": "specials(MaxShieldGetOnce)",
+      "ParamName": "ShieldAmount",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "LessEqual",
+          "Param": "%ShieldAmount",
+          "ParamName": "MaxShieldGetOnce",
+          "ParamType": "Integer"
+        }
+      ],
+      "Target": "Self",
+      "ValueType": "Integer"
+    },
+    {
+      "$type": "SetAbilitySpecialsByHpShiledValueAction",
+      "ModifyFunction": "Replace",
+      "ParamName": "CurShieldAmount",
+      "ParamType": "Integer",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": "envbuff_05_shield_01",
+          "ParamName": "Shield_tag",
+          "ParamType": "String",
+          "Target": "Self"
+        }
+      ],
+      "Tag": "envbuff_05_shield_01",
+      "Target": "Self",
+      "ValueType": "CurValue"
+    },
+    {
+      "$type": "SetAbilitySpecialsByHpShiledValueAction",
+      "ModifyFunction": "Replace",
+      "ParamName": "CurShieldAmount",
+      "ParamType": "Integer",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": "envbuff_05_shield_02",
+          "ParamName": "Shield_tag",
+          "ParamType": "String",
+          "Target": "Self"
+        }
+      ],
+      "Tag": "envbuff_05_shield_02",
+      "Target": "Self",
+      "ValueType": "CurValue"
+    },
+    {
+      "$type": "SetAbilitySpecialsByHpShiledValueAction",
+      "ModifyFunction": "Replace",
+      "ParamName": "CurShieldAmount",
+      "ParamType": "Integer",
+      "Predicates": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Equal",
+          "Param": "envbuff_05_shield_03",
+          "ParamName": "Shield_tag",
+          "ParamType": "String",
+          "Target": "Self"
+        }
+      ],
+      "Tag": "envbuff_05_shield_03",
+      "Target": "Self",
+      "ValueType": "CurValue"
+    },
+    {
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "ByAbilitySpecial",
+          "CompareType": "Less",
+          "Param": "%MaxShieldAmount",
+          "ParamName": "CurShieldAmount",
+          "ParamType": "Integer"
+        }
+      ],
+      "SuccessActions": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(CurShieldAmount)+specials(ShieldAmount)",
+          "ParamName": "ShieldAfterAdd",
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Greater",
+              "Param": "%MaxShieldAmount",
+              "ParamName": "ShieldAfterAdd",
+              "ParamType": "Integer"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_01",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_01",
+              "Target": "Self"
+            },
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_02",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_02",
+              "Target": "Self"
+            },
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_03",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_03",
+              "Target": "Self"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "specials(MaxShieldAmount)-specials(CurShieldAmount)",
+              "ParamName": "ShieldAmount",
+              "Target": "Self",
+              "ValueType": "Integer"
+            },
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_01",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_01",
+              "Target": "Self"
+            },
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_02",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_02",
+              "Target": "Self"
+            },
+            {
+              "$type": "ModifyHpShieldAction",
+              "CurValueDelta": "%ShieldAmount",
+              "MaxValueDelta": "%ShieldAmount",
+              "Predicates": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": "envbuff_05_shield_03",
+                  "ParamName": "Shield_tag",
+                  "ParamType": "String",
+                  "Target": "Self"
+                }
+              ],
+              "Tag": "envbuff_05_shield_03",
+              "Target": "Self"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

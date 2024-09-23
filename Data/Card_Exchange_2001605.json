@@ -1,6 +1,7 @@
 {
   "AbilityName": "Card_Exchange_2001605",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "OnAdded": [

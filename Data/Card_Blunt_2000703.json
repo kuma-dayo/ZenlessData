@@ -62,7 +62,8 @@
     "2000703QTECheckModifier": {
       "Duration": -1,
       "ModifierStacking": "Unique",
-      "OnAdded": []
+      "OnAdded": [
+      ]
     },
     "QTEToStunDmgRatio": {
       "Duration": -1,

@@ -17,7 +17,7 @@
             },
             "CoordinateType": "Local",
             "Duration": 0.2,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 0,
             "HitTangentialRatio": 0,
             "InitVelocity": {
@@ -37,14 +37,14 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 180.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -68,7 +68,7 @@
             },
             "CoordinateType": "Local",
             "Duration": 0.2,
-            "Gravity": 0.0,
+            "Gravity": 0,
             "HitNormalRatio": 0,
             "HitTangentialRatio": 0,
             "InitVelocity": {
@@ -96,14 +96,14 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 180.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {

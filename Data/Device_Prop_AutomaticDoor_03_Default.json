@@ -1,0 +1,295 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Opening",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 3,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AutomaticDoorOpen1Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Opening",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 33,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AutomaticDoorOpen2Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Opening",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 64,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AutomaticDoorOpen3Modifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Closing",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 26,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AutomaticDoorClose1Modifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_AutomaticDoor_03_Default",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AutomaticDoorClose1Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_Door",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Close_01_Smoke",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_Door",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Close_02_Spark",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    },
+    "AutomaticDoorOpen1Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Root",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Open_01_Smoke",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    },
+    "AutomaticDoorOpen2Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_L_Door",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Open_02_Spark",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Ctr_R_Door",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Open_03_Smoke",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    },
+    "AutomaticDoorOpen3Modifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Root",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_AutomaticDoor_03_Open_04_Spark",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

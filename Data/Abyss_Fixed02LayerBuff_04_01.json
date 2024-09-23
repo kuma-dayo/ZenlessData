@@ -1,0 +1,17 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_04_01",
+  "AbilitySpecials": {
+    "AS_BreakStunRatio": {
+      "Value": 0.3
+    },
+    "AS_DestroyRecoverRate_Ratio": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_BreakStunRatio": "%AS_BreakStunRatio"
+    }
+  }
+}

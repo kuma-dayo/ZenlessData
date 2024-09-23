@@ -23,7 +23,7 @@
   "AbilityName": "Durahan_Part",
   "AbilitySpecials": {
     "AS_PartHP": {
-      "Value": 50.0
+      "Value": 50
     },
     "AS_PartHPRatio": {
       "Value": 0.4
@@ -52,7 +52,7 @@
   },
   "Modifiers": {
     "PartDestroyedModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": true,
       "ModifierStacking": "Replace",
       "OnAdded": [

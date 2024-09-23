@@ -1,0 +1,160 @@
+{
+  "AbilityName": "CampIdle_envbuff_02",
+  "AbilitySpecials": {
+    "AS_Damage": {
+      "Value": 0
+    },
+    "AS_RecoverFever_Initial": {
+      "Value": 1200
+    },
+    "DamageToRecoverRatio": {
+      "Value": 1
+    },
+    "FeverRecover": {
+      "Value": 0
+    },
+    "HpAfterRecover": {
+      "Value": 0
+    },
+    "HpRecoverAmount": {
+      "Value": 0.2
+    },
+    "HpRecoverMax": {
+      "Value": 0
+    },
+    "HpToFeverRatio": {
+      "Value": 1
+    },
+    "MaxHpRecoverRatio": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "PushChangeMaxFeverAction",
+        "MaxFeverValue": 9999,
+        "Tag": "Player_Change_Max_Fever"
+      },
+      {
+        "$type": "RecoverFeverAction",
+        "Amount": "%AS_RecoverFever_Initial",
+        "IgnoreRatio": true,
+        "Percentage": 0,
+        "Target": "Self"
+      }
+    ],
+    "OnDamageCalculated": [
+      {
+        "$type": "SetAbilitySpecialByAttackData",
+        "AttackDataType": "Damage",
+        "DoRefresh": true,
+        "ModifyFunction": "Replace",
+        "ParamName": "AS_Damage",
+        "Target": "Self"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_Damage)*specials(DamageToRecoverRatio)",
+        "ParamName": "HpRecoverAmount",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RecoverHp",
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnRemoved": [
+      {
+        "$type": "PopChangeMaxFeverAction",
+        "Tag": "Player_Change_Max_Fever"
+      }
+    ]
+  },
+  "Modifiers": {
+    "RecoverHp": {
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "property(MaxHP)*specials(MaxHpRecoverRatio)",
+          "ParamName": "HpRecoverMax",
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "specials(HpRecoverMax)",
+          "ParamName": "HpRecoverAmount",
+          "Predicates": [
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "LessEqual",
+              "Param": "%HpRecoverAmount",
+              "ParamName": "HpRecoverMax",
+              "ParamType": "Integer"
+            }
+          ],
+          "Target": "Self",
+          "ValueType": "Integer"
+        },
+        {
+          "$type": "SetAbilitySpecialByExpression",
+          "DoRefresh": true,
+          "Expression": "property(CurHP)+specials(HpRecoverAmount)",
+          "ParamName": "HpAfterRecover",
+          "Target": "Self",
+          "ValueType": "Float"
+        },
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByPlayerPropertyValue",
+              "CompareType": "GreaterEqual",
+              "IsUsePercent": false,
+              "Numerator": "MaxHP",
+              "Target": "Self",
+              "Val1": "%HpAfterRecover"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "RecoverHPAction",
+              "Amount": "%HpRecoverAmount",
+              "Target": "Self"
+            },
+            {
+              "$type": "SetAbilitySpecialByExpression",
+              "DoRefresh": true,
+              "Expression": "(specials(HpAfterRecover)-property(MaxHP))*specials(HpToFeverRatio)",
+              "ParamName": "FeverRecover",
+              "Target": "Self",
+              "ValueType": "Integer"
+            },
+            {
+              "$type": "RecoverFeverAction",
+              "Amount": "%FeverRecover",
+              "IgnoreRatio": false,
+              "Percentage": 0,
+              "Target": "Self"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RecoverHPAction",
+              "Amount": "%HpRecoverAmount",
+              "Target": "Self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

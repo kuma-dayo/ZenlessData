@@ -34,7 +34,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "specials(AS_RecoverSp)/specials(AS_Normal_HitCount)",
+        "Expression": "specials(AS_RecoverSp)\/specials(AS_Normal_HitCount)",
         "ParamName": "AS_RecoverSp_Normal_Single",
         "Target": "Self",
         "ValueType": "Float"
@@ -42,7 +42,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "specials(AS_RecoverSp)/specials(AS_Counter_HitCount)",
+        "Expression": "specials(AS_RecoverSp)\/specials(AS_Counter_HitCount)",
         "ParamName": "AS_RecoverSp_Counter_Single",
         "Target": "Self",
         "ValueType": "Float"
@@ -50,7 +50,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "specials(AS_RecoverSp)/specials(AS_Assult_HitCount)",
+        "Expression": "specials(AS_RecoverSp)\/specials(AS_Assult_HitCount)",
         "ParamName": "AS_RecoverSp_Assult_Single",
         "Target": "Self",
         "ValueType": "Float"

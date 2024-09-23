@@ -33,12 +33,12 @@
           "Predicates": [
             {
               "$type": "ByObstacle",
-              "BoxDistance": 2.0,
+              "BoxDistance": 2,
               "BoxHeight": 0.1,
               "BoxPosOffset": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
+                "x": 0,
+                "y": 1,
+                "z": 0
               },
               "BoxWidth": 0.1,
               "CheckShape": "Box",
@@ -106,11 +106,11 @@
           "BoxDistance": 0.1,
           "BoxHeight": 0.1,
           "BoxPosOffset": {
-            "x": -2.0,
-            "y": 1.0,
-            "z": 0.0
+            "x": -2,
+            "y": 1,
+            "z": 0
           },
-          "BoxWidth": 4.0,
+          "BoxWidth": 4,
           "CheckShape": "Box",
           "Target": "LastSelfAttackTarget"
         }
@@ -126,11 +126,11 @@
           "BoxDistance": 0.1,
           "BoxHeight": 0.1,
           "BoxPosOffset": {
-            "x": 2.0,
-            "y": 1.0,
-            "z": 0.0
+            "x": 2,
+            "y": 1,
+            "z": 0
           },
-          "BoxWidth": 4.0,
+          "BoxWidth": 4,
           "CheckShape": "Box",
           "Target": "LastSelfAttackTarget"
         }

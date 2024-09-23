@@ -5,7 +5,7 @@
       "Value": 0.01
     },
     "AS_IceDamage_Duration": {
-      "Value": 10.0
+      "Value": 10
     }
   },
   "AbilityStacking": "Unique",

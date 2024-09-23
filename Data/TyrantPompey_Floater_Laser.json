@@ -1,0 +1,86 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "LaserMixin",
+      "AliveDuration": 0.1,
+      "BlockColliderRadius": 0,
+      "BlockEffect": {
+        "EffectPattern": "Eff_Monster_Common_01_Ether_Explode_Ground"
+      },
+      "BlockInterval": -1,
+      "BlockLayers": [
+        "ScenePropCollider"
+      ],
+      "DodgeColliderConfig": {
+        "ColliderAngleOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderPosOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderType": "Sphere",
+        "SphereColliderRadius": 1
+      },
+      "EffectName": "Eff_Monster_TyrantPompey_Floate_Attack_03_Beam",
+      "FirstHitDelayTime": 0.01,
+      "HitAnimEventID": "Monster_TyrantPompey_Floater_Laser_Attackproperty_01",
+      "HitColliderRadius": 0.5,
+      "HitEffect": {
+        "EffectPattern": "Eff_Monster_Common_01_Ether_Explode"
+      },
+      "HitInterval": 1,
+      "HitLayers": [
+        "HitCollider"
+      ],
+      "LaserEndPosRot": {
+        "CoordsOption": "Self",
+        "Offset": {
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "AttachPoint": "LaserPoint",
+          "IsUseAttachPointPos": true,
+          "IsUseAttachPointRotation": true,
+          "OffsetReferTarget": "None"
+        }
+      },
+      "LaserInitPosRot": {
+        "CoordsOption": "Self",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "AttachPoint": "LaserStartPoint",
+          "IsUseAttachPointPos": true,
+          "IsUseAttachPointRotation": true,
+          "OffsetReferTarget": "Self"
+        }
+      },
+      "Length": 50,
+      "StartEffect": {
+        "EffectPattern": ""
+      }
+    }
+  ],
+  "AbilityName": "TyrantPompey_Floater_Laser",
+  "AbilityStacking": "Unique"
+}

@@ -59,15 +59,15 @@
                 "CoordsOption": "ReferTarget",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 1.0,
+                    "x": 0,
+                    "y": 1,
                     "z": 1
                   }
                 },
@@ -85,15 +85,15 @@
                 "CoordsOption": "ReferTarget",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsUseRotationXZ": true,
                   "IsUseRotationY": true,
                   "PositionOffset": {
-                    "x": 0.0,
-                    "y": 1.0,
+                    "x": 0,
+                    "y": 1,
                     "z": 1
                   }
                 },
@@ -128,6 +128,10 @@
   "AbilityName": "JaneDoe_ParryManage",
   "AbilityStacking": "Unique",
   "Modifiers": {
+    "Modifier_Parry_Damage_CD": {
+      "Duration": 0.05,
+      "ModifierStacking": "Unique"
+    },
     "Modifier_Parry_Ready": {
       "Duration": -1,
       "IgnoreTimeScale": false,
@@ -141,9 +145,28 @@
           "Target": "Self"
         },
         {
-          "$type": "DamageByAttackPropertyAction",
-          "AnimEventID": "Monster_JaneDoe_Parry_Attackproperty_01",
-          "Target": "Target"
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Modifier_Parry_Damage_CD"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "DamageByAttackPropertyAction",
+              "AnimEventID": "Monster_JaneDoe_Parry_Attackproperty_01",
+              "Target": "Target"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Modifier_Parry_Damage_CD",
+              "Target": "Self"
+            }
+          ]
         }
       ]
     }

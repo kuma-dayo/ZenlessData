@@ -1,12 +1,12 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NJEOEBGLIIB": 111001,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Ice",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111001,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Ice",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1001102,
         1001103,
         1001104,
@@ -27,16 +27,16 @@
         1101111,
         1001112
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111002,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Fire",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111002,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Fire",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000102,
         1000104,
         1000105,
@@ -57,16 +57,16 @@
         1100111,
         1000112
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111003,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Electric",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111003,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Electric",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000501,
         1000502,
         1000504,
@@ -87,36 +87,57 @@
         1100511,
         1000512
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111004,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Ether",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 0,
-      "AMLJKMHJCHI": [
-        1019
+      "DGKAIIPMHNI": 111004,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Ether",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
+        1001901,
+        1001902,
+        1001903,
+        1001904,
+        1001905,
+        1001906,
+        1001907,
+        1001908,
+        1001909,
+        1001910,
+        1001911,
+        1101901,
+        1101902,
+        1101903,
+        1101904,
+        1101905,
+        1101906,
+        1101907,
+        1101908,
+        1101909,
+        1101910,
+        1101911
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111005,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Physics",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 0,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111005,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Physics",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 0,
+      "GLFNMKMJNLB": [
         1015
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111006,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111006,
+      "NJOGNGOGNHL": [
         1000703,
         1000705,
         1000706,
@@ -124,19 +145,19 @@
         1100705,
         1100706
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000701,
         1100701
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111008,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111008,
+      "NJOGNGOGNHL": [
         1000104,
         1000106,
         1000107,
@@ -144,25 +165,25 @@
         1100106,
         1100107
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000101,
         1000103,
         1100101,
         1100103
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111009,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 0,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111009,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 0,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1002101,
         1002102,
         1002103,
@@ -188,26 +209,26 @@
         1102110,
         1102111
       ],
-      "CIJJDCPGOJG": 1,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 1,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111010,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "Ice|Fire|Electric|Ether|Physics",
-      "ACOHPCEIFLP": 2,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "DGKAIIPMHNI": 111010,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "Ice|Fire|Electric|Ether|Physics",
+      "FBJJMBJDCFN": 2,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [],
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111011,
-      "IDDMMGOIGAD": [],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 0,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "DGKAIIPMHNI": 111011,
+      "NJOGNGOGNHL": [],
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 0,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1001601,
         1001602,
         1001603,
@@ -232,18 +253,18 @@
         1101610,
         1101611
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 1
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 1
     },
     {
-      "NJEOEBGLIIB": 111012,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111012,
+      "NJOGNGOGNHL": [
         1001112
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1001102,
         1001103,
         1001104,
@@ -264,18 +285,18 @@
         1101111,
         1001112
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111013,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111013,
+      "NJOGNGOGNHL": [
         1000112
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000102,
         1000104,
         1000105,
@@ -296,18 +317,18 @@
         1100111,
         1000112
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111014,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111014,
+      "NJOGNGOGNHL": [
         1000512
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000501,
         1000502,
         1000504,
@@ -328,46 +349,67 @@
         1100511,
         1000512
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111015,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111015,
+      "NJOGNGOGNHL": [
         1001912
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 0,
-      "AMLJKMHJCHI": [
-        1019
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
+        1001901,
+        1001902,
+        1001903,
+        1001904,
+        1001905,
+        1001906,
+        1001907,
+        1001908,
+        1001909,
+        1001910,
+        1001911,
+        1101901,
+        1101902,
+        1101903,
+        1101904,
+        1101905,
+        1101906,
+        1101907,
+        1101908,
+        1101909,
+        1101910,
+        1101911
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111016,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111016,
+      "NJOGNGOGNHL": [
         1001412
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 0,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 0,
+      "GLFNMKMJNLB": [
         1015
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111017,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111017,
+      "NJOGNGOGNHL": [
         1001614
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1001601,
         1001602,
         1001603,
@@ -392,18 +434,18 @@
         1101610,
         1101611
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 111018,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 111018,
+      "NJOGNGOGNHL": [
         1002112
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1002101,
         1002102,
         1002103,
@@ -429,49 +471,49 @@
         1102110,
         1102111
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 121001,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 121001,
+      "NJOGNGOGNHL": [
         1000803,
         1000806,
         1010801,
         1100803,
         1100806
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000802,
         1000805,
         1100802,
         1100805
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 121002,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 121002,
+      "NJOGNGOGNHL": [
         1000803,
         1100803
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000804,
         1100804
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 121003,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 121003,
+      "NJOGNGOGNHL": [
         1001104,
         1001107,
         1001110,
@@ -479,21 +521,21 @@
         1101107,
         1101110
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1001105,
         1001101,
         1101105,
         1101101
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     },
     {
-      "NJEOEBGLIIB": 121004,
-      "IDDMMGOIGAD": [
+      "DGKAIIPMHNI": 121004,
+      "NJOGNGOGNHL": [
         1000505,
         1000506,
         1000508,
@@ -501,17 +543,17 @@
         1100506,
         1100508
       ],
-      "DGFOPGJPBJI": "",
-      "ACOHPCEIFLP": 1,
-      "JLIJCMJBIOJ": 1,
-      "AMLJKMHJCHI": [
+      "KEFFFHIEIAM": "",
+      "FBJJMBJDCFN": 1,
+      "OFIBHGCNMHE": 1,
+      "GLFNMKMJNLB": [
         1000503,
         1000507,
         1100503,
         1100507
       ],
-      "CIJJDCPGOJG": 0,
-      "AJHFHDLKKHM": 0
+      "FDGNJLHKCPF": 0,
+      "DCPOCMGMMIC": 0
     }
   ]
 }

@@ -1,3 +1,39 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "EJPDHOBOMGB": 1,
+      "DEPJKIPACJK": "金币",
+      "HEGHNPFDFDN": "金币",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/Coin.png"
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "EJPDHOBOMGB": 0,
+      "DEPJKIPACJK": "银币",
+      "HEGHNPFDFDN": "银币",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/Diny.png"
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "EJPDHOBOMGB": 1,
+      "DEPJKIPACJK": "灵魂",
+      "HEGHNPFDFDN": "灵魂",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/Soul.png"
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "EJPDHOBOMGB": 1,
+      "DEPJKIPACJK": "糖果",
+      "HEGHNPFDFDN": "糖果",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/Diny.png"
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "EJPDHOBOMGB": 1,
+      "DEPJKIPACJK": "生命",
+      "HEGHNPFDFDN": "生命",
+      "DBKGODAFDCP": "UI/Sprite/Arcade/Game/Companion/Packer/Heart.png"
+    }
+  ]
 }

@@ -205,7 +205,7 @@
   "AbilityStacking": "Unique",
   "Modifiers": {
     "RaiseTurnCountModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {

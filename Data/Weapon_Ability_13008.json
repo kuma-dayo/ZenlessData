@@ -2,10 +2,10 @@
   "AbilityName": "Weapon_Ability_13008",
   "AbilitySpecials": {
     "AS_ElementMysteryDelta": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_ElementMysteryDelta_Final": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_ProviderCount": {
       "Value": 0

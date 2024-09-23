@@ -2,17 +2,17 @@
   "AbilityMixins": [
     {
       "$type": "BulletMixin",
-      "AliveDuration": 1.0,
+      "AliveDuration": 1,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.35
@@ -25,15 +25,15 @@
         "CoordsOption": "Caster",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
             "x": 5.82,
-            "y": 2.0,
+            "y": 2,
             "z": 6.59
           }
         },
@@ -66,13 +66,13 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
           "x": 0,
           "y": 0,
-          "z": 0.0
+          "z": 0
         },
         "TimesUpMoveOption": "Remain"
       },

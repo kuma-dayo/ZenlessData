@@ -1,0 +1,124 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_ExtendExQTE",
+              "ParamType": 2,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex_Explode",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 1,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "AidAttack_Common"
+              ],
+              "IsAdd": true,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 28,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "AidAttack_Common"
+              ],
+              "IsAdd": false,
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 29,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": 50000,
+              "CustomPropertyType": "Burnice_CurChargePoint",
+              "IsUsePercentage": false,
+              "Percentage": 0,
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "Custom"
+            }
+          ],
+          "AnimatorStateName": "SwitchIn_Attack_Ex",
+          "ForceTriggerOnTransitionIn": false,
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 0,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Burnice_ExQTE",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOtherPre": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_01",
+              "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_02_01",
+              "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_03_01",
+              "Burnice_Attack_SwitchIn_Attack_Ex_AttackProperty_03_02"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "PropertyKey": "Actor_CanTriggerElementAbnormal",
+        "PropertyValue": 1,
+        "Target": "Caster"
+      }
+    ],
+    "OnSwitchTriggered": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_ExtendExQTE",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByAidAttackType",
+            "AidAttackType": "CommonAid"
+          },
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": false
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

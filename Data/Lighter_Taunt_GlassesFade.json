@@ -1,0 +1,128 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Taunt",
+          "FrameCountHigh": 325,
+          "FrameCountLow": 30,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LighterTauntGlassesFadeOutModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Taunt",
+          "FrameCountLow": 324,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "LighterTauntNotFadeTagModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Taunt",
+          "FrameCountLow": 30,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "LighterTauntDelayMiddleWareModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_Taunt_GlassesFade",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "LighterTauntDelayMiddleWareModifier": {
+      "Duration": -1,
+      "IsUnique": true,
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "LighterTauntDelayModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "LighterTauntDelayModifier": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.01,
+          "IgnoreTimeScale": false,
+          "TimeUpActions": [
+            {
+              "$type": "HandleAnimatorZoneTagsAction",
+              "AnimatorStateTags": [
+                "TauntNotFade"
+              ],
+              "IsAdd": false,
+              "Target": "Self"
+            }
+          ]
+        }
+      ],
+      "Duration": 0.02,
+      "IsUnique": true,
+      "OnRemoved": [
+        {
+          "$type": "InterruptDitherFadeAction",
+          "Tag": "Avatar_Male_Size02_Lighter_MA_Taunt_Dither_01",
+          "Target": "Self"
+        }
+      ]
+    },
+    "LighterTauntGlassesFadeOutModifier": {
+      "Duration": -1,
+      "IsUnique": true,
+      "OnRemoved": [
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "ApplyAllRenderers": false,
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "TauntNotFade"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Priority": 0,
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Lighter_Eyeglass"
+            }
+          ],
+          "Tag": "Avatar_Male_Size02_Lighter_MA_Taunt_Dither_01",
+          "Target": "Self",
+          "key": "Avatar_Male_Size02_Lighter_MA_Taunt_Dither_01"
+        }
+      ]
+    },
+    "LighterTauntNotFadeTagModifier": {
+      "Duration": -1,
+      "IsUnique": true,
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "TauntNotFade"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "AbilityName": "Caesar_MathSkill",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.3
+    },
+    "AS_Duration": {
+      "Value": 15
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "Caesar_MathSkillModifier",
+        "Predicates": [
+          {
+            "$type": "ByMathSkillSuccess"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AuraModifier": {
+      "Duration": 0.03,
+      "ModifierMixins": [
+        {
+          "$type": "FieldRangeMixin",
+          "ColliderConfig": {
+            "ColliderAngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "ColliderPosOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "ColliderType": "FanCylinder",
+            "FanCylinderColliderAngle": 360,
+            "FanCylinderColliderHeight": 3,
+            "FanCylinderColliderRadius": 7,
+            "FanCylinderColliderVertexNum": 24
+          },
+          "FieldEnterActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "DamageTakeRatioModifier",
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Other"
+                }
+              ],
+              "Target": "Other"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Caesar_MathSkill_BuffIcon",
+              "Predicates": [
+                {
+                  "$type": "ByRelativeCampType",
+                  "Relationship": "Enemy",
+                  "Target": "Other"
+                }
+              ],
+              "Target": "Other"
+            }
+          ],
+          "FieldInitPosRot": {
+            "CoordsOption": "Self",
+            "NeedRaycastGround": true,
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "RaycastGroundOffset": 0,
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "IsFollow": true,
+          "TotalDuration": -1
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "Caesar_MathSkillModifier": {
+      "Duration": -1,
+      "ModifierMixins": [
+        {
+          "$type": "ActwithStateFrameMixin",
+          "ConfigList": [
+            {
+              "ActionList": [
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "AuraModifier",
+                  "Target": "Self"
+                }
+              ],
+              "AnimatorStateName": "Attack_Branch_03",
+              "ForceTriggerOnTransitionIn": true,
+              "Frame": 0,
+              "LayerIndex": 0
+            }
+          ]
+        }
+      ],
+      "ModifierStacking": "Unique",
+      "OnCustomEventReceived": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AuraModifier",
+          "Predicates": [
+            {
+              "$type": "ByCustomEvent",
+              "EventKey": "Caesar_GuardSuccess"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "Caesar_MathSkill_BuffIcon": {
+      "Buff": {
+        "BuffID": 3000161,
+        "IsOverrideDuration": true
+      },
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Refresh"
+    },
+    "DamageTakeRatioModifier": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Replace",
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByTeamGoodRoleType",
+              "RoleType": "TeamAvatars",
+              "Target": "Other"
+            }
+          ],
+          "PropertyKey": "Actor_AddedDamageRatio",
+          "PropertyValue": "%AS_AddedDamageRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

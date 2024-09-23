@@ -2,13 +2,13 @@
   "AbilityName": "Rina_Talent_02",
   "AbilitySpecials": {
     "AS_AddedDamageDuration": {
-      "Value": 12.0
+      "Value": 12
     },
     "AS_AddedDamageRatio_Talent02": {
       "Value": 0.5
     },
     "AS_CDDuration": {
-      "Value": 24.0
+      "Value": 24
     }
   },
   "AbilityStacking": "Unique",

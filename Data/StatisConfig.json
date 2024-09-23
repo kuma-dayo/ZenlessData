@@ -15,7 +15,7 @@
       "Result": "ToSuccess",
       "StatisSpecials": {
         "TestDamageSpecialVal": {
-          "Value": 35.0
+          "Value": 35
         }
       },
       "TargetNum": 1,
@@ -54,7 +54,8 @@
         {
           "$type": "ConfigBySkillCategory",
           "SkillCategory": "Random",
-          "SkillNameList": []
+          "SkillNameList": [
+          ]
         }
       ],
       "Result": "ToSuccess",

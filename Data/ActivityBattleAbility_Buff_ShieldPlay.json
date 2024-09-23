@@ -5,10 +5,10 @@
       "Value": 0.3
     },
     "AS_BuffDuration": {
-      "Value": 15.0
+      "Value": 15
     },
     "AS_HpShieldDuration": {
-      "Value": 30.0
+      "Value": 30
     },
     "AS_ShieldPercentage": {
       "Value": 0.3

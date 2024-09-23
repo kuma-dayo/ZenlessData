@@ -3,18 +3,18 @@
     {
       "$type": "FieldRangeMixin",
       "ColliderConfig": {
-        "BoxColliderDistance": 4.0,
+        "BoxColliderDistance": 4,
         "BoxColliderHeight": 1.5,
-        "BoxColliderWidth": 4.0,
+        "BoxColliderWidth": 4,
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
           "x": 2,
-          "y": 0.0,
-          "z": 0.0
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Box"
       },
@@ -39,16 +39,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 90.0,
-            "z": 0.0
+            "x": 0,
+            "y": 90,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": -2.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -2,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -62,18 +62,18 @@
     {
       "$type": "FieldRangeMixin",
       "ColliderConfig": {
-        "BoxColliderDistance": 4.0,
+        "BoxColliderDistance": 4,
         "BoxColliderHeight": 1.5,
-        "BoxColliderWidth": 4.0,
+        "BoxColliderWidth": 4,
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
           "x": -2,
-          "y": 0.0,
-          "z": 0.0
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Box"
       },
@@ -98,16 +98,16 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 90.0,
-            "z": 0.0
+            "x": 0,
+            "y": 90,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": -2.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": -2,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {

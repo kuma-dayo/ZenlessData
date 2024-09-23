@@ -54,7 +54,7 @@
       "Value": 0
     },
     "MaxPartHP": {
-      "Value": 50.0
+      "Value": 50
     }
   },
   "AbilityStacking": "Unique",
@@ -102,7 +102,7 @@
   },
   "Modifiers": {
     "PartDestroyedModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": true,
       "ModifierStacking": "Replace",
       "OnAdded": [

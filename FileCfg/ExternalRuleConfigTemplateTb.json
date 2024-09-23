@@ -1,36 +1,36 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "ODKNILFFDHK": "VO_Chessboard",
-      "EIHGNKBLMJG": "Play_VO_External_Chessboard"
+      "HDGGHCMMMKJ": "VO_Chessboard",
+      "BEGPIAKIKIJ": "Play_VO_External_Chessboard"
     },
     {
-      "ODKNILFFDHK": "VO_Clue",
-      "EIHGNKBLMJG": "Play_VO_External_Clue"
+      "HDGGHCMMMKJ": "VO_Clue",
+      "BEGPIAKIKIJ": "Play_VO_External_Clue"
     },
     {
-      "ODKNILFFDHK": "VO_Comic",
-      "EIHGNKBLMJG": "Play_VO_External_Comic"
+      "HDGGHCMMMKJ": "VO_Comic",
+      "BEGPIAKIKIJ": "Play_VO_External_Comic"
     },
     {
-      "ODKNILFFDHK": "VO_Galgame",
-      "EIHGNKBLMJG": "Play_VO_External_Gal"
+      "HDGGHCMMMKJ": "VO_Galgame",
+      "BEGPIAKIKIJ": "Play_VO_External_Gal"
     },
     {
-      "ODKNILFFDHK": "VO_Level",
-      "EIHGNKBLMJG": "Play_VO_External_Level"
+      "HDGGHCMMMKJ": "VO_Level",
+      "BEGPIAKIKIJ": "Play_VO_External_Level"
     },
     {
-      "ODKNILFFDHK": "VO_Maincity_NPC",
-      "EIHGNKBLMJG": "Play_VO_External_Maincity_NPC"
+      "HDGGHCMMMKJ": "VO_Maincity_NPC",
+      "BEGPIAKIKIJ": "Play_VO_External_Maincity_NPC"
     },
     {
-      "ODKNILFFDHK": "VO_Message",
-      "EIHGNKBLMJG": "Play_VO_External_Message"
+      "HDGGHCMMMKJ": "VO_Message",
+      "BEGPIAKIKIJ": "Play_VO_External_Message"
     },
     {
-      "ODKNILFFDHK": "VO_Tips",
-      "EIHGNKBLMJG": "Play_VO_External_Tips"
+      "HDGGHCMMMKJ": "VO_Tips",
+      "BEGPIAKIKIJ": "Play_VO_External_Tips"
     }
   ]
 }

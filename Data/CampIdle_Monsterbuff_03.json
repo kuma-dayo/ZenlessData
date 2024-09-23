@@ -1,0 +1,56 @@
+{
+  "AbilityName": "CampIdle_Monsterbuff_03",
+  "AbilitySpecials": {
+    "AS_BreakStunTakeRatio": {
+      "Value": -0.2
+    },
+    "AS_DecreaseStunPercent": {
+      "Value": 0.1
+    },
+    "AS_HitInternalCD": {
+      "Value": 7.5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnDamageCalculated": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "HitModifier",
+        "Predicates": [
+          {
+            "$type": "ByTeamGoodRoleType",
+            "RoleType": "TeamAvatars",
+            "Target": "Target"
+          },
+          {
+            "$type": "ByTotalDamage",
+            "CompareType": "Greater",
+            "Damage": 0,
+            "SkipDamage": true,
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "Properties": {
+      "Actor_BreakStunTakeRatio": "%AS_BreakStunTakeRatio"
+    }
+  },
+  "Modifiers": {
+    "HitModifier": {
+      "Duration": "%AS_HitInternalCD",
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "DecreaseStunAction",
+          "Amount": 0,
+          "Percentage": "%AS_DecreaseStunPercent",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

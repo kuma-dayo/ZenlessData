@@ -1,6 +1,7 @@
 {
   "AbilityName": "Card_Ashes_2000107",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",

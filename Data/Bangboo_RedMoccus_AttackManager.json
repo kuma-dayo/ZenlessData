@@ -1,0 +1,160 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 75,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": false,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttackModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AttackLaunch",
+          "FrameCountHigh": 75,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "ResetSpeedModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Bangboo_RedMoccus_AttackManager",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnHitOther": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "IntVal": 1,
+        "ParamName": "Int_AttackLaunch",
+        "ParamType": 3,
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Bangboo_RedMoccus_Attackproperty_Attack01_HitCheck"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AttackModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "LogicVelocitySyncRootMotionMixin",
+          "BlendParamSpeed": "Float_AttackMoveSpeed",
+          "BlendParamTargetSpeed": "Float_AttackMoveTargetSpeed",
+          "LerpDuration": 0.2,
+          "MaxDistance": 3.8,
+          "MaxTargetSpeed": 1,
+          "MinDistance": 3.2,
+          "MinTargetSpeed": 0,
+          "TargetPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsClampOffsetDistance": false,
+              "IsUseRotationXZ": false,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": false,
+              "OffsetReferTarget": "LocalAvatar"
+            }
+          },
+          "VelocityCurve": "Bangboo_Devilboo_QTE_Move"
+        }
+      ],
+      "ModifierStacking": "Unique",
+      "OnThinkInterval": [
+        {
+          "$type": "HandleAnimEvent",
+          "AnimEventID": "Bangboo_RedMoccus_Attackproperty_Attack01_01",
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LocalAvatar",
+              "CompareType": "GreaterEqual",
+              "Distance": 3.5,
+              "Target": "Caster"
+            }
+          ]
+        },
+        {
+          "$type": "HandleAnimEvent",
+          "AnimEventID": "Bangboo_RedMoccus_Attackproperty_Attack01_01b",
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "LocalAvatar",
+              "CompareType": "Less",
+              "Distance": 3.5,
+              "Target": "Caster"
+            }
+          ]
+        }
+      ],
+      "ThinkInterval": 0.1
+    },
+    "ResetSpeedModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AttackMoveSpeed",
+          "ParamType": 4
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AttackMoveTargetSpeed",
+          "ParamType": 4
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AttackMoveSpeed",
+          "ParamType": 4
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 1,
+          "ParamName": "Float_AttackMoveTargetSpeed",
+          "ParamType": 4
+        }
+      ]
+    }
+  }
+}

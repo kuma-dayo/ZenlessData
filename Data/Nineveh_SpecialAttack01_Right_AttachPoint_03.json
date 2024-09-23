@@ -258,27 +258,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": 5.5,
-                    "y": 0.0,
-                    "z": 1.0
+                    "y": 0,
+                    "z": 1
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -295,27 +295,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": -5.5,
-                    "y": 0.0,
-                    "z": 1.0
+                    "y": 0,
+                    "z": 1
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -332,27 +332,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": 12.5,
-                    "y": 0.0,
-                    "z": 1.0
+                    "y": 0,
+                    "z": 1
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -369,27 +369,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": -12.5,
-                    "y": 0.0,
-                    "z": 1.0
+                    "y": 0,
+                    "z": 1
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -406,27 +406,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": 6.5,
-                    "y": 0.0,
+                    "y": 0,
                     "z": 3.5
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -443,27 +443,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": -6.5,
-                    "y": 0.0,
+                    "y": 0,
                     "z": 3.5
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -480,27 +480,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": 14.5,
-                    "y": 0.0,
-                    "z": 3.0
+                    "y": 0,
+                    "z": 3
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -517,27 +517,27 @@
                 "CoordsOption": "Target",
                 "Offset": {
                   "AngleOffset": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "IsClampOffsetDistance": false,
                   "IsUseRotationXZ": false,
                   "IsUseRotationY": true,
                   "PositionOffset": {
                     "x": -14.5,
-                    "y": 0.0,
-                    "z": 3.0
+                    "y": 0,
+                    "z": 3
                   },
                   "RandomAngleRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   },
                   "RandomPositionRange": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 },
                 "TargetOption": {
@@ -577,7 +577,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 4.5,
           "PosType": "Fixed",
-          "RotRatio": 2.0,
+          "RotRatio": 2,
           "RotType": "Instant"
         }
       ],
@@ -594,16 +594,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -614,7 +614,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 5.5,
           "PosType": "Fixed",
-          "RotRatio": 0.0,
+          "RotRatio": 0,
           "RotType": "Instant"
         }
       ],
@@ -737,7 +737,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 4.5,
           "PosType": "Fixed",
-          "RotRatio": 2.0,
+          "RotRatio": 2,
           "RotType": "Instant"
         }
       ],
@@ -754,16 +754,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -774,7 +774,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 5.5,
           "PosType": "Fixed",
-          "RotRatio": 3.0,
+          "RotRatio": 3,
           "RotType": "Instant"
         }
       ],
@@ -911,7 +911,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 4.5,
           "PosType": "Fixed",
-          "RotRatio": 2.0,
+          "RotRatio": 2,
           "RotType": "Instant"
         }
       ],
@@ -928,16 +928,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -948,7 +948,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 5.5,
           "PosType": "Fixed",
-          "RotRatio": 0.0,
+          "RotRatio": 0,
           "RotType": "Instant"
         }
       ],
@@ -1071,7 +1071,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 4.5,
           "PosType": "Fixed",
-          "RotRatio": 2.0,
+          "RotRatio": 2,
           "RotType": "Instant"
         }
       ],
@@ -1088,16 +1088,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": false,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1108,7 +1108,7 @@
           "PolarAngleRatio": 0,
           "PosSpeed": 5.5,
           "PosType": "Fixed",
-          "RotRatio": 0.0,
+          "RotRatio": 0,
           "RotType": "Instant"
         }
       ],

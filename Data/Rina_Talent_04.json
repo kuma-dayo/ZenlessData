@@ -2,10 +2,10 @@
   "AbilityName": "Rina_Talent_04",
   "AbilitySpecials": {
     "AS_AddedDamageRatio_Talent_04": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_Duration_Talent_04": {
-      "Value": 8.0
+      "Value": 8
     }
   },
   "AbilityStacking": "Unique",

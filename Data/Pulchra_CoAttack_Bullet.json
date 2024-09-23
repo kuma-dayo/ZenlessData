@@ -1,0 +1,130 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "BulletMixin",
+      "AliveDuration": 3,
+      "BulletColliderConfig": {
+        "ColliderAngleOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderPosOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColliderType": "Sphere",
+        "SphereColliderRadius": 0.35
+      },
+      "BulletEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_CoAttack_ThrowTarget_01_Wepon"
+      },
+      "BulletHitDelayTime": 0.1,
+      "BulletHitTypeName": "Normal",
+      "BulletInitPosRot": {
+        "CoordsOption": "Caster",
+        "Offset": {
+          "AngleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "IsUseRotationXZ": false,
+          "IsUseRotationY": true,
+          "PositionOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "TargetOption": {
+          "$type": "ConfigPosRotReferTarget",
+          "AttachPoint": "Ctr_Wpn_05",
+          "OffsetReferTarget": "Caster"
+        }
+      },
+      "BulletName": "Bullet_Empty",
+      "CanHitStage": true,
+      "DestroyExplode": true,
+      "ExplodeAnimEventID": "Monster_Pulchra_CoAttack_ThrowTarget_Attackproperty_01",
+      "ExplodePosType": "HitPoint",
+      "HitExplodeRadius": 2,
+      "HitOtherExplode": true,
+      "HitStageExplode": true,
+      "HitStageGroundExplodeEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_CoAttack_ThrowTarget_06_Glow"
+      },
+      "HitStageScenePropExplodeEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_CoAttack_ThrowTarget_07_Glow"
+      },
+      "HitStageWallExplodeEffect": {
+        "EffectPattern": "Eff_Monster_Pulchra_CoAttack_ThrowTarget_07_Glow"
+      },
+      "IsCanReflect": false,
+      "MaxHitNum": 1,
+      "MaxHitStageNum": -1,
+      "MaxHitTargetNum": -1,
+      "MaxTouchStageNum": -1,
+      "MovementConfig": {
+        "$type": "ConfigMovementParabola",
+        "DefaultOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 8
+        },
+        "DefaultRotAngle": 0,
+        "Duration": -1,
+        "Gravity": 0,
+        "HitNormalRatio": 0.4,
+        "HitTangentialRatio": 0.5,
+        "TargetPosRot": {
+          "BackupCoordsOption": "ReferTarget",
+          "CoordsOption": "Relative",
+          "Offset": {
+            "AngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BackupAngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BackupPositionOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 8
+            },
+            "PositionOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "TargetOption": {
+            "$type": "ConfigPosRotReferTarget",
+            "AttachPoint": "MiddlePoint",
+            "BackupOffsetReferTarget": "Caster",
+            "CustomKey": "Monster_Pulchra_CoAttackTarget",
+            "IsUseAttachPointPos": true,
+            "OffsetReferTarget": "Custom"
+          }
+        },
+        "TargetRotLimitAngleLeft": 15,
+        "TargetRotLimitAngleRight": 15,
+        "TimesUpMoveOption": "Remain",
+        "h1": 0.5,
+        "h2": 1.2,
+        "s1": 3,
+        "s2": 20,
+        "t1": 0.3,
+        "t2": 0.5
+      },
+      "Targetting": "Allied"
+    }
+  ],
+  "AbilityName": "Pulchra_CoAttack_Bullet",
+  "AbilityStacking": "Unique"
+}

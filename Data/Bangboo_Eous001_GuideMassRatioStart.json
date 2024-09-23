@@ -4,7 +4,7 @@
   "OnAbilityStart": [
     {
       "$type": "ModifyMassRatioAction",
-      "Ratio": 999.0,
+      "Ratio": 999,
       "Target": "Self"
     }
   ]

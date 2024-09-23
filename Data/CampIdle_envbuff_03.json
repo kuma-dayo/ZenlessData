@@ -1,0 +1,81 @@
+{
+  "AbilityName": "CampIdle_envbuff_03",
+  "AbilitySpecials": {
+    "AS_BuffDamgeRatio": {
+      "Value": 1
+    },
+    "AS_RecoverFever": {
+      "Value": 1000
+    },
+    "AS_RecoverHp": {
+      "Value": 0.5
+    },
+    "AS_RecoverSp": {
+      "Value": 100
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBuffDamageHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByBuffAttackProperty",
+            "BuffGroupList": [
+              "Disorder"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_BuffDamageRatio",
+        "PropertyValue": "%AS_BuffDamgeRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "RecoverSPAction",
+        "Amount": "%AS_RecoverSp",
+        "IgnoreRatio": false,
+        "Percentage": 0,
+        "Predicates": [
+          {
+            "$type": "ByBuffAttackProperty",
+            "BuffGroupList": [
+              "Disorder"
+            ]
+          }
+        ],
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "RecoverHPAction",
+        "Amount": 0,
+        "IgnoreRatio": false,
+        "Percentage": "%AS_RecoverHp",
+        "Predicates": [
+          {
+            "$type": "ByBuffAttackProperty",
+            "BuffGroupList": [
+              "Disorder"
+            ]
+          }
+        ],
+        "Target": "TeamAvatars"
+      },
+      {
+        "$type": "RecoverFeverAction",
+        "Amount": 0,
+        "IgnoreRatio": false,
+        "Percentage": "%AS_RecoverFever",
+        "Predicates": [
+          {
+            "$type": "ByBuffAttackProperty",
+            "BuffGroupList": [
+              "Disorder"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

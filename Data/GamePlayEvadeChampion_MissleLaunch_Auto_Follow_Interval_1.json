@@ -12,7 +12,7 @@
           "Target": "Self"
         }
       ],
-      "ThinkInterval": 3.0
+      "ThinkInterval": 3
     },
     "OnIntervalThink_LaunchMissle": {
       "Duration": 3.4,

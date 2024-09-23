@@ -29,7 +29,7 @@
   "AbilityName": "Ellen_Talent_03",
   "AbilitySpecials": {
     "AS_IntervalCD_Talent_03": {
-      "Value": 5.0
+      "Value": 5
     },
     "AS_RecoverEnhenceCount_Talent_03": {
       "Value": 6

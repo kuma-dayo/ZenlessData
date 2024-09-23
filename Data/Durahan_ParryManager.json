@@ -10,8 +10,8 @@
             "ReduceDamageModifier",
             "CDControlModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Skill_01_Charge",
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "ChargeTagModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -31,7 +31,7 @@
       "Value": -0.95
     },
     "ParryCD": {
-      "Value": 2.0
+      "Value": 2
     },
     "ParryCount": {
       "Value": 0
@@ -263,7 +263,7 @@
       ]
     },
     "CountMaxCDModifier": {
-      "Duration": 5.0,
+      "Duration": 5,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique"
     },
@@ -284,14 +284,14 @@
               "CoordsOption": "Relative",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 }
               },
               "TargetOption": {
@@ -407,8 +407,8 @@
         },
         {
           "$type": "ByHitAngleRange",
-          "AngleMax": 180.0,
-          "AngleMin": 0.0
+          "AngleMax": 180,
+          "AngleMin": 0
         },
         {
           "$type": "ByOr",

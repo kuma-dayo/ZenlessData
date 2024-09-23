@@ -1,0 +1,14 @@
+{
+  "AbilityName": "Abyss_Fixed02LayerBuff_04_02",
+  "AbilitySpecials": {
+    "AS_DestroyRecoverRate_Ratio": {
+      "Value": -3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "Properties": {
+      "Actor_StunDestroyRecoverRate_Ratio": "%AS_DestroyRecoverRate_Ratio"
+    }
+  }
+}

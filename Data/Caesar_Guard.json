@@ -1,0 +1,215 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_01",
+          "FrameCountHigh": 215,
+          "FrameCountLow": 12,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_02",
+          "FrameCountHigh": 240,
+          "FrameCountLow": 44,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_GuardHit",
+          "FrameCountHigh": 90,
+          "FrameCountLow": 12,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Rush",
+          "FrameCountHigh": 40,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Back",
+          "FrameCountHigh": 47,
+          "FrameCountLow": 25,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Evade_Back_02",
+          "FrameCountHigh": 57,
+          "FrameCountLow": 28,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "ReflectBullet",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "NormalGuardModifier",
+            "ReduceDamageModifier",
+            "ReflectBulletModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_Guard",
+  "AbilitySpecials": {
+    "AS_DamageTakeRatio": {
+      "Value": -0.4
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "NormalGuardModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "Caesar_GuardPoint"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "ParamName": "Trigger_GuardHit_Normal",
+          "ParamType": 1
+        },
+        {
+          "$type": "SetRBLAction",
+          "RBL": 99,
+          "Tag": "Caesar_Gurad",
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Attack_GuardHit"
+        },
+        {
+          "$type": "SetAttackTargetBySpecificTargetAction",
+          "ForceOverride": true,
+          "IgnoreSetAttackTargetCD": true,
+          "NewLockTarget": "Target",
+          "Target": "Self"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Caesar_Guard_Hit_02",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLAction",
+          "Tag": "Caesar_Gurad",
+          "Target": "Self"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "Caesar_GuardPoint"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ReduceDamageModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnBeingHitPre": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByHitAngleRange",
+                  "AngleMax": 180,
+                  "AngleMin": 0
+                },
+                {
+                  "$type": "ByHitDataType",
+                  "TheHitDataType": "Range"
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "PropertyKey": "Actor_DamageTakeRatio",
+          "PropertyValue": "%AS_DamageTakeRatio",
+          "Target": "Self"
+        }
+      ]
+    },
+    "ReflectBulletModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ChangeReflectBulletStatusAction",
+          "ColliderConfig": {
+            "BulletTypeName": "ConfigurableSphereCollider",
+            "ColliderAngleOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "ColliderPosOffset": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "ColliderType": "Sphere",
+            "SphereColliderRadius": 0.75
+          },
+          "ReflectStatus": true
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "ChangeReflectBulletStatusAction",
+          "ReflectStatus": false
+        }
+      ]
+    }
+  }
+}

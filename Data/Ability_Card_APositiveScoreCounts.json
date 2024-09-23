@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "HitLightModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         },
         {
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "HitLightModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         },
         {
@@ -29,8 +29,8 @@
           "ModifierNameList": [
             "HitHeavyModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         },
         {
@@ -39,8 +39,8 @@
           "ModifierNameList": [
             "HitHeavyModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         },
         {
@@ -49,8 +49,8 @@
           "ModifierNameList": [
             "HitFlyModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         },
         {
@@ -59,8 +59,8 @@
           "ModifierNameList": [
             "HitFlyModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "TeamAvatars"
         }
       ]
@@ -69,25 +69,25 @@
   "AbilityName": "Ability_Card_APositiveScoreCounts",
   "AbilitySpecials": {
     "AS_CounterHitScore": {
-      "Value": 10.0
+      "Value": 10
     },
     "AS_HitFlyScore": {
-      "Value": -30.0
+      "Value": -30
     },
     "AS_HitHeavyScore": {
-      "Value": -15.0
+      "Value": -15
     },
     "AS_HitLightScore": {
-      "Value": -5.0
+      "Value": -5
     },
     "AS_HitScore": {
-      "Value": 3.0
+      "Value": 3
     },
     "AS_PositiveScore": {
       "Value": 0
     },
     "AS_ThinkIntervalScore": {
-      "Value": -1.0
+      "Value": -1
     }
   },
   "AbilityStacking": "Unique",

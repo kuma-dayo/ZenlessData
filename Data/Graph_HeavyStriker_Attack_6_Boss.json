@@ -1,0 +1,504 @@
+{
+  "AbilityName": "Graph_HeavyStriker_Attack_6_Boss",
+  "EventGraph": {
+    "EditorOnlyData": {
+      "Event": {
+        "OnAbilityTrigger": {
+          "Position": {
+            "x": 58,
+            "y": 242
+          }
+        }
+      },
+      "Graph": {
+        "Pan": {
+          "x": -719,
+          "y": -402
+        },
+        "Zoom": 1.520875
+      },
+      "Group": [
+      ],
+      "Node": [
+        {
+          "Position": {
+            "x": 242,
+            "y": 242
+          }
+        },
+        {
+          "Position": {
+            "x": 456,
+            "y": 242
+          }
+        },
+        {
+          "Position": {
+            "x": 637,
+            "y": 242
+          }
+        },
+        {
+          "Position": {
+            "x": 830,
+            "y": 181
+          }
+        },
+        {
+          "Position": {
+            "x": 1038,
+            "y": 181
+          }
+        },
+        {
+          "Position": {
+            "x": 1244,
+            "y": 238
+          }
+        },
+        {
+          "Position": {
+            "x": 635,
+            "y": 441
+          }
+        },
+        {
+          "Position": {
+            "x": 838,
+            "y": 441
+          }
+        },
+        {
+          "Position": {
+            "x": 1047,
+            "y": 512
+          }
+        },
+        {
+          "Position": {
+            "x": 1814,
+            "y": 488
+          }
+        },
+        {
+          "Position": {
+            "x": 2008,
+            "y": 442
+          }
+        },
+        {
+          "Position": {
+            "x": 1035,
+            "y": 625
+          }
+        },
+        {
+          "Position": {
+            "x": 1202,
+            "y": 625
+          }
+        },
+        {
+          "Position": {
+            "x": 1608,
+            "y": 512
+          }
+        },
+        {
+          "Position": {
+            "x": 1396,
+            "y": 601
+          }
+        },
+        {
+          "Position": {
+            "x": 1234,
+            "y": 512
+          }
+        },
+        {
+          "Position": {
+            "x": 1428,
+            "y": 239
+          }
+        },
+        {
+          "Position": {
+            "x": 1660,
+            "y": 238
+          }
+        },
+        {
+          "Position": {
+            "x": 1948,
+            "y": 238
+          }
+        }
+      ]
+    },
+    "EventMap": {
+      "OnAbilityTrigger": {
+        "$type": "ConfigAbilityGraphEvent",
+        "EventNodeBind": 0,
+        "ParametersBind": [
+        ]
+      }
+    },
+    "NodeList": [
+      {
+        "$type": "DelayNode",
+        "Complete": 1,
+        "DefaultOutBind": -1,
+        "DelayTime": {
+          "DefaultValue": 0.6
+        }
+      },
+      {
+        "$type": "SequenceNode",
+        "DefaultOutBind": -1,
+        "Then": [
+          2,
+          6
+        ]
+      },
+      {
+        "$type": "GetEntityPosRot",
+        "DefaultOutBind": 5,
+        "Position": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1001,
+            1015
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1000,
+            1016
+          ]
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "RotateVector",
+        "DefaultOutBind": -1,
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1002
+          ]
+        },
+        "RotateValue": {
+          "$type": "ConfigInputValue",
+          "BindId": 1000
+        },
+        "V3Value": {
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1002
+        },
+        "InTwo": {
+          "BindId": 1001
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1003
+          ]
+        },
+        "PreActionBind": [
+          3
+        ]
+      },
+      {
+        "$type": "StageVariableNode",
+        "DefaultOutBind": 16,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1003
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1005
+          ]
+        },
+        "PreActionBind": [
+          4
+        ]
+      },
+      {
+        "$type": "GetEntityDirection",
+        "DefaultOutBind": 7,
+        "Forward": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1007
+          ]
+        },
+        "Right": {
+          "$type": "ConfigOutputValue"
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Up": {
+          "$type": "ConfigOutputValue"
+        }
+      },
+      {
+        "$type": "ForNode",
+        "Count": {
+          "DefaultValue": 6
+        },
+        "CurIndex": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1008
+          ]
+        },
+        "DefaultOutBind": -1,
+        "Do": 10
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "DefaultValue": 11
+        },
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1018
+          ]
+        },
+        "Vector": {
+          "BindId": 1007
+        }
+      },
+      {
+        "$type": "VectorAdd",
+        "DefaultOutBind": -1,
+        "InOne": {
+          "BindId": 1005
+        },
+        "InTwo": {
+          "BindId": 1004
+        },
+        "OutValue": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1006
+          ]
+        },
+        "PreActionBind": [
+          13
+        ]
+      },
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": -1,
+        "InitialGraphKey": {
+          "DefaultValue": "Graph_HeavyStriker_Attack_6_Burst"
+        },
+        "ModelSize": {
+          "BindId": 1013,
+          "DefaultValue": 1
+        },
+        "Position": {
+          "BindId": 1006
+        },
+        "PreActionBind": [
+          9
+        ],
+        "PropID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "AsFloatNode",
+        "DefaultOutBind": -1,
+        "Input": {
+          "$type": "ConfigInputValue",
+          "BindId": 1008
+        },
+        "Output": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1009
+          ]
+        }
+      },
+      {
+        "$type": "FloatMulNode",
+        "DefaultOutBind": -1,
+        "ParamOne": {
+          "BindId": 1009
+        },
+        "ParamTwo": {
+          "DefaultValue": 60
+        },
+        "PreActionBind": [
+          11
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1012
+          ]
+        }
+      },
+      {
+        "$type": "RotateVector",
+        "DefaultOutBind": -1,
+        "PreActionBind": [
+          14,
+          15
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1004
+          ]
+        },
+        "RotateValue": {
+          "$type": "ConfigInputValue",
+          "BindId": 1011
+        },
+        "V3Value": {
+          "BindId": 1010
+        }
+      },
+      {
+        "$type": "MakeRotationByAxis",
+        "Angle": {
+          "BindId": 1012
+        },
+        "Axis": {
+          "DefaultValue": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          }
+        },
+        "DefaultOutBind": -1,
+        "OutRotation": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1011
+          ]
+        },
+        "PreActionBind": [
+          12
+        ]
+      },
+      {
+        "$type": "VectorMulNum",
+        "DefaultOutBind": -1,
+        "Num": {
+          "BindId": 1019
+        },
+        "PreActionBind": [
+          8
+        ],
+        "Result": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1010
+          ]
+        },
+        "Vector": {
+          "BindId": 1018
+        }
+      },
+      {
+        "$type": "GetModelSizeNode",
+        "DefaultOutBind": 17,
+        "ModelSize": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1013,
+            1017,
+            1019
+          ]
+        },
+        "Prop": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        }
+      },
+      {
+        "$type": "CreateProp",
+        "DefaultOutBind": 18,
+        "InitialGraphKey": {
+        },
+        "ModelSize": {
+          "BindId": 1017,
+          "DefaultValue": 1
+        },
+        "Position": {
+          "BindId": 1015
+        },
+        "PropID": {
+          "$type": "ConfigOutputValue",
+          "BindId": [
+            1014
+          ]
+        },
+        "Rotation": {
+          "$type": "ConfigInputValue",
+          "BindId": 1016
+        }
+      },
+      {
+        "$type": "AttachEffectNode",
+        "AttachPoint": "",
+        "DefaultOutBind": -1,
+        "EffectID": {
+          "$type": "ConfigOutputValue"
+        },
+        "Key": {
+          "DefaultValue": "Eff_Monster_HeavyStriker_Attack_06_09_Lightning"
+        },
+        "PositionOffset": {
+        },
+        "RotationOffset": {
+          "$type": "ConfigInputValue",
+          "BindId": 0
+        },
+        "Scale": {
+          "DefaultValue": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "Target": {
+          "$type": "ConfigInputValue",
+          "BindId": 1014
+        }
+      }
+    ],
+    "VariableRegisterList": [
+    ]
+  },
+  "OnAbilityTrigger": [
+    {
+      "$type": "CallGraphEvent",
+      "EventName": "OnAbilityTrigger"
+    }
+  ]
+}

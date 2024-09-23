@@ -1,0 +1,209 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachZoneTagWithModifierMixin",
+      "ConfigList": [
+        {
+          "ModifierNameList": [
+            "DistanceCheckModifier"
+          ],
+          "ZoneTag": "TyrantPompey_AttackAiming"
+        },
+        {
+          "ModifierNameList": [
+            "RaisedMovingModifier"
+          ],
+          "ZoneTag": "TyrantPompey_P1_RaisedMoving"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_P1_AttackDetect",
+  "AbilitySpecials": {
+    "AS_DistanceValue": {
+      "Value": 8
+    },
+    "AS_HasAngleRangeLimit": {
+      "Value": 0
+    },
+    "AS_IsRaiseAttack": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "DistanceCheckModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnThinkInterval": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": "%AS_DistanceValue",
+              "Target": "Self"
+            },
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 0,
+              "ParamName": "AS_IsRaiseAttack"
+            },
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": 75,
+                  "AngleMin": -75,
+                  "CompareTarget": "SelfAttackTarget"
+                },
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "Equal",
+                  "Param": 0,
+                  "ParamName": "AS_HasAngleRangeLimit"
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": true,
+              "ParamName": "Trigger_PressAttackA",
+              "ParamType": 1,
+              "Target": "Self"
+            },
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackSuccess"
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_Raised",
+          "ParamType": 2,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 90,
+              "AngleMin": -90,
+              "CompareTarget": "SelfAttackTarget"
+            },
+            {
+              "$type": "ByAbilitySpecial",
+              "CompareType": "Equal",
+              "Param": 1,
+              "ParamName": "AS_IsRaiseAttack"
+            },
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": "%AS_DistanceValue",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "ThinkInterval": 0.05
+    },
+    "RaisedMovingModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "RaisedTimer"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAbilitySpecialAction",
+          "ModifyFunction": "Replace",
+          "Param": 0,
+          "ParamName": "AS_IsRaiseAttack"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "RaisedTimer"
+        }
+      ],
+      "OnThinkInterval": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 6,
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": 180,
+                  "AngleMin": 90,
+                  "CompareTarget": "SelfAttackTarget"
+                },
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": -90,
+                  "AngleMin": -180,
+                  "CompareTarget": "SelfAttackTarget"
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_Raised",
+              "ParamType": 2,
+              "Target": "Self"
+            },
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackSuccess"
+            }
+          ]
+        }
+      ],
+      "ThinkInterval": 0.05
+    },
+    "RaisedTimer": {
+      "Duration": 3,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_Raised",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "SendBehaviorTreeEventAction",
+          "EventName": "isAttackSuccess"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "RaisedMovingModifier"
+        }
+      ]
+    }
+  }
+}

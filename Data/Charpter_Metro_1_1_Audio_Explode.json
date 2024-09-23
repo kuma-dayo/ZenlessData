@@ -1,0 +1,22 @@
+{
+  "AbilityName": "Charpter_Metro_1_1_Audio_Explode",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "Way_Explode_Audio": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "FireAudio",
+          "AudioPattern": "Play_sfx_Device_Mine_explode"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "FireAudio",
+      "AudioPattern": "Play_sfx_Device_Mine_explode"
+    }
+  ]
+}

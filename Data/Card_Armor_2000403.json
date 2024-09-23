@@ -2,7 +2,7 @@
   "AbilityName": "Card_Armor_2000403",
   "AbilitySpecials": {
     "CriticalDamageRatioDelta": {
-      "Value": 1.0
+      "Value": 1
     },
     "ElementAbnormalPowerDelta": {
       "Value": 15

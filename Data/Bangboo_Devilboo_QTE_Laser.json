@@ -18,7 +18,7 @@
         "EffectPattern": "Eff_Bangboo_Devilboo_SwitchIn_Attack_16_Burst"
       },
       "FadeRatio": 0.3,
-      "FirstHitDelayTime": 0.0,
+      "FirstHitDelayTime": 0,
       "HitAnimEventID": "Bangboo_Devilboo_AttackProperty_QTE_03",
       "HitColliderRadius": 0.5,
       "HitEffect": {
@@ -33,14 +33,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
             "x": 0,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -54,14 +54,14 @@
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "PositionOffset": {
             "x": 0,
-            "y": 0.0,
-            "z": 0.0
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -84,7 +84,8 @@
           "Target": "Self"
         }
       ],
-      "OnLaserHitOtherAction": [],
+      "OnLaserHitOtherAction": [
+      ],
       "OnLaserInterruptAction": [
         {
           "$type": "SpecialEffectFadeAction",
@@ -96,7 +97,8 @@
           "Target": "Self"
         }
       ],
-      "OnLaserStartAction": [],
+      "OnLaserStartAction": [
+      ],
       "StartEffect": {
         "EffectPattern": ""
       },

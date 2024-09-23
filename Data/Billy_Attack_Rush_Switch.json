@@ -10,8 +10,8 @@
             "SwitchModifier_Add",
             "SwitchModifier_Reset"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Evade_Front",
@@ -19,8 +19,8 @@
           "ModifierNameList": [
             "SwitchModifier_Reset"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }

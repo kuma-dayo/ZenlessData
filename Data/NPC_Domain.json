@@ -21,11 +21,13 @@
               ]
             }
           ],
-          "LowToValueActions": [],
+          "LowToValueActions": [
+          ],
           "Val": 0
         },
         {
-          "HighToValueActions": [],
+          "HighToValueActions": [
+          ],
           "LowToValueActions": [
             {
               "$type": "ModifyLayeredEffectAction",
@@ -39,7 +41,8 @@
           "Val": 0.1
         }
       ],
-      "OnFailureActions": [],
+      "OnFailureActions": [
+      ],
       "OnOccupyStartActions": [
         {
           "$type": "FireEffect",
@@ -71,7 +74,8 @@
       "Radius": "%InteractRadius",
       "ResourceRangeActions": [
         {
-          "HighToValueActions": [],
+          "HighToValueActions": [
+          ],
           "LowToValueActions": [
             {
               "$type": "ModifyLayeredEffectAction",
@@ -86,7 +90,8 @@
           "Val": 0.03
         },
         {
-          "HighToValueActions": [],
+          "HighToValueActions": [
+          ],
           "LowToValueActions": [
             {
               "$type": "FireEffect",

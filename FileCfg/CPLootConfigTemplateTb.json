@@ -1,3 +1,98 @@
 {
-  "KHHABHLHAFG": []
+  "JIJNDLLPCHO": [
+    {
+      "DKDDFEIAMIF": 1,
+      "PPINBGPFKAA": 1,
+      "KOAJBKEICOG": 0,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 0.05,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500102,
+      "NKBDOGJNJAC": [
+        1
+      ],
+      "HACOJPOFPJI": 500101,
+      "AHJFFCAKPML": 500101,
+      "NLNIMJELPHF": 500103,
+      "CFDKHJLOOGF": 100
+    },
+    {
+      "DKDDFEIAMIF": 2,
+      "PPINBGPFKAA": 0,
+      "KOAJBKEICOG": 0,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 0.05,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500102,
+      "NKBDOGJNJAC": [],
+      "HACOJPOFPJI": 500101,
+      "AHJFFCAKPML": 500101,
+      "NLNIMJELPHF": 500103,
+      "CFDKHJLOOGF": 0
+    },
+    {
+      "DKDDFEIAMIF": 3,
+      "PPINBGPFKAA": 2,
+      "KOAJBKEICOG": 0,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 1,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500202,
+      "NKBDOGJNJAC": [
+        4
+      ],
+      "HACOJPOFPJI": 500201,
+      "AHJFFCAKPML": 500201,
+      "NLNIMJELPHF": 500203,
+      "CFDKHJLOOGF": 100
+    },
+    {
+      "DKDDFEIAMIF": 4,
+      "PPINBGPFKAA": 3,
+      "KOAJBKEICOG": 0,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 1,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500402,
+      "NKBDOGJNJAC": [
+        14
+      ],
+      "HACOJPOFPJI": 500401,
+      "AHJFFCAKPML": 500401,
+      "NLNIMJELPHF": 500403,
+      "CFDKHJLOOGF": 100
+    },
+    {
+      "DKDDFEIAMIF": 5,
+      "PPINBGPFKAA": 4,
+      "KOAJBKEICOG": 400001,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 1,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500302,
+      "NKBDOGJNJAC": [
+        3
+      ],
+      "HACOJPOFPJI": 500301,
+      "AHJFFCAKPML": 500301,
+      "NLNIMJELPHF": 500303,
+      "CFDKHJLOOGF": 100
+    },
+    {
+      "DKDDFEIAMIF": 6,
+      "PPINBGPFKAA": 5,
+      "KOAJBKEICOG": 400002,
+      "DHFBOEKFFDN": 0,
+      "MGNFMPACDJI": 1,
+      "MOFEOBIKBPF": 10000000,
+      "LHDDDJCLFNL": 500502,
+      "NKBDOGJNJAC": [
+        3
+      ],
+      "HACOJPOFPJI": 500501,
+      "AHJFFCAKPML": 500501,
+      "NLNIMJELPHF": 500503,
+      "CFDKHJLOOGF": 100
+    }
+  ]
 }

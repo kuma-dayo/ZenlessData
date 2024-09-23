@@ -2,7 +2,7 @@
   "AbilityName": "ActivityBattleAbility_Condition_CounterPlay",
   "AbilitySpecials": {
     "AS_BuffDuration": {
-      "Value": 15.0
+      "Value": 15
     }
   },
   "AbilityStacking": "Unique",

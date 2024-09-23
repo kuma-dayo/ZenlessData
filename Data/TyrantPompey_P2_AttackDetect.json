@@ -1,0 +1,45 @@
+{
+  "AbilityName": "TyrantPompey_P2_AttackDetect",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "ComboDetectManager": {
+      "Duration": 1.5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 41,
+          "ParamName": "Int_AttackIndex",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 90,
+              "AngleMin": -90,
+              "CompareTarget": "SelfAttackTarget",
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 5,
+          "ParamName": "Int_AttackIndex",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "GreaterEqual",
+              "Distance": 10,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

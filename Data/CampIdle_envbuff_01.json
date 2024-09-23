@@ -1,0 +1,20 @@
+{
+  "AbilityName": "CampIdle_envbuff_01",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "PushUnlimitPerfectSwitchPointAction",
+        "Tag": "Player_ParryAid_Unlimit",
+        "Target": "Self"
+      }
+    ],
+    "OnRemoved": [
+      {
+        "$type": "PopUnlimitPerfectSwitchPointAction",
+        "Tag": "Player_ParryAid_Unlimit",
+        "Target": "Self"
+      }
+    ]
+  }
+}

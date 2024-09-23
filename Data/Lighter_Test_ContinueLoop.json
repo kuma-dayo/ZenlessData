@@ -1,0 +1,109 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_03_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "HitCheckModifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "HitCheckModifier02"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "HitCheckModifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "HitCheckModifier02"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "HitCheckModifier01"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_Test_ContinueLoop",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "HitCheckModifier01": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Refresh",
+      "OnHitOther": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_ContinueLoop",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_ContinueLoop",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    },
+    "HitCheckModifier02": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Refresh",
+      "OnHitOther": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_ContinueLoop",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_ContinueLoop",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

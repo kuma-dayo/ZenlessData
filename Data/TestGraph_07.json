@@ -3,7 +3,7 @@
   "EventGraph": {
     "EditorOnlyData": {
       "Event": {
-        "OnStart": {
+        "OnAbilityTrigger": {
           "x": 56.89999,
           "y": 241.85
         }
@@ -68,10 +68,11 @@
       ]
     },
     "EventMap": {
-      "OnStart": {
+      "OnAbilityTrigger": {
         "$type": "ConfigAbilityGraphEvent",
         "EventNodeBind": 5,
-        "ParametersBind": []
+        "ParametersBind": [
+        ]
       }
     },
     "NodeList": [
@@ -85,7 +86,8 @@
         "Key": {
           "DefaultValue": "Eff_Treasure_Open"
         },
-        "PositionOffset": {},
+        "PositionOffset": {
+        },
         "PreActionBind": [
           7
         ],
@@ -250,7 +252,8 @@
             1003
           ]
         },
-        "PreActionBind": [],
+        "PreActionBind": [
+        ],
         "Right": {
           "$type": "ConfigOutputValue"
         },
@@ -260,16 +263,18 @@
         },
         "Up": {
           "$type": "ConfigOutputValue",
-          "BindId": []
+          "BindId": [
+          ]
         }
       }
     ],
-    "VariableRegisterList": []
+    "VariableRegisterList": [
+    ]
   },
-  "OnAbilityStart": [
+  "OnAbilityTrigger": [
     {
       "$type": "CallGraphEvent",
-      "EventName": "OnStart"
+      "EventName": "OnAbilityTrigger"
     }
   ]
 }

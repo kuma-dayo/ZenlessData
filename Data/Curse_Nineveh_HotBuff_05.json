@@ -1,0 +1,54 @@
+{
+  "AbilityName": "Curse_Nineveh_HotBuff_05",
+  "AbilitySpecials": {
+    "Actor_SPGetRatio": {
+      "Value": -0.4
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnAdded": [
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByIsLocalAvatar",
+            "IsLocalAvatar": true,
+            "Target": "Self"
+          }
+        ],
+        "SuccessActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "SpGetDecreaseModifier",
+            "Target": "Self"
+          }
+        ]
+      }
+    ],
+    "OnSwitchInBegin": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "SpGetDecreaseModifier",
+        "Target": "Self"
+      }
+    ],
+    "OnSwitchOutFinish": [
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "SpGetDecreaseModifier",
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "SpGetDecreaseModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_SPGetRatio": "%Actor_SPGetRatio"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "AbilityName": "Pulchra_Death_Dither",
+  "AbilityStacking": "Unique",
+  "OnAbilityStart": [
+    {
+      "$type": "DitherFadeAction",
+      "DitherFadeKey": "Monster_MorsType_Dither_Fade",
+      "Tag": "Pulchra_Death",
+      "Target": "Self"
+    }
+  ]
+}

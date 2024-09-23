@@ -36,7 +36,8 @@
     "CloseModifier": {
       "Duration": -1,
       "ModifierStacking": "Unique",
-      "OnAdded": [],
+      "OnAdded": [
+      ],
       "OnRemoved": [
         {
           "$type": "LDListenEntityAction",
@@ -47,7 +48,8 @@
     "OpenModifier": {
       "Duration": -1,
       "ModifierStacking": "Unique",
-      "OnAdded": [],
+      "OnAdded": [
+      ],
       "OnRemoved": [
         {
           "$type": "LDListenEntityAction",

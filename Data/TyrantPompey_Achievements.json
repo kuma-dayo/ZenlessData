@@ -1,0 +1,70 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P1_Attack_04_Fall",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "AttachP1AchivedModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "P2_Attack_06_Fall",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 0,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "TriggerAchievementsModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_Achievements",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AttachP1AchivedModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "P1AchivedModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "P1AchivedModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique"
+    },
+    "TriggerAchievementsModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "TriggerLevelCustomConditions",
+          "LevelConditionsID": 1127,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "P1AchivedModifier"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -47,13 +47,13 @@
   },
   "Modifiers": {
     "RecoverCalModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {
           "$type": "SetAbilitySpecialByExpression",
           "DoRefresh": true,
-          "Expression": "property(SpGetRatio_Battle)/specials(AS_SpGetRatio_Threshold)",
+          "Expression": "property(SpGetRatio_Battle)\/specials(AS_SpGetRatio_Threshold)",
           "ParamName": "AS_SpRecoverAddTime",
           "Target": "Self",
           "ValueType": "Integer"
@@ -102,7 +102,7 @@
       ]
     },
     "SpRecoverModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Replace",
       "OnAdded": [
         {

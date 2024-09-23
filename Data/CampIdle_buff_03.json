@@ -1,0 +1,145 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": true,
+          "PropertyType": "CurHP",
+          "ReferMaxPropertyType": "MaxHP",
+          "ValueRangeActions": [
+            {
+              "Val": 0.5,
+              "ValueToLowActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "FeverUpMore",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "FeverUpLess",
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "FeverUpLess",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "FeverUpMore",
+                  "Target": "Self"
+                }
+              ],
+              "Val": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "CampIdle_buff_03",
+  "AbilitySpecials": {
+    "AS_FeverGetRatioLess": {
+      "Value": 0.1
+    },
+    "AS_FeverGetRatioMore": {
+      "Value": 0.2
+    },
+    "CampAddRatio": {
+      "Value": 2
+    },
+    "TextAS_FeverGetRatioLess": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_FeverGetRatioMore)*specials(CampAddRatio)",
+        "ParamName": "AS_FeverGetRatioMore",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 1,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_FeverGetRatioLess)*specials(CampAddRatio)",
+        "ParamName": "AS_FeverGetRatioLess",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 1,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "BranchOperator",
+        "Conditions": [
+          {
+            "$type": "ByPlayerPropertyValue",
+            "CompareType": "GreaterEqual",
+            "Denominator": "MaxHP",
+            "IsUsePercent": true,
+            "Numerator": "CurHP",
+            "Target": "Self",
+            "Val1": 0.5,
+            "Val2": 0
+          }
+        ],
+        "FailureActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "FeverUpLess",
+            "Target": "Self"
+          }
+        ],
+        "SuccessActions": [
+          {
+            "$type": "ApplyModifier",
+            "ModifierName": "FeverUpMore",
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "FeverUpLess": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_FeverGetRatio": "%AS_FeverGetRatioLess"
+      }
+    },
+    "FeverUpMore": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_FeverGetRatio": "%AS_FeverGetRatioMore"
+      }
+    }
+  }
+}

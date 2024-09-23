@@ -9,8 +9,8 @@
           "ModifierNameList": [
             "HitListenerModifier01"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01_Straight",
@@ -19,8 +19,8 @@
             "HitListenerModifier01",
             "RemoveWoodMaterialModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_01_Late",
@@ -29,8 +29,8 @@
             "HitListenerModifier01",
             "RemoveWoodMaterialModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Early",
@@ -38,8 +38,8 @@
           "ModifierNameList": [
             "HitListenerModifier02"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Straight",
@@ -48,8 +48,8 @@
             "HitListenerModifier02",
             "RemoveWoodMaterialModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_Branch_02_Late",
@@ -58,8 +58,8 @@
             "HitListenerModifier02",
             "RemoveWoodMaterialModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -85,10 +85,13 @@
   },
   "Modifiers": {
     "HitListenerModifier01": {
+      "AttackDataCallbackRules": [
+        "MuteNormalCallBack"
+      ],
       "Duration": -1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
-      "OnMuteNormalHittingOther": [
+      "OnHitOther": [
         {
           "$type": "ApplyModifier",
           "ModifierName": "HitModifier01",
@@ -104,10 +107,13 @@
       ]
     },
     "HitListenerModifier02": {
+      "AttackDataCallbackRules": [
+        "MuteNormalCallBack"
+      ],
       "Duration": -1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "Unique",
-      "OnMuteNormalHittingOther": [
+      "OnHitOther": [
         {
           "$type": "ApplyModifier",
           "ModifierName": "HitModifier02",
@@ -147,8 +153,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -162,8 +168,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -176,8 +182,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -193,8 +199,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -208,8 +214,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -222,8 +228,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -239,8 +245,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -254,8 +260,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -268,8 +274,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_01_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -308,17 +314,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 9999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 9999
                 }
               },
               "TargetOption": {
@@ -372,8 +378,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -387,8 +393,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -401,8 +407,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Early",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -418,8 +424,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -433,8 +439,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -447,8 +453,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Straight",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -464,8 +470,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -479,8 +485,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ]
@@ -493,8 +499,8 @@
               "$type": "ByAnimatorStateNormalizedTime",
               "AnimatorStateName": "Attack_Branch_02_Late",
               "LayerIndex": 0,
-              "NormalizedTimeHigh": 1.0,
-              "NormalizedTimeLow": 0.0,
+              "NormalizedTimeHigh": 1,
+              "NormalizedTimeLow": 0,
               "Target": "Caster"
             }
           ],
@@ -538,17 +544,17 @@
               "CoordsOption": "ReferTarget",
               "Offset": {
                 "AngleOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
                 },
                 "IsClampOffsetDistance": false,
                 "IsUseRotationXZ": true,
                 "IsUseRotationY": true,
                 "PositionOffset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 9999.0
+                  "x": 0,
+                  "y": 0,
+                  "z": 9999
                 }
               },
               "TargetOption": {
@@ -834,16 +840,16 @@
           "FollowPosRot": {
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -854,9 +860,9 @@
               "OffsetReferTarget": "Self"
             }
           },
-          "PosSpeed": 1.0,
+          "PosSpeed": 1,
           "PosType": "Instant",
-          "RotRatio": 8.0,
+          "RotRatio": 8,
           "RotType": "Instant"
         }
       ],

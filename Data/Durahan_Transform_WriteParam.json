@@ -34,7 +34,7 @@
   },
   "Modifiers": {
     "WriteParamModifier_01": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -81,7 +81,7 @@
       ]
     },
     "WriteParamModifier_02": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -137,8 +137,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Transform_ToSword",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],
@@ -152,8 +152,8 @@
           "$type": "ByAnimatorStateNormalizedTime",
           "AnimatorStateName": "Transform_ToSwordShield",
           "LayerIndex": 0,
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ],

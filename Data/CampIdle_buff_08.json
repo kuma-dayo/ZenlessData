@@ -1,0 +1,91 @@
+{
+  "AbilityName": "CampIdle_buff_08",
+  "AbilitySpecials": {
+    "AS_AddedDamageRatio": {
+      "Value": 0.1
+    },
+    "AS_AddedStunRatio": {
+      "Value": 0.1
+    },
+    "CampAddRatio": {
+      "Value": 2
+    },
+    "TextAS_AddedDamageRatio": {
+      "Value": 0.1
+    },
+    "TextAS_AddedStunRatio": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_AddedDamageRatio)*specials(CampAddRatio)",
+        "ParamName": "AS_AddedDamageRatio",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 7,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_AddedStunRatio)*specials(CampAddRatio)",
+        "ParamName": "AS_AddedStunRatio",
+        "Predicates": [
+          {
+            "$type": "ByCampAvatarAmount",
+            "Camp": 7,
+            "CompareType": "GreaterEqual",
+            "Param": 2,
+            "Param2": 0
+          }
+        ],
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Counter"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedDamageRatio",
+        "PropertyValue": "%AS_AddedDamageRatio",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackNormal",
+              "Counter"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%AS_AddedStunRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

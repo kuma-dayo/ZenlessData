@@ -1,0 +1,60 @@
+{
+  "AbilityName": "Burnice_Talent_03",
+  "AbilitySpecials": {
+    "AS_CriticalDelta": {
+      "Value": 0.3
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_ExSp_01_Extend",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 1,
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackSpecial",
+              "ExSp"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_CriticalDelta",
+        "PropertyValue": "%AS_CriticalDelta",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "AttackAid"
+            ],
+            "Target": "Self"
+          }
+        ],
+        "PropertyKey": "Actor_CriticalDelta",
+        "PropertyValue": "%AS_CriticalDelta",
+        "Target": "Self"
+      }
+    ]
+  }
+}

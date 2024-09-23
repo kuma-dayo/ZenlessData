@@ -24,7 +24,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "property(CurHP)/property(MaxHP)",
+        "Expression": "property(CurHP)\/property(MaxHP)",
         "ParamName": "Hp_OnBeingHitResolved",
         "ValueType": "Float"
       },
@@ -63,7 +63,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "property(CurHP)/property(MaxHP)",
+        "Expression": "property(CurHP)\/property(MaxHP)",
         "ParamName": "Hp_OnBeingHitPre",
         "ValueType": "Float"
       }

@@ -1,0 +1,98 @@
+{
+  "AbilityName": "Level_Buff_DiscBattle07",
+  "AbilitySpecials": {
+    "AS_AddedAccumulationRatio": {
+      "Value": 0.5
+    },
+    "AS_BaseAttackRatio": {
+      "Value": 0.3
+    },
+    "AS_RecoverSp": {
+      "Value": 40
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "ElementAddBuff",
+        "Target": "Self"
+      }
+    ],
+    "OnBuffAddToOther": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "AttackAddBuff",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos",
+              "Burn",
+              "Ignite",
+              "Frozen",
+              "Frostbite",
+              "Strike"
+            ]
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RecoverSPModifier",
+        "Predicates": [
+          {
+            "$type": "ByHandlingBuffGroup",
+            "BuffGroupList": [
+              "Electric",
+              "Overload",
+              "Erosion",
+              "Chaos",
+              "Burn",
+              "Ignite",
+              "Frozen",
+              "Frostbite",
+              "Strike"
+            ]
+          }
+        ],
+        "Target": "TeamAvatars"
+      }
+    ]
+  },
+  "Modifiers": {
+    "AttackAddBuff": {
+      "Duration": 15,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_BaseAttackRatio": "%AS_BaseAttackRatio"
+      }
+    },
+    "ElementAddBuff": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "Properties": {
+        "Actor_AddedElementAccumulationRatio": "%AS_AddedAccumulationRatio"
+      }
+    },
+    "RecoverSPModifier": {
+      "Duration": 15,
+      "IsUnique": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": "%AS_RecoverSp",
+          "IgnoreRatio": false,
+          "Percentage": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

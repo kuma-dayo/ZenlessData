@@ -25,6 +25,22 @@
     {
       "AreaName": "Traffic_Light01",
       "ID": 101005
+    },
+    {
+      "AreaName": "Traffic_Light02",
+      "ID": 101006
+    },
+    {
+      "AreaName": "Traffic_Light03",
+      "ID": 101007
+    },
+    {
+      "AreaName": "Traffic_Light04",
+      "ID": 101008
+    },
+    {
+      "AreaName": "Traffic_PlayerHoldon",
+      "ID": 101009
     }
   ],
   "102": [
@@ -37,6 +53,20 @@
     {
       "AreaName": "MainCity_FortuneHIA",
       "ID": 103001
+    }
+  ],
+  "104": [
+    {
+      "AreaName": "Maincity_OuterRing_1F",
+      "ID": 104001
+    },
+    {
+      "AreaName": "Maincity_OuterRing_2F",
+      "ID": 104002
+    },
+    {
+      "AreaName": "Maincity_OuterRing_Elevator",
+      "ID": 104003
     }
   ],
   "151": [

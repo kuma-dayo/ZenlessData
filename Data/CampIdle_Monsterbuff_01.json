@@ -1,0 +1,29 @@
+{
+  "AbilityName": "CampIdle_Monsterbuff_01",
+  "AbilitySpecials": {
+    "ParryAidTakeStunRatio": {
+      "Value": -0.2
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHit": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid",
+              "AttackAid"
+            ],
+            "Target": "Target"
+          }
+        ],
+        "PropertyKey": "Actor_BreakStunTakeRatio",
+        "PropertyValue": "%ParryAidTakeStunRatio",
+        "Target": "Self"
+      }
+    ]
+  }
+}

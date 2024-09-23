@@ -1,61 +1,61 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "NGPCCDGBLLK": 1,
-      "AJLLFDOHEEP": "Visible",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 1,
+      "LEJEJCMIJMB": "Visible",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE",
         "FLAG_CAN_MOVE"
       ]
     },
     {
-      "NGPCCDGBLLK": 2,
-      "AJLLFDOHEEP": "VisibleAtGridAround",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 2,
+      "LEJEJCMIJMB": "VisibleAtGridAround",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE_AT_GRID_AROUND"
       ]
     },
     {
-      "NGPCCDGBLLK": 3,
-      "AJLLFDOHEEP": "VisibleByTriggerEvent",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 3,
+      "LEJEJCMIJMB": "VisibleByTriggerEvent",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE_BY_TRIGGER_EVENT"
       ]
     },
     {
-      "NGPCCDGBLLK": 4,
-      "AJLLFDOHEEP": "TemporaryVisibleAtAround",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 4,
+      "LEJEJCMIJMB": "TemporaryVisibleAtAround",
+      "PLNDLKPHGFA": [
         "FLAG_TEMPORARY_VISIBLE_AT_AROUND"
       ]
     },
     {
-      "NGPCCDGBLLK": 5,
-      "AJLLFDOHEEP": "Blocked",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 5,
+      "LEJEJCMIJMB": "Blocked",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE"
       ]
     },
     {
-      "NGPCCDGBLLK": 6,
-      "AJLLFDOHEEP": "All",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 6,
+      "LEJEJCMIJMB": "All",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE",
         "FLAG_CAN_MOVE"
       ]
     },
     {
-      "NGPCCDGBLLK": 7,
-      "AJLLFDOHEEP": "",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 7,
+      "LEJEJCMIJMB": "",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE",
         "FLAG_CAN_MOVE"
       ]
     },
     {
-      "NGPCCDGBLLK": 8,
-      "AJLLFDOHEEP": "VisibleWhenLightning",
-      "IFOFAIDDNLB": [
+      "DKDDFEIAMIF": 8,
+      "LEJEJCMIJMB": "VisibleWhenLightning",
+      "PLNDLKPHGFA": [
         "FLAG_VISIBLE_WHEN_LIGHTNING"
       ]
     }

@@ -8,13 +8,13 @@
       "Value": -0.5
     },
     "AS_ParryDestroyPartHP": {
-      "Value": 100.0
+      "Value": 100
     },
     "AS_ParryDestroyPartHPRatio": {
       "Value": -0.34
     },
     "AS_PartHP": {
-      "Value": 100.0
+      "Value": 100
     },
     "AS_PartHPRatio": {
       "Value": 0.5
@@ -178,6 +178,13 @@
                 "ParryAid"
               ],
               "Target": "Target"
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "DamageTakeRatioModifier"
+              ],
+              "Target": "Self"
             }
           ],
           "Target": "Self"
@@ -192,7 +199,7 @@
       }
     },
     "PartDestroyedModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": true,
       "ModifierStacking": "Replace",
       "OnAdded": [

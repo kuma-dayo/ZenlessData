@@ -344,7 +344,7 @@
             "Eff_Lycaon_Enhance_01_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -353,7 +353,7 @@
             "Eff_Lycaon_Enhance_02_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -362,7 +362,7 @@
             "Eff_Lycaon_Enhance_03_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -371,7 +371,7 @@
             "Eff_Lycaon_Enhance_04_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -380,7 +380,7 @@
             "Eff_Lycaon_Enhance_05_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -389,7 +389,7 @@
             "Eff_Lycaon_Enhance_06_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -398,7 +398,7 @@
             "Eff_Lycaon_Enhance_07_Weapon_L"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -456,7 +456,7 @@
             "Eff_Lycaon_Enhance_01_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -465,7 +465,7 @@
             "Eff_Lycaon_Enhance_02_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -474,7 +474,7 @@
             "Eff_Lycaon_Enhance_03_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -483,7 +483,7 @@
             "Eff_Lycaon_Enhance_04_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -492,7 +492,7 @@
             "Eff_Lycaon_Enhance_05_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -501,7 +501,7 @@
             "Eff_Lycaon_Enhance_06_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {
@@ -510,7 +510,7 @@
             "Eff_Lycaon_Enhance_07_Weapon_R"
           ],
           "OverrideFadeOutCurve": "QuintEaseInReverse",
-          "OverrideFadeOutTime": 0.0,
+          "OverrideFadeOutTime": 0,
           "Target": "Self"
         },
         {

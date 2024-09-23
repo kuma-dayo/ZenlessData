@@ -5,7 +5,8 @@
       "brakeDestroy": false,
       "cpAnimRotationType": 0,
       "curve": {
-        "keys": [],
+        "keys": [
+        ],
         "length": 0,
         "postWrapMode": 8,
         "preWrapMode": 8
@@ -14,9 +15,9 @@
       "endFrame": 6,
       "idx": 1049134848,
       "speedEuler": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "speedParam": {
         "param1": 0,
@@ -31,14 +32,14 @@
   "frameCount": 30,
   "frameRate": 20,
   "loop": false,
-  "modelPath": "",
+  "modelPath": "Assets\/NapResources\/UI\/Animation\/Arcade\/Game\/Companion\/CP_weapon_prefab.prefab",
   "partLoop": false,
   "seqName": "sk_melee_2",
   "speedParams": {
     "param1": 44,
     "param2": 1000
   },
-  "topSpeed": 99.0,
+  "topSpeed": 99,
   "totalTime": 1.5,
   "trackArray": [
     {

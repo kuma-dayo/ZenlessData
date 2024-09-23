@@ -8,7 +8,7 @@
       "Value": 0.4
     },
     "AS_PairACount": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",
@@ -17,7 +17,7 @@
       {
         "$type": "SetAbilitySpecialAction",
         "ModifyFunction": "Replace",
-        "Param": 0.0,
+        "Param": 0,
         "ParamName": "AS_PairACount",
         "ParamType": "Float"
       },
@@ -86,7 +86,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Add",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "AS_PairACount",
           "ParamType": "Float"
         },
@@ -97,7 +97,7 @@
             {
               "$type": "ByAbilitySpecial",
               "CompareType": "GreaterEqual",
-              "Param": 2.0,
+              "Param": 2,
               "ParamName": "AS_PairACount",
               "ParamType": "Float",
               "Target": "Self"

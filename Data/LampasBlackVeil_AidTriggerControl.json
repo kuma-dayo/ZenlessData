@@ -2,6 +2,7 @@
   "AbilityMixins": [
     {
       "$type": "AttachStateWithModifierMixin",
+      "CheckCloudPlatformPerfectSwitch": true,
       "ConfigList": [
         {
           "AnimatorStateName": "Attack_01_F",
@@ -542,6 +543,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": true
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -554,6 +558,9 @@
             {
               "$type": "ByPerfectSwitchWindowOpen",
               "IsOpen": false
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -592,6 +599,9 @@
               "CompareType": "Equal",
               "ParamName": "Bool_BlockCombo",
               "ParamType": 2
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -611,6 +621,9 @@
               "CompareType": "Equal",
               "ParamName": "Bool_BlockCombo",
               "ParamType": 2
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -651,6 +664,9 @@
               "ParamName": "IsSequenceParry",
               "ParamType": "Integer",
               "Target": "Self"
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"
@@ -671,6 +687,9 @@
               "ParamName": "IsSequenceParry",
               "ParamType": "Integer",
               "Target": "Self"
+            },
+            {
+              "$type": "ByPerfectSwitchAttackWarningEnabled"
             }
           ],
           "Target": "Self"

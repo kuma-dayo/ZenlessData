@@ -8,11 +8,18 @@
     "AS_ShieldHPRatio": {
       "Value": 0.3
     },
+    "AS_ShieldHPRatio_Boss": {
+      "Value": 99
+    },
     "AS_ShieldInterval": {
       "Value": 15
     },
     "AS_ShieldMaxBrokenTimes": {
       "Value": 3,
+      "ValueType": "Integer"
+    },
+    "AS_ShieldMaxBrokenTimes_Boss": {
+      "Value": 100,
       "ValueType": "Integer"
     },
     "AS_ShieldTakeDamageRatio": {
@@ -42,6 +49,17 @@
                         "Param": 0,
                         "ParamName": "AS_ShieldBrokenTimes",
                         "ParamType": "Integer"
+                      },
+                      {
+                        "$type": "ByNot",
+                        "Predicates": [
+                          {
+                            "$type": "ByIsInZoneTags",
+                            "Tags": [
+                              "ShieldOpen"
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
@@ -171,11 +189,50 @@
               "ParamName": "TryTransform",
               "Predicates": [
                 {
-                  "$type": "ByAbilitySpecial",
-                  "CompareType": "Less",
-                  "Param": "%AS_ShieldMaxBrokenTimes",
-                  "ParamName": "AS_ShieldBrokenTimes",
-                  "ParamType": "Integer"
+                  "$type": "ByOr",
+                  "Predicates": [
+                    {
+                      "$type": "ByAnd",
+                      "Predicates": [
+                        {
+                          "$type": "ByAbilitySpecial",
+                          "CompareType": "Less",
+                          "Param": "%AS_ShieldMaxBrokenTimes",
+                          "ParamName": "AS_ShieldBrokenTimes",
+                          "ParamType": "Integer"
+                        },
+                        {
+                          "$type": "ByNot",
+                          "Predicates": [
+                            {
+                              "$type": "ByIsInZoneTags",
+                              "Tags": [
+                                "Boss"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "ByAnd",
+                      "Predicates": [
+                        {
+                          "$type": "ByAbilitySpecial",
+                          "CompareType": "Less",
+                          "Param": "%AS_ShieldMaxBrokenTimes_Boss",
+                          "ParamName": "AS_ShieldBrokenTimes",
+                          "ParamType": "Integer"
+                        },
+                        {
+                          "$type": "ByIsInZoneTags",
+                          "Tags": [
+                            "Boss"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -416,12 +473,263 @@
       "Properties": {
         "Actor_DamageTakeRatio": "%AS_ShieldTakeDamageRatio"
       }
+    },
+    "ShieldModifier_Boss": {
+      "Duration": 999999,
+      "ModifierMixins": [
+        {
+          "$type": "HpShieldMixin",
+          "Duration": 999999,
+          "EmptyActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "ParamName": "Trigger_Hit",
+              "ParamType": 1
+            }
+          ],
+          "Tag": "HeavyStriker_Shield",
+          "TotalValueConfig": {
+            "Percentage": "%AS_ShieldHPRatio_Boss",
+            "PropertyType": "MaxHP"
+          }
+        }
+      ],
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "Cam"
+              ]
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AbnormalResistModifier_Black"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AbnormalResistModifier_Cam"
+            }
+          ]
+        }
+      ],
+      "OnCustomEventReceived": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByCustomEvent",
+              "EventKey": "HeavyStriker_BreakShield"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "BoolVal": false,
+              "ParamName": "Bool_Shield",
+              "ParamType": 2,
+              "Target": "Self"
+            },
+            {
+              "$type": "SpecialEffectFadeAction",
+              "EffectNames": [
+                "Eff_Monster_HeavyStriker_Transform_01_08_Weapon",
+                "Eff_Monster_HeavyStriker_Transform_01_09_Weapon",
+                "Eff_Monster_HeavyStriker_Transform_01_10_Lighting"
+              ],
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveMaterialPropertyAction",
+              "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat01_ScreenImage_01",
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveMaterialPropertyAction",
+              "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat04_ScreenImage_04",
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveMaterialPropertyAction",
+              "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat03_OverrideRimGlow_03",
+              "Target": "Self"
+            },
+            {
+              "$type": "FireEffect",
+              "EffectPattern": "Eff_Monster_HeavyStriker_Debuff_Stun_Start_Front_01_Spark"
+            },
+            {
+              "$type": "FireEffect",
+              "AttachPointName": "Skn_L_Hand",
+              "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_01_Lighting"
+            },
+            {
+              "$type": "FireEffect",
+              "AttachPointName": "Skn_R_Hand",
+              "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_02_Lighting"
+            },
+            {
+              "$type": "FireEffect",
+              "AttachPointName": "LockBone",
+              "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_03_Lighting"
+            },
+            {
+              "$type": "SetAbilitySpecialAction",
+              "ModifyFunction": "Add",
+              "Param": 1,
+              "ParamName": "AS_ShieldBrokenTimes",
+              "ParamType": "Integer"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "HeavyStriker_ShieldIntervalModifier"
+            },
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "ByAbilitySpecial",
+                  "CompareType": "GreaterEqual",
+                  "Param": "%AS_ShieldMaxBrokenTimes_Boss",
+                  "ParamName": "AS_ShieldBrokenTimes",
+                  "ParamType": "Integer"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "SetAbilitySpecialAction",
+                  "ModifyFunction": "Replace",
+                  "Param": "%AS_ShieldMaxBrokenTimes_Boss",
+                  "ParamName": "AS_ShieldBrokenTimes",
+                  "ParamType": "Integer"
+                },
+                {
+                  "$type": "FireEffect",
+                  "EffectPattern": "Eff_Monster_HeavyStriker_Debuff_Stun_Start_Front_02_Spark"
+                },
+                {
+                  "$type": "FireEffect",
+                  "AttachPointName": "LockBone",
+                  "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_04_Lighting"
+                },
+                {
+                  "$type": "FireEffect",
+                  "AttachPointName": "Skn_L_Hand",
+                  "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_05_Lighting"
+                },
+                {
+                  "$type": "FireEffect",
+                  "AttachPointName": "Skn_R_Hand",
+                  "EffectPattern": "Eff_Monster_HeavyStriker_Overload_Stun_Start_Front_05_Lighting"
+                },
+                {
+                  "$type": "RemoveMaterialPropertyAction",
+                  "Tag": "Monster_HeavyStriker_MA_Transform_01_Mat02_OverrideRimGlow_02",
+                  "Target": "Self"
+                },
+                {
+                  "$type": "BranchOperator",
+                  "Conditions": [
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "Cam"
+                      ]
+                    }
+                  ],
+                  "FailureActions": [
+                    {
+                      "$type": "ModifyMaterialPropertyAction",
+                      "RendererList": [
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03"
+                        },
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03L"
+                        },
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03R"
+                        }
+                      ],
+                      "Tag": "Monster_HeavyStrikerPro_MA_Debuff_Stun_Start_MainMaps_01",
+                      "Target": "Self",
+                      "key": "Monster_HeavyStrikerPro_MA_Debuff_Stun_Start_MainMaps_01"
+                    }
+                  ],
+                  "SuccessActions": [
+                    {
+                      "$type": "ModifyMaterialPropertyAction",
+                      "RendererList": [
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03"
+                        },
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03L"
+                        },
+                        {
+                          "RenderPath": "Monster_HeavyStriker_03R"
+                        }
+                      ],
+                      "Tag": "Monster_HeavyStriker_MA_Debuff_Stun_Start_MainMaps_01",
+                      "Target": "Self",
+                      "key": "Monster_HeavyStriker_MA_Debuff_Stun_Start_MainMaps_01"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "ShieldModifier_Boss"
+            }
+          ]
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AbnormalResistModifier_Cam"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "AbnormalResistModifier_Black"
+        }
+      ],
+      "Properties": {
+        "Actor_DamageTakeRatio": "%AS_ShieldTakeDamageRatio"
+      }
     }
   },
   "OnAbilityTrigger": [
     {
-      "$type": "ApplyModifier",
-      "ModifierName": "ShieldModifier"
+      "$type": "BranchOperator",
+      "Conditions": [
+        {
+          "$type": "ByIsInZoneTags",
+          "Tags": [
+            "Boss"
+          ]
+        }
+      ],
+      "FailureActions": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldModifier"
+        }
+      ],
+      "SuccessActions": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "ShieldModifier_Boss"
+        }
+      ]
     },
     {
       "$type": "WriteAIParamAction",

@@ -1,0 +1,49 @@
+{
+  "AbilityName": "Burnice_Talent_02",
+  "AbilitySpecials": {
+    "AS_Duration": {
+      "Value": 6
+    },
+    "AS_MaxPenRatio": {
+      "Value": 0.4
+    },
+    "AS_PenRatio": {
+      "Value": 0.04
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnHitOtherPre": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "PenRatioMDF",
+        "Predicates": [
+          {
+            "$type": "ByAnimEventIDs",
+            "AnimEventIDs": [
+              "Burnice_Explode_AttackProperty_01",
+              "Burnice_Explode_AttackProperty_01_Talent_02"
+            ],
+            "Target": "Caster"
+          }
+        ],
+        "Target": "Other"
+      }
+    ]
+  },
+  "Modifiers": {
+    "PenRatioMDF": {
+      "Duration": "%AS_Duration",
+      "MaxStackingNumber": 5,
+      "ModifierStacking": "MultipleAllRefresh",
+      "OnBeingHitPre": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_PenRatio",
+          "PropertyValue": "%AS_PenRatio",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -10,15 +10,15 @@
       },
       {
         "$type": "SetAnimCtrlerParamAction",
-        "IntVal": 0,
-        "ParamName": "Int_LevelActionIndex",
+        "IntVal": 101,
+        "ParamName": "Int_AttackIndex",
         "ParamType": 3,
         "Target": "Self"
       },
       {
         "$type": "SetAnimCtrlerParamAction",
         "BoolVal": true,
-        "ParamName": "Trigger_InLevelAction",
+        "ParamName": "Trigger_PressAttackA",
         "ParamType": 1,
         "Target": "Self"
       },
@@ -47,15 +47,15 @@
             },
             {
               "$type": "SetAnimCtrlerParamAction",
-              "IntVal": 0,
-              "ParamName": "Int_LevelActionIndex",
+              "IntVal": 101,
+              "ParamName": "Int_AttackIndex",
               "ParamType": 3,
               "Target": "Self"
             },
             {
               "$type": "SetAnimCtrlerParamAction",
               "BoolVal": true,
-              "ParamName": "Trigger_InLevelAction",
+              "ParamName": "Trigger_PressAttackA",
               "ParamType": 1,
               "Target": "Self"
             }
@@ -77,15 +77,15 @@
             },
             {
               "$type": "SetAnimCtrlerParamAction",
-              "IntVal": 0,
-              "ParamName": "Int_LevelActionIndex",
+              "IntVal": 101,
+              "ParamName": "Int_AttackIndex",
               "ParamType": 3,
               "Target": "Self"
             },
             {
               "$type": "SetAnimCtrlerParamAction",
               "BoolVal": true,
-              "ParamName": "Trigger_InLevelAction",
+              "ParamName": "Trigger_PressAttackA",
               "ParamType": 1,
               "Target": "Self"
             }

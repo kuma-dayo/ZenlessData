@@ -17,6 +17,9 @@
         "PropertyValue": 1,
         "Target": "Self"
       }
-    ]
+    ],
+    "Properties": {
+      "Actor_NoStun": 1
+    }
   }
 }

@@ -92,7 +92,7 @@
       "ModifierStacking": "Unique"
     },
     "TryExcuteModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Refresh",
       "OnAdded": [
         {

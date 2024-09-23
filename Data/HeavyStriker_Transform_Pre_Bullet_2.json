@@ -7,14 +7,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -87,14 +87,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -167,14 +167,14 @@
         "CapsuleColliderHeight": 0.5,
         "CapsuleColliderRadius": 0.1,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
@@ -274,14 +274,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": -60.0,
-                "z": 0.0
+                "x": 0,
+                "y": -60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -299,14 +299,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": -60.0,
-                "z": 0.0
+                "x": 0,
+                "y": -60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -324,14 +324,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": -60.0,
-                "z": 0.0
+                "x": 0,
+                "y": -60,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -351,14 +351,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -376,14 +376,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {
@@ -401,14 +401,14 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 5.0
+                "x": 0,
+                "y": 0,
+                "z": 5
               }
             },
             "TargetOption": {

@@ -1,13 +1,13 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "CGMGIHKOHEB": 1,
-      "PALEOEMDNNM": "WorldLevel_Title1",
-      "GLDHJNDHBLA": 1399001010,
-      "PIDAPGKBKKP": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel01.png",
-      "OBBGINCJDJI": 20,
-      "AAEMEIICIIM": 40,
-      "JPCANHDHMEM": [
+      "DLDGLNLAPNM": 1,
+      "OOEKAHNNFGD": "WorldLevel_Title1",
+      "IDDCEAIDPCN": 1399001010,
+      "EALMFDDILHG": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel01.png",
+      "GLLNAMBDPCH": 20,
+      "FMKFFKNPJBO": 40,
+      "BFNCJJNBJKD": [
         1001,
         1002,
         1003,
@@ -15,26 +15,26 @@
         1005,
         1007
       ],
-      "BEBCJJMFKNG": 100301001,
-      "JCNOCCJDFIA": [],
-      "CLBPGCFNLBB": "WorldLevel11",
-      "MHLFGFGDHCG": 19900101,
-      "IPGDIEOJHOJ": "WorldLevel12",
-      "HIFMPCFCHKJ": 100,
-      "PMNEOOAJKJP": [
+      "HKHDIONIDJF": 100301001,
+      "FEOFJKFBELJ": [],
+      "FHGMGELFJAG": "WorldLevel11",
+      "CLGPFGIDMDF": 19900101,
+      "FNAAGELCBHH": "WorldLevel12",
+      "FAEGBFLOLKL": 100,
+      "JAIJECPJIJL": [
         10020155,
         10020201
       ],
-      "JGBOHKOFBHP": "WorldLevel_Desc8"
+      "MMBJIOGHMBO": "WorldLevel_Desc8"
     },
     {
-      "CGMGIHKOHEB": 2,
-      "PALEOEMDNNM": "WorldLevel_Title2",
-      "GLDHJNDHBLA": 1399002010,
-      "PIDAPGKBKKP": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel02.png",
-      "OBBGINCJDJI": 30,
-      "AAEMEIICIIM": 100,
-      "JPCANHDHMEM": [
+      "DLDGLNLAPNM": 2,
+      "OOEKAHNNFGD": "WorldLevel_Title2",
+      "IDDCEAIDPCN": 1399002010,
+      "EALMFDDILHG": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel02.png",
+      "GLLNAMBDPCH": 30,
+      "FMKFFKNPJBO": 100,
+      "BFNCJJNBJKD": [
         2001,
         2002,
         2003,
@@ -45,28 +45,28 @@
         2008,
         2009
       ],
-      "BEBCJJMFKNG": 100302001,
-      "JCNOCCJDFIA": [
+      "HKHDIONIDJF": 100302001,
+      "FEOFJKFBELJ": [
         1101,
         1102
       ],
-      "CLBPGCFNLBB": "WorldLevel21",
-      "MHLFGFGDHCG": 19900102,
-      "IPGDIEOJHOJ": "WorldLevel22",
-      "HIFMPCFCHKJ": 1000,
-      "PMNEOOAJKJP": [
+      "FHGMGELFJAG": "WorldLevel21",
+      "CLGPFGIDMDF": 19900102,
+      "FNAAGELCBHH": "WorldLevel22",
+      "FAEGBFLOLKL": 1000,
+      "JAIJECPJIJL": [
         10020307
       ],
-      "JGBOHKOFBHP": "WorldLevel_Desc9"
+      "MMBJIOGHMBO": "WorldLevel_Desc9"
     },
     {
-      "CGMGIHKOHEB": 3,
-      "PALEOEMDNNM": "WorldLevel_Title3",
-      "GLDHJNDHBLA": 1399003010,
-      "PIDAPGKBKKP": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel03.png",
-      "OBBGINCJDJI": 40,
-      "AAEMEIICIIM": 100,
-      "JPCANHDHMEM": [
+      "DLDGLNLAPNM": 3,
+      "OOEKAHNNFGD": "WorldLevel_Title3",
+      "IDDCEAIDPCN": 1399003010,
+      "EALMFDDILHG": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel03.png",
+      "GLLNAMBDPCH": 40,
+      "FMKFFKNPJBO": 100,
+      "BFNCJJNBJKD": [
         3001,
         3002,
         3003,
@@ -77,28 +77,28 @@
         3008,
         3010
       ],
-      "BEBCJJMFKNG": 13990031,
-      "JCNOCCJDFIA": [
+      "HKHDIONIDJF": 13990031,
+      "FEOFJKFBELJ": [
         1201,
         1202
       ],
-      "CLBPGCFNLBB": "WorldLevel31",
-      "MHLFGFGDHCG": 19900103,
-      "IPGDIEOJHOJ": "WorldLevel32",
-      "HIFMPCFCHKJ": 10000,
-      "PMNEOOAJKJP": [
+      "FHGMGELFJAG": "WorldLevel31",
+      "CLGPFGIDMDF": 19900103,
+      "FNAAGELCBHH": "WorldLevel32",
+      "FAEGBFLOLKL": 10000,
+      "JAIJECPJIJL": [
         10010218
       ],
-      "JGBOHKOFBHP": "WorldLevel_Desc10"
+      "MMBJIOGHMBO": "WorldLevel_Desc10"
     },
     {
-      "CGMGIHKOHEB": 4,
-      "PALEOEMDNNM": "WorldLevel_Title4",
-      "GLDHJNDHBLA": 1399004010,
-      "PIDAPGKBKKP": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel04.png",
-      "OBBGINCJDJI": 50,
-      "AAEMEIICIIM": 100,
-      "JPCANHDHMEM": [
+      "DLDGLNLAPNM": 4,
+      "OOEKAHNNFGD": "WorldLevel_Title4",
+      "IDDCEAIDPCN": 1399004010,
+      "EALMFDDILHG": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel04.png",
+      "GLLNAMBDPCH": 50,
+      "FMKFFKNPJBO": 100,
+      "BFNCJJNBJKD": [
         4001,
         4002,
         4003,
@@ -109,28 +109,28 @@
         4008,
         4010
       ],
-      "BEBCJJMFKNG": 13990041,
-      "JCNOCCJDFIA": [
+      "HKHDIONIDJF": 13990041,
+      "FEOFJKFBELJ": [
         1301,
         1302
       ],
-      "CLBPGCFNLBB": "WorldLevel41",
-      "MHLFGFGDHCG": 19900104,
-      "IPGDIEOJHOJ": "WorldLevel42",
-      "HIFMPCFCHKJ": 100000,
-      "PMNEOOAJKJP": [
+      "FHGMGELFJAG": "WorldLevel41",
+      "CLGPFGIDMDF": 19900104,
+      "FNAAGELCBHH": "WorldLevel42",
+      "FAEGBFLOLKL": 100000,
+      "JAIJECPJIJL": [
         10010302
       ],
-      "JGBOHKOFBHP": "WorldLevel_Desc11"
+      "MMBJIOGHMBO": "WorldLevel_Desc11"
     },
     {
-      "CGMGIHKOHEB": 5,
-      "PALEOEMDNNM": "WorldLevel_Title5",
-      "GLDHJNDHBLA": 0,
-      "PIDAPGKBKKP": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel05.png",
-      "OBBGINCJDJI": 0,
-      "AAEMEIICIIM": 0,
-      "JPCANHDHMEM": [
+      "DLDGLNLAPNM": 5,
+      "OOEKAHNNFGD": "WorldLevel_Title5",
+      "IDDCEAIDPCN": 0,
+      "EALMFDDILHG": "UI\\Sprite/A1DynamicLoad/InterKnot/UnPacker/RopemakerLevel/IconRopeLevel05.png",
+      "GLLNAMBDPCH": 0,
+      "FMKFFKNPJBO": 0,
+      "BFNCJJNBJKD": [
         5001,
         5002,
         5003,
@@ -141,17 +141,17 @@
         5008,
         5010
       ],
-      "BEBCJJMFKNG": 0,
-      "JCNOCCJDFIA": [
+      "HKHDIONIDJF": 0,
+      "FEOFJKFBELJ": [
         1401,
         1402
       ],
-      "CLBPGCFNLBB": "WorldLevel51",
-      "MHLFGFGDHCG": 0,
-      "IPGDIEOJHOJ": "WorldLevel52",
-      "HIFMPCFCHKJ": 0,
-      "PMNEOOAJKJP": [],
-      "JGBOHKOFBHP": ""
+      "FHGMGELFJAG": "WorldLevel51",
+      "CLGPFGIDMDF": 0,
+      "FNAAGELCBHH": "WorldLevel52",
+      "FAEGBFLOLKL": 0,
+      "JAIJECPJIJL": [],
+      "MMBJIOGHMBO": ""
     }
   ]
 }

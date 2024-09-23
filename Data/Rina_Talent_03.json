@@ -2,7 +2,7 @@
   "AbilityName": "Rina_Talent_03",
   "AbilitySpecials": {
     "AS_SpRecoverDelta": {
-      "Value": 1.0
+      "Value": 1
     }
   },
   "AbilityStacking": "Unique",

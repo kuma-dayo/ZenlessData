@@ -1,0 +1,90 @@
+{
+  "AbilityName": "Card_Strength_2002408",
+  "AbilitySpecials": {
+    "AS_Duration": {
+      "Value": 5
+    },
+    "AS_RecoverSp": {
+      "Value": 5
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "ModifierStacking": "Unique",
+    "OnBeingHitResolved": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RecoverSPModifier_Card_2002408",
+        "Target": "Self"
+      }
+    ],
+    "OnSkillStart": [
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RecoverSPModifier_Card_2002408",
+        "Predicates": [
+          {
+            "$type": "ByOr",
+            "Predicates": [
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "EvadeAid",
+                "Target": "Self"
+              },
+              {
+                "$type": "ByFromSkillType",
+                "SkillType": "ParryAid",
+                "Target": "Self"
+              }
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "GetSPCD_Card_2002408": {
+      "Duration": "%AS_Duration",
+      "ModifierStacking": "Unique"
+    },
+    "RecoverSPModifier_Card_2002408": {
+      "Duration": 1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "RecoverSPAction",
+          "Amount": "%AS_RecoverSp",
+          "IgnoreRatio": false,
+          "Percentage": 0,
+          "Predicates": [
+            {
+              "$type": "ByModifierStackCount",
+              "CompareType": "Equal",
+              "CountModifierType": "SameNameAbility",
+              "ModifierName": "GetSPCD_Card_2002408",
+              "StackCount": 0,
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "GetSPCD_Card_2002408",
+          "Predicates": [
+            {
+              "$type": "ByModifierStackCount",
+              "CompareType": "Equal",
+              "CountModifierType": "SameNameAbility",
+              "ModifierName": "GetSPCD_Card_2002408",
+              "StackCount": 0,
+              "Target": "Self"
+            }
+          ],
+          "Target": "TeamAvatars"
+        }
+      ]
+    }
+  }
+}

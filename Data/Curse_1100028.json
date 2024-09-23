@@ -92,7 +92,8 @@
             "EventKey": "Nineveh_Initialization_Done"
           }
         ],
-        "FailureActions": [],
+        "FailureActions": [
+        ],
         "SuccessActions": [
           {
             "$type": "SetTargetAbilitySpecialAction",

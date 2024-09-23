@@ -82,10 +82,10 @@
       "Value": 0.05
     },
     "AS_BaseAttackRatio_Total": {
-      "Value": 0.0
+      "Value": 0
     },
     "AS_Duration": {
-      "Value": 8.0
+      "Value": 8
     },
     "AS_StackCount": {
       "Value": 0,

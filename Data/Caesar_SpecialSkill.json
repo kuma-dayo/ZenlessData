@@ -1,0 +1,1091 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_01",
+          "FrameCountHigh": 13,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "GuardPointModifier_Sp",
+            "InvincibleModifier_Gp"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_02",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "GuardPointModifier_ExSp",
+            "InvincibleModifier_Gp",
+            "DecreaseSPModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_03",
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "UIArrowModifier_0"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02",
+          "FrameCountHigh": 20,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "GuardAttackModifier_ExSp",
+            "GuardPointModifier_ExSp_02",
+            "InvincibleModifier_Gp"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01",
+          "FrameCountHigh": 25,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "GuardAttackModifier_Sp"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_GuardHit",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 20,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "JustGuardModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountLow": 70,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "JustGuardModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_GuardPoint_02",
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "UIArrowModifier_20"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_GuardHit",
+          "FrameCountHigh": 60,
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "UIArrowModifier_20"
+          ]
+        },
+        {
+          "AnimatorStateName": "Attack_AssaultAid",
+          "FrameCountLow": 0,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "ModifierNameList": [
+            "UIArrowModifier_20"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "ActionsOnPropertyChangeMixin",
+      "PropertyActions": [
+        {
+          "IsUsePercentage": false,
+          "PropertyType": "CurSP",
+          "ReferMaxPropertyType": "MaxSP",
+          "ValueRangeActions": [
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 1,
+                  "ParamName": "Int_BranchIndex_02",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 20
+            },
+            {
+              "Val": 20,
+              "ValueToLowActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 0,
+                  "ParamName": "Int_BranchIndex_02",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            },
+            {
+              "LowToValueActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 1,
+                  "ParamName": "Int_BranchIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "Val": 40
+            },
+            {
+              "Val": 40,
+              "ValueToLowActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 0,
+                  "ParamName": "Int_BranchIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Caesar_SpecialSkill",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "SetUIArrowAction",
+        "IsVisible": true,
+        "position": 40
+      },
+      {
+        "$type": "SetAnimCtrlerParamAction",
+        "BoolVal": true,
+        "ParamName": "Bool_Talent04Enable",
+        "ParamType": 2,
+        "Predicates": [
+          {
+            "$type": "ByAvatarTalentIndex",
+            "TalentIndex": 4,
+            "Target": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  "Modifiers": {
+    "DecreaseSPModifier": {
+      "Duration": 0.1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "DecreaseSPAction",
+          "Amount": 40,
+          "Percentage": 0
+        }
+      ]
+    },
+    "GuardAttackModifier_ExSp": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 4
+            },
+            {
+              "$type": "ByAnimCtrlerParam",
+              "CompareType": "Equal",
+              "IntVal": 0,
+              "ParamName": "Int_BranchIndex_02",
+              "ParamType": 3
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "DecreaseSPAction",
+              "Amount": 20,
+              "Percentage": 0
+            }
+          ],
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": false,
+              "CompareType": "Equal",
+              "ParamName": "Bool_GuardHit_Perfect",
+              "ParamType": 2
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "ModifyPerfectSwitchPointAction",
+              "Amount": -1,
+              "ModifyFunction": "Add"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "Talent04_CDController"
+            }
+          ]
+        },
+        {
+          "$type": "SendCustomEvent",
+          "EventKey": "Caesar_ApplyUniqueSkill",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "JustGuardZoneTag"
+                  ]
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_GuardHit_Perfect",
+                  "ParamType": 2
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "JustGuardEffectModifier",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SendCustomEvent",
+          "EventKey": "Caesar_TutorialQuest2",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_GuardHit_Perfect",
+              "ParamType": 2
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_GuardHit_Perfect",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "GuardAttackModifier_Sp": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimCtrlerParam",
+              "BoolVal": true,
+              "CompareType": "Equal",
+              "ParamName": "Bool_GuardHit_Perfect",
+              "ParamType": 2
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "JustGuardEffectModifier",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_GuardHit_Perfect",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "GuardPointModifier_ExSp": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushBlockStateAction"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_GuardHit_Perfect",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_NoHitEffect",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_Guard",
+          "Predicates": [
+            {
+              "$type": "ByHitDataType",
+              "TheHitDataType": "Melee"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "ParryNotCount"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Target": "Target"
+        },
+        {
+          "$type": "TimeSlowByConfigKeyAction",
+          "ConfigKey": "Avatar_Common_PerfectGuard_TimeSlow_01",
+          "IsGlobal": true
+        },
+        {
+          "$type": "SetAttackTargetBySpecificTargetAction",
+          "ForceOverride": true,
+          "IgnoreSetAttackTargetCD": true,
+          "NewLockTarget": "Target",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "GuardSuccessModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "GuardPointModifier_ExSp"
+        }
+      ],
+      "OnCounterHitOther": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "GuardSuccessModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_01"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "TimeSlowByConfigKeyAction",
+          "ConfigKey": "Avatar_Common_PerfectGuard_TimeSlow_01",
+          "IsGlobal": true,
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_01"
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_Guard",
+          "Target": "Target"
+        },
+        {
+          "$type": "SetAttackTargetBySpecificTargetAction",
+          "ForceOverride": true,
+          "IgnoreSetAttackTargetCD": true,
+          "NewLockTarget": "Target",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PopBlockStateAction"
+        }
+      ]
+    },
+    "GuardPointModifier_ExSp_02": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "JustGuardZoneTag"
+                  ]
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_GuardHit_Perfect",
+                  "ParamType": 2
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "PushBlockStateAction"
+        },
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "GuardPointModifier_ExSp_02",
+          "Predicates": [
+            {
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByIsInZoneTags",
+                  "Tags": [
+                    "JustGuardZoneTag"
+                  ]
+                },
+                {
+                  "$type": "ByAnimCtrlerParam",
+                  "BoolVal": true,
+                  "CompareType": "Equal",
+                  "ParamName": "Bool_GuardHit_Perfect",
+                  "ParamType": 2
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_NoHitEffect",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "InvincibleBuffModifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "ModifyProperty",
+              "Amount": 20,
+              "Percentage": 0,
+              "PropertyModifyFunction": "Add",
+              "PropertyType": "CurSP",
+              "Target": "Self"
+            },
+            {
+              "$type": "DamageByAttackPropertyAction",
+              "AnimEventID": "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_Guard",
+              "Predicates": [
+                {
+                  "$type": "ByHitDataType",
+                  "TheHitDataType": "Melee"
+                },
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByAnimTagList",
+                      "TagList": [
+                        "ParryNotCount"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Target": "Target"
+            },
+            {
+              "$type": "TimeSlowByConfigKeyAction",
+              "ConfigKey": "Avatar_Common_PerfectGuard_TimeSlow_01",
+              "IsGlobal": true
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "GuardSuccessModifier",
+              "Target": "Self"
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "GuardPointModifier_ExSp_02"
+            }
+          ]
+        }
+      ],
+      "OnCounterHitOther": [
+        {
+          "$type": "ModifyProperty",
+          "Amount": 20,
+          "Percentage": 0,
+          "PropertyModifyFunction": "Add",
+          "PropertyType": "CurSP",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "GuardSuccessModifier",
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Caesar_Attack_Branch_02_AttackProperty_01"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "TimeSlowByConfigKeyAction",
+          "ConfigKey": "Avatar_Common_PerfectGuard_TimeSlow_01",
+          "IsGlobal": true,
+          "Predicates": [
+            {
+              "$type": "ByAnimEventIDs",
+              "AnimEventIDs": [
+                "Caesar_Attack_Branch_02_AttackProperty_01"
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Caesar_Attack_Branch_GuardPoint_02_AttackProperty_Guard",
+          "Target": "Target"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PopBlockStateAction"
+        }
+      ]
+    },
+    "GuardPointModifier_Sp": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "PushBlockStateAction"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_GuardHit_Perfect",
+          "ParamType": 2,
+          "Target": "Self"
+        }
+      ],
+      "OnBeingHit": [
+        {
+          "$type": "ModifyAttackDataAction",
+          "PropertyKey": "Actor_NoHitEffect",
+          "PropertyValue": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "DamageByAttackPropertyAction",
+          "AnimEventID": "Caesar_Attack_Branch_GuardPoint_01_AttackProperty_Guard",
+          "Predicates": [
+            {
+              "$type": "ByHitDataType",
+              "TheHitDataType": "Melee"
+            },
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByAnimTagList",
+                  "TagList": [
+                    "ParryNotCount"
+                  ]
+                }
+              ]
+            }
+          ],
+          "Target": "Target"
+        },
+        {
+          "$type": "TimeSlowByConfigKeyAction",
+          "ConfigKey": "Avatar_Common_PerfectGuard_TimeSlow_01",
+          "IsGlobal": true
+        },
+        {
+          "$type": "SetAttackTargetBySpecificTargetAction",
+          "ForceOverride": true,
+          "IgnoreSetAttackTargetCD": true,
+          "NewLockTarget": "Target",
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "GuardSuccessModifier",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "PopBlockStateAction"
+        }
+      ]
+    },
+    "GuardSuccessModifier": {
+      "Duration": 0.2,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SendCustomEvent",
+          "EventKey": "Caesar_GuardSuccess"
+        },
+        {
+          "$type": "PopBlockStateAction"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_GuardHit_Perfect",
+          "ParamType": 2,
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Caesar_Weapon_2"
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_Branch_GuardPoint_01_OverrideRimGlow_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_Branch_GuardPoint_01_OverrideRimGlow_01"
+        },
+        {
+          "$type": "CameraStretchAction",
+          "StretchConfigKey": "Caesar_GuardSuccess_CamStretch_01"
+        },
+        {
+          "$type": "CameraZoomAction",
+          "ZoomConfigKey": "Caesar_GuardSuccess_CamZoom_01"
+        },
+        {
+          "$type": "AttackCameraShakeAction",
+          "ShakeConfigKey": "Caesar_GuardSuccess_CamShake_E_01"
+        },
+        {
+          "$type": "CameraOverrideTrackAction",
+          "OverrideKey": "Caesar_GuardSuccess_CameraOverrideTrack_01",
+          "Target": "Self"
+        },
+        {
+          "$type": "GamepadRumbleAction",
+          "GamepadRumbleKey": "Caesar_GamepadRumble_E_GuardSuccess"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Caesar_Guard_Hit_03",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "CameraOverrideTrackEndAction",
+          "OverrideKey": "Caesar_GuardSuccess_CameraOverrideTrack_01",
+          "Target": "Self"
+        }
+      ]
+    },
+    "InvincibleBuffModifier": {
+      "Buff": {
+        "BuffID": 121001,
+        "IsOverrideDuration": true
+      },
+      "Duration": -1,
+      "ModifierStacking": "Refresh"
+    },
+    "InvincibleModifier_Gp": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "RemoveModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "JustGuardEffectModifier": {
+      "Duration": 0.1,
+      "ModifierStacking": "Replace",
+      "OnAdded": [
+        {
+          "$type": "SendCustomEvent",
+          "EventKey": "Caesar_GuardSuccess"
+        },
+        {
+          "$type": "PopBlockStateAction"
+        },
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "InvincibleBuffModifier",
+          "Target": "Self"
+        },
+        {
+          "$type": "TriggerSoundAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "Target": "Self",
+          "soundActionKey": "Play_SFX_Char_Skill_Caesar_Attack_GuardHit_Counter"
+        },
+        {
+          "$type": "FireEffect",
+          "EffectPattern": "Eff_Caesar_Guard_Hit_01",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "ModifyMaterialPropertyAction",
+          "Predicates": [
+            {
+              "$type": "ByIsInZoneTags",
+              "Tags": [
+                "JustGuardZoneTag"
+              ]
+            }
+          ],
+          "RendererList": [
+            {
+              "ApplyAllMaterials": true,
+              "RenderPath": "Caesar_Weapon_2"
+            }
+          ],
+          "Tag": "Avatar_Female_Size03_Caesar_MA_Attack_Branch_GuardPoint_01_OverrideRimGlow_01",
+          "Target": "Self",
+          "key": "Avatar_Female_Size03_Caesar_MA_Attack_Branch_GuardPoint_01_OverrideRimGlow_01"
+        },
+        {
+          "$type": "GamepadRumbleAction",
+          "GamepadRumbleKey": "Caesar_GamepadRumble_E_JustGuardEffect"
+        }
+      ]
+    },
+    "JustGuardModifier": {
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "JustGuardTransition"
+        }
+      ]
+    },
+    "JustGuardTransition": {
+      "Duration": 0.1,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "JustGuardZoneTag"
+          ],
+          "IsAdd": true
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "JustGuardZoneTag"
+          ],
+          "IsAdd": false
+        }
+      ]
+    },
+    "Talent04_CDController": {
+      "Duration": 5,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Bool_Talent04CD",
+          "ParamType": 2
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": false,
+          "ParamName": "Bool_Talent04CD",
+          "ParamType": 2
+        },
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": false,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "UIArrowModifier_20"
+              ]
+            },
+            {
+              "$type": "ByIsPerfectSwitchEnergyEnough",
+              "IsEnough": true
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Talent04_CDController"
+              ],
+              "OperatorType": "Not"
+            },
+            {
+              "$type": "ByAnimCtrlerParam",
+              "CompareType": "Equal",
+              "IntVal": 0,
+              "ParamName": "Int_BranchIndex_02",
+              "ParamType": 3
+            }
+          ],
+          "position": -1
+        }
+      ]
+    },
+    "UIArrowModifier_0": {
+      "OnAdded": [
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": false,
+          "position": -1
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": true,
+          "position": 40
+        }
+      ]
+    },
+    "UIArrowModifier_20": {
+      "ModifierMixins": [
+        {
+          "$type": "ActionsOnPropertyChangeMixin",
+          "PropertyActions": [
+            {
+              "IsUsePercentage": false,
+              "PropertyType": "CurSP",
+              "ReferMaxPropertyType": "MaxSP",
+              "ValueRangeActions": [
+                {
+                  "LowToValueActions": [
+                    {
+                      "$type": "SetUIArrowAction",
+                      "IsVisible": true,
+                      "position": 20
+                    }
+                  ],
+                  "Val": 20
+                },
+                {
+                  "Val": 20,
+                  "ValueToLowActions": [
+                    {
+                      "$type": "SetUIArrowAction",
+                      "IsVisible": false,
+                      "Predicates": [
+                        {
+                          "$type": "ByAvatarTalentIndex",
+                          "TalentIndex": 4
+                        },
+                        {
+                          "$type": "ByIsPerfectSwitchEnergyEnough",
+                          "IsEnough": true
+                        },
+                        {
+                          "$type": "ByHasModifier",
+                          "ModifierNameList": [
+                            "Talent04_CDController"
+                          ],
+                          "OperatorType": "Not"
+                        }
+                      ],
+                      "position": -1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "OnAdded": [
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": true,
+          "position": 20
+        },
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": false,
+          "Predicates": [
+            {
+              "$type": "ByAvatarTalentIndex",
+              "TalentIndex": 4
+            },
+            {
+              "$type": "ByIsPerfectSwitchEnergyEnough",
+              "IsEnough": true
+            },
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Talent04_CDController"
+              ],
+              "OperatorType": "Not"
+            },
+            {
+              "$type": "ByAnimCtrlerParam",
+              "CompareType": "Equal",
+              "IntVal": 0,
+              "ParamName": "Int_BranchIndex_02",
+              "ParamType": 3
+            }
+          ],
+          "position": -1
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetUIArrowAction",
+          "IsVisible": true,
+          "position": 40
+        }
+      ]
+    }
+  }
+}

@@ -5,34 +5,35 @@
       "AliveDuration": 0.2,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
       },
-      "BulletEffect": {},
+      "BulletEffect": {
+      },
       "BulletHitTypeName": "Normal",
       "BulletInitPosRot": {
         "CoordsOption": "Self",
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
         "TargetOption": {
@@ -44,22 +45,23 @@
       "CanHitStage": false,
       "DestroyExplode": false,
       "DodgeColliderConfig": {
-        "CapsuleColliderHeight": 2.0,
+        "CapsuleColliderHeight": 2,
         "CapsuleColliderRadius": 2.5,
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Capsule"
       },
       "ExplodeAnimEventID": "Monster_HeavyFirePower_ATK04_Attackproperty_01",
-      "ExplodeEffect": {},
+      "ExplodeEffect": {
+      },
       "ExplodePosType": "HitPoint",
       "HitExplodeRadius": 2.5,
       "HitOtherExplode": false,
@@ -70,7 +72,8 @@
       "MaxHitTargetNum": -1,
       "MaxTouchStageNum": -1,
       "Targetting": "Enemy",
-      "TrailEffect": {}
+      "TrailEffect": {
+      }
     }
   ],
   "AbilityName": "HeavyFirePower_ATK4_Grenade_Explode_Predicate",

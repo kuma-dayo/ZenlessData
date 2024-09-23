@@ -5,7 +5,7 @@
       "Value": 0
     },
     "AS_ConvertRatio": {
-      "Value": 1.0
+      "Value": 1
     },
     "AS_CurHP": {
       "Value": 0
@@ -47,14 +47,14 @@
   },
   "Modifiers": {
     "AddedDamageRatioModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
         {
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_CurHP",
-          "Percentage": 100.0,
+          "Percentage": 100,
           "PropertyType": "CurHP",
           "Target": "Self"
         },
@@ -62,7 +62,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_MaxHP",
-          "Percentage": 100.0,
+          "Percentage": 100,
           "PropertyType": "MaxHP",
           "Target": "Self"
         },
@@ -85,7 +85,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Mul",
-          "Param": -1.0,
+          "Param": -1,
           "ParamName": "AS_AddedDamageRatio",
           "ParamType": "Float",
           "Target": "Caster"
@@ -93,7 +93,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Add",
-          "Param": 1.0,
+          "Param": 1,
           "ParamName": "AS_AddedDamageRatio",
           "ParamType": "Float",
           "Target": "Caster"
@@ -151,12 +151,12 @@
       "MovementConfig": {
         "$type": "ConfigMovementTarget",
         "DefaultOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 5.0
+          "x": 0,
+          "y": 0,
+          "z": 5
         },
         "Duration": 0.1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "MoveType": {
@@ -167,15 +167,15 @@
           "CoordsOption": "Camera",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "IsClampOffsetDistance": false,
             "PositionOffset": {
-              "x": 1.0,
-              "y": 0.0,
-              "z": 1.0
+              "x": 1,
+              "y": 0,
+              "z": 1
             }
           },
           "TargetOption": {
@@ -196,14 +196,14 @@
           "CoordsOption": "Camera",
           "Offset": {
             "AngleOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0,
+              "y": 0,
+              "z": 0
             },
             "PositionOffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
+              "x": 0,
+              "y": 0,
+              "z": 1
             }
           },
           "TargetOption": {

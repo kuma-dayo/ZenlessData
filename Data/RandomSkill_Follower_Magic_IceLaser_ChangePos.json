@@ -9,7 +9,7 @@
         {
           "$type": "ModifyFollowerFollowTypeAction",
           "Avatar2CamAngle": 38.66,
-          "Avatar2CamHeight": 1.0,
+          "Avatar2CamHeight": 1,
           "Avatar2CamRadius": 1.281,
           "FollowType": "ModifyPosReferCamera",
           "PosLerpRatio": 0,
@@ -24,7 +24,7 @@
         {
           "$type": "ModifyFollowerFollowTypeAction",
           "Avatar2CamAngle": 321.34,
-          "Avatar2CamHeight": 1.0,
+          "Avatar2CamHeight": 1,
           "Avatar2CamRadius": 1.281,
           "FollowType": "ModifyPosReferCamera",
           "PosLerpRatio": 0,
@@ -41,7 +41,7 @@
         {
           "$type": "ModifyFollowerFollowTypeAction",
           "Avatar2CamAngle": 38.66,
-          "Avatar2CamHeight": 1.0,
+          "Avatar2CamHeight": 1,
           "Avatar2CamRadius": 1.281,
           "FollowType": "ModifyPosReferCamera",
           "PosLerpRatio": 10,
@@ -56,7 +56,7 @@
         {
           "$type": "ModifyFollowerFollowTypeAction",
           "Avatar2CamAngle": 321.34,
-          "Avatar2CamHeight": 1.0,
+          "Avatar2CamHeight": 1,
           "Avatar2CamRadius": 1.281,
           "FollowType": "ModifyPosReferCamera",
           "PosLerpRatio": 10,

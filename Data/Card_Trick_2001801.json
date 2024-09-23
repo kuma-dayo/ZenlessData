@@ -71,7 +71,8 @@
     "SelfCDModifier": {
       "Duration": 2.5,
       "ModifierStacking": "Unique",
-      "OnAdded": []
+      "OnAdded": [
+      ]
     }
   }
 }

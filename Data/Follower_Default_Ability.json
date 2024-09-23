@@ -1,5 +1,6 @@
 {
-  "AbilityMixins": [],
+  "AbilityMixins": [
+  ],
   "AbilityName": "Follower_Default_Ability",
   "AbilityStacking": "Unique",
   "DefaultModifier": {

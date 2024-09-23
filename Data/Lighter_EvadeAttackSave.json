@@ -1,0 +1,1002 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack01Modifier"
+          ],
+          "NormalizedTimeHigh": 0.14,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack01Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.14,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack01Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack02Modifier"
+          ],
+          "NormalizedTimeHigh": 0.19,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack02Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.19,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_02_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack02Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0301Modifier"
+          ],
+          "NormalizedTimeHigh": 0.17,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0301Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.17,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0301Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0302Modifier"
+          ],
+          "NormalizedTimeHigh": 0.29,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0302Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.29,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_02_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0302Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0303Modifier"
+          ],
+          "NormalizedTimeHigh": 0.11,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0303Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.11,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_03_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0303Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0304Modifier"
+          ],
+          "NormalizedTimeHigh": 0.31,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0304Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.31,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_04_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0304Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0305Modifier"
+          ],
+          "NormalizedTimeHigh": 0.22,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0305Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.22,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_05_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0305Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_06",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack0306Modifier"
+          ],
+          "NormalizedTimeHigh": 0.08,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_06",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0306Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.08,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_03_06_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack0306Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack04Modifier"
+          ],
+          "NormalizedTimeHigh": 0.19,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack04Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0.19,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_04_01_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack04Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_01",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FromAttack05Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Start",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack05Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Normal_05_02_Loop",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "FinishAttack05Modifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Evade_Blend_Left",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Evade_Blend_Right",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Side",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Side_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Side",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_02_Attack_Side_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Counter_End",
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "LateralEvadeModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Lighter_EvadeAttackSave",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "FinishAttack01Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int02Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack02Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0301Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0301Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0302Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0302Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0303Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0303Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0304Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0304Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0305Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0305Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0306Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack0306Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int04Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack04Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int05Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FinishAttack05Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int06Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack01Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int01Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack02Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int02Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0301Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0301Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0302Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0302Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0303Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0303Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0304Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0304Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0305Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0305Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack0306Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int0306Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack04Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int04Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "FromAttack05Modifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "Int05Modifier",
+          "Target": "Self"
+        }
+      ]
+    },
+    "Int01Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int02Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0301Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0302Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0303Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0304Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0305Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int0306Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int04Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int05Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "Int06Modifier": {
+      "Duration": 0.2,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique"
+    },
+    "LateralEvadeModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 1,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int01Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 2,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int02Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0301Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 1,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0301Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0302Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 2,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0302Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0303Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0303Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0304Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 4,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0304Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0305Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 5,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0305Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 3,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0306Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 6,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int0306Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 4,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int04Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 5,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int05Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 6,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByHasModifier",
+              "ModifierNameList": [
+                "Int06Modifier"
+              ],
+              "Target": "Self"
+            }
+          ],
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_NormalAttack",
+          "ParamType": 3,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 0,
+          "ParamName": "Int_SubNormalAttack",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

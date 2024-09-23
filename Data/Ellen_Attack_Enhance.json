@@ -331,16 +331,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -360,16 +360,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -1083,71 +1083,71 @@
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_01",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_01_02",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_02",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_02_02",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_03",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Normal_Enhance_03_Back",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Rush_Enhance",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Branch_02",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Branch_02_Short",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 },
                 {
                   "$type": "ByAnimatorStateNormalizedTime",
                   "AnimatorStateName": "Attack_Branch_04",
                   "LayerIndex": 0,
-                  "NormalizedTimeHigh": 1.0,
-                  "NormalizedTimeLow": 0.0
+                  "NormalizedTimeHigh": 1,
+                  "NormalizedTimeLow": 0
                 }
               ],
               "Target": "Self"

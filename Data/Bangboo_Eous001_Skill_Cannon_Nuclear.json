@@ -2,17 +2,17 @@
   "AbilityMixins": [
     {
       "$type": "BulletMixin",
-      "AliveDuration": 2.0,
+      "AliveDuration": 2,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -26,29 +26,29 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "BackupAngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "BackupPositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 10.0
+            "x": 0,
+            "y": 0,
+            "z": 10
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
-        "RaycastGroundOffset": 0.0,
+        "RaycastGroundOffset": 0,
         "TargetOption": {
           "$type": "ConfigPosRotReferTarget",
           "BackupOffsetReferTarget": "Caster",
@@ -105,7 +105,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_CurHP",
-          "Percentage": 100.0,
+          "Percentage": 100,
           "PropertyType": "CurHP",
           "Target": "Self"
         },
@@ -113,7 +113,7 @@
           "$type": "SetAbilitySpecialsByPropertyAction",
           "ModifyFunction": "Replace",
           "ParamName": "AS_MaxHP",
-          "Percentage": 100.0,
+          "Percentage": 100,
           "PropertyType": "MaxHP",
           "Target": "Self"
         },
@@ -136,7 +136,7 @@
         {
           "$type": "SetAbilitySpecialAction",
           "ModifyFunction": "Add",
-          "Param": -1.0,
+          "Param": -1,
           "ParamName": "AS_CDReductionRatio",
           "ParamType": "Float",
           "Target": "Caster"
@@ -151,7 +151,7 @@
         },
         {
           "$type": "ModifySkillCDAction",
-          "Delta": 0.0,
+          "Delta": 0,
           "Ratio": "%AS_CDReductionRatio",
           "SkillName": "Bangboo_Eous001_Skill_Cannon_Nuclear",
           "Target": "Caster"

@@ -14,10 +14,11 @@
       }
     },
     "EventMap": {
-      "OnStart": {
+      "OnAbilityTrigger": {
         "$type": "ConfigAbilityGraphEvent",
         "EventNodeBind": 0,
-        "ParametersBind": [],
+        "ParametersBind": [
+        ],
         "Position": {
           "x": 521.5831,
           "y": 240.7176
@@ -142,11 +143,11 @@
       }
     ]
   },
-  "OnAbilityStart": [
+  "OnAbilityTrigger": [
     {
       "$type": "CallGraphEvent",
       "AbilityName": "TestGraph_02",
-      "EventName": "OnStart"
+      "EventName": "OnAbilityTrigger"
     }
   ]
 }

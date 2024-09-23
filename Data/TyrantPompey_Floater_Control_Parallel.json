@@ -1,0 +1,241 @@
+{
+  "AbilityName": "TyrantPompey_Floater_Control_Parallel",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "AttachPoint_Target_L01": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "AttachPointFollowMixin",
+          "AttachPointName": "Floater_PosL01",
+          "FollowPosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsClampOffsetDistance": false,
+              "PositionOffset": {
+                "x": -8,
+                "y": 1,
+                "z": 8
+              },
+              "RandomPositionRange": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "SelfAttackTarget"
+            }
+          },
+          "PosType": "Instant",
+          "RotType": "Instant"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AttachPoint_Target_L02": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "AttachPointFollowMixin",
+          "AttachPointName": "Floater_PosL02",
+          "FollowPosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsClampOffsetDistance": false,
+              "PositionOffset": {
+                "x": 8,
+                "y": 1,
+                "z": 0
+              },
+              "RandomPositionRange": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "SelfAttackTarget"
+            }
+          },
+          "PosType": "Instant",
+          "RotType": "Instant"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AttachPoint_Target_R01": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "AttachPointFollowMixin",
+          "AttachPointName": "Floater_PosR01",
+          "FollowPosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsClampOffsetDistance": false,
+              "PositionOffset": {
+                "x": 8,
+                "y": 3,
+                "z": 8
+              },
+              "RandomPositionRange": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "SelfAttackTarget"
+            }
+          },
+          "PosType": "Instant",
+          "RotType": "Instant"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AttachPoint_Target_R02": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierMixins": [
+        {
+          "$type": "AttachPointFollowMixin",
+          "AttachPointName": "Floater_PosR02",
+          "FollowPosRot": {
+            "CoordsOption": "Camera",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsClampOffsetDistance": false,
+              "PositionOffset": {
+                "x": -8,
+                "y": 3,
+                "z": -8
+              },
+              "RandomPositionRange": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "OffsetReferTarget": "SelfAttackTarget"
+            }
+          },
+          "PosType": "Instant",
+          "RotType": "Instant"
+        }
+      ],
+      "ModifierStacking": "Unique"
+    },
+    "AttackStart": {
+      "DelayHandlers": [
+        {
+          "DelayTime": 0.1,
+          "TimeUpActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AttachPoint_Target_L02"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "TyrantPompey_Floater_Control_L02"
+            }
+          ]
+        },
+        {
+          "DelayTime": 0.2,
+          "TimeUpActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AttachPoint_Target_R01"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "TyrantPompey_Floater_Control_R01"
+            }
+          ]
+        },
+        {
+          "DelayTime": 0.3,
+          "TimeUpActions": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "AttachPoint_Target_R02"
+            },
+            {
+              "$type": "TriggerAbilityAction",
+              "AbilityName": "TyrantPompey_Floater_Control_R02"
+            }
+          ]
+        }
+      ],
+      "Duration": 5,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "ApplyModifier",
+          "ModifierName": "AttachPoint_Target_L01"
+        },
+        {
+          "$type": "TriggerAbilityAction",
+          "AbilityName": "TyrantPompey_Floater_Control_L01"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "isFloaterAttacking"
+        },
+        {
+          "$type": "SkillStartAction",
+          "StartedSkillName": "Monster_TyrantPompey_FloaterAttack"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": false,
+          "ParamName": "isFloaterAttacking"
+        },
+        {
+          "$type": "WriteAIParamAction",
+          "FloatParamValue": 15,
+          "ParamName": "FloaterAttackCD"
+        }
+      ]
+    }
+  },
+  "OnAbilityStart": [
+    {
+      "$type": "ApplyModifier",
+      "ModifierName": "AttackStart"
+    }
+  ]
+}

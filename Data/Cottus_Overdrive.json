@@ -1,5 +1,6 @@
 {
   "AbilityName": "Cottus_Overdrive",
   "AbilityStacking": "Unique",
-  "OnAbilityStart": []
+  "OnAbilityStart": [
+  ]
 }

@@ -1,0 +1,189 @@
+{
+  "AbilityName": "CampIdle_envbuff_05",
+  "AbilitySpecials": {
+    "AS_Damage": {
+      "Value": 0
+    },
+    "CurShieldAmount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "DamageToShieldRatio": {
+      "Value": 1
+    },
+    "RBLValue": {
+      "Value": 4
+    },
+    "ShieldAmount": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "ShieldAmountInitial": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "ShieldConsume": {
+      "Value": 0,
+      "ValueType": "Integer"
+    },
+    "ShieldToStun": {
+      "Value": 0
+    },
+    "ShieldToStunRatio": {
+      "Value": 0.1
+    }
+  },
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnBeingHitPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "CurShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "ApplyModifier",
+        "ModifierName": "RBLUpModifier",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Greater",
+            "Param": 0,
+            "ParamName": "CurShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      },
+      {
+        "$type": "RemoveModifier",
+        "ModifierName": "RBLUpModifier",
+        "Predicates": [
+          {
+            "$type": "ByAbilitySpecial",
+            "CompareType": "Equal",
+            "Param": 0,
+            "ParamName": "CurShieldAmount",
+            "ParamType": "Integer",
+            "Target": "Self"
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnDamageCalculated": [
+      {
+        "$type": "SetAbilitySpecialByAttackData",
+        "AttackDataType": "Damage",
+        "DoRefresh": true,
+        "ModifyFunction": "Replace",
+        "ParamName": "AS_Damage",
+        "Target": "Self"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(AS_Damage)*specials(DamageToShieldRatio)",
+        "ParamName": "ShieldAmount",
+        "Target": "Self",
+        "ValueType": "Float"
+      },
+      {
+        "$type": "TriggerAbilityAction",
+        "AbilityName": "CampIdle_envbuff_05_shield",
+        "InitAbilitySpecialList": [
+          {
+            "SpecialName": "ShieldAmount",
+            "Value": "%ShieldAmount",
+            "ValueType": "Integer"
+          }
+        ],
+        "Target": "TeamAvatars"
+      }
+    ],
+    "OnHitOther": [
+      {
+        "$type": "ModifyAttackDataAction",
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid",
+              "AttackAid"
+            ]
+          }
+        ],
+        "PropertyKey": "Actor_AddedBreakStunRatio",
+        "PropertyValue": "%ShieldToStun",
+        "Target": "Self"
+      },
+      {
+        "$type": "ModifyHpShieldAction",
+        "CurValueDelta": "%ShieldConsume",
+        "IsCalculateAll": true,
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "ParryAid",
+              "AttackAid"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ],
+    "OnHitOtherPre": [
+      {
+        "$type": "SetAbilitySpecialsByHpShiledValueAction",
+        "ModifyFunction": "Replace",
+        "ParamName": "CurShieldAmount",
+        "ParamType": "Integer",
+        "Target": "Self",
+        "ValueType": "CurValue"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "specials(CurShieldAmount)*(-0.5)",
+        "ParamName": "ShieldConsume",
+        "Target": "Self",
+        "ValueType": "Integer"
+      },
+      {
+        "$type": "SetAbilitySpecialByExpression",
+        "DoRefresh": true,
+        "Expression": "(specials(ShieldConsume)\/property(MaxHP))*specials(ShieldToStunRatio)*(-1)",
+        "ParamName": "ShieldToStun",
+        "Target": "Self",
+        "ValueType": "Float"
+      }
+    ]
+  },
+  "Modifiers": {
+    "RBLUpModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetRBLOffsetAction",
+          "RBLOffset": "%RBLValue",
+          "Tag": "CampIdleenvbuff05",
+          "Target": "Self"
+        }
+      ],
+      "OnRemoved": [
+        {
+          "$type": "UnsetRBLOffsetAction",
+          "Tag": "CampIdleenvbuff05",
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

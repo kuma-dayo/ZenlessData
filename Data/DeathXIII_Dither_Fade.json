@@ -173,7 +173,7 @@
             "ATK3MAModifier"
           ],
           "NormalizedTimeHigh": 0.6,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         },
         {
           "AnimatorStateName": "Attack_3_End_Fade",
@@ -312,7 +312,7 @@
             "ATK4MAModifier"
           ],
           "NormalizedTimeHigh": 0.6,
-          "NormalizedTimeLow": 0.0
+          "NormalizedTimeLow": 0
         }
       ]
     }
@@ -533,16 +533,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -643,16 +643,16 @@
             "CoordsOption": "ReferTarget",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               }
             },
             "TargetOption": {
@@ -673,7 +673,7 @@
       ]
     },
     "FadeInModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [
@@ -701,7 +701,7 @@
           ]
         }
       ],
-      "Duration": 1.0,
+      "Duration": 1,
       "IgnoreTimeScale": false,
       "ModifierStacking": "MultipleRefresh",
       "OnAdded": [

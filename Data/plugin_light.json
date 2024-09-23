@@ -33,9 +33,9 @@
     },
     {
       "$type": "COverwriteSwitchEffectConfig",
-      "Close": "UI/3D/Hollow/TVEffects/Hollow_TV_Close_Chapter03",
-      "Open": "UI/3D/Hollow/TVEffects/Hollow_TV_Open_Chapter03",
-      "Switch": "UI/3D/Hollow/TVEffects/Hollow_TV_Switch_Chapter03"
+      "Close": "UI\/3D\/Hollow\/TVEffects\/Hollow_TV_Close_Chapter03",
+      "Open": "UI\/3D\/Hollow\/TVEffects\/Hollow_TV_Open_Chapter03",
+      "Switch": "UI\/3D\/Hollow\/TVEffects\/Hollow_TV_Switch_Chapter03"
     },
     {
       "$type": "CChessboardAtmosphere",

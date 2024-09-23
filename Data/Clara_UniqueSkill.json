@@ -193,7 +193,7 @@
     "Clara_InspireModifier": {
       "Duration": "%AS_InpireDuration",
       "MaxStackingNumber": 20,
-      "ModifierStacking": "MultipleAllRefresh",
+      "ModifierStacking": "MultipleAllRefreshNotReplace",
       "OnAdded": [
         {
           "$type": "SetModifierMaxStackingNum",
@@ -251,7 +251,7 @@
       },
       "Duration": "%AS_InpireDuration",
       "MaxStackingNumber": 20,
-      "ModifierStacking": "MultipleAllRefresh"
+      "ModifierStacking": "MultipleAllRefreshNotReplace"
     },
     "Clara_UniqueSkill_BuffIcon_02": {
       "Buff": {
@@ -260,7 +260,7 @@
       },
       "Duration": "%AS_InpireDuration",
       "MaxStackingNumber": 30,
-      "ModifierStacking": "MultipleAllRefresh"
+      "ModifierStacking": "MultipleAllRefreshNotReplace"
     }
   }
 }

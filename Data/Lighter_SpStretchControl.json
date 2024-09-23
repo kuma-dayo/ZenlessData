@@ -1,0 +1,86 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Normal",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetTagModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Front",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetTagModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        },
+        {
+          "AnimatorStateName": "Attack_Branch_01_Attack_Back",
+          "LayerIndex": 0,
+          "ModifierNameList": [
+            "ResetTagModifier"
+          ],
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
+          "Target": "Self"
+        }
+      ],
+      "IsSeam": true
+    }
+  ],
+  "AbilityName": "Lighter_SpStretchControl",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAttackLanded": [
+      {
+        "$type": "HandleAnimatorZoneTagsAction",
+        "AnimatorStateTags": [
+          "CauseFly"
+        ],
+        "IsAdd": true,
+        "Predicates": [
+          {
+            "$type": "ByAnimTagList",
+            "TagList": [
+              "NormalSp"
+            ]
+          },
+          {
+            "$type": "ByTargetHitEffect",
+            "HitEffectKind": "FinalHitEffect",
+            "TargetHitEffects": [
+              "HitSky"
+            ]
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  },
+  "Modifiers": {
+    "ResetTagModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": true,
+      "ModifierStacking": "Unique",
+      "OnRemoved": [
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "CauseFly"
+          ],
+          "IsAdd": false,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

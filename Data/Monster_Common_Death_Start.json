@@ -3,7 +3,7 @@
   "AbilityStacking": "Unique",
   "Modifiers": {
     "BiosDeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -99,7 +99,7 @@
       ]
     },
     "DeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -176,7 +176,7 @@
       ]
     },
     "EtherDeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -272,7 +272,7 @@
       ]
     },
     "GigantMechDeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {
@@ -316,7 +316,7 @@
       ]
     },
     "VRDeathStartModifier": {
-      "Duration": 1.0,
+      "Duration": 1,
       "ModifierStacking": "Unique",
       "OnAdded": [
         {

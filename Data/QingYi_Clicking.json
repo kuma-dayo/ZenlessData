@@ -21,15 +21,15 @@
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_03",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         },
                         {
                           "$type": "ByAnimatorStateNormalizedTime",
                           "AnimatorStateName": "Attack_Normal_05",
                           "LayerIndex": 0,
-                          "NormalizedTimeHigh": 1.0,
-                          "NormalizedTimeLow": 0.0
+                          "NormalizedTimeHigh": 1,
+                          "NormalizedTimeLow": 0
                         }
                       ],
                       "Target": "Self"
@@ -54,8 +54,8 @@
           "ModifierNameList": [
             "ClickingModifier"
           ],
-          "NormalizedTimeHigh": 1.0,
-          "NormalizedTimeLow": 0.0,
+          "NormalizedTimeHigh": 1,
+          "NormalizedTimeLow": 0,
           "Target": "Self"
         }
       ]

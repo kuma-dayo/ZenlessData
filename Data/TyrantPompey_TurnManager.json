@@ -1,0 +1,337 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "FloatParamSmoothMixin",
+      "CurrentParam": "Float_AIBlendDir",
+      "FloatParamSmoothType": "Lerp",
+      "LerpSpeed": 3,
+      "SmoothType": "Lerp",
+      "TargetParam": "Float_AIBlendDir_Target"
+    },
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Turn_Left",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 60,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Turn_Right",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 70,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Turn_Left_90",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 50,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Turn_Right_90",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 50,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Raised_Turn_Left",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 60,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "TurnResetManager",
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Dash_Raised_Turn_Right",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 70,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    },
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "P1_Dash_Loop",
+          "FrameCountLow": 0,
+          "IsLoop": true,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "CollisionCheckModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_TurnManager",
+  "AbilitySpecials": {
+    "AS_AIBlendDir_Target": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "CollisionCheckModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnThinkInterval": [
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByObstacle",
+              "BoxDistance": 6,
+              "BoxHeight": 0.1,
+              "BoxPosOffset": {
+                "x": 3,
+                "y": 1,
+                "z": 3
+              },
+              "BoxWidth": 6,
+              "CheckShape": "Box",
+              "Target": "Self"
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "ByObstacle",
+                  "BoxDistance": 6,
+                  "BoxHeight": 0.1,
+                  "BoxPosOffset": {
+                    "x": -3,
+                    "y": 1,
+                    "z": 3
+                  },
+                  "BoxWidth": 6,
+                  "CheckShape": "Box",
+                  "Target": "Self"
+                }
+              ],
+              "FailureActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "CollisionEvadeTurn_Left"
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "CollisionEvadeTurn_Right"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "TurnThinkModifier"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "CollisionEvadeTurn_Left"
+                },
+                {
+                  "$type": "RemoveModifier",
+                  "ModifierName": "TurnThinkModifier"
+                },
+                {
+                  "$type": "ApplyModifier",
+                  "ModifierName": "CollisionEvadeTurn_Right"
+                }
+              ]
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "CollisionEvadeTurn_Right"
+            },
+            {
+              "$type": "RemoveModifier",
+              "ModifierName": "TurnThinkModifier"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "CollisionEvadeTurn_Left"
+            }
+          ]
+        }
+      ],
+      "ThinkInterval": 0.05
+    },
+    "CollisionEvadeTurn_Left": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": -90,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4
+        }
+      ]
+    },
+    "CollisionEvadeTurn_Right": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 90,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4
+        }
+      ]
+    },
+    "TurnResetManager": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "WriteAIParamAction",
+          "BoolParamValue": true,
+          "ParamName": "Bool_IsTurnOver"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": "%AS_AIBlendDir_Target",
+          "ParamName": "Float_AIBlendDir",
+          "ParamType": 4,
+          "Target": "Self"
+        }
+      ]
+    },
+    "TurnThinkModifier": {
+      "Duration": -1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Unique",
+      "OnThinkInterval": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 0,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 10,
+              "AngleMin": -10,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": -45,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 45,
+              "AngleMin": 10,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 45,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": -10,
+              "AngleMin": -45,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": -90,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": 180,
+              "AngleMin": 45,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "FloatVal": 90,
+          "ParamName": "Float_AIBlendDir_Target",
+          "ParamType": 4,
+          "Predicates": [
+            {
+              "$type": "ByAngleRange",
+              "AngleMax": -45,
+              "AngleMin": -180,
+              "CompareTarget": "SelfAttackTarget"
+            }
+          ]
+        }
+      ],
+      "ThinkInterval": 0.05
+    }
+  }
+}

@@ -2,17 +2,17 @@
   "AbilityMixins": [
     {
       "$type": "BulletMixin",
-      "AliveDuration": 1.0,
+      "AliveDuration": 1,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -26,19 +26,19 @@
         "NeedRaycastGround": true,
         "Offset": {
           "AngleOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           },
           "IsUseRotationXZ": false,
           "IsUseRotationY": true,
           "PositionOffset": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "x": 0,
+            "y": 0,
+            "z": 0
           }
         },
-        "RaycastGroundOffset": 0.0,
+        "RaycastGroundOffset": 0,
         "TargetOption": {
           "$type": "ConfigPosRotReferTarget",
           "OffsetReferTarget": "SelfAttackTarget"
@@ -68,7 +68,7 @@
         },
         "CoordinateType": "Local",
         "Duration": -1,
-        "Gravity": 0.0,
+        "Gravity": 0,
         "HitNormalRatio": 1,
         "HitTangentialRatio": 1,
         "InitVelocity": {
@@ -86,16 +86,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
+                "x": 0,
+                "y": 0,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -112,16 +112,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 60.0,
-                "z": 0.0
+                "x": 0,
+                "y": 60,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -138,16 +138,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 120.0,
-                "z": 0.0
+                "x": 0,
+                "y": 120,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -164,16 +164,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 180.0,
-                "z": 0.0
+                "x": 0,
+                "y": 180,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -190,16 +190,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 240.0,
-                "z": 0.0
+                "x": 0,
+                "y": 240,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {
@@ -216,16 +216,16 @@
             "CoordsOption": "Self",
             "Offset": {
               "AngleOffset": {
-                "x": 0.0,
-                "y": 300.0,
-                "z": 0.0
+                "x": 0,
+                "y": 300,
+                "z": 0
               },
               "IsUseRotationXZ": true,
               "IsUseRotationY": true,
               "PositionOffset": {
-                "x": 0.0,
+                "x": 0,
                 "y": 0.3,
-                "z": 0.0
+                "z": 0
               }
             },
             "TargetOption": {

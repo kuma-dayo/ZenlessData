@@ -2,7 +2,7 @@
   "AbilityName": "HeavyStriker_EvadeManager",
   "AbilitySpecials": {
     "AS_EvadeProbability": {
-      "Value": 1.0,
+      "Value": 1,
       "ValueType": "Float"
     }
   },
@@ -12,7 +12,7 @@
       {
         "$type": "SetAbilitySpecialAction",
         "ModifyFunction": "Replace",
-        "Param": 1.0,
+        "Param": 1,
         "ParamName": "AS_EvadeProbability",
         "ParamType": "Float",
         "Predicates": [
@@ -38,10 +38,32 @@
           "$type": "BranchOperator",
           "Conditions": [
             {
-              "$type": "ByDistance",
-              "CompareTarget": "SelfAttackTarget",
-              "CompareType": "Less",
-              "Distance": 3
+              "$type": "ByOr",
+              "Predicates": [
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "Less",
+                  "Distance": 3
+                },
+                {
+                  "$type": "ByAnd",
+                  "Predicates": [
+                    {
+                      "$type": "ByDistance",
+                      "CompareTarget": "SelfAttackTarget",
+                      "CompareType": "Less",
+                      "Distance": 4.5
+                    },
+                    {
+                      "$type": "ByIsInZoneTags",
+                      "Tags": [
+                        "Boss"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "FailureActions": [
@@ -49,10 +71,32 @@
               "$type": "BranchOperator",
               "Conditions": [
                 {
-                  "$type": "ByDistance",
-                  "CompareTarget": "SelfAttackTarget",
-                  "CompareType": "Less",
-                  "Distance": 8
+                  "$type": "ByOr",
+                  "Predicates": [
+                    {
+                      "$type": "ByDistance",
+                      "CompareTarget": "SelfAttackTarget",
+                      "CompareType": "Less",
+                      "Distance": 8
+                    },
+                    {
+                      "$type": "ByAnd",
+                      "Predicates": [
+                        {
+                          "$type": "ByDistance",
+                          "CompareTarget": "SelfAttackTarget",
+                          "CompareType": "Less",
+                          "Distance": 12
+                        },
+                        {
+                          "$type": "ByIsInZoneTags",
+                          "Tags": [
+                            "Boss"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "FailureActions": [

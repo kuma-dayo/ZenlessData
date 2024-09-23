@@ -37,7 +37,7 @@
   "OnAbilityStart": [
     {
       "$type": "ApplyModifier",
-      "CustomKey": "Lucy_Self_AbilityTargetting_01",
+      "CustomKey": "SelfSummoner_AbilityTargetting_01",
       "ModifierName": "ResetModifier",
       "Target": "Custom"
     }

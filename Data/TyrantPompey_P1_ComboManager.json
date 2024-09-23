@@ -1,0 +1,459 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "ActwithStateFrameMixin",
+      "ConfigList": [
+        {
+          "ActionList": [
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackDone"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ATK1ComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByAIParam",
+                  "CompareType": "Equal",
+                  "IntParamValue": 1,
+                  "ParamName": "Int_ActionMode"
+                },
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 6
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Attack_01",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 75,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackDone"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ATK2ComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByAIParam",
+                  "CompareType": "Equal",
+                  "IntParamValue": 1,
+                  "ParamName": "Int_ActionMode"
+                },
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 6
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Attack_02",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 90,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackDone"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ATK3LeftComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByAIParam",
+                  "CompareType": "Equal",
+                  "IntParamValue": 1,
+                  "ParamName": "Int_ActionMode"
+                },
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 6
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Attack_03_Left",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 55,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackDone"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ATK4ComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByNot",
+                  "Predicates": [
+                    {
+                      "$type": "ByObstacle",
+                      "BoxDistance": 18,
+                      "BoxHeight": 0.2,
+                      "BoxPosOffset": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 9
+                      },
+                      "BoxWidth": 18,
+                      "CheckShape": "Box",
+                      "Target": "Self"
+                    }
+                  ]
+                },
+                {
+                  "$type": "ByAIParam",
+                  "CompareType": "Equal",
+                  "IntParamValue": 1,
+                  "ParamName": "Int_ActionMode"
+                },
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 15
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Attack_04_01",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 120,
+          "IsLoop": false,
+          "LayerIndex": 0
+        },
+        {
+          "ActionList": [
+            {
+              "$type": "SendBehaviorTreeEventAction",
+              "EventName": "isAttackDone"
+            },
+            {
+              "$type": "ApplyModifier",
+              "ModifierName": "ATK5ComboModifier",
+              "Predicates": [
+                {
+                  "$type": "ByAIParam",
+                  "CompareType": "Equal",
+                  "IntParamValue": 1,
+                  "ParamName": "Int_ActionMode"
+                },
+                {
+                  "$type": "ByDistance",
+                  "CompareTarget": "SelfAttackTarget",
+                  "CompareType": "LessEqual",
+                  "Distance": 6
+                }
+              ],
+              "Target": "Self"
+            }
+          ],
+          "AnimatorStateName": "P1_Attack_05",
+          "ForceTriggerOnTransitionOut": false,
+          "Frame": 185,
+          "IsLoop": false,
+          "LayerIndex": 0
+        }
+      ]
+    }
+  ],
+  "AbilityName": "TyrantPompey_P1_ComboManager",
+  "AbilitySpecials": {
+    "AS_AIBlendDir_Target": {
+      "Value": 0
+    }
+  },
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "ATK1ComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PressAttackA",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 7
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.4,
+              "OnFailure": [
+                {
+                  "$type": "BranchOperator",
+                  "Conditions": [
+                    {
+                      "$type": "ByAngleRange",
+                      "AngleMax": 0,
+                      "AngleMin": -180
+                    }
+                  ],
+                  "FailureActions": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 31,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ],
+                  "SuccessActions": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 3,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ]
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 4,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ATK2ComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PressAttackA",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "BranchOperator",
+          "Conditions": [
+            {
+              "$type": "ByDistance",
+              "CompareTarget": "SelfAttackTarget",
+              "CompareType": "LessEqual",
+              "Distance": 7
+            }
+          ],
+          "FailureActions": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 5,
+              "ParamName": "Int_AttackIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ],
+          "SuccessActions": [
+            {
+              "$type": "RandomOperator",
+              "Odds": 0.4,
+              "OnFailure": [
+                {
+                  "$type": "BranchOperator",
+                  "Conditions": [
+                    {
+                      "$type": "ByAngleRange",
+                      "AngleMax": 0,
+                      "AngleMin": -180
+                    }
+                  ],
+                  "FailureActions": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 31,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ],
+                  "SuccessActions": [
+                    {
+                      "$type": "SetAnimCtrlerParamAction",
+                      "IntVal": 3,
+                      "ParamName": "Int_AttackIndex",
+                      "ParamType": 3,
+                      "Target": "Self"
+                    }
+                  ]
+                }
+              ],
+              "OnSuccess": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 4,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ATK3LeftComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PressAttackA",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 31,
+          "ParamName": "Int_AttackIndex",
+          "ParamType": 3,
+          "Target": "Self"
+        }
+      ]
+    },
+    "ATK4ComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PressAttackA",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "IntVal": 41,
+          "ParamName": "Int_AttackIndex",
+          "ParamType": 3,
+          "Predicates": [
+            {
+              "$type": "ByNot",
+              "Predicates": [
+                {
+                  "$type": "ByObstacle",
+                  "BoxDistance": 12,
+                  "BoxHeight": 1,
+                  "BoxWidth": 12,
+                  "CheckShape": "Box",
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "Target": "Self"
+        }
+      ]
+    },
+    "ATK5ComboModifier": {
+      "Duration": 1,
+      "IgnoreTimeScale": false,
+      "ModifierStacking": "Refresh",
+      "OnAdded": [
+        {
+          "$type": "SetAnimCtrlerParamAction",
+          "BoolVal": true,
+          "ParamName": "Trigger_PressAttackA",
+          "ParamType": 1,
+          "Target": "Self"
+        },
+        {
+          "$type": "RandomOperator",
+          "Odds": 0.4,
+          "OnFailure": [
+            {
+              "$type": "BranchOperator",
+              "Conditions": [
+                {
+                  "$type": "ByAngleRange",
+                  "AngleMax": 0,
+                  "AngleMin": -180
+                }
+              ],
+              "FailureActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 31,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ],
+              "SuccessActions": [
+                {
+                  "$type": "SetAnimCtrlerParamAction",
+                  "IntVal": 3,
+                  "ParamName": "Int_AttackIndex",
+                  "ParamType": 3,
+                  "Target": "Self"
+                }
+              ]
+            }
+          ],
+          "OnSuccess": [
+            {
+              "$type": "SetAnimCtrlerParamAction",
+              "IntVal": 4,
+              "ParamName": "Int_AttackIndex",
+              "ParamType": 3,
+              "Target": "Self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

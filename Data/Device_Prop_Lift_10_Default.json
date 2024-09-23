@@ -1,0 +1,119 @@
+{
+  "AbilityMixins": [
+    {
+      "$type": "AttachStateWithModifierMixin",
+      "ConfigList": [
+        {
+          "AnimatorStateName": "Open",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 3,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "LiftOpenModifier"
+          ]
+        },
+        {
+          "AnimatorStateName": "Close",
+          "FrameCountHigh": 0,
+          "FrameCountLow": 3,
+          "IsLoop": false,
+          "LayerIndex": 0,
+          "MaxFrameCountHigh": true,
+          "MaxFrameCountLow": false,
+          "ModifierNameList": [
+            "LiftCloseModifier"
+          ]
+        }
+      ]
+    }
+  ],
+  "AbilityName": "Device_Prop_Lift_10_Default",
+  "AbilityStacking": "Unique",
+  "Modifiers": {
+    "LiftCloseModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Root",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_LiftFence_10_Close_01_Smoke",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    },
+    "LiftOpenModifier": {
+      "Duration": -1,
+      "ModifierStacking": "Unique",
+      "OnAdded": [
+        {
+          "$type": "AttachEffect",
+          "AttachEffectPosRot": {
+            "CoordsOption": "ReferTarget",
+            "Offset": {
+              "AngleOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "IsUseRotationXZ": true,
+              "IsUseRotationY": true,
+              "PositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "TargetOption": {
+              "$type": "ConfigPosRotReferTarget",
+              "AttachPoint": "Root",
+              "IsUseAttachPointPos": true,
+              "IsUseAttachPointRotation": true,
+              "OffsetReferTarget": "Self"
+            }
+          },
+          "EffectPattern": "Eff_Device_Prop_LiftFence_10_Open_01_Smoke",
+          "EffectScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "EnableByDevicePerformance": true,
+          "Target": "Self"
+        }
+      ]
+    }
+  }
+}

@@ -56,7 +56,8 @@
           "ModifierName": "StunUp"
         }
       ],
-      "Predicates": [],
+      "Predicates": [
+      ],
       "StartActions": [
         {
           "$type": "ProcessScreenEffectAction",

@@ -5,7 +5,7 @@
       "Value": 0.05
     },
     "CriticalMultiple": {
-      "Value": 0.0
+      "Value": 0
     }
   },
   "AbilityStacking": "Unique",

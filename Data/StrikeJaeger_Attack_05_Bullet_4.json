@@ -5,14 +5,14 @@
       "AliveDuration": 2.45,
       "BulletColliderConfig": {
         "ColliderAngleOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "ColliderType": "Sphere",
         "SphereColliderRadius": 0.3
@@ -23,8 +23,8 @@
         "Offset": {
           "AngleOffset": {
             "x": 10,
-            "y": 340.0,
-            "z": 0.0
+            "y": 340,
+            "z": 0
           },
           "IsUseRotationXZ": true,
           "IsUseRotationY": true,
@@ -46,13 +46,13 @@
         "CapsuleColliderHeight": 6,
         "CapsuleColliderRadius": 0.3,
         "ColliderAngleOffset": {
-          "x": 90.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 90,
+          "y": 0,
+          "z": 0
         },
         "ColliderPosOffset": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 0,
+          "y": 0,
           "z": 3
         },
         "ColliderType": "Capsule"

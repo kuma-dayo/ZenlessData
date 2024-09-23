@@ -1,6 +1,7 @@
 {
   "AbilityName": "Card_Ether_2001905",
-  "AbilitySpecials": {},
+  "AbilitySpecials": {
+  },
   "AbilityStacking": "Unique",
   "DefaultModifier": {
     "ModifierStacking": "Unique",

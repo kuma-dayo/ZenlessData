@@ -1,844 +1,868 @@
 {
-  "KHHABHLHAFG": [
+  "JIJNDLLPCHO": [
     {
-      "EPDOIENHIAC": 10101,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_01"
+      "BBPKCHKIBBO": 10101,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_01"
     },
     {
-      "EPDOIENHIAC": 10102,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_02"
+      "BBPKCHKIBBO": 10102,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_02"
     },
     {
-      "EPDOIENHIAC": 10103,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_03"
+      "BBPKCHKIBBO": 10103,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_03"
     },
     {
-      "EPDOIENHIAC": 10104,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_04"
+      "BBPKCHKIBBO": 10104,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_04"
     },
     {
-      "EPDOIENHIAC": 10105,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_05"
+      "BBPKCHKIBBO": 10105,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_05"
     },
     {
-      "EPDOIENHIAC": 10106,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_06"
+      "BBPKCHKIBBO": 10106,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_06"
     },
     {
-      "EPDOIENHIAC": 10107,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_07"
+      "BBPKCHKIBBO": 10107,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_07"
     },
     {
-      "EPDOIENHIAC": 10108,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_08"
+      "BBPKCHKIBBO": 10108,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_08"
     },
     {
-      "EPDOIENHIAC": 10109,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_09"
+      "BBPKCHKIBBO": 10109,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_09"
     },
     {
-      "EPDOIENHIAC": 10110,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_10"
+      "BBPKCHKIBBO": 10110,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_10"
     },
     {
-      "EPDOIENHIAC": 10111,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_11"
+      "BBPKCHKIBBO": 10111,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_11"
     },
     {
-      "EPDOIENHIAC": 10112,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_12"
+      "BBPKCHKIBBO": 10112,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_12"
     },
     {
-      "EPDOIENHIAC": 10113,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Greet_Morning_1"
+      "BBPKCHKIBBO": 10113,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10114,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Greet_Noon_1"
+      "BBPKCHKIBBO": 10114,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10115,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Greet_Night_1"
+      "BBPKCHKIBBO": 10115,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10116,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Idle_1"
+      "BBPKCHKIBBO": 10116,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10117,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Idle_2"
+      "BBPKCHKIBBO": 10117,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10118,
-      "CGNODMDDAJJ": "NPC_Maincity_Susie_Idle_3"
+      "BBPKCHKIBBO": 10118,
+      "PGLGHCKBNGJ": "NPC_Maincity_Susie_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10201,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_01"
+      "BBPKCHKIBBO": 10201,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_01"
     },
     {
-      "EPDOIENHIAC": 10202,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_02"
+      "BBPKCHKIBBO": 10202,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_02"
     },
     {
-      "EPDOIENHIAC": 10203,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_03"
+      "BBPKCHKIBBO": 10203,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_03"
     },
     {
-      "EPDOIENHIAC": 10204,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_04"
+      "BBPKCHKIBBO": 10204,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_04"
     },
     {
-      "EPDOIENHIAC": 10205,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_05"
+      "BBPKCHKIBBO": 10205,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_05"
     },
     {
-      "EPDOIENHIAC": 10206,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_06"
+      "BBPKCHKIBBO": 10206,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_06"
     },
     {
-      "EPDOIENHIAC": 10207,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_07"
+      "BBPKCHKIBBO": 10207,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_07"
     },
     {
-      "EPDOIENHIAC": 10208,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_08"
+      "BBPKCHKIBBO": 10208,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_08"
     },
     {
-      "EPDOIENHIAC": 10209,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_09"
+      "BBPKCHKIBBO": 10209,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_09"
     },
     {
-      "EPDOIENHIAC": 10210,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_10"
+      "BBPKCHKIBBO": 10210,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_10"
     },
     {
-      "EPDOIENHIAC": 10211,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_11"
+      "BBPKCHKIBBO": 10211,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_11"
     },
     {
-      "EPDOIENHIAC": 10212,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_12"
+      "BBPKCHKIBBO": 10212,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_12"
     },
     {
-      "EPDOIENHIAC": 10213,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Greet_Morning_1"
+      "BBPKCHKIBBO": 10213,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10214,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Greet_Noon_1"
+      "BBPKCHKIBBO": 10214,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10215,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Greet_Night_1"
+      "BBPKCHKIBBO": 10215,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10216,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Idle_1"
+      "BBPKCHKIBBO": 10216,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10217,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Idle_2"
+      "BBPKCHKIBBO": 10217,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10218,
-      "CGNODMDDAJJ": "NPC_Maincity_Enzo_Idle_3"
+      "BBPKCHKIBBO": 10218,
+      "PGLGHCKBNGJ": "NPC_Maincity_Enzo_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10301,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_01"
+      "BBPKCHKIBBO": 10301,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_01"
     },
     {
-      "EPDOIENHIAC": 10302,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_02"
+      "BBPKCHKIBBO": 10302,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_02"
     },
     {
-      "EPDOIENHIAC": 10303,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_03"
+      "BBPKCHKIBBO": 10303,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_03"
     },
     {
-      "EPDOIENHIAC": 10304,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_04"
+      "BBPKCHKIBBO": 10304,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_04"
     },
     {
-      "EPDOIENHIAC": 10305,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_05"
+      "BBPKCHKIBBO": 10305,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_05"
     },
     {
-      "EPDOIENHIAC": 10306,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_06"
+      "BBPKCHKIBBO": 10306,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_06"
     },
     {
-      "EPDOIENHIAC": 10307,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_07"
+      "BBPKCHKIBBO": 10307,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_07"
     },
     {
-      "EPDOIENHIAC": 10308,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_08"
+      "BBPKCHKIBBO": 10308,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_08"
     },
     {
-      "EPDOIENHIAC": 10309,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_09"
+      "BBPKCHKIBBO": 10309,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_09"
     },
     {
-      "EPDOIENHIAC": 10310,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Greet_Morning_1"
+      "BBPKCHKIBBO": 10310,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10311,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Greet_Noon_1"
+      "BBPKCHKIBBO": 10311,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10312,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Greet_Night_1"
+      "BBPKCHKIBBO": 10312,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10313,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Idle_1"
+      "BBPKCHKIBBO": 10313,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10314,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Idle_2"
+      "BBPKCHKIBBO": 10314,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10315,
-      "CGNODMDDAJJ": "NPC_Maincity_Asha_Idle_3"
+      "BBPKCHKIBBO": 10315,
+      "PGLGHCKBNGJ": "NPC_Maincity_Asha_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10401,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_01"
+      "BBPKCHKIBBO": 10401,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_01"
     },
     {
-      "EPDOIENHIAC": 10402,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_02"
+      "BBPKCHKIBBO": 10402,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_02"
     },
     {
-      "EPDOIENHIAC": 10403,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_03"
+      "BBPKCHKIBBO": 10403,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_03"
     },
     {
-      "EPDOIENHIAC": 10404,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_04"
+      "BBPKCHKIBBO": 10404,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_04"
     },
     {
-      "EPDOIENHIAC": 10405,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_05"
+      "BBPKCHKIBBO": 10405,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_05"
     },
     {
-      "EPDOIENHIAC": 10406,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_06"
+      "BBPKCHKIBBO": 10406,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_06"
     },
     {
-      "EPDOIENHIAC": 10407,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_07"
+      "BBPKCHKIBBO": 10407,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_07"
     },
     {
-      "EPDOIENHIAC": 10408,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_08"
+      "BBPKCHKIBBO": 10408,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_08"
     },
     {
-      "EPDOIENHIAC": 10409,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_09"
+      "BBPKCHKIBBO": 10409,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_09"
     },
     {
-      "EPDOIENHIAC": 10410,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_10"
+      "BBPKCHKIBBO": 10410,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_10"
     },
     {
-      "EPDOIENHIAC": 10411,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Greet_Morning_1"
+      "BBPKCHKIBBO": 10411,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10412,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Greet_Noon_1"
+      "BBPKCHKIBBO": 10412,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10413,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Greet_Night_1"
+      "BBPKCHKIBBO": 10413,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10414,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Idle_1"
+      "BBPKCHKIBBO": 10414,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10415,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Idle_2"
+      "BBPKCHKIBBO": 10415,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10416,
-      "CGNODMDDAJJ": "NPC_Maincity_TinMaster_Idle_3"
+      "BBPKCHKIBBO": 10416,
+      "PGLGHCKBNGJ": "NPC_Maincity_TinMaster_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10501,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_01"
+      "BBPKCHKIBBO": 10501,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_01"
     },
     {
-      "EPDOIENHIAC": 10502,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_02"
+      "BBPKCHKIBBO": 10502,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_02"
     },
     {
-      "EPDOIENHIAC": 10503,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_03"
+      "BBPKCHKIBBO": 10503,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_03"
     },
     {
-      "EPDOIENHIAC": 10504,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_04"
+      "BBPKCHKIBBO": 10504,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_04"
     },
     {
-      "EPDOIENHIAC": 10505,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_05"
+      "BBPKCHKIBBO": 10505,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_05"
     },
     {
-      "EPDOIENHIAC": 10506,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_06"
+      "BBPKCHKIBBO": 10506,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_06"
     },
     {
-      "EPDOIENHIAC": 10507,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_06_01"
+      "BBPKCHKIBBO": 10507,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_06_01"
     },
     {
-      "EPDOIENHIAC": 10508,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_07"
+      "BBPKCHKIBBO": 10508,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_07"
     },
     {
-      "EPDOIENHIAC": 10509,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_07_01"
+      "BBPKCHKIBBO": 10509,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_07_01"
     },
     {
-      "EPDOIENHIAC": 10510,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_08"
+      "BBPKCHKIBBO": 10510,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_08"
     },
     {
-      "EPDOIENHIAC": 10511,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_09"
+      "BBPKCHKIBBO": 10511,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_09"
     },
     {
-      "EPDOIENHIAC": 10512,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_10"
+      "BBPKCHKIBBO": 10512,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_10"
     },
     {
-      "EPDOIENHIAC": 10513,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_11"
+      "BBPKCHKIBBO": 10513,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_11"
     },
     {
-      "EPDOIENHIAC": 10514,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_12"
+      "BBPKCHKIBBO": 10514,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_12"
     },
     {
-      "EPDOIENHIAC": 10515,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_13"
+      "BBPKCHKIBBO": 10515,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_13"
     },
     {
-      "EPDOIENHIAC": 10516,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_14"
+      "BBPKCHKIBBO": 10516,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_14"
     },
     {
-      "EPDOIENHIAC": 10517,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_15"
+      "BBPKCHKIBBO": 10517,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_15"
     },
     {
-      "EPDOIENHIAC": 10518,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_16"
+      "BBPKCHKIBBO": 10518,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_16"
     },
     {
-      "EPDOIENHIAC": 10519,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_17"
+      "BBPKCHKIBBO": 10519,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_17"
     },
     {
-      "EPDOIENHIAC": 10520,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Greet_Morning_1"
+      "BBPKCHKIBBO": 10520,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10521,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Greet_Noon_1"
+      "BBPKCHKIBBO": 10521,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10522,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Greet_Night_1"
+      "BBPKCHKIBBO": 10522,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10523,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Idle_1"
+      "BBPKCHKIBBO": 10523,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10524,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Idle_2"
+      "BBPKCHKIBBO": 10524,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10525,
-      "CGNODMDDAJJ": "NPC_Maincity_SirChop_Idle_3"
+      "BBPKCHKIBBO": 10525,
+      "PGLGHCKBNGJ": "NPC_Maincity_SirChop_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10601,
-      "CGNODMDDAJJ": "NPC_Maincity_Hello_01"
+      "BBPKCHKIBBO": 10601,
+      "PGLGHCKBNGJ": "NPC_Maincity_Hello_01"
     },
     {
-      "EPDOIENHIAC": 10602,
-      "CGNODMDDAJJ": "NPC_Maincity_Hello_02"
+      "BBPKCHKIBBO": 10602,
+      "PGLGHCKBNGJ": "NPC_Maincity_Hello_02"
     },
     {
-      "EPDOIENHIAC": 10603,
-      "CGNODMDDAJJ": "NPC_Maincity_Hello_03"
+      "BBPKCHKIBBO": 10603,
+      "PGLGHCKBNGJ": "NPC_Maincity_Hello_03"
     },
     {
-      "EPDOIENHIAC": 10604,
-      "CGNODMDDAJJ": "NPC_Maincity_Hello_04"
+      "BBPKCHKIBBO": 10604,
+      "PGLGHCKBNGJ": "NPC_Maincity_Hello_04"
     },
     {
-      "EPDOIENHIAC": 10605,
-      "CGNODMDDAJJ": "NPC_Maincity_Hello_05"
+      "BBPKCHKIBBO": 10605,
+      "PGLGHCKBNGJ": "NPC_Maincity_Hello_05"
     },
     {
-      "EPDOIENHIAC": 10701,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_01"
+      "BBPKCHKIBBO": 10701,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_01"
     },
     {
-      "EPDOIENHIAC": 10702,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_02"
+      "BBPKCHKIBBO": 10702,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_02"
     },
     {
-      "EPDOIENHIAC": 10703,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_03"
+      "BBPKCHKIBBO": 10703,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_03"
     },
     {
-      "EPDOIENHIAC": 10704,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_04"
+      "BBPKCHKIBBO": 10704,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_04"
     },
     {
-      "EPDOIENHIAC": 10705,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_05"
+      "BBPKCHKIBBO": 10705,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_05"
     },
     {
-      "EPDOIENHIAC": 10706,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_06"
+      "BBPKCHKIBBO": 10706,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_06"
     },
     {
-      "EPDOIENHIAC": 10707,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_07"
+      "BBPKCHKIBBO": 10707,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_07"
     },
     {
-      "EPDOIENHIAC": 10708,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_08"
+      "BBPKCHKIBBO": 10708,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_08"
     },
     {
-      "EPDOIENHIAC": 10709,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Greet_Morning_1"
+      "BBPKCHKIBBO": 10709,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 10710,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Greet_Noon_1"
+      "BBPKCHKIBBO": 10710,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 10711,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Greet_Night_1"
+      "BBPKCHKIBBO": 10711,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 10712,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Idle_1"
+      "BBPKCHKIBBO": 10712,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Idle_1"
     },
     {
-      "EPDOIENHIAC": 10713,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Idle_2"
+      "BBPKCHKIBBO": 10713,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Idle_2"
     },
     {
-      "EPDOIENHIAC": 10714,
-      "CGNODMDDAJJ": "NPC_Maincity_Elfy_Idle_3"
+      "BBPKCHKIBBO": 10714,
+      "PGLGHCKBNGJ": "NPC_Maincity_Elfy_Idle_3"
     },
     {
-      "EPDOIENHIAC": 10801,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_01"
+      "BBPKCHKIBBO": 10801,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_01"
     },
     {
-      "EPDOIENHIAC": 10802,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_02"
+      "BBPKCHKIBBO": 10802,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_02"
     },
     {
-      "EPDOIENHIAC": 10803,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_03"
+      "BBPKCHKIBBO": 10803,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_03"
     },
     {
-      "EPDOIENHIAC": 10804,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_04"
+      "BBPKCHKIBBO": 10804,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_04"
     },
     {
-      "EPDOIENHIAC": 10805,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_05"
+      "BBPKCHKIBBO": 10805,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_05"
     },
     {
-      "EPDOIENHIAC": 10806,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_06"
+      "BBPKCHKIBBO": 10806,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_06"
     },
     {
-      "EPDOIENHIAC": 10807,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_07"
+      "BBPKCHKIBBO": 10807,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_07"
     },
     {
-      "EPDOIENHIAC": 10808,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_08"
+      "BBPKCHKIBBO": 10808,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_08"
     },
     {
-      "EPDOIENHIAC": 10809,
-      "CGNODMDDAJJ": "NPC_Maincity_Grocerystore_Bomb_09"
+      "BBPKCHKIBBO": 10809,
+      "PGLGHCKBNGJ": "NPC_Maincity_Grocerystore_Bomb_09"
     },
     {
-      "EPDOIENHIAC": 10901,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_01"
+      "BBPKCHKIBBO": 10901,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_01"
     },
     {
-      "EPDOIENHIAC": 10902,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_02"
+      "BBPKCHKIBBO": 10902,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_02"
     },
     {
-      "EPDOIENHIAC": 10903,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_03"
+      "BBPKCHKIBBO": 10903,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_03"
     },
     {
-      "EPDOIENHIAC": 10904,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_04"
+      "BBPKCHKIBBO": 10904,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_04"
     },
     {
-      "EPDOIENHIAC": 10905,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_05"
+      "BBPKCHKIBBO": 10905,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_05"
     },
     {
-      "EPDOIENHIAC": 10906,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_06"
+      "BBPKCHKIBBO": 10906,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_06"
     },
     {
-      "EPDOIENHIAC": 10907,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_07"
+      "BBPKCHKIBBO": 10907,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_07"
     },
     {
-      "EPDOIENHIAC": 10908,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_08"
+      "BBPKCHKIBBO": 10908,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_08"
     },
     {
-      "EPDOIENHIAC": 10909,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_09"
+      "BBPKCHKIBBO": 10909,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_09"
     },
     {
-      "EPDOIENHIAC": 10910,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_10"
+      "BBPKCHKIBBO": 10910,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_10"
     },
     {
-      "EPDOIENHIAC": 10911,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_11"
+      "BBPKCHKIBBO": 10911,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_11"
     },
     {
-      "EPDOIENHIAC": 10912,
-      "CGNODMDDAJJ": "NPC_Maincity_Videostore_Bomb_12"
+      "BBPKCHKIBBO": 10912,
+      "PGLGHCKBNGJ": "NPC_Maincity_Videostore_Bomb_12"
     },
     {
-      "EPDOIENHIAC": 11001,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_01"
+      "BBPKCHKIBBO": 11001,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_01"
     },
     {
-      "EPDOIENHIAC": 11002,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_02"
+      "BBPKCHKIBBO": 11002,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_02"
     },
     {
-      "EPDOIENHIAC": 11003,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_03"
+      "BBPKCHKIBBO": 11003,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_03"
     },
     {
-      "EPDOIENHIAC": 11004,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_04"
+      "BBPKCHKIBBO": 11004,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_04"
     },
     {
-      "EPDOIENHIAC": 11005,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_05"
+      "BBPKCHKIBBO": 11005,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_05"
     },
     {
-      "EPDOIENHIAC": 11006,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_06"
+      "BBPKCHKIBBO": 11006,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_06"
     },
     {
-      "EPDOIENHIAC": 11007,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_07"
+      "BBPKCHKIBBO": 11007,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_07"
     },
     {
-      "EPDOIENHIAC": 11008,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_08"
+      "BBPKCHKIBBO": 11008,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_08"
     },
     {
-      "EPDOIENHIAC": 11009,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_09"
+      "BBPKCHKIBBO": 11009,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_09"
     },
     {
-      "EPDOIENHIAC": 11010,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Morning_1"
+      "BBPKCHKIBBO": 11010,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 11011,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Noon_1"
+      "BBPKCHKIBBO": 11011,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 11012,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Night_1"
+      "BBPKCHKIBBO": 11012,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 11013,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Idle_1"
+      "BBPKCHKIBBO": 11013,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Idle_1"
     },
     {
-      "EPDOIENHIAC": 11014,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Idle_2"
+      "BBPKCHKIBBO": 11014,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Idle_2"
     },
     {
-      "EPDOIENHIAC": 11015,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_OfficerMeowji_Idle_3"
+      "BBPKCHKIBBO": 11015,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_OfficerMeowji_Idle_3"
     },
     {
-      "EPDOIENHIAC": 11101,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_01"
+      "BBPKCHKIBBO": 11101,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_01"
     },
     {
-      "EPDOIENHIAC": 11102,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_02"
+      "BBPKCHKIBBO": 11102,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_02"
     },
     {
-      "EPDOIENHIAC": 11103,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_03"
+      "BBPKCHKIBBO": 11103,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_03"
     },
     {
-      "EPDOIENHIAC": 11104,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_04"
+      "BBPKCHKIBBO": 11104,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_04"
     },
     {
-      "EPDOIENHIAC": 11105,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_05"
+      "BBPKCHKIBBO": 11105,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_05"
     },
     {
-      "EPDOIENHIAC": 11106,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_06"
+      "BBPKCHKIBBO": 11106,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_06"
     },
     {
-      "EPDOIENHIAC": 11107,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_07"
+      "BBPKCHKIBBO": 11107,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_07"
     },
     {
-      "EPDOIENHIAC": 11108,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_08"
+      "BBPKCHKIBBO": 11108,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_08"
     },
     {
-      "EPDOIENHIAC": 11109,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_09"
+      "BBPKCHKIBBO": 11109,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_09"
     },
     {
-      "EPDOIENHIAC": 11110,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Greet_Morning_1"
+      "BBPKCHKIBBO": 11110,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 11111,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Greet_Noon_1"
+      "BBPKCHKIBBO": 11111,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 11112,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Greet_Night_1"
+      "BBPKCHKIBBO": 11112,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 11113,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Idle_1"
+      "BBPKCHKIBBO": 11113,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Idle_1"
     },
     {
-      "EPDOIENHIAC": 11114,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Idle_2"
+      "BBPKCHKIBBO": 11114,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Idle_2"
     },
     {
-      "EPDOIENHIAC": 11115,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_Eve_Idle_3"
+      "BBPKCHKIBBO": 11115,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_Eve_Idle_3"
     },
     {
-      "EPDOIENHIAC": 11201,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_01"
+      "BBPKCHKIBBO": 11201,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_01"
     },
     {
-      "EPDOIENHIAC": 11202,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_02"
+      "BBPKCHKIBBO": 11202,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_02"
     },
     {
-      "EPDOIENHIAC": 11203,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_03"
+      "BBPKCHKIBBO": 11203,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_03"
     },
     {
-      "EPDOIENHIAC": 11204,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_04"
+      "BBPKCHKIBBO": 11204,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_04"
     },
     {
-      "EPDOIENHIAC": 11205,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_05"
+      "BBPKCHKIBBO": 11205,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_05"
     },
     {
-      "EPDOIENHIAC": 11206,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_06"
+      "BBPKCHKIBBO": 11206,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_06"
     },
     {
-      "EPDOIENHIAC": 11207,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_07"
+      "BBPKCHKIBBO": 11207,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_07"
     },
     {
-      "EPDOIENHIAC": 11208,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_08"
+      "BBPKCHKIBBO": 11208,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_08"
     },
     {
-      "EPDOIENHIAC": 11209,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_09"
+      "BBPKCHKIBBO": 11209,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_09"
     },
     {
-      "EPDOIENHIAC": 11210,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_10"
+      "BBPKCHKIBBO": 11210,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_10"
     },
     {
-      "EPDOIENHIAC": 11211,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Greet_Morning_1"
+      "BBPKCHKIBBO": 11211,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 11212,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Greet_Noon_1"
+      "BBPKCHKIBBO": 11212,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 11213,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Greet_Night_1"
+      "BBPKCHKIBBO": 11213,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 11214,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Idle_1"
+      "BBPKCHKIBBO": 11214,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Idle_1"
     },
     {
-      "EPDOIENHIAC": 11215,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Idle_2"
+      "BBPKCHKIBBO": 11215,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Idle_2"
     },
     {
-      "EPDOIENHIAC": 11216,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_TinMaster_Idle_3"
+      "BBPKCHKIBBO": 11216,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_TinMaster_Idle_3"
     },
     {
-      "EPDOIENHIAC": 11301,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_01"
+      "BBPKCHKIBBO": 11301,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_01"
     },
     {
-      "EPDOIENHIAC": 11302,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_02"
+      "BBPKCHKIBBO": 11302,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_02"
     },
     {
-      "EPDOIENHIAC": 11303,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_03"
+      "BBPKCHKIBBO": 11303,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_03"
     },
     {
-      "EPDOIENHIAC": 11304,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_04"
+      "BBPKCHKIBBO": 11304,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_04"
     },
     {
-      "EPDOIENHIAC": 11305,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_05"
+      "BBPKCHKIBBO": 11305,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_05"
     },
     {
-      "EPDOIENHIAC": 11306,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_06"
+      "BBPKCHKIBBO": 11306,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_06"
     },
     {
-      "EPDOIENHIAC": 11307,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_07"
+      "BBPKCHKIBBO": 11307,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_07"
     },
     {
-      "EPDOIENHIAC": 11308,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_08"
+      "BBPKCHKIBBO": 11308,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_08"
     },
     {
-      "EPDOIENHIAC": 11309,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_09"
+      "BBPKCHKIBBO": 11309,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_09"
     },
     {
-      "EPDOIENHIAC": 11310,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_10"
+      "BBPKCHKIBBO": 11310,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_10"
     },
     {
-      "EPDOIENHIAC": 11311,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_11"
+      "BBPKCHKIBBO": 11311,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_11"
     },
     {
-      "EPDOIENHIAC": 11312,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_12"
+      "BBPKCHKIBBO": 11312,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_12"
     },
     {
-      "EPDOIENHIAC": 11313,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_13"
+      "BBPKCHKIBBO": 11313,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_13"
     },
     {
-      "EPDOIENHIAC": 11314,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_14"
+      "BBPKCHKIBBO": 11314,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_14"
     },
     {
-      "EPDOIENHIAC": 11315,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_15"
+      "BBPKCHKIBBO": 11315,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_15"
     },
     {
-      "EPDOIENHIAC": 11316,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_16"
+      "BBPKCHKIBBO": 11316,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_16"
     },
     {
-      "EPDOIENHIAC": 11317,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_17"
+      "BBPKCHKIBBO": 11317,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_17"
     },
     {
-      "EPDOIENHIAC": 11318,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_18"
+      "BBPKCHKIBBO": 11318,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_18"
     },
     {
-      "EPDOIENHIAC": 11319,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_19"
+      "BBPKCHKIBBO": 11319,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_19"
     },
     {
-      "EPDOIENHIAC": 11320,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Greet_Morning_1"
+      "BBPKCHKIBBO": 11320,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Greet_Morning_1"
     },
     {
-      "EPDOIENHIAC": 11321,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Greet_Noon_1"
+      "BBPKCHKIBBO": 11321,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Greet_Noon_1"
     },
     {
-      "EPDOIENHIAC": 11322,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Greet_Night_1"
+      "BBPKCHKIBBO": 11322,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Greet_Night_1"
     },
     {
-      "EPDOIENHIAC": 11323,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Idle_1"
+      "BBPKCHKIBBO": 11323,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Idle_1"
     },
     {
-      "EPDOIENHIAC": 11324,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Idle_2"
+      "BBPKCHKIBBO": 11324,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Idle_2"
     },
     {
-      "EPDOIENHIAC": 11325,
-      "CGNODMDDAJJ": "NPC_LuminaSquare_ChopJr_Idle_3"
+      "BBPKCHKIBBO": 11325,
+      "PGLGHCKBNGJ": "NPC_LuminaSquare_ChopJr_Idle_3"
     },
     {
-      "EPDOIENHIAC": 11401,
-      "CGNODMDDAJJ": "NPC_Maincity_Aowu_Enter"
+      "BBPKCHKIBBO": 11401,
+      "PGLGHCKBNGJ": "NPC_Maincity_Aowu_Enter"
     },
     {
-      "EPDOIENHIAC": 11402,
-      "CGNODMDDAJJ": "NPC_Maincity_Aowu_Leave"
+      "BBPKCHKIBBO": 11402,
+      "PGLGHCKBNGJ": "NPC_Maincity_Aowu_Leave"
     },
     {
-      "EPDOIENHIAC": 11501,
-      "CGNODMDDAJJ": "NPC_Maincity_Sjal_01"
+      "BBPKCHKIBBO": 11501,
+      "PGLGHCKBNGJ": "NPC_Maincity_Sjal_01"
     },
     {
-      "EPDOIENHIAC": 11601,
-      "CGNODMDDAJJ": "VerActivity_1_1_Conrad_01"
+      "BBPKCHKIBBO": 11601,
+      "PGLGHCKBNGJ": "VerActivity_1_1_Conrad_01"
     },
     {
-      "EPDOIENHIAC": 11602,
-      "CGNODMDDAJJ": "VerActivity_1_1_Qingyi_01"
+      "BBPKCHKIBBO": 11602,
+      "PGLGHCKBNGJ": "VerActivity_1_1_Qingyi_01"
     },
     {
-      "EPDOIENHIAC": 11603,
-      "CGNODMDDAJJ": "VerActivity_1_1_Seth_01"
+      "BBPKCHKIBBO": 11603,
+      "PGLGHCKBNGJ": "VerActivity_1_1_Seth_01"
     },
     {
-      "EPDOIENHIAC": 11604,
-      "CGNODMDDAJJ": "VerActivity_1_1_ZhuYuan_01"
+      "BBPKCHKIBBO": 11604,
+      "PGLGHCKBNGJ": "VerActivity_1_1_ZhuYuan_01"
+    },
+    {
+      "BBPKCHKIBBO": 11605,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_01"
+    },
+    {
+      "BBPKCHKIBBO": 11606,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_02"
+    },
+    {
+      "BBPKCHKIBBO": 11607,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_03"
+    },
+    {
+      "BBPKCHKIBBO": 11608,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_04"
+    },
+    {
+      "BBPKCHKIBBO": 11609,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_05"
+    },
+    {
+      "BBPKCHKIBBO": 11610,
+      "PGLGHCKBNGJ": "VerActivity_1_2_Kasa_06"
     }
   ]
 }

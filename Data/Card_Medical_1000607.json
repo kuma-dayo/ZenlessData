@@ -18,7 +18,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "property(CurHP)/property(MaxHP)",
+        "Expression": "property(CurHP)\/property(MaxHP)",
         "ParamName": "Self_CurHP",
         "Target": "Self",
         "ValueType": "Float"
@@ -26,7 +26,7 @@
       {
         "$type": "SetAbilitySpecialByExpression",
         "DoRefresh": true,
-        "Expression": "property(CurHP)/property(MaxHP)",
+        "Expression": "property(CurHP)\/property(MaxHP)",
         "ParamName": "Target_CurHP",
         "Target": "Target",
         "ValueType": "Float"

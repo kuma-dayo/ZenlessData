@@ -27,6 +27,22 @@
           "AbilityName": "LampasBlackVeil_LockLife",
           "CustomKey": "Monster_LampasBlackVeil_CoAttacker",
           "Target": "Custom"
+        },
+        {
+          "$type": "HandleAnimatorZoneTagsAction",
+          "AnimatorStateTags": [
+            "ExcludeFromLiveCount"
+          ],
+          "IsAdd": true,
+          "Target": "Self"
+        },
+        {
+          "$type": "ApplyGameplayTagAction",
+          "IsAdd": true,
+          "Tags": [
+            "NotCounting"
+          ],
+          "Target": "Self"
         }
       ],
       "PerformBeHitEffect": true,

@@ -1,0 +1,20 @@
+{
+  "AbilityName": "Level_RaceDropItem",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnKilledPre": [
+      {
+        "$type": "DropItemAction",
+        "DropStr": "1009:10000:1",
+        "Predicates": [
+          {
+            "$type": "ByCampType",
+            "Camp": "TeamGood",
+            "Target": "Other"
+          }
+        ],
+        "Target": "Self"
+      }
+    ]
+  }
+}

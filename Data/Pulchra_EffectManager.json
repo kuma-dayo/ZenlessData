@@ -1,0 +1,25 @@
+{
+  "AbilityName": "Pulchra_EffectManager",
+  "AbilityStacking": "Unique",
+  "DefaultModifier": {
+    "OnAdded": [
+      {
+        "$type": "ModifyMaterialPropertyAction",
+        "ApplyAllRenderers": false,
+        "RendererList": [
+          {
+            "ApplyAllMaterials": true,
+            "RenderPath": "Pulchra_Weapon_05"
+          },
+          {
+            "ApplyAllMaterials": true,
+            "RenderPath": "Pulchra_Weapon_06"
+          }
+        ],
+        "Tag": "Pulchra_Weapon",
+        "Target": "Self",
+        "key": "Monster_Pulchra_Common_01_MA"
+      }
+    ]
+  }
+}

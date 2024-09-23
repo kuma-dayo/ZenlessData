@@ -6,7 +6,7 @@
       {
         "$type": "TriggerAbilityAction",
         "AbilityName": "Lucy_Spawn",
-        "CustomKey": "Lucy_Self_AbilityTargetting_01",
+        "CustomKey": "SelfSummoner_AbilityTargetting_01",
         "Target": "Custom"
       },
       {
